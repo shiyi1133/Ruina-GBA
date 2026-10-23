@@ -31,10 +31,14 @@ static const u16*rgb_colors(const Image*im,const u8*tone){const u16*src=im->colo
         rgb_toned[i]=clamp((gray+(r-gray)*tone[3]/100)*tone[0]/100,0,31)|(clamp((gray+(g-gray)*tone[3]/100)*tone[1]/100,0,31)<<5)|(clamp((gray+(b-gray)*tone[3]/100)*tone[2]/100,0,31)<<10);
     }rgb_old_colors=src;for(i=0;i<4;i++)rgb_old_tone[i]=tone[i];balanced_rgb_metrics[3]++;return rgb_toned;
 }
-static u16 rgb_mix(u16 color,u16 old,unsigned alpha){unsigned inv=256-alpha;return(((color&31)*alpha+(old&31)*inv+128)>>8)|(((((color>>5)&31)*alpha+((old>>5)&31)*inv+128)>>8)<<5)|((((color>>10)*alpha+(old>>10)*inv+128)>>8)<<10);}
-static void rgb_picture(int id,int x,int y,int sx,int sy,int sw,int sh,int w,int h,int transparent,int opacity,const u8*tone){
-    const Image*im;const u16*colors;int left,right,top,bottom,xx,yy;unsigned alpha;
-    if(id<0||w<=0||h<=0||sw<=0||sh<=0||opacity>=100)return;im=images+id;
+static inline __attribute__((always_inline)) u16 rgb_mix(u16 color,u16 old,unsigned alpha){
+    unsigned inv=256-alpha,rb=(((color&31)|((color&0x7c00)<<6))*alpha+((old&31)|((old&0x7c00)<<6))*inv+0x00800080U);
+    unsigned g=((color&0x03e0)*alpha+(old&0x03e0)*inv+0x1000U)>>8;
+    return ((rb>>8)&31)|((rb>>14)&0x7c00)|(g&0x03e0);
+}
+static void rgb_image(const Image*im,int id,int x,int y,int sx,int sy,int sw,int sh,int w,int h,int transparent,int opacity,const u8*tone){
+    const u16*colors;int left,right,top,bottom,xx,yy;unsigned alpha;
+    if(!im||w<=0||h<=0||sw<=0||sh<=0||opacity>=100)return;
     if(transparent&&(im->transparent&128))return;
     left=clamp(x,clip_left,clip_right);right=clamp(x+w,clip_left,clip_right);top=clamp(y,clip_top,clip_bottom);bottom=clamp(y+h,clip_top,clip_bottom);if(left>=right||top>=bottom)return;
     rgb_damage(left,top,right-left,bottom-top);framebuffer_revision++;video_metrics[0]++;video_metrics[1]+=(right-left)*(bottom-top);
@@ -97,18 +101,53 @@ static void rgb_picture(int id,int x,int y,int sx,int sy,int sw,int sh,int w,int
     }
     }
 }
+static void rgb_picture(int id,int x,int y,int sx,int sy,int sw,int sh,int w,int h,int transparent,int opacity,const u8*tone){
+    if(id>=0)rgb_image(images+id,id,x,y,sx,sy,sw,sh,w,h,transparent,opacity,tone);
+}
+static void __attribute__((target("arm"),optimize("O3"),section(".iwram"),long_call,noinline)) animation_span(u16*dst,const u8*src,const u16*xs,const u16*colors,int n,unsigned alpha){
+    int i;if(alpha==256){for(i=0;i<n;i++){unsigned c=src[xs[i]];if(c)dst[i]=colors[c];}}
+    else for(i=0;i<n;i++){unsigned c=src[xs[i]];if(c)dst[i]=rgb_mix(colors[c],dst[i],alpha);}
+}
+/* Pixel-art effects use one original source sample per GBA pixel. Unlike
+ * illustrations they do not need four-sample filtering on every frame. */
+void balanced_animation_cell(const Image*im,int x,int y,int w,int h,int opacity,const u8*tone){
+    int left=clamp(x,clip_left,clip_right),right=clamp(x+w,clip_left,clip_right),top=clamp(y,clip_top,clip_bottom),bottom=clamp(y+h,clip_top,clip_bottom),xx,yy,first,last,old_y=-1;
+    const u16*colors;unsigned alpha;
+    if(!bitmap_direct||w<=0||h<=0||opacity>=100||left>=right||top>=bottom)return;
+    colors=rgb_colors(im,tone);alpha=(100-clamp(opacity,0,100))*256/100;
+    for(xx=left;xx<right;xx++)rgb_x0[xx-left]=(xx-x)*im->width/w;
+    first=rgb_x0[0];last=rgb_x0[right-left-1];for(xx=0;xx<right-left;xx++)rgb_x0[xx]-=first;rgb_damage(left,top,right-left,bottom-top);
+    for(yy=top;yy<bottom;yy++){int sy=(yy-y)*im->height/h;u16*dst=framebuffer+yy*240+left;audio_service();
+        if(sy!=old_y){if(!decode_image_storage_span(im,sy,first,last-first+1,image_line,sizeof(image_line)))return;old_y=sy;}
+        animation_span(dst,image_line,rgb_x0,colors,right-left,alpha);
+    }
+}
+void __attribute__((target("arm"),optimize("O3"))) balanced_animation_flash(int x,int y,int w,int h,int r,int g,int b,int power){
+    int yy,xx,left=clamp(x,0,240),right=clamp(x+w,0,240),top=clamp(y,0,160),bottom=clamp(y+h,0,160);
+    u16 color=clamp(r,0,31)|(clamp(g,0,31)<<5)|(clamp(b,0,31)<<10);unsigned alpha=clamp(power,0,31)*256/31;
+    if(!bitmap_direct||!alpha||left>=right||top>=bottom)return;rgb_damage(left,top,right-left,bottom-top);
+    for(yy=top;yy<bottom;yy++){u16*dst=framebuffer+yy*240+left;if(!(yy&3))audio_service();for(xx=left;xx<right;xx++,dst++)*dst=rgb_mix(color,*dst,alpha);}
+}
+void balanced_animation_target_flash(int id,int x,int y,int w,int h,int r,int g,int b,int power){
+    if(id<0){balanced_animation_flash(x,y,w,h,r,g,b,power);return;}
+    {Image im=images[id];unsigned i,alpha=clamp(power,0,31)*256/31;u16 color=clamp(r,0,31)|(clamp(g,0,31)<<5)|(clamp(b,0,31)<<10);
+     for(i=0;i<im.color_count;i++)rgb_toned[i]=rgb_mix(color,im.colors[i],alpha);
+     im.colors=rgb_toned;rgb_old_colors=0;rgb_image(&im,-1,x,y,0,0,im.width,im.height,w,h,1,0,0);rgb_old_colors=0;
+    }
+}
 static void rgb_portrait(int id,int x,int y){const u32*h=(const u32*)original_portraits_start;const PortraitRecord*r=(const PortraitRecord*)(original_portraits_start+h[2]);unsigned i,n=balanced_faces[0];int xx,yy;
-    if(h[0]!=0x43414652)return;for(i=0;i<h[1];i++)if(r[i].image==id){const u16*colors=(const u16*)(original_portraits_start+h[3])+r[i].sheet*256;const u8*data=original_portraits_start+h[4]+r[i].tiles;
+    if(h[0]!=0x43414652)return;for(i=0;i<h[1];i++)if(r[i].image==id){const u16*colors=(const u16*)(original_portraits_start+h[3])+r[i].sheet*256;const u8*data=image_portrait_pixels(original_portraits_start+h[4]+r[i].tiles);if(!data)return;
         if(n<4){balanced_faces[1+n*3]=id;balanced_faces[2+n*3]=x;balanced_faces[3+n*3]=y;balanced_faces[0]=n+1;}
         for(yy=0;yy<48;yy++){if(!(yy&3))audio_service();for(xx=0;xx<48;xx++){int tile=(yy/16*3+xx/16)*4+(yy%16/8)*2+xx%16/8,at=tile*64+yy%8*8+xx%8,c=data[at];if(c)rgb_pixel(x+xx,y+yy,colors[c]);}}balanced_rgb_metrics[7]++;return;
     }
 }
+#include "animation_background.inc"
 /* Mode 3 leaves 21 KiB beyond the displayed bitmap. A 144x72 RGB555
  * battle patch fits there without touching the cursor tile at 0x17f00.
  * Maps/portraits own this region again after leaving battle; the dialog
  * owner invalidates this cache whenever another scene is drawn. */
 int balanced_battle_cache_store(void){
-    int y;if(!bitmap_direct)return 0;
+    int y;animation_background_valid=0;if(!bitmap_direct)return 0;
     for(y=24;y<96;y++){if(!(y&3))audio_service();memcpy((void*)(0x06012c00+(y-24)*288),framebuffer+y*240+96,288);}
     cached_portrait_sheet=-1;for(y=0;y<7;y++)cached_portraits[y]=-1;
     return 1;

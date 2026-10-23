@@ -1,0 +1,7 @@
+{
+  "status": "pass",
+  "non_face_image_descriptors_unchanged": 8551,
+  "non_face_tile_references_compared_exact_encoded_bytes": 250891,
+  "legacy_36px_face_picture_API_preserved": "verified separately by RGB LCD comparison",
+  "native_48px_portraits": "verified separately directly against source XYZ"
+}

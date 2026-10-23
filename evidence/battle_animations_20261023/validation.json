@@ -1,0 +1,316 @@
+{
+  "status": "pass",
+  "version": "0.7.2",
+  "ROM_sha256": "fb8de2fe0d0ec6a938281460ffe984c1b2189b65f738fbb8b88eead59d3e086f",
+  "acceptance_ROM_sha256": "f6eec260793d0c373c57f4b082df067f1447208a441f0769f66a59e8f41ceb15",
+  "reports": [
+    "evidence/battle_animations_20261023/cab8660c5664/result.json",
+    "evidence/battle_animations_20261023/4226a95383a6/result.json",
+    "evidence/first_battle_origin_3/result.json",
+    "evidence/balanced_optimization_20261023/save_stack/fb8de2fe0d0e/result.json"
+  ],
+  "storage": {
+    "status": "pass",
+    "visible_cells": 600,
+    "original_cells_checked": 601,
+    "empty_cells": 1,
+    "all_original_RGB555_pixels_exact": true,
+    "all_transparency_masks_exact": true,
+    "losslessly_packed_portraits": 160,
+    "bank_sha256": "053dc5311367626964071cca0a29c29ae4c8e921e7b87cce6aa1ad2158e20715",
+    "method": "Independent decoder, directly compared to original archive XYZ palette indices, with transparent index distinguished even when RGB equals a visible color."
+  },
+  "non_face_storage": {
+    "status": "pass",
+    "non_face_image_descriptors_unchanged": 8551,
+    "non_face_tile_references_compared_exact_encoded_bytes": 250891,
+    "legacy_36px_face_picture_API_preserved": "verified separately by RGB LCD comparison",
+    "native_48px_portraits": "verified separately directly against source XYZ"
+  },
+  "acceptance_checks": [
+    {
+      "check": "fresh original origin reaches map with HP/MP and four bonuses 999, all 65 magic spells and the initial grant of 194 learnable abilities",
+      "origin": 1,
+      "level": 1,
+      "grant_trace": [
+        1,
+        19,
+        194,
+        999
+      ],
+      "original_conditional_auxiliary_skills": [
+        {
+          "actor": 1,
+          "original_event_managed_skills": [
+            40
+          ]
+        },
+        {
+          "actor": 5,
+          "original_event_managed_skills": [
+            399
+          ]
+        },
+        {
+          "actor": 6,
+          "original_event_managed_skills": [
+            11,
+            12
+          ]
+        },
+        {
+          "actor": 10,
+          "original_event_managed_skills": [
+            52
+          ]
+        }
+      ],
+      "pass": true
+    },
+    {
+      "check": "all 65 learned magic spells actually appear enabled, verified by real battle LCD text pixels; original equipment rules unchanged",
+      "spell_ids": [
+        27,
+        28,
+        30,
+        31,
+        33,
+        34,
+        35,
+        37,
+        38,
+        77,
+        78,
+        79,
+        80,
+        82,
+        83,
+        84,
+        85,
+        86,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        139,
+        140,
+        141,
+        142,
+        143,
+        144,
+        145,
+        169,
+        170,
+        171,
+        172,
+        173,
+        175,
+        201,
+        202,
+        203,
+        204,
+        212,
+        215,
+        216,
+        217,
+        219,
+        220,
+        221,
+        222,
+        224,
+        225,
+        226,
+        227,
+        228,
+        229,
+        230,
+        231,
+        276,
+        280,
+        289,
+        291,
+        292,
+        293,
+        301,
+        309
+      ],
+      "starting_magic_weapon": 453,
+      "pass": true
+    },
+    {
+      "check": "actual first battle imports all six stats 999; skill list wraps; arrow spell executes and wins; MP falls 999->997 and is not silently restored",
+      "skill_choices": 172,
+      "actual_battle_unit": [
+        1,
+        0,
+        999,
+        999,
+        999,
+        999,
+        999,
+        999,
+        999,
+        999
+      ],
+      "after": {
+        "HP": 999,
+        "MP": 997,
+        "XP": 1
+      },
+      "pass": true
+    },
+    {
+      "check": "original B help and actual menu save remain usable with unchanged 39704-byte v5 SRAM",
+      "pass": true
+    },
+    {
+      "check": "fresh original origin reaches map with HP/MP and four bonuses 999, all 65 magic spells and the initial grant of 194 learnable abilities",
+      "origin": 2,
+      "level": 1,
+      "grant_trace": [
+        1,
+        19,
+        194,
+        999
+      ],
+      "original_conditional_auxiliary_skills": [
+        {
+          "actor": 2,
+          "original_event_managed_skills": [
+            40
+          ]
+        },
+        {
+          "actor": 5,
+          "original_event_managed_skills": [
+            399
+          ]
+        },
+        {
+          "actor": 6,
+          "original_event_managed_skills": [
+            11,
+            12
+          ]
+        },
+        {
+          "actor": 10,
+          "original_event_managed_skills": [
+            52
+          ]
+        }
+      ],
+      "pass": true
+    },
+    {
+      "check": "fresh original origin reaches map with HP/MP and four bonuses 999, all 65 magic spells and the initial grant of 194 learnable abilities",
+      "origin": 3,
+      "level": 1,
+      "grant_trace": [
+        1,
+        19,
+        194,
+        999
+      ],
+      "original_conditional_auxiliary_skills": [
+        {
+          "actor": 3,
+          "original_event_managed_skills": [
+            40
+          ]
+        },
+        {
+          "actor": 5,
+          "original_event_managed_skills": [
+            399
+          ]
+        },
+        {
+          "actor": 6,
+          "original_event_managed_skills": [
+            11,
+            12
+          ]
+        },
+        {
+          "actor": 10,
+          "original_event_managed_skills": [
+            52
+          ]
+        }
+      ],
+      "pass": true
+    },
+    {
+      "check": "fresh original origin reaches map with HP/MP and four bonuses 999, all 65 magic spells and the initial grant of 194 learnable abilities",
+      "origin": 4,
+      "level": 1,
+      "grant_trace": [
+        1,
+        19,
+        194,
+        999
+      ],
+      "original_conditional_auxiliary_skills": [
+        {
+          "actor": 4,
+          "original_event_managed_skills": [
+            40
+          ]
+        },
+        {
+          "actor": 5,
+          "original_event_managed_skills": [
+            399
+          ]
+        },
+        {
+          "actor": 6,
+          "original_event_managed_skills": [
+            11,
+            12
+          ]
+        },
+        {
+          "actor": 10,
+          "original_event_managed_skills": [
+            52
+          ]
+        }
+      ],
+      "pass": true
+    },
+    {
+      "check": "fresh-process ordinary SAV retains enhanced stats, learned skills and spent MP; no repeated cheat grant after load",
+      "pass": true,
+      "load": {
+        "full_state_checksum_at_load_matches": true,
+        "state_bytes_at_load": 39704,
+        "player_progress_after_background_events_resume_matches": true,
+        "compared_after_resume": [
+          "map",
+          "gold",
+          "inventory",
+          "party and party actor records",
+          "origin, SP, story phase"
+        ],
+        "all_bytes_after_resuming_background_events": "not required: original parallel events legitimately update scratch state"
+      }
+    },
+    {
+      "check": "old ordinary save loads exactly without converting it into an enhanced save",
+      "pass": true
+    }
+  ],
+  "source_folder_rebuild_byte_identical": true,
+  "source_ZIP_rebuild": "pending",
+  "scope": "213 visual animation records sampled on actual LCD and restored cleanly; independent original XYZ verification of all 601 referenced cells (600 visible), 160 losslessly packed portraits; actual production skill targeting for healing, single enemy, three enemies and self; real new-game first victory; ordinary SRAM save/cold-load; four origins at high stats and 65 magic spells enabled in acceptance build. Earlier same-renderer RGB, portrait and battle-menu regression reports retained under their exact hashes.",
+  "limitations": [
+    "Complex effects can be substantially slower than PC; no PC-speed or 30-fps claim.",
+    "Map event animation and map shake retain existing reduced presentation."
+  ],
+  "physical_hardware": "not_run",
+  "full_campaign": "not_run"
+}

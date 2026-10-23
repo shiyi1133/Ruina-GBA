@@ -1,0 +1,297 @@
+{
+  "status": "pass",
+  "ROM_sha256": "701df0294c5e12d96f5258a966c421dea088d9e26053e84d2e34169ff161b6b7",
+  "baseline_ROM_sha256": "8cde26e3d70373ba7b3fc699ab942628c3e9dc9b43654e0cb461685ff4382e21",
+  "stats": {
+    "HP": 999,
+    "MP": 999,
+    "attack": 999,
+    "defense": 999,
+    "magic": 999,
+    "speed": 999
+  },
+  "initially_granted_skills": 194,
+  "fully_learned_magic_skills": 65,
+  "checks": [
+    {
+      "check": "fresh original origin reaches map with HP/MP and four bonuses 999, all 65 magic spells and the initial grant of 194 learnable abilities",
+      "origin": 1,
+      "level": 1,
+      "grant_trace": [
+        1,
+        19,
+        194,
+        999
+      ],
+      "original_conditional_auxiliary_skills": [
+        {
+          "actor": 1,
+          "original_event_managed_skills": [
+            40
+          ]
+        },
+        {
+          "actor": 5,
+          "original_event_managed_skills": [
+            399
+          ]
+        },
+        {
+          "actor": 6,
+          "original_event_managed_skills": [
+            11,
+            12
+          ]
+        },
+        {
+          "actor": 10,
+          "original_event_managed_skills": [
+            52
+          ]
+        }
+      ],
+      "pass": true
+    },
+    {
+      "check": "all 65 learned magic spells actually appear enabled, verified by real battle LCD text pixels; original equipment rules unchanged",
+      "spell_ids": [
+        27,
+        28,
+        30,
+        31,
+        33,
+        34,
+        35,
+        37,
+        38,
+        77,
+        78,
+        79,
+        80,
+        82,
+        83,
+        84,
+        85,
+        86,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        139,
+        140,
+        141,
+        142,
+        143,
+        144,
+        145,
+        169,
+        170,
+        171,
+        172,
+        173,
+        175,
+        201,
+        202,
+        203,
+        204,
+        212,
+        215,
+        216,
+        217,
+        219,
+        220,
+        221,
+        222,
+        224,
+        225,
+        226,
+        227,
+        228,
+        229,
+        230,
+        231,
+        276,
+        280,
+        289,
+        291,
+        292,
+        293,
+        301,
+        309
+      ],
+      "starting_magic_weapon": 453,
+      "pass": true
+    },
+    {
+      "check": "actual first battle imports all six stats 999; skill list wraps; arrow spell executes and wins; MP falls 999->997 and is not silently restored",
+      "skill_choices": 172,
+      "actual_battle_unit": [
+        1,
+        0,
+        999,
+        999,
+        999,
+        999,
+        999,
+        999,
+        999,
+        999
+      ],
+      "after": {
+        "HP": 999,
+        "MP": 997,
+        "XP": 1
+      },
+      "pass": true
+    },
+    {
+      "check": "original B help and actual menu save remain usable with unchanged 39704-byte v5 SRAM",
+      "pass": true
+    },
+    {
+      "check": "fresh original origin reaches map with HP/MP and four bonuses 999, all 65 magic spells and the initial grant of 194 learnable abilities",
+      "origin": 2,
+      "level": 1,
+      "grant_trace": [
+        1,
+        19,
+        194,
+        999
+      ],
+      "original_conditional_auxiliary_skills": [
+        {
+          "actor": 2,
+          "original_event_managed_skills": [
+            40
+          ]
+        },
+        {
+          "actor": 5,
+          "original_event_managed_skills": [
+            399
+          ]
+        },
+        {
+          "actor": 6,
+          "original_event_managed_skills": [
+            11,
+            12
+          ]
+        },
+        {
+          "actor": 10,
+          "original_event_managed_skills": [
+            52
+          ]
+        }
+      ],
+      "pass": true
+    },
+    {
+      "check": "fresh original origin reaches map with HP/MP and four bonuses 999, all 65 magic spells and the initial grant of 194 learnable abilities",
+      "origin": 3,
+      "level": 1,
+      "grant_trace": [
+        1,
+        19,
+        194,
+        999
+      ],
+      "original_conditional_auxiliary_skills": [
+        {
+          "actor": 3,
+          "original_event_managed_skills": [
+            40
+          ]
+        },
+        {
+          "actor": 5,
+          "original_event_managed_skills": [
+            399
+          ]
+        },
+        {
+          "actor": 6,
+          "original_event_managed_skills": [
+            11,
+            12
+          ]
+        },
+        {
+          "actor": 10,
+          "original_event_managed_skills": [
+            52
+          ]
+        }
+      ],
+      "pass": true
+    },
+    {
+      "check": "fresh original origin reaches map with HP/MP and four bonuses 999, all 65 magic spells and the initial grant of 194 learnable abilities",
+      "origin": 4,
+      "level": 1,
+      "grant_trace": [
+        1,
+        19,
+        194,
+        999
+      ],
+      "original_conditional_auxiliary_skills": [
+        {
+          "actor": 4,
+          "original_event_managed_skills": [
+            40
+          ]
+        },
+        {
+          "actor": 5,
+          "original_event_managed_skills": [
+            399
+          ]
+        },
+        {
+          "actor": 6,
+          "original_event_managed_skills": [
+            11,
+            12
+          ]
+        },
+        {
+          "actor": 10,
+          "original_event_managed_skills": [
+            52
+          ]
+        }
+      ],
+      "pass": true
+    },
+    {
+      "check": "fresh-process ordinary SAV retains enhanced stats, learned skills and spent MP; no repeated cheat grant after load",
+      "pass": true,
+      "load": {
+        "full_state_checksum_at_load_matches": true,
+        "state_bytes_at_load": 39704,
+        "player_progress_after_background_events_resume_matches": true,
+        "compared_after_resume": [
+          "map",
+          "gold",
+          "inventory",
+          "party and party actor records",
+          "origin, SP, story phase"
+        ],
+        "all_bytes_after_resuming_background_events": "not required: original parallel events legitimately update scratch state"
+      }
+    },
+    {
+      "check": "old ordinary save loads exactly without converting it into an enhanced save",
+      "pass": true
+    }
+  ],
+  "memory": "read only, real emulator buttons only",
+  "instant_states": false,
+  "formal_ROM_and_saves": "unchanged",
+  "physical_hardware": "not_run",
+  "full_campaign": "not_run"
+}

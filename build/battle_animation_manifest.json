@@ -1,0 +1,343 @@
+{
+  "animations": 230,
+  "frames": 4501,
+  "sheets": 54,
+  "visible_cells": 600,
+  "bank_bytes": 416664,
+  "lossless_storage_bytes_recovered": 201969,
+  "additional_color_quantization": false,
+  "additional_spatial_reduction": false,
+  "sources": [
+    {
+      "path": "Ruina121/game/Battle/anime_magic_aqua02.xyz",
+      "sha256": "33dba7790570d2fa8f9375e5f61d67f0468586b7eda33beca8dc9c2607f40be1",
+      "cells": 6,
+      "RGB555_and_alpha_exact": true
+    },
+    {
+      "path": "Ruina121/game/Battle/anime_magic_holy03.xyz",
+      "sha256": "752c577d037433a632ab83bffdb9875047cac866ee37f1fe280401bf8860a89e",
+      "cells": 24,
+      "RGB555_and_alpha_exact": true
+    },
+    {
+      "path": "Ruina121/game/Battle/anime_magic_ray01.xyz",
+      "sha256": "effab5fb8b6c2cb10b9401e093f242a7c759d9a8432af531e8210eb4f0eaeee8",
+      "cells": 7,
+      "RGB555_and_alpha_exact": true
+    },
+    {
+      "path": "Ruina121/game/Battle/anime_weapon_lance01.xyz",
+      "sha256": "6f611b7d7fdb931236b726855447c9ba85f718c4800b1916bae755aac7044af2",
+      "cells": 15,
+      "RGB555_and_alpha_exact": true
+    },
+    {
+      "path": "Ruina121/game/Battle/anime_weapon_other_03.xyz",
+      "sha256": "373cedca209c4fdf88dd536f9461be83cf6430333609b535e5f0ead7e8526937",
+      "cells": 9,
+      "RGB555_and_alpha_exact": true
+    },
+    {
+      "path": "Ruina121/game/Battle/anime_weapon_sword04.xyz",
+      "sha256": "697f8a41a9807189ee639f4f68a83929eee185a301f76e92cc9ef602f1137fb9",
+      "cells": 10,
+      "RGB555_and_alpha_exact": true
+    },
+    {
+      "path": "Ruina121/game/Battle/anime_weapon_sword05.xyz",
+      "sha256": "232827472e991a42d53d9d861a876cff7694c814a901198b6ee4b2c28a87ec05",
+      "cells": 22,
+      "RGB555_and_alpha_exact": true
+    },
+    {
+      "path": "Ruina121/game/Battle/かえる.xyz",
+      "sha256": "de0aa134ae4211d92c1cdbb1e1b9925f49b00b5b906425e62bbb8f7a6175c532",
+      "cells": 4,
+      "RGB555_and_alpha_exact": true
+    },
+    {
+      "path": "Ruina121/game/Battle/その他.xyz",
+      "sha256": "b6bcfce136a38cef4afa8711b6d0c73e77fe11a098ca079b7207b1dd30d48cb6",
+      "cells": 23,
+      "RGB555_and_alpha_exact": true
+    },
+    {
+      "path": "Ruina121/game/Battle/バリア.xyz",
+      "sha256": "65ea80291ea3316b9d3ebf5aa6e9cabc13b1e8dd9cafd1a6659ce1d0f9dbff81",
+      "cells": 8,
+      "RGB555_and_alpha_exact": true
+    },
+    {
+      "path": "Ruina121/game/Battle/ブレス.xyz",
+      "sha256": "f23689f011bfc0b54390ccde4315286295a220e524a60c9d8d4bc2e9c53076c7",
+      "cells": 10,
+      "RGB555_and_alpha_exact": true
+    },
+    {
+      "path": "Ruina121/game/Battle/上昇.xyz",
+      "sha256": "c6856a13fdba8d360312d07c20c9babde439c321228b5a4d6f17372635a836e2",
+      "cells": 8,
+      "RGB555_and_alpha_exact": true
+    },
+    {
+      "path": "Ruina121/game/Battle/下降.xyz",
+      "sha256": "d367a200fe31adcad4608e2c2e9ce888d6b8d523d3c318431653a5176ad19ee6",
+      "cells": 8,
+      "RGB555_and_alpha_exact": true
+    },
+    {
+      "path": "Ruina121/game/Battle/冷気.xyz",
+      "sha256": "ebb7719c9dd44cad19b3e80c3e73a476f438bd76a0990a19eff55a8cf905fa1e",
+      "cells": 16,
+      "RGB555_and_alpha_exact": true
+    },
+    {
+      "path": "Ruina121/game/Battle/剣1.xyz",
+      "sha256": "5ef9edc762c264b3fbc7e78bd2582bd40f20371fc7b8964d006bd9c3e4d38cb7",
+      "cells": 9,
+      "RGB555_and_alpha_exact": true
+    },
+    {
+      "path": "Ruina121/game/Battle/剣2.xyz",
+      "sha256": "34aeab7f2f02fe92ceaa505278e384d1f8d725644de510118e586c6a955de97e",
+      "cells": 3,
+      "RGB555_and_alpha_exact": true
+    },
+    {
+      "path": "Ruina121/game/Battle/剣技1.xyz",
+      "sha256": "46f7de5e662c8da272bda68d104a54cdbf99e0291023907609de019bbc4bb305",
+      "cells": 9,
+      "RGB555_and_alpha_exact": true
+    },
+    {
+      "path": "Ruina121/game/Battle/剣技2.xyz",
+      "sha256": "ab89f3228c37a316abd60c1ce5e05fc0b831164cf09fa5d1f3ae1563f41c6582",
+      "cells": 17,
+      "RGB555_and_alpha_exact": true
+    },
+    {
+      "path": "Ruina121/game/Battle/剣技3.xyz",
+      "sha256": "02a2a1b126107a34005c873eac050c4b7112eb41c01229ac1e5aa62945221428",
+      "cells": 8,
+      "RGB555_and_alpha_exact": true
+    },
+    {
+      "path": "Ruina121/game/Battle/劫火.xyz",
+      "sha256": "1ae20d5be96c96edf212deeb29b7f35f98f694763b52b721b3aff2f0d8ee41e7",
+      "cells": 12,
+      "RGB555_and_alpha_exact": true
+    },
+    {
+      "path": "Ruina121/game/Battle/十二方位.xyz",
+      "sha256": "d72901b7bd1fdfb9698dab759e3439337b4766120246dd80b4e31b96794ea070",
+      "cells": 10,
+      "RGB555_and_alpha_exact": true
+    },
+    {
+      "path": "Ruina121/game/Battle/吸収.xyz",
+      "sha256": "6c35ef1d731f163606ffde9aa67ed7f148b9073b4556941fbb6ee4c2b105f511",
+      "cells": 8,
+      "RGB555_and_alpha_exact": true
+    },
+    {
+      "path": "Ruina121/game/Battle/回復.xyz",
+      "sha256": "d1e3f0dbec4ccc6908459a67aa7b14f0be7e82f71b69253b697caa6fb9c77bf9",
+      "cells": 9,
+      "RGB555_and_alpha_exact": true
+    },
+    {
+      "path": "Ruina121/game/Battle/夜種王アニメ.xyz",
+      "sha256": "bade6365c213dfa9f01ee1e223430f3c935798e00726b8dbe586a7cfcaffa61d",
+      "cells": 14,
+      "RGB555_and_alpha_exact": true
+    },
+    {
+      "path": "Ruina121/game/Battle/大地.xyz",
+      "sha256": "70373082a4ad28e08f02feb6d406a194540dbcfd0e4d9d97957b814f69d62dae",
+      "cells": 6,
+      "RGB555_and_alpha_exact": true
+    },
+    {
+      "path": "Ruina121/game/Battle/大秘儀.xyz",
+      "sha256": "60936a0b3e5803fb95817a4a585b1c3d9b2a3f060a1c2db671187bf74d213e99",
+      "cells": 16,
+      "RGB555_and_alpha_exact": true
+    },
+    {
+      "path": "Ruina121/game/Battle/建築.xyz",
+      "sha256": "5cb7df14cc31cb69ed96509af031e297ca7d9068facac460b09ebd69410071ff",
+      "cells": 10,
+      "RGB555_and_alpha_exact": true
+    },
+    {
+      "path": "Ruina121/game/Battle/弓矢1.xyz",
+      "sha256": "99e3ad33319fff754efd47e59b44e8c8d7cf30453a29478f8776483e36604b47",
+      "cells": 7,
+      "RGB555_and_alpha_exact": true
+    },
+    {
+      "path": "Ruina121/game/Battle/弓矢2.xyz",
+      "sha256": "88d48fcc6c03634c5bc9c8983bd6b3dece225b758f854ea8d66cc87aa94be874",
+      "cells": 10,
+      "RGB555_and_alpha_exact": true
+    },
+    {
+      "path": "Ruina121/game/Battle/打撃.xyz",
+      "sha256": "25f31d6d748c6b2f17b24c7b92a0f9c182b269e67e7ab60a863480c415f2165e",
+      "cells": 15,
+      "RGB555_and_alpha_exact": true
+    },
+    {
+      "path": "Ruina121/game/Battle/斧.xyz",
+      "sha256": "6b11111bf10f51dfc051aed5a7ee22a5c0ceebc63aa0b7f748a6b50e7adfdd9c",
+      "cells": 6,
+      "RGB555_and_alpha_exact": true
+    },
+    {
+      "path": "Ruina121/game/Battle/日食.xyz",
+      "sha256": "fa30aced75c9c870b22654a1967602eaae3ec431c8cb644a08d27384919cfebb",
+      "cells": 19,
+      "RGB555_and_alpha_exact": true
+    },
+    {
+      "path": "Ruina121/game/Battle/暗黒.xyz",
+      "sha256": "95c8dc761f744224fdad8c2748f1e9d78c9ad1ee3d5a83e340844f0b7c7ebf9c",
+      "cells": 15,
+      "RGB555_and_alpha_exact": true
+    },
+    {
+      "path": "Ruina121/game/Battle/月相.xyz",
+      "sha256": "c7e98ecc845dd321e022fa815c521ed30f824d6dbbfc7a0f61d58dc283881810",
+      "cells": 15,
+      "RGB555_and_alpha_exact": true
+    },
+    {
+      "path": "Ruina121/game/Battle/槍.xyz",
+      "sha256": "b2476819bc6d29a673c1995f04a1be739d69aa460c88f2ef27256e372d8317a4",
+      "cells": 14,
+      "RGB555_and_alpha_exact": true
+    },
+    {
+      "path": "Ruina121/game/Battle/水.xyz",
+      "sha256": "54e9640075c31fb1ce710f719c9b370d2f5939f21e8a1e45621e3413ff51eebf",
+      "cells": 11,
+      "RGB555_and_alpha_exact": true
+    },
+    {
+      "path": "Ruina121/game/Battle/治療.xyz",
+      "sha256": "dd948f3415007ba103971d9ff56704ba3f254cfdd3b88ac738e3887f6ec39880",
+      "cells": 7,
+      "RGB555_and_alpha_exact": true
+    },
+    {
+      "path": "Ruina121/game/Battle/炎1.xyz",
+      "sha256": "b74657ac036443111f8453dc4a9465486ce35ca864ed837137326ea88cc5aa99",
+      "cells": 21,
+      "RGB555_and_alpha_exact": true
+    },
+    {
+      "path": "Ruina121/game/Battle/炎2.xyz",
+      "sha256": "96999b586be234a1990ea3db5ca10f85a39c63055cbd63a73738cd1a3f5aa2ac",
+      "cells": 16,
+      "RGB555_and_alpha_exact": true
+    },
+    {
+      "path": "Ruina121/game/Battle/爆発.xyz",
+      "sha256": "51696853159475eec70524b97ce197b9eea2884ddfa135e4079ae38c37ac9646",
+      "cells": 14,
+      "RGB555_and_alpha_exact": true
+    },
+    {
+      "path": "Ruina121/game/Battle/爪.xyz",
+      "sha256": "3aa51ae35cb3d9eb979442583c90f7017773e502ea10454c4b0fda13511e4956",
+      "cells": 4,
+      "RGB555_and_alpha_exact": true
+    },
+    {
+      "path": "Ruina121/game/Battle/矢.xyz",
+      "sha256": "61e78b9b3c0d514180f37c25d96747352ee1c7d2ba873a58167791a4ef610354",
+      "cells": 3,
+      "RGB555_and_alpha_exact": true
+    },
+    {
+      "path": "Ruina121/game/Battle/神聖.xyz",
+      "sha256": "92c41bc255557c47ff562bbcb224892259e0c1cbe1e9ae7564b10a0f52e1eeff",
+      "cells": 11,
+      "RGB555_and_alpha_exact": true
+    },
+    {
+      "path": "Ruina121/game/Battle/聖剣.xyz",
+      "sha256": "20a835425cd312acc7c492cdb11554cdddbd277442ec29c7f0bbd5eeff9e360a",
+      "cells": 22,
+      "RGB555_and_alpha_exact": true
+    },
+    {
+      "path": "Ruina121/game/Battle/薔薇.xyz",
+      "sha256": "698f97d004188713e4f7895739c0cfd78ab521528a54854a9359aff0eceffcd4",
+      "cells": 15,
+      "RGB555_and_alpha_exact": true
+    },
+    {
+      "path": "Ruina121/game/Battle/蘇生.xyz",
+      "sha256": "efb75358bf23996d7ffc70e99efc26b669072883089c79c45304dcd38853396d",
+      "cells": 7,
+      "RGB555_and_alpha_exact": true
+    },
+    {
+      "path": "Ruina121/game/Battle/血痕.xyz",
+      "sha256": "1a76665781e8d171b2ed1e758d29c4ecaa0fd1142df84ac2b5418354a70d0989",
+      "cells": 10,
+      "RGB555_and_alpha_exact": true
+    },
+    {
+      "path": "Ruina121/game/Battle/金色剣.xyz",
+      "sha256": "d5c9570f51add597ec83e5d00105c9ff2ef56071a7a1f0ef03374ff221090c5f",
+      "cells": 7,
+      "RGB555_and_alpha_exact": true
+    },
+    {
+      "path": "Ruina121/game/Battle/鎖.xyz",
+      "sha256": "ebd886061c6e8f59b6e047ea3652594882f9f974b7b0ddadb45914174c464498",
+      "cells": 2,
+      "RGB555_and_alpha_exact": true
+    },
+    {
+      "path": "Ruina121/game/Battle/雷.xyz",
+      "sha256": "8f3bdbcaf693c76c216bf0c60ddfddc6a0f508f628c21b0ac355a1c41805c1f2",
+      "cells": 6,
+      "RGB555_and_alpha_exact": true
+    },
+    {
+      "path": "Ruina121/game/Battle/鞭.xyz",
+      "sha256": "7a6ae5dd26276baab007e73268fff6888fd9a318c318ca929d40cc5536a0d550",
+      "cells": 6,
+      "RGB555_and_alpha_exact": true
+    },
+    {
+      "path": "Ruina121/game/Battle/風.xyz",
+      "sha256": "9b3be6fd14b725fb2580cd3af9db4100dae6d45870ea785e3e82a34b88c999c0",
+      "cells": 7,
+      "RGB555_and_alpha_exact": true
+    },
+    {
+      "path": "Ruina121/game/Battle/魔剣.xyz",
+      "sha256": "f6177837f5074247052190d92c89bc36cb75e7f1db07928476f59f57c80a8fbb",
+      "cells": 15,
+      "RGB555_and_alpha_exact": true
+    },
+    {
+      "path": "Ruina121/game/Battle/麻痺.xyz",
+      "sha256": "9fbf0090fe2ce2afa2fe0146f5d0058c663af46442929c2030f346a51a25fe2c",
+      "cells": 15,
+      "RGB555_and_alpha_exact": true
+    }
+  ],
+  "bank_sha256": "053dc5311367626964071cca0a29c29ae4c8e921e7b87cce6aa1ad2158e20715",
+  "generator_sha256": "b7629ce375d37e95081583a53b03452449f43429f80997e937175118f88dae97",
+  "database_sha256": "038d19cbf046c57a9c5dde56750a6bd06392af8b610f2f61c1bfc145d78bb367",
+  "cached_inputs": {
+    "battle_animations.bin": "053dc5311367626964071cca0a29c29ae4c8e921e7b87cce6aa1ad2158e20715",
+    "battle_animation_assets.h": "6ea9706482af09bea80663e0fe3b400e3311045ae23778bf8ce29f808b0f2e9c"
+  }
+}

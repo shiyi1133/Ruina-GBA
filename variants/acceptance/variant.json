@@ -1,0 +1,9 @@
+{
+  "version": "0.7.2-acceptance",
+  "ROM_sha256": "f6eec260793d0c373c57f4b082df067f1447208a441f0769f66a59e8f41ceb15",
+  "application": "Replace same relative source/ and tools/ files with this variant, then build --incremental. Use a separate copy of the project.",
+  "HP_MP_and_bonuses": 999,
+  "magic_spells": 65,
+  "all_learnable_abilities": 194,
+  "boost_trigger": "once after original character creation; never on ordinary save load"
+}

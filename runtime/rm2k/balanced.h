@@ -3,6 +3,11 @@
 #include "engine.h"
 extern volatile u32 balanced_surface_epoch;
 int balanced_rgb_mode(void);
+void balanced_animation_cell(const Image*image,int x,int y,int w,int h,int opacity,const u8*tone);
+void balanced_animation_flash(int x,int y,int w,int h,int r,int g,int b,int power);
+void balanced_animation_target_flash(int image,int x,int y,int w,int h,int r,int g,int b,int power);
+void balanced_animation_background_store(void);
+int balanced_animation_background_restore(int x,int y,int w,int h);
 void*balanced_save_workspace(void);
 u32 balanced_scene_stamp(void);
 int balanced_native_ui_begin(void);

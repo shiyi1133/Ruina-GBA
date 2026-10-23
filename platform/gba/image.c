@@ -7,8 +7,15 @@ static int tile_mode;
 void *image_decode_scratch(void){tile_mode=0;last_pixels=0;last_block=-1;return block_pixels;}
 static u8 stored_row[1024];
 static int lz4(const u8*in,unsigned size,u8*out,unsigned capacity){unsigned at=0,x=0;while(at<size){unsigned token=in[at++],n=token>>4,m=(token&15)+4,i,off;if(n==15){unsigned v;do{if(at>=size)return 0;v=in[at++];n+=v;}while(v==255);}if(n>size-at||n>capacity-x)return 0;for(i=0;i<n;i++)out[x++]=in[at++];if(at==size)return x;if(at+2>size)return 0;off=in[at]|in[at+1]<<8;at+=2;if(!off||off>x)return 0;if((token&15)==15){unsigned v;do{if(at>=size)return 0;v=in[at++];m+=v;}while(v==255);}if(m>capacity-x)return 0;for(i=0;i<m;i++){out[x]=out[x-off];x++;}}return x;}
+int image_unpack_block(const u8*in,unsigned size,u8*out,unsigned capacity){return lz4(in,size,out,capacity);}
 int resource_image(int kind,LcfSpan name){unsigned h=2166136261U,i;if(!name.size)return -1;for(i=0;i<name.size;i++){h^=name.data[i];h*=16777619U;}for(i=0;i<resource_image_count;i++)if(resource_images[i].kind==kind&&resource_images[i].hash==h)return resource_images[i].image;return -1;}
 static void legacy_blocks(void){if(tile_mode){tile_mode=0;last_pixels=0;last_block=-1;}}
+const u8*image_portrait_pixels(const u8*packed){
+ unsigned size=packed[0]|packed[1]<<8;legacy_blocks();
+ if(last_pixels!=packed||last_block!=-2){last_pixels=0;last_block=-1;
+  if(lz4(packed+2,size,block_pixels,2304)!=2304)return 0;last_pixels=packed;last_block=-2;
+ }return block_pixels;
+}
 /* Borrow a whole decoded 8x8 tile until the next decoder call. Native tiled
  * backgrounds can then visit each source tile once, rather than requesting
  * eight separate row spans that collide in the small direct-mapped cache. */
@@ -41,6 +48,16 @@ static int decode_stored_row(const Image*im,int y,u8*row,unsigned capacity){
  unsigned x=0,at,end;if(y<0||y>=im->height||im->width>capacity)return 0;
  if(im->encoding==7){for(x=0;x<im->width;x++)row[x]=im->pixels[0];return im->width;}
  if(im->encoding==6)return tiled_span(im,y,0,im->width,row);
+ if(im->encoding==9){const u8*data=image_portrait_pixels(im->pixels);const u16*source=(const u16*)im->rows;static const u8 nearest36[36]={0,2,3,4,5,7,8,10,11,12,14,15,16,18,19,20,21,23,24,25,27,28,29,31,32,33,35,36,38,39,40,42,43,44,46,47};int sy=nearest36[y];if(!data)return 0;
+  for(x=0;x<im->width;x++){unsigned sx=nearest36[x],tile=(sy/16*3+sx/16)*4+(sy%16/8)*2+sx%16/8,color=source[data[tile*64+sy%8*8+sx%8]],lo=0,hi=im->color_count;
+   while(lo<hi){unsigned mid=(lo+hi)/2;if(im->colors[mid]<color)lo=mid+1;else hi=mid;}row[x]=lo;
+  }return im->width;
+ }
+ if(im->encoding==8){unsigned bh=4096/im->width,block=(unsigned)y/bh,lines=im->height-block*bh,expected;if(lines>bh)lines=bh;expected=lines*im->width;
+  legacy_blocks();if(!im->rows)return 0;
+  if(last_pixels!=im->pixels||last_block!=(int)block){last_pixels=0;last_block=-1;if((unsigned)lz4(im->pixels+im->rows[block],im->rows[block+1]-im->rows[block],block_pixels,expected)!=expected)return 0;last_pixels=im->pixels;last_block=block;}
+  memcpy(row,block_pixels+((unsigned)y%bh)*im->width,im->width);return im->width;
+ }
  if(!im->encoding){unsigned i;for(i=0;i<im->width;i++)row[i]=im->pixels[y*im->width+i];return im->width;}
  if(im->encoding==3){unsigned stride=(im->width+1)/2;for(x=0;x<im->width;x++)row[x]=im->palette[(im->pixels[y*stride+x/2]>>(x&1?0:4))&15];return im->width;}
  if(!im->rows||!im->palette)return 0;

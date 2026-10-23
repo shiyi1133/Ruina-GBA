@@ -77,7 +77,12 @@ native_soundfont_start:
 .balign 4
 .global original_portraits_start
 original_portraits_start:
-.incbin "build/portraits.bin"
+.incbin "build/portraits_packed.bin"
+.section .rodata.battle_animations,"a",%progbits
+.balign 4
+.global original_animations_start
+original_animations_start:
+.incbin "build/battle_animations.bin"
 .section .rodata.portrait_combinations,"a",%progbits
 .align 2
 .global portrait_combinations_start

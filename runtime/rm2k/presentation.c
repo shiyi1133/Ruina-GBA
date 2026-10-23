@@ -1,8 +1,8 @@
 #include "engine.h"
 
 /* GBA presentation policy: scene changes cut to black, prepare the new image
- * while hidden, then reveal it immediately. Flash, shake and animation cells
- * use brief brightness cues; weather
+ * while hidden, then reveal it immediately. Map flash and shake use brief brightness cues; battle cells
+ * have their own original-frame renderer; weather
  * uses a sparse static overlay. Event waits, picture coordinates, timers,
  * animation SFX and all gameplay calculations remain in their own systems.
  * Transient effects never enlarge or alter the ordinary SRAM save format. */

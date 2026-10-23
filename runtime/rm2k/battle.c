@@ -82,7 +82,7 @@ static void normal_attack(int source,int target){
     if(u->aid){Actor*a=&game.actors[u->aid];int found=0;for(i=0;i<2;i++){int item=a->equipment[i];if(item&&val(item_data[item],3,0)==1){int h=val(item_data[item],17,90);if(!found||h>hit)hit=h;found=1;if(val(item_data[item],18,0)>bonus)bonus=val(item_data[item],18,0);attr[i]=field(item_data[item],66);}}
         critical=(val(actor_data[u->aid],9,1)?(int)(10000.0f/clamp(val(actor_data[u->aid],10,30),1,9999)):0)+bonus*100;
     }else{hit=val(enemy_data[u->eid],26,0)?70:90;critical=val(enemy_data[u->eid],21,0)?(int)(10000.0f/clamp(val(enemy_data[u->eid],22,30),1,9999)):0;}
-    if(!u->aid)audio_effect(6);else {int item=game.actors[u->aid].equipment[0];if(item)animation_battle(val(item_data[item],20,1));}log_reset();log_text(u->name);term(11);log_show();
+    animation_targets(1U<<target);if(!u->aid){audio_effect(6);animation_targets(0);}else {int item=game.actors[u->aid].equipment[0];animation_battle(item?val(item_data[item],20,1):1);}log_reset();log_text(u->name);term(11);log_show();
     if(!chance(hit_chance(source,target,hit,1))){audio_effect(9);log_reset();log_text(units[target].name);term(27);log_show();return;}
     if(units[target].aid)for(i=1;i<5;i++){int item=game.actors[units[target].aid].equipment[i];if(item&&val(item_data[item],25,0))critical=0;}
     if((source<allies)==(target<allies))critical=0;critical=random_n(10000)<critical;dmg=rm2k_normal_base(bst(source,2),bst(target,3));dmg=attribute_effect(dmg,target,attr[0],attr[1]);if(critical)dmg*=3;else if(u->charged)dmg*=2;dmg=variance(dmg,4);dmg=rm2k_defend(dmg,units[target].defend,units[target].aid&&val(actor_data[units[target].aid],24,0));dmg=clamp(dmg,0,999);
@@ -124,7 +124,12 @@ static void use_skill(int source,int id,int target,int from_item){
     log_reset();log_text(u->name);log_span(field(sk,3));log_show();
     if(val(sk,8,0)==3){int swid=val(sk,13,1);if(swid>0&&swid<=MAX_SWITCH)game.switches[swid]=1;return;}
     if(val(sk,8,0)!=0){fault(9440);return;}
-    animation_battle(val(sk,14,1));
+    {unsigned mask=0;
+     if(scope==0||scope==3){if(target>=0&&target<total)mask=1U<<target;}
+     else if(scope==2)mask=1U<<source;
+     else if(scope==1||scope==4){int side=scope==1?enemy_side:!enemy_side;for(i=side?allies:0;i<(side?total:allies);i++)if(!units[i].hidden&&(units[i].hp||scope==4))mask|=1U<<i;}
+     animation_targets(mask);animation_battle(val(sk,14,1));
+    }
     if(scope==0||scope==3)skill_effect(source,target,id);
     else if(scope==2)skill_effect(source,source,id);
     else if(scope==1||scope==4){int side=scope==1?enemy_side:!enemy_side;for(i=side?allies:0;i<(side?total:allies);i++)if(!units[i].hidden)skill_effect(source,i,id);}
@@ -144,6 +149,19 @@ void draw_battle(void){int i,visible=0;clear(11);picture(battle_background_image
     {int at=0;for(i=allies;i<total;i++)if(active(i)){int img=enemy_image_ids[units[i].eid],x=(at+1)*240/(visible+1)-(img>=0?images[img].width/2:0);if(img<0)continue;picture(img,x,18,0,0,images[img].width,images[img].height,1);at++;}}
     box(0,0,240,15,11);draw_text(7,1,focus>=0?units[focus].name:"战斗",2,150);draw_text(164,1,"回合",6,30);draw_num(197,1,turn,1);
     box(0,97,240,63,11);for(i=0;i<allies;i++){int y=99+i*14;draw_text(5,y,units[i].name,units[i].hp?1:6,90);draw_text(94,y,"HP",6,16);draw_num(112,y,units[i].hp,1);draw_text(155,y,"MP",6,16);draw_num(175,y,units[i].mp,1);}
+}
+/* The front-view adapter draws allies in status rows; anchor their effects
+ * there. Enemy coordinates exactly match draw_battle, including hidden slots. */
+int battle_animation_image(int index){return index>=allies&&index<total?enemy_image_ids[units[index].eid]:-1;}
+int battle_animation_position(int index,int position,int*x,int*y,int*w,int*h){
+    int i,n=0,at=0,img;if(index<0||index>=total||units[index].hidden)return 0;
+    if(index<allies){*x=47;*y=105+index*14;*w=90;*h=14;return 1;}
+    if(!active(index))return 0;
+    for(i=allies;i<total;i++)if(active(i))n++;
+    for(i=allies;i<index;i++)if(active(i)&&enemy_image_ids[units[i].eid]>=0)at++;
+    img=enemy_image_ids[units[index].eid];if(img<0)return 0;
+    *w=images[img].width;*h=images[img].height;*x=(at+1)*240/(n+1);*y=18+*h/2;
+    if(position==0)*y-=*h/2;else if(position==2)*y+=*h/2;return 1;
 }
 static int select_target(int side,int allow_dead){char text[512];debug_state[19]=side?3:4;int list[MAX_BATTLE_UNIT],n=0,i,pos=0;for(i=side?allies:0;i<(side?total:allies);i++)if(!units[i].hidden&&(units[i].hp||allow_dead)){int j;if(n)text[pos++]='/';list[n++]=i;for(j=0;units[i].name[j]&&pos<480;j++)text[pos++]=units[i].name[j];}text[pos]=0;if(!n)return -1;i=choices((LcfSpan){(u8*)text,pos},n+1);return i<n?list[i]:-1;}
 static int battle_skill_id(const u32*mask,int position){
@@ -267,7 +285,7 @@ int battle_event_command(int code,const int*p,LcfSpan text){
     battle_event_trace[3]++;battle_event_trace[4]=code;
     if(code==RM2K_TerminateBattle){battle_aborted=1;battle_event_trace[5]++;return 1;}
     if(code==RM2K_ChangeBattleBG){game.battle_backdrop=resource_image(4,text);return 1;}
-    if(code==RM2K_ShowBattleAnimation_B){if(p[2])animation_battle(p[0]);else animation_start(p[0]);return 1;}
+    if(code==RM2K_ShowBattleAnimation_B){unsigned mask=0;int j;if(p[1]<0){for(j=allies;j<total;j++)if(active(j))mask|=1U<<j;}else if(p[1]>=0&&allies+p[1]<total)mask=1U<<(allies+p[1]);animation_targets(mask);if(p[2])animation_battle(p[0]);else animation_start(p[0]);return 1;}
     /* Original enemy operands are zero-based party slots, not database IDs. */
     if(index<allies||index>=total)return 1;
     switch(code){

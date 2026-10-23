@@ -1,14 +1,9 @@
-﻿匹配工程 v0.7.1（2026-10-23）
+﻿匹配工程 v0.7.2：恢复战斗动画（2026-10-23）
 
-本次新增扩充取名与 B 菜单操作说明。操作见“取名与操作说明_v0.7.1.txt”。
-构建：Linux/WSL、Python 3、外部 GNU Arm 工具链，执行 python3 tools/build.py --incremental。
-ARM_TOOLCHAIN_PREFIX 可指定 arm-none-eabi- 前缀。转换资源已附，无需原 ZIP、系统字体或图像库。
-工程重建校验.json 记录独立重建；交付包另核对实际源码 ZIP 的新解压重建。
-本次检查入口：evidence/ui_v071/current_validation.json。
-命名与操作说明专测：tools/check_common_names.py、tools/check_controls_help.py。
-按键测试另需外部 mGBA 开发库、Pillow/NumPy、C 编译器，详见 README.txt。
-v0.7 原报告保持原哈希，未冒充本次整曲或全部回归重跑。
-本包不含工具链、原游戏 ZIP、ROM 或旧版对比 ROM；缓存为编译输入。
-history/、evidence/ 的 SAV 为测试材料，不要当作新游戏的同名存档。
-完整自然通关、全部结局、GBA 实机以及 Windows 原生构建尚未验收。
-来源与许可证见 CREDITS.txt、LICENSE、third_party/。
+使用外部 GNU Arm Embedded 工具链，执行 python3 tools/build.py --incremental。
+已转换资源随工程提供，增量重建不需要原始 ZIP、字体或图像库。
+此工程是普通数值版。验收增强版修改位于 variants/acceptance/：
+在独立副本中覆盖其中同名 source/ 和 tools/ 文件，再增量构建。
+恢复的是战斗逐帧图案。地图转场仍直接切黑；复杂战斗特效可能显著慢于 PC。
+当前验证范围与每个版本的 SHA-256 见 evidence/battle_animations_20261023/。
+完整自然通关、全部结局与实机未验收。旧版本、旧存档和失败证据保留。

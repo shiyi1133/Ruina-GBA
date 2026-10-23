@@ -1,0 +1,11 @@
+{
+  "status": "pass",
+  "visible_cells": 600,
+  "original_cells_checked": 601,
+  "empty_cells": 1,
+  "all_original_RGB555_pixels_exact": true,
+  "all_transparency_masks_exact": true,
+  "losslessly_packed_portraits": 160,
+  "bank_sha256": "053dc5311367626964071cca0a29c29ae4c8e921e7b87cce6aa1ad2158e20715",
+  "method": "Independent decoder, directly compared to original archive XYZ palette indices, with transparent index distinguished even when RGB equals a visible color."
+}

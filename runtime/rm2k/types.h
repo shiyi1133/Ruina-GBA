@@ -15,6 +15,9 @@ int decode_image_storage_row(const Image*image,int y,u8*row,unsigned capacity);
 int decode_image_storage_span(const Image*image,int y,int x,int length,u8*row,unsigned capacity);
 /* Borrow one stored 8x8 tile until the next image decoder/scratch call. */
 const u8*image_storage_tile(const Image*image,int tile_x,int tile_y);
+/* Lossless native OBJ pixels, borrowed until the next image decoder call. */
+const u8*image_portrait_pixels(const u8*packed);
+int image_unpack_block(const u8*in,unsigned size,u8*out,unsigned capacity);
 typedef struct {int kind;u32 hash;int image;} ResourceImage;
 extern const ResourceImage resource_images[];
 extern const unsigned resource_image_count;

@@ -51,6 +51,7 @@ static PendingPortrait pending_portraits[4];
 static int portrait_count,cached_portraits[7],cached_portrait_sheet=-1;
 static unsigned portrait_visible,portrait_pending,portrait_upload_count;
 static const u8*portrait_uploads[4];
+static const u8*portrait_upload_remaps[4];
 static u8 portrait_upload_slots[4];
 static u16 object_palette[256],object_palette_dirty;
 static int cursor_color=1,cursor_tile_color=1,cursor_tile_dirty;
@@ -229,14 +230,16 @@ static void prepare_portraits(void){
         if(slot==7){
             for(slot=0;slot<7;slot++)if(!((portrait_visible|portrait_pending)&(1U<<slot)))break;
             if(slot==7)for(slot=0;slot<7&&(portrait_pending&(1U<<slot));slot++){}
-            {const u8*data=original_portraits_start+h[4]+p->record->tiles;unsigned at;
-             if(combination){u8*scratch=image_decode_scratch();const u8*map=portrait_combinations_start+mixed[7]+combination[p->record->sheet+1];for(at=0;at<2304;at++)scratch[at]=map[data[at]];data=scratch;}
+            {const u8*packed=original_portraits_start+h[4]+p->record->tiles;
+             const u8*map=combination?portrait_combinations_start+mixed[7]+combination[p->record->sheet+1]:0;unsigned at;
              if((portrait_visible&(1U<<slot))||(native_ui&&native_ui_entering&&portrait_count==1)){
-              /* Seven texture slots cover four old and four new faces with
-               * at most one overlap. That final overlap commits at VBlank;
-               * its remap borrows the decoder workspace until the commit. */
-              portrait_uploads[portrait_upload_count]=data;portrait_upload_slots[portrait_upload_count++]=slot;
-             }else for(at=0;at<2304;at+=256){audio_service();REG32(0x040000d4)=(u32)(data+at);REG32(0x040000d8)=0x06014000+slot*2304+at;REG32(0x040000dc)=0x84000040;}
+              portrait_uploads[portrait_upload_count]=packed;portrait_upload_remaps[portrait_upload_count]=map;
+              portrait_upload_slots[portrait_upload_count++]=slot;
+             }else{
+              const u8*data=image_portrait_pixels(packed);if(!data)return;
+              if(map){u8*scratch=(u8*)data;for(at=0;at<2304;at++)scratch[at]=map[scratch[at]];image_decode_scratch();}
+              for(at=0;at<2304;at+=256){audio_service();REG32(0x040000d4)=(u32)(data+at);REG32(0x040000d8)=0x06014000+slot*2304+at;REG32(0x040000dc)=0x84000040;}
+             }
             }
             cached_portraits[slot]=key;
         }
@@ -266,7 +269,11 @@ static void upload_ui_objects(void){
     unsigned i,at,start=REG16(0x04000006),end,elapsed;
     /* Palette, textures, complete OAM list and page are committed in the same
      * blanking interval. Short DMA bursts permit the audio IRQ between them. */
-    for(i=0;i<portrait_upload_count;i++)for(at=0;at<2304;at+=256){REG32(0x040000d4)=(u32)(portrait_uploads[i]+at);REG32(0x040000d8)=0x06014000+portrait_upload_slots[i]*2304+at;REG32(0x040000dc)=0x84000040;}
+    for(i=0;i<portrait_upload_count;i++){
+        const u8*data=image_portrait_pixels(portrait_uploads[i]);const u8*map=portrait_upload_remaps[i];if(!data)continue;
+        if(map){u8*scratch=(u8*)data;for(at=0;at<2304;at++)scratch[at]=map[scratch[at]];image_decode_scratch();}
+        for(at=0;at<2304;at+=256){REG32(0x040000d4)=(u32)(data+at);REG32(0x040000d8)=0x06014000+portrait_upload_slots[i]*2304+at;REG32(0x040000dc)=0x84000040;}
+    }
     if(cursor_tile_dirty){for(i=0;i<64;i++)REG16(0x06017f00+i*2)=cursor_mask[i]*(cursor_color&15);cursor_tile_color=cursor_color&15;cursor_tile_dirty=0;}
     upload_object_palette();upload_object_list();portrait_visible=portrait_pending;
     end=REG16(0x04000006);elapsed=(end+228-start)%228;
