@@ -1,10 +1,8 @@
 {
   "status": "pass",
-  "production_ROM_sha256": "d8e63ad23769ed03f990420723b3c042f3e147b23565e2c23f4c0f67bbe1e780",
-  "rebuilt_ROM_sha256": "d8e63ad23769ed03f990420723b3c042f3e147b23565e2c23f4c0f67bbe1e780",
+  "ROM_sha256": "738ae5637483a631e0ab109433497ac752cfc2b6ed43b94acab6b4b7e3818979",
   "byte_identical": true,
-  "original_archive_font_asset_python": "disabled by nonexistent paths",
+  "original_archive_and_font": "disabled",
   "Python_site_packages": "disabled by -S",
-  "host_seconds": 23.000909623999178,
-  "environment": "Linux/WSL with external GNU Arm; native Windows not tested"
+  "environment": "Linux/WSL, external GNU Arm"
 }

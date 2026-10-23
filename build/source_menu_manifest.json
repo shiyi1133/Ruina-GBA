@@ -1,0 +1,1703 @@
+{
+  "kind": "labels only; original event semantics retained",
+  "entries": [
+    {
+      "map": 13,
+      "event": 1,
+      "label": "开始调理",
+      "origin": "native navigation label"
+    },
+    {
+      "map": 13,
+      "event": 2,
+      "label": "返回",
+      "origin": "native navigation label"
+    },
+    {
+      "map": 13,
+      "event": 8,
+      "label": "小麦粉",
+      "origin": "page1/command3"
+    },
+    {
+      "map": 13,
+      "event": 9,
+      "label": "面包",
+      "origin": "page1/command3"
+    },
+    {
+      "map": 13,
+      "event": 10,
+      "label": "魚",
+      "origin": "page1/command3"
+    },
+    {
+      "map": 13,
+      "event": 11,
+      "label": "生肉",
+      "origin": "page1/command3"
+    },
+    {
+      "map": 13,
+      "event": 12,
+      "label": "鸟肉",
+      "origin": "page1/command3"
+    },
+    {
+      "map": 13,
+      "event": 13,
+      "label": "野菜",
+      "origin": "page1/command3"
+    },
+    {
+      "map": 13,
+      "event": 14,
+      "label": "蛋",
+      "origin": "page1/command3"
+    },
+    {
+      "map": 13,
+      "event": 15,
+      "label": "果物",
+      "origin": "page1/command3"
+    },
+    {
+      "map": 13,
+      "event": 16,
+      "label": "巧克力",
+      "origin": "page1/command3"
+    },
+    {
+      "map": 13,
+      "event": 17,
+      "label": "彩虹鱼",
+      "origin": "page1/command3"
+    },
+    {
+      "map": 13,
+      "event": 18,
+      "label": "龙肉",
+      "origin": "page1/command3"
+    },
+    {
+      "map": 13,
+      "event": 19,
+      "label": "粘稠物",
+      "origin": "page1/command3"
+    },
+    {
+      "map": 13,
+      "event": 20,
+      "label": "蛋黄酱",
+      "origin": "page1/command3"
+    },
+    {
+      "map": 13,
+      "event": 21,
+      "label": "不可思议的",
+      "origin": "page1/command3"
+    },
+    {
+      "map": 13,
+      "event": 113,
+      "label": "\\N[27]※料理不同于其他调和，是通过素材的",
+      "origin": "page1/command0"
+    },
+    {
+      "map": 14,
+      "event": 3,
+      "label": "返回",
+      "origin": "native navigation label"
+    },
+    {
+      "map": 14,
+      "event": 4,
+      "label": "\\N[27]※消费素材来制作道具。",
+      "origin": "page1/command0"
+    },
+    {
+      "map": 14,
+      "event": 6,
+      "label": "$A西洋剑",
+      "origin": "page1/command25/item516"
+    },
+    {
+      "map": 14,
+      "event": 7,
+      "label": "$C号哭匕首",
+      "origin": "page1/command25/item523"
+    },
+    {
+      "map": 14,
+      "event": 8,
+      "label": "$A军刀",
+      "origin": "page1/command25/item497"
+    },
+    {
+      "map": 14,
+      "event": 9,
+      "label": "$A防卫短剑",
+      "origin": "page1/command25/item504"
+    },
+    {
+      "map": 14,
+      "event": 10,
+      "label": "$A破刃剑",
+      "origin": "page1/command25/item503"
+    },
+    {
+      "map": 14,
+      "event": 11,
+      "label": "$A漆黒的短刀",
+      "origin": "page1/command25/item481"
+    },
+    {
+      "map": 14,
+      "event": 12,
+      "label": "$C纯银短剑",
+      "origin": "page1/command25/item460"
+    },
+    {
+      "map": 14,
+      "event": 13,
+      "label": "$C风羽之刃",
+      "origin": "page1/command28/item453"
+    },
+    {
+      "map": 14,
+      "event": 14,
+      "label": "$A留名历史的短剑",
+      "origin": "page1/command25/item438"
+    },
+    {
+      "map": 14,
+      "event": 15,
+      "label": "$A隼鹰之剑",
+      "origin": "page1/command28/item429"
+    },
+    {
+      "map": 14,
+      "event": 16,
+      "label": "$A长剑",
+      "origin": "page1/command25/item515"
+    },
+    {
+      "map": 14,
+      "event": 17,
+      "label": "$A大剑",
+      "origin": "page1/command25/item518"
+    },
+    {
+      "map": 14,
+      "event": 18,
+      "label": "$C银剑",
+      "origin": "page1/command28/item495"
+    },
+    {
+      "map": 14,
+      "event": 19,
+      "label": "$A阔刃大剑",
+      "origin": "page1/command25/item498"
+    },
+    {
+      "map": 14,
+      "event": 20,
+      "label": "$C魔性之剑",
+      "origin": "page1/command28/item473"
+    },
+    {
+      "map": 14,
+      "event": 21,
+      "label": "$A焰刃的大剑",
+      "origin": "page1/command28/item476"
+    },
+    {
+      "map": 14,
+      "event": 22,
+      "label": "$A秘银剑",
+      "origin": "page1/command25/item452"
+    },
+    {
+      "map": 14,
+      "event": 23,
+      "label": "$A雾薙",
+      "origin": "page1/command28/item431"
+    },
+    {
+      "map": 14,
+      "event": 24,
+      "label": "$A名匠之刚剑",
+      "origin": "page1/command28/item426"
+    },
+    {
+      "map": 14,
+      "event": 25,
+      "label": "$A屠龙刀",
+      "origin": "page1/command28/item433"
+    },
+    {
+      "map": 14,
+      "event": 26,
+      "label": "$A短枪",
+      "origin": "page1/command25/item521"
+    },
+    {
+      "map": 14,
+      "event": 27,
+      "label": "$A手斧",
+      "origin": "page1/command25/item520"
+    },
+    {
+      "map": 14,
+      "event": 28,
+      "label": "$A长枪",
+      "origin": "page1/command28/item501"
+    },
+    {
+      "map": 14,
+      "event": 29,
+      "label": "$A战斧",
+      "origin": "page1/command25/item500"
+    },
+    {
+      "map": 14,
+      "event": 30,
+      "label": "$A投斧",
+      "origin": "page1/command25/item478"
+    },
+    {
+      "map": 14,
+      "event": 31,
+      "label": "$A剑戟",
+      "origin": "page1/command28/item479"
+    },
+    {
+      "map": 14,
+      "event": 32,
+      "label": "$C冬神之枪",
+      "origin": "page1/command31/item457"
+    },
+    {
+      "map": 14,
+      "event": 33,
+      "label": "$C斩首之镰",
+      "origin": "page1/command28/item458"
+    },
+    {
+      "map": 14,
+      "event": 34,
+      "label": "$A矮人战斧",
+      "origin": "page1/command25/item456"
+    },
+    {
+      "map": 14,
+      "event": 35,
+      "label": "$A白银骑士枪",
+      "origin": "page1/command28/item436"
+    },
+    {
+      "map": 14,
+      "event": 36,
+      "label": "$A达人投斧",
+      "origin": "page1/command28/item435"
+    },
+    {
+      "map": 14,
+      "event": 39,
+      "label": "$A皮鞭",
+      "origin": "page1/command25/item526"
+    },
+    {
+      "map": 14,
+      "event": 40,
+      "label": "$A捕兽网",
+      "origin": "page1/command28/item527"
+    },
+    {
+      "map": 14,
+      "event": 41,
+      "label": "$A战槌",
+      "origin": "page1/command25/item519"
+    },
+    {
+      "map": 14,
+      "event": 42,
+      "label": "$C圣槌",
+      "origin": "page1/command25/item499"
+    },
+    {
+      "map": 14,
+      "event": 43,
+      "label": "$A铁链",
+      "origin": "page1/command25/item506"
+    },
+    {
+      "map": 14,
+      "event": 44,
+      "label": "$C流星槌",
+      "origin": "page1/command28/item477"
+    },
+    {
+      "map": 14,
+      "event": 45,
+      "label": "$B炮膛义手",
+      "origin": "page1/command28/item771"
+    },
+    {
+      "map": 14,
+      "event": 46,
+      "label": "$A钢丝剑束",
+      "origin": "page1/command28/item462"
+    },
+    {
+      "map": 14,
+      "event": 47,
+      "label": "$A破城槌",
+      "origin": "page1/command28/item455"
+    },
+    {
+      "map": 14,
+      "event": 48,
+      "label": "$A魔神之尾",
+      "origin": "page1/command28/item441"
+    },
+    {
+      "map": 14,
+      "event": 49,
+      "label": "$C太阳棍",
+      "origin": "page1/command28/item434"
+    },
+    {
+      "map": 14,
+      "event": 50,
+      "label": "$A短弓",
+      "origin": "page1/command25/item525"
+    },
+    {
+      "map": 14,
+      "event": 51,
+      "label": "$A长弓",
+      "origin": "page1/command25/item505"
+    },
+    {
+      "map": 14,
+      "event": 52,
+      "label": "$A弩",
+      "origin": "page1/command28/item484"
+    },
+    {
+      "map": 14,
+      "event": 53,
+      "label": "$C妖精之弓",
+      "origin": "page1/command25/item483"
+    },
+    {
+      "map": 14,
+      "event": 54,
+      "label": "$A机械式连射弩",
+      "origin": "page1/command28/item461"
+    },
+    {
+      "map": 14,
+      "event": 55,
+      "label": "$A射月之弓",
+      "origin": "page1/command28/item440"
+    },
+    {
+      "map": 14,
+      "event": 56,
+      "label": "$C幼木之杖",
+      "origin": "page1/command25/item530"
+    },
+    {
+      "map": 14,
+      "event": 57,
+      "label": "$C锡杖",
+      "origin": "page1/command25/item529"
+    },
+    {
+      "map": 14,
+      "event": 58,
+      "label": "$C老树之杖",
+      "origin": "page1/command25/item508"
+    },
+    {
+      "map": 14,
+      "event": 59,
+      "label": "$C魔术师的小杖",
+      "origin": "page1/command28/item486"
+    },
+    {
+      "map": 14,
+      "event": 60,
+      "label": "$C义人之杖",
+      "origin": "page1/command25/item465"
+    },
+    {
+      "map": 14,
+      "event": 61,
+      "label": "$C不死鸟之杖",
+      "origin": "page1/command28/item443"
+    },
+    {
+      "map": 14,
+      "event": 62,
+      "label": "$B铁钩义手",
+      "origin": "page1/command28/item775"
+    },
+    {
+      "map": 14,
+      "event": 63,
+      "label": "$B机械义手",
+      "origin": "page1/command25/item773"
+    },
+    {
+      "map": 14,
+      "event": 64,
+      "label": "$B白银钩爪",
+      "origin": "page1/command28/item768"
+    },
+    {
+      "map": 15,
+      "event": 3,
+      "label": "返回",
+      "origin": "native navigation label"
+    },
+    {
+      "map": 15,
+      "event": 4,
+      "label": "\\N[27]※消费素材来制作道具。",
+      "origin": "page1/command0"
+    },
+    {
+      "map": 15,
+      "event": 6,
+      "label": "$B革铠",
+      "origin": "page1/command25/item631"
+    },
+    {
+      "map": 15,
+      "event": 7,
+      "label": "$B护胸",
+      "origin": "page1/command25/item630"
+    },
+    {
+      "map": 15,
+      "event": 8,
+      "label": "$B锁子甲",
+      "origin": "page1/command25/item612"
+    },
+    {
+      "map": 15,
+      "event": 9,
+      "label": "$B板甲",
+      "origin": "page1/command25/item593"
+    },
+    {
+      "map": 15,
+      "event": 11,
+      "label": "$B南瓜铠",
+      "origin": "page1/command28/item592"
+    },
+    {
+      "map": 15,
+      "event": 12,
+      "label": "$B纯银锁子甲",
+      "origin": "page1/command25/item575"
+    },
+    {
+      "map": 15,
+      "event": 13,
+      "label": "$B自动铠甲",
+      "origin": "page1/command28/item576"
+    },
+    {
+      "map": 15,
+      "event": 14,
+      "label": "$B龙鳞铠",
+      "origin": "page1/command25/item555"
+    },
+    {
+      "map": 15,
+      "event": 15,
+      "label": "$B名匠板甲",
+      "origin": "page1/command25/item554"
+    },
+    {
+      "map": 15,
+      "event": 16,
+      "label": "$B铁盔",
+      "origin": "page1/command25/item725"
+    },
+    {
+      "map": 15,
+      "event": 17,
+      "label": "$B桶型盔",
+      "origin": "page1/command25/item724"
+    },
+    {
+      "map": 15,
+      "event": 18,
+      "label": "$B圆盔",
+      "origin": "page1/command25/item706"
+    },
+    {
+      "map": 15,
+      "event": 19,
+      "label": "$B犬鼻盔",
+      "origin": "page1/command25/item705"
+    },
+    {
+      "map": 15,
+      "event": 20,
+      "label": "$B翼型盔",
+      "origin": "page1/command25/item674"
+    },
+    {
+      "map": 15,
+      "event": 21,
+      "label": "$B指挥官头盔",
+      "origin": "page1/command25/item687"
+    },
+    {
+      "map": 15,
+      "event": 22,
+      "label": "$B角盔",
+      "origin": "page1/command25/item673"
+    },
+    {
+      "map": 15,
+      "event": 23,
+      "label": "$B龙头之盔",
+      "origin": "page1/command25/item658"
+    },
+    {
+      "map": 15,
+      "event": 24,
+      "label": "$B特等头盔",
+      "origin": "page1/command25/item657"
+    },
+    {
+      "map": 15,
+      "event": 25,
+      "label": "$B小圆盾",
+      "origin": "page1/command25/item760"
+    },
+    {
+      "map": 15,
+      "event": 27,
+      "label": "$B圆盾",
+      "origin": "page1/command28/item759"
+    },
+    {
+      "map": 15,
+      "event": 28,
+      "label": "$B长盾",
+      "origin": "page1/command28/item755"
+    },
+    {
+      "map": 15,
+      "event": 29,
+      "label": "$B钉盾",
+      "origin": "page1/command25/item756"
+    },
+    {
+      "map": 15,
+      "event": 30,
+      "label": "$B骑士盾",
+      "origin": "page1/command25/item751"
+    },
+    {
+      "map": 15,
+      "event": 31,
+      "label": "$B镜盾",
+      "origin": "page1/command28/item752"
+    },
+    {
+      "map": 15,
+      "event": 32,
+      "label": "$B秘银盾",
+      "origin": "page1/command25/item747"
+    },
+    {
+      "map": 15,
+      "event": 33,
+      "label": "$B兽之盾",
+      "origin": "page1/command28/item748"
+    },
+    {
+      "map": 15,
+      "event": 34,
+      "label": "$B龙鳞盾",
+      "origin": "page1/command25/item744"
+    },
+    {
+      "map": 15,
+      "event": 35,
+      "label": "$B名匠守护盾",
+      "origin": "page1/command25/item743"
+    },
+    {
+      "map": 15,
+      "event": 36,
+      "label": "$B伊波之盾",
+      "origin": "page1/command28/item739"
+    },
+    {
+      "map": 15,
+      "event": 39,
+      "label": "$B长大衣",
+      "origin": "page1/command25/item634"
+    },
+    {
+      "map": 15,
+      "event": 40,
+      "label": "$B袈裟",
+      "origin": "page1/command25/item614"
+    },
+    {
+      "map": 15,
+      "event": 41,
+      "label": "$B妖精族衣",
+      "origin": "page1/command28/item595"
+    },
+    {
+      "map": 15,
+      "event": 42,
+      "label": "$B防风斗篷",
+      "origin": "page1/command25/item596"
+    },
+    {
+      "map": 15,
+      "event": 43,
+      "label": "$B罗马贤哲长袍",
+      "origin": "page1/command28/item577"
+    },
+    {
+      "map": 15,
+      "event": 44,
+      "label": "$B永夜外套",
+      "origin": "page1/command28/item578"
+    },
+    {
+      "map": 15,
+      "event": 45,
+      "label": "$B漆黑外套",
+      "origin": "page1/command28/item557"
+    },
+    {
+      "map": 15,
+      "event": 46,
+      "label": "$B绯红大衣",
+      "origin": "page1/command28/item559"
+    },
+    {
+      "map": 15,
+      "event": 47,
+      "label": "$B天礼衣",
+      "origin": "page1/command28/item560"
+    },
+    {
+      "map": 15,
+      "event": 48,
+      "label": "$B紧身连衣裙",
+      "origin": "page1/command25/item639"
+    },
+    {
+      "map": 15,
+      "event": 49,
+      "label": "$B舞女服",
+      "origin": "page1/command25/item637"
+    },
+    {
+      "map": 15,
+      "event": 50,
+      "label": "$B贵妇连衣裙",
+      "origin": "page1/command25/item618"
+    },
+    {
+      "map": 15,
+      "event": 51,
+      "label": "$B提督服",
+      "origin": "page1/command25/item620"
+    },
+    {
+      "map": 15,
+      "event": 52,
+      "label": "$B战斗束腰装",
+      "origin": "page1/command28/item601"
+    },
+    {
+      "map": 15,
+      "event": 53,
+      "label": "$B风流紧身衣",
+      "origin": "page1/command28/item603"
+    },
+    {
+      "map": 15,
+      "event": 54,
+      "label": "$B舞姬的薄纱",
+      "origin": "page1/command28/item584"
+    },
+    {
+      "map": 15,
+      "event": 55,
+      "label": "$B忍者女仆装",
+      "origin": "page1/command28/item563"
+    },
+    {
+      "map": 15,
+      "event": 56,
+      "label": "$B民族风皮装",
+      "origin": "page1/command28/item565"
+    },
+    {
+      "map": 15,
+      "event": 57,
+      "label": "$B比翼裙",
+      "origin": "page1/command28/item567"
+    },
+    {
+      "map": 15,
+      "event": 58,
+      "label": "$B阔边帽",
+      "origin": "page1/command25/item726"
+    },
+    {
+      "map": 15,
+      "event": 59,
+      "label": "$B发饰",
+      "origin": "page1/command25/item730"
+    },
+    {
+      "map": 15,
+      "event": 60,
+      "label": "$B僧帽",
+      "origin": "page1/command28/item711"
+    },
+    {
+      "map": 15,
+      "event": 61,
+      "label": "$B尖帽",
+      "origin": "page1/command28/item710"
+    },
+    {
+      "map": 15,
+      "event": 62,
+      "label": "$B毛皮帽",
+      "origin": "page1/command25/item709"
+    },
+    {
+      "map": 15,
+      "event": 63,
+      "label": "$B小丑帽",
+      "origin": "page1/command28/item690"
+    },
+    {
+      "map": 15,
+      "event": 64,
+      "label": "$B遮阳帽",
+      "origin": "page1/command25/item695"
+    },
+    {
+      "map": 15,
+      "event": 65,
+      "label": "$B三重冕",
+      "origin": "page1/command25/item675"
+    },
+    {
+      "map": 15,
+      "event": 66,
+      "label": "$B旅人的羽毛帽",
+      "origin": "page1/command28/item661"
+    },
+    {
+      "map": 15,
+      "event": 67,
+      "label": "$B环冠",
+      "origin": "page1/command28/item662"
+    },
+    {
+      "map": 15,
+      "event": 68,
+      "label": "$B影纱",
+      "origin": "page1/command28/item665"
+    },
+    {
+      "map": 18,
+      "event": 3,
+      "label": "返回",
+      "origin": "native navigation label"
+    },
+    {
+      "map": 18,
+      "event": 4,
+      "label": "※请选择适当的食品。",
+      "origin": "page1/command0"
+    },
+    {
+      "map": 18,
+      "event": 6,
+      "label": "○面包",
+      "origin": "page1/condition/item58"
+    },
+    {
+      "map": 18,
+      "event": 7,
+      "label": "○烤鱼",
+      "origin": "page1/condition/item88"
+    },
+    {
+      "map": 18,
+      "event": 8,
+      "label": "○鲜鱼汤",
+      "origin": "page1/condition/item90"
+    },
+    {
+      "map": 18,
+      "event": 9,
+      "label": "○白身魚三明治",
+      "origin": "page1/condition/item95"
+    },
+    {
+      "map": 18,
+      "event": 10,
+      "label": "○鱼派",
+      "origin": "page1/condition/item93"
+    },
+    {
+      "map": 18,
+      "event": 11,
+      "label": "○意式鱼扒",
+      "origin": "page1/condition/item94"
+    },
+    {
+      "map": 18,
+      "event": 12,
+      "label": "○海鲜锅",
+      "origin": "page1/condition/item91"
+    },
+    {
+      "map": 18,
+      "event": 13,
+      "label": "○卤汁鱼炖菜",
+      "origin": "page1/condition/item92"
+    },
+    {
+      "map": 18,
+      "event": 14,
+      "label": "○烧肉",
+      "origin": "page1/condition/item99"
+    },
+    {
+      "map": 18,
+      "event": 15,
+      "label": "○肉丸炖汤",
+      "origin": "page1/condition/item102"
+    },
+    {
+      "map": 18,
+      "event": 16,
+      "label": "○切成厚块的肉三明",
+      "origin": "page1/condition/item106"
+    },
+    {
+      "map": 18,
+      "event": 17,
+      "label": "○夹肉面包",
+      "origin": "page1/condition/item105"
+    },
+    {
+      "map": 18,
+      "event": 18,
+      "label": "○意式蕃茄肉酱",
+      "origin": "page1/condition/item107"
+    },
+    {
+      "map": 18,
+      "event": 19,
+      "label": "○寿喜烧",
+      "origin": "page1/condition/item103"
+    },
+    {
+      "map": 18,
+      "event": 20,
+      "label": "○浇汁肉丸",
+      "origin": "page1/condition/item104"
+    },
+    {
+      "map": 18,
+      "event": 21,
+      "label": "○烤整鸡",
+      "origin": "page1/condition/item110"
+    },
+    {
+      "map": 18,
+      "event": 22,
+      "label": "○鸟肉汤",
+      "origin": "page1/condition/item112"
+    },
+    {
+      "map": 18,
+      "event": 23,
+      "label": "○鸡肉三明治",
+      "origin": "page1/condition/item114"
+    },
+    {
+      "map": 18,
+      "event": 24,
+      "label": "○鸟肉派",
+      "origin": "page1/condition/item115"
+    },
+    {
+      "map": 18,
+      "event": 25,
+      "label": "○意式烧鸟肉",
+      "origin": "page1/condition/item116"
+    },
+    {
+      "map": 18,
+      "event": 26,
+      "label": "○鸟肉火锅",
+      "origin": "page1/condition/item113"
+    },
+    {
+      "map": 18,
+      "event": 27,
+      "label": "○炒蔬菜",
+      "origin": "page1/condition/item119"
+    },
+    {
+      "map": 18,
+      "event": 28,
+      "label": "○蔬菜汤",
+      "origin": "page1/condition/item120"
+    },
+    {
+      "map": 18,
+      "event": 29,
+      "label": "○蔬菜三明治",
+      "origin": "page1/condition/item122"
+    },
+    {
+      "map": 18,
+      "event": 30,
+      "label": "○沙拉",
+      "origin": "page1/condition/item123"
+    },
+    {
+      "map": 18,
+      "event": 31,
+      "label": "○南瓜派",
+      "origin": "page1/condition/item121"
+    },
+    {
+      "map": 18,
+      "event": 32,
+      "label": "○菠菜意粉",
+      "origin": "page1/condition/item124"
+    },
+    {
+      "map": 18,
+      "event": 33,
+      "label": "○煎蛋",
+      "origin": "page1/condition/item127"
+    },
+    {
+      "map": 18,
+      "event": 34,
+      "label": "○煮蛋",
+      "origin": "page1/condition/item128"
+    },
+    {
+      "map": 18,
+      "event": 35,
+      "label": "○鸡蛋三明治",
+      "origin": "page1/condition/item130"
+    },
+    {
+      "map": 18,
+      "event": 36,
+      "label": "○肉夹馍",
+      "origin": "page1/condition/item129"
+    },
+    {
+      "map": 18,
+      "event": 37,
+      "label": "○培根蛋面",
+      "origin": "page1/condition/item131"
+    },
+    {
+      "map": 18,
+      "event": 38,
+      "label": "○布丁",
+      "origin": "page1/condition/item79"
+    },
+    {
+      "map": 18,
+      "event": 39,
+      "label": "○水果布丁",
+      "origin": "page1/condition/item82"
+    },
+    {
+      "map": 18,
+      "event": 40,
+      "label": "○苹果派",
+      "origin": "page1/condition/item84"
+    },
+    {
+      "map": 18,
+      "event": 41,
+      "label": "○巧克力派",
+      "origin": "page1/condition/item85"
+    },
+    {
+      "map": 18,
+      "event": 42,
+      "label": "○烤彩虹鱼",
+      "origin": "page1/condition/item145"
+    },
+    {
+      "map": 18,
+      "event": 43,
+      "label": "○彩虹汤",
+      "origin": "page1/condition/item147"
+    },
+    {
+      "map": 18,
+      "event": 44,
+      "label": "○油煎彩虹鱼",
+      "origin": "page1/condition/item146"
+    },
+    {
+      "map": 18,
+      "event": 45,
+      "label": "○彩虹拉面",
+      "origin": "page1/condition/item137"
+    },
+    {
+      "map": 18,
+      "event": 46,
+      "label": "○黄金锅",
+      "origin": "page1/condition/item148"
+    },
+    {
+      "map": 18,
+      "event": 47,
+      "label": "○龙排",
+      "origin": "page1/condition/item139"
+    },
+    {
+      "map": 18,
+      "event": 48,
+      "label": "$n激辣龙汤",
+      "origin": "page1/condition/item141"
+    },
+    {
+      "map": 18,
+      "event": 49,
+      "label": "○油煎龙肉",
+      "origin": "page1/condition/item140"
+    },
+    {
+      "map": 18,
+      "event": 50,
+      "label": "$n激辣拉面",
+      "origin": "page1/condition/item136"
+    },
+    {
+      "map": 18,
+      "event": 51,
+      "label": "○龙肉火锅",
+      "origin": "page1/condition/item142"
+    },
+    {
+      "map": 18,
+      "event": 52,
+      "label": "○干面包",
+      "origin": "page1/condition/item151"
+    },
+    {
+      "map": 18,
+      "event": 53,
+      "label": "○妖精的烤点心",
+      "origin": "page1/condition/item150"
+    },
+    {
+      "map": 18,
+      "event": 54,
+      "label": "○魚干",
+      "origin": "page1/condition/item152"
+    },
+    {
+      "map": 18,
+      "event": 55,
+      "label": "○肉干",
+      "origin": "page1/condition/item153"
+    },
+    {
+      "map": 18,
+      "event": 56,
+      "label": "○盐焗鸡",
+      "origin": "page1/condition/item154"
+    },
+    {
+      "map": 18,
+      "event": 57,
+      "label": "○黄金干",
+      "origin": "page1/condition/item156"
+    },
+    {
+      "map": 18,
+      "event": 58,
+      "label": "○盐焗龙肉",
+      "origin": "page1/condition/item155"
+    },
+    {
+      "map": 18,
+      "event": 59,
+      "label": "$A杀人面包",
+      "origin": "page1/condition/item159"
+    },
+    {
+      "map": 18,
+      "event": 60,
+      "label": "$n地狱碳烧",
+      "origin": "page1/condition/item160"
+    },
+    {
+      "map": 18,
+      "event": 61,
+      "label": "$n疯狂浓汤",
+      "origin": "page1/condition/item161"
+    },
+    {
+      "map": 18,
+      "event": 62,
+      "label": "$n暗黑锅",
+      "origin": "page1/condition/item162"
+    },
+    {
+      "map": 18,
+      "event": 63,
+      "label": "$n生化蛋糕",
+      "origin": "page1/condition/item163"
+    },
+    {
+      "map": 18,
+      "event": 64,
+      "label": "※黑肠",
+      "origin": "page1/condition/item51"
+    },
+    {
+      "map": 18,
+      "event": 65,
+      "label": "○鱼",
+      "origin": "page1/condition/item59"
+    },
+    {
+      "map": 18,
+      "event": 66,
+      "label": "○生肉",
+      "origin": "page1/condition/item60"
+    },
+    {
+      "map": 18,
+      "event": 67,
+      "label": "○鸟肉",
+      "origin": "page1/condition/item61"
+    },
+    {
+      "map": 18,
+      "event": 68,
+      "label": "○蔬菜",
+      "origin": "page1/condition/item62"
+    },
+    {
+      "map": 18,
+      "event": 69,
+      "label": "○蛋",
+      "origin": "page1/condition/item63"
+    },
+    {
+      "map": 18,
+      "event": 70,
+      "label": "○水果",
+      "origin": "page1/condition/item68"
+    },
+    {
+      "map": 18,
+      "event": 71,
+      "label": "○彩虹鱼",
+      "origin": "page1/condition/item74"
+    },
+    {
+      "map": 18,
+      "event": 72,
+      "label": "○龙肉",
+      "origin": "page1/condition/item75"
+    },
+    {
+      "map": 18,
+      "event": 73,
+      "label": "○巧克力",
+      "origin": "page1/condition/item69"
+    },
+    {
+      "map": 18,
+      "event": 78,
+      "label": "○果脯",
+      "origin": "page1/condition/item157"
+    },
+    {
+      "map": 18,
+      "event": 333,
+      "label": "$n焦石",
+      "origin": "page1/condition/item165"
+    },
+    {
+      "map": 18,
+      "event": 339,
+      "label": "○奇味奇",
+      "origin": "page1/condition/item164"
+    },
+    {
+      "map": 18,
+      "event": 343,
+      "label": "○水果三明治",
+      "origin": "page1/condition/item86"
+    },
+    {
+      "map": 19,
+      "event": 3,
+      "label": "返回",
+      "origin": "native navigation label"
+    },
+    {
+      "map": 19,
+      "event": 4,
+      "label": "\\N[27]※可以消耗素材来制作道具。",
+      "origin": "page1/command0"
+    },
+    {
+      "map": 19,
+      "event": 7,
+      "label": "◎伤药",
+      "origin": "page1/command16/item22"
+    },
+    {
+      "map": 19,
+      "event": 8,
+      "label": "◎上等伤药",
+      "origin": "page1/command19/item23"
+    },
+    {
+      "map": 19,
+      "event": 9,
+      "label": "◎特等伤药",
+      "origin": "page1/command19/item24"
+    },
+    {
+      "map": 19,
+      "event": 10,
+      "label": "◎苏生药",
+      "origin": "page1/command19/item25"
+    },
+    {
+      "map": 19,
+      "event": 11,
+      "label": "◎复活药",
+      "origin": "page1/command19/item26"
+    },
+    {
+      "map": 19,
+      "event": 12,
+      "label": "◎治愈石",
+      "origin": "page1/command19/item27"
+    },
+    {
+      "map": 19,
+      "event": 13,
+      "label": "◎再生石",
+      "origin": "page1/command19/item28"
+    },
+    {
+      "map": 19,
+      "event": 14,
+      "label": "◎贤者之石",
+      "origin": "page1/command19/item29"
+    },
+    {
+      "map": 19,
+      "event": 15,
+      "label": "◎治疗药",
+      "origin": "page1/command19/item31"
+    },
+    {
+      "map": 19,
+      "event": 16,
+      "label": "◎清醒药",
+      "origin": "page1/command19/item32"
+    },
+    {
+      "map": 19,
+      "event": 17,
+      "label": "◎万能药",
+      "origin": "page1/command19/item33"
+    },
+    {
+      "map": 19,
+      "event": 18,
+      "label": "◎灵药",
+      "origin": "page1/command19/item34"
+    },
+    {
+      "map": 19,
+      "event": 19,
+      "label": "◎妖精之药",
+      "origin": "page1/command19/item36"
+    },
+    {
+      "map": 19,
+      "event": 20,
+      "label": "◎矮人之药",
+      "origin": "page1/command19/item37"
+    },
+    {
+      "map": 19,
+      "event": 21,
+      "label": "◎巨人之药",
+      "origin": "page1/command19/item38"
+    },
+    {
+      "map": 19,
+      "event": 22,
+      "label": "$n烟石",
+      "origin": "page1/command16/item40"
+    },
+    {
+      "map": 19,
+      "event": 23,
+      "label": "$n桃色实验管",
+      "origin": "page1/command19/item41"
+    },
+    {
+      "map": 19,
+      "event": 24,
+      "label": "$n催眠雾气瓶",
+      "origin": "page1/command19/item42"
+    },
+    {
+      "map": 19,
+      "event": 25,
+      "label": "$n毒珠",
+      "origin": "page1/command19/item43"
+    },
+    {
+      "map": 19,
+      "event": 26,
+      "label": "$n猛毒飞镖",
+      "origin": "page1/command16/item44"
+    },
+    {
+      "map": 19,
+      "event": 27,
+      "label": "$n火焰瓶",
+      "origin": "page1/command19/item45"
+    },
+    {
+      "map": 19,
+      "event": 28,
+      "label": "$n爆发烧瓶",
+      "origin": "page1/command19/item46"
+    },
+    {
+      "map": 19,
+      "event": 29,
+      "label": "$n破坏性炸弹",
+      "origin": "page1/command19/item47"
+    },
+    {
+      "map": 19,
+      "event": 30,
+      "label": "※锋利的戒指",
+      "origin": "page1/command19/item52"
+    },
+    {
+      "map": 19,
+      "event": 31,
+      "label": "※魔法钥匙",
+      "origin": "page1/command19/item16"
+    },
+    {
+      "map": 19,
+      "event": 32,
+      "label": "$B水晶护符",
+      "origin": "page1/command9/item826"
+    },
+    {
+      "map": 19,
+      "event": 33,
+      "label": "$B吞噬噩梦的护符",
+      "origin": "page1/command9/item824"
+    },
+    {
+      "map": 19,
+      "event": 34,
+      "label": "$B祛病护身符",
+      "origin": "page1/command9/item823"
+    },
+    {
+      "map": 19,
+      "event": 35,
+      "label": "$B火鼠手套",
+      "origin": "page1/command9/item818"
+    },
+    {
+      "map": 19,
+      "event": 36,
+      "label": "$B风之主的护符",
+      "origin": "page1/command9/item816"
+    },
+    {
+      "map": 19,
+      "event": 37,
+      "label": "$B染血的木片",
+      "origin": "page1/command9/item812"
+    },
+    {
+      "map": 19,
+      "event": 38,
+      "label": "$B神圣之印",
+      "origin": "page1/command12/item808"
+    },
+    {
+      "map": 19,
+      "event": 39,
+      "label": "$B赫耳墨斯翼靴",
+      "origin": "page1/command12/item807"
+    },
+    {
+      "map": 19,
+      "event": 40,
+      "label": "$B独角兽的护符",
+      "origin": "page1/command12/item806"
+    },
+    {
+      "map": 19,
+      "event": 41,
+      "label": "$B长生护符",
+      "origin": "page1/command12/item809"
+    },
+    {
+      "map": 19,
+      "event": 42,
+      "label": "$B回忆之物",
+      "origin": "page1/command9/item801"
+    },
+    {
+      "map": 19,
+      "event": 43,
+      "label": "$B隐身斗篷",
+      "origin": "page1/command12/item799"
+    },
+    {
+      "map": 19,
+      "event": 44,
+      "label": "$B布织的斗篷",
+      "origin": "page1/command9/item831"
+    },
+    {
+      "map": 19,
+      "event": 45,
+      "label": "$B古风凉鞋",
+      "origin": "page1/command9/item825"
+    },
+    {
+      "map": 19,
+      "event": 46,
+      "label": "$B奴隶项圈",
+      "origin": "page1/command9/item822"
+    },
+    {
+      "map": 19,
+      "event": 47,
+      "label": "$B金护手",
+      "origin": "page1/command9/item817"
+    },
+    {
+      "map": 19,
+      "event": 48,
+      "label": "$B北国披风",
+      "origin": "page1/command12/item815"
+    },
+    {
+      "map": 19,
+      "event": 49,
+      "label": "$B钢铁之靴",
+      "origin": "page1/command9/item814"
+    },
+    {
+      "map": 19,
+      "event": 50,
+      "label": "$B纯白战袍",
+      "origin": "page1/command9/item813"
+    },
+    {
+      "map": 19,
+      "event": 51,
+      "label": "$B巨人护手",
+      "origin": "page1/command9/item800"
+    },
+    {
+      "map": 19,
+      "event": 52,
+      "label": "◎龙之秘药",
+      "origin": "page1/command19/item39"
+    },
+    {
+      "map": 22,
+      "event": 3,
+      "label": "返回",
+      "origin": "native navigation label"
+    },
+    {
+      "map": 22,
+      "event": 4,
+      "label": "称号与SP说明",
+      "origin": "native navigation label"
+    },
+    {
+      "map": 22,
+      "event": 5,
+      "label": "特技修炼",
+      "origin": "native navigation label"
+    },
+    {
+      "map": 22,
+      "event": 6,
+      "label": "大河神殿",
+      "origin": "native navigation label"
+    },
+    {
+      "map": 22,
+      "event": 7,
+      "label": "骑士",
+      "origin": "page1/command23"
+    },
+    {
+      "map": 22,
+      "event": 8,
+      "label": "夜盗",
+      "origin": "page1/command23"
+    },
+    {
+      "map": 22,
+      "event": 9,
+      "label": "射手",
+      "origin": "page1/command23"
+    },
+    {
+      "map": 22,
+      "event": 10,
+      "label": "遗迹猎人",
+      "origin": "page1/command23"
+    },
+    {
+      "map": 22,
+      "event": 11,
+      "label": "魔术师",
+      "origin": "page1/command23"
+    },
+    {
+      "map": 22,
+      "event": 12,
+      "label": "战士",
+      "origin": "page1/command23"
+    },
+    {
+      "map": 22,
+      "event": 13,
+      "label": "妖术师",
+      "origin": "page1/command23"
+    },
+    {
+      "map": 22,
+      "event": 14,
+      "label": "吟游诗人",
+      "origin": "page1/command23"
+    },
+    {
+      "map": 22,
+      "event": 15,
+      "label": "神官",
+      "origin": "page1/command23"
+    },
+    {
+      "map": 22,
+      "event": 16,
+      "label": "退魔师",
+      "origin": "page1/command23"
+    },
+    {
+      "map": 22,
+      "event": 17,
+      "label": "剑圣",
+      "origin": "page1/command23"
+    },
+    {
+      "map": 22,
+      "event": 18,
+      "label": "君主",
+      "origin": "page1/command23"
+    },
+    {
+      "map": 22,
+      "event": 19,
+      "label": "狂战士",
+      "origin": "page1/command23"
+    },
+    {
+      "map": 22,
+      "event": 20,
+      "label": "暗杀者",
+      "origin": "page1/command23"
+    },
+    {
+      "map": 22,
+      "event": 21,
+      "label": "野伏",
+      "origin": "page1/command23"
+    },
+    {
+      "map": 22,
+      "event": 22,
+      "label": "贤者",
+      "origin": "page1/command23"
+    },
+    {
+      "map": 22,
+      "event": 23,
+      "label": "魔人",
+      "origin": "page1/command23"
+    },
+    {
+      "map": 22,
+      "event": 24,
+      "label": "精灵术师",
+      "origin": "page1/command23"
+    },
+    {
+      "map": 22,
+      "event": 25,
+      "label": "使徒",
+      "origin": "page1/command23"
+    },
+    {
+      "map": 22,
+      "event": 26,
+      "label": "裁决之司",
+      "origin": "page1/command23"
+    }
+  ]
+}

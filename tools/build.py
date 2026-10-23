@@ -58,9 +58,9 @@ def main():
  data[172:176]=b'RUB7';data[189]=(-sum(data[160:189])-0x19)&255
  data+=b'\xff'*((-len(data))%4);assert len(data)<=32*1024*1024,'GBA ROM exceeds 32 MiB';rom.write_bytes(data)
  run([str(PREFIX)+'size',elf])
- report={'artifact':rom.name,'bytes':len(data),'sha256':hashlib.sha256(data).hexdigest(),'kind':'native GBA RM2000 compatibility framework with Ruina chapter adapter','build_status':'compiled','runtime_validation':'not run by this build command; see evidence/balanced_optimization_20261023/final_acceptance.json for the matching ROM hash','full_game_port':False,'complete_EasyRPG_port':False,'upstream_lock_sha256':hashlib.sha256((ROOT/'third_party/sources.lock.json').read_bytes()).hexdigest()}
+ report={'artifact':rom.name,'bytes':len(data),'sha256':hashlib.sha256(data).hexdigest(),'kind':'native GBA RM2000 compatibility framework with Ruina chapter adapter','build_status':'compiled','runtime_validation':'not run by this build command; see evidence/ui_v071/current_validation.json for the matching ROM hash','full_game_port':False,'complete_EasyRPG_port':False,'upstream_lock_sha256':hashlib.sha256((ROOT/'third_party/sources.lock.json').read_bytes()).hexdigest()}
  assert all(hashlib.sha256((ROOT/p).read_bytes()).hexdigest()==h for p,h in inputs_before.items()),'Compiler inputs changed during build'
  report['compiler_inputs_sha256']=inputs_before;report['compiler_inputs_unchanged_during_build']=True;report['light_music_voice_capacity']=128 if light_music else None
- report['version']='0.7';report['renderer']='retained native BG0 maps + independent 4bpp BG1 text windows; RGB555 bitmap illustrations, portraits and battle scenes'
+ report['version']='0.7.1';report['renderer']='retained native BG0 maps + independent 4bpp BG1 text windows; RGB555 bitmap illustrations, portraits and battle scenes'
  (out/'build_receipt.json').write_text(json.dumps(report,ensure_ascii=False,indent=2));print(json.dumps(report,ensure_ascii=False,indent=2))
 if __name__=='__main__':main()

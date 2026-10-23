@@ -1,0 +1,92 @@
+{
+  "status": "pass",
+  "source_ZIP": "废都物语_GBA_匹配工程_v0.7.1_20261023.zip",
+  "source_ZIP_sha256": "33b1583538a9c1144a0eee6e7301a6b3c5cebae62601d21526072cafc16b2923",
+  "production_ROM_sha256": "738ae5637483a631e0ab109433497ac752cfc2b6ed43b94acab6b4b7e3818979",
+  "rebuilt_ROM_sha256": "738ae5637483a631e0ab109433497ac752cfc2b6ed43b94acab6b4b7e3818979",
+  "byte_identical": true,
+  "manifest_files_checked": 13201,
+  "fresh_extraction": "/tmp/ruina-v07-archive-9x4j8_zi",
+  "original_archive_and_font": "disabled by nonexistent paths",
+  "cached_rebuild_asset_python": "disabled by nonexistent path",
+  "cached_rebuild_Python_site_packages": "disabled by -S",
+  "post_build_smoke_checks": [
+    {
+      "name": "build_probe",
+      "status": "pass",
+      "command": [
+        "/home/app/venvs/pig/bin/python",
+        "tools/build_probe.py"
+      ],
+      "host_seconds": 0.3955773929992574
+    },
+    {
+      "name": "probe_file_IO_errors",
+      "status": "pass",
+      "command": [
+        "/home/app/venvs/pig/bin/python",
+        "tools/check_probe_save_io.py"
+      ],
+      "host_seconds": 0.2974438849996659
+    },
+    {
+      "name": "attribution_page",
+      "status": "pass",
+      "command": [
+        "/home/app/venvs/pig/bin/python",
+        "tools/check_attribution.py"
+      ],
+      "host_seconds": 2.1794449349981733
+    },
+    {
+      "name": "battle_menu_hierarchy",
+      "status": "pass",
+      "command": [
+        "/home/app/venvs/pig/bin/python",
+        "tools/check_battle_menu_navigation.py"
+      ],
+      "host_seconds": 5.8264390980002645
+    },
+    {
+      "name": "new_game_battle_and_SAV",
+      "status": "pass",
+      "command": [
+        "/home/app/venvs/pig/bin/python",
+        "tools/check_phase_demo.py"
+      ],
+      "host_seconds": 5.244445245996758
+    },
+    {
+      "name": "original_recipes_and_title",
+      "status": "pass",
+      "command": [
+        "/home/app/venvs/pig/bin/python",
+        "tools/check_incremental_rooms.py"
+      ],
+      "host_seconds": 31.78607204600121
+    },
+    {
+      "name": "independent_cached_PNG_pixels",
+      "status": "pass",
+      "command": [
+        "/home/app/venvs/pig/bin/python",
+        "tools/check_balanced_rgb.py"
+      ],
+      "host_seconds": 4.817472257996997
+    },
+    {
+      "name": "save_and_cold_load_stack",
+      "status": "pass",
+      "command": [
+        "/home/app/venvs/pig/bin/python",
+        "tools/check_save_stack.py"
+      ],
+      "host_seconds": 1.260294067000359
+    }
+  ],
+  "smoke_dependencies": "external GNU Arm, mGBA development library, C compiler and Pillow/NumPy Python; no original archive/font",
+  "built_programs_in_input_ZIP": false,
+  "host_seconds": 63.18633025099916,
+  "environment": "Linux/WSL; native Windows build not tested",
+  "compiler_version": "arm-none-eabi-gcc (15:13.2.rel1-2) 13.2.1 20231009"
+}

@@ -1,41 +1,14 @@
-﻿匹配工程 v0.7（2026-10-23）
+﻿匹配工程 v0.7.1（2026-10-23）
 
-Linux/WSL 安装 Python 3 与 GNU Arm Embedded 工具链后，在本目录运行：
-  python3 tools/build.py --incremental
-ARM_TOOLCHAIN_PREFIX 可指定 arm-none-eabi- 前缀。
-build/ 包含已转换的完整游戏资源。重建无需原 ZIP、字体或 Python 图像库。
-本包从实际 ZIP 新解压，以 python3 -S 重建并与试玩 ROM 逐字节核对。
-不附工具链或编译程序；Windows 原生构建未测。
-
-显示优化入口：platform/gba/video.c、rgb_surface.inc、native_ui.inc、image.c。
-共用规则在 runtime/rm2k/；本作启动、自制列表和音乐欣赏在 source/。
-同屏头像保留独立 RGB555 颜色，地图保留原尺寸；菜单与地图分层。
-剧情、物品、配方和敌人数值来自原 LCF，不在本轮重写。
-
-需要重新转换素材时，设置 RUINA_SOURCE_ARCHIVE、RUINA_FONT，并使用带 Pillow/NumPy 的 Python。
-重建简化音乐：python3 tools/rebuild_simplified_audio.py（需要 NumPy）。
-代码许可、上游版本和素材来源见 CREDITS.txt、LICENSE、third_party/。
-代码开源不改变原游戏素材的权利归属；本工程并非完整 EasyRPG 的 GBA 移植。
-
-验证需 mGBA 开发库，设置 MGBA_PREFIX 后执行 python3 tools/build_probe.py。
-通用回归：python3 tools/validate_optimization.py（设置 RUINA_ASSET_PYTHON 指向带图像库的 Python）。
-当前整套验证入口：python3 tools/validate_balanced.py；--skip-music 仅做部分检查，不生成最终通过。
-显示专测：check_balanced_rgb、check_balanced_menu_regions、check_balanced_ui_capacity。
-自然开场：check_balanced_playable --origin 1（另测 2、3、4）。
-列表效果对照：check_incremental_rooms；实际音乐欣赏：check_music_room_long。
-全部原生地图的窗口/头像/存档/插图返回：check_map_window_matrix（游戏音色）。
-存档编码与声音补充回调的逐字节检查：check_serviced_storage。
-物品列表原编号顺序：check_shop_item_order；原商店显示/交易对照：check_shop_comparison。
-物品栏筛选、翻页、说明、返回编号及原像素对照：check_inventory_matrix。
-全曲测试：check_music_full_scores_parallel（独立模拟器并行完整检查，默认 4 个）；check_music_full_scores_gba 保留串行入口。
-战斗层级与像素对照：check_battle_menu_comparison；取消资源与连续按键：check_battle_menu_navigation。
-全部均为 tools/ 下同名 .py 文件。
-tools/collect_balanced_acceptance.py 只汇总同一 ROM 哈希的完整报告，缺项会失败。
-最终汇总：evidence/balanced_optimization_20261023/final_acceptance.json。
-报告保留历史失败和未运行状态，不把旧 ROM 的结果当作当前版本通过。
-源码包保留报告和日志，实际截图与画面对照放在试玩包；不附全部历史截图、测试卡和录音。
-
-交付入口为 tools/deliver_balanced.py。旧 deliver_* 与 package_* 脚本属于历史版本。
-历史测试/性能对比可能另需旧 ROM、旧即时产物或用户原 ZIP；这些不包含在源码包中。
-正常重建、当前回归及新显示层测试不依赖 experiments/ 中的临时实验源码。
-完整自然通关、全部结局和真正 GBA 硬件仍未验收。
+本次新增扩充取名与 B 菜单操作说明。操作见“取名与操作说明_v0.7.1.txt”。
+构建：Linux/WSL、Python 3、外部 GNU Arm 工具链，执行 python3 tools/build.py --incremental。
+ARM_TOOLCHAIN_PREFIX 可指定 arm-none-eabi- 前缀。转换资源已附，无需原 ZIP、系统字体或图像库。
+工程重建校验.json 记录独立重建；交付包另核对实际源码 ZIP 的新解压重建。
+本次检查入口：evidence/ui_v071/current_validation.json。
+命名与操作说明专测：tools/check_common_names.py、tools/check_controls_help.py。
+按键测试另需外部 mGBA 开发库、Pillow/NumPy、C 编译器，详见 README.txt。
+v0.7 原报告保持原哈希，未冒充本次整曲或全部回归重跑。
+本包不含工具链、原游戏 ZIP、ROM 或旧版对比 ROM；缓存为编译输入。
+history/、evidence/ 的 SAV 为测试材料，不要当作新游戏的同名存档。
+完整自然通关、全部结局、GBA 实机以及 Windows 原生构建尚未验收。
+来源与许可证见 CREDITS.txt、LICENSE、third_party/。

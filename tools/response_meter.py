@@ -8,11 +8,12 @@ class ResponseMeter:
     def lcd(self):
         _,h,b=self.e.command('lcdhash').split();return h,int(b)
     def presents(self):return self.u32('video_metrics',16)+self.u32('map_video_metrics',8)
-    def action(self,label,key,strict_pixels=True):
+    def action(self,label,key,strict_pixels=True,observe=None):
         e=self.e;e.key(0);before=self.lcd();clock=self.timing();start=self.presents();trace=[];first=None;host=time.monotonic();stable=0
         for frame in range(1800):
             e.frames(1,key if frame<2 else 0);h,black=self.lcd();count=self.presents();ready=self.u32('ui_ready');pending=self.u32('input_latched')|self.u32('input_triggered')
             trace.append({'frame':frame+1,'LCD_hash':h,'black_pixels':black,'presentations':count-start,'ready':ready,'pending':pending})
+            if observe is not None:observe(frame+1,h,count-start)
             if first is None and count!=start and h!=before[0]:first=frame+1
             stable=stable+1 if ready and not pending else 0
             if first is not None and stable>=6 and frame>=13:break

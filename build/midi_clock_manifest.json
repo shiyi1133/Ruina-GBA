@@ -1,0 +1,3026 @@
+{
+  "kind": "original MIDI tempo/tick mapping at 16384 source samples per second",
+  "tracks": [
+    {
+      "id": 1,
+      "source": "Ruina121/game/Music/scene19.mid",
+      "sha256": "38f1e5ec62ec9f351b7b0615eaa7d0aea0326f36fa0d604f4c683ef702453c6c",
+      "segments": [
+        {
+          "tick": 0,
+          "sample": 0,
+          "tempo": 500000,
+          "division": 960
+        },
+        {
+          "tick": 480,
+          "sample": 4096,
+          "tempo": 750000,
+          "division": 960
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "source": "Ruina121/game/Music/ダンジョン4.mid",
+      "sha256": "97c961fdfe74a5cd943f4d92159798c81288bc2cb03ce2ec111a30a7bf4516ab",
+      "segments": [
+        {
+          "tick": 0,
+          "sample": 0,
+          "tempo": 576920,
+          "division": 384
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "source": "Ruina121/game/Music/町1.mid",
+      "sha256": "23f9ce80dc3d59bdb3536c0dd5ec35fe933873a8000ad0eee38c8e9bf8327a17",
+      "segments": [
+        {
+          "tick": 0,
+          "sample": 0,
+          "tempo": 545454,
+          "division": 96
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "source": "Ruina121/game/Music/Tale.mid",
+      "sha256": "3bb3aa79292b38aab546823846b6d2dfdbbf50e76c6dcf821331f1e98155bc80",
+      "segments": [
+        {
+          "tick": 0,
+          "sample": 0,
+          "tempo": 500000,
+          "division": 480
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "source": "Ruina121/game/Music/battle10.mid",
+      "sha256": "bb4693befee97f97547145cae9439de30d910242ca20728b2315202cbb818807",
+      "segments": [
+        {
+          "tick": 0,
+          "sample": 0,
+          "tempo": 335195,
+          "division": 960
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "source": "Ruina121/game/Music/boss12.mid",
+      "sha256": "6c0f659b374c25f458cc00025d28ef9b4c2294165b9875c6ea093c0ff2680106",
+      "segments": [
+        {
+          "tick": 0,
+          "sample": 0,
+          "tempo": 500000,
+          "division": 480
+        },
+        {
+          "tick": 240,
+          "sample": 4096,
+          "tempo": 375000,
+          "division": 480
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "source": "Ruina121/game/Music/J戦闘終了1.mid",
+      "sha256": "60d4c34df95ec087ba1923c6632a133a6525110e68d82435bdf3e76d87ff2caf",
+      "segments": [
+        {
+          "tick": 0,
+          "sample": 0,
+          "tempo": 500000,
+          "division": 96
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "source": "Ruina121/game/Music/ゲームオーバー3.mid",
+      "sha256": "5a2fd1608edf3c52d001dea7fd4e39928b9d612b2cb4e159b8a7c7c6450f9fe6",
+      "segments": [
+        {
+          "tick": 0,
+          "sample": 0,
+          "tempo": 857140,
+          "division": 384
+        },
+        {
+          "tick": 12288,
+          "sample": 449388,
+          "tempo": 923070,
+          "division": 384
+        },
+        {
+          "tick": 12672,
+          "sample": 464511,
+          "tempo": 1000000,
+          "division": 384
+        },
+        {
+          "tick": 13440,
+          "sample": 497279,
+          "tempo": 1090900,
+          "division": 384
+        },
+        {
+          "tick": 13824,
+          "sample": 515153,
+          "tempo": 857140,
+          "division": 384
+        },
+        {
+          "tick": 24960,
+          "sample": 922411,
+          "tempo": 937500,
+          "division": 384
+        },
+        {
+          "tick": 25728,
+          "sample": 953131,
+          "tempo": 1090900,
+          "division": 384
+        },
+        {
+          "tick": 26112,
+          "sample": 971004,
+          "tempo": 857140,
+          "division": 384
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "source": "Ruina121/game/Music/J宿2.mid",
+      "sha256": "08016acb354f51934370438ebe072dacaee953e84ae192f18c545462d28125f5",
+      "segments": [
+        {
+          "tick": 0,
+          "sample": 0,
+          "tempo": 500000,
+          "division": 96
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "source": "Ruina121/game/Music/安らぎ3.mid",
+      "sha256": "286fe24592e24c547c4f5e6b8ea71bef015d13c54e4e58006e442978511c562e",
+      "segments": [
+        {
+          "tick": 0,
+          "sample": 0,
+          "tempo": 500000,
+          "division": 384
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "source": "Ruina121/game/Music/店2.mid",
+      "sha256": "401d05c919017150b1af204bfc80c0564b47abf84b1fc3911413ad7963d69ac9",
+      "segments": [
+        {
+          "tick": 0,
+          "sample": 0,
+          "tempo": 461538,
+          "division": 96
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "source": "Ruina121/game/Music/船1.mid",
+      "sha256": "06c52813be27ae71fe1c86e6165144bd34fd84e449aed060d38deb9b818f03c2",
+      "segments": [
+        {
+          "tick": 0,
+          "sample": 0,
+          "tempo": 666666,
+          "division": 96
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "source": "Ruina121/game/Music/船2.mid",
+      "sha256": "4d2178d3c5be57203ea1808fae04ed8c72a8067b1c55c859b35af9378eab35e4",
+      "segments": [
+        {
+          "tick": 0,
+          "sample": 0,
+          "tempo": 500000,
+          "division": 96
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "source": "Ruina121/game/Music/乗り物1.mid",
+      "sha256": "63c3e1617c3cdc9a2be4add7c5e46ae2ce782910e0b1c3cbe74b6d2efa2cd404",
+      "segments": [
+        {
+          "tick": 0,
+          "sample": 0,
+          "tempo": 461538,
+          "division": 96
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "source": "Ruina121/game/Music/boss05.mid",
+      "sha256": "afcda66f45a631fad2047b866772e5b4fd570ae1514e2d53e63e42ff850ac8bb",
+      "segments": [
+        {
+          "tick": 0,
+          "sample": 0,
+          "tempo": 309278,
+          "division": 960
+        }
+      ]
+    },
+    {
+      "id": 234,
+      "source": "Ruina121/game/Music/1stEnemy.mid",
+      "sha256": "4882ba7dfe9a5bcf64d1ab6831953000f5cf5e948ea737149703a01b0ab23f9d",
+      "segments": [
+        {
+          "tick": 0,
+          "sample": 0,
+          "tempo": 431654,
+          "division": 480
+        }
+      ]
+    },
+    {
+      "id": 235,
+      "source": "Ruina121/game/Music/2bfree.mid",
+      "sha256": "dd2f19fc959f27436c827fd0b9e2dbdfb6f93db2bc3054f56f101d7d46ea9f05",
+      "segments": [
+        {
+          "tick": 0,
+          "sample": 0,
+          "tempo": 441176,
+          "division": 480
+        }
+      ]
+    },
+    {
+      "id": 236,
+      "source": "Ruina121/game/Music/DS-ba02.mid",
+      "sha256": "ca9130e5c2de2a8e5f147326ac898ed71bd9e2720d4f72f6fc6f61d108c4afaf",
+      "segments": [
+        {
+          "tick": 0,
+          "sample": 0,
+          "tempo": 200000,
+          "division": 480
+        },
+        {
+          "tick": 1920,
+          "sample": 13107,
+          "tempo": 340909,
+          "division": 480
+        }
+      ]
+    },
+    {
+      "id": 237,
+      "source": "Ruina121/game/Music/DS-ba03.mid",
+      "sha256": "0174593a0aeb2df87ccb88b1f9e37b2bf6d226e4960ae3ae4a3b7915c2136f91",
+      "segments": [
+        {
+          "tick": 0,
+          "sample": 0,
+          "tempo": 365853,
+          "division": 480
+        }
+      ]
+    },
+    {
+      "id": 238,
+      "source": "Ruina121/game/Music/DS-ba05.mid",
+      "sha256": "e6e1b2c5e8423585eb225a6d22b546cbddc35abd23f4f6472b1a0503e4af0dbf",
+      "segments": [
+        {
+          "tick": 0,
+          "sample": 0,
+          "tempo": 283018,
+          "division": 480
+        }
+      ]
+    },
+    {
+      "id": 239,
+      "source": "Ruina121/game/Music/FTALE_TY.MID",
+      "sha256": "ba59ce1bb3e78fe58dd40ccf9f1c52e70c50712753ed9f9751c517425b1d7a61",
+      "segments": [
+        {
+          "tick": 0,
+          "sample": 0,
+          "tempo": 500000,
+          "division": 480
+        },
+        {
+          "tick": 3840,
+          "sample": 65536,
+          "tempo": 697674,
+          "division": 480
+        },
+        {
+          "tick": 9840,
+          "sample": 208419,
+          "tempo": 714285,
+          "division": 480
+        },
+        {
+          "tick": 10080,
+          "sample": 214271,
+          "tempo": 731707,
+          "division": 480
+        },
+        {
+          "tick": 10320,
+          "sample": 220265,
+          "tempo": 750000,
+          "division": 480
+        },
+        {
+          "tick": 10800,
+          "sample": 232553,
+          "tempo": 789473,
+          "division": 480
+        },
+        {
+          "tick": 11040,
+          "sample": 239020,
+          "tempo": 810810,
+          "division": 480
+        },
+        {
+          "tick": 11280,
+          "sample": 245662,
+          "tempo": 833333,
+          "division": 480
+        },
+        {
+          "tick": 11520,
+          "sample": 252489,
+          "tempo": 697674,
+          "division": 480
+        },
+        {
+          "tick": 17520,
+          "sample": 395373,
+          "tempo": 714285,
+          "division": 480
+        },
+        {
+          "tick": 17760,
+          "sample": 401224,
+          "tempo": 731707,
+          "division": 480
+        },
+        {
+          "tick": 18240,
+          "sample": 413212,
+          "tempo": 750000,
+          "division": 480
+        },
+        {
+          "tick": 18480,
+          "sample": 419356,
+          "tempo": 789473,
+          "division": 480
+        },
+        {
+          "tick": 18720,
+          "sample": 425824,
+          "tempo": 810810,
+          "division": 480
+        },
+        {
+          "tick": 18960,
+          "sample": 432466,
+          "tempo": 833333,
+          "division": 480
+        },
+        {
+          "tick": 19200,
+          "sample": 439292,
+          "tempo": 697674,
+          "division": 480
+        },
+        {
+          "tick": 25200,
+          "sample": 582176,
+          "tempo": 714285,
+          "division": 480
+        },
+        {
+          "tick": 25440,
+          "sample": 588027,
+          "tempo": 731707,
+          "division": 480
+        },
+        {
+          "tick": 25920,
+          "sample": 600016,
+          "tempo": 750000,
+          "division": 480
+        },
+        {
+          "tick": 26160,
+          "sample": 606160,
+          "tempo": 789473,
+          "division": 480
+        },
+        {
+          "tick": 26400,
+          "sample": 612627,
+          "tempo": 810810,
+          "division": 480
+        },
+        {
+          "tick": 26640,
+          "sample": 619269,
+          "tempo": 833333,
+          "division": 480
+        },
+        {
+          "tick": 26880,
+          "sample": 626096,
+          "tempo": 697674,
+          "division": 480
+        },
+        {
+          "tick": 32880,
+          "sample": 768980,
+          "tempo": 714285,
+          "division": 480
+        },
+        {
+          "tick": 33120,
+          "sample": 774831,
+          "tempo": 731707,
+          "division": 480
+        },
+        {
+          "tick": 33600,
+          "sample": 786819,
+          "tempo": 750000,
+          "division": 480
+        },
+        {
+          "tick": 33840,
+          "sample": 792963,
+          "tempo": 789473,
+          "division": 480
+        },
+        {
+          "tick": 34080,
+          "sample": 799431,
+          "tempo": 810810,
+          "division": 480
+        },
+        {
+          "tick": 34320,
+          "sample": 806073,
+          "tempo": 833333,
+          "division": 480
+        },
+        {
+          "tick": 34560,
+          "sample": 812899,
+          "tempo": 697674,
+          "division": 480
+        },
+        {
+          "tick": 40560,
+          "sample": 955783,
+          "tempo": 714285,
+          "division": 480
+        },
+        {
+          "tick": 40800,
+          "sample": 961635,
+          "tempo": 731707,
+          "division": 480
+        },
+        {
+          "tick": 41280,
+          "sample": 973623,
+          "tempo": 750000,
+          "division": 480
+        },
+        {
+          "tick": 41520,
+          "sample": 979767,
+          "tempo": 789473,
+          "division": 480
+        },
+        {
+          "tick": 41760,
+          "sample": 986234,
+          "tempo": 810810,
+          "division": 480
+        },
+        {
+          "tick": 42000,
+          "sample": 992876,
+          "tempo": 833333,
+          "division": 480
+        },
+        {
+          "tick": 42240,
+          "sample": 999703,
+          "tempo": 697674,
+          "division": 480
+        },
+        {
+          "tick": 75120,
+          "sample": 1782705,
+          "tempo": 714285,
+          "division": 480
+        },
+        {
+          "tick": 75360,
+          "sample": 1788557,
+          "tempo": 731707,
+          "division": 480
+        },
+        {
+          "tick": 75840,
+          "sample": 1800545,
+          "tempo": 750000,
+          "division": 480
+        },
+        {
+          "tick": 76080,
+          "sample": 1806689,
+          "tempo": 789473,
+          "division": 480
+        },
+        {
+          "tick": 76320,
+          "sample": 1813156,
+          "tempo": 810810,
+          "division": 480
+        },
+        {
+          "tick": 76560,
+          "sample": 1819799,
+          "tempo": 833333,
+          "division": 480
+        }
+      ]
+    },
+    {
+      "id": 240,
+      "source": "Ruina121/game/Music/INT03.MID",
+      "sha256": "8e572e76204a28ed4823de146a0497edc1a7ab40d28b09860d772b3e2181e192",
+      "segments": [
+        {
+          "tick": 0,
+          "sample": 0,
+          "tempo": 400000,
+          "division": 480
+        }
+      ]
+    },
+    {
+      "id": 241,
+      "source": "Ruina121/game/Music/Jファンファーレ1.mid",
+      "sha256": "ddaa1626a1ea1a941c1d138e398025fbdbd1e468bc56e5cd562f1a7d36116338",
+      "segments": [
+        {
+          "tick": 0,
+          "sample": 0,
+          "tempo": 666666,
+          "division": 96
+        }
+      ]
+    },
+    {
+      "id": 242,
+      "source": "Ruina121/game/Music/Jファンファーレ2.mid",
+      "sha256": "f7dc99942800b040421db8f31f6a5d2c2d6a2bbf9b7749c4ddeac0272d3ca308",
+      "segments": [
+        {
+          "tick": 0,
+          "sample": 0,
+          "tempo": 428571,
+          "division": 96
+        }
+      ]
+    },
+    {
+      "id": 243,
+      "source": "Ruina121/game/Music/Jファンファーレ3.mid",
+      "sha256": "7621ec9d57014f7be5315c51d66400b4790b20ae60a382b1b63a8eb1af92240a",
+      "segments": [
+        {
+          "tick": 0,
+          "sample": 0,
+          "tempo": 697670,
+          "division": 384
+        },
+        {
+          "tick": 1536,
+          "sample": 45722,
+          "tempo": 659340,
+          "division": 384
+        },
+        {
+          "tick": 2304,
+          "sample": 67327,
+          "tempo": 697670,
+          "division": 384
+        },
+        {
+          "tick": 2688,
+          "sample": 78758,
+          "tempo": 740740,
+          "division": 384
+        },
+        {
+          "tick": 3072,
+          "sample": 90894,
+          "tempo": 769230,
+          "division": 384
+        },
+        {
+          "tick": 3264,
+          "sample": 97196,
+          "tempo": 810810,
+          "division": 384
+        },
+        {
+          "tick": 3456,
+          "sample": 103838,
+          "tempo": 845070,
+          "division": 384
+        }
+      ]
+    },
+    {
+      "id": 244,
+      "source": "Ruina121/game/Music/Jファンファーレ6.mid",
+      "sha256": "74720173a5a73bd234f58f42f0ef550866f29058f8e388cbbe9a5b5001bf18e3",
+      "segments": [
+        {
+          "tick": 0,
+          "sample": 0,
+          "tempo": 666666,
+          "division": 96
+        }
+      ]
+    },
+    {
+      "id": 245,
+      "source": "Ruina121/game/Music/LordofPit.mid",
+      "sha256": "7d38e5141c0a5d0734b4ef39481202c806464d6761d5e753b9c831db43d5dbdc",
+      "segments": [
+        {
+          "tick": 0,
+          "sample": 0,
+          "tempo": 425531,
+          "division": 480
+        }
+      ]
+    },
+    {
+      "id": 246,
+      "source": "Ruina121/game/Music/SLG_Engi.mid",
+      "sha256": "a694b4103c7e77452e81d57b44aab86481abdfe6d452f044d77a8ac1645e9a34",
+      "segments": [
+        {
+          "tick": 0,
+          "sample": 0,
+          "tempo": 441176,
+          "division": 480
+        }
+      ]
+    },
+    {
+      "id": 247,
+      "source": "Ruina121/game/Music/TRACK_3.MID",
+      "sha256": "554ec2c5745fcf542341a5a013ff925b4c06bfa04fd0e7a99cb253d153e2cb9f",
+      "segments": [
+        {
+          "tick": 0,
+          "sample": 0,
+          "tempo": 560677,
+          "division": 480
+        }
+      ]
+    },
+    {
+      "id": 248,
+      "source": "Ruina121/game/Music/TRACK_8.MID",
+      "sha256": "c9e39f00f090fb6d30323f627fb5946f337bad95e67724565b23068beba2d586",
+      "segments": [
+        {
+          "tick": 0,
+          "sample": 0,
+          "tempo": 618463,
+          "division": 480
+        }
+      ]
+    },
+    {
+      "id": 249,
+      "source": "Ruina121/game/Music/battle05a.mid",
+      "sha256": "39c7a798cd477fdaeacd20ecc875538a2dcae674edcf2d237688373ccdabcfb1",
+      "segments": [
+        {
+          "tick": 0,
+          "sample": 0,
+          "tempo": 359281,
+          "division": 960
+        }
+      ]
+    },
+    {
+      "id": 250,
+      "source": "Ruina121/game/Music/boss10.mid",
+      "sha256": "818236255ba0ef92a479a8a4d4d95e7de56d2290844764eac7d291dbd4329e04",
+      "segments": [
+        {
+          "tick": 0,
+          "sample": 0,
+          "tempo": 408163,
+          "division": 960
+        }
+      ]
+    },
+    {
+      "id": 251,
+      "source": "Ruina121/game/Music/climax.mid",
+      "sha256": "11518160d4c51d9f79cc10ef6c7a3cb843edd7ec328a8fb382e6a0b760953c0d",
+      "segments": [
+        {
+          "tick": 0,
+          "sample": 0,
+          "tempo": 394736,
+          "division": 480
+        },
+        {
+          "tick": 17280,
+          "sample": 232824,
+          "tempo": 365853,
+          "division": 480
+        }
+      ]
+    },
+    {
+      "id": 252,
+      "source": "Ruina121/game/Music/explorer.mid",
+      "sha256": "9573ed43f0b781a0816a425545717e07fb1075802dd7cf50813697d392211607",
+      "segments": [
+        {
+          "tick": 0,
+          "sample": 0,
+          "tempo": 652174,
+          "division": 480
+        }
+      ]
+    },
+    {
+      "id": 253,
+      "source": "Ruina121/game/Music/f03-In thunder.mid",
+      "sha256": "9913ecc806416277b799a8118e38a48c036cea57a639a659bd8aca499cc898a3",
+      "segments": [
+        {
+          "tick": 0,
+          "sample": 0,
+          "tempo": 500000,
+          "division": 480
+        },
+        {
+          "tick": 480,
+          "sample": 8192,
+          "tempo": 413793,
+          "division": 480
+        }
+      ]
+    },
+    {
+      "id": 254,
+      "source": "Ruina121/game/Music/f05-Forest of the hesitation.mid",
+      "sha256": "a496087684c46d62420041aa9a1af0530fc502463a4fe8bb0d00864ba0409d5e",
+      "segments": [
+        {
+          "tick": 0,
+          "sample": 0,
+          "tempo": 500000,
+          "division": 480
+        },
+        {
+          "tick": 480,
+          "sample": 8192,
+          "tempo": 333333,
+          "division": 480
+        }
+      ]
+    },
+    {
+      "id": 255,
+      "source": "Ruina121/game/Music/f06-Open-Air fire.mid",
+      "sha256": "c525cc2a4643abb9edf31039e5277a9d01fc71b35e6d64484692230af14a44ad",
+      "segments": [
+        {
+          "tick": 0,
+          "sample": 0,
+          "tempo": 500000,
+          "division": 480
+        },
+        {
+          "tick": 480,
+          "sample": 8192,
+          "tempo": 750000,
+          "division": 480
+        },
+        {
+          "tick": 29280,
+          "sample": 745472,
+          "tempo": 779220,
+          "division": 480
+        },
+        {
+          "tick": 29400,
+          "sample": 748663,
+          "tempo": 789473,
+          "division": 480
+        },
+        {
+          "tick": 29520,
+          "sample": 751897,
+          "tempo": 800000,
+          "division": 480
+        },
+        {
+          "tick": 29640,
+          "sample": 755174,
+          "tempo": 833333,
+          "division": 480
+        },
+        {
+          "tick": 29700,
+          "sample": 756880,
+          "tempo": 857142,
+          "division": 480
+        },
+        {
+          "tick": 29820,
+          "sample": 760391,
+          "tempo": 952380,
+          "division": 480
+        },
+        {
+          "tick": 29880,
+          "sample": 762342,
+          "tempo": 1071428,
+          "division": 480
+        },
+        {
+          "tick": 29940,
+          "sample": 764536,
+          "tempo": 1395348,
+          "division": 480
+        },
+        {
+          "tick": 30000,
+          "sample": 767394,
+          "tempo": 1714285,
+          "division": 480
+        },
+        {
+          "tick": 30060,
+          "sample": 770904,
+          "tempo": 2307692,
+          "division": 480
+        },
+        {
+          "tick": 30120,
+          "sample": 775631,
+          "tempo": 2608695,
+          "division": 480
+        },
+        {
+          "tick": 30180,
+          "sample": 780973,
+          "tempo": 2857142,
+          "division": 480
+        },
+        {
+          "tick": 30240,
+          "sample": 786825,
+          "tempo": 3333333,
+          "division": 480
+        },
+        {
+          "tick": 30300,
+          "sample": 793651,
+          "tempo": 3157894,
+          "division": 480
+        },
+        {
+          "tick": 30360,
+          "sample": 800119,
+          "tempo": 2857142,
+          "division": 480
+        },
+        {
+          "tick": 30420,
+          "sample": 805970,
+          "tempo": 2608695,
+          "division": 480
+        },
+        {
+          "tick": 30480,
+          "sample": 811313,
+          "tempo": 2400000,
+          "division": 480
+        },
+        {
+          "tick": 30540,
+          "sample": 816228,
+          "tempo": 2222222,
+          "division": 480
+        },
+        {
+          "tick": 30600,
+          "sample": 820779,
+          "tempo": 2068965,
+          "division": 480
+        },
+        {
+          "tick": 30660,
+          "sample": 825016,
+          "tempo": 1935483,
+          "division": 480
+        },
+        {
+          "tick": 30720,
+          "sample": 828980,
+          "tempo": 1818181,
+          "division": 480
+        },
+        {
+          "tick": 30780,
+          "sample": 832704,
+          "tempo": 1714285,
+          "division": 480
+        },
+        {
+          "tick": 30840,
+          "sample": 836215,
+          "tempo": 1621621,
+          "division": 480
+        },
+        {
+          "tick": 30900,
+          "sample": 839536,
+          "tempo": 1578947,
+          "division": 480
+        },
+        {
+          "tick": 30960,
+          "sample": 842769,
+          "tempo": 1500000,
+          "division": 480
+        },
+        {
+          "tick": 31020,
+          "sample": 845841,
+          "tempo": 1428571,
+          "division": 480
+        },
+        {
+          "tick": 31080,
+          "sample": 848767,
+          "tempo": 1363636,
+          "division": 480
+        },
+        {
+          "tick": 31140,
+          "sample": 851560,
+          "tempo": 1304347,
+          "division": 480
+        },
+        {
+          "tick": 31200,
+          "sample": 854231,
+          "tempo": 750000,
+          "division": 480
+        }
+      ]
+    },
+    {
+      "id": 256,
+      "source": "Ruina121/game/Music/f07-Incantation which was forgotten.mid",
+      "sha256": "cbbbf4c460879b2049458be7dcc9b3ea5a06b96822c063f958354ae73be06fcd",
+      "segments": [
+        {
+          "tick": 0,
+          "sample": 0,
+          "tempo": 500000,
+          "division": 480
+        },
+        {
+          "tick": 480,
+          "sample": 8192,
+          "tempo": 600000,
+          "division": 480
+        }
+      ]
+    },
+    {
+      "id": 257,
+      "source": "Ruina121/game/Music/f08-Long sword.mid",
+      "sha256": "92e923344858b6ede2f358518beabacdf9d54f9b4731f30a747e0beefa921c80",
+      "segments": [
+        {
+          "tick": 0,
+          "sample": 0,
+          "tempo": 500000,
+          "division": 480
+        },
+        {
+          "tick": 480,
+          "sample": 8192,
+          "tempo": 333333,
+          "division": 480
+        }
+      ]
+    },
+    {
+      "id": 258,
+      "source": "Ruina121/game/Music/f10-The village of the elf.mid",
+      "sha256": "7f856043bac025fa544ecb35ee164e597e325aa952bf144f31420f13e28c3eb4",
+      "segments": [
+        {
+          "tick": 0,
+          "sample": 0,
+          "tempo": 500000,
+          "division": 480
+        },
+        {
+          "tick": 480,
+          "sample": 8192,
+          "tempo": 750000,
+          "division": 480
+        }
+      ]
+    },
+    {
+      "id": 259,
+      "source": "Ruina121/game/Music/f20-Blade sounds.mid",
+      "sha256": "f6883a5f0c348fb8b02e36b9d4046b453791e6fca0db71fff0cab05d469477b6",
+      "segments": [
+        {
+          "tick": 0,
+          "sample": 0,
+          "tempo": 500000,
+          "division": 480
+        },
+        {
+          "tick": 480,
+          "sample": 8192,
+          "tempo": 333333,
+          "division": 480
+        }
+      ]
+    },
+    {
+      "id": 260,
+      "source": "Ruina121/game/Music/f25-Sky high.mid",
+      "sha256": "6d50c7ab7836447a28de8950a5547e904b78bab089e944ebebbaff7f60467c70",
+      "segments": [
+        {
+          "tick": 0,
+          "sample": 0,
+          "tempo": 500000,
+          "division": 480
+        },
+        {
+          "tick": 480,
+          "sample": 8192,
+          "tempo": 405405,
+          "division": 480
+        }
+      ]
+    },
+    {
+      "id": 261,
+      "source": "Ruina121/game/Music/field1.mid",
+      "sha256": "ab3735c577c034f66c010c82ba90bf2ff250fd9c8d475784013abf44dd726b7e",
+      "segments": [
+        {
+          "tick": 0,
+          "sample": 0,
+          "tempo": 535714,
+          "division": 480
+        },
+        {
+          "tick": 39600,
+          "sample": 724113,
+          "tempo": 530973,
+          "division": 480
+        },
+        {
+          "tick": 40320,
+          "sample": 737163,
+          "tempo": 526315,
+          "division": 480
+        },
+        {
+          "tick": 70320,
+          "sample": 1276109,
+          "tempo": 535714,
+          "division": 480
+        },
+        {
+          "tick": 70560,
+          "sample": 1280498,
+          "tempo": 545454,
+          "division": 480
+        },
+        {
+          "tick": 70800,
+          "sample": 1284966,
+          "tempo": 571428,
+          "division": 480
+        },
+        {
+          "tick": 71280,
+          "sample": 1294328,
+          "tempo": 545454,
+          "division": 480
+        },
+        {
+          "tick": 71520,
+          "sample": 1298797,
+          "tempo": 535714,
+          "division": 480
+        }
+      ]
+    },
+    {
+      "id": 262,
+      "source": "Ruina121/game/Music/field4.mid",
+      "sha256": "80686754a745efd3a9bbcb4b9d12f3f43280fe8ed02e007d9c59a5e72c8e53c6",
+      "segments": [
+        {
+          "tick": 0,
+          "sample": 0,
+          "tempo": 576923,
+          "division": 480
+        },
+        {
+          "tick": 36240,
+          "sample": 713649,
+          "tempo": 588235,
+          "division": 480
+        },
+        {
+          "tick": 36480,
+          "sample": 718467,
+          "tempo": 576923,
+          "division": 480
+        },
+        {
+          "tick": 36960,
+          "sample": 727920,
+          "tempo": 575815,
+          "division": 480
+        },
+        {
+          "tick": 37440,
+          "sample": 737354,
+          "tempo": 575263,
+          "division": 480
+        },
+        {
+          "tick": 37920,
+          "sample": 746779,
+          "tempo": 574712,
+          "division": 480
+        },
+        {
+          "tick": 38400,
+          "sample": 756195,
+          "tempo": 574162,
+          "division": 480
+        },
+        {
+          "tick": 49440,
+          "sample": 972558,
+          "tempo": 574712,
+          "division": 480
+        },
+        {
+          "tick": 49680,
+          "sample": 977266,
+          "tempo": 575815,
+          "division": 480
+        },
+        {
+          "tick": 49920,
+          "sample": 981983,
+          "tempo": 576923,
+          "division": 480
+        }
+      ]
+    },
+    {
+      "id": 263,
+      "source": "Ruina121/game/Music/field5.mid",
+      "sha256": "3316cf67ecceddd5885f5ed67603f715b4ae4118b27bb591920ddb4d50cd9943",
+      "segments": [
+        {
+          "tick": 0,
+          "sample": 0,
+          "tempo": 454545,
+          "division": 480
+        },
+        {
+          "tick": 46800,
+          "sample": 726108,
+          "tempo": 465116,
+          "division": 480
+        },
+        {
+          "tick": 47280,
+          "sample": 733728,
+          "tempo": 454545,
+          "division": 480
+        },
+        {
+          "tick": 61680,
+          "sample": 957146,
+          "tempo": 458015,
+          "division": 480
+        },
+        {
+          "tick": 62160,
+          "sample": 964650,
+          "tempo": 461538,
+          "division": 480
+        },
+        {
+          "tick": 62400,
+          "sample": 968431,
+          "tempo": 465116,
+          "division": 480
+        },
+        {
+          "tick": 62880,
+          "sample": 976052,
+          "tempo": 458015,
+          "division": 480
+        },
+        {
+          "tick": 63360,
+          "sample": 983556,
+          "tempo": 461538,
+          "division": 480
+        },
+        {
+          "tick": 63600,
+          "sample": 987337,
+          "tempo": 454545,
+          "division": 480
+        },
+        {
+          "tick": 74160,
+          "sample": 1151177,
+          "tempo": 458015,
+          "division": 480
+        },
+        {
+          "tick": 74640,
+          "sample": 1158681,
+          "tempo": 461538,
+          "division": 480
+        },
+        {
+          "tick": 74880,
+          "sample": 1162462,
+          "tempo": 465116,
+          "division": 480
+        },
+        {
+          "tick": 75120,
+          "sample": 1166272,
+          "tempo": 454545,
+          "division": 480
+        }
+      ]
+    },
+    {
+      "id": 264,
+      "source": "Ruina121/game/Music/forgotten-ruin.mid",
+      "sha256": "cf404b001a29ea320e8cb8ec4573c613fd44dfc79734a055bf60af404c487c3c",
+      "segments": [
+        {
+          "tick": 0,
+          "sample": 0,
+          "tempo": 250000,
+          "division": 480
+        },
+        {
+          "tick": 480,
+          "sample": 4096,
+          "tempo": 526315,
+          "division": 480
+        },
+        {
+          "tick": 52320,
+          "sample": 935395,
+          "tempo": 530973,
+          "division": 480
+        },
+        {
+          "tick": 58080,
+          "sample": 1039789,
+          "tempo": 535714,
+          "division": 480
+        },
+        {
+          "tick": 69600,
+          "sample": 1250440,
+          "tempo": 540540,
+          "division": 480
+        }
+      ]
+    },
+    {
+      "id": 265,
+      "source": "Ruina121/game/Music/groove01.mid",
+      "sha256": "d991db829a4a1499c2488e890af8c4a131aab24fbe6e92ad9d3e9ea79b0d84cf",
+      "segments": [
+        {
+          "tick": 0,
+          "sample": 0,
+          "tempo": 681818,
+          "division": 480
+        }
+      ]
+    },
+    {
+      "id": 266,
+      "source": "Ruina121/game/Music/groove03.mid",
+      "sha256": "3d480352595bc949c2993fd3430e93a4cb185c4008ea03c8324b3d9daed4807e",
+      "segments": [
+        {
+          "tick": 0,
+          "sample": 0,
+          "tempo": 416667,
+          "division": 480
+        }
+      ]
+    },
+    {
+      "id": 267,
+      "source": "Ruina121/game/Music/main1.mid",
+      "sha256": "a4b94eba86c751d62bfabb6be81eaa0eedd1f784232ffbd628c823a746fec418",
+      "segments": [
+        {
+          "tick": 0,
+          "sample": 0,
+          "tempo": 428571,
+          "division": 480
+        },
+        {
+          "tick": 6240,
+          "sample": 91282,
+          "tempo": 431654,
+          "division": 480
+        },
+        {
+          "tick": 6720,
+          "sample": 98354,
+          "tempo": 437956,
+          "division": 480
+        },
+        {
+          "tick": 7200,
+          "sample": 105529,
+          "tempo": 431654,
+          "division": 480
+        },
+        {
+          "tick": 8640,
+          "sample": 126746,
+          "tempo": 441176,
+          "division": 480
+        },
+        {
+          "tick": 9600,
+          "sample": 141202,
+          "tempo": 437956,
+          "division": 480
+        },
+        {
+          "tick": 9960,
+          "sample": 146584,
+          "tempo": 422535,
+          "division": 480
+        },
+        {
+          "tick": 10080,
+          "sample": 148315,
+          "tempo": 428571,
+          "division": 480
+        },
+        {
+          "tick": 57600,
+          "sample": 843464,
+          "tempo": 434782,
+          "division": 480
+        },
+        {
+          "tick": 58080,
+          "sample": 850587,
+          "tempo": 441176,
+          "division": 480
+        },
+        {
+          "tick": 58560,
+          "sample": 857816,
+          "tempo": 428571,
+          "division": 480
+        },
+        {
+          "tick": 66720,
+          "sample": 977185,
+          "tempo": 434782,
+          "division": 480
+        },
+        {
+          "tick": 72000,
+          "sample": 1055543,
+          "tempo": 437956,
+          "division": 480
+        },
+        {
+          "tick": 72960,
+          "sample": 1069894,
+          "tempo": 428571,
+          "division": 480
+        },
+        {
+          "tick": 74880,
+          "sample": 1097980,
+          "tempo": 444444,
+          "division": 480
+        },
+        {
+          "tick": 75120,
+          "sample": 1101621,
+          "tempo": 428571,
+          "division": 480
+        },
+        {
+          "tick": 75840,
+          "sample": 1112154,
+          "tempo": 465116,
+          "division": 480
+        },
+        {
+          "tick": 76080,
+          "sample": 1115964,
+          "tempo": 441176,
+          "division": 480
+        },
+        {
+          "tick": 76800,
+          "sample": 1126806,
+          "tempo": 428571,
+          "division": 480
+        },
+        {
+          "tick": 105120,
+          "sample": 1541087,
+          "tempo": 431654,
+          "division": 480
+        },
+        {
+          "tick": 105360,
+          "sample": 1544623,
+          "tempo": 437956,
+          "division": 480
+        },
+        {
+          "tick": 105600,
+          "sample": 1548211,
+          "tempo": 454545,
+          "division": 480
+        },
+        {
+          "tick": 105840,
+          "sample": 1551935,
+          "tempo": 461538,
+          "division": 480
+        },
+        {
+          "tick": 106080,
+          "sample": 1555716,
+          "tempo": 441176,
+          "division": 480
+        },
+        {
+          "tick": 106560,
+          "sample": 1562944,
+          "tempo": 750000,
+          "division": 480
+        },
+        {
+          "tick": 107040,
+          "sample": 1575232,
+          "tempo": 697674,
+          "division": 480
+        },
+        {
+          "tick": 109440,
+          "sample": 1632385,
+          "tempo": 705882,
+          "division": 480
+        },
+        {
+          "tick": 109680,
+          "sample": 1638168,
+          "tempo": 750000,
+          "division": 480
+        },
+        {
+          "tick": 109920,
+          "sample": 1644312,
+          "tempo": 722891,
+          "division": 480
+        },
+        {
+          "tick": 110400,
+          "sample": 1656156,
+          "tempo": 750000,
+          "division": 480
+        },
+        {
+          "tick": 110880,
+          "sample": 1668444,
+          "tempo": 789473,
+          "division": 480
+        },
+        {
+          "tick": 111360,
+          "sample": 1681378,
+          "tempo": 923076,
+          "division": 480
+        },
+        {
+          "tick": 111840,
+          "sample": 1696502,
+          "tempo": 428571,
+          "division": 480
+        },
+        {
+          "tick": 127680,
+          "sample": 1928218,
+          "tempo": 434782,
+          "division": 480
+        },
+        {
+          "tick": 127920,
+          "sample": 1931780,
+          "tempo": 425531,
+          "division": 480
+        },
+        {
+          "tick": 128400,
+          "sample": 1938752,
+          "tempo": 441176,
+          "division": 480
+        }
+      ]
+    },
+    {
+      "id": 268,
+      "source": "Ruina121/game/Music/main3.mid",
+      "sha256": "2b129afdcb40057040c911bd46b9fd821e583f6f8e0caf90a6e0fc524029fe57",
+      "segments": [
+        {
+          "tick": 0,
+          "sample": 0,
+          "tempo": 600000,
+          "division": 480
+        },
+        {
+          "tick": 3120,
+          "sample": 63897,
+          "tempo": 612244,
+          "division": 480
+        },
+        {
+          "tick": 3360,
+          "sample": 68913,
+          "tempo": 618556,
+          "division": 480
+        },
+        {
+          "tick": 3680,
+          "sample": 75669,
+          "tempo": 666666,
+          "division": 480
+        },
+        {
+          "tick": 3840,
+          "sample": 79310,
+          "tempo": 612244,
+          "division": 480
+        },
+        {
+          "tick": 4320,
+          "sample": 89341,
+          "tempo": 625000,
+          "division": 480
+        },
+        {
+          "tick": 5280,
+          "sample": 109821,
+          "tempo": 645161,
+          "division": 480
+        },
+        {
+          "tick": 5520,
+          "sample": 115106,
+          "tempo": 666666,
+          "division": 480
+        },
+        {
+          "tick": 5760,
+          "sample": 120567,
+          "tempo": 600000,
+          "division": 480
+        },
+        {
+          "tick": 6960,
+          "sample": 145143,
+          "tempo": 612244,
+          "division": 480
+        },
+        {
+          "tick": 7200,
+          "sample": 150159,
+          "tempo": 618556,
+          "division": 480
+        },
+        {
+          "tick": 7520,
+          "sample": 156915,
+          "tempo": 666666,
+          "division": 480
+        },
+        {
+          "tick": 8400,
+          "sample": 176940,
+          "tempo": 681818,
+          "division": 480
+        },
+        {
+          "tick": 8640,
+          "sample": 182525,
+          "tempo": 714285,
+          "division": 480
+        },
+        {
+          "tick": 8880,
+          "sample": 188377,
+          "tempo": 750000,
+          "division": 480
+        },
+        {
+          "tick": 9120,
+          "sample": 194521,
+          "tempo": 810810,
+          "division": 480
+        },
+        {
+          "tick": 9360,
+          "sample": 201163,
+          "tempo": 857142,
+          "division": 480
+        },
+        {
+          "tick": 9600,
+          "sample": 208185,
+          "tempo": 508474,
+          "division": 480
+        },
+        {
+          "tick": 19680,
+          "sample": 383132,
+          "tempo": 526315,
+          "division": 480
+        },
+        {
+          "tick": 20400,
+          "sample": 396067,
+          "tempo": 508474,
+          "division": 480
+        },
+        {
+          "tick": 23520,
+          "sample": 450217,
+          "tempo": 526315,
+          "division": 480
+        },
+        {
+          "tick": 24240,
+          "sample": 463152,
+          "tempo": 508474,
+          "division": 480
+        },
+        {
+          "tick": 31200,
+          "sample": 583949,
+          "tempo": 526315,
+          "division": 480
+        },
+        {
+          "tick": 31920,
+          "sample": 596884,
+          "tempo": 508474,
+          "division": 480
+        },
+        {
+          "tick": 35040,
+          "sample": 651034,
+          "tempo": 526315,
+          "division": 480
+        },
+        {
+          "tick": 35760,
+          "sample": 663969,
+          "tempo": 508474,
+          "division": 480
+        },
+        {
+          "tick": 38880,
+          "sample": 718120,
+          "tempo": 526315,
+          "division": 480
+        },
+        {
+          "tick": 39600,
+          "sample": 731054,
+          "tempo": 508474,
+          "division": 480
+        },
+        {
+          "tick": 46560,
+          "sample": 851851,
+          "tempo": 526315,
+          "division": 480
+        },
+        {
+          "tick": 47280,
+          "sample": 864786,
+          "tempo": 508474,
+          "division": 480
+        },
+        {
+          "tick": 60480,
+          "sample": 1093884,
+          "tempo": 517241,
+          "division": 480
+        },
+        {
+          "tick": 60960,
+          "sample": 1102359,
+          "tempo": 526315,
+          "division": 480
+        },
+        {
+          "tick": 61440,
+          "sample": 1110982,
+          "tempo": 517241,
+          "division": 480
+        },
+        {
+          "tick": 63360,
+          "sample": 1144880,
+          "tempo": 508474,
+          "division": 480
+        },
+        {
+          "tick": 66240,
+          "sample": 1194865,
+          "tempo": 526315,
+          "division": 480
+        },
+        {
+          "tick": 66480,
+          "sample": 1199176,
+          "tempo": 566037,
+          "division": 480
+        },
+        {
+          "tick": 66720,
+          "sample": 1203813,
+          "tempo": 517241,
+          "division": 480
+        },
+        {
+          "tick": 67200,
+          "sample": 1212288,
+          "tempo": 508474,
+          "division": 480
+        },
+        {
+          "tick": 81120,
+          "sample": 1453882,
+          "tempo": 526315,
+          "division": 480
+        },
+        {
+          "tick": 81600,
+          "sample": 1462505,
+          "tempo": 545454,
+          "division": 480
+        },
+        {
+          "tick": 81840,
+          "sample": 1466974,
+          "tempo": 508474,
+          "division": 480
+        },
+        {
+          "tick": 83520,
+          "sample": 1496132,
+          "tempo": 517241,
+          "division": 480
+        },
+        {
+          "tick": 84000,
+          "sample": 1504606,
+          "tempo": 530973,
+          "division": 480
+        },
+        {
+          "tick": 84240,
+          "sample": 1508956,
+          "tempo": 545454,
+          "division": 480
+        },
+        {
+          "tick": 84480,
+          "sample": 1513424,
+          "tempo": 550458,
+          "division": 480
+        },
+        {
+          "tick": 84720,
+          "sample": 1517933,
+          "tempo": 560747,
+          "division": 480
+        },
+        {
+          "tick": 84960,
+          "sample": 1522527,
+          "tempo": 588235,
+          "division": 480
+        },
+        {
+          "tick": 85200,
+          "sample": 1527346,
+          "tempo": 666666,
+          "division": 480
+        },
+        {
+          "tick": 85440,
+          "sample": 1532807,
+          "tempo": 689655,
+          "division": 480
+        },
+        {
+          "tick": 85680,
+          "sample": 1538457,
+          "tempo": 740740,
+          "division": 480
+        },
+        {
+          "tick": 85920,
+          "sample": 1544525,
+          "tempo": 769230,
+          "division": 480
+        },
+        {
+          "tick": 86160,
+          "sample": 1550827,
+          "tempo": 800000,
+          "division": 480
+        },
+        {
+          "tick": 86400,
+          "sample": 1557380,
+          "tempo": 1000000,
+          "division": 480
+        },
+        {
+          "tick": 87120,
+          "sample": 1581956,
+          "tempo": 638297,
+          "division": 480
+        },
+        {
+          "tick": 87840,
+          "sample": 1597643,
+          "tempo": 666666,
+          "division": 480
+        },
+        {
+          "tick": 88320,
+          "sample": 1608566,
+          "tempo": 645161,
+          "division": 480
+        },
+        {
+          "tick": 90240,
+          "sample": 1650847,
+          "tempo": 666666,
+          "division": 480
+        },
+        {
+          "tick": 90720,
+          "sample": 1661770,
+          "tempo": 689655,
+          "division": 480
+        },
+        {
+          "tick": 91680,
+          "sample": 1684368,
+          "tempo": 779220,
+          "division": 480
+        },
+        {
+          "tick": 92160,
+          "sample": 1697135,
+          "tempo": 468750,
+          "division": 480
+        },
+        {
+          "tick": 99840,
+          "sample": 1820015,
+          "tempo": 461538,
+          "division": 480
+        },
+        {
+          "tick": 101040,
+          "sample": 1838920,
+          "tempo": 454545,
+          "division": 480
+        },
+        {
+          "tick": 101520,
+          "sample": 1846367,
+          "tempo": 468750,
+          "division": 480
+        },
+        {
+          "tick": 101760,
+          "sample": 1850207,
+          "tempo": 461538,
+          "division": 480
+        },
+        {
+          "tick": 102240,
+          "sample": 1857769,
+          "tempo": 454545,
+          "division": 480
+        },
+        {
+          "tick": 103680,
+          "sample": 1880110,
+          "tempo": 333333,
+          "division": 480
+        },
+        {
+          "tick": 103800,
+          "sample": 1881476,
+          "tempo": 465116,
+          "division": 480
+        },
+        {
+          "tick": 105240,
+          "sample": 1904337,
+          "tempo": 612244,
+          "division": 480
+        },
+        {
+          "tick": 105360,
+          "sample": 1906845,
+          "tempo": 476190,
+          "division": 480
+        }
+      ]
+    },
+    {
+      "id": 269,
+      "source": "Ruina121/game/Music/mpanic.MID",
+      "sha256": "89b643f20fab1ddd362d2b481362d9446d9fcdbfd9665de13fb5d002cc49d5c9",
+      "segments": [
+        {
+          "tick": 0,
+          "sample": 0,
+          "tempo": 416666,
+          "division": 480
+        }
+      ]
+    },
+    {
+      "id": 270,
+      "source": "Ruina121/game/Music/overture.mid",
+      "sha256": "1d29fdb778e197e8095c67bf785209e5bcc705e6ba1e0c136898ec3bc6b7c917",
+      "segments": [
+        {
+          "tick": 0,
+          "sample": 0,
+          "tempo": 750000,
+          "division": 120
+        },
+        {
+          "tick": 7678,
+          "sample": 786227,
+          "tempo": 625000,
+          "division": 120
+        },
+        {
+          "tick": 7680,
+          "sample": 786397,
+          "tempo": 750000,
+          "division": 120
+        },
+        {
+          "tick": 8076,
+          "sample": 826948,
+          "tempo": 923077,
+          "division": 120
+        },
+        {
+          "tick": 8158,
+          "sample": 837282,
+          "tempo": 750000,
+          "division": 120
+        },
+        {
+          "tick": 8160,
+          "sample": 837487,
+          "tempo": 428571,
+          "division": 120
+        }
+      ]
+    },
+    {
+      "id": 271,
+      "source": "Ruina121/game/Music/ruins1.mid",
+      "sha256": "baa4edd21b0df89a2716adf1c4a56f833808550e042fc6786f286af702e306eb",
+      "segments": [
+        {
+          "tick": 0,
+          "sample": 0,
+          "tempo": 461538,
+          "division": 480
+        }
+      ]
+    },
+    {
+      "id": 272,
+      "source": "Ruina121/game/Music/sanct.mid",
+      "sha256": "150c3115e8d0d6f45f4d0109a4a9b0019a4ef3049da077abe4bee72d0a5fb403",
+      "segments": [
+        {
+          "tick": 0,
+          "sample": 0,
+          "tempo": 468750,
+          "division": 480
+        },
+        {
+          "tick": 18000,
+          "sample": 288000,
+          "tempo": 472440,
+          "division": 480
+        },
+        {
+          "tick": 18240,
+          "sample": 291870,
+          "tempo": 476190,
+          "division": 480
+        },
+        {
+          "tick": 18480,
+          "sample": 295771,
+          "tempo": 487804,
+          "division": 480
+        },
+        {
+          "tick": 18720,
+          "sample": 299767,
+          "tempo": 476190,
+          "division": 480
+        },
+        {
+          "tick": 19200,
+          "sample": 307569,
+          "tempo": 468750,
+          "division": 480
+        },
+        {
+          "tick": 35040,
+          "sample": 561009,
+          "tempo": 472440,
+          "division": 480
+        },
+        {
+          "tick": 35280,
+          "sample": 564879,
+          "tempo": 487804,
+          "division": 480
+        },
+        {
+          "tick": 35520,
+          "sample": 568875,
+          "tempo": 512820,
+          "division": 480
+        },
+        {
+          "tick": 35760,
+          "sample": 573076,
+          "tempo": 571428,
+          "division": 480
+        },
+        {
+          "tick": 36000,
+          "sample": 577757,
+          "tempo": 666666,
+          "division": 480
+        },
+        {
+          "tick": 36480,
+          "sample": 588680,
+          "tempo": 468750,
+          "division": 480
+        },
+        {
+          "tick": 40320,
+          "sample": 650120,
+          "tempo": 472440,
+          "division": 480
+        },
+        {
+          "tick": 40560,
+          "sample": 653990,
+          "tempo": 480000,
+          "division": 480
+        },
+        {
+          "tick": 40800,
+          "sample": 657922,
+          "tempo": 483870,
+          "division": 480
+        },
+        {
+          "tick": 41040,
+          "sample": 661886,
+          "tempo": 495867,
+          "division": 480
+        },
+        {
+          "tick": 41280,
+          "sample": 665948,
+          "tempo": 521739,
+          "division": 480
+        },
+        {
+          "tick": 41520,
+          "sample": 670222,
+          "tempo": 582524,
+          "division": 480
+        },
+        {
+          "tick": 41760,
+          "sample": 674994,
+          "tempo": 600000,
+          "division": 480
+        },
+        {
+          "tick": 42240,
+          "sample": 684825,
+          "tempo": 468750,
+          "division": 480
+        },
+        {
+          "tick": 77760,
+          "sample": 1253145,
+          "tempo": 472440,
+          "division": 480
+        },
+        {
+          "tick": 78000,
+          "sample": 1257015,
+          "tempo": 480000,
+          "division": 480
+        },
+        {
+          "tick": 78480,
+          "sample": 1264879,
+          "tempo": 491803,
+          "division": 480
+        },
+        {
+          "tick": 78720,
+          "sample": 1268908,
+          "tempo": 483870,
+          "division": 480
+        },
+        {
+          "tick": 79440,
+          "sample": 1280800,
+          "tempo": 468750,
+          "division": 480
+        }
+      ]
+    },
+    {
+      "id": 273,
+      "source": "Ruina121/game/Music/scene10.mid",
+      "sha256": "db07a201076d704a3005d4a4cc0b5b57812b8fbafae0a413c2525786ad9aee7f",
+      "segments": [
+        {
+          "tick": 0,
+          "sample": 0,
+          "tempo": 1666666,
+          "division": 960
+        }
+      ]
+    },
+    {
+      "id": 274,
+      "source": "Ruina121/game/Music/shrine2.mid",
+      "sha256": "9d76e532daa48f4f0eb8aa0d0b56bb94d942ebf1cd63314fcb9c482d72d838c4",
+      "segments": [
+        {
+          "tick": 0,
+          "sample": 0,
+          "tempo": 441176,
+          "division": 480
+        }
+      ]
+    },
+    {
+      "id": 275,
+      "source": "Ruina121/game/Music/syugekir.mid",
+      "sha256": "7aed266bb20e8c265eb2d351dd8269ea19904b8093a4bfecd3e448427284f15d",
+      "segments": [
+        {
+          "tick": 0,
+          "sample": 0,
+          "tempo": 461538,
+          "division": 480
+        }
+      ]
+    },
+    {
+      "id": 276,
+      "source": "Ruina121/game/Music/teikoku.mid",
+      "sha256": "e8b7cdab6da774e398642bdee056fdab057f192d1f080d7b7c9d90f68c5cbaaf",
+      "segments": [
+        {
+          "tick": 0,
+          "sample": 0,
+          "tempo": 483871,
+          "division": 120
+        }
+      ]
+    },
+    {
+      "id": 277,
+      "source": "Ruina121/game/Music/tower3.mid",
+      "sha256": "f8ad32c556053fed23297c51031f02336dc84272b95741197888e3c248100dfd",
+      "segments": [
+        {
+          "tick": 0,
+          "sample": 0,
+          "tempo": 545454,
+          "division": 480
+        },
+        {
+          "tick": 2160,
+          "sample": 40215,
+          "tempo": 576923,
+          "division": 480
+        },
+        {
+          "tick": 2400,
+          "sample": 44941,
+          "tempo": 545454,
+          "division": 480
+        }
+      ]
+    },
+    {
+      "id": 278,
+      "source": "Ruina121/game/Music/town08.mid",
+      "sha256": "f1eba517966338386ea2e9fcd166408a2dcd562dcee36d444e5208587187154a",
+      "segments": [
+        {
+          "tick": 0,
+          "sample": 0,
+          "tempo": 625000,
+          "division": 960
+        }
+      ]
+    },
+    {
+      "id": 279,
+      "source": "Ruina121/game/Music/yomei18_gm.mid",
+      "sha256": "10494763f403087f9d0c25ee231e3a82e1d168cbe816028c972f60e26373f109",
+      "segments": [
+        {
+          "tick": 0,
+          "sample": 0,
+          "tempo": 600000,
+          "division": 960
+        }
+      ]
+    },
+    {
+      "id": 280,
+      "source": "Ruina121/game/Music/エンディング2.mid",
+      "sha256": "3e2ac1b96f172f03789a724c7a911eca06c5d6d52425e140069ed66179613713",
+      "segments": [
+        {
+          "tick": 0,
+          "sample": 0,
+          "tempo": 666660,
+          "division": 384
+        }
+      ]
+    },
+    {
+      "id": 281,
+      "source": "Ruina121/game/Music/ゴーストタウン1.mid",
+      "sha256": "0b57b60545bac3cb6ae97ad29e1c36de0a214bd8d4fcd30d181ee54fc56c809a",
+      "segments": [
+        {
+          "tick": 0,
+          "sample": 0,
+          "tempo": 857142,
+          "division": 96
+        }
+      ]
+    },
+    {
+      "id": 282,
+      "source": "Ruina121/game/Music/ダンジョン1.mid",
+      "sha256": "42d33a7669127100151d38c13223825bdb612226730a32d9cf6962466b49bf4a",
+      "segments": [
+        {
+          "tick": 0,
+          "sample": 0,
+          "tempo": 600000,
+          "division": 96
+        }
+      ]
+    },
+    {
+      "id": 283,
+      "source": "Ruina121/game/Music/ダンジョン5.mid",
+      "sha256": "736d7257c8e98be3b4119efc7f1ffd223b79d74bf2832242c81ac93a090eff59",
+      "segments": [
+        {
+          "tick": 0,
+          "sample": 0,
+          "tempo": 750000,
+          "division": 384
+        }
+      ]
+    },
+    {
+      "id": 284,
+      "source": "Ruina121/game/Music/ピンチ.mid",
+      "sha256": "19144fc15435e24b5faa56a8e1f8340262dffbb5c6b17e5579ae197b32075de3",
+      "segments": [
+        {
+          "tick": 0,
+          "sample": 0,
+          "tempo": 337070,
+          "division": 384
+        }
+      ]
+    },
+    {
+      "id": 285,
+      "source": "Ruina121/game/Music/ボス2.mid",
+      "sha256": "6dd59634f42422b14ff4704ebacd11320bb7085047768786dd95bdb772b4e2d3",
+      "segments": [
+        {
+          "tick": 0,
+          "sample": 0,
+          "tempo": 750000,
+          "division": 96
+        }
+      ]
+    },
+    {
+      "id": 286,
+      "source": "Ruina121/game/Music/ボス4.mid",
+      "sha256": "710b61826d0d841afaa4c1736e2cf3b0c0320f8eb4c768a62e7bff0b490c788b",
+      "segments": [
+        {
+          "tick": 0,
+          "sample": 0,
+          "tempo": 612240,
+          "division": 384
+        },
+        {
+          "tick": 2496,
+          "sample": 65201,
+          "tempo": 638290,
+          "division": 384
+        },
+        {
+          "tick": 3264,
+          "sample": 86116,
+          "tempo": 666660,
+          "division": 384
+        },
+        {
+          "tick": 4032,
+          "sample": 107961,
+          "tempo": 697670,
+          "division": 384
+        },
+        {
+          "tick": 4416,
+          "sample": 119392,
+          "tempo": 612240,
+          "division": 384
+        },
+        {
+          "tick": 7872,
+          "sample": 209670,
+          "tempo": 645160,
+          "division": 384
+        },
+        {
+          "tick": 8640,
+          "sample": 230811,
+          "tempo": 674150,
+          "division": 384
+        },
+        {
+          "tick": 9408,
+          "sample": 252901,
+          "tempo": 714280,
+          "division": 384
+        },
+        {
+          "tick": 9792,
+          "sample": 264604,
+          "tempo": 612240,
+          "division": 384
+        }
+      ]
+    },
+    {
+      "id": 287,
+      "source": "Ruina121/game/Music/乗り物2.mid",
+      "sha256": "40f2b51c1abcb6725a34e0145c99aa4ca404f88e9e81f5aafdb74f4af6c3552c",
+      "segments": [
+        {
+          "tick": 0,
+          "sample": 0,
+          "tempo": 545454,
+          "division": 96
+        }
+      ]
+    },
+    {
+      "id": 288,
+      "source": "Ruina121/game/Music/別れ2.mid",
+      "sha256": "03c42cb5489cf5ac7f422517872ea01d884518252462085c7596ad76cd8a4c50",
+      "segments": [
+        {
+          "tick": 0,
+          "sample": 0,
+          "tempo": 952380,
+          "division": 384
+        },
+        {
+          "tick": 16896,
+          "sample": 686566,
+          "tempo": 1016940,
+          "division": 384
+        },
+        {
+          "tick": 17664,
+          "sample": 719890,
+          "tempo": 1111110,
+          "division": 384
+        },
+        {
+          "tick": 19200,
+          "sample": 792707,
+          "tempo": 952380,
+          "division": 384
+        },
+        {
+          "tick": 34560,
+          "sample": 1416859,
+          "tempo": 1016940,
+          "division": 384
+        },
+        {
+          "tick": 35328,
+          "sample": 1450182,
+          "tempo": 1111110,
+          "division": 384
+        },
+        {
+          "tick": 36860,
+          "sample": 1522810,
+          "tempo": 952380,
+          "division": 384
+        }
+      ]
+    },
+    {
+      "id": 289,
+      "source": "Ruina121/game/Music/勇者2.mid",
+      "sha256": "9b789b98e9cd7b451d3e1de448e8ed965abbfd55c916f07c27979acc02b01b1d",
+      "segments": [
+        {
+          "tick": 0,
+          "sample": 0,
+          "tempo": 500000,
+          "division": 384
+        }
+      ]
+    },
+    {
+      "id": 290,
+      "source": "Ruina121/game/Music/城2.mid",
+      "sha256": "15eab32972730e16192aebe666afc745b28094feed6a95bec65363ddf5afe85d",
+      "segments": [
+        {
+          "tick": 0,
+          "sample": 0,
+          "tempo": 666666,
+          "division": 96
+        }
+      ]
+    },
+    {
+      "id": 291,
+      "source": "Ruina121/game/Music/妖精1.mid",
+      "sha256": "9f7225cecd7a20d08abc13f847225492036b893afce8de0b3113c4f933e24cbe",
+      "segments": [
+        {
+          "tick": 0,
+          "sample": 0,
+          "tempo": 666666,
+          "division": 96
+        }
+      ]
+    },
+    {
+      "id": 292,
+      "source": "Ruina121/game/Music/妖精2.mid",
+      "sha256": "56e74f2d8e4603a1383e83d532a94a5bb3a247414ed7c897802bc84dc33e3cf8",
+      "segments": [
+        {
+          "tick": 0,
+          "sample": 0,
+          "tempo": 967740,
+          "division": 384
+        }
+      ]
+    },
+    {
+      "id": 293,
+      "source": "Ruina121/game/Music/店1.mid",
+      "sha256": "fb50f7458080e3b49574c20c698d55ba57e7d756a69e9102261596d9a2f9ee01",
+      "segments": [
+        {
+          "tick": 0,
+          "sample": 0,
+          "tempo": 600000,
+          "division": 96
+        }
+      ]
+    },
+    {
+      "id": 294,
+      "source": "Ruina121/game/Music/店3.mid",
+      "sha256": "7701de42a7566cc0b1e4c9744d452e49fb7281782cb1098ae07fae134a7cdd27",
+      "segments": [
+        {
+          "tick": 0,
+          "sample": 0,
+          "tempo": 434780,
+          "division": 384
+        }
+      ]
+    },
+    {
+      "id": 295,
+      "source": "Ruina121/game/Music/戦闘1.mid",
+      "sha256": "f2b7ca118a22acfa07e2af3c2fd797a9f94320b3120c0b94f2f80e057ea97755",
+      "segments": [
+        {
+          "tick": 0,
+          "sample": 0,
+          "tempo": 461538,
+          "division": 96
+        }
+      ]
+    },
+    {
+      "id": 296,
+      "source": "Ruina121/game/Music/戦闘2.mid",
+      "sha256": "14a76310dd3175e2331fcad04738a1e4fa5db0df246a376b16860a61eb338a3e",
+      "segments": [
+        {
+          "tick": 0,
+          "sample": 0,
+          "tempo": 545454,
+          "division": 96
+        }
+      ]
+    },
+    {
+      "id": 297,
+      "source": "Ruina121/game/Music/探索.mid",
+      "sha256": "2fd4e57575193e5c778c3bd32b3ee2b87273b4a71372145c5284b3a2c61acb00",
+      "segments": [
+        {
+          "tick": 0,
+          "sample": 0,
+          "tempo": 750000,
+          "division": 96
+        }
+      ]
+    },
+    {
+      "id": 298,
+      "source": "Ruina121/game/Music/明るい市場.mid",
+      "sha256": "9c4c9187b2cb4a43cf411ed23ad09bf270853b4266f29dcd231a89d35a0c925f",
+      "segments": [
+        {
+          "tick": 0,
+          "sample": 0,
+          "tempo": 500000,
+          "division": 96
+        }
+      ]
+    },
+    {
+      "id": 299,
+      "source": "Ruina121/game/Music/村1.mid",
+      "sha256": "367d3075aed0870966e8ba95e25deedd624cbbe7d6c32d6f5caff46e9a813b1f",
+      "segments": [
+        {
+          "tick": 0,
+          "sample": 0,
+          "tempo": 600000,
+          "division": 96
+        }
+      ]
+    },
+    {
+      "id": 300,
+      "source": "Ruina121/game/Music/村3.mid",
+      "sha256": "3bbf7f78dceca9adf9883bb7c420f6230f380b99e0d2d38977f4afa3e11b3aaf",
+      "segments": [
+        {
+          "tick": 0,
+          "sample": 0,
+          "tempo": 384610,
+          "division": 384
+        }
+      ]
+    },
+    {
+      "id": 301,
+      "source": "Ruina121/game/Music/町3.mid",
+      "sha256": "bb8370da842bf0b8a2aafd5aea7868801a305efa98bb80dd63e8a5d06c1f6b62",
+      "segments": [
+        {
+          "tick": 0,
+          "sample": 0,
+          "tempo": 600000,
+          "division": 384
+        }
+      ]
+    },
+    {
+      "id": 302,
+      "source": "Ruina121/game/Music/神秘2.mid",
+      "sha256": "72e5682542ca2eb449052e0a924f3a334552a49536e9d6eb89a2942c63e41de9",
+      "segments": [
+        {
+          "tick": 0,
+          "sample": 0,
+          "tempo": 750000,
+          "division": 96
+        }
+      ]
+    },
+    {
+      "id": 303,
+      "source": "Ruina121/game/Music/神秘3.mid",
+      "sha256": "a4731b1612ff131655c675ae62acf25b48609c1ca81a9aca27a4ab13b05e370a",
+      "segments": [
+        {
+          "tick": 0,
+          "sample": 0,
+          "tempo": 750000,
+          "division": 384
+        }
+      ]
+    },
+    {
+      "id": 304,
+      "source": "Ruina121/game/Music/秘宝.mid",
+      "sha256": "8ed07ca0d0a772a77f488d906fe9920e927f5930a21abdaa0ee2b992165041d2",
+      "segments": [
+        {
+          "tick": 0,
+          "sample": 0,
+          "tempo": 666666,
+          "division": 96
+        }
+      ]
+    },
+    {
+      "id": 305,
+      "source": "Ruina121/game/Music/空落ちる日.mid",
+      "sha256": "8c418b67a99970b8099cf6da457111a63d2720c48cce99f1ae88c581c199211b",
+      "segments": [
+        {
+          "tick": 0,
+          "sample": 0,
+          "tempo": 394736,
+          "division": 480
+        }
+      ]
+    },
+    {
+      "id": 306,
+      "source": "Ruina121/game/Music/試練.mid",
+      "sha256": "bef817c090689b93fa926a9e5739f7443bfb06fb227e9efc56f651af78a8d57a",
+      "segments": [
+        {
+          "tick": 0,
+          "sample": 0,
+          "tempo": 487800,
+          "division": 384
+        }
+      ]
+    },
+    {
+      "id": 307,
+      "source": "Ruina121/game/Music/足長- Across the Street, Cross One's Heart.mid",
+      "sha256": "f0d543f36ef046565afe85dfc7218ac960b479ce820431b4fb0dff2c092b14c9",
+      "segments": [
+        {
+          "tick": 0,
+          "sample": 0,
+          "tempo": 444444,
+          "division": 960
+        }
+      ]
+    },
+    {
+      "id": 308,
+      "source": "Ruina121/game/Music/足長e- I'll understand how you feel.mid",
+      "sha256": "b2c64c988e726cb7dc04b30a4db51532ff3fca8e1f550022143c6add95f60fdc",
+      "segments": [
+        {
+          "tick": 0,
+          "sample": 0,
+          "tempo": 500000,
+          "division": 960
+        },
+        {
+          "tick": 960,
+          "sample": 8192,
+          "tempo": 923076,
+          "division": 960
+        },
+        {
+          "tick": 33120,
+          "sample": 514835,
+          "tempo": 1333333,
+          "division": 960
+        },
+        {
+          "tick": 34560,
+          "sample": 547603,
+          "tempo": 2000000,
+          "division": 960
+        },
+        {
+          "tick": 35520,
+          "sample": 580371,
+          "tempo": 923076,
+          "division": 960
+        }
+      ]
+    },
+    {
+      "id": 309,
+      "source": "Ruina121/game/Music/足長j- Hypocrisy Imprint.mid",
+      "sha256": "5622ae40085378a9183509d1301719bbc39d84db065fa04699ee4e54694e8bd5",
+      "segments": [
+        {
+          "tick": 0,
+          "sample": 0,
+          "tempo": 500000,
+          "division": 960
+        },
+        {
+          "tick": 960,
+          "sample": 8192,
+          "tempo": 352941,
+          "division": 960
+        }
+      ]
+    },
+    {
+      "id": 310,
+      "source": "Ruina121/game/Music/足長j- Ownfault.mid",
+      "sha256": "37ec1a59f38d7eb485f6e3f6c20ffbfadd359ba04e89919287ab1fdc2401d857",
+      "segments": [
+        {
+          "tick": 0,
+          "sample": 0,
+          "tempo": 500000,
+          "division": 960
+        },
+        {
+          "tick": 960,
+          "sample": 8192,
+          "tempo": 600000,
+          "division": 960
+        }
+      ]
+    },
+    {
+      "id": 311,
+      "source": "Ruina121/game/Music/闇市.mid",
+      "sha256": "624a2f977d283db6b4a1bc6b282d5dee4231aedc78c7844e78844c1c33f164a3",
+      "segments": [
+        {
+          "tick": 0,
+          "sample": 0,
+          "tempo": 600000,
+          "division": 96
+        }
+      ]
+    },
+    {
+      "id": 312,
+      "source": "Ruina121/game/Music/魔王.mid",
+      "sha256": "51db8c1394d91fed89150478ee47e9ed05a7582d881bf80a224f7e0b8229ccb4",
+      "segments": [
+        {
+          "tick": 0,
+          "sample": 0,
+          "tempo": 441170,
+          "division": 384
+        }
+      ]
+    },
+    {
+      "id": 313,
+      "source": "Ruina121/game/Music/魔王魂-1-戦闘36.mid",
+      "sha256": "50e3b5c0c4d6cacd2014402ec1b5f82c7d1a294010f41f3c00ae7e83188c39ba",
+      "segments": [
+        {
+          "tick": 0,
+          "sample": 0,
+          "tempo": 300000,
+          "division": 960
+        },
+        {
+          "tick": 960,
+          "sample": 4915,
+          "tempo": 333333,
+          "division": 960
+        }
+      ]
+    },
+    {
+      "id": 314,
+      "source": "Ruina121/game/Music/魔王魂-2-ボス08.mid",
+      "sha256": "30e6b6a99a05aa8c5a80f8187dc57232c0f530a74c2ae08518a93a9467ac9ff1",
+      "segments": [
+        {
+          "tick": 0,
+          "sample": 0,
+          "tempo": 300000,
+          "division": 960
+        },
+        {
+          "tick": 960,
+          "sample": 4915,
+          "tempo": 363636,
+          "division": 960
+        }
+      ]
+    },
+    {
+      "id": 315,
+      "source": "Ruina121/game/Music/魔王魂-2-ラストボス01.mid",
+      "sha256": "7d224283955b75395f0d6c3a714f66477b9b5cfde10c586a473fed83c6115b38",
+      "segments": [
+        {
+          "tick": 0,
+          "sample": 0,
+          "tempo": 300000,
+          "division": 960
+        },
+        {
+          "tick": 960,
+          "sample": 4915,
+          "tempo": 750000,
+          "division": 960
+        },
+        {
+          "tick": 30720,
+          "sample": 385843,
+          "tempo": 983606,
+          "division": 960
+        },
+        {
+          "tick": 32640,
+          "sample": 418074,
+          "tempo": 361445,
+          "division": 960
+        },
+        {
+          "tick": 419520,
+          "sample": 2804605,
+          "tempo": 681818,
+          "division": 960
+        }
+      ]
+    },
+    {
+      "id": 316,
+      "source": "Ruina121/game/Music/魔王魂-2-ラストボス02.mid",
+      "sha256": "f08f29195f05b4cb1c923115a3748d1c19f23ef9e8edbb43981cbdd5fb6d2d3a",
+      "segments": [
+        {
+          "tick": 0,
+          "sample": 0,
+          "tempo": 500000,
+          "division": 960
+        }
+      ]
+    },
+    {
+      "id": 317,
+      "source": "Ruina121/game/Music/魔王魂-7-ロック09.mid",
+      "sha256": "773115a165f79796e9b9836a67ebb4bd1afcb00f0b44d6cf8dade7d21e5b87dc",
+      "segments": [
+        {
+          "tick": 0,
+          "sample": 0,
+          "tempo": 500000,
+          "division": 960
+        },
+        {
+          "tick": 960,
+          "sample": 8192,
+          "tempo": 300000,
+          "division": 960
+        }
+      ]
+    }
+  ]
+}

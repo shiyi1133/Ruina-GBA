@@ -10,4 +10,29 @@ static void inventory(void){int id=inventory_select(0),option,aid=0;if(!id)retur
     if(val(item_data[id],3,0)!=10&&!val(item_data[id],31,0)){aid=party_select();if(!aid)return;}
     if(!use_map_item(id,aid)&&!halt_code)describe("没有产生效果。");
 }
-void system_menu(void){static const char menu[]="队伍状态/随身物品/保存游戏/装备/特技/返回地图";int old_pause=engine_clock_paused,n;engine_clock_paused=1;n=choices((LcfSpan){(const u8*)menu,len(menu)},6);switch(n){case 0:status();break;case 1:inventory();break;case 2:if(!game.save_enabled)describe("现在不能保存。");else if((depth?save_checkpoint():save_game()))describe("已保存。可以关闭模拟器后继续游戏。");else describe("保存校验失败，请保留当前运行状态。");break;case 3:equipment_menu();break;case 4:field_skill_menu();break;}engine_clock_paused=old_pause;}
+/* Help is an overlay on the paused field, never an original game event. */
+static void controls_help(void){
+    static const char*const headings[]={"移动与调查","地图视野与标记","菜单与战斗","输入名字","音乐与存档"};
+    static const char*const lines[][7]={
+        {"方向键：移动当前位置。","A：调查脚下或面前的地点。","短按 L/R：选择远处调查点。","选点后 A：沿通路前往并调查。","手动移动会取消远处目标。","L+R：只前往选点，不自动调查。","B 或 START：打开系统菜单。"},
+        {"按住 R+方向键：浏览地图。","浏览视野不会移动角色。","黄色标记：可以调查的地点。","灰色标记：当前暂时无法到达。","蓝色标记：当前位置。","边缘亮三角：视野还能滚动。","灰三角表示视野边界，不是路障。"},
+        {"上下：选择；A：确定。","B：返回上一层或取消当前选择。","战斗中选目标时 B：回到列表。","技能或物品列表 B：回到指令。","物品、特技列表按 L 查看说明。","对话按 A 继续，长对话按 A 翻页。","原作制作等列表：L/R 快速翻页。"},
+        {"L/R：切换姓、名、字母等分类。","方向键选字，跨过本页自动翻页。","名字用字共四页，可混合输入。","A：添加；第一次选字替换原名。","B：删除最后一个完整字符。","START：完成；空名字保留原名。","SELECT：还原；最多输入六个字。"},
+        {"保存：B 菜单内选择保存游戏。","只有原事件允许时才能保存。","继续游戏读取普通 SAV 存档。","标题菜单可进入音乐欣赏。","上下选曲；A 播放或暂停。","左右或 L/R 换曲；B 返回。","START 切换两种简化音色。"}
+    };
+    int page=0,dirty=1,i;engine_ui_depth++;
+    for(;;){unsigned k;debug_state[15]=19;debug_state[16]=page;debug_state[17]=5;
+        if(dirty){draw_scene();box(2,3,236,155,11);rect(2,3,236,155,6);
+            draw_text(10,9,"操作说明",2,96);draw_num(199,9,page+1,6);draw_text(208,9,"/5",6,18);
+            draw_text(10,27,headings[page],2,216);
+            for(i=0;i<7;i++)draw_text(10,44+i*12,lines[page][i],1,222);
+            draw_text(10,142,"左右/LR翻页  B返回菜单",6,222);flip();dirty=0;}
+        k=wait_frame();if(k&KEY_B)break;
+        if(k&(KEY_LEFT|KEY_L)){page=(page+4)%5;dirty=1;}
+        if(k&(KEY_RIGHT|KEY_R)){page=(page+1)%5;dirty=1;}
+    }
+    debug_state[15]=0;engine_ui_depth--;
+}
+void system_menu(void){static const char menu[]="队伍状态/随身物品/保存游戏/装备/特技/操作说明/返回地图";int old_pause=engine_clock_paused,n,initial=0;engine_clock_paused=1;
+    for(;;){n=choices_selected((LcfSpan){(const u8*)menu,len(menu)},7,initial);if(n!=5)break;controls_help();initial=5;}
+    switch(n){case 0:status();break;case 1:inventory();break;case 2:if(!game.save_enabled)describe("现在不能保存。");else if((depth?save_checkpoint():save_game()))describe("已保存。可以关闭模拟器后继续游戏。");else describe("保存校验失败，请保留当前运行状态。");break;case 3:equipment_menu();break;case 4:field_skill_menu();break;}engine_clock_paused=old_pause;}

@@ -1,0 +1,11 @@
+{
+  "format": "128 original-derived periodic programs, 65 compiled amplitude steps, 128 points; gameplay samples 32 points",
+  "bytes": 2262716,
+  "table_bytes": 2129920,
+  "additional_samples_per_mix": 2,
+  "score_clock_Hz": 16384,
+  "music_room": "fine stereo wavetable, paired samples",
+  "gameplay": "coarse mono wavetable, paired samples",
+  "generator_sha256": "8912fbd4c47c8f281c95e407234915a5161054af00a5abcaf69278007a1df4bd",
+  "bank_sha256": "14f511e3ba953cd45c9bf63a2dfd950496141389a0ccddfdd75cee48b15b4e79"
+}

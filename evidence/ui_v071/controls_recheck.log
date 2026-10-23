@@ -1,0 +1,30 @@
+open_controls_help 9 150.68 ms; black 0
+help_next_page_R 8 133.94 ms; black 0
+help_next_page_right 9 150.68 ms; black 0
+help_next_page_R 9 150.68 ms; black 0
+help_next_page_right 8 133.94 ms; black 0
+help_next_page_R 9 150.68 ms; black 0
+help_previous_page_L 8 133.94 ms; black 0
+help_next_page_right 8 133.94 ms; black 0
+help_previous_page_left 8 133.94 ms; black 0
+help_B_returns_to_same_menu_entry 7 117.2 ms; black 0
+menu_B_returns_to_map 2 33.49 ms; black 0
+open_controls_help 9 150.68 ms; black 0
+help_next_page_R 8 133.94 ms; black 0
+help_next_page_right 9 150.68 ms; black 0
+help_next_page_R 9 150.68 ms; black 0
+help_next_page_right 8 133.94 ms; black 0
+help_next_page_R 8 133.94 ms; black 0
+help_previous_page_L 8 133.94 ms; black 0
+help_next_page_right 8 133.94 ms; black 0
+help_previous_page_left 8 133.94 ms; black 0
+help_B_returns_to_same_menu_entry 7 117.2 ms; black 0
+menu_B_returns_to_map 3 50.23 ms; black 0
+Traceback (most recent call last):
+  File "/mnt/d/gba_hack/废都物语_GBA章节样版/tools/check_controls_help.py", line 91, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/mnt/d/gba_hack/废都物语_GBA章节样版/tools/check_controls_help.py", line 73, in main
+    assert returned_hashes<=world_hashes,(returned_hashes,world_hashes)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ({'a2c74db3580ac90c', '9e12c68ef51aeb14'}, {'0d9bca1ff135e9df', '9e12c68ef51aeb14'})

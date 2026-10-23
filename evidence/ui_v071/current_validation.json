@@ -1,0 +1,28 @@
+{
+  "status": "pass",
+  "version": "0.7.1",
+  "ROM_sha256": "738ae5637483a631e0ab109433497ac752cfc2b6ed43b94acab6b4b7e3818979",
+  "reports": [
+    "evidence/ui_v071/738ae5637483/naming/result.json",
+    "evidence/ui_v071/738ae5637483/controls/result.json",
+    "evidence/naming_cut/738ae5637483/result.json",
+    "evidence/phase_demo_20261021/738ae5637483/result.json",
+    "evidence/balanced_optimization_20261023/738ae5637483/battle_menu_navigation/result.json"
+  ],
+  "scope": "All 221 name choices exact LCD glyphs; 30 surnames/100 given characters/case/digits/29 symbols; paging/limits/deletion; mixed-name ordinary SRAM cold-load; five help pages, 35 exact LCD text lines, nested B return and state preservation in new game and campaign SAV; four original openings; first original battle and victory; battle menu hierarchy/resources/LCD stability.",
+  "changed_compiler_inputs": [
+    "source/maps.c",
+    "platform/gba/event_input.c",
+    "build/assets.c",
+    "build/assets.h"
+  ],
+  "font_extension": "evidence/ui_v071/font_extension.json",
+  "unchanged": "Every other compiled source, original LCF, graphics, audio and save implementation; Game stays 39704 bytes, v5 SRAM format.",
+  "inherited_v07_report": "evidence/balanced_optimization_20261023/final_acceptance.json",
+  "inherited_report_ROM_sha256": "d8e63ad23769ed03f990420723b3c042f3e147b23565e2c23f4c0f67bbe1e780",
+  "whole_v07_suite_rerun": false,
+  "whole_music_rerun": false,
+  "test_observation_note": "Live selected-point marker animation is excluded from whole-map static hash assertions; every return frame is pixel-checked outside its actual 16x16 sprite rectangle. Earlier overly strict assertion failures are preserved.",
+  "physical_hardware": "not_run",
+  "full_campaign": "not_run"
+}

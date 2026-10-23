@@ -39,33 +39,45 @@ int event_number_input(int id,int digits){
 
 /* Small GBK name pools, separate from the full dialogue font. Keeping the
  * font does not require making every dialogue glyph a selectable name key. */
-static const char name_surnames[]="王李张刘陈杨黄赵吴周徐孙马朱胡郭何林高罗";
-static const char name_given[]="明华宇浩子轩安宁晨阳思雨雪梅兰芳静敏诗涵梦瑶欣怡佳清远乐文然";
+static const char name_surnames[]="王李张刘陈杨黄赵吴周徐孙马朱胡郭何林高罗郑梁谢宋唐许韩冯邓曹";
+static const char name_given[]="明华宇浩子轩安宁晨阳思雨雪梅兰芳静敏诗涵梦瑶欣怡佳清远乐文然俊杰伟强磊勇军峰涛鹏飞龙松柏枫林山川海洋天星月云风霖露冰霜虹彩春夏秋冬晓夕辰瑞嘉泽睿博智志诚信仁礼义贤德康健平顺成承启凯胜超卓扬帆逸舒宏美慧";
+static const char name_upper[]="ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+static const char name_lower[]="abcdefghijklmnopqrstuvwxyz";
+/* Exclude the engine's escape, ExFont and choice separator characters. */
+static const char name_symbols[]=".,!?:;-_+=*#@%&()[]{}<>~^|'\"·";
+static const char name_digits[]="0123456789";
+static const char*const name_pools[]={name_surnames,name_given,name_upper,name_lower,name_symbols,name_digits};
+static const char*const name_tabs[]={"姓氏","名字","ABC","abc","符号","数字"};
+
+static int name_count(const char*s){int n=0;while(*s){s+=(u8)*s<128?1:2;n++;}return n;}
+static const char*name_character(const char*s,int index){while(index--)s+=(u8)*s<128?1:2;return s;}
 
 volatile u32 balanced_name_metrics[4];/* scenes, grids, cells, name fields */
 static void name_cell(const char*pool,int i,int selected){
-    char b[3]={pool[i*2],pool[i*2+1],0};
-    box(11+i%10*22,54+i/10*20,18,18,i==selected?8:11);
-    draw_text(14+i%10*22,57+i/10*20,b,i==selected?2:1,12);balanced_name_metrics[2]++;
+    const char*p=name_character(pool,i);int cell=i%30,ascii=(u8)*p<128;
+    char b[3]={p[0],ascii?0:p[1],0};
+    box(11+cell%10*22,54+cell/10*20,18,18,i==selected?8:11);
+    draw_text((ascii?17:14)+cell%10*22,57+cell/10*20,b,i==selected?2:1,12);balanced_name_metrics[2]++;
 }
 void event_name_input(int id){
     char name[32];int selected=0,page=0,i,first=1,grid_dirty=1,name_dirty=1,cursor_dirty=0,old_cursor=0,editing=0;Actor*a;u32 scene_stamp=0;
     if(id<1||id>MAX_ACTOR){fault(9205);return;}
     a=&game.actors[id];memcpy(name,a->name,sizeof(name));name[31]=0;engine_ui_depth++;
     debug_state[15]=3;debug_state[16]=id;
-    for(;;){unsigned k;const char*pool=page?name_given:name_surnames;
-        int count=(page?sizeof(name_given):sizeof(name_surnames))/2,n=0,old_page=page,old_selected=selected;
+    for(;;){unsigned k;const char*pool=name_pools[page];
+        int count=name_count(pool),n=0,old_page=page,old_selected=selected,top=selected/30*30;
         while(name[n])n++;
         debug_state[17]=page;debug_state[18]=selected;debug_state[19]=count;debug_state[20]=n;debug_state[23]=editing;
         if(first||grid_dirty||name_dirty||cursor_dirty){
             u32 stamp=balanced_scene_stamp();if(stamp!=scene_stamp)first=grid_dirty=name_dirty=1;
             if(first){draw_scene();balanced_name_metrics[0]++;box(2,3,236,155,11);rect(2,3,236,155,6);
-                draw_text(9,9,"姓名：",6,48);draw_text(9,121,"A选字  B删除  START完成",2,222);
-                draw_text(9,142,"首次选字替换原名",6,144);draw_text(166,142,"SELECT原名",6,66);}
-            if(name_dirty){box(58,9,166,12,11);draw_text(58,9,name,1,166);balanced_name_metrics[3]++;}
-            if(grid_dirty){box(8,29,222,20,11);box(page?126:8,29,104,20,8);
-                draw_text(18,33,"L 常见姓氏",page?6:2,100);draw_text(136,33,"R 名字用字",page?2:6,100);
-                box(8,51,222,62,11);for(i=0;i<count;i++)name_cell(pool,i,selected);balanced_name_metrics[1]++;
+                draw_text(9,9,"姓名：",6,48);draw_text(9,121,"方向选字/翻页 L/R分类",6,190);
+                draw_text(9,142,"A选 B删 START完成 SELECT原名",2,222);}
+            if(name_dirty){box(58,9,170,12,11);draw_text(58,9,name,1,144);draw_num(209,9,name_count(name),6);draw_text(216,9,"/6",6,12);balanced_name_metrics[3]++;}
+            if(grid_dirty){box(8,29,222,20,11);
+                for(i=0;i<6;i++){int w=i==2||i==3?18:24;box(8+i*37,29,35,20,i==page?8:11);draw_text(8+i*37+(35-w)/2,33,name_tabs[i],i==page?2:6,30);}
+                box(8,51,222,62,11);for(i=top;i<count&&i<top+30;i++)name_cell(pool,i,selected);
+                box(201,119,29,15,11);draw_num(203,121,selected/30+1,6);draw_text(211,121,"/",6,6);draw_num(220,121,(count+29)/30,6);balanced_name_metrics[1]++;
             }else if(cursor_dirty){name_cell(pool,old_cursor,selected);name_cell(pool,selected,selected);}
             flip();first=grid_dirty=name_dirty=cursor_dirty=0;scene_stamp=balanced_scene_stamp();
         }
@@ -74,16 +86,16 @@ void event_name_input(int id){
         if(k&KEY_DOWN)selected=(selected+10)%count;
         if(k&KEY_LEFT)selected=(selected+count-1)%count;
         if(k&KEY_RIGHT)selected=(selected+1)%count;
-        if(k&(KEY_L|KEY_R)){page=(k&KEY_R)?1:0;selected=0;}
+        if(k&(KEY_L|KEY_R)){page=(page+((k&KEY_R)?1:5))%6;selected=0;}
         if(k&KEY_SELECT){memcpy(name,a->name,sizeof(name));name[31]=0;editing=0;name_dirty=1;}
         if(k&KEY_B){int j=0,last=0;while(name[j]){last=j;j+=((u8)name[j]<128?1:2);}if(j)name[last]=0;editing=1;name_dirty=1;}
         if(k&KEY_A){
             if(!editing){memset(name,0,sizeof(name));editing=1;}
-            n=0;while(name[n])n++;pool=page?name_given:name_surnames;
-            if(n<=10){name[n++]=pool[selected*2];name[n++]=pool[selected*2+1];name[n]=0;}
+            n=0;while(name[n])n++;pool=name_character(name_pools[page],selected);
+            if(name_count(name)<6){name[n++]=*pool++;if((u8)name[n-1]>=128)name[n++]=*pool;name[n]=0;}
             if(!page){page=1;selected=0;}name_dirty=1;
         }
-        if(page!=old_page)grid_dirty=1;
+        if(page!=old_page||selected/30!=old_selected/30)grid_dirty=1;
         else if(selected!=old_selected){old_cursor=old_selected;cursor_dirty=1;}
         if(k&KEY_START){if(name[0])memcpy(a->name,name,sizeof(name));debug_state[15]=0;engine_ui_depth--;return;}
     }

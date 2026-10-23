@@ -1,0 +1,146 @@
+given_next_page_right 5 83.71 ms; black 0
+given_previous_page_left 5 83.71 ms; black 0
+name_cell_right 2 33.49 ms; black 0
+name_cell_left 2 33.49 ms; black 0
+category_next 5 83.71 ms; black 0
+category_previous 5 83.71 ms; black 0
+{
+  "status": "pass",
+  "rom_sha256": "738ae5637483a631e0ab109433497ac752cfc2b6ed43b94acab6b4b7e3818979",
+  "pools": {
+    "surnames": "王李张刘陈杨黄赵吴周徐孙马朱胡郭何林高罗郑梁谢宋唐许韩冯邓曹",
+    "given": "明华宇浩子轩安宁晨阳思雨雪梅兰芳静敏诗涵梦瑶欣怡佳清远乐文然俊杰伟强磊勇军峰涛鹏飞龙松柏枫林山川海洋天星月云风霖露冰霜虹彩春夏秋冬晓夕辰瑞嘉泽睿博智志诚信仁礼义贤德康健平顺成承启凯胜超卓扬帆逸舒宏美慧",
+    "upper": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "lower": "abcdefghijklmnopqrstuvwxyz",
+    "symbols": ".,!?:;-_+=*#@%&()[]{}<>~^|'\"·",
+    "digits": "0123456789"
+  },
+  "counts": {
+    "surnames": 30,
+    "given": 100,
+    "upper": 26,
+    "lower": 26,
+    "symbols": 29,
+    "digits": 10
+  },
+  "checks": [
+    {
+      "check": "LCD selectable glyphs match cache exactly",
+      "category": "surnames",
+      "page": 1,
+      "characters": 30,
+      "different_pixels": 0,
+      "pass": true
+    },
+    {
+      "check": "LCD selectable glyphs match cache exactly",
+      "category": "given",
+      "page": 1,
+      "characters": 30,
+      "different_pixels": 0,
+      "pass": true
+    },
+    {
+      "check": "LCD selectable glyphs match cache exactly",
+      "category": "given",
+      "page": 2,
+      "characters": 30,
+      "different_pixels": 0,
+      "pass": true
+    },
+    {
+      "check": "LCD selectable glyphs match cache exactly",
+      "category": "given",
+      "page": 3,
+      "characters": 30,
+      "different_pixels": 0,
+      "pass": true
+    },
+    {
+      "check": "LCD selectable glyphs match cache exactly",
+      "category": "given",
+      "page": 4,
+      "characters": 10,
+      "different_pixels": 0,
+      "pass": true
+    },
+    {
+      "check": "LCD selectable glyphs match cache exactly",
+      "category": "upper",
+      "page": 1,
+      "characters": 26,
+      "different_pixels": 0,
+      "pass": true
+    },
+    {
+      "check": "LCD selectable glyphs match cache exactly",
+      "category": "lower",
+      "page": 1,
+      "characters": 26,
+      "different_pixels": 0,
+      "pass": true
+    },
+    {
+      "check": "LCD selectable glyphs match cache exactly",
+      "category": "symbols",
+      "page": 1,
+      "characters": 29,
+      "different_pixels": 0,
+      "pass": true
+    },
+    {
+      "check": "LCD selectable glyphs match cache exactly",
+      "category": "digits",
+      "page": 1,
+      "characters": 10,
+      "different_pixels": 0,
+      "pass": true
+    },
+    {
+      "check": "all six categories wrap without selecting empty cells",
+      "pass": true
+    },
+    {
+      "check": "cursor redraws only two cells; all measured changes commit complete nonblack LCD frames",
+      "pass": true
+    },
+    {
+      "check": "six characters for both ASCII and Chinese, complete deletion and SELECT original restore",
+      "pass": true
+    },
+    {
+      "check": "mixed case, Chinese, digit and symbol saved by real game menu with unchanged v5 format",
+      "name": "刘aZ9·慧",
+      "pass": true
+    },
+    {
+      "check": "new emulator process cold loads the exact mixed name and persistent player state",
+      "pass": true,
+      "observations": {
+        "full_state_checksum_at_load_matches": true,
+        "state_bytes_at_load": 39704,
+        "player_progress_after_background_events_resume_matches": true,
+        "compared_after_resume": [
+          "map",
+          "gold",
+          "inventory",
+          "party and party actor records",
+          "origin, SP, story phase"
+        ],
+        "all_bytes_after_resuming_background_events": "not required: original parallel events legitimately update scratch state"
+      }
+    },
+    {
+      "check": "START keeps default without editing",
+      "pass": true
+    },
+    {
+      "check": "empty confirmation keeps original",
+      "pass": true
+    }
+  ],
+  "memory": "read only",
+  "emulator_states": false,
+  "hardware": "not_run",
+  "full_campaign": "not_run"
+}
