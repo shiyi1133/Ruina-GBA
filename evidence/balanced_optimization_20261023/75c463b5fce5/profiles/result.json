@@ -1,0 +1,451 @@
+{
+  "ROM_sha256": "75c463b5fce5b7499a941144401d8a9c42b5c8de81e53ea21b70c64038d4dd82",
+  "method": "Read-only PC attribution of actual held-key GBA cycles; 20 hardware frames per scene include idle settling.",
+  "rows": [
+    {
+      "scene": "open_map_menu",
+      "cycles": [
+        [
+          "audio_service",
+          2106657
+        ],
+        [
+          "flip",
+          940172
+        ],
+        [
+          "memset",
+          572484
+        ],
+        [
+          "wait_frame",
+          447391
+        ],
+        [
+          "segment",
+          436503
+        ],
+        [
+          "audio_irq",
+          303709
+        ],
+        [
+          "____aeabi_ldiv0_from_arm",
+          250380
+        ],
+        [
+          "glyph_pixels",
+          132663
+        ],
+        [
+          "lcf_command_values",
+          79201
+        ],
+        [
+          "memcpy",
+          35516
+        ],
+        [
+          "wait_commit_window",
+          26541
+        ],
+        [
+          "execute_events_until",
+          22109
+        ],
+        [
+          "ui_insert",
+          19933
+        ],
+        [
+          "native_ui_commit",
+          19355
+        ],
+        [
+          "get_command",
+          17624
+        ],
+        [
+          "box",
+          16343
+        ],
+        [
+          "unmapped_0x0",
+          15058
+        ],
+        [
+          "draw_text",
+          14922
+        ],
+        [
+          "unmapped_0x8",
+          13402
+        ],
+        [
+          "resource_image",
+          10716
+        ],
+        [
+          "native_midi_render",
+          9951
+        ],
+        [
+          "balanced_scene_stamp",
+          9020
+        ],
+        [
+          "lcf_field",
+          6726
+        ],
+        [
+          "rgb_picture",
+          6645
+        ],
+        [
+          "lcf_borrow_command",
+          6294
+        ],
+        [
+          "hash_bytes",
+          6170
+        ],
+        [
+          "native_ui_damage.part.0",
+          6070
+        ],
+        [
+          "choices",
+          5629
+        ],
+        [
+          "parallel_tick",
+          4548
+        ],
+        [
+          "map_objects_pass",
+          4286
+        ]
+      ]
+    },
+    {
+      "scene": "move_menu_cursor",
+      "cycles": [
+        [
+          "audio_service",
+          3124042
+        ],
+        [
+          "wait_frame",
+          765856
+        ],
+        [
+          "segment",
+          434715
+        ],
+        [
+          "____aeabi_ldiv0_from_arm",
+          372110
+        ],
+        [
+          "flip",
+          323968
+        ],
+        [
+          "audio_irq",
+          298336
+        ],
+        [
+          "glyph_pixels",
+          70257
+        ],
+        [
+          "memset",
+          54490
+        ],
+        [
+          "mix_voice_block",
+          48791
+        ],
+        [
+          "ui_insert",
+          16558
+        ],
+        [
+          "native_ui_commit",
+          15788
+        ],
+        [
+          "unmapped_0x0",
+          15504
+        ],
+        [
+          "wait_commit_window",
+          14415
+        ],
+        [
+          "unmapped_0x8",
+          13435
+        ],
+        [
+          "memcpy",
+          9334
+        ],
+        [
+          "native_midi_render",
+          8951
+        ],
+        [
+          "draw_text",
+          8120
+        ],
+        [
+          "balanced_scene_stamp",
+          4508
+        ],
+        [
+          "choices",
+          2217
+        ],
+        [
+          "prepare_portraits",
+          2111
+        ],
+        [
+          "upload_ui_objects",
+          2069
+        ],
+        [
+          "advance_voice",
+          1836
+        ],
+        [
+          "native_ui_damage.part.0",
+          1834
+        ],
+        [
+          "box",
+          1518
+        ],
+        [
+          "engine_tick",
+          720
+        ],
+        [
+          "lcf_borrow_command",
+          572
+        ],
+        [
+          "rgb_picture",
+          555
+        ],
+        [
+          "start",
+          528
+        ],
+        [
+          "lcf_field",
+          504
+        ],
+        [
+          "world_view_x",
+          478
+        ]
+      ]
+    },
+    {
+      "scene": "close_map_menu",
+      "cycles": [
+        [
+          "audio_service",
+          1184428
+        ],
+        [
+          "execute_events_until",
+          780916
+        ],
+        [
+          "segment",
+          426114
+        ],
+        [
+          "mix_voice_block",
+          352591
+        ],
+        [
+          "lcf_borrow_command",
+          289576
+        ],
+        [
+          "lcf_command_values",
+          283574
+        ],
+        [
+          "wait_frame",
+          270502
+        ],
+        [
+          "audio_irq",
+          251830
+        ],
+        [
+          "____aeabi_ldiv0_from_arm",
+          137426
+        ],
+        [
+          "needs_ui",
+          135452
+        ],
+        [
+          "jump_slot",
+          109471
+        ],
+        [
+          "event_page",
+          90014
+        ],
+        [
+          "parallel_tick",
+          77344
+        ],
+        [
+          "lcf_field",
+          75886
+        ],
+        [
+          "get_command",
+          70126
+        ],
+        [
+          "memcpy",
+          64327
+        ],
+        [
+          "skip_to",
+          52617
+        ],
+        [
+          "access_mix",
+          48986
+        ],
+        [
+          "battle_actor_query",
+          44548
+        ],
+        [
+          "__gnu_thumb1_case_uqi",
+          43392
+        ],
+        [
+          "field",
+          35542
+        ],
+        [
+          "lcf_integer",
+          34877
+        ],
+        [
+          "presentation_busy",
+          32266
+        ],
+        [
+          "resource_image",
+          32229
+        ],
+        [
+          "rm2k_variable_op",
+          29616
+        ],
+        [
+          "val",
+          29192
+        ],
+        [
+          "pictures_tick",
+          25772
+        ],
+        [
+          "scan_points.isra.0",
+          25518
+        ],
+        [
+          "actor_query",
+          25288
+        ],
+        [
+          "__divsi3",
+          21688
+        ]
+      ]
+    }
+  ],
+  "commands": [
+    "frames 60 0",
+    "read 0202bfb4 4",
+    "read 0202bfc4 4",
+    "read 0202bfbc 4",
+    "frames 12 0",
+    "read 0202bfb4 4",
+    "frames 12 1",
+    "frames 24 0",
+    "read 0202bfb4 4",
+    "read 0202bfc4 4",
+    "read 0202bfbc 4",
+    "frames 12 0",
+    "read 0202bfb4 4",
+    "read 0202bfb4 4",
+    "read 0202bfc4 4",
+    "read 0202bfbc 4",
+    "frames 12 0",
+    "read 0202bfb4 4",
+    "frames 12 80",
+    "frames 24 0",
+    "read 0202bfb4 4",
+    "read 0202bfc4 4",
+    "read 0202bfbc 4",
+    "frames 12 0",
+    "read 0202bfb4 4",
+    "read 0202bfb4 4",
+    "read 0202bfc4 4",
+    "read 0202bfbc 4",
+    "frames 12 0",
+    "read 0202bfb4 4",
+    "frames 12 1",
+    "frames 24 0",
+    "read 0202bfb4 4",
+    "read 0202bfc4 4",
+    "read 0202bfbc 4",
+    "frames 12 0",
+    "read 0202bfb4 4",
+    "read 0202bfc4 4",
+    "read 0202bfbc 4",
+    "frames 12 0",
+    "read 0202bfb4 4",
+    "read 0202bfc4 4",
+    "read 0202bfbc 4",
+    "frames 12 0",
+    "read 0202bfb4 4",
+    "read 0202bfc4 4",
+    "read 0202bfbc 4",
+    "frames 12 0",
+    "read 0202bfb4 4",
+    "read 0202bfc4 4",
+    "read 0202bfbc 4",
+    "frames 12 0",
+    "read 0202bfb4 4",
+    "read 0202bfc4 4",
+    "read 0202bfbc 4",
+    "frames 12 0",
+    "read 0202bfb4 4",
+    "frames 120 0",
+    "read 0200f5d8 60",
+    "frames 12 0",
+    "profile_cycles 20 8 /mnt/d/gba_hack/废都物语_GBA章节样版/evidence/balanced_optimization_20261023/75c463b5fce5/profiles/open_map_menu.txt",
+    "frames 30 0",
+    "frames 12 0",
+    "profile_cycles 20 80 /mnt/d/gba_hack/废都物语_GBA章节样版/evidence/balanced_optimization_20261023/75c463b5fce5/profiles/move_menu_cursor.txt",
+    "frames 30 0",
+    "frames 12 0",
+    "profile_cycles 20 2 /mnt/d/gba_hack/废都物语_GBA章节样版/evidence/balanced_optimization_20261023/75c463b5fce5/profiles/close_map_menu.txt",
+    "frames 30 0"
+  ]
+}

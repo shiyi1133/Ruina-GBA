@@ -1,0 +1,246 @@
+{
+  "status": "pass",
+  "ROM_sha256": "360c2d70750969f814da9e95244c279669dd431dd1d7bb0134701fcf9f1acc64",
+  "base_ROM_sha256": "1db4e8b86af4cc3b4e71abdc983f9a8e5a2c84eb5784738258912a75750e1561",
+  "scope": "all four original origins, both overview/native modes through first map only; actual emulated buttons, no memory writes or instant states",
+  "cases": [
+    {
+      "status": "pass",
+      "origin": 1,
+      "view": "native",
+      "checks": {
+        "GBA_mode3_direct_RGB555": true,
+        "full_illustration_inspector_exact_RGB555_and_does_not_advance_text": true,
+        "natural_original_opening_reaches_first_map": true,
+        "chosen_origin_retained": true,
+        "original_faces_have_no_palette_fitting": true,
+        "first_map_original_pixels_exact_in_all_observed_crops": true,
+        "exploration_mask_can_be_restored_without_story_changes": true,
+        "restart_title_has_no_old_map_overlay": true
+      },
+      "face_pixels_compared": 9216,
+      "native_map_crops": [
+        {
+          "camera": [
+            80,
+            80
+          ],
+          "different_source_RGB555_pixels": 0,
+          "pixels_compared": 38144
+        },
+        {
+          "camera": [
+            0,
+            0
+          ],
+          "different_source_RGB555_pixels": 0,
+          "pixels_compared": 38144
+        },
+        {
+          "camera": [
+            80,
+            0
+          ],
+          "different_source_RGB555_pixels": 0,
+          "pixels_compared": 38144
+        },
+        {
+          "camera": [
+            0,
+            80
+          ],
+          "different_source_RGB555_pixels": 0,
+          "pixels_compared": 38144
+        },
+        {
+          "camera": [
+            80,
+            80
+          ],
+          "different_source_RGB555_pixels": 0,
+          "pixels_compared": 38144
+        }
+      ]
+    },
+    {
+      "status": "pass",
+      "origin": 2,
+      "view": "native",
+      "checks": {
+        "GBA_mode3_direct_RGB555": true,
+        "natural_original_opening_reaches_first_map": true,
+        "chosen_origin_retained": true,
+        "original_faces_have_no_palette_fitting": true,
+        "first_map_original_pixels_exact_in_all_observed_crops": true,
+        "exploration_mask_can_be_restored_without_story_changes": true,
+        "restart_title_has_no_old_map_overlay": true
+      },
+      "face_pixels_compared": 9216,
+      "native_map_crops": [
+        {
+          "camera": [
+            80,
+            80
+          ],
+          "different_source_RGB555_pixels": 0,
+          "pixels_compared": 38144
+        }
+      ]
+    },
+    {
+      "status": "pass",
+      "origin": 3,
+      "view": "native",
+      "checks": {
+        "GBA_mode3_direct_RGB555": true,
+        "natural_original_opening_reaches_first_map": true,
+        "chosen_origin_retained": true,
+        "original_faces_have_no_palette_fitting": true,
+        "first_map_original_pixels_exact_in_all_observed_crops": true,
+        "exploration_mask_can_be_restored_without_story_changes": true,
+        "restart_title_has_no_old_map_overlay": true
+      },
+      "face_pixels_compared": 9216,
+      "native_map_crops": [
+        {
+          "camera": [
+            80,
+            80
+          ],
+          "different_source_RGB555_pixels": 0,
+          "pixels_compared": 38144
+        }
+      ]
+    },
+    {
+      "status": "pass",
+      "origin": 4,
+      "view": "native",
+      "checks": {
+        "GBA_mode3_direct_RGB555": true,
+        "natural_original_opening_reaches_first_map": true,
+        "chosen_origin_retained": true,
+        "original_faces_have_no_palette_fitting": true,
+        "first_map_original_pixels_exact_in_all_observed_crops": true,
+        "exploration_mask_can_be_restored_without_story_changes": true,
+        "restart_title_has_no_old_map_overlay": true
+      },
+      "face_pixels_compared": 9216,
+      "native_map_crops": [
+        {
+          "camera": [
+            80,
+            80
+          ],
+          "different_source_RGB555_pixels": 0,
+          "pixels_compared": 38144
+        }
+      ]
+    },
+    {
+      "status": "pass",
+      "origin": 1,
+      "view": "fit",
+      "checks": {
+        "GBA_mode3_direct_RGB555": true,
+        "natural_original_opening_reaches_first_map": true,
+        "chosen_origin_retained": true,
+        "original_faces_have_no_palette_fitting": true,
+        "first_map_original_pixels_exact_in_all_observed_crops": true,
+        "exploration_mask_can_be_restored_without_story_changes": true,
+        "restart_title_has_no_old_map_overlay": true
+      },
+      "face_pixels_compared": 9216,
+      "native_map_crops": [
+        {
+          "camera": [
+            80,
+            80
+          ],
+          "different_source_RGB555_pixels": 0,
+          "pixels_compared": 38144
+        }
+      ]
+    },
+    {
+      "status": "pass",
+      "origin": 2,
+      "view": "fit",
+      "checks": {
+        "GBA_mode3_direct_RGB555": true,
+        "natural_original_opening_reaches_first_map": true,
+        "chosen_origin_retained": true,
+        "original_faces_have_no_palette_fitting": true,
+        "first_map_original_pixels_exact_in_all_observed_crops": true,
+        "exploration_mask_can_be_restored_without_story_changes": true,
+        "restart_title_has_no_old_map_overlay": true
+      },
+      "face_pixels_compared": 9216,
+      "native_map_crops": [
+        {
+          "camera": [
+            80,
+            80
+          ],
+          "different_source_RGB555_pixels": 0,
+          "pixels_compared": 38144
+        }
+      ]
+    },
+    {
+      "status": "pass",
+      "origin": 3,
+      "view": "fit",
+      "checks": {
+        "GBA_mode3_direct_RGB555": true,
+        "natural_original_opening_reaches_first_map": true,
+        "chosen_origin_retained": true,
+        "original_faces_have_no_palette_fitting": true,
+        "first_map_original_pixels_exact_in_all_observed_crops": true,
+        "exploration_mask_can_be_restored_without_story_changes": true,
+        "restart_title_has_no_old_map_overlay": true
+      },
+      "face_pixels_compared": 9216,
+      "native_map_crops": [
+        {
+          "camera": [
+            80,
+            80
+          ],
+          "different_source_RGB555_pixels": 0,
+          "pixels_compared": 38144
+        }
+      ]
+    },
+    {
+      "status": "pass",
+      "origin": 4,
+      "view": "fit",
+      "checks": {
+        "GBA_mode3_direct_RGB555": true,
+        "natural_original_opening_reaches_first_map": true,
+        "chosen_origin_retained": true,
+        "original_faces_have_no_palette_fitting": true,
+        "first_map_original_pixels_exact_in_all_observed_crops": true,
+        "exploration_mask_can_be_restored_without_story_changes": true,
+        "restart_title_has_no_old_map_overlay": true
+      },
+      "face_pixels_compared": 9216,
+      "native_map_crops": [
+        {
+          "camera": [
+            80,
+            80
+          ],
+          "different_source_RGB555_pixels": 0,
+          "pixels_compared": 38144
+        }
+      ]
+    }
+  ],
+  "native_map_pixels_compared": 457728,
+  "different_original_RGB555_pixels": 0,
+  "face_pixels_compared": 73728,
+  "physical_hardware": "not_run",
+  "whole_game": "not_run"
+}

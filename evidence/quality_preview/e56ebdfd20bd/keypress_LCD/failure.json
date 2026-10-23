@@ -1,0 +1,1384 @@
+{
+  "status": "fail",
+  "error": "AssertionError({'action': 'origin_down', 'frames_observed': 40, 'before': '3b1ceb749a8143cd', 'after': '60eca4291c62b555', 'transient_frames': 0, 'fully_black_frames': 0, 'commit_metrics': [8, 0, 211, 160, 143, 18, 0, 1928], 'copied_damage': [38400, 6, 2, 0], 'menu_before': [2, 10, 0, 2], 'menu_after': [3, 14, 0, 2], 'name_before': [0, 0, 0, 0], 'name_after': [0, 0, 0, 0], 'trace': [{'frame': 0, 'LCD_hash': '3b1ceb749a8143cd', 'black_pixels': 480}, {'frame': 1, 'LCD_hash': '3b1ceb749a8143cd', 'black_pixels': 480}, {'frame': 2, 'LCD_hash': '3b1ceb749a8143cd', 'black_pixels': 480}, {'frame': 3, 'LCD_hash': '3b1ceb749a8143cd', 'black_pixels': 480}, {'frame': 4, 'LCD_hash': '3b1ceb749a8143cd', 'black_pixels': 480}, {'frame': 5, 'LCD_hash': '3b1ceb749a8143cd', 'black_pixels': 480}, {'frame': 6, 'LCD_hash': '3b1ceb749a8143cd', 'black_pixels': 480}, {'frame': 7, 'LCD_hash': '3b1ceb749a8143cd', 'black_pixels': 480}, {'frame': 8, 'LCD_hash': '3b1ceb749a8143cd', 'black_pixels': 480}, {'frame': 9, 'LCD_hash': '3b1ceb749a8143cd', 'black_pixels': 480}, {'frame': 10, 'LCD_hash': '3b1ceb749a8143cd', 'black_pixels': 480}, {'frame': 11, 'LCD_hash': '3b1ceb749a8143cd', 'black_pixels': 480}, {'frame': 12, 'LCD_hash': '3b1ceb749a8143cd', 'black_pixels': 480}, {'frame': 13, 'LCD_hash': '3b1ceb749a8143cd', 'black_pixels': 480}, {'frame': 14, 'LCD_hash': '3b1ceb749a8143cd', 'black_pixels': 480}, {'frame': 15, 'LCD_hash': '3b1ceb749a8143cd', 'black_pixels': 480}, {'frame': 16, 'LCD_hash': '3b1ceb749a8143cd', 'black_pixels': 480}, {'frame': 17, 'LCD_hash': '3b1ceb749a8143cd', 'black_pixels': 480}, {'frame': 18, 'LCD_hash': '3b1ceb749a8143cd', 'black_pixels': 480}, {'frame': 19, 'LCD_hash': '3b1ceb749a8143cd', 'black_pixels': 480}, {'frame': 20, 'LCD_hash': '3b1ceb749a8143cd', 'black_pixels': 480}, {'frame': 21, 'LCD_hash': '3b1ceb749a8143cd', 'black_pixels': 480}, {'frame': 22, 'LCD_hash': '3b1ceb749a8143cd', 'black_pixels': 480}, {'frame': 23, 'LCD_hash': '3b1ceb749a8143cd', 'black_pixels': 480}, {'frame': 24, 'LCD_hash': '3b1ceb749a8143cd', 'black_pixels': 480}, {'frame': 25, 'LCD_hash': '3b1ceb749a8143cd', 'black_pixels': 480}, {'frame': 26, 'LCD_hash': '3b1ceb749a8143cd', 'black_pixels': 480}, {'frame': 27, 'LCD_hash': '3b1ceb749a8143cd', 'black_pixels': 480}, {'frame': 28, 'LCD_hash': '3b1ceb749a8143cd', 'black_pixels': 480}, {'frame': 29, 'LCD_hash': '3b1ceb749a8143cd', 'black_pixels': 480}, {'frame': 30, 'LCD_hash': '3b1ceb749a8143cd', 'black_pixels': 480}, {'frame': 31, 'LCD_hash': '3b1ceb749a8143cd', 'black_pixels': 480}, {'frame': 32, 'LCD_hash': '3b1ceb749a8143cd', 'black_pixels': 480}, {'frame': 33, 'LCD_hash': '60eca4291c62b555', 'black_pixels': 480}, {'frame': 34, 'LCD_hash': '60eca4291c62b555', 'black_pixels': 480}, {'frame': 35, 'LCD_hash': '60eca4291c62b555', 'black_pixels': 480}, {'frame': 36, 'LCD_hash': '60eca4291c62b555', 'black_pixels': 480}, {'frame': 37, 'LCD_hash': '60eca4291c62b555', 'black_pixels': 480}, {'frame': 38, 'LCD_hash': '60eca4291c62b555', 'black_pixels': 480}, {'frame': 39, 'LCD_hash': '60eca4291c62b555', 'black_pixels': 480}]})",
+  "debug": [
+    5395790,
+    0,
+    0,
+    0,
+    0,
+    10140,
+    0,
+    1,
+    523,
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    1,
+    4,
+    0,
+    0,
+    11550,
+    1,
+    1,
+    0
+  ],
+  "cases": [
+    {
+      "action": "view_menu_down",
+      "frames_observed": 14,
+      "before": "46572377cf57181d",
+      "after": "a486ee21696639ec",
+      "transient_frames": 0,
+      "fully_black_frames": 0,
+      "commit_metrics": [
+        3,
+        0,
+        207,
+        160,
+        192,
+        160,
+        0,
+        664
+      ],
+      "copied_damage": [
+        7168,
+        2,
+        1,
+        0
+      ],
+      "menu_before": [
+        1,
+        2,
+        0,
+        0
+      ],
+      "menu_after": [
+        1,
+        4,
+        0,
+        1
+      ],
+      "name_before": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "name_after": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "trace": [
+        {
+          "frame": 0,
+          "LCD_hash": "46572377cf57181d",
+          "black_pixels": 4013
+        },
+        {
+          "frame": 1,
+          "LCD_hash": "46572377cf57181d",
+          "black_pixels": 4013
+        },
+        {
+          "frame": 2,
+          "LCD_hash": "a486ee21696639ec",
+          "black_pixels": 4013
+        },
+        {
+          "frame": 3,
+          "LCD_hash": "a486ee21696639ec",
+          "black_pixels": 4013
+        },
+        {
+          "frame": 4,
+          "LCD_hash": "a486ee21696639ec",
+          "black_pixels": 4013
+        },
+        {
+          "frame": 5,
+          "LCD_hash": "a486ee21696639ec",
+          "black_pixels": 4013
+        },
+        {
+          "frame": 6,
+          "LCD_hash": "a486ee21696639ec",
+          "black_pixels": 4013
+        },
+        {
+          "frame": 7,
+          "LCD_hash": "a486ee21696639ec",
+          "black_pixels": 4013
+        },
+        {
+          "frame": 8,
+          "LCD_hash": "a486ee21696639ec",
+          "black_pixels": 4013
+        },
+        {
+          "frame": 9,
+          "LCD_hash": "a486ee21696639ec",
+          "black_pixels": 4013
+        },
+        {
+          "frame": 10,
+          "LCD_hash": "a486ee21696639ec",
+          "black_pixels": 4013
+        },
+        {
+          "frame": 11,
+          "LCD_hash": "a486ee21696639ec",
+          "black_pixels": 4013
+        },
+        {
+          "frame": 12,
+          "LCD_hash": "a486ee21696639ec",
+          "black_pixels": 4013
+        },
+        {
+          "frame": 13,
+          "LCD_hash": "a486ee21696639ec",
+          "black_pixels": 4013
+        }
+      ]
+    },
+    {
+      "action": "view_menu_up",
+      "frames_observed": 14,
+      "before": "a486ee21696639ec",
+      "after": "46572377cf57181d",
+      "transient_frames": 0,
+      "fully_black_frames": 0,
+      "commit_metrics": [
+        4,
+        0,
+        207,
+        160,
+        192,
+        160,
+        0,
+        728
+      ],
+      "copied_damage": [
+        7168,
+        2,
+        2,
+        0
+      ],
+      "menu_before": [
+        1,
+        4,
+        0,
+        1
+      ],
+      "menu_after": [
+        1,
+        6,
+        0,
+        2
+      ],
+      "name_before": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "name_after": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "trace": [
+        {
+          "frame": 0,
+          "LCD_hash": "a486ee21696639ec",
+          "black_pixels": 4013
+        },
+        {
+          "frame": 1,
+          "LCD_hash": "a486ee21696639ec",
+          "black_pixels": 4013
+        },
+        {
+          "frame": 2,
+          "LCD_hash": "46572377cf57181d",
+          "black_pixels": 4013
+        },
+        {
+          "frame": 3,
+          "LCD_hash": "46572377cf57181d",
+          "black_pixels": 4013
+        },
+        {
+          "frame": 4,
+          "LCD_hash": "46572377cf57181d",
+          "black_pixels": 4013
+        },
+        {
+          "frame": 5,
+          "LCD_hash": "46572377cf57181d",
+          "black_pixels": 4013
+        },
+        {
+          "frame": 6,
+          "LCD_hash": "46572377cf57181d",
+          "black_pixels": 4013
+        },
+        {
+          "frame": 7,
+          "LCD_hash": "46572377cf57181d",
+          "black_pixels": 4013
+        },
+        {
+          "frame": 8,
+          "LCD_hash": "46572377cf57181d",
+          "black_pixels": 4013
+        },
+        {
+          "frame": 9,
+          "LCD_hash": "46572377cf57181d",
+          "black_pixels": 4013
+        },
+        {
+          "frame": 10,
+          "LCD_hash": "46572377cf57181d",
+          "black_pixels": 4013
+        },
+        {
+          "frame": 11,
+          "LCD_hash": "46572377cf57181d",
+          "black_pixels": 4013
+        },
+        {
+          "frame": 12,
+          "LCD_hash": "46572377cf57181d",
+          "black_pixels": 4013
+        },
+        {
+          "frame": 13,
+          "LCD_hash": "46572377cf57181d",
+          "black_pixels": 4013
+        }
+      ]
+    },
+    {
+      "action": "dialogue_to_origin_menu",
+      "frames_observed": 42,
+      "before": "a66b64d5ee4f5f8e",
+      "after": "3b1ceb749a8143cd",
+      "transient_frames": 0,
+      "fully_black_frames": 0,
+      "commit_metrics": [
+        7,
+        0,
+        211,
+        160,
+        143,
+        19,
+        0,
+        1628
+      ],
+      "copied_damage": [
+        38400,
+        5,
+        2,
+        0
+      ],
+      "menu_before": [
+        1,
+        6,
+        0,
+        2
+      ],
+      "menu_after": [
+        2,
+        10,
+        0,
+        2
+      ],
+      "name_before": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "name_after": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "trace": [
+        {
+          "frame": 0,
+          "LCD_hash": "a66b64d5ee4f5f8e",
+          "black_pixels": 481
+        },
+        {
+          "frame": 1,
+          "LCD_hash": "a66b64d5ee4f5f8e",
+          "black_pixels": 481
+        },
+        {
+          "frame": 2,
+          "LCD_hash": "a66b64d5ee4f5f8e",
+          "black_pixels": 481
+        },
+        {
+          "frame": 3,
+          "LCD_hash": "a66b64d5ee4f5f8e",
+          "black_pixels": 481
+        },
+        {
+          "frame": 4,
+          "LCD_hash": "a66b64d5ee4f5f8e",
+          "black_pixels": 481
+        },
+        {
+          "frame": 5,
+          "LCD_hash": "a66b64d5ee4f5f8e",
+          "black_pixels": 481
+        },
+        {
+          "frame": 6,
+          "LCD_hash": "a66b64d5ee4f5f8e",
+          "black_pixels": 481
+        },
+        {
+          "frame": 7,
+          "LCD_hash": "a66b64d5ee4f5f8e",
+          "black_pixels": 481
+        },
+        {
+          "frame": 8,
+          "LCD_hash": "a66b64d5ee4f5f8e",
+          "black_pixels": 481
+        },
+        {
+          "frame": 9,
+          "LCD_hash": "a66b64d5ee4f5f8e",
+          "black_pixels": 481
+        },
+        {
+          "frame": 10,
+          "LCD_hash": "a66b64d5ee4f5f8e",
+          "black_pixels": 481
+        },
+        {
+          "frame": 11,
+          "LCD_hash": "a66b64d5ee4f5f8e",
+          "black_pixels": 481
+        },
+        {
+          "frame": 12,
+          "LCD_hash": "a66b64d5ee4f5f8e",
+          "black_pixels": 481
+        },
+        {
+          "frame": 13,
+          "LCD_hash": "a66b64d5ee4f5f8e",
+          "black_pixels": 481
+        },
+        {
+          "frame": 14,
+          "LCD_hash": "a66b64d5ee4f5f8e",
+          "black_pixels": 481
+        },
+        {
+          "frame": 15,
+          "LCD_hash": "a66b64d5ee4f5f8e",
+          "black_pixels": 481
+        },
+        {
+          "frame": 16,
+          "LCD_hash": "a66b64d5ee4f5f8e",
+          "black_pixels": 481
+        },
+        {
+          "frame": 17,
+          "LCD_hash": "a66b64d5ee4f5f8e",
+          "black_pixels": 481
+        },
+        {
+          "frame": 18,
+          "LCD_hash": "a66b64d5ee4f5f8e",
+          "black_pixels": 481
+        },
+        {
+          "frame": 19,
+          "LCD_hash": "a66b64d5ee4f5f8e",
+          "black_pixels": 481
+        },
+        {
+          "frame": 20,
+          "LCD_hash": "a66b64d5ee4f5f8e",
+          "black_pixels": 481
+        },
+        {
+          "frame": 21,
+          "LCD_hash": "a66b64d5ee4f5f8e",
+          "black_pixels": 481
+        },
+        {
+          "frame": 22,
+          "LCD_hash": "a66b64d5ee4f5f8e",
+          "black_pixels": 481
+        },
+        {
+          "frame": 23,
+          "LCD_hash": "a66b64d5ee4f5f8e",
+          "black_pixels": 481
+        },
+        {
+          "frame": 24,
+          "LCD_hash": "a66b64d5ee4f5f8e",
+          "black_pixels": 481
+        },
+        {
+          "frame": 25,
+          "LCD_hash": "a66b64d5ee4f5f8e",
+          "black_pixels": 481
+        },
+        {
+          "frame": 26,
+          "LCD_hash": "a66b64d5ee4f5f8e",
+          "black_pixels": 481
+        },
+        {
+          "frame": 27,
+          "LCD_hash": "a66b64d5ee4f5f8e",
+          "black_pixels": 481
+        },
+        {
+          "frame": 28,
+          "LCD_hash": "a66b64d5ee4f5f8e",
+          "black_pixels": 481
+        },
+        {
+          "frame": 29,
+          "LCD_hash": "a66b64d5ee4f5f8e",
+          "black_pixels": 481
+        },
+        {
+          "frame": 30,
+          "LCD_hash": "a66b64d5ee4f5f8e",
+          "black_pixels": 481
+        },
+        {
+          "frame": 31,
+          "LCD_hash": "a66b64d5ee4f5f8e",
+          "black_pixels": 481
+        },
+        {
+          "frame": 32,
+          "LCD_hash": "a66b64d5ee4f5f8e",
+          "black_pixels": 481
+        },
+        {
+          "frame": 33,
+          "LCD_hash": "a66b64d5ee4f5f8e",
+          "black_pixels": 481
+        },
+        {
+          "frame": 34,
+          "LCD_hash": "a66b64d5ee4f5f8e",
+          "black_pixels": 481
+        },
+        {
+          "frame": 35,
+          "LCD_hash": "3b1ceb749a8143cd",
+          "black_pixels": 480
+        },
+        {
+          "frame": 36,
+          "LCD_hash": "3b1ceb749a8143cd",
+          "black_pixels": 480
+        },
+        {
+          "frame": 37,
+          "LCD_hash": "3b1ceb749a8143cd",
+          "black_pixels": 480
+        },
+        {
+          "frame": 38,
+          "LCD_hash": "3b1ceb749a8143cd",
+          "black_pixels": 480
+        },
+        {
+          "frame": 39,
+          "LCD_hash": "3b1ceb749a8143cd",
+          "black_pixels": 480
+        },
+        {
+          "frame": 40,
+          "LCD_hash": "3b1ceb749a8143cd",
+          "black_pixels": 480
+        },
+        {
+          "frame": 41,
+          "LCD_hash": "3b1ceb749a8143cd",
+          "black_pixels": 480
+        }
+      ]
+    },
+    {
+      "action": "origin_down",
+      "frames_observed": 40,
+      "before": "3b1ceb749a8143cd",
+      "after": "60eca4291c62b555",
+      "transient_frames": 0,
+      "fully_black_frames": 0,
+      "commit_metrics": [
+        8,
+        0,
+        211,
+        160,
+        143,
+        18,
+        0,
+        1928
+      ],
+      "copied_damage": [
+        38400,
+        6,
+        2,
+        0
+      ],
+      "menu_before": [
+        2,
+        10,
+        0,
+        2
+      ],
+      "menu_after": [
+        3,
+        14,
+        0,
+        2
+      ],
+      "name_before": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "name_after": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "trace": [
+        {
+          "frame": 0,
+          "LCD_hash": "3b1ceb749a8143cd",
+          "black_pixels": 480
+        },
+        {
+          "frame": 1,
+          "LCD_hash": "3b1ceb749a8143cd",
+          "black_pixels": 480
+        },
+        {
+          "frame": 2,
+          "LCD_hash": "3b1ceb749a8143cd",
+          "black_pixels": 480
+        },
+        {
+          "frame": 3,
+          "LCD_hash": "3b1ceb749a8143cd",
+          "black_pixels": 480
+        },
+        {
+          "frame": 4,
+          "LCD_hash": "3b1ceb749a8143cd",
+          "black_pixels": 480
+        },
+        {
+          "frame": 5,
+          "LCD_hash": "3b1ceb749a8143cd",
+          "black_pixels": 480
+        },
+        {
+          "frame": 6,
+          "LCD_hash": "3b1ceb749a8143cd",
+          "black_pixels": 480
+        },
+        {
+          "frame": 7,
+          "LCD_hash": "3b1ceb749a8143cd",
+          "black_pixels": 480
+        },
+        {
+          "frame": 8,
+          "LCD_hash": "3b1ceb749a8143cd",
+          "black_pixels": 480
+        },
+        {
+          "frame": 9,
+          "LCD_hash": "3b1ceb749a8143cd",
+          "black_pixels": 480
+        },
+        {
+          "frame": 10,
+          "LCD_hash": "3b1ceb749a8143cd",
+          "black_pixels": 480
+        },
+        {
+          "frame": 11,
+          "LCD_hash": "3b1ceb749a8143cd",
+          "black_pixels": 480
+        },
+        {
+          "frame": 12,
+          "LCD_hash": "3b1ceb749a8143cd",
+          "black_pixels": 480
+        },
+        {
+          "frame": 13,
+          "LCD_hash": "3b1ceb749a8143cd",
+          "black_pixels": 480
+        },
+        {
+          "frame": 14,
+          "LCD_hash": "3b1ceb749a8143cd",
+          "black_pixels": 480
+        },
+        {
+          "frame": 15,
+          "LCD_hash": "3b1ceb749a8143cd",
+          "black_pixels": 480
+        },
+        {
+          "frame": 16,
+          "LCD_hash": "3b1ceb749a8143cd",
+          "black_pixels": 480
+        },
+        {
+          "frame": 17,
+          "LCD_hash": "3b1ceb749a8143cd",
+          "black_pixels": 480
+        },
+        {
+          "frame": 18,
+          "LCD_hash": "3b1ceb749a8143cd",
+          "black_pixels": 480
+        },
+        {
+          "frame": 19,
+          "LCD_hash": "3b1ceb749a8143cd",
+          "black_pixels": 480
+        },
+        {
+          "frame": 20,
+          "LCD_hash": "3b1ceb749a8143cd",
+          "black_pixels": 480
+        },
+        {
+          "frame": 21,
+          "LCD_hash": "3b1ceb749a8143cd",
+          "black_pixels": 480
+        },
+        {
+          "frame": 22,
+          "LCD_hash": "3b1ceb749a8143cd",
+          "black_pixels": 480
+        },
+        {
+          "frame": 23,
+          "LCD_hash": "3b1ceb749a8143cd",
+          "black_pixels": 480
+        },
+        {
+          "frame": 24,
+          "LCD_hash": "3b1ceb749a8143cd",
+          "black_pixels": 480
+        },
+        {
+          "frame": 25,
+          "LCD_hash": "3b1ceb749a8143cd",
+          "black_pixels": 480
+        },
+        {
+          "frame": 26,
+          "LCD_hash": "3b1ceb749a8143cd",
+          "black_pixels": 480
+        },
+        {
+          "frame": 27,
+          "LCD_hash": "3b1ceb749a8143cd",
+          "black_pixels": 480
+        },
+        {
+          "frame": 28,
+          "LCD_hash": "3b1ceb749a8143cd",
+          "black_pixels": 480
+        },
+        {
+          "frame": 29,
+          "LCD_hash": "3b1ceb749a8143cd",
+          "black_pixels": 480
+        },
+        {
+          "frame": 30,
+          "LCD_hash": "3b1ceb749a8143cd",
+          "black_pixels": 480
+        },
+        {
+          "frame": 31,
+          "LCD_hash": "3b1ceb749a8143cd",
+          "black_pixels": 480
+        },
+        {
+          "frame": 32,
+          "LCD_hash": "3b1ceb749a8143cd",
+          "black_pixels": 480
+        },
+        {
+          "frame": 33,
+          "LCD_hash": "60eca4291c62b555",
+          "black_pixels": 480
+        },
+        {
+          "frame": 34,
+          "LCD_hash": "60eca4291c62b555",
+          "black_pixels": 480
+        },
+        {
+          "frame": 35,
+          "LCD_hash": "60eca4291c62b555",
+          "black_pixels": 480
+        },
+        {
+          "frame": 36,
+          "LCD_hash": "60eca4291c62b555",
+          "black_pixels": 480
+        },
+        {
+          "frame": 37,
+          "LCD_hash": "60eca4291c62b555",
+          "black_pixels": 480
+        },
+        {
+          "frame": 38,
+          "LCD_hash": "60eca4291c62b555",
+          "black_pixels": 480
+        },
+        {
+          "frame": 39,
+          "LCD_hash": "60eca4291c62b555",
+          "black_pixels": 480
+        }
+      ]
+    }
+  ],
+  "commands": [
+    "frames 180 0",
+    "read 0202b0a4 4",
+    "read 0202b0b4 4",
+    "read 0202b0ac 4",
+    "frames 12 0",
+    "read 0202b0a4 4",
+    "read 0202b0b4 4",
+    "read 0202b0ac 4",
+    "frames 12 0",
+    "read 0202b0a4 4",
+    "read 0202b0b4 4",
+    "read 0202b0ac 4",
+    "frames 12 0",
+    "read 0202b0a4 4",
+    "read 0202b0b4 4",
+    "read 0202b0ac 4",
+    "frames 12 0",
+    "read 0202b0a4 4",
+    "read 0202b0b4 4",
+    "read 0202b0ac 4",
+    "frames 12 0",
+    "read 0202b0a4 4",
+    "frames 12 1",
+    "frames 24 0",
+    "read 0202b0a4 4",
+    "read 0202b0b4 4",
+    "read 0202b0ac 4",
+    "frames 12 0",
+    "read 0202b0a4 4",
+    "read 0202b0b4 4",
+    "read 0202b0ac 4",
+    "frames 12 0",
+    "read 0202b0a4 4",
+    "read 0202b0b4 4",
+    "read 0202b0ac 4",
+    "frames 12 0",
+    "read 0202b0a4 4",
+    "read 0202b0b4 4",
+    "read 0202b0ac 4",
+    "frames 12 0",
+    "read 0202b0a4 4",
+    "read 0202b0b4 4",
+    "read 0202b0ac 4",
+    "frames 12 0",
+    "read 0202b0a4 4",
+    "read 0202b0b4 4",
+    "read 0202b0ac 4",
+    "frames 12 0",
+    "read 0202b0a4 4",
+    "read 0202b0b4 4",
+    "read 0202b0ac 4",
+    "frames 12 0",
+    "read 0202b0a4 4",
+    "read 0202b0b4 4",
+    "read 0202b0ac 4",
+    "frames 12 0",
+    "read 0202b0a4 4",
+    "read 0202b0b4 4",
+    "read 0202b0ac 4",
+    "frames 12 0",
+    "read 0202b0a4 4",
+    "read 0202b0b4 4",
+    "read 0202b0ac 4",
+    "frames 12 0",
+    "read 0202b0a4 4",
+    "read 0202b0b4 4",
+    "read 0202b0ac 4",
+    "frames 12 0",
+    "read 0202b0a4 4",
+    "read 0202b0b4 4",
+    "read 0202b0ac 4",
+    "frames 12 0",
+    "read 0202b0a4 4",
+    "read 0202b0b4 4",
+    "read 0202b0ac 4",
+    "frames 12 0",
+    "read 0202b0a4 4",
+    "read 0202b0b4 4",
+    "read 0202b0ac 4",
+    "frames 12 0",
+    "read 0202b0a4 4",
+    "read 0202b0b4 4",
+    "read 0202b0ac 4",
+    "frames 12 0",
+    "read 0202b0a4 4",
+    "read 0202b0b4 4",
+    "read 0202b0ac 4",
+    "frames 12 0",
+    "read 0202b0a4 4",
+    "read 0202b0a4 4",
+    "read 0202b0b4 4",
+    "read 0202b0ac 4",
+    "frames 12 0",
+    "read 0202b0a4 4",
+    "frames 12 0",
+    "frames 24 0",
+    "read 0202b0a4 4",
+    "read 0202b0b4 4",
+    "read 0202b0ac 4",
+    "frames 12 0",
+    "read 0202b0a4 4",
+    "lcdhash",
+    "shot /mnt/d/gba_hack/废都物语_GBA章节样版/evidence/quality_preview/e56ebdfd20bd/keypress_LCD/view_menu_down_before.png",
+    "read 02025a60 10",
+    "read 02029ab8 10",
+    "frames 1 80",
+    "lcdhash",
+    "read 04000000 2",
+    "frames 1 80",
+    "lcdhash",
+    "read 04000000 2",
+    "frames 1 0",
+    "lcdhash",
+    "read 04000000 2",
+    "frames 1 0",
+    "lcdhash",
+    "read 04000000 2",
+    "frames 1 0",
+    "lcdhash",
+    "read 04000000 2",
+    "frames 1 0",
+    "lcdhash",
+    "read 04000000 2",
+    "frames 1 0",
+    "lcdhash",
+    "read 04000000 2",
+    "frames 1 0",
+    "lcdhash",
+    "read 04000000 2",
+    "frames 1 0",
+    "lcdhash",
+    "read 04000000 2",
+    "frames 1 0",
+    "lcdhash",
+    "read 04000000 2",
+    "frames 1 0",
+    "lcdhash",
+    "read 04000000 2",
+    "frames 1 0",
+    "lcdhash",
+    "read 04000000 2",
+    "frames 1 0",
+    "lcdhash",
+    "read 04000000 2",
+    "frames 1 0",
+    "lcdhash",
+    "read 04000000 2",
+    "read 0202b0a4 4",
+    "read 0202b0b4 4",
+    "read 0202b0ac 4",
+    "lcdhash",
+    "shot /mnt/d/gba_hack/废都物语_GBA章节样版/evidence/quality_preview/e56ebdfd20bd/keypress_LCD/view_menu_down_after.png",
+    "read 0202b000 20",
+    "read 0202aff0 10",
+    "read 02025a60 10",
+    "read 02029ab8 10",
+    "read 0202b0a4 4",
+    "read 0202b0b4 4",
+    "read 0202b0ac 4",
+    "frames 12 0",
+    "read 0202b0a4 4",
+    "frames 12 0",
+    "frames 24 0",
+    "read 0202b0a4 4",
+    "read 0202b0b4 4",
+    "read 0202b0ac 4",
+    "frames 12 0",
+    "read 0202b0a4 4",
+    "lcdhash",
+    "shot /mnt/d/gba_hack/废都物语_GBA章节样版/evidence/quality_preview/e56ebdfd20bd/keypress_LCD/view_menu_up_before.png",
+    "read 02025a60 10",
+    "read 02029ab8 10",
+    "frames 1 40",
+    "lcdhash",
+    "read 04000000 2",
+    "frames 1 40",
+    "lcdhash",
+    "read 04000000 2",
+    "frames 1 0",
+    "lcdhash",
+    "read 04000000 2",
+    "frames 1 0",
+    "lcdhash",
+    "read 04000000 2",
+    "frames 1 0",
+    "lcdhash",
+    "read 04000000 2",
+    "frames 1 0",
+    "lcdhash",
+    "read 04000000 2",
+    "frames 1 0",
+    "lcdhash",
+    "read 04000000 2",
+    "frames 1 0",
+    "lcdhash",
+    "read 04000000 2",
+    "frames 1 0",
+    "lcdhash",
+    "read 04000000 2",
+    "frames 1 0",
+    "lcdhash",
+    "read 04000000 2",
+    "frames 1 0",
+    "lcdhash",
+    "read 04000000 2",
+    "frames 1 0",
+    "lcdhash",
+    "read 04000000 2",
+    "frames 1 0",
+    "lcdhash",
+    "read 04000000 2",
+    "frames 1 0",
+    "lcdhash",
+    "read 04000000 2",
+    "read 0202b0a4 4",
+    "read 0202b0b4 4",
+    "read 0202b0ac 4",
+    "lcdhash",
+    "shot /mnt/d/gba_hack/废都物语_GBA章节样版/evidence/quality_preview/e56ebdfd20bd/keypress_LCD/view_menu_up_after.png",
+    "read 0202b000 20",
+    "read 0202aff0 10",
+    "read 02025a60 10",
+    "read 02029ab8 10",
+    "read 0202b0a4 4",
+    "read 0202b0b4 4",
+    "read 0202b0ac 4",
+    "frames 12 0",
+    "read 0202b0a4 4",
+    "frames 12 1",
+    "frames 24 0",
+    "read 0202b0a4 4",
+    "read 0202b0b4 4",
+    "read 0202b0ac 4",
+    "frames 12 0",
+    "read 0202b0a4 4",
+    "read 0202b0b4 4",
+    "read 0202b0ac 4",
+    "frames 12 0",
+    "read 0202b0a4 4",
+    "read 0202b0b4 4",
+    "read 0202b0ac 4",
+    "frames 12 0",
+    "read 0202b0a4 4",
+    "read 0202b0b4 4",
+    "read 0202b0ac 4",
+    "frames 12 0",
+    "read 0202b0a4 4",
+    "read 0202b0b4 4",
+    "read 0202b0ac 4",
+    "frames 12 0",
+    "read 0202b0a4 4",
+    "read 0202b0b4 4",
+    "read 0202b0ac 4",
+    "frames 12 0",
+    "read 0202b0a4 4",
+    "read 0202b0b4 4",
+    "read 0202b0ac 4",
+    "frames 12 0",
+    "read 0202b0a4 4",
+    "read 0200f5c8 60",
+    "read 0202b0a4 4",
+    "read 0202b0b4 4",
+    "read 0202b0ac 4",
+    "frames 12 0",
+    "read 0202b0a4 4",
+    "frames 12 0",
+    "frames 24 0",
+    "read 0202b0a4 4",
+    "read 0202b0b4 4",
+    "read 0202b0ac 4",
+    "frames 12 0",
+    "read 0202b0a4 4",
+    "lcdhash",
+    "shot /mnt/d/gba_hack/废都物语_GBA章节样版/evidence/quality_preview/e56ebdfd20bd/keypress_LCD/dialogue_to_origin_menu_before.png",
+    "read 02025a60 10",
+    "read 02029ab8 10",
+    "frames 1 1",
+    "lcdhash",
+    "read 04000000 2",
+    "frames 1 1",
+    "lcdhash",
+    "read 04000000 2",
+    "frames 1 0",
+    "lcdhash",
+    "read 04000000 2",
+    "frames 1 0",
+    "lcdhash",
+    "read 04000000 2",
+    "frames 1 0",
+    "lcdhash",
+    "read 04000000 2",
+    "frames 1 0",
+    "lcdhash",
+    "read 04000000 2",
+    "frames 1 0",
+    "lcdhash",
+    "read 04000000 2",
+    "frames 1 0",
+    "lcdhash",
+    "read 04000000 2",
+    "frames 1 0",
+    "lcdhash",
+    "read 04000000 2",
+    "frames 1 0",
+    "lcdhash",
+    "read 04000000 2",
+    "frames 1 0",
+    "lcdhash",
+    "read 04000000 2",
+    "frames 1 0",
+    "lcdhash",
+    "read 04000000 2",
+    "frames 1 0",
+    "lcdhash",
+    "read 04000000 2",
+    "frames 1 0",
+    "lcdhash",
+    "read 04000000 2",
+    "read 0202b0a4 4",
+    "frames 1 0",
+    "lcdhash",
+    "read 04000000 2",
+    "read 0202b0a4 4",
+    "frames 1 0",
+    "lcdhash",
+    "read 04000000 2",
+    "read 0202b0a4 4",
+    "frames 1 0",
+    "lcdhash",
+    "read 04000000 2",
+    "read 0202b0a4 4",
+    "frames 1 0",
+    "lcdhash",
+    "read 04000000 2",
+    "read 0202b0a4 4",
+    "frames 1 0",
+    "lcdhash",
+    "read 04000000 2",
+    "read 0202b0a4 4",
+    "frames 1 0",
+    "lcdhash",
+    "read 04000000 2",
+    "read 0202b0a4 4",
+    "frames 1 0",
+    "lcdhash",
+    "read 04000000 2",
+    "read 0202b0a4 4",
+    "frames 1 0",
+    "lcdhash",
+    "read 04000000 2",
+    "read 0202b0a4 4",
+    "frames 1 0",
+    "lcdhash",
+    "read 04000000 2",
+    "read 0202b0a4 4",
+    "frames 1 0",
+    "lcdhash",
+    "read 04000000 2",
+    "read 0202b0a4 4",
+    "frames 1 0",
+    "lcdhash",
+    "read 04000000 2",
+    "read 0202b0a4 4",
+    "frames 1 0",
+    "lcdhash",
+    "read 04000000 2",
+    "read 0202b0a4 4",
+    "frames 1 0",
+    "lcdhash",
+    "read 04000000 2",
+    "read 0202b0a4 4",
+    "frames 1 0",
+    "lcdhash",
+    "read 04000000 2",
+    "read 0202b0a4 4",
+    "frames 1 0",
+    "lcdhash",
+    "read 04000000 2",
+    "read 0202b0a4 4",
+    "frames 1 0",
+    "lcdhash",
+    "read 04000000 2",
+    "read 0202b0a4 4",
+    "frames 1 0",
+    "lcdhash",
+    "read 04000000 2",
+    "read 0202b0a4 4",
+    "frames 1 0",
+    "lcdhash",
+    "read 04000000 2",
+    "read 0202b0a4 4",
+    "frames 1 0",
+    "lcdhash",
+    "read 04000000 2",
+    "read 0202b0a4 4",
+    "frames 1 0",
+    "lcdhash",
+    "read 04000000 2",
+    "read 0202b0a4 4",
+    "frames 1 0",
+    "lcdhash",
+    "read 04000000 2",
+    "read 0202b0a4 4",
+    "frames 1 0",
+    "lcdhash",
+    "read 04000000 2",
+    "frames 1 0",
+    "lcdhash",
+    "read 04000000 2",
+    "frames 1 0",
+    "lcdhash",
+    "read 04000000 2",
+    "frames 1 0",
+    "lcdhash",
+    "read 04000000 2",
+    "frames 1 0",
+    "lcdhash",
+    "read 04000000 2",
+    "frames 1 0",
+    "lcdhash",
+    "read 04000000 2",
+    "frames 1 0",
+    "lcdhash",
+    "read 04000000 2",
+    "read 0202b0a4 4",
+    "read 0202b0b4 4",
+    "read 0202b0ac 4",
+    "lcdhash",
+    "shot /mnt/d/gba_hack/废都物语_GBA章节样版/evidence/quality_preview/e56ebdfd20bd/keypress_LCD/dialogue_to_origin_menu_after.png",
+    "read 0202b000 20",
+    "read 0202aff0 10",
+    "read 02025a60 10",
+    "read 02029ab8 10",
+    "read 0202b0a4 4",
+    "read 0202b0b4 4",
+    "read 0202b0ac 4",
+    "frames 12 0",
+    "read 0202b0a4 4",
+    "frames 12 0",
+    "frames 24 0",
+    "read 0202b0a4 4",
+    "read 0202b0b4 4",
+    "read 0202b0ac 4",
+    "frames 12 0",
+    "read 0202b0a4 4",
+    "lcdhash",
+    "shot /mnt/d/gba_hack/废都物语_GBA章节样版/evidence/quality_preview/e56ebdfd20bd/keypress_LCD/origin_down_before.png",
+    "read 02025a60 10",
+    "read 02029ab8 10",
+    "frames 1 80",
+    "lcdhash",
+    "read 04000000 2",
+    "frames 1 80",
+    "lcdhash",
+    "read 04000000 2",
+    "frames 1 0",
+    "lcdhash",
+    "read 04000000 2",
+    "frames 1 0",
+    "lcdhash",
+    "read 04000000 2",
+    "frames 1 0",
+    "lcdhash",
+    "read 04000000 2",
+    "frames 1 0",
+    "lcdhash",
+    "read 04000000 2",
+    "frames 1 0",
+    "lcdhash",
+    "read 04000000 2",
+    "frames 1 0",
+    "lcdhash",
+    "read 04000000 2",
+    "frames 1 0",
+    "lcdhash",
+    "read 04000000 2",
+    "frames 1 0",
+    "lcdhash",
+    "read 04000000 2",
+    "frames 1 0",
+    "lcdhash",
+    "read 04000000 2",
+    "frames 1 0",
+    "lcdhash",
+    "read 04000000 2",
+    "frames 1 0",
+    "lcdhash",
+    "read 04000000 2",
+    "frames 1 0",
+    "lcdhash",
+    "read 04000000 2",
+    "read 0202b0a4 4",
+    "frames 1 0",
+    "lcdhash",
+    "read 04000000 2",
+    "read 0202b0a4 4",
+    "frames 1 0",
+    "lcdhash",
+    "read 04000000 2",
+    "read 0202b0a4 4",
+    "frames 1 0",
+    "lcdhash",
+    "read 04000000 2",
+    "read 0202b0a4 4",
+    "frames 1 0",
+    "lcdhash",
+    "read 04000000 2",
+    "read 0202b0a4 4",
+    "frames 1 0",
+    "lcdhash",
+    "read 04000000 2",
+    "read 0202b0a4 4",
+    "frames 1 0",
+    "lcdhash",
+    "read 04000000 2",
+    "read 0202b0a4 4",
+    "frames 1 0",
+    "lcdhash",
+    "read 04000000 2",
+    "read 0202b0a4 4",
+    "frames 1 0",
+    "lcdhash",
+    "read 04000000 2",
+    "read 0202b0a4 4",
+    "frames 1 0",
+    "lcdhash",
+    "read 04000000 2",
+    "read 0202b0a4 4",
+    "frames 1 0",
+    "lcdhash",
+    "read 04000000 2",
+    "read 0202b0a4 4",
+    "frames 1 0",
+    "lcdhash",
+    "read 04000000 2",
+    "read 0202b0a4 4",
+    "frames 1 0",
+    "lcdhash",
+    "read 04000000 2",
+    "read 0202b0a4 4",
+    "frames 1 0",
+    "lcdhash",
+    "read 04000000 2",
+    "read 0202b0a4 4",
+    "frames 1 0",
+    "lcdhash",
+    "read 04000000 2",
+    "read 0202b0a4 4",
+    "frames 1 0",
+    "lcdhash",
+    "read 04000000 2",
+    "read 0202b0a4 4",
+    "frames 1 0",
+    "lcdhash",
+    "read 04000000 2",
+    "read 0202b0a4 4",
+    "frames 1 0",
+    "lcdhash",
+    "read 04000000 2",
+    "read 0202b0a4 4",
+    "frames 1 0",
+    "lcdhash",
+    "read 04000000 2",
+    "read 0202b0a4 4",
+    "frames 1 0",
+    "lcdhash",
+    "read 04000000 2",
+    "read 0202b0a4 4",
+    "frames 1 0",
+    "lcdhash",
+    "read 04000000 2",
+    "frames 1 0",
+    "lcdhash",
+    "read 04000000 2",
+    "frames 1 0",
+    "lcdhash",
+    "read 04000000 2",
+    "frames 1 0",
+    "lcdhash",
+    "read 04000000 2",
+    "frames 1 0",
+    "lcdhash",
+    "read 04000000 2",
+    "frames 1 0",
+    "lcdhash",
+    "read 04000000 2",
+    "frames 1 0",
+    "lcdhash",
+    "read 04000000 2",
+    "read 0202b0a4 4",
+    "read 0202b0b4 4",
+    "read 0202b0ac 4",
+    "lcdhash",
+    "shot /mnt/d/gba_hack/废都物语_GBA章节样版/evidence/quality_preview/e56ebdfd20bd/keypress_LCD/origin_down_after.png",
+    "read 0202b000 20",
+    "read 0202aff0 10",
+    "read 02025a60 10",
+    "read 02029ab8 10",
+    "shot /mnt/d/gba_hack/废都物语_GBA章节样版/evidence/quality_preview/e56ebdfd20bd/keypress_LCD/failure.png",
+    "read 0200f5c8 60"
+  ]
+}

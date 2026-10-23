@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/mnt/d/gba_hack/废都物语_GBA章节样版/tools/check_scroll_navigation.py", line 52, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/mnt/d/gba_hack/废都物语_GBA章节样版/tools/check_scroll_navigation.py", line 42, in main
+    else:raise AssertionError(('entrance not entered',e.debug()))
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ('entrance not entered', (5395790, 0, 0, 0, 0, 12010, 108, 0, 1174, 23, 1, 0, 1, 0, 0, 4, 0, 0, 0, 0, 0, 0, 0, 0))

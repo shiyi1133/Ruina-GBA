@@ -1,0 +1,6 @@
+{
+  "ROM": "/mnt/d/gba_hack/\u5e9f\u90fd\u7269\u8bed_GBA\u7ae0\u8282\u6837\u7248/build/fixtures/list_optimization/list_optimization.gba",
+  "ELF": "/mnt/d/gba_hack/\u5e9f\u90fd\u7269\u8bed_GBA\u7ae0\u8282\u6837\u7248/build/fixtures/list_optimization/list_optimization.elf",
+  "sha256": "dc3e4c65747063edfe435cfd0723dab5cb83fec13317ca778dc8470954d003eb",
+  "base": "fd941406522186050f29eaa3dc27823544a78ff9e8e44c608c868fabf2a5534f"
+}

@@ -1,0 +1,18 @@
+palette combinations 1 / 375
+palette combinations 51 / 375
+palette combinations 101 / 375
+palette combinations 151 / 375
+palette combinations 201 / 375
+palette combinations 251 / 375
+palette combinations 301 / 375
+palette combinations 351 / 375
+{
+  "format": "single-sheet portraits retain exact RGB555; every combination of two to four sheets has a jointly fitted 256-color palette and source-index remaps; native pixels and alpha remain intact",
+  "sheets": 10,
+  "portraits": 160,
+  "combinations": 375,
+  "bytes": 540820,
+  "original_bank_sha256": "cc29d4bdcd2725f8eeb8b11c759287f02380aabc9be69add3d8de4fe247856eb",
+  "bank_sha256": "53b47aaca84933b203e01a450a7e5f08f5f17b8e7e1d4c1f5f6f0a31d6af8339",
+  "generator_sha256": "fe4dc46b4ff2203d3c5f21d413348329981cdd7d968296f18cdfb287ebcdde2d"
+}

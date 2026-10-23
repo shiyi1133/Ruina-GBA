@@ -1,0 +1,26 @@
+"""Bounded final regression entry point, separate from full campaign acceptance.
+No release ROM or emulated RAM is patched. Each test owns a separate fixture.
+Successful prior steps can resume only for the exact same production ROM hash.
+"""
+import hashlib,json,os,subprocess,sys,time
+from pathlib import Path
+from project_env import ROOT
+
+def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
+def main():
+ rom=ROOT/'build/废都物语_GBA_开篇开发验证版.gba';receipt=json.loads((ROOT/'build/build_receipt.json').read_text());digest=sha(rom);assert digest==receipt['sha256'];inputs=receipt['compiler_inputs_sha256'];assert all(sha(ROOT/p)==h for p,h in inputs.items())
+ media=os.environ.get('RUINA_ASSET_PYTHON',sys.executable);tests=[
+  ('lcf_transport',[sys.executable,'tools/check_lcf_cache.py']),('borrowed_views',[sys.executable,'tools/check_borrowed_commands.py']),('page_conditions',[sys.executable,'tools/check_page_transport.py']),('map_rule_parity',[sys.executable,'tools/check_map_rules_parity.py']),('host_mechanisms',[sys.executable,'tools/check_event_integration.py','--predecoded']),('image_codec',[media,'tools/check_tiled_image_codec.py']),('storage_and_images',[media,'tools/check_storage_and_images.py']),('original_art',[media,'tools/check_source_art.py']),('audio_IRQ_parity',[sys.executable,'tools/check_audio_irq_parity.py']),
+  ('common_name_UI',[media,'tools/check_common_names.py']),('opening_four_origins',[media,'tools/check_naming_cut.py','1','2','3','4']),('natural_gameplay_and_SAV',[sys.executable,'tools/check_phase_demo.py']),('source_menu_gameplay',[media,'tools/check_source_menus.py']),('status_browsing',[sys.executable,'tools/check_status_ui.py']),('chapter_first_CP',[sys.executable,'tools/play_chapter.py']),('checkpoint_cold_load',[sys.executable,'tools/check_checkpoint_cold_load.py']),('extended_gameplay',[sys.executable,'tools/check_extended_acceptance.py']),('music_room_UI',[sys.executable,'tools/check_music_room_ui.py']),('music_room_one_shot_replay',[sys.executable,'tools/check_music_room_replay.py']),('manual_local_action',[sys.executable,'tools/check_manual_investigation.py']),('map_navigation',[sys.executable,'tools/check_scroll_navigation.py']),('cursor_continuity',[media,'tools/check_cursor_continuity.py']),('all_panorama_crops',[media,'tools/check_panorama_matrix_gba.py']),('native_characters',[media,'tools/check_characters_gba.py']),('changing_actor_palettes',[media,'tools/check_actor_palette_churn.py']),('retained_VRAM',[media,'tools/check_map_residency_gba.py']),('scroll_cache',[media,'tools/check_scroll_cache.py']),('dialogue_portraits',[media,'tools/check_portraits_gba.py']),('dense_actors_HUD_audio',[media,'tools/check_dense_actor_transition.py']),('portraits_and_audio_stress',[media,'tools/check_portrait_matrix_gba.py','--stress']),('all_MIDI_GBA_modes',[media,'tools/check_music_matrix_gba.py']),('original_BGM_pitches',[media,'tools/check_music_matrix_gba.py','--original-pitches']),('black_cut_presentation',[media,'tools/check_presentation_gba.py']),('uniform_alpha',[media,'tools/check_uniform_alpha_gba.py']),('stack_observation',[sys.executable,'tools/check_menu_stacks.py']),('performance',[sys.executable,'tools/measure_frame_rate.py','--baseline-v051'])]
+ out=ROOT/'evidence/optimization_20261022/final_validation'/digest[:12];out.mkdir(parents=True,exist_ok=True);progress=out/'progress.json';old=json.loads(progress.read_text())if progress.exists()else{};rows=old.get('tests',[])if old.get('rom_sha256')==digest else[];passed={r['name']for r in rows if r['status']=='pass'};rows=[r for r in rows if r['status']=='pass']
+ def save(status):
+  report={'status':status,'rom_sha256':digest,'tests':rows,'completed':len(rows),'total':len(tests),'scope':'controlled host and actual emulated GBA spot checks; full campaign and physical hardware not run','compiler_inputs_unchanged':all(sha(ROOT/p)==h for p,h in inputs.items()),'production_ROM_unchanged':sha(rom)==digest};progress.write_text(json.dumps(report,ensure_ascii=False,indent=2));return report
+ for name,args in tests:
+  if name=='performance'and not(ROOT/'history/quality_performance_20261022/baseline/build/废都物语_GBA_开篇开发验证版.gba').exists():args=[sys.executable,'tools/measure_frame_rate.py','--current-only']
+  if name in passed:continue
+  assert sha(rom)==digest and all(sha(ROOT/p)==h for p,h in inputs.items()),'Production build changed during validation';start=time.monotonic();log=out/(name+'.log');print('checking',name,flush=True)
+  with log.open('w')as stream:p=subprocess.run(args,cwd=ROOT,stdout=stream,stderr=subprocess.STDOUT)
+  row={'name':name,'status':'pass'if p.returncode==0 else'fail','seconds':time.monotonic()-start,'returncode':p.returncode,'log':str(log.relative_to(ROOT))};rows.append(row);save('running'if not p.returncode else'fail');print(json.dumps(row),flush=True)
+  if p.returncode:raise SystemExit(p.returncode)
+ report=save('pass');assert report['compiler_inputs_unchanged']and report['production_ROM_unchanged'];(out/'result.json').write_text(json.dumps(report,ensure_ascii=False,indent=2));(out.parent/'latest_attempt.json').write_text(json.dumps({'status':'pass','report':str((out/'result.json').relative_to(ROOT))},ensure_ascii=False,indent=2));print(json.dumps({'status':'pass','tests':len(rows),'rom_sha256':digest},indent=2))
+if __name__=='__main__':main()

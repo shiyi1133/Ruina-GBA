@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/mnt/d/gba_hack/废都物语_GBA章节样版/tools/check_quality_menu_regions.py", line 36, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/mnt/d/gba_hack/废都物语_GBA章节样版/tools/check_quality_menu_regions.py", line 20, in main
+    assert state()[0]==mode and e.debug()[15]==2,state()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: (1, 3, 0, 0)

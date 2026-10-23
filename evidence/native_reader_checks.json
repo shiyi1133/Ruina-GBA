@@ -1,0 +1,13 @@
+{
+  "test": "native LCF reader versus unchanged original data",
+  "host": "Linux host, not GBA emulation",
+  "status": "pass",
+  "files": 73,
+  "fields": 144113,
+  "array_entries": 16508,
+  "commands": 167495,
+  "invalid_inputs_rejected": 3,
+  "single_pass_commands": 167495,
+  "game_rule_execution": "not_run",
+  "chapter_playthrough": "not_run"
+}

@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/mnt/d/gba_hack/废都物语_GBA章节样版/tools/check_music_full_scores_gba.py", line 50, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/mnt/d/gba_hack/废都物语_GBA章节样版/tools/check_music_full_scores_gba.py", line 36, in main
+    assert current_stream[0]==stream[0],('underrun',index,track['name'],quality,sampled_frames,stream,current_stream)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ('underrun', 1, 'INT03', 1, 2520, (16, 45, 1472, 0), (112, 5439, 768, 0))

@@ -1,0 +1,1025 @@
+{
+  "status": "pass",
+  "stress_music_plus_four_effects": true,
+  "quick_subset": true,
+  "MIDI_underruns_after_priming": 0,
+  "original_portrait_bank_size": 160,
+  "single_original_portraits": 4,
+  "mixed_sheet_combinations": 40,
+  "LCD_faces_checked": 164,
+  "different_pixels": 0,
+  "VBlank_commit_overruns": 0,
+  "max_commit_scanlines": 6,
+  "production_rom_sha256": "35a8e283662be7a779e92149f77f7aab866bca22b07a583f4a6179849130abdc",
+  "fixture_sha256": "ad269e6314446cddbe8018a53ea4b24d5e2aa0df9834288536299cbdfbab341c",
+  "native_bank_sha256": "cc29d4bdcd2725f8eeb8b11c759287f02380aabc9be69add3d8de4fe247856eb",
+  "mixed_bank_sha256": "53b47aaca84933b203e01a450a7e5f08f5f17b8e7e1d4c1f5f6f0a31d6af8339",
+  "kind": "RGB555 singles and mixed pages each retain original XYZ colors",
+  "mixed_color_error_report": null,
+  "direct_RGB555_faces": true,
+  "RGB_commit_late_chunks": 0,
+  "video_source_override": "experiments/rgb_commit/video.c",
+  "rows": [
+    {
+      "stage": 1,
+      "sheets_mask": 1,
+      "portraits": [
+        0
+      ],
+      "different_pixels": 0,
+      "pipeline_diagnostic": [
+        112,
+        33788,
+        112,
+        41782,
+        112,
+        45132,
+        640,
+        1424,
+        1456,
+        0
+      ]
+    },
+    {
+      "stage": 2,
+      "sheets_mask": 1,
+      "portraits": [
+        1
+      ],
+      "different_pixels": 0,
+      "pipeline_diagnostic": [
+        112,
+        46028,
+        112,
+        55661,
+        112,
+        64095,
+        1456,
+        1344,
+        1472,
+        0
+      ]
+    },
+    {
+      "stage": 3,
+      "sheets_mask": 1,
+      "portraits": [
+        2
+      ],
+      "different_pixels": 0,
+      "pipeline_diagnostic": [
+        112,
+        64879,
+        112,
+        2830,
+        112,
+        5214,
+        1424,
+        1424,
+        1440,
+        0
+      ]
+    },
+    {
+      "stage": 4,
+      "sheets_mask": 1,
+      "portraits": [
+        3
+      ],
+      "different_pixels": 0,
+      "pipeline_diagnostic": [
+        112,
+        5964,
+        112,
+        13669,
+        112,
+        20220,
+        1456,
+        1136,
+        1440,
+        0
+      ]
+    },
+    {
+      "stage": 5,
+      "sheets_mask": 3,
+      "portraits": [
+        3,
+        26,
+        1,
+        24
+      ],
+      "different_pixels": 0,
+      "pipeline_diagnostic": [
+        112,
+        21076,
+        112,
+        31783,
+        112,
+        32876,
+        1456,
+        1440,
+        1504,
+        0
+      ]
+    },
+    {
+      "stage": 6,
+      "sheets_mask": 5,
+      "portraits": [
+        5,
+        44,
+        3,
+        42
+      ],
+      "different_pixels": 0,
+      "pipeline_diagnostic": [
+        112,
+        33637,
+        112,
+        40192,
+        112,
+        41399,
+        1440,
+        1488,
+        1440,
+        0
+      ]
+    },
+    {
+      "stage": 7,
+      "sheets_mask": 6,
+      "portraits": [
+        22,
+        45,
+        20,
+        43
+      ],
+      "different_pixels": 0,
+      "pipeline_diagnostic": [
+        112,
+        42137,
+        112,
+        47717,
+        112,
+        48806,
+        1504,
+        1472,
+        1456,
+        0
+      ]
+    },
+    {
+      "stage": 8,
+      "sheets_mask": 7,
+      "portraits": [
+        7,
+        30,
+        37,
+        12
+      ],
+      "different_pixels": 0,
+      "pipeline_diagnostic": [
+        112,
+        49557,
+        112,
+        55349,
+        112,
+        56487,
+        1504,
+        1440,
+        1456,
+        0
+      ]
+    },
+    {
+      "stage": 9,
+      "sheets_mask": 9,
+      "portraits": [
+        9,
+        48,
+        7,
+        62
+      ],
+      "different_pixels": 0,
+      "pipeline_diagnostic": [
+        112,
+        57259,
+        112,
+        63898,
+        112,
+        65528,
+        1488,
+        1472,
+        1488,
+        0
+      ]
+    },
+    {
+      "stage": 10,
+      "sheets_mask": 10,
+      "portraits": [
+        26,
+        49,
+        24,
+        63
+      ],
+      "different_pixels": 0,
+      "pipeline_diagnostic": [
+        112,
+        742,
+        112,
+        7413,
+        112,
+        8232,
+        1424,
+        1456,
+        1472,
+        0
+      ]
+    },
+    {
+      "stage": 11,
+      "sheets_mask": 11,
+      "portraits": [
+        11,
+        18,
+        57,
+        0
+      ],
+      "different_pixels": 0,
+      "pipeline_diagnostic": [
+        112,
+        8988,
+        112,
+        16572,
+        112,
+        17831,
+        1504,
+        1440,
+        1456,
+        0
+      ]
+    },
+    {
+      "stage": 12,
+      "sheets_mask": 12,
+      "portraits": [
+        44,
+        51,
+        42,
+        49
+      ],
+      "different_pixels": 0,
+      "pipeline_diagnostic": [
+        112,
+        18600,
+        112,
+        26256,
+        112,
+        27431,
+        1488,
+        1472,
+        1456,
+        0
+      ]
+    },
+    {
+      "stage": 13,
+      "sheets_mask": 13,
+      "portraits": [
+        13,
+        36,
+        59,
+        2
+      ],
+      "different_pixels": 0,
+      "pipeline_diagnostic": [
+        112,
+        28198,
+        112,
+        35056,
+        112,
+        36487,
+        1488,
+        1456,
+        1488,
+        0
+      ]
+    },
+    {
+      "stage": 14,
+      "sheets_mask": 14,
+      "portraits": [
+        30,
+        37,
+        60,
+        19
+      ],
+      "different_pixels": 0,
+      "pipeline_diagnostic": [
+        112,
+        37224,
+        112,
+        45600,
+        112,
+        48826,
+        1424,
+        1328,
+        1440,
+        0
+      ]
+    },
+    {
+      "stage": 15,
+      "sheets_mask": 15,
+      "portraits": [
+        15,
+        22,
+        45,
+        52
+      ],
+      "different_pixels": 0,
+      "pipeline_diagnostic": [
+        112,
+        49610,
+        112,
+        60026,
+        112,
+        61175,
+        1456,
+        1456,
+        1504,
+        0
+      ]
+    },
+    {
+      "stage": 16,
+      "sheets_mask": 17,
+      "portraits": [
+        1,
+        72,
+        15,
+        70
+      ],
+      "different_pixels": 0,
+      "pipeline_diagnostic": [
+        112,
+        61912,
+        112,
+        875,
+        112,
+        1925,
+        1440,
+        1472,
+        1472,
+        0
+      ]
+    },
+    {
+      "stage": 17,
+      "sheets_mask": 18,
+      "portraits": [
+        18,
+        73,
+        16,
+        71
+      ],
+      "different_pixels": 0,
+      "pipeline_diagnostic": [
+        112,
+        2732,
+        112,
+        11993,
+        112,
+        14013,
+        1488,
+        1392,
+        1424,
+        0
+      ]
+    },
+    {
+      "stage": 18,
+      "sheets_mask": 19,
+      "portraits": [
+        3,
+        26,
+        65,
+        8
+      ],
+      "different_pixels": 0,
+      "pipeline_diagnostic": [
+        112,
+        14827,
+        112,
+        22469,
+        112,
+        23614,
+        1424,
+        1424,
+        1424,
+        0
+      ]
+    },
+    {
+      "stage": 19,
+      "sheets_mask": 20,
+      "portraits": [
+        36,
+        75,
+        34,
+        73
+      ],
+      "different_pixels": 0,
+      "pipeline_diagnostic": [
+        112,
+        24358,
+        112,
+        29785,
+        112,
+        30746,
+        1488,
+        1488,
+        1472,
+        0
+      ]
+    },
+    {
+      "stage": 20,
+      "sheets_mask": 21,
+      "portraits": [
+        5,
+        44,
+        67,
+        10
+      ],
+      "different_pixels": 0,
+      "pipeline_diagnostic": [
+        112,
+        31513,
+        112,
+        37111,
+        112,
+        38141,
+        1504,
+        1456,
+        1488,
+        0
+      ]
+    },
+    {
+      "stage": 21,
+      "sheets_mask": 22,
+      "portraits": [
+        22,
+        45,
+        68,
+        27
+      ],
+      "different_pixels": 0,
+      "pipeline_diagnostic": [
+        112,
+        38894,
+        112,
+        45113,
+        112,
+        46108,
+        1424,
+        1440,
+        1472,
+        0
+      ]
+    },
+    {
+      "stage": 22,
+      "sheets_mask": 23,
+      "portraits": [
+        7,
+        30,
+        37,
+        76
+      ],
+      "different_pixels": 0,
+      "pipeline_diagnostic": [
+        112,
+        46864,
+        112,
+        51164,
+        112,
+        52143,
+        1520,
+        1488,
+        1440,
+        0
+      ]
+    },
+    {
+      "stage": 23,
+      "sheets_mask": 24,
+      "portraits": [
+        56,
+        79,
+        54,
+        77
+      ],
+      "different_pixels": 0,
+      "pipeline_diagnostic": [
+        112,
+        52890,
+        112,
+        57982,
+        112,
+        58989,
+        1504,
+        1456,
+        1504,
+        0
+      ]
+    },
+    {
+      "stage": 24,
+      "sheets_mask": 25,
+      "portraits": [
+        9,
+        48,
+        71,
+        14
+      ],
+      "different_pixels": 0,
+      "pipeline_diagnostic": [
+        112,
+        59742,
+        112,
+        571,
+        112,
+        1431,
+        1440,
+        1424,
+        1488,
+        0
+      ]
+    },
+    {
+      "stage": 25,
+      "sheets_mask": 26,
+      "portraits": [
+        26,
+        49,
+        72,
+        31
+      ],
+      "different_pixels": 0,
+      "pipeline_diagnostic": [
+        112,
+        2166,
+        112,
+        8153,
+        112,
+        9100,
+        1408,
+        1488,
+        1472,
+        0
+      ]
+    },
+    {
+      "stage": 26,
+      "sheets_mask": 27,
+      "portraits": [
+        11,
+        18,
+        57,
+        64
+      ],
+      "different_pixels": 0,
+      "pipeline_diagnostic": [
+        112,
+        9885,
+        112,
+        17735,
+        112,
+        18701,
+        1504,
+        1424,
+        1472,
+        0
+      ]
+    },
+    {
+      "stage": 27,
+      "sheets_mask": 28,
+      "portraits": [
+        44,
+        51,
+        74,
+        33
+      ],
+      "different_pixels": 0,
+      "pipeline_diagnostic": [
+        112,
+        19479,
+        112,
+        25275,
+        112,
+        26382,
+        1504,
+        1440,
+        1472,
+        0
+      ]
+    },
+    {
+      "stage": 28,
+      "sheets_mask": 29,
+      "portraits": [
+        13,
+        36,
+        59,
+        66
+      ],
+      "different_pixels": 0,
+      "pipeline_diagnostic": [
+        112,
+        27159,
+        112,
+        35247,
+        112,
+        36262,
+        1504,
+        1456,
+        1456,
+        0
+      ]
+    },
+    {
+      "stage": 29,
+      "sheets_mask": 30,
+      "portraits": [
+        30,
+        37,
+        60,
+        67
+      ],
+      "different_pixels": 0,
+      "pipeline_diagnostic": [
+        112,
+        37017,
+        112,
+        42522,
+        112,
+        43397,
+        1504,
+        1472,
+        1504,
+        0
+      ]
+    },
+    {
+      "stage": 30,
+      "sheets_mask": 33,
+      "portraits": [
+        1,
+        88,
+        15,
+        86
+      ],
+      "different_pixels": 0,
+      "pipeline_diagnostic": [
+        112,
+        44134,
+        112,
+        48368,
+        112,
+        49417,
+        1424,
+        1456,
+        1472,
+        0
+      ]
+    },
+    {
+      "stage": 31,
+      "sheets_mask": 34,
+      "portraits": [
+        18,
+        89,
+        16,
+        87
+      ],
+      "different_pixels": 0,
+      "pipeline_diagnostic": [
+        112,
+        50166,
+        112,
+        57260,
+        112,
+        58485,
+        1408,
+        1456,
+        1504,
+        0
+      ]
+    },
+    {
+      "stage": 32,
+      "sheets_mask": 35,
+      "portraits": [
+        3,
+        26,
+        81,
+        8
+      ],
+      "different_pixels": 0,
+      "pipeline_diagnostic": [
+        112,
+        59222,
+        112,
+        1452,
+        112,
+        2550,
+        1440,
+        1440,
+        1504,
+        0
+      ]
+    },
+    {
+      "stage": 33,
+      "sheets_mask": 36,
+      "portraits": [
+        36,
+        91,
+        34,
+        89
+      ],
+      "different_pixels": 0,
+      "pipeline_diagnostic": [
+        112,
+        3286,
+        112,
+        9197,
+        112,
+        10501,
+        1440,
+        1472,
+        1488,
+        0
+      ]
+    },
+    {
+      "stage": 34,
+      "sheets_mask": 37,
+      "portraits": [
+        5,
+        44,
+        83,
+        10
+      ],
+      "different_pixels": 0,
+      "pipeline_diagnostic": [
+        112,
+        11238,
+        112,
+        16638,
+        112,
+        17910,
+        1424,
+        1440,
+        1504,
+        0
+      ]
+    },
+    {
+      "stage": 35,
+      "sheets_mask": 38,
+      "portraits": [
+        22,
+        45,
+        84,
+        27
+      ],
+      "different_pixels": 0,
+      "pipeline_diagnostic": [
+        112,
+        18646,
+        112,
+        25003,
+        112,
+        25862,
+        1440,
+        1456,
+        1488,
+        0
+      ]
+    },
+    {
+      "stage": 36,
+      "sheets_mask": 39,
+      "portraits": [
+        7,
+        30,
+        37,
+        92
+      ],
+      "different_pixels": 0,
+      "pipeline_diagnostic": [
+        112,
+        26600,
+        112,
+        30044,
+        112,
+        30796,
+        1424,
+        1488,
+        1424,
+        0
+      ]
+    },
+    {
+      "stage": 37,
+      "sheets_mask": 40,
+      "portraits": [
+        56,
+        95,
+        54,
+        93
+      ],
+      "different_pixels": 0,
+      "pipeline_diagnostic": [
+        112,
+        31542,
+        112,
+        35661,
+        112,
+        36551,
+        1472,
+        1504,
+        1440,
+        0
+      ]
+    },
+    {
+      "stage": 38,
+      "sheets_mask": 41,
+      "portraits": [
+        9,
+        48,
+        87,
+        14
+      ],
+      "different_pixels": 0,
+      "pipeline_diagnostic": [
+        112,
+        37302,
+        112,
+        43662,
+        112,
+        44807,
+        1472,
+        1472,
+        1488,
+        0
+      ]
+    },
+    {
+      "stage": 39,
+      "sheets_mask": 42,
+      "portraits": [
+        26,
+        49,
+        88,
+        31
+      ],
+      "different_pixels": 0,
+      "pipeline_diagnostic": [
+        112,
+        45527,
+        112,
+        52239,
+        112,
+        53291,
+        1440,
+        1440,
+        1456,
+        0
+      ]
+    },
+    {
+      "stage": 40,
+      "sheets_mask": 43,
+      "portraits": [
+        11,
+        18,
+        57,
+        80
+      ],
+      "different_pixels": 0,
+      "pipeline_diagnostic": [
+        112,
+        54056,
+        112,
+        312,
+        112,
+        1194,
+        1488,
+        1424,
+        1456,
+        0
+      ]
+    },
+    {
+      "stage": 41,
+      "sheets_mask": 44,
+      "portraits": [
+        44,
+        51,
+        90,
+        33
+      ],
+      "different_pixels": 0,
+      "pipeline_diagnostic": [
+        112,
+        1941,
+        112,
+        6091,
+        112,
+        6955,
+        1520,
+        1424,
+        1456,
+        0
+      ]
+    },
+    {
+      "stage": 42,
+      "sheets_mask": 45,
+      "portraits": [
+        13,
+        36,
+        59,
+        82
+      ],
+      "different_pixels": 0,
+      "pipeline_diagnostic": [
+        112,
+        7701,
+        112,
+        14526,
+        112,
+        15463,
+        1520,
+        1424,
+        1520,
+        0
+      ]
+    },
+    {
+      "stage": 43,
+      "sheets_mask": 46,
+      "portraits": [
+        30,
+        37,
+        60,
+        83
+      ],
+      "different_pixels": 0,
+      "pipeline_diagnostic": [
+        112,
+        16200,
+        112,
+        20391,
+        112,
+        21223,
+        1456,
+        1456,
+        1520,
+        0
+      ]
+    },
+    {
+      "stage": 44,
+      "sheets_mask": 48,
+      "portraits": [
+        64,
+        87,
+        78,
+        85
+      ],
+      "different_pixels": 0,
+      "pipeline_diagnostic": [
+        112,
+        21961,
+        112,
+        28478,
+        112,
+        29449,
+        1456,
+        1440,
+        1488,
+        0
+      ]
+    }
+  ],
+  "physical_hardware": "not_run"
+}

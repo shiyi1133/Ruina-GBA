@@ -1,0 +1,6 @@
+{
+  "ROM": "/mnt/d/gba_hack/废都物语_GBA章节样版/build/fixtures/rgb_tile_trial/rgb_tile_trial.gba",
+  "ELF": "/mnt/d/gba_hack/废都物语_GBA章节样版/build/fixtures/rgb_tile_trial/rgb_tile_trial.elf",
+  "base": "3371cc8ffac5dfe023ce9458d13617cdc00b2619286f04a5bb4374b7bd69c164",
+  "sha256": "ad27fc0d45f405f0813b77625a8143d11a9509d49cfce7aa0ae479e16761d5ee"
+}

@@ -1,0 +1,42 @@
+checking check_attribution
+{"name": "check_attribution", "command": ["/usr/bin/python3", "tools/check_attribution.py"], "status": "pass", "returncode": 0, "host_seconds": 3.502001246000873, "log": "evidence/balanced_optimization_20261023/validation/40820faea497/1792727801488721008/check_attribution.log"}
+checking check_serviced_storage
+{"name": "check_serviced_storage", "command": ["/usr/bin/python3", "tools/check_serviced_storage.py"], "status": "pass", "returncode": 0, "host_seconds": 0.27113652099978935, "log": "evidence/balanced_optimization_20261023/validation/40820faea497/1792727801488721008/check_serviced_storage.log"}
+checking check_balanced_rgb
+{"name": "check_balanced_rgb", "command": ["/home/app/venvs/pig/bin/python", "tools/check_balanced_rgb.py"], "status": "pass", "returncode": 0, "host_seconds": 9.737254198998926, "log": "evidence/balanced_optimization_20261023/validation/40820faea497/1792727801488721008/check_balanced_rgb.log"}
+checking check_balanced_menu_regions
+{"name": "check_balanced_menu_regions", "command": ["/usr/bin/python3", "tools/check_balanced_menu_regions.py"], "status": "pass", "returncode": 0, "host_seconds": 10.627407069001492, "log": "evidence/balanced_optimization_20261023/validation/40820faea497/1792727801488721008/check_balanced_menu_regions.log"}
+checking check_balanced_ui_capacity
+{"name": "check_balanced_ui_capacity", "command": ["/home/app/venvs/pig/bin/python", "tools/check_balanced_ui_capacity.py"], "status": "pass", "returncode": 0, "host_seconds": 4.199010451999129, "log": "evidence/balanced_optimization_20261023/validation/40820faea497/1792727801488721008/check_balanced_ui_capacity.log"}
+checking check_map_window_matrix
+{"name": "check_map_window_matrix", "command": ["/home/app/venvs/pig/bin/python", "tools/check_map_window_matrix.py"], "status": "pass", "returncode": 0, "host_seconds": 76.09329370300111, "log": "evidence/balanced_optimization_20261023/validation/40820faea497/1792727801488721008/check_map_window_matrix.log"}
+checking check_incremental_rooms
+{"name": "check_incremental_rooms", "command": ["/home/app/venvs/pig/bin/python", "tools/check_incremental_rooms.py"], "status": "pass", "returncode": 0, "host_seconds": 40.119564210001045, "log": "evidence/balanced_optimization_20261023/validation/40820faea497/1792727801488721008/check_incremental_rooms.log"}
+checking check_music_room_long
+{"name": "check_music_room_long", "command": ["/usr/bin/python3", "tools/check_music_room_long.py"], "status": "pass", "returncode": 0, "host_seconds": 11.403795996000554, "log": "evidence/balanced_optimization_20261023/validation/40820faea497/1792727801488721008/check_music_room_long.log"}
+checking measure_balanced_battle
+{"name": "measure_balanced_battle", "command": ["/usr/bin/python3", "tools/measure_balanced_battle.py"], "status": "pass", "returncode": 0, "host_seconds": 8.117985487000624, "log": "evidence/balanced_optimization_20261023/validation/40820faea497/1792727801488721008/measure_balanced_battle.log"}
+checking check_save_stack
+{"name": "check_save_stack", "command": ["/usr/bin/python3", "tools/check_save_stack.py"], "status": "pass", "returncode": 0, "host_seconds": 1.8618732309987536, "log": "evidence/balanced_optimization_20261023/validation/40820faea497/1792727801488721008/check_save_stack.log"}
+checking check_shop_item_order
+{"name": "check_shop_item_order", "command": ["/usr/bin/python3", "tools/check_shop_item_order.py"], "status": "pass", "returncode": 0, "host_seconds": 0.48619260099985695, "log": "evidence/balanced_optimization_20261023/validation/40820faea497/1792727801488721008/check_shop_item_order.log"}
+checking check_shop_comparison
+{"name": "check_shop_comparison", "command": ["/usr/bin/python3", "tools/check_shop_comparison.py"], "status": "pass", "returncode": 0, "host_seconds": 15.021984552999129, "log": "evidence/balanced_optimization_20261023/validation/40820faea497/1792727801488721008/check_shop_comparison.log"}
+checking check_inventory_matrix
+{"name": "check_inventory_matrix", "command": ["/usr/bin/python3", "tools/check_inventory_matrix.py"], "status": "pass", "returncode": 0, "host_seconds": 55.912817280001036, "log": "evidence/balanced_optimization_20261023/validation/40820faea497/1792727801488721008/check_inventory_matrix.log"}
+checking natural_opening_1
+{"name": "natural_opening_1", "command": ["/usr/bin/python3", "tools/check_balanced_playable.py", "--origin", "1"], "status": "pass", "returncode": 0, "host_seconds": 2.6503149199998006, "log": "evidence/balanced_optimization_20261023/validation/40820faea497/1792727801488721008/natural_opening_1.log"}
+checking natural_opening_2
+{"name": "natural_opening_2", "command": ["/usr/bin/python3", "tools/check_balanced_playable.py", "--origin", "2"], "status": "pass", "returncode": 0, "host_seconds": 2.491473826999936, "log": "evidence/balanced_optimization_20261023/validation/40820faea497/1792727801488721008/natural_opening_2.log"}
+checking natural_opening_3
+{"name": "natural_opening_3", "command": ["/usr/bin/python3", "tools/check_balanced_playable.py", "--origin", "3"], "status": "pass", "returncode": 0, "host_seconds": 2.3922917820000293, "log": "evidence/balanced_optimization_20261023/validation/40820faea497/1792727801488721008/natural_opening_3.log"}
+checking natural_opening_4
+{"name": "natural_opening_4", "command": ["/usr/bin/python3", "tools/check_balanced_playable.py", "--origin", "4"], "status": "pass", "returncode": 0, "host_seconds": 3.1694016189994727, "log": "evidence/balanced_optimization_20261023/validation/40820faea497/1792727801488721008/natural_opening_4.log"}
+checking input_response
+{"name": "input_response", "command": ["/usr/bin/python3", "tools/measure_balanced_response.py", "--rom", "/mnt/d/gba_hack/废都物语_GBA章节样版/build/废都物语_GBA_开篇开发验证版.gba", "--elf", "/mnt/d/gba_hack/废都物语_GBA章节样版/build/ruina_opening_dev.elf", "--label", "final_balance"], "status": "pass", "returncode": 0, "host_seconds": 7.746078463998856, "log": "evidence/balanced_optimization_20261023/validation/40820faea497/1792727801488721008/input_response.log"}
+{
+  "status": "partial_checks_pass",
+  "production_ROM_sha256": "40820faea497163e7bae56fd83600b2ea1870a5bd8255409e75906897c2e9958",
+  "skip_common_regression": true,
+  "skip_whole_music": true
+}

@@ -1,0 +1,85 @@
+{
+  "status": "pass",
+  "kind": "actual GBA emulator, original campaign ordinary SAV, buttons only",
+  "rom_sha256": "3371cc8ffac5dfe023ce9458d13617cdc00b2619286f04a5bb4374b7bd69c164",
+  "input_save_sha256": "44f77bc3381656c2f2b183c8db67ddf3857ea1860bbf360253ce48d7c4ffdb2e",
+  "input_save_version": 2,
+  "checks": [
+    {
+      "name": "title acquisition and insufficient-SP retry",
+      "SP_before": 3,
+      "SP_after": 1,
+      "certificates_consumed": 1,
+      "title_level": 1,
+      "skills_changed": true
+    },
+    {
+      "name": "alchemy cancel and successful production",
+      "ingredient": 302,
+      "consumed": 1,
+      "product": 22,
+      "produced": 1
+    },
+    {
+      "name": "after_title_and_alchemy ordinary save cold-load",
+      "save_message_paused_game_byte_match": true,
+      "bytes": 39704,
+      "load_observations": {
+        "full_state_checksum_at_load_matches": true,
+        "state_bytes_at_load": 39704,
+        "player_progress_after_background_events_resume_matches": true,
+        "compared_after_resume": [
+          "map",
+          "gold",
+          "inventory",
+          "party and party actor records",
+          "origin, SP, story phase"
+        ],
+        "all_bytes_after_resuming_background_events": "not required: original parallel events legitimately update scratch state"
+      }
+    },
+    {
+      "name": "cooking starting point",
+      "ordinary_save": "history/legacy_reentered_cave_v2.sav",
+      "sha256": "68c3fee5fe5af0444a1901f861bd3a5f470996cecd9524bedec343746079cd9f",
+      "phase": 9
+    },
+    {
+      "name": "original bread -> dry bread recipe",
+      "ingredients": [
+        58
+      ],
+      "product": 151,
+      "inventory_delta": {
+        "58": -1,
+        "151": 1
+      },
+      "extra_gold_deducted": 0
+    },
+    {
+      "name": "weapon/armor workshop gameplay",
+      "status": "not_run",
+      "reason": "original commission/skill unlock requirements have not been reached in these chapter fixtures"
+    },
+    {
+      "name": "after_cooking_and_workshops ordinary save cold-load",
+      "save_message_paused_game_byte_match": true,
+      "bytes": 39704,
+      "load_observations": {
+        "full_state_checksum_at_load_matches": true,
+        "state_bytes_at_load": 39704,
+        "player_progress_after_background_events_resume_matches": true,
+        "compared_after_resume": [
+          "map",
+          "gold",
+          "inventory",
+          "party and party actor records",
+          "origin, SP, story phase"
+        ],
+        "all_bytes_after_resuming_background_events": "not required: original parallel events legitimately update scratch state"
+      }
+    }
+  ],
+  "all_original_optional_systems": "not_complete",
+  "hardware": "not_run"
+}

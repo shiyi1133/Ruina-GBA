@@ -1,0 +1,14 @@
+verify original source archive and expand matching project
+overlay current source and cached build inputs
+clean build from the matching source project
+create the source ZIP and rebuild its actual fresh extraction
+assemble separate DEMO, then copy and verify delivery files
+{
+  "status": "delivered",
+  "ROM_sha256": "f85db82f5ca5f28a22febdd8f377d04d5b5c9452c2d601488174113bc5ba283c",
+  "ROM": "/mnt/c/Users/APP/Downloads/废都物语_GBA_DEMO_v0.6.1_地图调查修正_20261022/废都物语_GBA_v0.6.1_地图调查修正版.gba",
+  "DEMO_ZIP": "/mnt/c/Users/APP/Downloads/废都物语_GBA_DEMO_v0.6.1_地图调查修正_20261022.zip",
+  "SOURCE_ZIP": "/mnt/c/Users/APP/Downloads/废都物语_GBA_匹配工程_v0.6.1_20261022.zip",
+  "source_rebuild_byte_identical": true,
+  "originals_and_saves": "preserved"
+}

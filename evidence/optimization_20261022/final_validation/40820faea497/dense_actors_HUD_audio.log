@@ -1,0 +1,15 @@
+initial_audio_underruns 0
+Traceback (most recent call last):
+  File "/mnt/d/gba_hack/废都物语_GBA章节样版/tools/check_dense_actor_transition.py", line 46, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/mnt/d/gba_hack/废都物语_GBA章节样版/tools/check_dense_actor_transition.py", line 29, in main
+    e.frames(1,1 if n<2 else 0);frames.append(shot());current_audio=sound()
+                                              ^^^^^^
+  File "/mnt/d/gba_hack/废都物语_GBA章节样版/tools/check_dense_actor_transition.py", line 19, in shot
+    e.shot(out/'current.png');return np.asarray(Image.open(out/'current.png').convert('RGB')).copy()
+                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/app/venvs/pig/lib/python3.12/site-packages/PIL/Image.py", line 3635, in open
+    fp = builtins.open(filename, "rb")
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 12] Cannot allocate memory: '/mnt/d/gba_hack/废都物语_GBA章节样版/evidence/optimization_20261022/dense_actor_transition/40820faea497/current.png'

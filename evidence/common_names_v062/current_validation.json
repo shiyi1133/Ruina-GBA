@@ -1,0 +1,16 @@
+{
+  "status": "pass",
+  "ROM_sha256": "1db4e8b86af4cc3b4e71abdc983f9a8e5a2c84eb5784738258912a75750e1561",
+  "reports": [
+    "evidence/name_input_v062/1db4e8b86af4/result.json",
+    "evidence/naming_cut/1db4e8b86af4/result.json",
+    "evidence/manual_investigation/1db4e8b86af4/result.json",
+    "evidence/phase_demo_20261021/1db4e8b86af4/result.json",
+    "evidence/hardware_scroll/navigation/1db4e8b86af4/result.json",
+    "evidence/cursor_flash/1db4e8b86af4/continuity.json"
+  ],
+  "scope": "20 surnames/30 given-name characters and all 50 glyphs, editing/restore/limits, four origins naming and black cuts; inherited manual A, routing, opening/first victory, SAV and 1650 LCD frames retested",
+  "full_v06_suite_rerun": false,
+  "whole_campaign": "not_run",
+  "physical_hardware": "not_run"
+}

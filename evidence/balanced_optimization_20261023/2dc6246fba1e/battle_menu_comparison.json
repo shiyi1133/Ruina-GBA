@@ -1,0 +1,312 @@
+{
+  "status": "pass",
+  "production_ROM_sha256": "2dc6246fba1ea99eec94a4a49449f6ee01988c4cb8c334d3324edf78ef65167c",
+  "LCD_states_exact": 48,
+  "current_response": [
+    {
+      "action": "enter_actor_commands",
+      "samples": 1,
+      "response_ms_min": 100.45623779296875,
+      "response_ms_max": 100.45623779296875,
+      "response_ms_mean": 100.45623779296875,
+      "black_frames": 0,
+      "intermediate_LCD_frames": 0
+    },
+    {
+      "action": "actor_commands_down",
+      "samples": 6,
+      "response_ms_min": 33.48541259765625,
+      "response_ms_max": 33.48541259765625,
+      "response_ms_mean": 33.48541259765625,
+      "black_frames": 0,
+      "intermediate_LCD_frames": 0
+    },
+    {
+      "action": "actor_commands_up",
+      "samples": 6,
+      "response_ms_min": 33.48541259765625,
+      "response_ms_max": 33.48541259765625,
+      "response_ms_mean": 33.48541259765625,
+      "black_frames": 0,
+      "intermediate_LCD_frames": 0
+    },
+    {
+      "action": "cancel_actor_to_battle_root",
+      "samples": 3,
+      "response_ms_min": 100.45623779296875,
+      "response_ms_max": 100.45623779296875,
+      "response_ms_mean": 100.45623779296875,
+      "black_frames": 0,
+      "intermediate_LCD_frames": 0
+    },
+    {
+      "action": "enter_skill_list",
+      "samples": 1,
+      "response_ms_min": 117.19894409179688,
+      "response_ms_max": 117.19894409179688,
+      "response_ms_mean": 117.19894409179688,
+      "black_frames": 0,
+      "intermediate_LCD_frames": 0
+    },
+    {
+      "action": "skill_list_down",
+      "samples": 6,
+      "response_ms_min": 33.48541259765625,
+      "response_ms_max": 33.48541259765625,
+      "response_ms_mean": 33.48541259765625,
+      "black_frames": 0,
+      "intermediate_LCD_frames": 0
+    },
+    {
+      "action": "skill_list_up",
+      "samples": 6,
+      "response_ms_min": 33.48541259765625,
+      "response_ms_max": 33.48541259765625,
+      "response_ms_mean": 33.48541259765625,
+      "black_frames": 0,
+      "intermediate_LCD_frames": 0
+    },
+    {
+      "action": "cancel_skills_to_actor",
+      "samples": 1,
+      "response_ms_min": 133.941650390625,
+      "response_ms_max": 133.941650390625,
+      "response_ms_mean": 133.941650390625,
+      "black_frames": 0,
+      "intermediate_LCD_frames": 0
+    },
+    {
+      "action": "enter_item_list",
+      "samples": 1,
+      "response_ms_min": 100.45623779296875,
+      "response_ms_max": 100.45623779296875,
+      "response_ms_mean": 100.45623779296875,
+      "black_frames": 0,
+      "intermediate_LCD_frames": 0
+    },
+    {
+      "action": "item_list_down",
+      "samples": 6,
+      "response_ms_min": 33.48541259765625,
+      "response_ms_max": 33.48541259765625,
+      "response_ms_mean": 33.48541259765625,
+      "black_frames": 0,
+      "intermediate_LCD_frames": 0
+    },
+    {
+      "action": "item_list_up",
+      "samples": 6,
+      "response_ms_min": 33.48541259765625,
+      "response_ms_max": 33.48541259765625,
+      "response_ms_mean": 33.48541259765625,
+      "black_frames": 0,
+      "intermediate_LCD_frames": 0
+    },
+    {
+      "action": "choose_item_target",
+      "samples": 1,
+      "response_ms_min": 150.68435668945312,
+      "response_ms_max": 150.68435668945312,
+      "response_ms_mean": 150.68435668945312,
+      "black_frames": 0,
+      "intermediate_LCD_frames": 0
+    },
+    {
+      "action": "target_list_down",
+      "samples": 1,
+      "response_ms_min": 33.48541259765625,
+      "response_ms_max": 33.48541259765625,
+      "response_ms_mean": 33.48541259765625,
+      "black_frames": 0,
+      "intermediate_LCD_frames": 0
+    },
+    {
+      "action": "target_list_up",
+      "samples": 1,
+      "response_ms_min": 33.48541259765625,
+      "response_ms_max": 33.48541259765625,
+      "response_ms_mean": 33.48541259765625,
+      "black_frames": 0,
+      "intermediate_LCD_frames": 0
+    },
+    {
+      "action": "cancel_target_to_items",
+      "samples": 1,
+      "response_ms_min": 100.45623779296875,
+      "response_ms_max": 100.45623779296875,
+      "response_ms_mean": 100.45623779296875,
+      "black_frames": 0,
+      "intermediate_LCD_frames": 0
+    },
+    {
+      "action": "cancel_items_to_actor",
+      "samples": 1,
+      "response_ms_min": 150.68435668945312,
+      "response_ms_max": 150.68435668945312,
+      "response_ms_mean": 150.68435668945312,
+      "black_frames": 0,
+      "intermediate_LCD_frames": 0
+    }
+  ],
+  "full_reference_response": [
+    {
+      "action": "enter_actor_commands",
+      "samples": 1,
+      "response_ms_min": 334.8541259765625,
+      "response_ms_max": 334.8541259765625,
+      "response_ms_mean": 334.8541259765625,
+      "black_frames": 0,
+      "intermediate_LCD_frames": 0
+    },
+    {
+      "action": "actor_commands_down",
+      "samples": 6,
+      "response_ms_min": 301.36871337890625,
+      "response_ms_max": 301.36871337890625,
+      "response_ms_mean": 301.36871337890625,
+      "black_frames": 0,
+      "intermediate_LCD_frames": 0
+    },
+    {
+      "action": "actor_commands_up",
+      "samples": 6,
+      "response_ms_min": 301.36871337890625,
+      "response_ms_max": 301.36871337890625,
+      "response_ms_mean": 301.36871337890625,
+      "black_frames": 0,
+      "intermediate_LCD_frames": 0
+    },
+    {
+      "action": "cancel_actor_to_battle_root",
+      "samples": 3,
+      "response_ms_min": 334.8541259765625,
+      "response_ms_max": 334.8541259765625,
+      "response_ms_mean": 334.8541259765625,
+      "black_frames": 0,
+      "intermediate_LCD_frames": 0
+    },
+    {
+      "action": "enter_skill_list",
+      "samples": 1,
+      "response_ms_min": 334.8541259765625,
+      "response_ms_max": 334.8541259765625,
+      "response_ms_mean": 334.8541259765625,
+      "black_frames": 0,
+      "intermediate_LCD_frames": 0
+    },
+    {
+      "action": "skill_list_down",
+      "samples": 6,
+      "response_ms_min": 318.1114196777344,
+      "response_ms_max": 318.1114196777344,
+      "response_ms_mean": 318.1114196777344,
+      "black_frames": 0,
+      "intermediate_LCD_frames": 0
+    },
+    {
+      "action": "skill_list_up",
+      "samples": 6,
+      "response_ms_min": 318.1114196777344,
+      "response_ms_max": 318.1114196777344,
+      "response_ms_mean": 318.1114196777344,
+      "black_frames": 0,
+      "intermediate_LCD_frames": 0
+    },
+    {
+      "action": "cancel_skills_to_actor",
+      "samples": 1,
+      "response_ms_min": 284.6260070800781,
+      "response_ms_max": 284.6260070800781,
+      "response_ms_mean": 284.6260070800781,
+      "black_frames": 0,
+      "intermediate_LCD_frames": 0
+    },
+    {
+      "action": "enter_item_list",
+      "samples": 1,
+      "response_ms_min": 334.8541259765625,
+      "response_ms_max": 334.8541259765625,
+      "response_ms_mean": 334.8541259765625,
+      "black_frames": 0,
+      "intermediate_LCD_frames": 0
+    },
+    {
+      "action": "item_list_down",
+      "samples": 6,
+      "response_ms_min": 318.1114196777344,
+      "response_ms_max": 334.8541259765625,
+      "response_ms_mean": 320.90187072753906,
+      "black_frames": 0,
+      "intermediate_LCD_frames": 0
+    },
+    {
+      "action": "item_list_up",
+      "samples": 6,
+      "response_ms_min": 318.1114196777344,
+      "response_ms_max": 334.8541259765625,
+      "response_ms_mean": 320.90187072753906,
+      "black_frames": 0,
+      "intermediate_LCD_frames": 0
+    },
+    {
+      "action": "choose_item_target",
+      "samples": 1,
+      "response_ms_min": 284.6260070800781,
+      "response_ms_max": 284.6260070800781,
+      "response_ms_mean": 284.6260070800781,
+      "black_frames": 0,
+      "intermediate_LCD_frames": 0
+    },
+    {
+      "action": "target_list_down",
+      "samples": 1,
+      "response_ms_min": 301.36871337890625,
+      "response_ms_max": 301.36871337890625,
+      "response_ms_mean": 301.36871337890625,
+      "black_frames": 0,
+      "intermediate_LCD_frames": 0
+    },
+    {
+      "action": "target_list_up",
+      "samples": 1,
+      "response_ms_min": 318.1114196777344,
+      "response_ms_max": 318.1114196777344,
+      "response_ms_mean": 318.1114196777344,
+      "black_frames": 0,
+      "intermediate_LCD_frames": 0
+    },
+    {
+      "action": "cancel_target_to_items",
+      "samples": 1,
+      "response_ms_min": 301.36871337890625,
+      "response_ms_max": 301.36871337890625,
+      "response_ms_mean": 301.36871337890625,
+      "black_frames": 0,
+      "intermediate_LCD_frames": 0
+    },
+    {
+      "action": "cancel_items_to_actor",
+      "samples": 1,
+      "response_ms_min": 284.6260070800781,
+      "response_ms_max": 284.6260070800781,
+      "response_ms_mean": 284.6260070800781,
+      "black_frames": 0,
+      "intermediate_LCD_frames": 0
+    }
+  ],
+  "checks": [
+    "B from first actor commands returns to battle mode; resources and RNG unchanged",
+    "B from item targets returns to the same item",
+    "B from skills/items retains parent command cursor",
+    "All cancellations preserve HP, MP, items, usage, gold, turn and RNG",
+    "Unusable original skill stays in list without consuming resources"
+  ],
+  "held_repeat": {
+    "hardware_frames": 90,
+    "complete_cursor_changes": 11,
+    "valid_complete_LCD_states": 4,
+    "intermediate_or_black_frames": 0
+  },
+  "music_underruns": 0,
+  "scope": "Original ordinary SAV, actual buttons and unchanged inventory/stats. A separately linked controlled reference redraws full battle/list backgrounds. Matching pixels do not imply full campaign or hardware acceptance."
+}

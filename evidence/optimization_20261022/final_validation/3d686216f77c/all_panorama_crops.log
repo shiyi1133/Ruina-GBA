@@ -1,0 +1,13 @@
+{
+  "status": "pass",
+  "panoramas": 60,
+  "native_GBA_crops": 237,
+  "pixels_checked": 9040128,
+  "display_different_pixels": 0,
+  "original_RGB555_different_pixels": 782,
+  "scope": "actual GBA cropped native pictures against untouched original XYZ; palette budget approximations separately counted; UI arrows masked out",
+  "production_rom_sha256": "3d686216f77cd59e4a7bcf1769822bda713d2ec5756d0f218df9ca744afb6c73",
+  "fixture_sha256": "7c147279ce810d0e447a1c6cbd9778837aa9965bf13b4bf909ccd4520c70b49b",
+  "image_bank_sha256": "ecf45a42fd2a8add868671ad741d8622972b72a64a0b1f87e24b65235d4ebf72",
+  "physical_hardware": "not_run"
+}

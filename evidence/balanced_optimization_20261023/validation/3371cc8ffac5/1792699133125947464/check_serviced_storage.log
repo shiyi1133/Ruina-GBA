@@ -1,0 +1,8 @@
+{
+  "status": "pass",
+  "source": "runtime/rm2k/storage_codec.c",
+  "source_sha256": "2b61f7661e7fb5a01874bd5bf2f7182ca8486f7f707806f1bd9cbfdfc432746b",
+  "cases": 48,
+  "service_calls": 1424,
+  "scope": "Independent exact PackBits encoding, callback and plain API byte identity, full unpack, output guard bytes, undersized capacities and immutable source. Emulator save/cold-load and actual audio continuity tested separately."
+}

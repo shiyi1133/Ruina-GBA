@@ -1,0 +1,10 @@
+{
+  "status": "pass",
+  "subsets": 1024,
+  "sold_item_positions_checked": 472050,
+  "buy_order_and_duplicates_preserved": true,
+  "source": "runtime/rm2k/shop.c",
+  "source_sha256": "f248a8ede679c397da26b13e7cf82091d0e7f83aa67a6f87f151664e6bb9d8e8",
+  "scope": "Original ascending-ID array used as independent expected order across 1024 random densities, including empty/full and word boundaries. Buying keeps caller order and duplicate IDs. No prices or transactions changed by the index representation.",
+  "item_mask_header_sha256": "3fbe9fbd7267af90c5e9f77bdc0433890c048194aee4475b26b0eaa916f6792f"
+}

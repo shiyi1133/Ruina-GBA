@@ -1,0 +1,1357 @@
+{
+  "date": "2026-10-22",
+  "status": "optimized stage; full natural campaign and PC parity not established",
+  "active_phase": 2,
+  "work_order": [
+    "补齐原作所需特性并做执行抽查",
+    "整体优化运行效率与图片质量"
+  ],
+  "full_game_port": false,
+  "all_original_features_accepted": false,
+  "rom_sha256": "2416a8e950d764c790dd55a309d615de4c0dc9420fa791e6b9cd3535fab8824f",
+  "rom_bytes": 33307620,
+  "within_GBA_32MiB": true,
+  "released_v0_2_preserved": true,
+  "delivered_demo_preserved": true,
+  "gameplay_checks": {
+    "delivered_demo_opening_walk_and_victory": {
+      "status": "pass_historical",
+      "reported_status": "pass",
+      "report": "evidence/demo_20261021/result.json",
+      "sha256": "e9dfad3e2f228c505a00e4dc2de44a2a3270833865716168c24c396f464e9a11",
+      "evidence_rom_sha256": "2113517277aa385b719f6ac6d75029cadb56474bc4ef67603741608d429ae68d",
+      "current_ROM": false,
+      "changed_sources": [],
+      "kind": "GBA emulator report; scope remains that report"
+    },
+    "incremental_map_pixel_equivalence": {
+      "status": "pass_historical",
+      "reported_status": "pass",
+      "report": "evidence/performance/map_dirty/result.json",
+      "sha256": "4e8181f4a122abfc42642fd158bf7fb43d403a2b540cf3be84451f10b73d7103",
+      "evidence_rom_sha256": "34c859df8d30bd955e427d6261a778bd6d8010066341c09118029d6edcc7b4f6",
+      "current_ROM": false,
+      "changed_sources": [],
+      "kind": "GBA emulator report; scope remains that report"
+    },
+    "opening_checkpoint_and_return": {
+      "status": "pass_current_ROM",
+      "reported_status": "pass",
+      "report": "evidence/chapter_progress/progress.json",
+      "sha256": "ae99999b9a7a2675778272eb138b2a7058d68cd1d1b42ccf70f868347319334d",
+      "evidence_rom_sha256": "2416a8e950d764c790dd55a309d615de4c0dc9420fa791e6b9cd3535fab8824f",
+      "current_ROM": true,
+      "changed_sources": [],
+      "kind": "GBA emulator report; scope remains that report"
+    },
+    "ordinary_sav_cold_load": {
+      "status": "pass_historical",
+      "reported_status": "pass",
+      "report": "evidence/save_cold_load/result.json",
+      "sha256": "ee9fee9da24d827617d4cd380d45a6c531c88ae3b700df06c032337bbf1c6434",
+      "evidence_rom_sha256": "63091545f2224df99d881ec1f5798805aba8dcd65789e5f618620c90c223efb0",
+      "current_ROM": false,
+      "changed_sources": [],
+      "kind": "GBA emulator report; scope remains that report"
+    },
+    "source_menu_examples_and_legacy_sav": {
+      "status": "pass_current_ROM",
+      "reported_status": "pass",
+      "report": "evidence/refactor/menus/result.json",
+      "sha256": "2fa3c087d4776772bbf79137b8f9ba9334ac7261e85fadca6db796196e25d754",
+      "evidence_rom_sha256": "2416a8e950d764c790dd55a309d615de4c0dc9420fa791e6b9cd3535fab8824f",
+      "current_ROM": true,
+      "changed_sources": [],
+      "kind": "GBA emulator report; scope remains that report"
+    },
+    "defeat_new_game_and_bad_sav": {
+      "status": "pass_current_ROM",
+      "reported_status": "pass",
+      "report": "evidence/recovery/result.json",
+      "sha256": "b7e727d8474a084c3184dbb6abda940e5486d2ae768182cf89256b8ac65b7c60",
+      "evidence_rom_sha256": "2416a8e950d764c790dd55a309d615de4c0dc9420fa791e6b9cd3535fab8824f",
+      "current_ROM": true,
+      "changed_sources": [],
+      "kind": "GBA emulator report; scope remains that report"
+    },
+    "opening_PCM_output": {
+      "status": "pass_historical",
+      "reported_status": "pass",
+      "report": "evidence/audio/result.json",
+      "sha256": "57a0879ee4b91f7083c214b294eb1fc9bb33404f186eae83e34f7b4c11a1bca2",
+      "evidence_rom_sha256": "219b9c59aa42a74fb83eac327920b6d076553122611ad556bc50979dea86325c",
+      "current_ROM": false,
+      "changed_sources": [],
+      "kind": "GBA emulator report; scope remains that report"
+    },
+    "opening_PCM_loop": {
+      "status": "pass_historical",
+      "reported_status": "pass",
+      "report": "evidence/audio/loop_result.json",
+      "sha256": "e24d27f6d08a3a268cbe15fd25006929fe7ae63c9fc8750c9d963b3632c9670a",
+      "evidence_rom_sha256": "030b7e1f33c74514c7d9b1666b956ea26f89773c97086848a6defc5032eb5013",
+      "current_ROM": false,
+      "changed_sources": [],
+      "kind": "GBA emulator report; scope remains that report"
+    },
+    "walk_handbook_world_map_weapon_armor": {
+      "status": "pass_current_ROM",
+      "reported_status": "pass",
+      "report": "evidence/full_features/interfaces/result.json",
+      "sha256": "46a19c81ef867d20168ea5f07c6b2b65675a5f06b4a7d8d41d7977004c663768",
+      "evidence_rom_sha256": "2416a8e950d764c790dd55a309d615de4c0dc9420fa791e6b9cd3535fab8824f",
+      "current_ROM": true,
+      "changed_sources": [],
+      "kind": "GBA emulator report; scope remains that report"
+    },
+    "battle_enemy_capacity": {
+      "status": "pass_historical",
+      "reported_status": "pass",
+      "report": "evidence/mechanisms/battle_capacity/result.json",
+      "sha256": "2a1a7796b3690d50589aeb019390cf9b1c6ccb029633774ff6dd2c090bff3931",
+      "evidence_rom_sha256": "030b7e1f33c74514c7d9b1666b956ea26f89773c97086848a6defc5032eb5013",
+      "current_ROM": false,
+      "changed_sources": [],
+      "kind": "GBA emulator report; scope remains that report"
+    },
+    "origin_1_first_battle": {
+      "status": "pass_current_ROM",
+      "reported_status": "pass",
+      "report": "evidence/first_battle_origin_1/result.json",
+      "sha256": "8e56264f172665ef63dad9637db468a6ee5299580a1a8d935c1b2e991acfb6d9",
+      "evidence_rom_sha256": "2416a8e950d764c790dd55a309d615de4c0dc9420fa791e6b9cd3535fab8824f",
+      "current_ROM": true,
+      "changed_sources": [],
+      "kind": "GBA emulator report; scope remains that report"
+    },
+    "origin_2_first_battle": {
+      "status": "pass_current_ROM",
+      "reported_status": "pass",
+      "report": "evidence/first_battle_origin_2/result.json",
+      "sha256": "dd342231d1ad9c59abe5bde4d09af8986d9bec84b7b006fa39ec3a6cb6e4eb76",
+      "evidence_rom_sha256": "2416a8e950d764c790dd55a309d615de4c0dc9420fa791e6b9cd3535fab8824f",
+      "current_ROM": true,
+      "changed_sources": [],
+      "kind": "GBA emulator report; scope remains that report"
+    },
+    "origin_3_first_battle": {
+      "status": "pass_current_ROM",
+      "reported_status": "pass",
+      "report": "evidence/first_battle_origin_3/result.json",
+      "sha256": "2cd9cfe7afaafbffddcbd2ce4c40f969b552e58265ff0f97e304942018b27d24",
+      "evidence_rom_sha256": "2416a8e950d764c790dd55a309d615de4c0dc9420fa791e6b9cd3535fab8824f",
+      "current_ROM": true,
+      "changed_sources": [],
+      "kind": "GBA emulator report; scope remains that report"
+    },
+    "origin_4_first_battle": {
+      "status": "pass_current_ROM",
+      "reported_status": "pass",
+      "report": "evidence/first_battle_origin_4/result.json",
+      "sha256": "50df81b6fba2fe5417e6ab0bf6aa0e3adac89d0a1ff2acf40c6ebf445466bf86",
+      "evidence_rom_sha256": "2416a8e950d764c790dd55a309d615de4c0dc9420fa791e6b9cd3535fab8824f",
+      "current_ROM": true,
+      "changed_sources": [],
+      "kind": "GBA emulator report; scope remains that report"
+    },
+    "actual_naming_to_cave_black_cuts": {
+      "status": "pass_current_ROM",
+      "reported_status": "pass",
+      "report": "evidence/naming_cut/2416a8e950d7/result.json",
+      "sha256": "11d9357843ca8f9be352fd0bbca75d814a9e32801e8f0d14ac91870539dc0932",
+      "evidence_rom_sha256": "2416a8e950d764c790dd55a309d615de4c0dc9420fa791e6b9cd3535fab8824f",
+      "current_ROM": true,
+      "changed_sources": [],
+      "kind": "GBA emulator report; scope remains that report"
+    },
+    "actual_navigation_markers_and_scroll": {
+      "status": "pass_current_ROM",
+      "reported_status": "pass",
+      "report": "evidence/hardware_scroll/navigation/2416a8e950d7/result.json",
+      "sha256": "cbcbe9cffb0b5a84fe02d55307e3479562c0ec6c420222e61b9fd536eef9ff80",
+      "evidence_rom_sha256": "2416a8e950d764c790dd55a309d615de4c0dc9420fa791e6b9cd3535fab8824f",
+      "current_ROM": true,
+      "changed_sources": [],
+      "kind": "GBA emulator report; scope remains that report"
+    },
+    "cursor_every_LCD_frame_continuity": {
+      "status": "pass_current_ROM",
+      "reported_status": "pass",
+      "report": "evidence/cursor_flash/2416a8e950d7/continuity.json",
+      "sha256": "9611dd500092fa4257b743cc60133efa2a54ed309eeffd4136891cc8fe60d2ed",
+      "evidence_rom_sha256": "2416a8e950d764c790dd55a309d615de4c0dc9420fa791e6b9cd3535fab8824f",
+      "current_ROM": true,
+      "changed_sources": [],
+      "kind": "GBA emulator report; scope remains that report"
+    },
+    "hardware_scroll_cache_pixel_equivalence": {
+      "status": "pass_current_ROM",
+      "reported_status": "pass",
+      "report": "evidence/hardware_scroll/cache/result.json",
+      "sha256": "5b79e2337cad0bea74b69e377aa0372c40010a20b1b93b1990c306a3d32038ae",
+      "evidence_rom_sha256": "2416a8e950d764c790dd55a309d615de4c0dc9420fa791e6b9cd3535fab8824f",
+      "current_ROM": true,
+      "changed_sources": [],
+      "kind": "GBA emulator report; scope remains that report"
+    },
+    "native_map_pixel_crops": {
+      "status": "pass_historical",
+      "reported_status": "pass",
+      "report": "evidence/hardware_scroll/native_crop/result.json",
+      "sha256": "b85115e4f76a4722ad5f38f894347e6716a727177311e269fee096fe421253a1",
+      "evidence_rom_sha256": "3808c2ea46e5b50885db76eefc55a166e5908b86ad6564f0a4d0f5c40056a94f",
+      "current_ROM": false,
+      "changed_sources": [],
+      "kind": "GBA emulator report; scope remains that report"
+    },
+    "historical_full_SoundFont_MIDI_experiment": {
+      "status": "pass_historical",
+      "reported_status": "pass",
+      "report": "evidence/full_features/native_audio/attempts/349fdec8edac/result.json",
+      "sha256": "6ef433eb4f327a98db994dc518069ca9f0753e6ef58330a44ec2e53ed2441f93",
+      "evidence_rom_sha256": "3808c2ea46e5b50885db76eefc55a166e5908b86ad6564f0a4d0f5c40056a94f",
+      "current_ROM": false,
+      "changed_sources": [],
+      "kind": "GBA emulator report; scope remains that report"
+    },
+    "reduced_animation": {
+      "status": "pass_current_ROM",
+      "reported_status": "pass",
+      "report": "evidence/full_features/presentation/6d9e9716a5cd_d530fe8e/result.json",
+      "sha256": "92bf9050b6dbfc863da84bd8d940e1ea55a14a8a3d20dfda670df16bed79301c",
+      "evidence_rom_sha256": "2416a8e950d764c790dd55a309d615de4c0dc9420fa791e6b9cd3535fab8824f",
+      "current_ROM": true,
+      "changed_sources": [],
+      "kind": "GBA emulator report; scope remains that report"
+    },
+    "original_portraits": {
+      "status": "pass_current_ROM",
+      "reported_status": "pass",
+      "report": "evidence/full_features/portraits/8eeae28d2d56/result.json",
+      "sha256": "11a3bd8b9a3202a197f5f485c9909fd2d3bcf6a43ba4895e101687ca14ab3a29",
+      "evidence_rom_sha256": "2416a8e950d764c790dd55a309d615de4c0dc9420fa791e6b9cd3535fab8824f",
+      "current_ROM": true,
+      "changed_sources": [],
+      "kind": "GBA emulator report; scope remains that report"
+    },
+    "uniform_picture_alpha": {
+      "status": "pass_current_ROM",
+      "reported_status": "pass",
+      "report": "evidence/full_features/uniform_alpha/4ceeeb69e74a/result.json",
+      "sha256": "256a662e058badb0a6023c4bf4ac210d8b7fc96482e137f90324a49e142aeb30",
+      "evidence_rom_sha256": "2416a8e950d764c790dd55a309d615de4c0dc9420fa791e6b9cd3535fab8824f",
+      "current_ROM": true,
+      "changed_sources": [],
+      "kind": "GBA emulator report; scope remains that report"
+    },
+    "phase_demo_actual_buttons_and_cold_load": {
+      "status": "pass_current_ROM",
+      "reported_status": "pass",
+      "report": "evidence/phase_demo_20261021/2416a8e950d7/result.json",
+      "sha256": "f1f096fad2f35c14298d147b7db7fb629f27821b03d7c9c608f28fbefb8ab869",
+      "evidence_rom_sha256": "2416a8e950d764c790dd55a309d615de4c0dc9420fa791e6b9cd3535fab8824f",
+      "current_ROM": true,
+      "changed_sources": [],
+      "kind": "GBA emulator report; scope remains that report"
+    },
+    "all_panorama_crops": {
+      "status": "pass_current_ROM",
+      "reported_status": "pass",
+      "report": "evidence/optimization_20261022/panorama_matrix/78ae1c3c247b/result.json",
+      "sha256": "81fe6ac76df5d0bc4ff2da951a4172bc578aa52fa65ec2c07ad90684650f5ee3",
+      "evidence_rom_sha256": "2416a8e950d764c790dd55a309d615de4c0dc9420fa791e6b9cd3535fab8824f",
+      "current_ROM": true,
+      "changed_sources": [],
+      "kind": "GBA emulator report; scope remains that report"
+    },
+    "all_native_characters": {
+      "status": "pass_current_ROM",
+      "reported_status": "pass",
+      "report": "evidence/optimization_20261022/characters/08d2c1ef87bb/result.json",
+      "sha256": "5259f4df866733eaef4b5d5c11679a719e21118898a909c37a8e81afc92d83ef",
+      "evidence_rom_sha256": "2416a8e950d764c790dd55a309d615de4c0dc9420fa791e6b9cd3535fab8824f",
+      "current_ROM": true,
+      "changed_sources": [],
+      "kind": "GBA emulator report; scope remains that report"
+    },
+    "changing_actor_palettes": {
+      "status": "pass_current_ROM",
+      "reported_status": "pass",
+      "report": "evidence/optimization_20261022/actor_palette_churn/13fb72dcdc96/result.json",
+      "sha256": "29ff02e98d91dec387a9b3def1028f7fbb7adc05b22004693c51308ae5cba55b",
+      "evidence_rom_sha256": "2416a8e950d764c790dd55a309d615de4c0dc9420fa791e6b9cd3535fab8824f",
+      "current_ROM": true,
+      "changed_sources": [],
+      "kind": "GBA emulator report; scope remains that report"
+    },
+    "all_portraits_plus_music_and_SFX": {
+      "status": "pass_current_ROM",
+      "reported_status": "pass",
+      "report": "evidence/optimization_20261022/portrait_matrix/5ba8045e40cf/result.json",
+      "sha256": "6226eea9c12534c642f8db7e01d0a51480d7bd2015077333247a2a7282d9f209",
+      "evidence_rom_sha256": "2416a8e950d764c790dd55a309d615de4c0dc9420fa791e6b9cd3535fab8824f",
+      "current_ROM": true,
+      "changed_sources": [],
+      "kind": "GBA emulator report; scope remains that report"
+    },
+    "status_browsing": {
+      "status": "pass_current_ROM",
+      "reported_status": "pass",
+      "report": "evidence/optimization_20261022/status_ui/2416a8e950d7/result.json",
+      "sha256": "759443b089614c89595a44a79b1560f21e772bc6aa18cc2f38729381f1a01714",
+      "evidence_rom_sha256": "2416a8e950d764c790dd55a309d615de4c0dc9420fa791e6b9cd3535fab8824f",
+      "current_ROM": true,
+      "changed_sources": [],
+      "kind": "GBA emulator report; scope remains that report"
+    },
+    "menu_stack_observation": {
+      "status": "pass_current_ROM",
+      "reported_status": "pass",
+      "report": "evidence/optimization_20261022/stack/2416a8e950d7/result.json",
+      "sha256": "5d9f1d8460ca4e94972c07fcbec1f6aa32ca045acb3c557ebea4d51c0228630f",
+      "evidence_rom_sha256": "2416a8e950d764c790dd55a309d615de4c0dc9420fa791e6b9cd3535fab8824f",
+      "current_ROM": true,
+      "changed_sources": [],
+      "kind": "GBA emulator report; scope remains that report"
+    },
+    "dense_actors_HUD_and_music": {
+      "status": "pass_current_ROM",
+      "reported_status": "pass",
+      "report": "evidence/optimization_20261022/dense_actor_transition/2416a8e950d7/result.json",
+      "sha256": "05ffe64b2d71eb1c4deace43cf78c4e73cc2ef7f0a4f9b206d137a875ec8c504",
+      "evidence_rom_sha256": "2416a8e950d764c790dd55a309d615de4c0dc9420fa791e6b9cd3535fab8824f",
+      "current_ROM": true,
+      "changed_sources": [],
+      "kind": "GBA emulator report; scope remains that report"
+    },
+    "natural_first_CP_cold_load": {
+      "status": "pass_current_ROM",
+      "reported_status": "pass",
+      "report": "evidence/optimization_20261022/checkpoint_cold_load/2416a8e950d7/result.json",
+      "sha256": "197fe13b0d067ff7edd619823925a72997fa431c7010f342f41966f3b2f59244",
+      "evidence_rom_sha256": "2416a8e950d764c790dd55a309d615de4c0dc9420fa791e6b9cd3535fab8824f",
+      "current_ROM": true,
+      "changed_sources": [],
+      "kind": "GBA emulator report; scope remains that report"
+    },
+    "extended_gameplay": {
+      "status": "pass_current_ROM",
+      "reported_status": "pass",
+      "report": "evidence/optimization_20261022/extended_acceptance/2416a8e950d7/result.json",
+      "sha256": "5d24a08a830c6ade1e76053e3e3420475b3cb1ae9940747cab7576547fcd4db3",
+      "evidence_rom_sha256": "2416a8e950d764c790dd55a309d615de4c0dc9420fa791e6b9cd3535fab8824f",
+      "current_ROM": true,
+      "changed_sources": [],
+      "kind": "GBA emulator report; scope remains that report"
+    },
+    "music_room_one_shot_replay": {
+      "status": "pass_current_ROM",
+      "reported_status": "pass",
+      "report": "evidence/optimization_20261022/music_room_replay/2416a8e950d7/result.json",
+      "sha256": "8f4157a78e6c3b935ecf8f67af2f05bbfa41c27c6cb733078ffcdb4d260ef816",
+      "evidence_rom_sha256": "2416a8e950d764c790dd55a309d615de4c0dc9420fa791e6b9cd3535fab8824f",
+      "current_ROM": true,
+      "changed_sources": [],
+      "kind": "GBA emulator report; scope remains that report"
+    },
+    "all_MIDI_peak_excerpts": {
+      "status": "pass_current_ROM",
+      "reported_status": "pass",
+      "report": "evidence/optimization_20261022/music/gba_matrix/3d0ca6dae69a/result.json",
+      "sha256": "74d5b837983b57d687aa7eab6b8692c361a02c6294d830f5117394e45231cc34",
+      "evidence_rom_sha256": "2416a8e950d764c790dd55a309d615de4c0dc9420fa791e6b9cd3535fab8824f",
+      "current_ROM": true,
+      "changed_sources": [],
+      "kind": "GBA emulator report; scope remains that report"
+    },
+    "original_music_pitch_uses": {
+      "status": "pass_current_ROM",
+      "reported_status": "pass",
+      "report": "evidence/optimization_20261022/music/gba_matrix/005cfc457da4/result.json",
+      "sha256": "f2ce9ce7fd6069c1da2612b4b280a8c8a2adf5f64fe9b7d4083ab7b4e5034a2c",
+      "evidence_rom_sha256": "2416a8e950d764c790dd55a309d615de4c0dc9420fa791e6b9cd3535fab8824f",
+      "current_ROM": true,
+      "changed_sources": [],
+      "kind": "GBA emulator report; scope remains that report"
+    },
+    "complete_simplified_GBA_music": {
+      "status": "pass_current_ROM",
+      "reported_status": "pass",
+      "report": "evidence/optimization_20261022/music/complete_GBA/2416a8e950d7/result.json",
+      "sha256": "9dda231391f426f44e7c9f9f85701c45d2111fadd7aa49f3d54002d1d937765f",
+      "evidence_rom_sha256": "2416a8e950d764c790dd55a309d615de4c0dc9420fa791e6b9cd3535fab8824f",
+      "current_ROM": true,
+      "changed_sources": [],
+      "kind": "GBA emulator report; scope remains that report"
+    },
+    "music_room_UI": {
+      "status": "pass_current_ROM",
+      "reported_status": "pass",
+      "report": "evidence/optimization_20261022/music_room/2416a8e950d7/result.json",
+      "sha256": "806b361a751942a40cbbe995dc7eeb0ca568850fb697c577fe9c85ca3597ca87",
+      "evidence_rom_sha256": "2416a8e950d764c790dd55a309d615de4c0dc9420fa791e6b9cd3535fab8824f",
+      "current_ROM": true,
+      "changed_sources": [],
+      "kind": "GBA emulator report; scope remains that report"
+    }
+  },
+  "host_checks": {
+    "original_data_reader": {
+      "status": "pass_unbound_sources",
+      "reported_status": "pass",
+      "report": "evidence/native_reader_checks.json",
+      "sha256": "e95972e54d3dfd07bfd84263f5d9d91e926de8f7cfa5e2b97c2c7cc2a1bfce00",
+      "evidence_rom_sha256": null,
+      "current_ROM": null,
+      "changed_sources": [],
+      "kind": "host fixture; not natural GBA gameplay"
+    },
+    "immutable_LCF_cache_parity": {
+      "status": "pass_current_sources",
+      "reported_status": "pass",
+      "report": "evidence/performance/lcf_cache.json",
+      "sha256": "563c6e1423e5500f02da13bbbddc63096815bb71f63cd96fdc8ff80452a7276e",
+      "evidence_rom_sha256": null,
+      "current_ROM": null,
+      "changed_sources": [],
+      "kind": "host fixture; not natural GBA gameplay"
+    },
+    "baseline_rules": {
+      "status": "pass_unbound_sources",
+      "reported_status": "pass",
+      "report": "evidence/refactor/rule_parity.json",
+      "sha256": "a35da1f65dfd32f156efbdaf54b6d0b12f9efb9edd4fe43b1c1278414db6d4bb",
+      "evidence_rom_sha256": null,
+      "current_ROM": null,
+      "changed_sources": [],
+      "kind": "host fixture; not natural GBA gameplay"
+    },
+    "shared_rules": {
+      "status": "pass_unbound_sources",
+      "reported_status": "pass",
+      "report": "evidence/mechanisms/shared_rule_parity.json",
+      "sha256": "530019075148081b976c379e85f1519b6d2eb6164e1f262f97e2fd4db406951c",
+      "evidence_rom_sha256": null,
+      "current_ROM": null,
+      "changed_sources": [],
+      "kind": "host fixture; not natural GBA gameplay"
+    },
+    "original_event_and_full_feature_fixtures": {
+      "status": "pass_historical",
+      "reported_status": "pass",
+      "report": "evidence/mechanisms/host_event_integration.json",
+      "sha256": "ff9a5bb3938a4385258ea19ddfcac0aa30edfe4c4973ad3e32d72b6a896552ce",
+      "evidence_rom_sha256": null,
+      "current_ROM": null,
+      "changed_sources": [
+        "tests/shared_events_host.c",
+        "runtime/rm2k/lcf.c",
+        "runtime/rm2k/state.c",
+        "runtime/rm2k/interpreter.c",
+        "runtime/rm2k/map_rules.c",
+        "runtime/rm2k/battle.c",
+        "runtime/rm2k/world.c",
+        "tests/full_features_host.inc"
+      ],
+      "kind": "host fixture; not natural GBA gameplay"
+    },
+    "predecoded_ROM_event_fixtures": {
+      "status": "pass_current_sources",
+      "reported_status": "pass",
+      "report": "evidence/mechanisms/host_event_integration_predecoded.json",
+      "sha256": "6272a9bd4e61c3efc67c8f28f522143dc41e60fe1039019ab6156a5f2c313899",
+      "evidence_rom_sha256": null,
+      "current_ROM": null,
+      "changed_sources": [],
+      "kind": "host fixture; not natural GBA gameplay"
+    },
+    "live_page_condition_transport": {
+      "status": "pass_current_sources",
+      "reported_status": "pass",
+      "report": "evidence/optimization_20261022/page_transport/result.json",
+      "sha256": "aaa19d470f85527358023d93862ec3f1f5b8079361ab8bc7b9aa21fc54c202a4",
+      "evidence_rom_sha256": null,
+      "current_ROM": null,
+      "changed_sources": [],
+      "kind": "host fixture; not natural GBA gameplay"
+    },
+    "borrowed_immutable_operands": {
+      "status": "pass_current_sources",
+      "reported_status": "pass",
+      "report": "evidence/optimization_20261022/borrowed_commands/result.json",
+      "sha256": "9105e02e5788d17f119381e5be0e2aae59601f3cceb5351e5551ab70879577fd",
+      "evidence_rom_sha256": null,
+      "current_ROM": null,
+      "changed_sources": [],
+      "kind": "host fixture; not natural GBA gameplay"
+    },
+    "exact_audio_IRQ_arithmetic": {
+      "status": "pass_current_sources",
+      "reported_status": "pass",
+      "report": "evidence/optimization_20261022/audio_irq/result.json",
+      "sha256": "816baaaa50bf8598a514fea3e4358b4037db26c6fdde1faba4946c3b6333841d",
+      "evidence_rom_sha256": null,
+      "current_ROM": null,
+      "changed_sources": [],
+      "kind": "host fixture; not natural GBA gameplay"
+    },
+    "complete_simplified_scores_and_loops": {
+      "status": "pass_current_sources",
+      "reported_status": "pass",
+      "report": "evidence/optimization_20261022/music/complete_score_census.json",
+      "sha256": "17833f178584e540bb0f09189786dca2fdc31bc4f358f5f9f28890d7dee6f935",
+      "evidence_rom_sha256": null,
+      "current_ROM": null,
+      "changed_sources": [],
+      "kind": "host fixture; not natural GBA gameplay"
+    },
+    "image_bounds_and_storage": {
+      "status": "pass_current_sources",
+      "reported_status": "pass",
+      "report": "evidence/full_features/storage_images_host.json",
+      "sha256": "9a9389dd01395ca2fbbc09ec13afbdc20779fd8ddbab71ae5e110ababc9bfe24",
+      "evidence_rom_sha256": null,
+      "current_ROM": null,
+      "changed_sources": [],
+      "kind": "host fixture; not natural GBA gameplay"
+    },
+    "actual_original_resource_requirements": {
+      "status": "pass_unbound_sources",
+      "reported_status": "pass",
+      "report": "evidence/full_features/original_requirements.json",
+      "sha256": "9aa2e1a3f4f5b6f914f04e62550cbd33dce18992ca0f06a37a23b8a457d83171",
+      "evidence_rom_sha256": null,
+      "current_ROM": null,
+      "changed_sources": [],
+      "kind": "host fixture; not natural GBA gameplay"
+    }
+  },
+  "current_regression": {
+    "report": "evidence/optimization_20261022/final_validation/latest_attempt.json",
+    "status": "pass",
+    "completed": 34
+  },
+  "original_command_inventory": {
+    "count": 167495,
+    "report": "evidence/refactor/compatibility_audit.json",
+    "case_presence_is_not_acceptance": true
+  },
+  "remaining_functional_gaps": [
+    {
+      "feature": "原版地图探索与触发",
+      "status": "implemented_with_spot_checks",
+      "gap": "真实步行、接触、通行、强制移动已接入；本作8205页事件均为固定自主移动类型，未宣称支持任意RM2000自主AI"
+    },
+    {
+      "feature": "图片与特殊地图界面",
+      "status": "implemented_with_spot_checks",
+      "gap": "通用图片合成、坐标/缩放/透明度与实际底图已接入；手册、世界地图、锻造、制甲有独立GBA按键抽查"
+    },
+    {
+      "feature": "动画表现",
+      "status": "reduced_by_user_request",
+      "gap": "转场直接黑屏后显示新图，色调和透明度动画直接取端点；技能用短闪光和原音效，雨雪静态覆盖；独立事件等待与实质判定保留，见动画简化说明.txt"
+    },
+    {
+      "feature": "战斗数值与状态",
+      "status": "implemented_with_spot_checks",
+      "gap": "已有原函数对照、全部原状态命中组合和双击/全体武器检查；未宣称所有后期组合均经过自然游玩"
+    },
+    {
+      "feature": "称号、制作、料理、调和",
+      "status": "implemented_with_spot_checks",
+      "gap": "沿用原事件和配方条件；指定称号、料理、调和及锻造制甲抽查，全部配方枚举非人工试玩"
+    },
+    {
+      "feature": "存读档",
+      "status": "implemented_with_spot_checks",
+      "gap": "v5将39704字节Game压入32KiB SRAM，读取v2/v3/v4/v5；后期受控状态压缩往返已验，当前构建冷读档另计"
+    },
+    {
+      "feature": "完整音频",
+      "status": "simplified_profile_validation_separate",
+      "gap": "全部99首MIDI、6首WAV和218音效进入单卡，游戏和欣赏均用用户确认的简化音色；完整乐谱、循环、GBA时钟与队列压力报告分别绑定当前来源，不以旧全音源实验代表当前简化版"
+    },
+    {
+      "feature": "完整剧情与结局",
+      "status": "user_playthrough_not_run",
+      "gap": "原LCF事件未逐章改写；按用户分工，仅做功能与流程抽查，完整自然通关及实机验收由用户进行"
+    }
+  ],
+  "music_policy": "Both modes use simplified original-score timbres. Gameplay is coarser mono; music room is finer stereo. No original-SoundFont split carts.",
+  "save_format": {
+    "write_version": 5,
+    "reads_released_versions": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "game_bytes": 39704,
+    "SRAM_bytes": 32768,
+    "encoding": "exact packed state, checksum, refuse overflow before writing existing save"
+  },
+  "animation_policy": "direct black cuts, no fades; see 动画简化说明.txt",
+  "full_natural_playthrough": "user acceptance, not required from developer by user instruction",
+  "hardware": "not_run",
+  "original_RPG_RT_executable_comparison": "not_run",
+  "performance_phase": "spot checks and controlled benchmarks separately bound to this ROM; not all-scene PC parity",
+  "sources": [
+    {
+      "path": "source/game.c",
+      "sha256": "cb63e7503589aae770b4e8aa955a6489d2741004d6a5005a5bd3ad39a701112b"
+    },
+    {
+      "path": "source/game.h",
+      "sha256": "88c0700596fa81d64088d9abe354891ab63666533e8fa674bbb9e45bdb22ec1c"
+    },
+    {
+      "path": "source/game_profile.h",
+      "sha256": "c0f7c89ddf8c20fdb424aefda7c892ed1b01eb337e61c330d0176eb0411db7d8"
+    },
+    {
+      "path": "source/maps.c",
+      "sha256": "09a3648353057e0bea11371f2d23999ee55064e506febad133c3525a04eab1cd"
+    },
+    {
+      "path": "source/music_room.c",
+      "sha256": "25a8bd9c748aa6d48be72c505791e3ad41a7945ee0f0e7198c80a0ec17620aaa"
+    },
+    {
+      "path": "source/ruina_adapter.c",
+      "sha256": "fe2a116ebb8715d1591c32938dd1b19c27e6d820f97f8421f415ae20a8b05973"
+    },
+    {
+      "path": "source/source_menus.c",
+      "sha256": "e89ab890535c8ed118df68f974db18ee2c4e6a0213a5ef045dc59d6a69d0931a"
+    },
+    {
+      "path": "source/source_menus.h",
+      "sha256": "e6c4118cbe03f4903aa08ab5f04adfb18871892c441a069532ab0c8f0a89eda8"
+    },
+    {
+      "path": "runtime/rm2k/animations.c",
+      "sha256": "8c96faf230591c184b43aab0afa0174123e264a105caa0658ad161fdf92aa980"
+    },
+    {
+      "path": "runtime/rm2k/audio.h",
+      "sha256": "8f2fe2d9326689a87b18d46e57a8eb4a49fdf3f0a98dc5b9e07c13992b5f2b57"
+    },
+    {
+      "path": "runtime/rm2k/battle.c",
+      "sha256": "5fc755e29364d37760ed7947fb817e54c1159b5a5129326e1864953a8286fd02"
+    },
+    {
+      "path": "runtime/rm2k/borrowed_commands.h",
+      "sha256": "79b3a049abab43d45241eba841f6f5fe833c4ab4d6fd1b4244a2ccf9caab5ce3"
+    },
+    {
+      "path": "runtime/rm2k/engine.h",
+      "sha256": "8a5ebf67e90eb20e103de1fd2c31b32a5ccde1e02b0b38b05bc08e2342c0663b"
+    },
+    {
+      "path": "runtime/rm2k/equipment.c",
+      "sha256": "4495f43fe6ec03b32e9139d75368543da658a3f13921e878694d79b32f92698c"
+    },
+    {
+      "path": "runtime/rm2k/field_skills.c",
+      "sha256": "b0170615c2d20c1e61936ab86d95f6eef6789e2363db4c0d8e1f999668f48fb0"
+    },
+    {
+      "path": "runtime/rm2k/interpreter.c",
+      "sha256": "2c606cec995c6da8de3adb9f216168341b1f430d8e5ae0a4123a11734c8e6c2f"
+    },
+    {
+      "path": "runtime/rm2k/inventory.c",
+      "sha256": "54c9fd99f6c79f6682661f4f3367496a9c2dd516e88a277a32af689f2ca19561"
+    },
+    {
+      "path": "runtime/rm2k/lcf.c",
+      "sha256": "376160cc2a7129290906d4e90f8047f9bebecb5d071e02009b03d6a5654fca2c"
+    },
+    {
+      "path": "runtime/rm2k/lcf.h",
+      "sha256": "532ee10231bb6c41157e47fe4b3a619c9b2e238d4329ffe62a5fc99af312d524"
+    },
+    {
+      "path": "runtime/rm2k/light_midi.c",
+      "sha256": "ecfc83588163e0b163ba9716650d672c1533f02f224e4bf0a613dc38af0c41ce"
+    },
+    {
+      "path": "runtime/rm2k/map_info.c",
+      "sha256": "ac66645f74beb6757fe2823989991a49122d80b008f5a70ff23a1385197f0aa6"
+    },
+    {
+      "path": "runtime/rm2k/map_rules.c",
+      "sha256": "896f2e11d4df1941a50f4cb6d380079f16331825eb57741b98aa58687039dfe0"
+    },
+    {
+      "path": "runtime/rm2k/movement.c",
+      "sha256": "edcae00389b391cada08ab44c5024d0bbf16278bef759efdc63356270137103d"
+    },
+    {
+      "path": "runtime/rm2k/native_midi.c",
+      "sha256": "3271f90f726d7f1ba4b97a2c4da8549cda72b606d32c6282ef724f84ac093480"
+    },
+    {
+      "path": "runtime/rm2k/native_midi.h",
+      "sha256": "1fbcff165261e1f9c74988d97b3077cdcb8122d6bbb269c8730f1a840a2e7b86"
+    },
+    {
+      "path": "runtime/rm2k/parallel.c",
+      "sha256": "c27c2aea96fd81e45895b46d312bf259e6eb516e9bcaa3f74a73f51d0d7a1824"
+    },
+    {
+      "path": "runtime/rm2k/pictures.c",
+      "sha256": "a7144d48979eb40d3599a1eded7ef564aaaf9fa9485275de7434f2390392611c"
+    },
+    {
+      "path": "runtime/rm2k/presentation.c",
+      "sha256": "e2d43c114e87f96d539d2f04461118632427776a3ebb0bdb77844d2d69f0a764"
+    },
+    {
+      "path": "runtime/rm2k/rm2k_commands.h",
+      "sha256": "1de63964f85ee23bb2564b18f5a5afacaa3ed9b30a74b981c79ff7da07415143"
+    },
+    {
+      "path": "runtime/rm2k/rm2k_rules.c",
+      "sha256": "5aae18f0f613d9d629000ef444332b4c1d54f4a649d53a6596f70a8a1f1c34d8"
+    },
+    {
+      "path": "runtime/rm2k/rm2k_rules.h",
+      "sha256": "085101da0675feb4851238a66de37227fd8e4ea0ff6bdc212fc2ebe252462afe"
+    },
+    {
+      "path": "runtime/rm2k/shop.c",
+      "sha256": "6757ee43a84fcd5d827e07189ed336a14e53e78c61b12bac74e6cee2b543e928"
+    },
+    {
+      "path": "runtime/rm2k/state.c",
+      "sha256": "5317d0f317d7d103613d096725225d9a06c42851f78dc1038e7ad66167de2090"
+    },
+    {
+      "path": "runtime/rm2k/storage_codec.c",
+      "sha256": "a055a2d856831013708757f4b6c6c15bfb9fa09013a54893949ada75108b4312"
+    },
+    {
+      "path": "runtime/rm2k/storage_codec.h",
+      "sha256": "651c11c7799a9b1984f4c6b5260afd78e8f7f4c47a8b8bf9f618c3d145654e7e"
+    },
+    {
+      "path": "runtime/rm2k/timers.c",
+      "sha256": "eabb850778eec8ff0d4996c02041ecc41bb229f173f3e6b9e929d61c65b1f7f7"
+    },
+    {
+      "path": "runtime/rm2k/types.h",
+      "sha256": "1816ba6cdd473690e0ac6a665957af9186628e5a685dc56686b14e9ce4686ad1"
+    },
+    {
+      "path": "runtime/rm2k/world.c",
+      "sha256": "46c8e944bfc60805585e7b1b3b4cf76f45901f3dbb04bb2f063dc04003520e2d"
+    },
+    {
+      "path": "platform/gba/audio.c",
+      "sha256": "b8bfe88c4a2c3a9d22c8974c1439816850025a51a25dca53bf2528f75eee14b1"
+    },
+    {
+      "path": "platform/gba/dialog.c",
+      "sha256": "63d6ab81e002bc331985b9cd73a4025ed32de39ef526cd46471699b41b223c93"
+    },
+    {
+      "path": "platform/gba/event_input.c",
+      "sha256": "7dec2e33266d378cfa0e6b6e5dfb68cc5f9b84e310ed9bf5f1bcb650f1e418e6"
+    },
+    {
+      "path": "platform/gba/gba.ld",
+      "sha256": "113231a7598c8ef9978c199abcdc94e3f569ca8c4f567ef2e221521de0fc577a"
+    },
+    {
+      "path": "platform/gba/gba_hw.h",
+      "sha256": "82483a5e30b87ef82a7f37932509d9d5e43969347bea8cfadc6e171cc02c2850"
+    },
+    {
+      "path": "platform/gba/image.c",
+      "sha256": "05d7b78ad724b945a8b265c8b0acedb0883f3b470ef9054cfd8d43c8ee283bd8"
+    },
+    {
+      "path": "platform/gba/save.c",
+      "sha256": "ff7aad6794b67f687f22a8c63951395e8b4a007da3028dac09c2c4446bf8ed84"
+    },
+    {
+      "path": "platform/gba/start.s",
+      "sha256": "03be7005fcc3cef9b945f5a76935a976830d06fb02816580bb17617fa9e9f072"
+    },
+    {
+      "path": "platform/gba/video.c",
+      "sha256": "5f73201b588274292b157e36b824c334adb7d67afbe865aea2739378858ae68b"
+    },
+    {
+      "path": "tools/assemble_audio_bank.py",
+      "sha256": "59214506a1e9c3f1865e42c41012b33c314c11c33389b42840517ab9e0f73493"
+    },
+    {
+      "path": "tools/assets.py",
+      "sha256": "2013e80b9e510342fa6e2cf90f9a473e44dd05745f4690229ff89e70aeeb9550"
+    },
+    {
+      "path": "tools/audio_assets.py",
+      "sha256": "25b8bae61afa93c36c85e29b8868ecbbd8d93e5e7cfb87670c38332a63d89c39"
+    },
+    {
+      "path": "tools/audit_compatibility.py",
+      "sha256": "ee7bd5fdb2497117df392f35ea3eebb96ed3de1f51c8c044eaf75372f9a140a1"
+    },
+    {
+      "path": "tools/borrowed_command_assets.py",
+      "sha256": "65c5130a492446f3fe302fc096bbb55d86046ccf6b59ff8c175a8461ce8f5d59"
+    },
+    {
+      "path": "tools/build.py",
+      "sha256": "72d839ca208f3df713960215163ee636118e0701e70f8914fb8c241b8dfb48ff"
+    },
+    {
+      "path": "tools/build_probe.py",
+      "sha256": "1d5ed6403a37c17602bca9164fca294636f45d2dd375af4a400b10e5cd23b342"
+    },
+    {
+      "path": "tools/capture_music_room_samples.py",
+      "sha256": "a4071f1f97eabe839d4c0610917f8cb9c696300fda711f1532d02e2e77b34f75"
+    },
+    {
+      "path": "tools/capture_visual_comparison.py",
+      "sha256": "1678b979ea788841402a0d70c10c1cd5a02f536201f197fa61352db2e455c3fd"
+    },
+    {
+      "path": "tools/census_display_capacity.py",
+      "sha256": "d8eb29677296aac92fb1526f899964fd155080d9faedf282bcf168929be8f9c2"
+    },
+    {
+      "path": "tools/census_light_music.py",
+      "sha256": "60acdf27c957085e026e4df57bd9e6d35fb328fac4c6810d3b8eb9b9a0be5ba7"
+    },
+    {
+      "path": "tools/census_native_music.py",
+      "sha256": "8556937443f2b8cdc767c630543786a826ccb2d0be99bc9a1c44da4a10408a50"
+    },
+    {
+      "path": "tools/census_original_art.py",
+      "sha256": "662f32d1eea6a42bc397b4d655b12b9d357b12cb4d01da6970d5c4d3c36a3a57"
+    },
+    {
+      "path": "tools/character_assets.py",
+      "sha256": "ed1049e012415a83381e5e56ecf0fcc98f4a254d3c48e2395090344d6508eef7"
+    },
+    {
+      "path": "tools/check_actor_palette_churn.py",
+      "sha256": "e0eaae3b3f85847fc31754079c8c603d16e562492d743e6381288524a3321314"
+    },
+    {
+      "path": "tools/check_audio.py",
+      "sha256": "b223e13efcc9d26f2be94e2d4e6d62d99f9078cbec6c41bb8ffb64da5d306b08"
+    },
+    {
+      "path": "tools/check_audio_irq_parity.py",
+      "sha256": "fd733176544334d0a2c059e1baacead24e8bf7a61f0a848963c31fb5b83c480c"
+    },
+    {
+      "path": "tools/check_audio_loop.py",
+      "sha256": "b816730672e37a8ee043304696df1d8f6f13d7ef0afb6686d5562f20d35c419d"
+    },
+    {
+      "path": "tools/check_battle_capacity.py",
+      "sha256": "2157dfd684e506aeaa9a2f4fa6660aacf3203f8dfc6c161df871338f1748c615"
+    },
+    {
+      "path": "tools/check_borrowed_commands.py",
+      "sha256": "1631428ce2911523bab45e25279951e6c24fb11b576d81efe20d391d9f5f54e5"
+    },
+    {
+      "path": "tools/check_characters_gba.py",
+      "sha256": "90e36697906d45c2f2b092aaf5e4672d037ac1d732c0473b75804cdf258b1c71"
+    },
+    {
+      "path": "tools/check_checkpoint_cold_load.py",
+      "sha256": "d6dc0435cf0f99e652ee4d3cc260ddb743fb6a04f0ca74550e89f2ac4e252e1c"
+    },
+    {
+      "path": "tools/check_cursor_continuity.py",
+      "sha256": "6217e5cb5b8b743359da1d8a6093284f1f553b71d558b7751e414e8f482fb6a8"
+    },
+    {
+      "path": "tools/check_demo_candidate.py",
+      "sha256": "44c8897639b65bab6b75b828f3084410037f0faee3b8e316907b68ba44216f2f"
+    },
+    {
+      "path": "tools/check_dense_actor_transition.py",
+      "sha256": "ad7124a2842c7dda31c9927f16b8b5b227ecbf08cde134490b2a3affa0fe0ee4"
+    },
+    {
+      "path": "tools/check_drawing_performance.py",
+      "sha256": "d02c93154505c8e8dfeb076ed7e29158089c8e00d638956930bd665311e71750"
+    },
+    {
+      "path": "tools/check_event_integration.py",
+      "sha256": "d91a1ec589c658233e4a61e255c10301f261348280b5c9180a0983143fc51293"
+    },
+    {
+      "path": "tools/check_extended_acceptance.py",
+      "sha256": "f4da898c90c524da7ef19b8058d8263bda27c32bfc4f2d0813217a6e3e7eaed7"
+    },
+    {
+      "path": "tools/check_first_battle.py",
+      "sha256": "7c03e93230191f22948751864d698244d5c537e900e58463ea299390a304bd22"
+    },
+    {
+      "path": "tools/check_full_interfaces.py",
+      "sha256": "fbe979df6195006240305a213184a6dcf4a7d2e1382dfea0aee3c50a6affd68a"
+    },
+    {
+      "path": "tools/check_lcf_cache.py",
+      "sha256": "f061a1cbbfee95013ba606465e0fd878f370cf582992d6925fc1e11cc2a4b416"
+    },
+    {
+      "path": "tools/check_light_mono_equivalence.py",
+      "sha256": "0a4f6894fafffff7e64a279fd68107dae7c6d169777e6cc8de9cc6e157a8d5c7"
+    },
+    {
+      "path": "tools/check_map_dirty_gba.py",
+      "sha256": "ed0cb3d4e6fdce5ad5d001d9dd827b7b1d183f942515259fc5d81a651478ea85"
+    },
+    {
+      "path": "tools/check_map_objects.py",
+      "sha256": "77152d25cbbd45d87217896b64d5177de9fb7a4deadf4dd0d61253203360f878"
+    },
+    {
+      "path": "tools/check_map_residency_gba.py",
+      "sha256": "665cde5746bd2d43e67c8d9e3a230e9026acf0c7bafe352d41f5312960ed49dd"
+    },
+    {
+      "path": "tools/check_map_rules_parity.py",
+      "sha256": "9bd0c1eef3a739741ab684d28ba0e57668c1b472b93f2dbbb7d32088e40494cb"
+    },
+    {
+      "path": "tools/check_menu_stacks.py",
+      "sha256": "7ed621e76dc5dd873592030f242ac7b10bc089370ed24a059dd99355cc39fb11"
+    },
+    {
+      "path": "tools/check_music_complete_gba.py",
+      "sha256": "a01e65dfbf8dccb733914cae5c37711545d5bcd02c1394fcfa6853378884a734"
+    },
+    {
+      "path": "tools/check_music_matrix_gba.py",
+      "sha256": "d751714aec669b9a480fcf313252f48ecafb6cae63cea9782206d5dfa8cd1f78"
+    },
+    {
+      "path": "tools/check_music_room_replay.py",
+      "sha256": "bcfa520a8889cab9c385190318216a985a7094f3a8cc385f098aa465fcd24912"
+    },
+    {
+      "path": "tools/check_music_room_ui.py",
+      "sha256": "1e96e1dbfca2d673961f5da9948bff52eb146a2d17226e0dc87d1f8b4d93e41c"
+    },
+    {
+      "path": "tools/check_naming_cut.py",
+      "sha256": "72fb11b3f11d435c84c905db6cddba6c3f5832b0c7ab5d6470057838f3d47398"
+    },
+    {
+      "path": "tools/check_native_audio_gba.py",
+      "sha256": "b545cd68bc43bf67d1a471254dd1e01de99ce95f4c86d9f399b10293d3e14f5d"
+    },
+    {
+      "path": "tools/check_native_map_crop.py",
+      "sha256": "a346d3af0470f6c729ab8f3351acfa330ebf3bb160173fbe46e43b6bd02359c5"
+    },
+    {
+      "path": "tools/check_original_requirements.py",
+      "sha256": "9b920e4ce8eb0ec9142693298da6a1109cae5aedc48fcf4d590d5d7e4cd6b552"
+    },
+    {
+      "path": "tools/check_page_transport.py",
+      "sha256": "a2ae18836d47c264f498eadd4777747b55f63230757bd9cad0dfc0b31c40114c"
+    },
+    {
+      "path": "tools/check_panorama_matrix_gba.py",
+      "sha256": "cb3da3a8ed86b0e21056c5a4b2aedf1070061084b0515c238c09253c07fc5012"
+    },
+    {
+      "path": "tools/check_phase_demo.py",
+      "sha256": "2d8aea3a84343f2fb214258310b69dfca6b495555a352276f56f99af1594a8ee"
+    },
+    {
+      "path": "tools/check_portrait_matrix_gba.py",
+      "sha256": "c4feaeb3234f98f346c0863af8516560f15d6ee2947699009e0ad21ec66c3cde"
+    },
+    {
+      "path": "tools/check_portraits_gba.py",
+      "sha256": "115ca0bfb1600ec50c593853fb1b28bab445271d75366f439e40223aa43df4c2"
+    },
+    {
+      "path": "tools/check_presentation_gba.py",
+      "sha256": "d530fe8ee8767ba734357984550c29e719e3d76c022629e3b2ac547478a56a54"
+    },
+    {
+      "path": "tools/check_recovery.py",
+      "sha256": "ec49f14aa1f3e08744d5102f9b66840142387e771af726f8dc6d989654902d4a"
+    },
+    {
+      "path": "tools/check_rule_parity.py",
+      "sha256": "a07f869cc46e0a4420983ef7e09bb6aa34b9703c2cc7fba33ad45508ed4b4a44"
+    },
+    {
+      "path": "tools/check_save.py",
+      "sha256": "733acb53fe6212b37ee2134052baf6d207bdb3ed91d264cdb8105017508dc2e5"
+    },
+    {
+      "path": "tools/check_scroll_cache.py",
+      "sha256": "1718e3ba69544d511c4a208507524aa07c068e5b15f346d9379a62125b08e897"
+    },
+    {
+      "path": "tools/check_scroll_navigation.py",
+      "sha256": "5959322e0f8d832f9813cb5a0021ae334a7c20009008760d414c1d7fb4b2e52a"
+    },
+    {
+      "path": "tools/check_shared_mechanisms.py",
+      "sha256": "781b599cb3f42366538cca099e93a4ce3e716065bb367060e595f2bc2de9e716"
+    },
+    {
+      "path": "tools/check_source_art.py",
+      "sha256": "8dfd1ffa87bd54f82baa196412666407f19669e749cb04da441a56ff68b56f40"
+    },
+    {
+      "path": "tools/check_source_menus.py",
+      "sha256": "9ea31fa84b65c089e4a0e3120165eadf98b2734bb0fe9b9d7fd6151b83925ebb"
+    },
+    {
+      "path": "tools/check_status_ui.py",
+      "sha256": "05e2e214c07471942a3e27abea3d6bd5593215e74057280fc096f4619c19b6c9"
+    },
+    {
+      "path": "tools/check_storage_and_images.py",
+      "sha256": "bc252e4cc9b9fda4fce6cfbd8badfd999460cdc1137343ea4dfe25cd737d06ee"
+    },
+    {
+      "path": "tools/check_tiled_image_codec.py",
+      "sha256": "3d69f7bca373367f14c8083eb7c70d3697e6cb3c62609dd49454c51753c53f3a"
+    },
+    {
+      "path": "tools/check_uniform_alpha_gba.py",
+      "sha256": "12c379009abf282ec3fa9870f591dedacec8c61d1e4d134191f2d812d0019931"
+    },
+    {
+      "path": "tools/command_assets.py",
+      "sha256": "1c0f1835307856f66d9c39ae3f14fa3dcf4ed666b5fd861b9e1e077ec3c78084"
+    },
+    {
+      "path": "tools/current_feature_status.py",
+      "sha256": "366a8651ac8994e8d54902b17785275fb8767ee0535bc9094ea4bcedf24e05e1"
+    },
+    {
+      "path": "tools/deliver_demo.py",
+      "sha256": "c2feeb27ded3bcf3dcfb48a34ddc78ee8cb81501b5936e24dbac52fb1e7128b2"
+    },
+    {
+      "path": "tools/deliver_optimization.py",
+      "sha256": "b30f0b51c5ade7b4e89704ed7d37c3a7eab5550f76b8008ec8ebb7aac79c3a36"
+    },
+    {
+      "path": "tools/deliver_phase_demo.py",
+      "sha256": "228dffdb03a9a2930c0ef6311e548d5f73aeee2a71ffb0c2607dbcad6ead0abe"
+    },
+    {
+      "path": "tools/drive_opening.py",
+      "sha256": "acdacfba3f99291cede603ecedad3de10043715da10f99a906496d2f9d279431"
+    },
+    {
+      "path": "tools/export_midi_events.c",
+      "sha256": "c7192243bd655f0c0457f183009d06fec7375551e62255d2b0a9a77b8a9a1fb9"
+    },
+    {
+      "path": "tools/export_soundfont.c",
+      "sha256": "323ed006d0abd4eb6803143c080d7f3345ad7817240c7ce95699f71862e6581b"
+    },
+    {
+      "path": "tools/gba_acceptance_probe.c",
+      "sha256": "0dc3e0eb152d6cfba70bd3480b436edf420d063bc932a0e4751803ba8cf494dd"
+    },
+    {
+      "path": "tools/gba_fixture.py",
+      "sha256": "7c78e1818a75ef86285fa9d67e4856ee9fe34c3deee7ed044989128931359e5f"
+    },
+    {
+      "path": "tools/high_color_assets.py",
+      "sha256": "2aa5c7c0328f6439cfeb9e7fc069a276efe86e6854bee0290cb42ac701b96911"
+    },
+    {
+      "path": "tools/image_codec.py",
+      "sha256": "161c581b857438afe970a99cd91ac394f56d68ecef2fdecab5f689d18d9e2bdf"
+    },
+    {
+      "path": "tools/inspect_lcf.py",
+      "sha256": "bbb5776fe1494a97f14b16ca84822ed291336332a6db60ed01ec6a47eeeaa0f5"
+    },
+    {
+      "path": "tools/light_music_assets.py",
+      "sha256": "37e9a2b6864b83e73719b20be586ab6227256d5da96e4553b3b673c312a661e5"
+    },
+    {
+      "path": "tools/measure_frame_rate.py",
+      "sha256": "c73d1af48ca1b14382cb859a8165e45efb447fa77957ef02ce3e61d62a595997"
+    },
+    {
+      "path": "tools/midi_clock_assets.py",
+      "sha256": "c28aa371d09bfae3fe60a58c0d465feae85a5fd80ab4a94498fe909aad79bb4b"
+    },
+    {
+      "path": "tools/music_pitch_usage.py",
+      "sha256": "21452b0209596af3cae22fa90cb2d8b20fc4e30668d074f63457d3422dd271e8"
+    },
+    {
+      "path": "tools/music_room_assets.py",
+      "sha256": "8f37a97ecb73edf5dd71daa03596b779e7c2b9ec067aa1a246e2903f42413f65"
+    },
+    {
+      "path": "tools/native_music_assets.py",
+      "sha256": "f48a8c902dc3cd29997783aa4cdfd3da229feb95467d669384e96bee10f16071"
+    },
+    {
+      "path": "tools/oracle_reference.py",
+      "sha256": "4e036b9665d3b4e5da960aff0c0c84a265e389517aaa66228fbbb980376651be"
+    },
+    {
+      "path": "tools/package_delivery.py",
+      "sha256": "b878e00cf4466d9711b84e094ba0853cdf1de22cd80acd48e383e4e7aede3d1a"
+    },
+    {
+      "path": "tools/page_assets.py",
+      "sha256": "e322998a980c6377a2bdf45aadee3b64ff7e6ca77d928d08d8d73343109dea31"
+    },
+    {
+      "path": "tools/palette_lookup.py",
+      "sha256": "2df7f020958563f2eae23b7095b62855190a1bdef64d2aa90b384d784ad12dcd"
+    },
+    {
+      "path": "tools/pcm_audio_assets.py",
+      "sha256": "5c2fc9cf7fda8ac993af9c5614396d62fa0cf5c3dd4ac77d98dfac33abbea646"
+    },
+    {
+      "path": "tools/play_chapter.py",
+      "sha256": "59b1a0a73cd3ce5779fc35c1cad65c107b3654bb22285133eb15b593b8da7a6e"
+    },
+    {
+      "path": "tools/portrait_assets.py",
+      "sha256": "5611a1578e754a8e7856995df9fd77a727abdebef00d4775fbe916d3355018a7"
+    },
+    {
+      "path": "tools/portrait_combinations.py",
+      "sha256": "fe4dc46b4ff2203d3c5f21d413348329981cdd7d968296f18cdfb287ebcdde2d"
+    },
+    {
+      "path": "tools/preserve_source.py",
+      "sha256": "66ed90895e5efa35f336b5061fd893de0c5f8fce87601ea41f69edead936fe42"
+    },
+    {
+      "path": "tools/profile_audio_stress.py",
+      "sha256": "51e541ded12cf941a1fee63237a5403fbef6b00e8280c95647978e62a372a7d2"
+    },
+    {
+      "path": "tools/profile_map.py",
+      "sha256": "f439f77618549eec6bd0ac3e0213c6b2713954e34af5875db9c676daf6760ee3"
+    },
+    {
+      "path": "tools/project_env.py",
+      "sha256": "58af2e0367adb8e5173342d11043a58d75fefdd5426c0b340bf8e53e2cd3014d"
+    },
+    {
+      "path": "tools/rebuild_simplified_audio.py",
+      "sha256": "27101782379dfd9e2f03d200837e4b12aec255c258f4d38b46502823a6f7df6b"
+    },
+    {
+      "path": "tools/render_midi.c",
+      "sha256": "01d825e59afcad3efcdd836571883126e933bb374306d6f3258aeea58ea00e94"
+    },
+    {
+      "path": "tools/save_observation.py",
+      "sha256": "00659b3b72a60f13fd0f007bbe36d2c958b5467de892ed9962654fc7eba0f72c"
+    },
+    {
+      "path": "tools/scaled_music_assets.py",
+      "sha256": "8912fbd4c47c8f281c95e407234915a5161054af00a5abcaf69278007a1df4bd"
+    },
+    {
+      "path": "tools/source_menu_assets.py",
+      "sha256": "c13c9d56870c809b652bc10d1fcde759d23207f1dd808c2ccd0c69f5db93a8af"
+    },
+    {
+      "path": "tools/tile_tables.py",
+      "sha256": "aabe4c3cac82cf7a867caadc62fa41ada2cffe160b6027d0c24ec58d5c519696"
+    },
+    {
+      "path": "tools/validate_optimization.py",
+      "sha256": "91578f9b90787a331fac92591c99bfce45fd628b619e167e5246bc4671625e3d"
+    },
+    {
+      "path": "tools/vendor_sources.py",
+      "sha256": "b01026e04db9f399ca4ad81701f7e1ffd15b895d4eaf1e2b213774c8df09f3d1"
+    },
+    {
+      "path": "tools/verify_native_data.py",
+      "sha256": "9146dc571576f5b4e7d78c0214dd1be37dcf773501c3f36f1fae04efc50c299b"
+    },
+    {
+      "path": "tools/verify_optimization_archive.py",
+      "sha256": "2c7da837b15816679558ae2331e8adc426832e81a8d3e8952796cc869b8c45c2"
+    },
+    {
+      "path": "tools/verify_source_package.py",
+      "sha256": "52b219d18bd5179ee58b9ec11b7dfd76c5860047b78a421b27258f1e7d8727bb"
+    },
+    {
+      "path": "tests/actor_palette_churn_gba.c",
+      "sha256": "ce359bef807668c9c17ea8d4f47b188892be687955c40e42432620456b24d6cd"
+    },
+    {
+      "path": "tests/audio_irq_parity_host.c",
+      "sha256": "0165954c60735dbc2e25eeacaf69d27893f67966827dcea1ba405a6007f4c776"
+    },
+    {
+      "path": "tests/battle_capacity_gba.c",
+      "sha256": "fffa878466a4e7624507ba776876d3cb3f70b274ef42ad975380ab77f716304d"
+    },
+    {
+      "path": "tests/character_visibility.inc",
+      "sha256": "d2dfdd12137083e7629174c24952b46b2dad1104941b6eb0c38188526f1fffd6"
+    },
+    {
+      "path": "tests/characters_gba.c",
+      "sha256": "3aafab7cc4a1e445636467794cf43539b9b9f8dd40fbb5119c148fc98cb44fb7"
+    },
+    {
+      "path": "tests/dense_actor_transition_gba.c",
+      "sha256": "af245b7adb9a19e557bb00ebc28f3613c8927d381897fa761989e8da93f6f7ed"
+    },
+    {
+      "path": "tests/drawing_performance_gba.c",
+      "sha256": "52261c4d2a156671b42ea0f8615b9c32e6901484517fa0a88d0b00ee150de896"
+    },
+    {
+      "path": "tests/full_features_gba.c",
+      "sha256": "e94bbfe6487eed421b55b8ee027494e022225b5b7f102e3d164bfd7605e9987b"
+    },
+    {
+      "path": "tests/full_features_host.inc",
+      "sha256": "65d6df11bbc8002a3ef532b65939fe3938a29624e720cae8c713c7b82a13f8f9"
+    },
+    {
+      "path": "tests/image_decoder_stub.c",
+      "sha256": "f547b7977e5a1a5d4848e71d03b7958edc6f15c7659f2418a4ff22097aff7979"
+    },
+    {
+      "path": "tests/light_music_host_stub.c",
+      "sha256": "f77e14cae79c8f176f83bb8fac43abdf64b2e2342dbd1b11ed17c077d4db7770"
+    },
+    {
+      "path": "tests/map_dirty_gba.c",
+      "sha256": "885858b40b45684586ea4f82a83c6c5a25da8b98c65af04c769808659ea7863c"
+    },
+    {
+      "path": "tests/map_dirty_reference_gba.c",
+      "sha256": "cedb16dfc28720b99a2d9570361d40c1bd526e7b975e046ad6fe83899bc32f0f"
+    },
+    {
+      "path": "tests/map_objects_gba.c",
+      "sha256": "a06c661745aef58629020ed5d4dc0c3bc1f86b44097a9bfd5a8f36598ac58016"
+    },
+    {
+      "path": "tests/map_residency_gba.c",
+      "sha256": "a2f015100e4f4691fe9d3d166e43444f707f2c79d672b63c5bb33d14e193b3ac"
+    },
+    {
+      "path": "tests/map_residency_reference_gba.c",
+      "sha256": "a915e60b9ff69c745b3b9bf752ea2ded2f68448c054208e51d5e834b5134c1ef"
+    },
+    {
+      "path": "tests/map_rules_parity_host.c",
+      "sha256": "3e14b0d9882a852351daa805984459c36d432b015de95cc691e5e16d44632ac8"
+    },
+    {
+      "path": "tests/map_scroll_gba.c",
+      "sha256": "263fc02fc28bff144dd1c62affaee6660bf5d48b614dc2e1050615394612cd84"
+    },
+    {
+      "path": "tests/map_scroll_reference_gba.c",
+      "sha256": "9fc771a226c6758058e30be2772d7e53a0b674376fa777b37a70db997c633d48"
+    },
+    {
+      "path": "tests/music_complete_gba.c",
+      "sha256": "dc8ee7e8fe630a81b0046488751af344b3ff223d600f21ed8c02393dbdec6ae6"
+    },
+    {
+      "path": "tests/music_matrix_gba.c",
+      "sha256": "964933e6a6f60743d22e99051d0f94fef26b8beeada8df571dc88c5015063555"
+    },
+    {
+      "path": "tests/native_audio_gba.c",
+      "sha256": "adac3cd1636e5b6e4194d3572cac23af254e05c8472f74bc47a15be1fd1ff8cf"
+    },
+    {
+      "path": "tests/native_map_crop_gba.c",
+      "sha256": "39053ede7e0986753420cab57260961f616a7fce5c5d9d5a758feff975067e53"
+    },
+    {
+      "path": "tests/native_music_host.c",
+      "sha256": "1d02ddb5a6cfd829c532627a30f4ecd89f98f8ac27db192123765be28f4480cd"
+    },
+    {
+      "path": "tests/page_transport_parity_host.c",
+      "sha256": "ccb16d140be101b4884de5a29de38b3fed617f56834e379091d9d9a39e740d5c"
+    },
+    {
+      "path": "tests/panorama_matrix_gba.c",
+      "sha256": "767f329b9c98f97d953f7b1349d169215d7cd0e557772abe53c9c7e31b3db55f"
+    },
+    {
+      "path": "tests/portrait_matrix_gba.c",
+      "sha256": "8e0db3b87745c9de340bc39b1a148dbc348344710a8e89808dd9a2a1dc172e22"
+    },
+    {
+      "path": "tests/portraits_gba.c",
+      "sha256": "3793a3830bca4bf208f0ed7b40a89a99095f979b40817ac57430092e34a94386"
+    },
+    {
+      "path": "tests/predecoded_lcf_stub.c",
+      "sha256": "32b257585b4fc1f4bc182a3858515945623d42fff084b339ecbb79d053a531d2"
+    },
+    {
+      "path": "tests/presentation_gba.c",
+      "sha256": "a491ea2f99c92f1df8463f29a12d46528f698e3614816a6762fd63e905babbcd"
+    },
+    {
+      "path": "tests/reference/audio_pre_voice_metadata.c",
+      "sha256": "0b7238b62f9da0a86ec3f253d766b94a6fc219b2c92bc3f9a03d4f868803e934"
+    },
+    {
+      "path": "tests/reference/map_rules_20261021.c",
+      "sha256": "ffea5974cf5d3a676d8e63ba8c80e72c35fd34759188ff80858e88afe9f066dc"
+    },
+    {
+      "path": "tests/reference/native_map_video.c",
+      "sha256": "7cf5da0e9a50e1f35403c3f5478c54948bbb15c48122a60320e317f99b5cf36f"
+    },
+    {
+      "path": "tests/reference/native_map_world.c",
+      "sha256": "d9d74303aa588c20712ce71a654c0ed210422547f1be5b2a0f95394f5a56b6a6"
+    },
+    {
+      "path": "tests/shared_events_host.c",
+      "sha256": "8119ebc5cdaa4f2e1ee6e97a710c825e7f7b76921d5e3b757789d2fef4d28d5c"
+    },
+    {
+      "path": "tests/state_size.c",
+      "sha256": "0a6491ec76d91784f49f6cc3cdd6631a05166bb691d6e792fb0a00161c32a899"
+    },
+    {
+      "path": "tests/uniform_alpha_gba.c",
+      "sha256": "253a832727d611925232e9215a5d5dd2d2a81d15a7ccd680c5465bedd5ff791f"
+    }
+  ]
+}

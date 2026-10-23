@@ -1,0 +1,16 @@
+{"scene": "original_event_shop_entry", "SYS_margin_above_fast_code_data": 444, "music_underrun_samples": 0, "modes": {"18": {"minimum_SP": 50364112, "PC": 50349604, "instructions": 994687}, "31": {"minimum_SP": 50360016, "PC": 50341288, "instructions": 11942702}}, "UI": [5395790, 0, 0, 0, 0, 10720, 0, 0, 11, 3, 1, 0, 0, 0, 1, 2, 0, 3, 0, 0, 0, 0, 1, 0]}
+{"scene": "dense_sell_list", "SYS_margin_above_fast_code_data": 308, "music_underrun_samples": 0, "modes": {"18": {"minimum_SP": 50364020, "PC": 50347324, "instructions": 1264534}, "31": {"minimum_SP": 50359880, "PC": 50341288, "instructions": 7991855}}, "UI": [5395790, 0, 0, 0, 0, 10720, 0, 0, 11, 3, 1, 0, 0, 0, 1, 8, 0, 471, 1, 0, 0, 0, 1, 0]}
+shop_sell_down 16 267.88 ms; black 0
+shop_sell_up 13 217.66 ms; black 0
+shop_sell_down 7 117.2 ms; black 0
+shop_sell_up 8 133.94 ms; black 0
+shop_sell_down 7 117.2 ms; black 0
+shop_sell_up 7 117.2 ms; black 0
+{"scene": "item_description", "SYS_margin_above_fast_code_data": 228, "music_underrun_samples": 0, "modes": {"18": {"minimum_SP": 50364112, "PC": 50349604, "instructions": 995142}, "31": {"minimum_SP": 50359800, "PC": 50341288, "instructions": 7876623}}, "UI": [5395790, 0, 0, 0, 0, 10720, 0, 0, 11, 3, 1, 0, 0, 0, 1, 1, 0, 471, 10, 0, 0, 1, 1, 0]}
+{"scene": "sell_quantity", "SYS_margin_above_fast_code_data": 308, "music_underrun_samples": 0, "modes": {"18": {"minimum_SP": 50364112, "PC": 50349604, "instructions": 995169}, "31": {"minimum_SP": 50359880, "PC": 50341288, "instructions": 7922259}}, "UI": [5395790, 0, 0, 0, 0, 10720, 0, 0, 11, 3, 1, 0, 0, 0, 1, 9, 1, 471, 10, 0, 0, 1, 1, 0]}
+quantity_plus1 8 133.94 ms; black 0
+quantity_minus1 6 100.46 ms; black 0
+quantity_plus10 7 117.2 ms; black 0
+quantity_minus10 8 133.94 ms; black 0
+{"scene": "buy_quantity_limit", "SYS_margin_above_fast_code_data": 308, "music_underrun_samples": 0, "modes": {"18": {"minimum_SP": 50364112, "PC": 50349604, "instructions": 995196}, "31": {"minimum_SP": 50359880, "PC": 50341288, "instructions": 7614292}}, "UI": [5395790, 0, 0, 0, 0, 10720, 0, 0, 11, 3, 1, 0, 0, 0, 1, 8, 0, 2, 1, 0, 0, 1, 3, 0]}
+PASS 3371cc8ffac5dfe023ce9458d13617cdc00b2619286f04a5bb4374b7bd69c164

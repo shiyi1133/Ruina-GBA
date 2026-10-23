@@ -1,0 +1,4 @@
+{
+  "note": "Old scroll and continuity helpers assumed zero selection in a cold-loaded SAV would silently choose the first point. Zero now preserves manual/local mode. The helpers explicitly press R to choose the entrance before testing remote navigation. Their original failures are retained; runtime was unchanged by this test correction.",
+  "production_rom_sha256": "f85db82f5ca5f28a22febdd8f377d04d5b5c9452c2d601488174113bc5ba283c"
+}

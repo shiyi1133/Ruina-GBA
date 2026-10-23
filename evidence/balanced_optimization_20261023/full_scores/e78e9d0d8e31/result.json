@@ -1,0 +1,36 @@
+{
+  "status": "pass",
+  "production_rom_sha256": "35a8e283662be7a779e92149f77f7aab866bca22b07a583f4a6179849130abdc",
+  "fixture_sha256": "e78e9d0d8e313bf62ecfb4e407823864650f13902314052a29e54b017c94c09d",
+  "source_bank_sha256": "c2e794c7065cd2dd311d2fd97d199db2331c41fb00c01964a25e47ba82ab0961",
+  "completed": 1,
+  "total": 1,
+  "track_filter": "INT03",
+  "quality_filter": 1,
+  "video_source_override": "experiments/rgb_commit/video.c",
+  "audio_source_override": "experiments/rgb_commit/audio.c",
+  "emulated_audio_seconds_observed": 123.56117248535156,
+  "host_seconds": 11.50231107700074,
+  "current": null,
+  "cases": [
+    {
+      "index": 1,
+      "name": "INT03",
+      "quality": 1,
+      "codec": "simplified original MIDI score",
+      "source_frames": 993525,
+      "loop_frame": 0,
+      "loops_observed": 2,
+      "raw_debug_loop_counter": 2,
+      "hardware_seconds_observed": 123.56117248535156,
+      "source_clock_ratio": 1.0000028403109276,
+      "underruns": 0,
+      "voice_overflows": 0,
+      "peak_voices": 111,
+      "status": "pass"
+    }
+  ],
+  "scope": "All 105 original music sources in both simplified timbre modes, actual GBA execution from source position zero. Looping tracks include their initial play plus one complete repeat. One-second partial RGB UI updates run during playback. No seeking, ROM edits or emulator state loads. Eight startup observer frames per source are excluded only from underrun/clock measurement.",
+  "hardware": "not_run",
+  "campaign": "not_run"
+}

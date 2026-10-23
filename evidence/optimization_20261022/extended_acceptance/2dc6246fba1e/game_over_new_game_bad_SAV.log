@@ -1,0 +1,38 @@
+Traceback (most recent call last):
+  File "/mnt/d/gba_hack/废都物语_GBA章节样版/tools/check_recovery.py", line 16, in main
+    c.equip(519,0);c.equip(760,1);c.node(5)
+    ^^^^^^^^^^^^^^
+  File "/mnt/d/gba_hack/废都物语_GBA章节样版/tools/play_chapter.py", line 135, in equip
+    self.e.key(1);self.e.key(1)
+    ^^^^^^^^^^^^^
+  File "/mnt/d/gba_hack/废都物语_GBA章节样版/tools/drive_opening.py", line 38, in key
+    rendered();self.frames(12,key);self.frames(24);rendered()
+                                                   ^^^^^^^^^^
+  File "/mnt/d/gba_hack/废都物语_GBA章节样版/tools/drive_opening.py", line 36, in rendered
+    self.frames(12)
+  File "/mnt/d/gba_hack/废都物语_GBA章节样版/tools/drive_opening.py", line 23, in frames
+    def frames(self,n,key=0):return self.command(f'frames {n} {key:x}')
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/gba_hack/废都物语_GBA章节样版/tools/drive_opening.py", line 20, in command
+    self.log.append(c);self.proc.stdin.write(c+'\n');self.proc.stdin.flush();s=self.proc.stdout.readline().strip()
+                                                                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/d/gba_hack/废都物语_GBA章节样版/tools/check_recovery.py", line 41, in <module>
+    (out/'result.json').write_text(json.dumps(result,ensure_ascii=False,indent=2));print(json.dumps({k:v for k,v in result.items()if not k.startswith('commands')},ensure_ascii=False),flush=True)
+                           ^^^^^^
+  File "/mnt/d/gba_hack/废都物语_GBA章节样版/tools/check_recovery.py", line 33, in main
+    e.shot(out/'new_game_after_defeat.png');commands=e.log.copy()
+           ^^^^^^^^^
+  File "/mnt/d/gba_hack/废都物语_GBA章节样版/tools/drive_opening.py", line 42, in close
+    def close(self):self.proc.stdin.write('quit\n');self.proc.stdin.flush();self.proc.wait(timeout=5)
+                                                                            ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/subprocess.py", line 1264, in wait
+    return self._wait(timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/subprocess.py", line 2045, in _wait
+    raise TimeoutExpired(self.args, timeout)
+subprocess.TimeoutExpired: Command '['/mnt/d/gba_hack/废都物语_GBA章节样版/build/gba_acceptance_probe', '/mnt/d/gba_hack/废都物语_GBA章节样版/build/废都物语_GBA_开篇开发验证版.gba', '/mnt/d/gba_hack/废都物语_GBA章节样版/evidence/chapter_progress/town_before_boss.sav']' timed out after 5 seconds

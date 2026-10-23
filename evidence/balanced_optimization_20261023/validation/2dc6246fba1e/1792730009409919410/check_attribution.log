@@ -1,0 +1,14 @@
+{
+  "status": "pass",
+  "ROM_sha256": "2dc6246fba1ea99eec94a4a49449f6ee01988c4cb8c334d3324edf78ef65167c",
+  "attribution": "胖胖&咩咩 移植",
+  "location": "制作信息 menu page only; no extra title-art text",
+  "all_credit_glyphs_present": true,
+  "credits_text": "胖胖&咩咩 移植\n原作：枯草章吉\n汉化、修复名单见原版说明。\n完整通关与实机尚未验收。\n源码、操作与验证见发布说明。",
+  "title_LCD_hash": "LCD 4449e94dd7e64138 8858",
+  "prior_title_LCD_hash": "LCD 4449e94dd7e64138 8858",
+  "prior_title_comparison": "exact",
+  "credits_closed_to_title": true,
+  "new_game_after_credits_reaches_map": true,
+  "hardware": "not_run"
+}

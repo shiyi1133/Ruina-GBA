@@ -1,0 +1,7 @@
+{
+  "palette_sha256": "169bb7f9769446230614f6e1646666dcc718fb9e75a997e24c196bab31eaf32c",
+  "table_sha256": "f83718804e70cb87892c0e5189b73fc8d6f268a95cf53efe1bcc68503263f3e8",
+  "bytes": 32768,
+  "mapping": "nearest squared RGB555 distance, first palette entry on ties",
+  "RAM_bytes": 0
+}

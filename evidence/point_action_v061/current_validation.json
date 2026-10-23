@@ -1,0 +1,14 @@
+{
+  "status": "pass",
+  "ROM_sha256": "f85db82f5ca5f28a22febdd8f377d04d5b5c9452c2d601488174113bc5ba283c",
+  "reports": [
+    "evidence/manual_investigation/f85db82f5ca5/result.json",
+    "evidence/phase_demo_20261021/f85db82f5ca5/result.json",
+    "evidence/hardware_scroll/navigation/f85db82f5ca5/result.json",
+    "evidence/cursor_flash/f85db82f5ca5/continuity.json"
+  ],
+  "scope": "manual/local A, L/R routing, camera browse, menu, ordinary SAV cold load, opening/first victory, 1650 intermediate LCD frames",
+  "full_v06_suite_rerun": false,
+  "whole_campaign": "not_run",
+  "physical_hardware": "not_run"
+}

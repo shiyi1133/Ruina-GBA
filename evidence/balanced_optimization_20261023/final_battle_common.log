@@ -1,0 +1,6 @@
+checking lcf_transport
+{"name": "lcf_transport", "status": "pass", "seconds": 18.32928636900033, "returncode": 0, "log": "evidence/optimization_20261022/final_validation/2dc6246fba1e/lcf_transport.log"}
+checking borrowed_views
+{"name": "borrowed_views", "status": "pass", "seconds": 1.4379275219998817, "returncode": 0, "log": "evidence/optimization_20261022/final_validation/2dc6246fba1e/borrowed_views.log"}
+checking page_conditions
+{"name": "page_conditions", "status": "fail", "seconds": 3.005276928999592, "returncode": 1, "log": "evidence/optimization_20261022/final_validation/2dc6246fba1e/page_conditions.log"}

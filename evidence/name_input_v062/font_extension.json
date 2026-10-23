@@ -1,0 +1,43 @@
+{
+  "status": "pass",
+  "original_glyphs": 5293,
+  "current_glyphs": 5301,
+  "added": [
+    {
+      "character": "郭",
+      "GBK_code": 47609
+    },
+    {
+      "character": "刘",
+      "GBK_code": 49653
+    },
+    {
+      "character": "吴",
+      "GBK_code": 52962
+    },
+    {
+      "character": "轩",
+      "GBK_code": 53497
+    },
+    {
+      "character": "杨",
+      "GBK_code": 53742
+    },
+    {
+      "character": "瑶",
+      "GBK_code": 53758
+    },
+    {
+      "character": "赵",
+      "GBK_code": 54740
+    },
+    {
+      "character": "怡",
+      "GBK_code": 58105
+    }
+  ],
+  "existing_glyph_rows_unchanged": true,
+  "non_font_asset_data_unchanged": true,
+  "font_sha256": "1526ac24375f51f6eb73bc2d3f8072dbe4a80a3a65217677c9d9a84f67dab2ab",
+  "assets_c_sha256": "f6511c49490d8e9dcba9f6419e959c2285a5f208a89fc1d1713c877d5b632b8a"
+}

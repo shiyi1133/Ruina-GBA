@@ -1,0 +1,24 @@
+{
+  "status": "fail",
+  "single_original_portraits": 160,
+  "mixed_sheet_combinations": 375,
+  "LCD_faces_checked": 1660,
+  "different_pixels": 0,
+  "VBlank_commit_overruns": 7,
+  "max_commit_scanlines": 30,
+  "production_rom_sha256": "dd2556a750fe78a7cfbb7a028646a07347713922f39faa66a3ce0f2709a2532f",
+  "fixture_sha256": "ba7d5bd16279f99c3b7db928071674b261c08f1675d76a38d351b2ff8d4eac17",
+  "native_bank_sha256": "cc29d4bdcd2725f8eeb8b11c759287f02380aabc9be69add3d8de4fe247856eb",
+  "mixed_bank_sha256": "53b47aaca84933b203e01a450a7e5f08f5f17b8e7e1d4c1f5f6f0a31d6af8339",
+  "kind": "all native singles match original XYZ RGB555; mixed pages match explicitly fitted palettes; alpha and decoder scratch ownership retained",
+  "mixed_color_error_report": "build/portrait_combinations_manifest.json",
+  "physical_hardware": "not_run"
+}
+Traceback (most recent call last):
+  File "/mnt/d/gba_hack/废都物语_GBA章节样版/tools/check_portrait_matrix_gba.py", line 44, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/mnt/d/gba_hack/废都物语_GBA章节样版/tools/check_portrait_matrix_gba.py", line 41, in main
+    metrics=struct.unpack('<8I',e.memory(e.symbols['video_metrics'],32));result={'status':'pass'if not metrics[5]else'fail','single_original_portraits':h[1],'mixed_sheet_combinations':len(cases)-h[1],'LCD_faces_checked':sum(len(r['portraits'])for r in rows),'different_pixels':sum(r['different_pixels']for r in rows),'VBlank_commit_overruns':metrics[5],'max_commit_scanlines':metrics[6],'production_rom_sha256':production,'fixture_sha256':digest,'native_bank_sha256':hashlib.sha256(native).hexdigest(),'mixed_bank_sha256':hashlib.sha256(mixed).hexdigest(),'kind':'all native singles match original XYZ RGB555; mixed pages match explicitly fitted palettes; alpha and decoder scratch ownership retained','mixed_color_error_report':'build/portrait_combinations_manifest.json','rows':rows,'physical_hardware':'not_run'};(out/'result.json').write_text(json.dumps(result,ensure_ascii=False,indent=2));(out.parent/'latest_attempt.json').write_text(json.dumps({'status':result['status'],'report':str((out/'result.json').relative_to(ROOT))},ensure_ascii=False,indent=2));print(json.dumps({k:v for k,v in result.items()if k!='rows'},ensure_ascii=False,indent=2));assert result['status']=='pass'
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        ^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

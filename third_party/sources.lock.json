@@ -1,0 +1,528 @@
+{
+  "kind": "pinned reference source, adapted selectively for native GBA",
+  "projects": {
+    "Player": {
+      "repository": "https://github.com/EasyRPG/Player",
+      "commit": "78328fa29f465315291e161130e6682f69410370",
+      "tag": "0.8.1.1"
+    },
+    "liblcf": {
+      "repository": "https://github.com/EasyRPG/liblcf",
+      "commit": "92c4450a1bc1acb58bd02bbb99b57e5036919cdf",
+      "tag": "0.8.1"
+    }
+  },
+  "files": [
+    {
+      "project": "Player",
+      "path": "COPYING",
+      "url": "https://raw.githubusercontent.com/EasyRPG/Player/78328fa29f465315291e161130e6682f69410370/COPYING",
+      "bytes": 35147,
+      "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903"
+    },
+    {
+      "project": "Player",
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/EasyRPG/Player/78328fa29f465315291e161130e6682f69410370/README.md",
+      "bytes": 4163,
+      "sha256": "3c75a2ec0aaa13710f93ee74135e3ee9db74dc3bdb336df41872d5cb6d8b88f1"
+    },
+    {
+      "project": "Player",
+      "path": "src/player.h",
+      "url": "https://raw.githubusercontent.com/EasyRPG/Player/78328fa29f465315291e161130e6682f69410370/src/player.h",
+      "bytes": 14419,
+      "sha256": "39225b79b2555bd776b9a5dc289c695893535f77addb020b5e2844cf8b765a8f"
+    },
+    {
+      "project": "Player",
+      "path": "src/game_variables.cpp",
+      "url": "https://raw.githubusercontent.com/EasyRPG/Player/78328fa29f465315291e161130e6682f69410370/src/game_variables.cpp",
+      "bytes": 23876,
+      "sha256": "ca9b7e360dc71879633e71a37e37484cee14278a97d9bec68468f30dbf1390fc"
+    },
+    {
+      "project": "Player",
+      "path": "src/game_variables.h",
+      "url": "https://raw.githubusercontent.com/EasyRPG/Player/78328fa29f465315291e161130e6682f69410370/src/game_variables.h",
+      "bytes": 8663,
+      "sha256": "754fe87a242cd8676e234c56f9fbd1d13453aa16957cb21cf45f64504db4206f"
+    },
+    {
+      "project": "Player",
+      "path": "src/algo.cpp",
+      "url": "https://raw.githubusercontent.com/EasyRPG/Player/78328fa29f465315291e161130e6682f69410370/src/algo.cpp",
+      "bytes": 10575,
+      "sha256": "c7888e49dccfef7736f2aab993930105e2761fab2603c15bcd8a92afe9940f31"
+    },
+    {
+      "project": "Player",
+      "path": "src/algo.h",
+      "url": "https://raw.githubusercontent.com/EasyRPG/Player/78328fa29f465315291e161130e6682f69410370/src/algo.h",
+      "bytes": 8914,
+      "sha256": "49ce6a11172c8eba60aff29d8378803e70a3eee3c81d3b29e4afed4f79396dd1"
+    },
+    {
+      "project": "Player",
+      "path": "src/game_actor.cpp",
+      "url": "https://raw.githubusercontent.com/EasyRPG/Player/78328fa29f465315291e161130e6682f69410370/src/game_actor.cpp",
+      "bytes": 42311,
+      "sha256": "6fbe1f307059ca5ede613f2ac5280a996156851d7c7f47823ee09838557c9ec9"
+    },
+    {
+      "project": "Player",
+      "path": "src/game_interpreter.cpp",
+      "url": "https://raw.githubusercontent.com/EasyRPG/Player/78328fa29f465315291e161130e6682f69410370/src/game_interpreter.cpp",
+      "bytes": 178713,
+      "sha256": "fd171c1cf2edec99885cf3bd1cc4a3395c29ecefc3c4291fdf915be1b4c4f687"
+    },
+    {
+      "project": "Player",
+      "path": "src/game_interpreter_map.cpp",
+      "url": "https://raw.githubusercontent.com/EasyRPG/Player/78328fa29f465315291e161130e6682f69410370/src/game_interpreter_map.cpp",
+      "bytes": 31162,
+      "sha256": "f2b79447b40769b9c0010ce5d301c81fa4afc4eaebc3a028f7ca98bbe6b2b7f4"
+    },
+    {
+      "project": "Player",
+      "path": "src/game_interpreter_battle.cpp",
+      "url": "https://raw.githubusercontent.com/EasyRPG/Player/78328fa29f465315291e161130e6682f69410370/src/game_interpreter_battle.cpp",
+      "bytes": 28326,
+      "sha256": "be31607d4c32c54ae91daac98da4ea71b9ca423f93aded8f91a436786251aeeb"
+    },
+    {
+      "project": "Player",
+      "path": "src/game_battlealgorithm.cpp",
+      "url": "https://raw.githubusercontent.com/EasyRPG/Player/78328fa29f465315291e161130e6682f69410370/src/game_battlealgorithm.cpp",
+      "bytes": 48362,
+      "sha256": "5707dc5221e0a6a9021fcbe4a14f251f3026027b70b42f6fa0fdd62da0b7ea3a"
+    },
+    {
+      "project": "Player",
+      "path": "src/enemyai.cpp",
+      "url": "https://raw.githubusercontent.com/EasyRPG/Player/78328fa29f465315291e161130e6682f69410370/src/enemyai.cpp",
+      "bytes": 13041,
+      "sha256": "e450f8249ed08d24d2ce2cbe2fe85dddd1bd54d3e2bfaee1c2b69db67d81bb30"
+    },
+    {
+      "project": "Player",
+      "path": "src/autobattle.cpp",
+      "url": "https://raw.githubusercontent.com/EasyRPG/Player/78328fa29f465315291e161130e6682f69410370/src/autobattle.cpp",
+      "bytes": 14114,
+      "sha256": "c58224ef185ad6d6dac5b9b66bf46f08a3b1f659d1338fce08ba70e1f1291cd6"
+    },
+    {
+      "project": "Player",
+      "path": "src/game_battle.cpp",
+      "url": "https://raw.githubusercontent.com/EasyRPG/Player/78328fa29f465315291e161130e6682f69410370/src/game_battle.cpp",
+      "bytes": 16287,
+      "sha256": "547ac0a8f9aed20b50f1d20a5155829264af151c3a4d4b82b285e2867fadbd29"
+    },
+    {
+      "project": "Player",
+      "path": "src/game_battle.h",
+      "url": "https://raw.githubusercontent.com/EasyRPG/Player/78328fa29f465315291e161130e6682f69410370/src/game_battle.h",
+      "bytes": 5661,
+      "sha256": "8dbe836ead9c0ed8b6ea2fce9196f5589afc20082d8028183d483884e9e95607"
+    },
+    {
+      "project": "Player",
+      "path": "src/scene_battle_rpg2k.cpp",
+      "url": "https://raw.githubusercontent.com/EasyRPG/Player/78328fa29f465315291e161130e6682f69410370/src/scene_battle_rpg2k.cpp",
+      "bytes": 58141,
+      "sha256": "5b6c304e3d7da66cc9d99a67291902258ee0ad3407f75f10831fc37f8ec2806a"
+    },
+    {
+      "project": "Player",
+      "path": "src/scene_battle_rpg2k.h",
+      "url": "https://raw.githubusercontent.com/EasyRPG/Player/78328fa29f465315291e161130e6682f69410370/src/scene_battle_rpg2k.h",
+      "bytes": 8489,
+      "sha256": "78f57a6f5aa279b4c6bffead3c41f6c32899cb650161e8930a4638e1f4df4281"
+    },
+    {
+      "project": "Player",
+      "path": "src/game_map.cpp",
+      "url": "https://raw.githubusercontent.com/EasyRPG/Player/78328fa29f465315291e161130e6682f69410370/src/game_map.cpp",
+      "bytes": 61349,
+      "sha256": "5a27dba48d596f5d57d07241ece411f779cd0f5314f6805ea83db0d2eee42b53"
+    },
+    {
+      "project": "Player",
+      "path": "src/game_map.h",
+      "url": "https://raw.githubusercontent.com/EasyRPG/Player/78328fa29f465315291e161130e6682f69410370/src/game_map.h",
+      "bytes": 24133,
+      "sha256": "13adbfa095b3214ca9c6e1a85e4327fb83e0b759410251ada5f7d1af55979e57"
+    },
+    {
+      "project": "Player",
+      "path": "src/game_party.cpp",
+      "url": "https://raw.githubusercontent.com/EasyRPG/Player/78328fa29f465315291e161130e6682f69410370/src/game_party.cpp",
+      "bytes": 21510,
+      "sha256": "c8d2cda90b202ca0ba2004957b0d1ae487e1ee4818ceba26b3545e70831576b7"
+    },
+    {
+      "project": "Player",
+      "path": "src/game_party.h",
+      "url": "https://raw.githubusercontent.com/EasyRPG/Player/78328fa29f465315291e161130e6682f69410370/src/game_party.h",
+      "bytes": 10225,
+      "sha256": "ed6e7a063384f72bdffbf383870b279550fd46e02ceab53b6a35f4016e704af4"
+    },
+    {
+      "project": "Player",
+      "path": "src/game_event.cpp",
+      "url": "https://raw.githubusercontent.com/EasyRPG/Player/78328fa29f465315291e161130e6682f69410370/src/game_event.cpp",
+      "bytes": 16409,
+      "sha256": "2f3f7d332903d54b113a40760bf158ff25d399901c9e73766ce6f3c4b5d14986"
+    },
+    {
+      "project": "Player",
+      "path": "src/game_commonevent.cpp",
+      "url": "https://raw.githubusercontent.com/EasyRPG/Player/78328fa29f465315291e161130e6682f69410370/src/game_commonevent.cpp",
+      "bytes": 3857,
+      "sha256": "f2d9e2e80aa1a6fc830d2e316d365320013291128f6d0a731c23212219c2b416"
+    },
+    {
+      "project": "Player",
+      "path": "src/map_data.h",
+      "url": "https://raw.githubusercontent.com/EasyRPG/Player/78328fa29f465315291e161130e6682f69410370/src/map_data.h",
+      "bytes": 4621,
+      "sha256": "62dbb3689ab099ac4a106ab399771ead05898d8edaeb34a3d1e0bbb3602dd8e4"
+    },
+    {
+      "project": "Player",
+      "path": "src/game_interpreter_control_variables.cpp",
+      "url": "https://raw.githubusercontent.com/EasyRPG/Player/78328fa29f465315291e161130e6682f69410370/src/game_interpreter_control_variables.cpp",
+      "bytes": 11213,
+      "sha256": "988a0ad5a490181ed543b8b5a6143e15cdf8cffcac69487d7bd472ce92d68400"
+    },
+    {
+      "project": "Player",
+      "path": "src/game_interpreter_control_variables.h",
+      "url": "https://raw.githubusercontent.com/EasyRPG/Player/78328fa29f465315291e161130e6682f69410370/src/game_interpreter_control_variables.h",
+      "bytes": 1685,
+      "sha256": "c88f807143471f363858ef2111c21cfce58aaf6325655599437b78ad59c9bed1"
+    },
+    {
+      "project": "Player",
+      "path": "src/audio_generic.cpp",
+      "url": "https://raw.githubusercontent.com/EasyRPG/Player/78328fa29f465315291e161130e6682f69410370/src/audio_generic.cpp",
+      "bytes": 16745,
+      "sha256": "9d446038ef85e9fd1487e327a6f5c953f6769ce47172e1fd52dc78975bd9f26a"
+    },
+    {
+      "project": "Player",
+      "path": "src/audio_generic_midiout.cpp",
+      "url": "https://raw.githubusercontent.com/EasyRPG/Player/78328fa29f465315291e161130e6682f69410370/src/audio_generic_midiout.cpp",
+      "bytes": 4424,
+      "sha256": "0ca6ebe682d97291502bc28efeb63f871fb6a821d6f0a4d356bcadbcd9c34f01"
+    },
+    {
+      "project": "Player",
+      "path": "src/audio_decoder_midi.cpp",
+      "url": "https://raw.githubusercontent.com/EasyRPG/Player/78328fa29f465315291e161130e6682f69410370/src/audio_decoder_midi.cpp",
+      "bytes": 14247,
+      "sha256": "a6340ca2a0929cf22df9f30d28b032550b1478989948bfc467a5aa7722483a67"
+    },
+    {
+      "project": "Player",
+      "path": "src/midisequencer.cpp",
+      "url": "https://raw.githubusercontent.com/EasyRPG/Player/78328fa29f465315291e161130e6682f69410370/src/midisequencer.cpp",
+      "bytes": 19900,
+      "sha256": "0c93f6466ccb3bcbd009b81385f7f559871082ac232ffc9d47dcba4690ef5c1c"
+    },
+    {
+      "project": "Player",
+      "path": "src/game_enemy.cpp",
+      "url": "https://raw.githubusercontent.com/EasyRPG/Player/78328fa29f465315291e161130e6682f69410370/src/game_enemy.cpp",
+      "bytes": 4854,
+      "sha256": "651a63130fed4985f34e5d509ca61a7817ae0f78c707b07988a2060d52b10a12"
+    },
+    {
+      "project": "Player",
+      "path": "src/scene_battle.cpp",
+      "url": "https://raw.githubusercontent.com/EasyRPG/Player/78328fa29f465315291e161130e6682f69410370/src/scene_battle.cpp",
+      "bytes": 21376,
+      "sha256": "d9aff96966ea98ad19093eea421c66ab4984cfc4f00c462e79683a077ac2011b"
+    },
+    {
+      "project": "Player",
+      "path": "src/game_interpreter_shared.cpp",
+      "url": "https://raw.githubusercontent.com/EasyRPG/Player/78328fa29f465315291e161130e6682f69410370/src/game_interpreter_shared.cpp",
+      "bytes": 9777,
+      "sha256": "aaddaf5811006d0deaf4ce912f9cdaf0f9eea291386d140aa068bdfe43f4d393"
+    },
+    {
+      "project": "Player",
+      "path": "src/game_interpreter_shared.h",
+      "url": "https://raw.githubusercontent.com/EasyRPG/Player/78328fa29f465315291e161130e6682f69410370/src/game_interpreter_shared.h",
+      "bytes": 10261,
+      "sha256": "33ddabd7ca85747aa508496dbf6e613aab281ea48f29a3392faefeec81bddcc2"
+    },
+    {
+      "project": "Player",
+      "path": "src/game_character.cpp",
+      "url": "https://raw.githubusercontent.com/EasyRPG/Player/78328fa29f465315291e161130e6682f69410370/src/game_character.cpp",
+      "bytes": 33382,
+      "sha256": "add8d365219b6444a698feffedc50c85f1c8b07d144b712088ca5373127e58b7"
+    },
+    {
+      "project": "Player",
+      "path": "src/game_character.h",
+      "url": "https://raw.githubusercontent.com/EasyRPG/Player/78328fa29f465315291e161130e6682f69410370/src/game_character.h",
+      "bytes": 32874,
+      "sha256": "9f4aa45f95b48d1b8f31c1027522cd74d60f1354ddcf221fb837177f89263119"
+    },
+    {
+      "project": "Player",
+      "path": "src/game_player.cpp",
+      "url": "https://raw.githubusercontent.com/EasyRPG/Player/78328fa29f465315291e161130e6682f69410370/src/game_player.cpp",
+      "bytes": 26306,
+      "sha256": "71b5c5a71bfbee6c013db653d176b79cc551ea04fe4c728481fc9c815978e6c4"
+    },
+    {
+      "project": "Player",
+      "path": "src/game_battler.cpp",
+      "url": "https://raw.githubusercontent.com/EasyRPG/Player/78328fa29f465315291e161130e6682f69410370/src/game_battler.cpp",
+      "bytes": 22512,
+      "sha256": "0e159dbb111c6f3ee8335fa2e77f8e8c6df0ed6b2268d9918739db279574f859"
+    },
+    {
+      "project": "Player",
+      "path": "src/game_screen.cpp",
+      "url": "https://raw.githubusercontent.com/EasyRPG/Player/78328fa29f465315291e161130e6682f69410370/src/game_screen.cpp",
+      "bytes": 11020,
+      "sha256": "06c31595c1e04c34b006e3457f6421fe347133f2eb3951cfdf6ee108d89fcbe8"
+    },
+    {
+      "project": "Player",
+      "path": "src/battle_animation.cpp",
+      "url": "https://raw.githubusercontent.com/EasyRPG/Player/78328fa29f465315291e161130e6682f69410370/src/battle_animation.cpp",
+      "bytes": 11992,
+      "sha256": "4f010dc9305215226cbf858779fcf8e72af5733fc7b8ee9701e6c93a2daac41f"
+    },
+    {
+      "project": "Player",
+      "path": "src/battle_animation.h",
+      "url": "https://raw.githubusercontent.com/EasyRPG/Player/78328fa29f465315291e161130e6682f69410370/src/battle_animation.h",
+      "bytes": 5479,
+      "sha256": "ac21992aaab2c9aae6d5f17e20237944da12444225ddf6a74bdc701562df5f6d"
+    },
+    {
+      "project": "Player",
+      "path": "src/state.cpp",
+      "url": "https://raw.githubusercontent.com/EasyRPG/Player/78328fa29f465315291e161130e6682f69410370/src/state.cpp",
+      "bytes": 6406,
+      "sha256": "8f2dc9f9e84fbb222b45ec55a29746eef7f91039c807e8746c975b949291e20f"
+    },
+    {
+      "project": "Player",
+      "path": "src/state.h",
+      "url": "https://raw.githubusercontent.com/EasyRPG/Player/78328fa29f465315291e161130e6682f69410370/src/state.h",
+      "bytes": 4386,
+      "sha256": "00efe077f51e4381648838aafeb1f08a6558e6d0919a86d5fa524cc952396ddf"
+    },
+    {
+      "project": "Player",
+      "path": "src/attribute.cpp",
+      "url": "https://raw.githubusercontent.com/EasyRPG/Player/78328fa29f465315291e161130e6682f69410370/src/attribute.cpp",
+      "bytes": 4938,
+      "sha256": "d64845e71401069b75f78c15c1141688d9b7149ef595d8567acba4cb938ce776"
+    },
+    {
+      "project": "Player",
+      "path": "src/game_system.h",
+      "url": "https://raw.githubusercontent.com/EasyRPG/Player/78328fa29f465315291e161130e6682f69410370/src/game_system.h",
+      "bytes": 15875,
+      "sha256": "02c0908d88b4715c1c3350467b03b457e00efc12acec61e008a43568f5fd1b4a"
+    },
+    {
+      "project": "Player",
+      "path": "src/game_system.cpp",
+      "url": "https://raw.githubusercontent.com/EasyRPG/Player/78328fa29f465315291e161130e6682f69410370/src/game_system.cpp",
+      "bytes": 19259,
+      "sha256": "2de7a3f4bf40381013634c073b3d4a8c31af88f3eba4f5098c49976fcaf13bc3"
+    },
+    {
+      "project": "Player",
+      "path": "src/tilemap.cpp",
+      "url": "https://raw.githubusercontent.com/EasyRPG/Player/78328fa29f465315291e161130e6682f69410370/src/tilemap.cpp",
+      "bytes": 2839,
+      "sha256": "a4580705ab1d72246a256169d2ac27ad16f987ee4a746ab3443da903cf9bbfea"
+    },
+    {
+      "project": "Player",
+      "path": "src/tilemap.h",
+      "url": "https://raw.githubusercontent.com/EasyRPG/Player/78328fa29f465315291e161130e6682f69410370/src/tilemap.h",
+      "bytes": 3338,
+      "sha256": "6eef9828b76c8c20a42aa49d8f74881815c1ced1bd4ee8e8624ba78c4c447d6b"
+    },
+    {
+      "project": "Player",
+      "path": "src/tilemap_layer.cpp",
+      "url": "https://raw.githubusercontent.com/EasyRPG/Player/78328fa29f465315291e161130e6682f69410370/src/tilemap_layer.cpp",
+      "bytes": 27253,
+      "sha256": "d33b12a365a3c86eec8d6c8c00e8b38aa4ccc41520156a69e4131b2103f86f87"
+    },
+    {
+      "project": "Player",
+      "path": "src/tilemap_layer.h",
+      "url": "https://raw.githubusercontent.com/EasyRPG/Player/78328fa29f465315291e161130e6682f69410370/src/tilemap_layer.h",
+      "bytes": 6934,
+      "sha256": "53f663176f35e6073b7f447cb12722d2c807eaa8457278ca170f61d86874ef80"
+    },
+    {
+      "project": "liblcf",
+      "path": "COPYING",
+      "url": "https://raw.githubusercontent.com/EasyRPG/liblcf/92c4450a1bc1acb58bd02bbb99b57e5036919cdf/COPYING",
+      "bytes": 1064,
+      "sha256": "10d830cdd25ac5fb1b8d941483e1ec2058ecd2a5c089c9c18985133e8065f355"
+    },
+    {
+      "project": "liblcf",
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/EasyRPG/liblcf/92c4450a1bc1acb58bd02bbb99b57e5036919cdf/README.md",
+      "bytes": 3443,
+      "sha256": "5abd1d65e9ae8a83fb246f83139dfa710dc71d3cb3a8ecf6cacec28b5ab235c4"
+    },
+    {
+      "project": "liblcf",
+      "path": "src/generated/lcf/rpg/eventcommand.h",
+      "url": "https://raw.githubusercontent.com/EasyRPG/liblcf/92c4450a1bc1acb58bd02bbb99b57e5036919cdf/src/generated/lcf/rpg/eventcommand.h",
+      "bytes": 13567,
+      "sha256": "25f6a9e5374a3cd93b2ab93922e0ffb3c8878ea932b9973aeb166a17ef61df82"
+    },
+    {
+      "project": "liblcf",
+      "path": "src/generated/lcf/rpg/actor.h",
+      "url": "https://raw.githubusercontent.com/EasyRPG/liblcf/92c4450a1bc1acb58bd02bbb99b57e5036919cdf/src/generated/lcf/rpg/actor.h",
+      "bytes": 5485,
+      "sha256": "0abaa32be4c22fbdc8d6cab4249f1c11bc154917d96a9ee2ebd6960b064e5d59"
+    },
+    {
+      "project": "liblcf",
+      "path": "src/generated/lcf/rpg/skill.h",
+      "url": "https://raw.githubusercontent.com/EasyRPG/liblcf/92c4450a1bc1acb58bd02bbb99b57e5036919cdf/src/generated/lcf/rpg/skill.h",
+      "bytes": 7273,
+      "sha256": "c705a8b5cc5df3b47ca7705661461c64c57337387f881ecebf4bb889ab1b5c6b"
+    },
+    {
+      "project": "liblcf",
+      "path": "src/generated/lcf/rpg/item.h",
+      "url": "https://raw.githubusercontent.com/EasyRPG/liblcf/92c4450a1bc1acb58bd02bbb99b57e5036919cdf/src/generated/lcf/rpg/item.h",
+      "bytes": 6659,
+      "sha256": "66638c68f617e70fe5c80d81cbc9bf29bf5089098663dfac4de4a011e2e9d40f"
+    },
+    {
+      "project": "liblcf",
+      "path": "src/generated/lcf/rpg/eventpagecondition.h",
+      "url": "https://raw.githubusercontent.com/EasyRPG/liblcf/92c4450a1bc1acb58bd02bbb99b57e5036919cdf/src/generated/lcf/rpg/eventpagecondition.h",
+      "bytes": 3101,
+      "sha256": "b6478a0ab552994e76a241c0c32af626046ad0685d318779fd46569346c170f6"
+    },
+    {
+      "project": "liblcf",
+      "path": "src/generated/lcf/rpg/enemyaction.h",
+      "url": "https://raw.githubusercontent.com/EasyRPG/liblcf/92c4450a1bc1acb58bd02bbb99b57e5036919cdf/src/generated/lcf/rpg/enemyaction.h",
+      "bytes": 3522,
+      "sha256": "5e2b881d5e0498f17369ef3220ff60cd50f5c3bd0dcbdcca56cd0f23edc0aeb3"
+    },
+    {
+      "project": "liblcf",
+      "path": "src/generated/lcf/ldb/chunks.h",
+      "url": "https://raw.githubusercontent.com/EasyRPG/liblcf/92c4450a1bc1acb58bd02bbb99b57e5036919cdf/src/generated/lcf/ldb/chunks.h",
+      "bytes": 38456,
+      "sha256": "762d9f4fa1107ca95ef01c4f4862ffed4bb68c912fe9507749f243b8fe9940cd"
+    },
+    {
+      "project": "liblcf",
+      "path": "src/generated/lcf/lmu/chunks.h",
+      "url": "https://raw.githubusercontent.com/EasyRPG/liblcf/92c4450a1bc1acb58bd02bbb99b57e5036919cdf/src/generated/lcf/lmu/chunks.h",
+      "bytes": 3739,
+      "sha256": "5755a303cceb12a5bc95d31e7a40d0c9ddca88110f69df1f71d6279da1029c61"
+    },
+    {
+      "project": "liblcf",
+      "path": "src/generated/lcf/rpg/trooppagecondition.h",
+      "url": "https://raw.githubusercontent.com/EasyRPG/liblcf/92c4450a1bc1acb58bd02bbb99b57e5036919cdf/src/generated/lcf/rpg/trooppagecondition.h",
+      "bytes": 3525,
+      "sha256": "a5fa15e942c373cab6231660cc458904cd156a4a666dcc905e37bb0b5f197a30"
+    },
+    {
+      "project": "liblcf",
+      "path": "src/generated/lcf/rpg/trooppage.h",
+      "url": "https://raw.githubusercontent.com/EasyRPG/liblcf/92c4450a1bc1acb58bd02bbb99b57e5036919cdf/src/generated/lcf/rpg/trooppage.h",
+      "bytes": 1743,
+      "sha256": "1b725e6811d490cc82b57601f56a16f45884a89d4e1f5fe25c5fd9ce1313fc85"
+    },
+    {
+      "project": "liblcf",
+      "path": "src/generated/lcf/rpg/troopmember.h",
+      "url": "https://raw.githubusercontent.com/EasyRPG/liblcf/92c4450a1bc1acb58bd02bbb99b57e5036919cdf/src/generated/lcf/rpg/troopmember.h",
+      "bytes": 1367,
+      "sha256": "fe04a80064ca5017922de5d935cfc7bb4f485239411e31e6181a324d48fac79b"
+    },
+    {
+      "project": "liblcf",
+      "path": "src/generated/lcf/rpg/map.h",
+      "url": "https://raw.githubusercontent.com/EasyRPG/liblcf/92c4450a1bc1acb58bd02bbb99b57e5036919cdf/src/generated/lcf/rpg/map.h",
+      "bytes": 5099,
+      "sha256": "350283bff80b9e2a8163383e671881a69807dae0c570e0e4e5123d52e08d7e2b"
+    },
+    {
+      "project": "liblcf",
+      "path": "src/generated/lcf/rpg/movecommand.h",
+      "url": "https://raw.githubusercontent.com/EasyRPG/liblcf/92c4450a1bc1acb58bd02bbb99b57e5036919cdf/src/generated/lcf/rpg/movecommand.h",
+      "bytes": 3826,
+      "sha256": "1e2e34475b5814e088e34b7715fa680cf3c2e8f0524bb1dedcee3cfac7e07c1f"
+    },
+    {
+      "project": "liblcf",
+      "path": "src/generated/lcf/rpg/eventpage.h",
+      "url": "https://raw.githubusercontent.com/EasyRPG/liblcf/92c4450a1bc1acb58bd02bbb99b57e5036919cdf/src/generated/lcf/rpg/eventpage.h",
+      "bytes": 7418,
+      "sha256": "4bb4d7273d2820ec34b1fcfb1e3c70fec0f0fba06417d7951bbb0f6ff159d81c"
+    },
+    {
+      "project": "liblcf",
+      "path": "src/generated/lcf/rpg/chipset.h",
+      "url": "https://raw.githubusercontent.com/EasyRPG/liblcf/92c4450a1bc1acb58bd02bbb99b57e5036919cdf/src/generated/lcf/rpg/chipset.h",
+      "bytes": 4019,
+      "sha256": "5f4ac645b5bd984f4b9f62d3e618caefd951019e6d701d4f72e8339a7f92ac82"
+    },
+    {
+      "project": "liblcf",
+      "path": "src/generated/lcf/rpg/terrain.h",
+      "url": "https://raw.githubusercontent.com/EasyRPG/liblcf/92c4450a1bc1acb58bd02bbb99b57e5036919cdf/src/generated/lcf/rpg/terrain.h",
+      "bytes": 5878,
+      "sha256": "907ffca380c18185fd5cb00d0061d587d77a1edd726a622705e8eef93d85cdbf"
+    },
+    {
+      "project": "liblcf",
+      "path": "src/generated/lcf/rpg/system.h",
+      "url": "https://raw.githubusercontent.com/EasyRPG/liblcf/92c4450a1bc1acb58bd02bbb99b57e5036919cdf/src/generated/lcf/rpg/system.h",
+      "bytes": 15610,
+      "sha256": "46d48902b59e187004e329edd30d7bd3682af74fa8def7d57c5fb10bef3d5552"
+    },
+    {
+      "project": "liblcf",
+      "path": "src/generated/lcf/rpg/state.h",
+      "url": "https://raw.githubusercontent.com/EasyRPG/liblcf/92c4450a1bc1acb58bd02bbb99b57e5036919cdf/src/generated/lcf/rpg/state.h",
+      "bytes": 6498,
+      "sha256": "a27f85419f70bacc54c2f4bd03dc88f94ccc0982516f4b9ec4712959bba73adc"
+    },
+    {
+      "project": "liblcf",
+      "path": "src/generated/lcf/rpg/music.h",
+      "url": "https://raw.githubusercontent.com/EasyRPG/liblcf/92c4450a1bc1acb58bd02bbb99b57e5036919cdf/src/generated/lcf/rpg/music.h",
+      "bytes": 1382,
+      "sha256": "a56eb8ef9c4a87b1269962ee1b4956810ddedbcdf301a30af9ba37c831cf0254"
+    },
+    {
+      "project": "liblcf",
+      "path": "src/generated/lcf/rpg/savesystem.h",
+      "url": "https://raw.githubusercontent.com/EasyRPG/liblcf/92c4450a1bc1acb58bd02bbb99b57e5036919cdf/src/generated/lcf/rpg/savesystem.h",
+      "bytes": 12305,
+      "sha256": "65e8a9f78523f2650f69d6d97b0cfa715e9e34fd325231e589511600b1f75520"
+    }
+  ]
+}

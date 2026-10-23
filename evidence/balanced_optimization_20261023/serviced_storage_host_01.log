@@ -1,0 +1,21 @@
+In file included from runtime/rm2k/storage_codec.h:3,
+                 from /mnt/d/gba_hack/废都物语_GBA章节样版/experiments/serviced_storage/storage_codec.c:1:
+runtime/rm2k/types.h:45:7: warning: conflicting types for built-in function ‘memcpy’; expected ‘void *(void *, const void *, long unsigned int)’ [-Wbuiltin-declaration-mismatch]
+   45 | void *memcpy(void *dest,const void *src,unsigned int n);
+      |       ^~~~~~
+runtime/rm2k/types.h:4:1: note: ‘memcpy’ is declared in header ‘<string.h>’
+    3 | #include "lcf.h"
+  +++ |+#include <string.h>
+    4 | typedef unsigned short u16;
+runtime/rm2k/types.h:46:7: warning: conflicting types for built-in function ‘memset’; expected ‘void *(void *, int,  long unsigned int)’ [-Wbuiltin-declaration-mismatch]
+   46 | void *memset(void *dest,int value,unsigned int n);
+      |       ^~~~~~
+runtime/rm2k/types.h:46:7: note: ‘memset’ is declared in header ‘<string.h>’
+{
+  "status": "pass",
+  "source": "experiments/serviced_storage/storage_codec.c",
+  "source_sha256": "2b61f7661e7fb5a01874bd5bf2f7182ca8486f7f707806f1bd9cbfdfc432746b",
+  "cases": 48,
+  "service_calls": 1424,
+  "scope": "Independent exact PackBits encoding, callback and plain API byte identity, full unpack, output guard bytes, undersized capacities and immutable source. Emulator save/cold-load and actual audio continuity tested separately."
+}

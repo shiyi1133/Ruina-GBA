@@ -1,0 +1,20 @@
+checking status_browsing
+{"name": "status_browsing", "status": "pass", "seconds": 1.8364635759999146, "returncode": 0, "log": "evidence/optimization_20261022/final_validation/35a8e283662b/status_browsing.log"}
+checking chapter_first_CP
+{"name": "chapter_first_CP", "status": "pass", "seconds": 49.078452392000145, "returncode": 0, "log": "evidence/optimization_20261022/final_validation/35a8e283662b/chapter_first_CP.log"}
+checking checkpoint_cold_load
+{"name": "checkpoint_cold_load", "status": "pass", "seconds": 1.0973705019996487, "returncode": 0, "log": "evidence/optimization_20261022/final_validation/35a8e283662b/checkpoint_cold_load.log"}
+checking extended_gameplay
+{"name": "extended_gameplay", "status": "pass", "seconds": 58.36035204400014, "returncode": 0, "log": "evidence/optimization_20261022/final_validation/35a8e283662b/extended_gameplay.log"}
+checking music_room_UI
+{"name": "music_room_UI", "status": "pass", "seconds": 4.3221132540002145, "returncode": 0, "log": "evidence/optimization_20261022/final_validation/35a8e283662b/music_room_UI.log"}
+checking music_room_one_shot_replay
+{"name": "music_room_one_shot_replay", "status": "pass", "seconds": 2.7038846690002174, "returncode": 0, "log": "evidence/optimization_20261022/final_validation/35a8e283662b/music_room_one_shot_replay.log"}
+checking manual_local_action
+{"name": "manual_local_action", "status": "pass", "seconds": 7.970670917999996, "returncode": 0, "log": "evidence/optimization_20261022/final_validation/35a8e283662b/manual_local_action.log"}
+checking map_navigation
+{"name": "map_navigation", "status": "pass", "seconds": 2.252683227000489, "returncode": 0, "log": "evidence/optimization_20261022/final_validation/35a8e283662b/map_navigation.log"}
+checking cursor_continuity
+{"name": "cursor_continuity", "status": "pass", "seconds": 5.409268061999683, "returncode": 0, "log": "evidence/optimization_20261022/final_validation/35a8e283662b/cursor_continuity.log"}
+checking all_panorama_crops
+{"name": "all_panorama_crops", "status": "fail", "seconds": 3.7572739119996186, "returncode": 1, "log": "evidence/optimization_20261022/final_validation/35a8e283662b/all_panorama_crops.log"}

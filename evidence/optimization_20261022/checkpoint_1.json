@@ -1,0 +1,31 @@
+{
+  "status": "active, not delivered",
+  "minimum_finish_UTC": "2026-10-21T23:12:18Z",
+  "current_stage": "high-color art plus two simplified music levels; improving navigation and renderer cost",
+  "latest_rom_sha256": "3808c2ea46e5b50885db76eefc55a166e5908b86ad6564f0a4d0f5c40056a94f",
+  "last_build_bytes": 28060244,
+  "baseline": "history/quality_performance_20261022/baseline",
+  "pre_blend_reference": "history/quality_performance_20261022/pre_blend_fast",
+  "pre_mono_reference": "history/quality_performance_20261022/pre_mono",
+  "passed": [
+    "all 8711 image storage rows/spans and ordinary save codec",
+    "99 scores, 469260 mono optimization PCM frames bit-identical, both qualities and odd blocks",
+    "15 current full-view vs cache comparisons",
+    "actual native cave crops, 3 times 38144 pixels, zero differences",
+    "native battle10 simplified score playback full speed and zero capture underruns"
+  ],
+  "latest_rough_performance": {
+    "walking_display_updates_sec": 2.59,
+    "walking_logic_updates_sec": 19.11,
+    "camera_display_updates_sec": 5.97
+  },
+  "remaining": [
+    "native original per-character OBJ palettes/bank",
+    "portrait/UI overlay commit tear fixes",
+    "navigation cache exactness and CPU reduction",
+    "measure/check all simplified scores and music-room UI",
+    "broader actual scenes, save and behavior regression",
+    "final duration >= 21600s guard and matching cached source package"
+  ],
+  "music_policy": "Both in-game music room and gameplay use simplified timbres; gameplay further simplified. User does not want original-timbre split carts. Preserve original notes/rhythm/loops."
+}

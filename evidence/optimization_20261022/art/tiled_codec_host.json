@@ -1,0 +1,50 @@
+{
+  "status": "pass",
+  "kind": "independent random source pixels; decoder cache interleaving and odd-size image edges",
+  "rows": 481,
+  "spans": 1419,
+  "whole_tile_borrows": 6864,
+  "cases": [
+    {
+      "width": 1,
+      "height": 1,
+      "tiles": 1,
+      "compressed_bytes": 7
+    },
+    {
+      "width": 7,
+      "height": 9,
+      "tiles": 2,
+      "compressed_bytes": 77
+    },
+    {
+      "width": 33,
+      "height": 41,
+      "tiles": 30,
+      "compressed_bytes": 1472
+    },
+    {
+      "width": 240,
+      "height": 160,
+      "tiles": 600,
+      "compressed_bytes": 36858
+    },
+    {
+      "width": 321,
+      "height": 241,
+      "tiles": 1271,
+      "compressed_bytes": 75435
+    },
+    {
+      "width": 1023,
+      "height": 17,
+      "tiles": 384,
+      "compressed_bytes": 17580
+    }
+  ],
+  "sources": {
+    "platform/gba/image.c": "f8d013f43cc1460f26fe861fe1dac5ad7bde084f9f9a192d0ae7cd75ec50922b",
+    "runtime/rm2k/types.h": "28043bbb7471484c73f80fbd2cc12ed27fe2bbee2fc7e190bbf97d936d91b1df",
+    "tests/image_decoder_stub.c": "f547b7977e5a1a5d4848e71d03b7958edc6f15c7659f2418a4ff22097aff7979"
+  }
+}

@@ -1,0 +1,58 @@
+{"name": "origin_1_manual", "status": "pass", "report": "evidence/first_battle_origin_1/result.json", "seconds": 4.52931242500199}
+{"name": "origin_2_manual", "status": "pass", "report": "evidence/first_battle_origin_2/result.json", "seconds": 5.175635595998756}
+{"name": "origin_3_manual", "status": "pass", "report": "evidence/first_battle_origin_3/result.json", "seconds": 4.7003726639995875}
+{"name": "origin_4_manual", "status": "pass", "report": "evidence/first_battle_origin_4/result.json", "seconds": 5.3218972260001465}
+{"name": "mage_original_auto_battle", "status": "pass", "report": "evidence/first_battle_origin_3_auto/result.json", "seconds": 4.539117606997024}
+{"name": "game_over_new_game_bad_SAV", "status": "pass", "report": "evidence/recovery/result.json", "seconds": 28.487510414001008}
+{"name": "source_interfaces_controlled", "status": "pass", "report": "evidence/full_features/interfaces/result.json", "seconds": 9.632812902000296}
+{
+  "status": "pass",
+  "production_rom_sha256": "6e70c2dc0b4c10a2c9a3aae4f52201ade7a9c652b0e48faa1aa4268b900626d6",
+  "checks": [
+    {
+      "name": "origin_1_manual",
+      "status": "pass",
+      "report": "evidence/first_battle_origin_1/result.json",
+      "seconds": 4.52931242500199
+    },
+    {
+      "name": "origin_2_manual",
+      "status": "pass",
+      "report": "evidence/first_battle_origin_2/result.json",
+      "seconds": 5.175635595998756
+    },
+    {
+      "name": "origin_3_manual",
+      "status": "pass",
+      "report": "evidence/first_battle_origin_3/result.json",
+      "seconds": 4.7003726639995875
+    },
+    {
+      "name": "origin_4_manual",
+      "status": "pass",
+      "report": "evidence/first_battle_origin_4/result.json",
+      "seconds": 5.3218972260001465
+    },
+    {
+      "name": "mage_original_auto_battle",
+      "status": "pass",
+      "report": "evidence/first_battle_origin_3_auto/result.json",
+      "seconds": 4.539117606997024
+    },
+    {
+      "name": "game_over_new_game_bad_SAV",
+      "status": "pass",
+      "report": "evidence/recovery/result.json",
+      "seconds": 28.487510414001008
+    },
+    {
+      "name": "source_interfaces_controlled",
+      "status": "pass",
+      "report": "evidence/full_features/interfaces/result.json",
+      "seconds": 9.632812902000296
+    }
+  ],
+  "kind": "four fresh origins and original automatic mage battle, genuine SAV defeat/reset/rejection; special interfaces use separate controlled cartridge",
+  "full_campaign": "not_run",
+  "hardware": "not_run"
+}

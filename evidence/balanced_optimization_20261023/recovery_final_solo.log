@@ -1,0 +1,4 @@
+defeat_check_step 0 (5395790, 0, 0, 0, 0, 10110, 0, 5, 122, 23, 9, 5, 3, 0, 0, 1, 0, 2, 760, 0, 11550, 6, 11, 0)
+defeat_check_step 100 (5395790, 0, 0, 0, 0, 10710, 0, 5, 990, 23, 9, 5, 3, 7, 0, 1, 0, 4, 760, 2, 10660, 42, 36, 6)
+defeat_check_step 200 (5395790, 0, 0, 0, 0, 10710, 0, 5, 990, 23, 9, 5, 3, 6, 0, 1, 0, 4, 760, 2, 10660, 75, 64, 15)
+{"status": "pass", "rom_sha256": "d8e63ad23769ed03f990420723b3c042f3e147b23565e2c23f4c0f67bbe1e780", "stock_defeat_reached": true, "new_game_after_defeat": {"level": 1, "exp": 0, "rope": 0, "CP_flag": false, "initial_weapon": 515, "story_phase": 1}, "corrupt_sav_rejected": true, "acceptance_input": "emulated keys", "observations": "read only; deliberately corrupted copy used only for rejection test", "ordinary_save_only": true}

@@ -1,0 +1,17 @@
+{
+  "status": "source_integrated_not_built",
+  "time_unix": 1792696083.3076365,
+  "changes": [
+    {
+      "path": "source/source_menus.c",
+      "before": "e89ab890535c8ed118df68f974db18ee2c4e6a0213a5ef045dc59d6a69d0931a",
+      "after": "8fd2c2ca00b3734f65b2f25c0d18f38eea40585ffe0de78ec7826d726e0d1b10"
+    },
+    {
+      "path": "source/music_room.c",
+      "before": "25a8bd9c748aa6d48be72c505791e3ad41a7945ee0f0e7198c80a0ec17620aaa",
+      "after": "c87caab799453038bc914a88200eb3fa063defb4d4a4b5bc5d4859bc7163feb2"
+    }
+  ],
+  "proof": "list_optimization/dc3e4c657470/result.json:21 music list states and9 screenshots exact, natural recipe/title/SAV effects identical. music_room_long/dc3e4c657470/result.json:INT03 q1 two loops no underflow; old fd941 actual room failed at42s."
+}

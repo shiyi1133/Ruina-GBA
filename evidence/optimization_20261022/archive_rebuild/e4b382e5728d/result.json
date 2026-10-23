@@ -1,0 +1,15 @@
+{
+  "status": "pass",
+  "actual_source_ZIP": "废都物语_GBA_匹配工程_v0.6_20261022.zip",
+  "source_ZIP_sha256": "e4b382e5728d64dfce0b00f4d4eb5b0cbed2c8032c7f305192220e78ef17c51d",
+  "source_manifest_files_checked": 11620,
+  "ROM_sha256": "2416a8e950d764c790dd55a309d615de4c0dc9420fa791e6b9cd3535fab8824f",
+  "production_ROM_sha256": "2416a8e950d764c790dd55a309d615de4c0dc9420fa791e6b9cd3535fab8824f",
+  "byte_identical": true,
+  "fresh_extraction": true,
+  "original_archive_and_font": "disabled by nonexistent paths",
+  "Python_site_packages": "disabled by -S",
+  "compiled_objects_in_input_ZIP": false,
+  "wall_seconds": 105.51436712699797,
+  "environment": "Linux/WSL, external GNU Arm toolchain; native Windows not tested"
+}

@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/mnt/d/gba_hack/废都物语_GBA章节样版/tools/check_quality_black_cuts.py", line 51, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/mnt/d/gba_hack/废都物语_GBA章节样版/tools/check_quality_black_cuts.py", line 28, in main
+    if hidden:assert (blend>>6)&3==3 and amount==16,(blend,amount)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: (245, 56321)

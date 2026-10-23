@@ -1,0 +1,33 @@
+In file included from tests/audio_irq_parity_host.c:13:
+/mnt/d/gba_hack/废都物语_GBA章节样版/history/quality_performance_20261022/pre_voice_metadata/audio.c:96:1: warning: ‘long_call’ attribute directive ignored [-Wattributes]
+   96 | void __attribute__((section(".iwram"),long_call)) audio_irq(void){unsigned pending=REG16(0x04000202),word,i,j,mix_count=0;Voice*mix[5];int mix_gain[5],fg=256;REG16(0x04000202)=pending;REG16(0x03007ff8)|=pending;if(pending&1)video_frame_counter++;if(!(pending&16))return;
+      | ^~~~
+/mnt/d/gba_hack/废都物语_GBA章节样版/history/quality_performance_20261022/pre_voice_metadata/audio.c: In function ‘audio_init’:
+/mnt/d/gba_hack/废都物语_GBA章节样版/history/quality_performance_20261022/pre_voice_metadata/audio.c:134:20: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  134 |  REG32(0x03007ffc)=(u32)irq_dispatch;REG16(0x04000084)=0x80;REG16(0x04000082)=0x9a0c;for(i=0;i<8;i++){REG32(0x040000a0)=0;REG32(0x040000a4)=0;}REG16(0x04000102)=0;REG16(0x04000106)=0;REG16(0x04000100)=65536-1024;REG16(0x04000104)=65536-16;REG16(0x04000202)=0xffff;REG16(0x04000004)|=8;REG16(0x04000200)=17;REG16(0x04000106)=0xc4;REG16(0x04000102)=0x80;REG16(0x04000208)=1;
+      |                    ^
+In file included from tests/audio_irq_parity_host.c:13:
+/mnt/d/gba_hack/废都物语_GBA章节样版/platform/gba/audio.c:103:1: warning: ‘long_call’ attribute directive ignored [-Wattributes]
+  103 | static void __attribute__((section(".iwram"),long_call,noinline)) advance_voice(Voice*v){
+      | ^~~~~~
+/mnt/d/gba_hack/废都物语_GBA章节样版/platform/gba/audio.c:112:1: warning: ‘long_call’ attribute directive ignored [-Wattributes]
+  112 | void __attribute__((section(".iwram"),long_call)) audio_irq(void){unsigned pending=REG16(0x04000202),word,i,j,mix_count=0;Voice*mix[5];int mix_gain[5],fg=256;REG16(0x04000202)=pending;REG16(0x03007ff8)|=pending;if(pending&1)video_frame_counter++;if(!(pending&16))return;
+      | ^~~~
+/mnt/d/gba_hack/废都物语_GBA章节样版/platform/gba/audio.c: In function ‘audio_init’:
+/mnt/d/gba_hack/废都物语_GBA章节样版/platform/gba/audio.c:156:20: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  156 |  REG32(0x03007ffc)=(u32)irq_dispatch;REG16(0x04000084)=0x80;REG16(0x04000082)=0x9a0c;for(i=0;i<8;i++){REG32(0x040000a0)=0;REG32(0x040000a4)=0;}REG16(0x04000102)=0;REG16(0x04000106)=0;REG16(0x04000100)=65536-1024;REG16(0x04000104)=65536-16;REG16(0x04000202)=0xffff;REG16(0x04000004)|=8;REG16(0x04000200)=17;REG16(0x04000106)=0xc4;REG16(0x04000102)=0x80;REG16(0x04000208)=1;
+      |                    ^
+{
+  "status": "pass",
+  "scope": "host FIFO arithmetic parity, all 323 audio IDs, pitches50/100/150/200, MIDI modes, four simultaneous effects, gain/pan changes, pause/resume; separate GBA timing tests required",
+  "cases": 1688,
+  "FIFO_words_compared": 13828096,
+  "source_sha256": {
+    "history/quality_performance_20261022/pre_voice_metadata/audio.c": "0b7238b62f9da0a86ec3f253d766b94a6fc219b2c92bc3f9a03d4f868803e934",
+    "platform/gba/audio.c": "ac1000994bec4c1e0eebdfe70c67d05721f9278dab79529ed7b1d8a7aae933cc",
+    "runtime/rm2k/light_midi.c": "ecfc83588163e0b163ba9716650d672c1533f02f224e4bf0a613dc38af0c41ce",
+    "runtime/rm2k/native_midi.h": "1fbcff165261e1f9c74988d97b3077cdcb8122d6bbb269c8730f1a840a2e7b86",
+    "build/audio.bin": "c2e794c7065cd2dd311d2fd97d199db2331c41fb00c01964a25e47ba82ab0961",
+    "build/native_music/native_soundfont.bin": "14f511e3ba953cd45c9bf63a2dfd950496141389a0ccddfdd75cee48b15b4e79"
+  }
+}

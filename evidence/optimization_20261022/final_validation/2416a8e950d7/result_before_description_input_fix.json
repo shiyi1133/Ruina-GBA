@@ -1,0 +1,249 @@
+{
+  "status": "pass",
+  "rom_sha256": "2416a8e950d764c790dd55a309d615de4c0dc9420fa791e6b9cd3535fab8824f",
+  "tests": [
+    {
+      "name": "lcf_transport",
+      "status": "pass",
+      "seconds": 20.014222835998225,
+      "returncode": 0,
+      "log": "evidence/optimization_20261022/final_validation/2416a8e950d7/lcf_transport.log"
+    },
+    {
+      "name": "borrowed_views",
+      "status": "pass",
+      "seconds": 1.4144933569987188,
+      "returncode": 0,
+      "log": "evidence/optimization_20261022/final_validation/2416a8e950d7/borrowed_views.log"
+    },
+    {
+      "name": "page_conditions",
+      "status": "pass",
+      "seconds": 3.1690560080023715,
+      "returncode": 0,
+      "log": "evidence/optimization_20261022/final_validation/2416a8e950d7/page_conditions.log"
+    },
+    {
+      "name": "map_rule_parity",
+      "status": "pass",
+      "seconds": 5.802982288005296,
+      "returncode": 0,
+      "log": "evidence/optimization_20261022/final_validation/2416a8e950d7/map_rule_parity.log"
+    },
+    {
+      "name": "host_mechanisms",
+      "status": "pass",
+      "seconds": 2.8443727739941096,
+      "returncode": 0,
+      "log": "evidence/optimization_20261022/final_validation/2416a8e950d7/host_mechanisms.log"
+    },
+    {
+      "name": "image_codec",
+      "status": "pass",
+      "seconds": 0.5750302820015349,
+      "returncode": 0,
+      "log": "evidence/optimization_20261022/final_validation/2416a8e950d7/image_codec.log"
+    },
+    {
+      "name": "storage_and_images",
+      "status": "pass",
+      "seconds": 15.862690018999274,
+      "returncode": 0,
+      "log": "evidence/optimization_20261022/final_validation/2416a8e950d7/storage_and_images.log"
+    },
+    {
+      "name": "original_art",
+      "status": "pass",
+      "seconds": 4.737784113996895,
+      "returncode": 0,
+      "log": "evidence/optimization_20261022/final_validation/2416a8e950d7/original_art.log"
+    },
+    {
+      "name": "audio_IRQ_parity",
+      "status": "pass",
+      "seconds": 2.6096659309987444,
+      "returncode": 0,
+      "log": "evidence/optimization_20261022/final_validation/2416a8e950d7/audio_IRQ_parity.log"
+    },
+    {
+      "name": "opening_four_origins",
+      "status": "pass",
+      "seconds": 9.679643985997245,
+      "returncode": 0,
+      "log": "evidence/optimization_20261022/final_validation/2416a8e950d7/opening_four_origins.log"
+    },
+    {
+      "name": "natural_gameplay_and_SAV",
+      "status": "pass",
+      "seconds": 8.092066830002295,
+      "returncode": 0,
+      "log": "evidence/optimization_20261022/final_validation/2416a8e950d7/natural_gameplay_and_SAV.log"
+    },
+    {
+      "name": "source_menu_gameplay",
+      "status": "pass",
+      "seconds": 13.107751529001689,
+      "returncode": 0,
+      "log": "evidence/optimization_20261022/final_validation/2416a8e950d7/source_menu_gameplay.log"
+    },
+    {
+      "name": "status_browsing",
+      "status": "pass",
+      "seconds": 1.8302277960028732,
+      "returncode": 0,
+      "log": "evidence/optimization_20261022/final_validation/2416a8e950d7/status_browsing.log"
+    },
+    {
+      "name": "chapter_first_CP",
+      "status": "pass",
+      "seconds": 56.02186260000599,
+      "returncode": 0,
+      "log": "evidence/optimization_20261022/final_validation/2416a8e950d7/chapter_first_CP.log"
+    },
+    {
+      "name": "checkpoint_cold_load",
+      "status": "pass",
+      "seconds": 1.316356891002215,
+      "returncode": 0,
+      "log": "evidence/optimization_20261022/final_validation/2416a8e950d7/checkpoint_cold_load.log"
+    },
+    {
+      "name": "extended_gameplay",
+      "status": "pass",
+      "seconds": 72.77826547899895,
+      "returncode": 0,
+      "log": "evidence/optimization_20261022/final_validation/2416a8e950d7/extended_gameplay.log"
+    },
+    {
+      "name": "music_room_UI",
+      "status": "pass",
+      "seconds": 4.4928331120027,
+      "returncode": 0,
+      "log": "evidence/optimization_20261022/final_validation/2416a8e950d7/music_room_UI.log"
+    },
+    {
+      "name": "music_room_one_shot_replay",
+      "status": "pass",
+      "seconds": 2.777007605000108,
+      "returncode": 0,
+      "log": "evidence/optimization_20261022/final_validation/2416a8e950d7/music_room_one_shot_replay.log"
+    },
+    {
+      "name": "map_navigation",
+      "status": "pass",
+      "seconds": 2.261843794003653,
+      "returncode": 0,
+      "log": "evidence/optimization_20261022/final_validation/2416a8e950d7/map_navigation.log"
+    },
+    {
+      "name": "cursor_continuity",
+      "status": "pass",
+      "seconds": 5.350062363999314,
+      "returncode": 0,
+      "log": "evidence/optimization_20261022/final_validation/2416a8e950d7/cursor_continuity.log"
+    },
+    {
+      "name": "all_panorama_crops",
+      "status": "pass",
+      "seconds": 17.237287641997682,
+      "returncode": 0,
+      "log": "evidence/optimization_20261022/final_validation/2416a8e950d7/all_panorama_crops.log"
+    },
+    {
+      "name": "native_characters",
+      "status": "pass",
+      "seconds": 6.004850675999478,
+      "returncode": 0,
+      "log": "evidence/optimization_20261022/final_validation/2416a8e950d7/native_characters.log"
+    },
+    {
+      "name": "changing_actor_palettes",
+      "status": "pass",
+      "seconds": 6.102427767997142,
+      "returncode": 0,
+      "log": "evidence/optimization_20261022/final_validation/2416a8e950d7/changing_actor_palettes.log"
+    },
+    {
+      "name": "retained_VRAM",
+      "status": "pass",
+      "seconds": 10.61334122900007,
+      "returncode": 0,
+      "log": "evidence/optimization_20261022/final_validation/2416a8e950d7/retained_VRAM.log"
+    },
+    {
+      "name": "scroll_cache",
+      "status": "pass",
+      "seconds": 8.541687076998642,
+      "returncode": 0,
+      "log": "evidence/optimization_20261022/final_validation/2416a8e950d7/scroll_cache.log"
+    },
+    {
+      "name": "dialogue_portraits",
+      "status": "pass",
+      "seconds": 3.9109189709997736,
+      "returncode": 0,
+      "log": "evidence/optimization_20261022/final_validation/2416a8e950d7/dialogue_portraits.log"
+    },
+    {
+      "name": "dense_actors_HUD_audio",
+      "status": "pass",
+      "seconds": 13.936892151003121,
+      "returncode": 0,
+      "log": "evidence/optimization_20261022/final_validation/2416a8e950d7/dense_actors_HUD_audio.log"
+    },
+    {
+      "name": "portraits_and_audio_stress",
+      "status": "pass",
+      "seconds": 21.47144824899442,
+      "returncode": 0,
+      "log": "evidence/optimization_20261022/final_validation/2416a8e950d7/portraits_and_audio_stress.log"
+    },
+    {
+      "name": "all_MIDI_GBA_modes",
+      "status": "pass",
+      "seconds": 86.02739853099774,
+      "returncode": 0,
+      "log": "evidence/optimization_20261022/final_validation/2416a8e950d7/all_MIDI_GBA_modes.log"
+    },
+    {
+      "name": "original_BGM_pitches",
+      "status": "pass",
+      "seconds": 20.33207982199383,
+      "returncode": 0,
+      "log": "evidence/optimization_20261022/final_validation/2416a8e950d7/original_BGM_pitches.log"
+    },
+    {
+      "name": "black_cut_presentation",
+      "status": "pass",
+      "seconds": 4.16071532699425,
+      "returncode": 0,
+      "log": "evidence/optimization_20261022/final_validation/2416a8e950d7/black_cut_presentation.log"
+    },
+    {
+      "name": "uniform_alpha",
+      "status": "pass",
+      "seconds": 3.9691589180001756,
+      "returncode": 0,
+      "log": "evidence/optimization_20261022/final_validation/2416a8e950d7/uniform_alpha.log"
+    },
+    {
+      "name": "stack_observation",
+      "status": "pass",
+      "seconds": 2.988205369001662,
+      "returncode": 0,
+      "log": "evidence/optimization_20261022/final_validation/2416a8e950d7/stack_observation.log"
+    },
+    {
+      "name": "performance",
+      "status": "pass",
+      "seconds": 6.074518166002235,
+      "returncode": 0,
+      "log": "evidence/optimization_20261022/final_validation/2416a8e950d7/performance.log"
+    }
+  ],
+  "completed": 34,
+  "total": 34,
+  "scope": "controlled host and actual emulated GBA spot checks; full campaign and physical hardware not run",
+  "compiler_inputs_unchanged": true,
+  "production_ROM_unchanged": true
+}

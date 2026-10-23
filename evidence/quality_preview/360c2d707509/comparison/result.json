@@ -1,0 +1,58 @@
+{
+  "status": "created_from_actual_emulator_captures",
+  "baseline_ROM_sha256": "1db4e8b86af4cc3b4e71abdc983f9a8e5a2c84eb5784738258912a75750e1561",
+  "preview_ROM_sha256": "360c2d70750969f814da9e95244c279669dd431dd1d7bb0134701fcf9f1acc64",
+  "screenshot_scale": "integer 2x nearest neighbour",
+  "sources": [
+    {
+      "original": "Ruina121/game/Picture/風景・蓮.xyz",
+      "original_file_sha256": "ab86e8bda502be451c3b2d7987625cb824f624069a0f7c43e8f351f0085b409b",
+      "dimensions": [
+        290,
+        160
+      ],
+      "export": "原素材参考_不是GBA截图/开场莲花.png",
+      "conversion": "exact indexed RGB8 to PNG; no resize, enhancement or generation"
+    },
+    {
+      "original": "Ruina121/game/Panorama/背景・滝の洞窟.xyz",
+      "original_file_sha256": "465087e9dcb294dd568d5bad566e8bc03f2200ff4b3f1eff7f6d14c23f94b94a",
+      "dimensions": [
+        320,
+        240
+      ],
+      "export": "原素材参考_不是GBA截图/首次洞窟地图.png",
+      "conversion": "exact indexed RGB8 to PNG; no resize, enhancement or generation"
+    },
+    {
+      "original": "Ruina121/game/Title/廃都タイトル2.xyz",
+      "original_file_sha256": "c32901a13e4eaaf45b5ce96afff2f41027eee2b3f6c461e83cc763703b24404d",
+      "dimensions": [
+        320,
+        240
+      ],
+      "export": "原素材参考_不是GBA截图/原始标题.png",
+      "conversion": "exact indexed RGB8 to PNG; no resize, enhancement or generation"
+    },
+    {
+      "original": "Ruina121/game/FaceSet/顔絵主役.xyz",
+      "original_file_sha256": "e5d9e5e7791e4b75ce9177b47f4ebf2d18655f31035a5b1dc14315a626e19533",
+      "dimensions": [
+        192,
+        192
+      ],
+      "export": "原素材参考_不是GBA截图/原始头像表.png",
+      "conversion": "exact indexed RGB8 to PNG; no resize, enhancement or generation"
+    }
+  ],
+  "sheets": {
+    "原图浏览实际截图.png": "ac114f588f7a65f26ef468307a156f36f4c7815a1675b887541f96414348e704",
+    "实际画质对照.png": "e408179b0417b1e9f942fbb369cb429cc9247a7520cf63829c18555d3e85ba6c",
+    "标题与首次地图对照.png": "70759ec75416879afdb2acd59db98f379c2298f2c720ebade3cf2a32f2635c6a"
+  },
+  "notes": [
+    "Native illustration and overview use different source viewports; labels disclose this.",
+    "The first map already used native-size cached art in v0.6.2; do not imply newly invented source detail.",
+    "Original PNG exports are source references, not emulator screenshots."
+  ]
+}

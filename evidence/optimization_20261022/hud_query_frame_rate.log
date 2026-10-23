@@ -1,0 +1,466 @@
+{
+  "hardware_refresh_Hz": 59.72750056960583,
+  "reports": [
+    {
+      "version": "delivered_demo",
+      "rom_sha256": "2113517277aa385b719f6ac6d75029cadb56474bc4ef67603741608d429ae68d",
+      "kind": "ordinary save load, actual buttons, read-only page/engine observations",
+      "scenes": [
+        {
+          "scene": "cave idle",
+          "hardware_seconds": 3.0136871337890625,
+          "completed_display_page_changes": 0,
+          "hardware_BG_presentations": 0,
+          "BG_tiles_uploaded": 0,
+          "display_updates_per_second": 0.0,
+          "engine_updates_per_second": 0.0,
+          "position_samples": [
+            [
+              23,
+              15,
+              12
+            ],
+            [
+              23,
+              15,
+              12
+            ],
+            [
+              23,
+              15,
+              12
+            ],
+            [
+              23,
+              15,
+              12
+            ],
+            [
+              23,
+              15,
+              12
+            ],
+            [
+              23,
+              15,
+              12
+            ]
+          ],
+          "final_ui_mode": 4,
+          "audio_source_frames_advanced": 49376
+        },
+        {
+          "scene": "cave walking up/down",
+          "hardware_seconds": 5.0228118896484375,
+          "completed_display_page_changes": 1,
+          "hardware_BG_presentations": 0,
+          "BG_tiles_uploaded": 0,
+          "display_updates_per_second": 0.19909166856535276,
+          "engine_updates_per_second": 0.19909166856535276,
+          "position_samples": [
+            [
+              23,
+              15,
+              12
+            ],
+            [
+              23,
+              15,
+              12
+            ],
+            [
+              23,
+              15,
+              12
+            ],
+            [
+              23,
+              15,
+              12
+            ],
+            [
+              23,
+              15,
+              12
+            ],
+            [
+              23,
+              15,
+              12
+            ],
+            [
+              23,
+              15,
+              12
+            ],
+            [
+              23,
+              15,
+              13
+            ],
+            [
+              23,
+              15,
+              13
+            ],
+            [
+              23,
+              15,
+              13
+            ]
+          ],
+          "final_ui_mode": 4,
+          "audio_source_frames_advanced": 82288
+        },
+        {
+          "scene": "cave point selector redraw",
+          "hardware_seconds": 3.0136871337890625,
+          "completed_display_page_changes": 0,
+          "hardware_BG_presentations": 0,
+          "BG_tiles_uploaded": 0,
+          "display_updates_per_second": 0.0,
+          "engine_updates_per_second": 0.0,
+          "position_samples": [
+            [
+              23,
+              15,
+              13
+            ],
+            [
+              23,
+              15,
+              13
+            ],
+            [
+              23,
+              15,
+              13
+            ],
+            [
+              23,
+              15,
+              13
+            ],
+            [
+              23,
+              15,
+              13
+            ],
+            [
+              23,
+              15,
+              13
+            ]
+          ],
+          "final_ui_mode": 4,
+          "audio_source_frames_advanced": 49376
+        },
+        {
+          "scene": "menu idle",
+          "hardware_seconds": 3.0136871337890625,
+          "completed_display_page_changes": 0,
+          "hardware_BG_presentations": 0,
+          "BG_tiles_uploaded": 0,
+          "display_updates_per_second": 0.0,
+          "engine_updates_per_second": 0.0,
+          "position_samples": [
+            [
+              23,
+              15,
+              13
+            ],
+            [
+              23,
+              15,
+              13
+            ],
+            [
+              23,
+              15,
+              13
+            ],
+            [
+              23,
+              15,
+              13
+            ],
+            [
+              23,
+              15,
+              13
+            ],
+            [
+              23,
+              15,
+              13
+            ]
+          ],
+          "final_ui_mode": 2,
+          "audio_source_frames_advanced": 49376
+        }
+      ]
+    },
+    {
+      "version": "development",
+      "rom_sha256": "3c7ff3743494b76590b6e0d1614ace150f465282101a043a84a6225bc9536408",
+      "kind": "ordinary save load, actual buttons, read-only page/engine observations",
+      "scenes": [
+        {
+          "scene": "cave idle",
+          "hardware_seconds": 3.0136871337890625,
+          "completed_display_page_changes": 0,
+          "hardware_BG_presentations": 3,
+          "BG_tiles_uploaded": 0,
+          "display_updates_per_second": 0.9954583428267639,
+          "engine_updates_per_second": 57.73658388395231,
+          "position_samples": [
+            [
+              23,
+              15,
+              12
+            ],
+            [
+              23,
+              15,
+              12
+            ],
+            [
+              23,
+              15,
+              12
+            ],
+            [
+              23,
+              15,
+              12
+            ],
+            [
+              23,
+              15,
+              12
+            ],
+            [
+              23,
+              15,
+              12
+            ]
+          ],
+          "final_ui_mode": 4,
+          "audio_source_frames_advanced": 49376
+        },
+        {
+          "scene": "cave walking up/down",
+          "hardware_seconds": 5.0228118896484375,
+          "completed_display_page_changes": 0,
+          "hardware_BG_presentations": 34,
+          "BG_tiles_uploaded": 90,
+          "display_updates_per_second": 6.769116731221994,
+          "engine_updates_per_second": 51.96292549555707,
+          "position_samples": [
+            [
+              23,
+              15,
+              11
+            ],
+            [
+              23,
+              15,
+              8
+            ],
+            [
+              23,
+              15,
+              10
+            ],
+            [
+              23,
+              15,
+              9
+            ],
+            [
+              23,
+              15,
+              12
+            ],
+            [
+              23,
+              15,
+              9
+            ],
+            [
+              23,
+              15,
+              11
+            ],
+            [
+              23,
+              15,
+              8
+            ],
+            [
+              23,
+              15,
+              11
+            ],
+            [
+              23,
+              15,
+              9
+            ]
+          ],
+          "final_ui_mode": 4,
+          "audio_source_frames_advanced": 82288
+        },
+        {
+          "scene": "cave point selector redraw",
+          "hardware_seconds": 3.0136871337890625,
+          "completed_display_page_changes": 0,
+          "hardware_BG_presentations": 9,
+          "BG_tiles_uploaded": 0,
+          "display_updates_per_second": 2.9863750284802917,
+          "engine_updates_per_second": 58.06840333156123,
+          "position_samples": [
+            [
+              23,
+              15,
+              12
+            ],
+            [
+              23,
+              15,
+              12
+            ],
+            [
+              23,
+              15,
+              12
+            ],
+            [
+              23,
+              15,
+              12
+            ],
+            [
+              23,
+              15,
+              12
+            ],
+            [
+              23,
+              15,
+              12
+            ]
+          ],
+          "final_ui_mode": 4,
+          "audio_source_frames_advanced": 49376
+        },
+        {
+          "scene": "cave camera scroll",
+          "hardware_seconds": 5.0228118896484375,
+          "completed_display_page_changes": 0,
+          "hardware_BG_presentations": 52,
+          "BG_tiles_uploaded": 1860,
+          "display_updates_per_second": 10.352766765398345,
+          "engine_updates_per_second": 33.44740031897927,
+          "position_samples": [
+            [
+              23,
+              15,
+              12
+            ],
+            [
+              23,
+              15,
+              12
+            ],
+            [
+              23,
+              15,
+              12
+            ],
+            [
+              23,
+              15,
+              12
+            ],
+            [
+              23,
+              15,
+              12
+            ],
+            [
+              23,
+              15,
+              12
+            ],
+            [
+              23,
+              15,
+              12
+            ],
+            [
+              23,
+              15,
+              12
+            ],
+            [
+              23,
+              15,
+              12
+            ],
+            [
+              23,
+              15,
+              12
+            ]
+          ],
+          "final_ui_mode": 4,
+          "audio_source_frames_advanced": 82304
+        },
+        {
+          "scene": "menu idle",
+          "hardware_seconds": 3.0136871337890625,
+          "completed_display_page_changes": 0,
+          "hardware_BG_presentations": 0,
+          "BG_tiles_uploaded": 0,
+          "display_updates_per_second": 0.0,
+          "engine_updates_per_second": 0.0,
+          "position_samples": [
+            [
+              23,
+              15,
+              12
+            ],
+            [
+              23,
+              15,
+              12
+            ],
+            [
+              23,
+              15,
+              12
+            ],
+            [
+              23,
+              15,
+              12
+            ],
+            [
+              23,
+              15,
+              12
+            ],
+            [
+              23,
+              15,
+              12
+            ]
+          ],
+          "final_ui_mode": 2,
+          "audio_source_frames_advanced": 49376
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "status": "pass",
+  "rom_sha256": "05a321cde73a1c9979b95664e2771892224be566d6dcb0466a8235128abaee93",
+  "kind": "actual production ROM, fresh new game, genuine emulated buttons and read-only observations",
+  "checks": [
+    "original origin and naming sequence",
+    "actual map movement",
+    "two map point selections using hardware OBJ cursor",
+    "open and close system menu",
+    "original entrance dialogue and event",
+    "first original battle and victory",
+    "ordinary in-game save and fresh-process cold load",
+    "prior-demo ordinary SAV cold load"
+  ],
+  "walk_before": [
+    23,
+    15,
+    12
+  ],
+  "walk_after": [
+    23,
+    15,
+    10
+  ],
+  "cursor_selections": [
+    7,
+    1
+  ],
+  "cursor_oam": [
+    512,
+    0,
+    0
+  ],
+  "battle_after": {
+    "hp": 36,
+    "mp": 7,
+    "xp": 1,
+    "gold": 1,
+    "story_phase": 3
+  },
+  "new_save_load": {
+    "full_state_checksum_at_load_matches": true,
+    "state_bytes_at_load": 39704,
+    "player_progress_after_background_events_resume_matches": true,
+    "compared_after_resume": [
+      "map",
+      "gold",
+      "inventory",
+      "party and party actor records",
+      "origin, SP, story phase"
+    ],
+    "all_bytes_after_resuming_background_events": "not required: original parallel events legitimately update scratch state"
+  },
+  "previous_save_load": {
+    "full_state_checksum_at_load_matches": true,
+    "state_bytes_at_load": 39704,
+    "player_progress_after_background_events_resume_matches": true,
+    "compared_after_resume": [
+      "map",
+      "gold",
+      "inventory",
+      "party and party actor records",
+      "origin, SP, story phase"
+    ],
+    "all_bytes_after_resuming_background_events": "not required: original parallel events legitimately update scratch state"
+  },
+  "full_playthrough": "not_run; player acceptance",
+  "hardware": "not_run"
+}

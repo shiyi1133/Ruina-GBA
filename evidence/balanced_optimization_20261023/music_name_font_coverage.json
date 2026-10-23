@@ -1,0 +1,7 @@
+{
+  "status": "pass",
+  "production_ROM_sha256": "6e70c2dc0b4c10a2c9a3aae4f52201ade7a9c652b0e48faa1aa4268b900626d6",
+  "music_names": 105,
+  "missing_characters": [],
+  "scope": "Static glyph-bank coverage of all displayed105 original music names after the same GBK conversion as the music-room label generator. Does not assess every font mask or claim localization."
+}

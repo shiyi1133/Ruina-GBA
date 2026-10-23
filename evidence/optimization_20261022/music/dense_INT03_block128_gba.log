@@ -1,0 +1,11 @@
+{"name": "INT03", "track_id": 240, "quality": 0, "seek_source_frame": 671744, "host_peak_voices": 109, "GBA_peak_voices": 109, "underruns_during_capture": 0, "source_clock_ratio": 0.9999949368370421, "voice_overflows": 0, "captured_RMS": 2837.4290481649155, "status": "pass"}
+{"name": "INT03", "track_id": 240, "quality": 1, "seek_source_frame": 671744, "host_peak_voices": 111, "GBA_peak_voices": 111, "underruns_during_capture": 0, "source_clock_ratio": 0.9999949368370421, "voice_overflows": 0, "captured_RMS": 2795.54624028906, "status": "pass"}
+{
+  "status": "pass",
+  "kind": "actual emulated GBA, selected score INT03 near its host-observed polyphony peak, both simplified timbre modes",
+  "production_rom_sha256": "e56b3d1d2663f20e791688546fc67311d56b6970eebbd48ce3925a3cfb4b8638",
+  "fixture_sha256": "6d89a0d416ef9d3123ba3eb02b705f1229f6b62e9c6083cf5fe48c1789430760",
+  "source_bank_sha256": "c2e794c7065cd2dd311d2fd97d199db2331c41fb00c01964a25e47ba82ab0961",
+  "scope": "three seconds per case after warmup; complete score/loops checked on host separately",
+  "physical_hardware": "not_run"
+}

@@ -1,0 +1,32 @@
+{
+  "status": "pass",
+  "rom_sha256": "030b7e1f33c74514c7d9b1666b956ea26f89773c97086848a6defc5032eb5013",
+  "original_track": "Ruina121/game/Music/ダンジョン4.mid",
+  "source_loop_marker_ms": 11538,
+  "stored_loop_frame": 189038,
+  "complete_song_frames": 2306342,
+  "actual_gba_loop_count": 1,
+  "source_sample_rate_ratio": 1.0,
+  "capture": "native_original_loop.wav",
+  "seconds": 6.02734375,
+  "commands": [
+    "frames 30 0",
+    "frames 12 1",
+    "frames 24 0",
+    "frames 12 80",
+    "frames 24 0",
+    "frames 12 1",
+    "frames 24 0",
+    "frames 360 0",
+    "read 0200e36c 60",
+    "read 0201c9f0 20",
+    "frames 7951 0",
+    "read 0201c9f0 20",
+    "record /mnt/d/gba_hack/废都物语_GBA章节样版/evidence/audio/native_original_loop.wav",
+    "frames 360 0",
+    "stop",
+    "read 0201c9f0 20",
+    "read 0200e36c 60"
+  ],
+  "hardware": "not_run"
+}

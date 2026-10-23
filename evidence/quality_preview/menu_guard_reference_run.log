@@ -1,0 +1,16 @@
+{
+  "status": "pass",
+  "quality_preview_ROM_sha256": "4513437665f659b3a265a57237e7f90dda5a8af5f7d72903090efa755925c5ef",
+  "controlled_cartridge_sha256": "69f1e07f957a24a35b35beaffb8105c2b988931945ef89158cd48b976c087450",
+  "base_ROM_sha256": "1db4e8b86af4cc3b4e71abdc983f9a8e5a2c84eb5784738258912a75750e1561",
+  "states_compared": 18,
+  "pixel_hashes_match_original_full_redraw": true,
+  "incremental_menu_metrics": [
+    1,
+    66,
+    9,
+    8
+  ],
+  "scope": "controlled eight-choice scrolling/wrapping reference comparison; not an additional campaign path",
+  "hardware": "not_run"
+}

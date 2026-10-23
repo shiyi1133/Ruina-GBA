@@ -1,0 +1,6 @@
+{
+  "project": "/tmp/ruina-v062-visual-proof-xcfba_nv/废都物语_GBA_匹配工程_v0.6.2_20261022",
+  "archive_sha256": "e7c9dc866b95162046d8e235a3449687217fd56cf88c9903972fcf842b67c7a1",
+  "ROM_sha256": "1db4e8b86af4cc3b4e71abdc983f9a8e5a2c84eb5784738258912a75750e1561",
+  "purpose": "Read-only old renderer comparison; separate source rebuild, no current production objects mixed."
+}

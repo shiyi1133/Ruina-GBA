@@ -1,0 +1,11 @@
+{
+  "status": "fail",
+  "rom_sha256": "d3ba2241c91aaa3b7a714250828866fd538b3a8b4858b3c419d8700cc1f6f3eb",
+  "origins": [
+    {
+      "origin": 1,
+      "status": "fail",
+      "report": "evidence/naming_cut/d3ba2241c91a/origin_1/result.json"
+    }
+  ]
+}

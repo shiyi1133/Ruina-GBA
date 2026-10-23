@@ -1,0 +1,95 @@
+{
+  "status": "fail",
+  "rom_sha256": "801fe3e4086c54201c85836ea5757c0caab4a8a9e84fc3902f1f70a9882b5bd1",
+  "tests": [
+    {
+      "name": "lcf_transport",
+      "status": "pass",
+      "seconds": 18.993123769760132,
+      "returncode": 0,
+      "log": "evidence/optimization_20261022/final_validation/801fe3e4086c/lcf_transport.log"
+    },
+    {
+      "name": "borrowed_views",
+      "status": "pass",
+      "seconds": 1.4428138732910156,
+      "returncode": 0,
+      "log": "evidence/optimization_20261022/final_validation/801fe3e4086c/borrowed_views.log"
+    },
+    {
+      "name": "page_conditions",
+      "status": "pass",
+      "seconds": 3.149052381515503,
+      "returncode": 0,
+      "log": "evidence/optimization_20261022/final_validation/801fe3e4086c/page_conditions.log"
+    },
+    {
+      "name": "map_rule_parity",
+      "status": "pass",
+      "seconds": 5.518929719924927,
+      "returncode": 0,
+      "log": "evidence/optimization_20261022/final_validation/801fe3e4086c/map_rule_parity.log"
+    },
+    {
+      "name": "host_mechanisms",
+      "status": "pass",
+      "seconds": 2.763463020324707,
+      "returncode": 0,
+      "log": "evidence/optimization_20261022/final_validation/801fe3e4086c/host_mechanisms.log"
+    },
+    {
+      "name": "image_codec",
+      "status": "pass",
+      "seconds": 0.5859594345092773,
+      "returncode": 0,
+      "log": "evidence/optimization_20261022/final_validation/801fe3e4086c/image_codec.log"
+    },
+    {
+      "name": "storage_and_images",
+      "status": "pass",
+      "seconds": 16.288185358047485,
+      "returncode": 0,
+      "log": "evidence/optimization_20261022/final_validation/801fe3e4086c/storage_and_images.log"
+    },
+    {
+      "name": "original_art",
+      "status": "pass",
+      "seconds": 2.0358710289001465,
+      "returncode": 0,
+      "log": "evidence/optimization_20261022/final_validation/801fe3e4086c/original_art.log"
+    },
+    {
+      "name": "audio_IRQ_parity",
+      "status": "pass",
+      "seconds": 2.5568935871124268,
+      "returncode": 0,
+      "log": "evidence/optimization_20261022/final_validation/801fe3e4086c/audio_IRQ_parity.log"
+    },
+    {
+      "name": "opening_four_origins",
+      "status": "pass",
+      "seconds": 2.4493181705474854,
+      "returncode": 0,
+      "log": "evidence/optimization_20261022/final_validation/801fe3e4086c/opening_four_origins.log"
+    },
+    {
+      "name": "natural_gameplay_and_SAV",
+      "status": "pass",
+      "seconds": 7.93121600151062,
+      "returncode": 0,
+      "log": "evidence/optimization_20261022/final_validation/801fe3e4086c/natural_gameplay_and_SAV.log"
+    },
+    {
+      "name": "source_menu_gameplay",
+      "status": "fail",
+      "seconds": 16.08234453201294,
+      "returncode": 1,
+      "log": "evidence/optimization_20261022/final_validation/801fe3e4086c/source_menu_gameplay.log"
+    }
+  ],
+  "completed": 12,
+  "total": 28,
+  "scope": "controlled host and actual emulated GBA spot checks; full campaign and physical hardware not run",
+  "compiler_inputs_unchanged": true,
+  "production_ROM_unchanged": true
+}

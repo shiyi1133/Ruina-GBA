@@ -1,0 +1,23 @@
+enter_actor_commands 27 452.05 ms; black 0
+actor_commands_down 2 33.49 ms; black 0
+actor_commands_up 2 33.49 ms; black 0
+actor_commands_down 2 33.49 ms; black 0
+actor_commands_up 2 33.49 ms; black 0
+actor_commands_down 2 33.49 ms; black 0
+actor_commands_up 2 33.49 ms; black 0
+actor_commands_down 2 33.49 ms; black 0
+actor_commands_up 2 33.49 ms; black 0
+actor_commands_down 2 33.49 ms; black 0
+actor_commands_up 2 33.49 ms; black 0
+actor_commands_down 2 33.49 ms; black 0
+actor_commands_up 2 33.49 ms; black 0
+cancel_actor_to_battle_root 28 468.8 ms; black 0
+enter_skill_list 14 234.4 ms; black 0
+Traceback (most recent call last):
+  File "/mnt/d/gba_hack/废都物语_GBA章节样版/tools/check_battle_menu_navigation.py", line 63, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/mnt/d/gba_hack/废都物语_GBA章节样版/tools/check_battle_menu_navigation.py", line 32, in main
+    e.key(1);e.key(128);meter.action('enter_skill_list',1);mode(6,5);count=e.debug()[17];assert count>=2,('need a real multi-skill list',e.debug())
+                                                                                                ^^^^^^^^
+AssertionError: ('need a real multi-skill list', (5395790, 0, 0, 0, 0, 10710, 0, 5, 990, 23, 9, 5, 3, 1, 188, 6, 0, 1, 0, 5, 10660, 9, 5, 1))

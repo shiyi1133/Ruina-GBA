@@ -1,0 +1,8 @@
+checking scroll_cache
+{"name": "scroll_cache", "status": "pass", "seconds": 8.736799522000183, "returncode": 0, "log": "evidence/optimization_20261022/final_validation/35a8e283662b/scroll_cache.log"}
+checking dialogue_portraits
+{"name": "dialogue_portraits", "status": "pass", "seconds": 4.262458854000215, "returncode": 0, "log": "evidence/optimization_20261022/final_validation/35a8e283662b/dialogue_portraits.log"}
+checking dense_actors_HUD_audio
+{"name": "dense_actors_HUD_audio", "status": "pass", "seconds": 15.95781165399967, "returncode": 0, "log": "evidence/optimization_20261022/final_validation/35a8e283662b/dense_actors_HUD_audio.log"}
+checking portraits_and_audio_stress
+{"name": "portraits_and_audio_stress", "status": "fail", "seconds": 39.24998143199991, "returncode": 1, "log": "evidence/optimization_20261022/final_validation/35a8e283662b/portraits_and_audio_stress.log"}

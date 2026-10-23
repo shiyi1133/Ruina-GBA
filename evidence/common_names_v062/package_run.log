@@ -1,0 +1,14 @@
+verify original source archive and expand matching project
+overlay current source and cached build inputs
+clean build from the matching source project
+create the source ZIP and rebuild its actual fresh extraction
+assemble separate DEMO, then copy and verify delivery files
+{
+  "status": "delivered",
+  "ROM_sha256": "1db4e8b86af4cc3b4e71abdc983f9a8e5a2c84eb5784738258912a75750e1561",
+  "ROM": "/mnt/c/Users/APP/Downloads/废都物语_GBA_DEMO_v0.6.2_简易取名_20261022/废都物语_GBA_v0.6.2_简易取名版.gba",
+  "DEMO_ZIP": "/mnt/c/Users/APP/Downloads/废都物语_GBA_DEMO_v0.6.2_简易取名_20261022.zip",
+  "SOURCE_ZIP": "/mnt/c/Users/APP/Downloads/废都物语_GBA_匹配工程_v0.6.2_20261022.zip",
+  "source_rebuild_byte_identical": true,
+  "originals_and_saves": "preserved"
+}

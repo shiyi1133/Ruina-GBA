@@ -1,0 +1,58 @@
+checking lcf_transport
+{"name": "lcf_transport", "status": "pass", "seconds": 20.91762435400051, "returncode": 0, "log": "evidence/optimization_20261022/final_validation/40820faea497/lcf_transport.log"}
+checking borrowed_views
+{"name": "borrowed_views", "status": "pass", "seconds": 1.7042578349992255, "returncode": 0, "log": "evidence/optimization_20261022/final_validation/40820faea497/borrowed_views.log"}
+checking page_conditions
+{"name": "page_conditions", "status": "pass", "seconds": 3.7560789979997935, "returncode": 0, "log": "evidence/optimization_20261022/final_validation/40820faea497/page_conditions.log"}
+checking map_rule_parity
+{"name": "map_rule_parity", "status": "pass", "seconds": 6.115550398999403, "returncode": 0, "log": "evidence/optimization_20261022/final_validation/40820faea497/map_rule_parity.log"}
+checking host_mechanisms
+{"name": "host_mechanisms", "status": "pass", "seconds": 2.731118888999845, "returncode": 0, "log": "evidence/optimization_20261022/final_validation/40820faea497/host_mechanisms.log"}
+checking image_codec
+{"name": "image_codec", "status": "pass", "seconds": 0.6191931450011907, "returncode": 0, "log": "evidence/optimization_20261022/final_validation/40820faea497/image_codec.log"}
+checking storage_and_images
+{"name": "storage_and_images", "status": "pass", "seconds": 43.464859042998796, "returncode": 0, "log": "evidence/optimization_20261022/final_validation/40820faea497/storage_and_images.log"}
+checking original_art
+{"name": "original_art", "status": "pass", "seconds": 4.63117518099898, "returncode": 0, "log": "evidence/optimization_20261022/final_validation/40820faea497/original_art.log"}
+checking audio_IRQ_parity
+{"name": "audio_IRQ_parity", "status": "pass", "seconds": 2.5400744039998244, "returncode": 0, "log": "evidence/optimization_20261022/final_validation/40820faea497/audio_IRQ_parity.log"}
+checking common_name_UI
+{"name": "common_name_UI", "status": "pass", "seconds": 6.124685041999328, "returncode": 0, "log": "evidence/optimization_20261022/final_validation/40820faea497/common_name_UI.log"}
+checking opening_four_origins
+{"name": "opening_four_origins", "status": "pass", "seconds": 8.837150884999573, "returncode": 0, "log": "evidence/optimization_20261022/final_validation/40820faea497/opening_four_origins.log"}
+checking natural_gameplay_and_SAV
+{"name": "natural_gameplay_and_SAV", "status": "pass", "seconds": 6.691222674999153, "returncode": 0, "log": "evidence/optimization_20261022/final_validation/40820faea497/natural_gameplay_and_SAV.log"}
+checking source_menu_gameplay
+{"name": "source_menu_gameplay", "status": "pass", "seconds": 16.35297949300002, "returncode": 0, "log": "evidence/optimization_20261022/final_validation/40820faea497/source_menu_gameplay.log"}
+checking status_browsing
+{"name": "status_browsing", "status": "pass", "seconds": 1.7336945879997074, "returncode": 0, "log": "evidence/optimization_20261022/final_validation/40820faea497/status_browsing.log"}
+checking chapter_first_CP
+{"name": "chapter_first_CP", "status": "pass", "seconds": 51.23201200600124, "returncode": 0, "log": "evidence/optimization_20261022/final_validation/40820faea497/chapter_first_CP.log"}
+checking checkpoint_cold_load
+{"name": "checkpoint_cold_load", "status": "pass", "seconds": 0.9589207589997386, "returncode": 0, "log": "evidence/optimization_20261022/final_validation/40820faea497/checkpoint_cold_load.log"}
+checking extended_gameplay
+{"name": "extended_gameplay", "status": "pass", "seconds": 67.9618903720002, "returncode": 0, "log": "evidence/optimization_20261022/final_validation/40820faea497/extended_gameplay.log"}
+checking music_room_UI
+{"name": "music_room_UI", "status": "pass", "seconds": 3.515058675000546, "returncode": 0, "log": "evidence/optimization_20261022/final_validation/40820faea497/music_room_UI.log"}
+checking music_room_one_shot_replay
+{"name": "music_room_one_shot_replay", "status": "pass", "seconds": 2.2156632710011763, "returncode": 0, "log": "evidence/optimization_20261022/final_validation/40820faea497/music_room_one_shot_replay.log"}
+checking manual_local_action
+{"name": "manual_local_action", "status": "pass", "seconds": 6.650093165000726, "returncode": 0, "log": "evidence/optimization_20261022/final_validation/40820faea497/manual_local_action.log"}
+checking map_navigation
+{"name": "map_navigation", "status": "pass", "seconds": 1.9269656739998027, "returncode": 0, "log": "evidence/optimization_20261022/final_validation/40820faea497/map_navigation.log"}
+checking cursor_continuity
+{"name": "cursor_continuity", "status": "pass", "seconds": 5.064533042999756, "returncode": 0, "log": "evidence/optimization_20261022/final_validation/40820faea497/cursor_continuity.log"}
+checking all_panorama_crops
+{"name": "all_panorama_crops", "status": "pass", "seconds": 14.83405086699895, "returncode": 0, "log": "evidence/optimization_20261022/final_validation/40820faea497/all_panorama_crops.log"}
+checking native_characters
+{"name": "native_characters", "status": "pass", "seconds": 6.444061878000866, "returncode": 0, "log": "evidence/optimization_20261022/final_validation/40820faea497/native_characters.log"}
+checking changing_actor_palettes
+{"name": "changing_actor_palettes", "status": "pass", "seconds": 6.926392220000707, "returncode": 0, "log": "evidence/optimization_20261022/final_validation/40820faea497/changing_actor_palettes.log"}
+checking retained_VRAM
+{"name": "retained_VRAM", "status": "pass", "seconds": 10.183894418998534, "returncode": 0, "log": "evidence/optimization_20261022/final_validation/40820faea497/retained_VRAM.log"}
+checking scroll_cache
+{"name": "scroll_cache", "status": "pass", "seconds": 9.132761657998344, "returncode": 0, "log": "evidence/optimization_20261022/final_validation/40820faea497/scroll_cache.log"}
+checking dialogue_portraits
+{"name": "dialogue_portraits", "status": "pass", "seconds": 5.10181769600058, "returncode": 0, "log": "evidence/optimization_20261022/final_validation/40820faea497/dialogue_portraits.log"}
+checking dense_actors_HUD_audio
+{"name": "dense_actors_HUD_audio", "status": "fail", "seconds": 7.27191171999948, "returncode": 1, "log": "evidence/optimization_20261022/final_validation/40820faea497/dense_actors_HUD_audio.log"}

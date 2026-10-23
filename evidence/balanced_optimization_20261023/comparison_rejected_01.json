@@ -1,0 +1,6 @@
+{
+  "status": "rejected_not_delivered",
+  "reason": "Historical capture used choice ordinal 2, which is the gender menu, rather than the actual four-portrait menu. Old/new facial comparison invalid; replace using observed portrait_count == 4. No game binaries changed.",
+  "preserved": "history/balanced_optimization_20261023/rejected_comparison_gender_capture",
+  "unix": 1792699620.130915
+}

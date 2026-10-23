@@ -1,0 +1,174 @@
+music_list_down 3 50.23 ms; black 0
+music_list_up 3 50.23 ms; black 0
+music_list_down 3 50.23 ms; black 0
+music_list_up 3 50.23 ms; black 0
+music_list_down 3 50.23 ms; black 0
+music_list_up 3 50.23 ms; black 0
+{"status": "running", "ROM_sha256": "6e70c2dc0b4c10a2c9a3aae4f52201ade7a9c652b0e48faa1aa4268b900626d6", "target_loops": 128, "loops_completed": 1, "GBA_seconds_observed": 60.27374267578125, "underrun_samples": 0, "voice_overflows": 0}
+{"status": "running", "ROM_sha256": "6e70c2dc0b4c10a2c9a3aae4f52201ade7a9c652b0e48faa1aa4268b900626d6", "target_loops": 128, "loops_completed": 2, "GBA_seconds_observed": 120.5474853515625, "underrun_samples": 0, "voice_overflows": 0}
+{"status": "running", "ROM_sha256": "6e70c2dc0b4c10a2c9a3aae4f52201ade7a9c652b0e48faa1aa4268b900626d6", "target_loops": 128, "loops_completed": 3, "GBA_seconds_observed": 180.82122802734375, "underrun_samples": 0, "voice_overflows": 0}
+{"status": "running", "ROM_sha256": "6e70c2dc0b4c10a2c9a3aae4f52201ade7a9c652b0e48faa1aa4268b900626d6", "target_loops": 128, "loops_completed": 4, "GBA_seconds_observed": 241.094970703125, "underrun_samples": 0, "voice_overflows": 0}
+{"status": "running", "ROM_sha256": "6e70c2dc0b4c10a2c9a3aae4f52201ade7a9c652b0e48faa1aa4268b900626d6", "target_loops": 128, "loops_completed": 4, "GBA_seconds_observed": 301.36871337890625, "underrun_samples": 0, "voice_overflows": 0}
+{"status": "running", "ROM_sha256": "6e70c2dc0b4c10a2c9a3aae4f52201ade7a9c652b0e48faa1aa4268b900626d6", "target_loops": 128, "loops_completed": 5, "GBA_seconds_observed": 361.6424560546875, "underrun_samples": 0, "voice_overflows": 0}
+{"status": "running", "ROM_sha256": "6e70c2dc0b4c10a2c9a3aae4f52201ade7a9c652b0e48faa1aa4268b900626d6", "target_loops": 128, "loops_completed": 6, "GBA_seconds_observed": 421.91619873046875, "underrun_samples": 0, "voice_overflows": 0}
+{"status": "running", "ROM_sha256": "6e70c2dc0b4c10a2c9a3aae4f52201ade7a9c652b0e48faa1aa4268b900626d6", "target_loops": 128, "loops_completed": 7, "GBA_seconds_observed": 482.18994140625, "underrun_samples": 0, "voice_overflows": 0}
+{"status": "running", "ROM_sha256": "6e70c2dc0b4c10a2c9a3aae4f52201ade7a9c652b0e48faa1aa4268b900626d6", "target_loops": 128, "loops_completed": 8, "GBA_seconds_observed": 542.4636840820312, "underrun_samples": 0, "voice_overflows": 0}
+{"status": "running", "ROM_sha256": "6e70c2dc0b4c10a2c9a3aae4f52201ade7a9c652b0e48faa1aa4268b900626d6", "target_loops": 128, "loops_completed": 9, "GBA_seconds_observed": 602.7374267578125, "underrun_samples": 0, "voice_overflows": 0}
+{"status": "running", "ROM_sha256": "6e70c2dc0b4c10a2c9a3aae4f52201ade7a9c652b0e48faa1aa4268b900626d6", "target_loops": 128, "loops_completed": 10, "GBA_seconds_observed": 663.0111694335938, "underrun_samples": 0, "voice_overflows": 0}
+{"status": "running", "ROM_sha256": "6e70c2dc0b4c10a2c9a3aae4f52201ade7a9c652b0e48faa1aa4268b900626d6", "target_loops": 128, "loops_completed": 11, "GBA_seconds_observed": 723.284912109375, "underrun_samples": 0, "voice_overflows": 0}
+{"status": "running", "ROM_sha256": "6e70c2dc0b4c10a2c9a3aae4f52201ade7a9c652b0e48faa1aa4268b900626d6", "target_loops": 128, "loops_completed": 12, "GBA_seconds_observed": 783.5586547851562, "underrun_samples": 0, "voice_overflows": 0}
+{"status": "running", "ROM_sha256": "6e70c2dc0b4c10a2c9a3aae4f52201ade7a9c652b0e48faa1aa4268b900626d6", "target_loops": 128, "loops_completed": 13, "GBA_seconds_observed": 843.8323974609375, "underrun_samples": 0, "voice_overflows": 0}
+{"status": "running", "ROM_sha256": "6e70c2dc0b4c10a2c9a3aae4f52201ade7a9c652b0e48faa1aa4268b900626d6", "target_loops": 128, "loops_completed": 14, "GBA_seconds_observed": 904.1061401367188, "underrun_samples": 0, "voice_overflows": 0}
+{"status": "running", "ROM_sha256": "6e70c2dc0b4c10a2c9a3aae4f52201ade7a9c652b0e48faa1aa4268b900626d6", "target_loops": 128, "loops_completed": 15, "GBA_seconds_observed": 964.3798828125, "underrun_samples": 0, "voice_overflows": 0}
+{"status": "running", "ROM_sha256": "6e70c2dc0b4c10a2c9a3aae4f52201ade7a9c652b0e48faa1aa4268b900626d6", "target_loops": 128, "loops_completed": 16, "GBA_seconds_observed": 1024.6536254882812, "underrun_samples": 0, "voice_overflows": 0}
+{"status": "running", "ROM_sha256": "6e70c2dc0b4c10a2c9a3aae4f52201ade7a9c652b0e48faa1aa4268b900626d6", "target_loops": 128, "loops_completed": 17, "GBA_seconds_observed": 1084.9273681640625, "underrun_samples": 0, "voice_overflows": 0}
+{"status": "running", "ROM_sha256": "6e70c2dc0b4c10a2c9a3aae4f52201ade7a9c652b0e48faa1aa4268b900626d6", "target_loops": 128, "loops_completed": 18, "GBA_seconds_observed": 1145.2011108398438, "underrun_samples": 0, "voice_overflows": 0}
+{"status": "running", "ROM_sha256": "6e70c2dc0b4c10a2c9a3aae4f52201ade7a9c652b0e48faa1aa4268b900626d6", "target_loops": 128, "loops_completed": 19, "GBA_seconds_observed": 1205.474853515625, "underrun_samples": 0, "voice_overflows": 0}
+{"status": "running", "ROM_sha256": "6e70c2dc0b4c10a2c9a3aae4f52201ade7a9c652b0e48faa1aa4268b900626d6", "target_loops": 128, "loops_completed": 20, "GBA_seconds_observed": 1265.7485961914062, "underrun_samples": 0, "voice_overflows": 0}
+{"status": "running", "ROM_sha256": "6e70c2dc0b4c10a2c9a3aae4f52201ade7a9c652b0e48faa1aa4268b900626d6", "target_loops": 128, "loops_completed": 21, "GBA_seconds_observed": 1326.0223388671875, "underrun_samples": 0, "voice_overflows": 0}
+{"status": "running", "ROM_sha256": "6e70c2dc0b4c10a2c9a3aae4f52201ade7a9c652b0e48faa1aa4268b900626d6", "target_loops": 128, "loops_completed": 22, "GBA_seconds_observed": 1386.2960815429688, "underrun_samples": 0, "voice_overflows": 0}
+{"status": "running", "ROM_sha256": "6e70c2dc0b4c10a2c9a3aae4f52201ade7a9c652b0e48faa1aa4268b900626d6", "target_loops": 128, "loops_completed": 23, "GBA_seconds_observed": 1446.56982421875, "underrun_samples": 0, "voice_overflows": 0}
+{"status": "running", "ROM_sha256": "6e70c2dc0b4c10a2c9a3aae4f52201ade7a9c652b0e48faa1aa4268b900626d6", "target_loops": 128, "loops_completed": 24, "GBA_seconds_observed": 1506.8435668945312, "underrun_samples": 0, "voice_overflows": 0}
+{"status": "running", "ROM_sha256": "6e70c2dc0b4c10a2c9a3aae4f52201ade7a9c652b0e48faa1aa4268b900626d6", "target_loops": 128, "loops_completed": 25, "GBA_seconds_observed": 1567.1173095703125, "underrun_samples": 0, "voice_overflows": 0}
+{"status": "running", "ROM_sha256": "6e70c2dc0b4c10a2c9a3aae4f52201ade7a9c652b0e48faa1aa4268b900626d6", "target_loops": 128, "loops_completed": 26, "GBA_seconds_observed": 1627.3910522460938, "underrun_samples": 0, "voice_overflows": 0}
+{"status": "running", "ROM_sha256": "6e70c2dc0b4c10a2c9a3aae4f52201ade7a9c652b0e48faa1aa4268b900626d6", "target_loops": 128, "loops_completed": 27, "GBA_seconds_observed": 1687.664794921875, "underrun_samples": 0, "voice_overflows": 0}
+{"status": "running", "ROM_sha256": "6e70c2dc0b4c10a2c9a3aae4f52201ade7a9c652b0e48faa1aa4268b900626d6", "target_loops": 128, "loops_completed": 28, "GBA_seconds_observed": 1747.9385375976562, "underrun_samples": 0, "voice_overflows": 0}
+{"status": "running", "ROM_sha256": "6e70c2dc0b4c10a2c9a3aae4f52201ade7a9c652b0e48faa1aa4268b900626d6", "target_loops": 128, "loops_completed": 29, "GBA_seconds_observed": 1808.2122802734375, "underrun_samples": 0, "voice_overflows": 0}
+{"status": "running", "ROM_sha256": "6e70c2dc0b4c10a2c9a3aae4f52201ade7a9c652b0e48faa1aa4268b900626d6", "target_loops": 128, "loops_completed": 30, "GBA_seconds_observed": 1868.4860229492188, "underrun_samples": 0, "voice_overflows": 0}
+{"status": "running", "ROM_sha256": "6e70c2dc0b4c10a2c9a3aae4f52201ade7a9c652b0e48faa1aa4268b900626d6", "target_loops": 128, "loops_completed": 31, "GBA_seconds_observed": 1928.759765625, "underrun_samples": 0, "voice_overflows": 0}
+{"status": "running", "ROM_sha256": "6e70c2dc0b4c10a2c9a3aae4f52201ade7a9c652b0e48faa1aa4268b900626d6", "target_loops": 128, "loops_completed": 32, "GBA_seconds_observed": 1989.0335083007812, "underrun_samples": 0, "voice_overflows": 0}
+{"status": "running", "ROM_sha256": "6e70c2dc0b4c10a2c9a3aae4f52201ade7a9c652b0e48faa1aa4268b900626d6", "target_loops": 128, "loops_completed": 33, "GBA_seconds_observed": 2049.3072509765625, "underrun_samples": 0, "voice_overflows": 0}
+{"status": "running", "ROM_sha256": "6e70c2dc0b4c10a2c9a3aae4f52201ade7a9c652b0e48faa1aa4268b900626d6", "target_loops": 128, "loops_completed": 34, "GBA_seconds_observed": 2109.5809936523438, "underrun_samples": 0, "voice_overflows": 0}
+{"status": "running", "ROM_sha256": "6e70c2dc0b4c10a2c9a3aae4f52201ade7a9c652b0e48faa1aa4268b900626d6", "target_loops": 128, "loops_completed": 35, "GBA_seconds_observed": 2169.854736328125, "underrun_samples": 0, "voice_overflows": 0}
+{"status": "running", "ROM_sha256": "6e70c2dc0b4c10a2c9a3aae4f52201ade7a9c652b0e48faa1aa4268b900626d6", "target_loops": 128, "loops_completed": 36, "GBA_seconds_observed": 2230.1284790039062, "underrun_samples": 0, "voice_overflows": 0}
+{"status": "running", "ROM_sha256": "6e70c2dc0b4c10a2c9a3aae4f52201ade7a9c652b0e48faa1aa4268b900626d6", "target_loops": 128, "loops_completed": 37, "GBA_seconds_observed": 2290.4022216796875, "underrun_samples": 0, "voice_overflows": 0}
+{"status": "running", "ROM_sha256": "6e70c2dc0b4c10a2c9a3aae4f52201ade7a9c652b0e48faa1aa4268b900626d6", "target_loops": 128, "loops_completed": 38, "GBA_seconds_observed": 2350.6759643554688, "underrun_samples": 0, "voice_overflows": 0}
+{"status": "running", "ROM_sha256": "6e70c2dc0b4c10a2c9a3aae4f52201ade7a9c652b0e48faa1aa4268b900626d6", "target_loops": 128, "loops_completed": 39, "GBA_seconds_observed": 2410.94970703125, "underrun_samples": 0, "voice_overflows": 0}
+{"status": "running", "ROM_sha256": "6e70c2dc0b4c10a2c9a3aae4f52201ade7a9c652b0e48faa1aa4268b900626d6", "target_loops": 128, "loops_completed": 40, "GBA_seconds_observed": 2471.2234497070312, "underrun_samples": 0, "voice_overflows": 0}
+{"status": "running", "ROM_sha256": "6e70c2dc0b4c10a2c9a3aae4f52201ade7a9c652b0e48faa1aa4268b900626d6", "target_loops": 128, "loops_completed": 41, "GBA_seconds_observed": 2531.4971923828125, "underrun_samples": 0, "voice_overflows": 0}
+{"status": "running", "ROM_sha256": "6e70c2dc0b4c10a2c9a3aae4f52201ade7a9c652b0e48faa1aa4268b900626d6", "target_loops": 128, "loops_completed": 42, "GBA_seconds_observed": 2591.7709350585938, "underrun_samples": 0, "voice_overflows": 0}
+{"status": "running", "ROM_sha256": "6e70c2dc0b4c10a2c9a3aae4f52201ade7a9c652b0e48faa1aa4268b900626d6", "target_loops": 128, "loops_completed": 43, "GBA_seconds_observed": 2652.044677734375, "underrun_samples": 0, "voice_overflows": 0}
+{"status": "running", "ROM_sha256": "6e70c2dc0b4c10a2c9a3aae4f52201ade7a9c652b0e48faa1aa4268b900626d6", "target_loops": 128, "loops_completed": 44, "GBA_seconds_observed": 2712.3184204101562, "underrun_samples": 0, "voice_overflows": 0}
+{"status": "running", "ROM_sha256": "6e70c2dc0b4c10a2c9a3aae4f52201ade7a9c652b0e48faa1aa4268b900626d6", "target_loops": 128, "loops_completed": 45, "GBA_seconds_observed": 2772.5921630859375, "underrun_samples": 0, "voice_overflows": 0}
+{"status": "running", "ROM_sha256": "6e70c2dc0b4c10a2c9a3aae4f52201ade7a9c652b0e48faa1aa4268b900626d6", "target_loops": 128, "loops_completed": 46, "GBA_seconds_observed": 2832.8659057617188, "underrun_samples": 0, "voice_overflows": 0}
+{"status": "running", "ROM_sha256": "6e70c2dc0b4c10a2c9a3aae4f52201ade7a9c652b0e48faa1aa4268b900626d6", "target_loops": 128, "loops_completed": 47, "GBA_seconds_observed": 2893.1396484375, "underrun_samples": 0, "voice_overflows": 0}
+{"status": "running", "ROM_sha256": "6e70c2dc0b4c10a2c9a3aae4f52201ade7a9c652b0e48faa1aa4268b900626d6", "target_loops": 128, "loops_completed": 48, "GBA_seconds_observed": 2953.4133911132812, "underrun_samples": 0, "voice_overflows": 0}
+{"status": "running", "ROM_sha256": "6e70c2dc0b4c10a2c9a3aae4f52201ade7a9c652b0e48faa1aa4268b900626d6", "target_loops": 128, "loops_completed": 49, "GBA_seconds_observed": 3013.6871337890625, "underrun_samples": 0, "voice_overflows": 0}
+{"status": "running", "ROM_sha256": "6e70c2dc0b4c10a2c9a3aae4f52201ade7a9c652b0e48faa1aa4268b900626d6", "target_loops": 128, "loops_completed": 50, "GBA_seconds_observed": 3073.9608764648438, "underrun_samples": 0, "voice_overflows": 0}
+{"status": "running", "ROM_sha256": "6e70c2dc0b4c10a2c9a3aae4f52201ade7a9c652b0e48faa1aa4268b900626d6", "target_loops": 128, "loops_completed": 51, "GBA_seconds_observed": 3134.234619140625, "underrun_samples": 0, "voice_overflows": 0}
+{"status": "running", "ROM_sha256": "6e70c2dc0b4c10a2c9a3aae4f52201ade7a9c652b0e48faa1aa4268b900626d6", "target_loops": 128, "loops_completed": 52, "GBA_seconds_observed": 3194.5083618164062, "underrun_samples": 0, "voice_overflows": 0}
+{"status": "running", "ROM_sha256": "6e70c2dc0b4c10a2c9a3aae4f52201ade7a9c652b0e48faa1aa4268b900626d6", "target_loops": 128, "loops_completed": 53, "GBA_seconds_observed": 3254.7821044921875, "underrun_samples": 0, "voice_overflows": 0}
+{"status": "running", "ROM_sha256": "6e70c2dc0b4c10a2c9a3aae4f52201ade7a9c652b0e48faa1aa4268b900626d6", "target_loops": 128, "loops_completed": 54, "GBA_seconds_observed": 3315.0558471679688, "underrun_samples": 0, "voice_overflows": 0}
+{"status": "running", "ROM_sha256": "6e70c2dc0b4c10a2c9a3aae4f52201ade7a9c652b0e48faa1aa4268b900626d6", "target_loops": 128, "loops_completed": 55, "GBA_seconds_observed": 3375.32958984375, "underrun_samples": 0, "voice_overflows": 0}
+{"status": "running", "ROM_sha256": "6e70c2dc0b4c10a2c9a3aae4f52201ade7a9c652b0e48faa1aa4268b900626d6", "target_loops": 128, "loops_completed": 56, "GBA_seconds_observed": 3435.6033325195312, "underrun_samples": 0, "voice_overflows": 0}
+{"status": "running", "ROM_sha256": "6e70c2dc0b4c10a2c9a3aae4f52201ade7a9c652b0e48faa1aa4268b900626d6", "target_loops": 128, "loops_completed": 57, "GBA_seconds_observed": 3495.8770751953125, "underrun_samples": 0, "voice_overflows": 0}
+{"status": "running", "ROM_sha256": "6e70c2dc0b4c10a2c9a3aae4f52201ade7a9c652b0e48faa1aa4268b900626d6", "target_loops": 128, "loops_completed": 58, "GBA_seconds_observed": 3556.1508178710938, "underrun_samples": 0, "voice_overflows": 0}
+{"status": "running", "ROM_sha256": "6e70c2dc0b4c10a2c9a3aae4f52201ade7a9c652b0e48faa1aa4268b900626d6", "target_loops": 128, "loops_completed": 59, "GBA_seconds_observed": 3616.424560546875, "underrun_samples": 0, "voice_overflows": 0}
+{"status": "running", "ROM_sha256": "6e70c2dc0b4c10a2c9a3aae4f52201ade7a9c652b0e48faa1aa4268b900626d6", "target_loops": 128, "loops_completed": 60, "GBA_seconds_observed": 3676.6983032226562, "underrun_samples": 0, "voice_overflows": 0}
+{"status": "running", "ROM_sha256": "6e70c2dc0b4c10a2c9a3aae4f52201ade7a9c652b0e48faa1aa4268b900626d6", "target_loops": 128, "loops_completed": 61, "GBA_seconds_observed": 3736.9720458984375, "underrun_samples": 0, "voice_overflows": 0}
+{"status": "running", "ROM_sha256": "6e70c2dc0b4c10a2c9a3aae4f52201ade7a9c652b0e48faa1aa4268b900626d6", "target_loops": 128, "loops_completed": 62, "GBA_seconds_observed": 3797.2457885742188, "underrun_samples": 0, "voice_overflows": 0}
+{"status": "running", "ROM_sha256": "6e70c2dc0b4c10a2c9a3aae4f52201ade7a9c652b0e48faa1aa4268b900626d6", "target_loops": 128, "loops_completed": 63, "GBA_seconds_observed": 3857.51953125, "underrun_samples": 0, "voice_overflows": 0}
+{"status": "running", "ROM_sha256": "6e70c2dc0b4c10a2c9a3aae4f52201ade7a9c652b0e48faa1aa4268b900626d6", "target_loops": 128, "loops_completed": 64, "GBA_seconds_observed": 3917.7932739257812, "underrun_samples": 0, "voice_overflows": 0}
+{"status": "running", "ROM_sha256": "6e70c2dc0b4c10a2c9a3aae4f52201ade7a9c652b0e48faa1aa4268b900626d6", "target_loops": 128, "loops_completed": 65, "GBA_seconds_observed": 3978.0670166015625, "underrun_samples": 0, "voice_overflows": 0}
+{"status": "running", "ROM_sha256": "6e70c2dc0b4c10a2c9a3aae4f52201ade7a9c652b0e48faa1aa4268b900626d6", "target_loops": 128, "loops_completed": 66, "GBA_seconds_observed": 4038.3407592773438, "underrun_samples": 0, "voice_overflows": 0}
+{"status": "running", "ROM_sha256": "6e70c2dc0b4c10a2c9a3aae4f52201ade7a9c652b0e48faa1aa4268b900626d6", "target_loops": 128, "loops_completed": 67, "GBA_seconds_observed": 4098.614501953125, "underrun_samples": 0, "voice_overflows": 0}
+{"status": "running", "ROM_sha256": "6e70c2dc0b4c10a2c9a3aae4f52201ade7a9c652b0e48faa1aa4268b900626d6", "target_loops": 128, "loops_completed": 68, "GBA_seconds_observed": 4158.888244628906, "underrun_samples": 0, "voice_overflows": 0}
+{"status": "running", "ROM_sha256": "6e70c2dc0b4c10a2c9a3aae4f52201ade7a9c652b0e48faa1aa4268b900626d6", "target_loops": 128, "loops_completed": 69, "GBA_seconds_observed": 4219.1619873046875, "underrun_samples": 0, "voice_overflows": 0}
+{"status": "running", "ROM_sha256": "6e70c2dc0b4c10a2c9a3aae4f52201ade7a9c652b0e48faa1aa4268b900626d6", "target_loops": 128, "loops_completed": 70, "GBA_seconds_observed": 4279.435729980469, "underrun_samples": 0, "voice_overflows": 0}
+{"status": "running", "ROM_sha256": "6e70c2dc0b4c10a2c9a3aae4f52201ade7a9c652b0e48faa1aa4268b900626d6", "target_loops": 128, "loops_completed": 71, "GBA_seconds_observed": 4339.70947265625, "underrun_samples": 0, "voice_overflows": 0}
+{"status": "running", "ROM_sha256": "6e70c2dc0b4c10a2c9a3aae4f52201ade7a9c652b0e48faa1aa4268b900626d6", "target_loops": 128, "loops_completed": 72, "GBA_seconds_observed": 4399.983215332031, "underrun_samples": 0, "voice_overflows": 0}
+{"status": "running", "ROM_sha256": "6e70c2dc0b4c10a2c9a3aae4f52201ade7a9c652b0e48faa1aa4268b900626d6", "target_loops": 128, "loops_completed": 73, "GBA_seconds_observed": 4460.2569580078125, "underrun_samples": 0, "voice_overflows": 0}
+{"status": "running", "ROM_sha256": "6e70c2dc0b4c10a2c9a3aae4f52201ade7a9c652b0e48faa1aa4268b900626d6", "target_loops": 128, "loops_completed": 74, "GBA_seconds_observed": 4520.530700683594, "underrun_samples": 0, "voice_overflows": 0}
+{"status": "running", "ROM_sha256": "6e70c2dc0b4c10a2c9a3aae4f52201ade7a9c652b0e48faa1aa4268b900626d6", "target_loops": 128, "loops_completed": 75, "GBA_seconds_observed": 4580.804443359375, "underrun_samples": 0, "voice_overflows": 0}
+{"status": "running", "ROM_sha256": "6e70c2dc0b4c10a2c9a3aae4f52201ade7a9c652b0e48faa1aa4268b900626d6", "target_loops": 128, "loops_completed": 76, "GBA_seconds_observed": 4641.078186035156, "underrun_samples": 0, "voice_overflows": 0}
+{"status": "running", "ROM_sha256": "6e70c2dc0b4c10a2c9a3aae4f52201ade7a9c652b0e48faa1aa4268b900626d6", "target_loops": 128, "loops_completed": 77, "GBA_seconds_observed": 4701.3519287109375, "underrun_samples": 0, "voice_overflows": 0}
+{"status": "running", "ROM_sha256": "6e70c2dc0b4c10a2c9a3aae4f52201ade7a9c652b0e48faa1aa4268b900626d6", "target_loops": 128, "loops_completed": 78, "GBA_seconds_observed": 4761.625671386719, "underrun_samples": 0, "voice_overflows": 0}
+{"status": "running", "ROM_sha256": "6e70c2dc0b4c10a2c9a3aae4f52201ade7a9c652b0e48faa1aa4268b900626d6", "target_loops": 128, "loops_completed": 79, "GBA_seconds_observed": 4821.8994140625, "underrun_samples": 0, "voice_overflows": 0}
+{"status": "running", "ROM_sha256": "6e70c2dc0b4c10a2c9a3aae4f52201ade7a9c652b0e48faa1aa4268b900626d6", "target_loops": 128, "loops_completed": 80, "GBA_seconds_observed": 4882.173156738281, "underrun_samples": 0, "voice_overflows": 0}
+{"status": "running", "ROM_sha256": "6e70c2dc0b4c10a2c9a3aae4f52201ade7a9c652b0e48faa1aa4268b900626d6", "target_loops": 128, "loops_completed": 81, "GBA_seconds_observed": 4942.4468994140625, "underrun_samples": 0, "voice_overflows": 0}
+{"status": "running", "ROM_sha256": "6e70c2dc0b4c10a2c9a3aae4f52201ade7a9c652b0e48faa1aa4268b900626d6", "target_loops": 128, "loops_completed": 82, "GBA_seconds_observed": 5002.720642089844, "underrun_samples": 0, "voice_overflows": 0}
+{"status": "running", "ROM_sha256": "6e70c2dc0b4c10a2c9a3aae4f52201ade7a9c652b0e48faa1aa4268b900626d6", "target_loops": 128, "loops_completed": 83, "GBA_seconds_observed": 5062.994384765625, "underrun_samples": 0, "voice_overflows": 0}
+{"status": "running", "ROM_sha256": "6e70c2dc0b4c10a2c9a3aae4f52201ade7a9c652b0e48faa1aa4268b900626d6", "target_loops": 128, "loops_completed": 84, "GBA_seconds_observed": 5123.268127441406, "underrun_samples": 0, "voice_overflows": 0}
+{"status": "running", "ROM_sha256": "6e70c2dc0b4c10a2c9a3aae4f52201ade7a9c652b0e48faa1aa4268b900626d6", "target_loops": 128, "loops_completed": 85, "GBA_seconds_observed": 5183.5418701171875, "underrun_samples": 0, "voice_overflows": 0}
+{"status": "running", "ROM_sha256": "6e70c2dc0b4c10a2c9a3aae4f52201ade7a9c652b0e48faa1aa4268b900626d6", "target_loops": 128, "loops_completed": 86, "GBA_seconds_observed": 5243.815612792969, "underrun_samples": 0, "voice_overflows": 0}
+{"status": "running", "ROM_sha256": "6e70c2dc0b4c10a2c9a3aae4f52201ade7a9c652b0e48faa1aa4268b900626d6", "target_loops": 128, "loops_completed": 87, "GBA_seconds_observed": 5304.08935546875, "underrun_samples": 0, "voice_overflows": 0}
+{"status": "running", "ROM_sha256": "6e70c2dc0b4c10a2c9a3aae4f52201ade7a9c652b0e48faa1aa4268b900626d6", "target_loops": 128, "loops_completed": 88, "GBA_seconds_observed": 5364.363098144531, "underrun_samples": 0, "voice_overflows": 0}
+{"status": "running", "ROM_sha256": "6e70c2dc0b4c10a2c9a3aae4f52201ade7a9c652b0e48faa1aa4268b900626d6", "target_loops": 128, "loops_completed": 89, "GBA_seconds_observed": 5424.6368408203125, "underrun_samples": 0, "voice_overflows": 0}
+{"status": "running", "ROM_sha256": "6e70c2dc0b4c10a2c9a3aae4f52201ade7a9c652b0e48faa1aa4268b900626d6", "target_loops": 128, "loops_completed": 90, "GBA_seconds_observed": 5484.910583496094, "underrun_samples": 0, "voice_overflows": 0}
+{"status": "running", "ROM_sha256": "6e70c2dc0b4c10a2c9a3aae4f52201ade7a9c652b0e48faa1aa4268b900626d6", "target_loops": 128, "loops_completed": 91, "GBA_seconds_observed": 5545.184326171875, "underrun_samples": 0, "voice_overflows": 0}
+{"status": "running", "ROM_sha256": "6e70c2dc0b4c10a2c9a3aae4f52201ade7a9c652b0e48faa1aa4268b900626d6", "target_loops": 128, "loops_completed": 92, "GBA_seconds_observed": 5605.458068847656, "underrun_samples": 0, "voice_overflows": 0}
+{"status": "running", "ROM_sha256": "6e70c2dc0b4c10a2c9a3aae4f52201ade7a9c652b0e48faa1aa4268b900626d6", "target_loops": 128, "loops_completed": 93, "GBA_seconds_observed": 5665.7318115234375, "underrun_samples": 0, "voice_overflows": 0}
+{"status": "running", "ROM_sha256": "6e70c2dc0b4c10a2c9a3aae4f52201ade7a9c652b0e48faa1aa4268b900626d6", "target_loops": 128, "loops_completed": 94, "GBA_seconds_observed": 5726.005554199219, "underrun_samples": 0, "voice_overflows": 0}
+{"status": "running", "ROM_sha256": "6e70c2dc0b4c10a2c9a3aae4f52201ade7a9c652b0e48faa1aa4268b900626d6", "target_loops": 128, "loops_completed": 95, "GBA_seconds_observed": 5786.279296875, "underrun_samples": 0, "voice_overflows": 0}
+{"status": "running", "ROM_sha256": "6e70c2dc0b4c10a2c9a3aae4f52201ade7a9c652b0e48faa1aa4268b900626d6", "target_loops": 128, "loops_completed": 96, "GBA_seconds_observed": 5846.553039550781, "underrun_samples": 0, "voice_overflows": 0}
+{"status": "running", "ROM_sha256": "6e70c2dc0b4c10a2c9a3aae4f52201ade7a9c652b0e48faa1aa4268b900626d6", "target_loops": 128, "loops_completed": 97, "GBA_seconds_observed": 5906.8267822265625, "underrun_samples": 0, "voice_overflows": 0}
+{"status": "running", "ROM_sha256": "6e70c2dc0b4c10a2c9a3aae4f52201ade7a9c652b0e48faa1aa4268b900626d6", "target_loops": 128, "loops_completed": 98, "GBA_seconds_observed": 5967.100524902344, "underrun_samples": 0, "voice_overflows": 0}
+{"status": "running", "ROM_sha256": "6e70c2dc0b4c10a2c9a3aae4f52201ade7a9c652b0e48faa1aa4268b900626d6", "target_loops": 128, "loops_completed": 99, "GBA_seconds_observed": 6027.374267578125, "underrun_samples": 0, "voice_overflows": 0}
+{"status": "running", "ROM_sha256": "6e70c2dc0b4c10a2c9a3aae4f52201ade7a9c652b0e48faa1aa4268b900626d6", "target_loops": 128, "loops_completed": 100, "GBA_seconds_observed": 6087.648010253906, "underrun_samples": 0, "voice_overflows": 0}
+{"status": "running", "ROM_sha256": "6e70c2dc0b4c10a2c9a3aae4f52201ade7a9c652b0e48faa1aa4268b900626d6", "target_loops": 128, "loops_completed": 101, "GBA_seconds_observed": 6147.9217529296875, "underrun_samples": 0, "voice_overflows": 0}
+{"status": "running", "ROM_sha256": "6e70c2dc0b4c10a2c9a3aae4f52201ade7a9c652b0e48faa1aa4268b900626d6", "target_loops": 128, "loops_completed": 102, "GBA_seconds_observed": 6208.195495605469, "underrun_samples": 0, "voice_overflows": 0}
+{"status": "running", "ROM_sha256": "6e70c2dc0b4c10a2c9a3aae4f52201ade7a9c652b0e48faa1aa4268b900626d6", "target_loops": 128, "loops_completed": 103, "GBA_seconds_observed": 6268.46923828125, "underrun_samples": 0, "voice_overflows": 0}
+{"status": "running", "ROM_sha256": "6e70c2dc0b4c10a2c9a3aae4f52201ade7a9c652b0e48faa1aa4268b900626d6", "target_loops": 128, "loops_completed": 104, "GBA_seconds_observed": 6328.742980957031, "underrun_samples": 0, "voice_overflows": 0}
+{"status": "running", "ROM_sha256": "6e70c2dc0b4c10a2c9a3aae4f52201ade7a9c652b0e48faa1aa4268b900626d6", "target_loops": 128, "loops_completed": 105, "GBA_seconds_observed": 6389.0167236328125, "underrun_samples": 0, "voice_overflows": 0}
+{"status": "running", "ROM_sha256": "6e70c2dc0b4c10a2c9a3aae4f52201ade7a9c652b0e48faa1aa4268b900626d6", "target_loops": 128, "loops_completed": 106, "GBA_seconds_observed": 6449.290466308594, "underrun_samples": 0, "voice_overflows": 0}
+{"status": "running", "ROM_sha256": "6e70c2dc0b4c10a2c9a3aae4f52201ade7a9c652b0e48faa1aa4268b900626d6", "target_loops": 128, "loops_completed": 107, "GBA_seconds_observed": 6509.564208984375, "underrun_samples": 0, "voice_overflows": 0}
+{"status": "running", "ROM_sha256": "6e70c2dc0b4c10a2c9a3aae4f52201ade7a9c652b0e48faa1aa4268b900626d6", "target_loops": 128, "loops_completed": 108, "GBA_seconds_observed": 6569.837951660156, "underrun_samples": 0, "voice_overflows": 0}
+{"status": "running", "ROM_sha256": "6e70c2dc0b4c10a2c9a3aae4f52201ade7a9c652b0e48faa1aa4268b900626d6", "target_loops": 128, "loops_completed": 109, "GBA_seconds_observed": 6630.1116943359375, "underrun_samples": 0, "voice_overflows": 0}
+{"status": "running", "ROM_sha256": "6e70c2dc0b4c10a2c9a3aae4f52201ade7a9c652b0e48faa1aa4268b900626d6", "target_loops": 128, "loops_completed": 110, "GBA_seconds_observed": 6690.385437011719, "underrun_samples": 0, "voice_overflows": 0}
+{"status": "running", "ROM_sha256": "6e70c2dc0b4c10a2c9a3aae4f52201ade7a9c652b0e48faa1aa4268b900626d6", "target_loops": 128, "loops_completed": 111, "GBA_seconds_observed": 6750.6591796875, "underrun_samples": 0, "voice_overflows": 0}
+{"status": "running", "ROM_sha256": "6e70c2dc0b4c10a2c9a3aae4f52201ade7a9c652b0e48faa1aa4268b900626d6", "target_loops": 128, "loops_completed": 112, "GBA_seconds_observed": 6810.932922363281, "underrun_samples": 0, "voice_overflows": 0}
+{"status": "running", "ROM_sha256": "6e70c2dc0b4c10a2c9a3aae4f52201ade7a9c652b0e48faa1aa4268b900626d6", "target_loops": 128, "loops_completed": 113, "GBA_seconds_observed": 6871.2066650390625, "underrun_samples": 0, "voice_overflows": 0}
+{"status": "running", "ROM_sha256": "6e70c2dc0b4c10a2c9a3aae4f52201ade7a9c652b0e48faa1aa4268b900626d6", "target_loops": 128, "loops_completed": 114, "GBA_seconds_observed": 6931.480407714844, "underrun_samples": 0, "voice_overflows": 0}
+{"status": "running", "ROM_sha256": "6e70c2dc0b4c10a2c9a3aae4f52201ade7a9c652b0e48faa1aa4268b900626d6", "target_loops": 128, "loops_completed": 115, "GBA_seconds_observed": 6991.754150390625, "underrun_samples": 0, "voice_overflows": 0}
+{"status": "running", "ROM_sha256": "6e70c2dc0b4c10a2c9a3aae4f52201ade7a9c652b0e48faa1aa4268b900626d6", "target_loops": 128, "loops_completed": 116, "GBA_seconds_observed": 7052.027893066406, "underrun_samples": 0, "voice_overflows": 0}
+{"status": "running", "ROM_sha256": "6e70c2dc0b4c10a2c9a3aae4f52201ade7a9c652b0e48faa1aa4268b900626d6", "target_loops": 128, "loops_completed": 117, "GBA_seconds_observed": 7112.3016357421875, "underrun_samples": 0, "voice_overflows": 0}
+{"status": "running", "ROM_sha256": "6e70c2dc0b4c10a2c9a3aae4f52201ade7a9c652b0e48faa1aa4268b900626d6", "target_loops": 128, "loops_completed": 118, "GBA_seconds_observed": 7172.575378417969, "underrun_samples": 0, "voice_overflows": 0}
+{"status": "running", "ROM_sha256": "6e70c2dc0b4c10a2c9a3aae4f52201ade7a9c652b0e48faa1aa4268b900626d6", "target_loops": 128, "loops_completed": 119, "GBA_seconds_observed": 7232.84912109375, "underrun_samples": 0, "voice_overflows": 0}
+{"status": "running", "ROM_sha256": "6e70c2dc0b4c10a2c9a3aae4f52201ade7a9c652b0e48faa1aa4268b900626d6", "target_loops": 128, "loops_completed": 120, "GBA_seconds_observed": 7293.122863769531, "underrun_samples": 0, "voice_overflows": 0}
+{"status": "running", "ROM_sha256": "6e70c2dc0b4c10a2c9a3aae4f52201ade7a9c652b0e48faa1aa4268b900626d6", "target_loops": 128, "loops_completed": 121, "GBA_seconds_observed": 7353.3966064453125, "underrun_samples": 0, "voice_overflows": 0}
+{"status": "running", "ROM_sha256": "6e70c2dc0b4c10a2c9a3aae4f52201ade7a9c652b0e48faa1aa4268b900626d6", "target_loops": 128, "loops_completed": 122, "GBA_seconds_observed": 7413.670349121094, "underrun_samples": 0, "voice_overflows": 0}
+{"status": "running", "ROM_sha256": "6e70c2dc0b4c10a2c9a3aae4f52201ade7a9c652b0e48faa1aa4268b900626d6", "target_loops": 128, "loops_completed": 123, "GBA_seconds_observed": 7473.944091796875, "underrun_samples": 0, "voice_overflows": 0}
+{"status": "running", "ROM_sha256": "6e70c2dc0b4c10a2c9a3aae4f52201ade7a9c652b0e48faa1aa4268b900626d6", "target_loops": 128, "loops_completed": 124, "GBA_seconds_observed": 7534.217834472656, "underrun_samples": 0, "voice_overflows": 0}
+{"status": "running", "ROM_sha256": "6e70c2dc0b4c10a2c9a3aae4f52201ade7a9c652b0e48faa1aa4268b900626d6", "target_loops": 128, "loops_completed": 125, "GBA_seconds_observed": 7594.4915771484375, "underrun_samples": 0, "voice_overflows": 0}
+{"status": "running", "ROM_sha256": "6e70c2dc0b4c10a2c9a3aae4f52201ade7a9c652b0e48faa1aa4268b900626d6", "target_loops": 128, "loops_completed": 126, "GBA_seconds_observed": 7654.765319824219, "underrun_samples": 0, "voice_overflows": 0}
+{"status": "running", "ROM_sha256": "6e70c2dc0b4c10a2c9a3aae4f52201ade7a9c652b0e48faa1aa4268b900626d6", "target_loops": 128, "loops_completed": 127, "GBA_seconds_observed": 7715.0390625, "underrun_samples": 0, "voice_overflows": 0}
+{
+  "status": "pass",
+  "ROM_sha256": "6e70c2dc0b4c10a2c9a3aae4f52201ade7a9c652b0e48faa1aa4268b900626d6",
+  "target_loops": 128,
+  "loops_observed": 128,
+  "voice_overflows": 0,
+  "scope": "Real title-menu selection of INT03 in appreciation timbre, from source zero through the declared loops, actual visible seven-track list and playback timer. First60 observer frames excluded from underrun accounting only.",
+  "underruns_after_startup": 0,
+  "observed_GBA_seconds": 7760.244369506836,
+  "source_clock_ratio": 1.000000096347567,
+  "UI_metrics": [
+    1,
+    19,
+    151,
+    7810,
+    1
+  ],
+  "input_response": [
+    {
+      "action": "music_list_down",
+      "samples": 3,
+      "response_ms_min": 50.228118896484375,
+      "response_ms_max": 50.228118896484375,
+      "response_ms_mean": 50.228118896484375,
+      "black_frames": 0,
+      "intermediate_LCD_frames": 0
+    },
+    {
+      "action": "music_list_up",
+      "samples": 3,
+      "response_ms_min": 50.228118896484375,
+      "response_ms_max": 50.228118896484375,
+      "response_ms_mean": 50.228118896484375,
+      "black_frames": 0,
+      "intermediate_LCD_frames": 0
+    }
+  ],
+  "host_seconds": 607.5074244870011,
+  "hardware": "not_run"
+}

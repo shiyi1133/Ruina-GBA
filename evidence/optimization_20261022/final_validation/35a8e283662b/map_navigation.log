@@ -1,0 +1,287 @@
+{
+  "status": "pass",
+  "rom_sha256": "35a8e283662be7a779e92149f77f7aab866bca22b07a583f4a6179849130abdc",
+  "checks": {
+    "available_entrance_shown_without_pressing_LR": true,
+    "browse_does_not_move_party": true,
+    "camera_moves_in_four_directions": true,
+    "arrows_lit_or_gray_follow_boundaries": true,
+    "selection_blinks_as_hardware_sprite": true,
+    "idle_blink_has_no_background_upload": true,
+    "marked_entrance_can_be_investigated": true
+  },
+  "observations": [
+    {
+      "name": "entrance_marked_on_load",
+      "camera": [
+        80,
+        80
+      ],
+      "metrics": [
+        600,
+        38400,
+        4,
+        0,
+        2,
+        0,
+        128,
+        0
+      ],
+      "arrows": [
+        [
+          8194,
+          116,
+          768
+        ],
+        [
+          8268,
+          230,
+          774
+        ],
+        [
+          8342,
+          116,
+          778
+        ],
+        [
+          8268,
+          2,
+          780
+        ]
+      ],
+      "arrow_tiles_match_bounds": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "name": "pan_up",
+      "camera": [
+        80,
+        32
+      ],
+      "metrics": [
+        780,
+        49920,
+        10,
+        0,
+        2,
+        0,
+        128,
+        0
+      ],
+      "arrows": [
+        [
+          8194,
+          116,
+          768
+        ],
+        [
+          8268,
+          230,
+          774
+        ],
+        [
+          8342,
+          116,
+          776
+        ],
+        [
+          8268,
+          2,
+          780
+        ]
+      ],
+      "arrow_tiles_match_bounds": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "name": "top_left_boundary",
+      "camera": [
+        32,
+        32
+      ],
+      "metrics": [
+        900,
+        57600,
+        14,
+        0,
+        2,
+        0,
+        128,
+        0
+      ],
+      "arrows": [
+        [
+          8194,
+          116,
+          768
+        ],
+        [
+          8268,
+          230,
+          772
+        ],
+        [
+          8342,
+          116,
+          776
+        ],
+        [
+          8268,
+          2,
+          780
+        ]
+      ],
+      "arrow_tiles_match_bounds": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "name": "bottom_left_boundary",
+      "camera": [
+        32,
+        80
+      ],
+      "metrics": [
+        1080,
+        69120,
+        18,
+        0,
+        2,
+        0,
+        128,
+        96
+      ],
+      "arrows": [
+        [
+          8194,
+          116,
+          768
+        ],
+        [
+          8268,
+          230,
+          772
+        ],
+        [
+          8342,
+          116,
+          778
+        ],
+        [
+          8268,
+          2,
+          780
+        ]
+      ],
+      "arrow_tiles_match_bounds": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "name": "bottom_right_boundary",
+      "camera": [
+        80,
+        80
+      ],
+      "metrics": [
+        1200,
+        76800,
+        22,
+        0,
+        2,
+        0,
+        128,
+        132
+      ],
+      "arrows": [
+        [
+          8194,
+          116,
+          768
+        ],
+        [
+          8268,
+          230,
+          774
+        ],
+        [
+          8342,
+          116,
+          778
+        ],
+        [
+          8268,
+          2,
+          780
+        ]
+      ],
+      "arrow_tiles_match_bounds": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "name": "selection_blink_without_background_repaint",
+      "camera": [
+        80,
+        80
+      ],
+      "metrics": [
+        1200,
+        76800,
+        24,
+        0,
+        2,
+        0,
+        128,
+        132
+      ],
+      "arrows": [
+        [
+          8194,
+          116,
+          768
+        ],
+        [
+          8268,
+          230,
+          774
+        ],
+        [
+          8342,
+          116,
+          778
+        ],
+        [
+          8268,
+          2,
+          780
+        ]
+      ],
+      "arrow_tiles_match_bounds": [
+        true,
+        true,
+        true,
+        true
+      ]
+    }
+  ],
+  "input": "actual emulated buttons; ordinary save, no memory/register writes or instant states",
+  "hardware": "not_run"
+}

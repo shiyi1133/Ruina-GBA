@@ -1,0 +1,22 @@
+{
+  "status": "compiled_not_tested",
+  "ROM": "/mnt/d/gba_hack/废都物语_GBA章节样版/build/fixtures/balanced_runtime/balanced_runtime.gba",
+  "ELF": "/mnt/d/gba_hack/废都物语_GBA章节样版/build/fixtures/balanced_runtime/balanced_runtime.elf",
+  "sha256": "7b7435c1ea5b01093c0dd9600fb3429d83b73045bb9a41ef3089fdb1fda3d253",
+  "bytes": 33391220,
+  "baseline_sha256": "1db4e8b86af4cc3b4e71abdc983f9a8e5a2c84eb5784738258912a75750e1561",
+  "scope": "playable existing port, native hardware-tile maps and direct-color bitmap UI",
+  "source_sha256": {
+    "experiments/balanced_runtime/adapter.c": "8aafec8a2769ae4ba514ffd5eaa331c3868b0ba666db9e1e6e954c4a8f324cc2",
+    "experiments/balanced_runtime/balanced.h": "9211f573968b950bea91deca70d9ca7526b224fec93192460b9a5b4ee278d870",
+    "experiments/balanced_runtime/dialog.c": "6564f897f0ed014f93046df1766534796574eca1652189d2d7ad6619832d5709",
+    "experiments/balanced_runtime/event_input.c": "cdcb91de9201249bcd04dbfd4525b01cbf000b674c5e4283b4054546e8792f77",
+    "experiments/balanced_runtime/main.c": "46340daf4aa0db4fcd149467b274a24b1e3a9244b21b794aec8ab6e17adecce7",
+    "experiments/balanced_runtime/pictures.c": "24c2602143defdd64a055613e2375de3a95da6370a581ff82d95c56d5545b6bd",
+    "experiments/balanced_runtime/rgb_surface.inc": "1b63234128af5bd8d328ff33a89825d2eb943a5357223bdf399e30eac8372758",
+    "experiments/balanced_runtime/save.c": "f1250457e8e29975125bb4e0a9f4bf6ea3bd322558697d91d5b4fb3c462b6296",
+    "experiments/balanced_runtime/title_asset.json": "8cf05239b48da1881e8ad0a50624b86d4b7b97bc447cd8ba8ae46534199f5e28",
+    "experiments/balanced_runtime/title_rgb555.h": "0b4edd8083729e12f283692d92bf6fad9fe4bee886b0eb2dbbb9068769c90e14",
+    "experiments/balanced_runtime/video.c": "f16b0915f22bdf850283d161256622a8d2a87f428de1ffda28584669f300fb34"
+  }
+}

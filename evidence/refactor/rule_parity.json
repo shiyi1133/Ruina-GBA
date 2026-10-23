@@ -1,0 +1,29 @@
+{
+  "status": "pass",
+  "kind": "host differential rule checks against extracted pinned upstream functions",
+  "engine_profile": {
+    "rpg2k": true,
+    "major_updated": true,
+    "english": false
+  },
+  "checks": {
+    "rm2k_exp": 153,
+    "rm2k_normal_base": 7992,
+    "rm2k_skill_base": 12000,
+    "rm2k_skill_cost": 2000,
+    "rm2k_defend": 4400,
+    "rm2k_variance": 182,
+    "rm2k_variable_op": 5150
+  },
+  "total": 31877,
+  "upstream_lock_sha256": "13cece7011923ce56fe382c195297f517453a7085593d430f4e65c74d72498da",
+  "native_source_sha256": "5aae18f0f613d9d629000ef444332b4c1d54f4a649d53a6596f70a8a1f1c34d8",
+  "original_RPG_RT_execution": "not_run",
+  "gba_gameplay": "separate acceptance reports",
+  "not_covered": [
+    "complete attribute/state rules",
+    "enemy AI",
+    "battle events",
+    "all original engine behaviours"
+  ]
+}

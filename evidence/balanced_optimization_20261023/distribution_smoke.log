@@ -1,0 +1,28 @@
+{
+  "status": "pass",
+  "production_ROM_sha256": "6e70c2dc0b4c10a2c9a3aae4f52201ade7a9c652b0e48faa1aa4268b900626d6",
+  "actual_demo_ZIP_sha256": "fcd3d031f6726809cf729eb100a96c034ca8b092c01ed9327afffffc3c1d22bb",
+  "ZIP_CRC": "pass",
+  "ROM_count": 1,
+  "same_name_SAV_shipped": false,
+  "actual_renamed_ROM_used": "/tmp/ruina-v07-delivery-check-hryxkcmr/废都物语_GBA_v0.7_均衡画质可玩版_20261023/废都物语_GBA_v0.7_均衡画质可玩版.gba",
+  "new_game_to_first_map": true,
+  "ordinary_saved_game_bytes_exact": 39704,
+  "new_process_cold_load": {
+    "full_state_checksum_at_load_matches": true,
+    "state_bytes_at_load": 39704,
+    "player_progress_after_background_events_resume_matches": true,
+    "compared_after_resume": [
+      "map",
+      "gold",
+      "inventory",
+      "party and party actor records",
+      "origin, SP, story phase"
+    ],
+    "all_bytes_after_resuming_background_events": "not required: original parallel events legitimately update scratch state"
+  },
+  "emulator_states_or_memory_writes": false,
+  "host_seconds": 3.044242698999369,
+  "physical_hardware": "not_run",
+  "full_campaign": "not_run"
+}

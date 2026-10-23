@@ -1,0 +1,36 @@
+{"stage": 2, "hardware_frames_observed": 145, "unexpected_frames": []}
+{"stage": 3, "hardware_frames_observed": 101, "unexpected_frames": []}
+{"stage": 4, "hardware_frames_observed": 48, "unexpected_frames": []}
+{"stage": 5, "hardware_frames_observed": 73, "unexpected_frames": []}
+{"stage": 6, "hardware_frames_observed": 127, "unexpected_frames": []}
+{"stage": 7, "hardware_frames_observed": 47, "unexpected_frames": []}
+{
+  "status": "fail",
+  "production_rom_sha256": "aacd14f06295efb73795841662bc71b350759a567eea89eec81f97761a9fccc0",
+  "fixture_sha256": "82630ec70ef2dcc690d631873cb1e3af738d6796a6a13e892fba41d48d215766",
+  "scope": "controlled actual GBA, 23 simultaneous original poses changed six times, dense original INT03 score and four original effects; every intermediate LCD frame observed",
+  "checks": {
+    "no_pixels_from_overwritten_visible_textures": true,
+    "no_audio_underruns_after_priming": false,
+    "all_native_commits_within_VBlank": true
+  },
+  "audio_underruns_after_priming": 784,
+  "native_commit_metrics": [
+    0,
+    48,
+    7
+  ],
+  "deferred_texture_metrics": [
+    132,
+    22
+  ],
+  "physical_hardware": "not_run"
+}
+Traceback (most recent call last):
+  File "/mnt/d/gba_hack/废都物语_GBA章节样版/tools/check_dense_actor_transition.py", line 44, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/mnt/d/gba_hack/废都物语_GBA章节样版/tools/check_dense_actor_transition.py", line 42, in main
+    result={'status':'pass'if all(checks.values())else'fail','production_rom_sha256':digest,'fixture_sha256':hashlib.sha256(rom.read_bytes()).hexdigest(),'scope':'controlled actual GBA, 23 simultaneous original poses changed six times, dense original INT03 score and four original effects; every intermediate LCD frame observed','checks':checks,'audio_underruns_after_priming':audio[0]-d[1],'native_commit_metrics':commit,'deferred_texture_metrics':deferred,'transitions':rows,'physical_hardware':'not_run','commands':e.log};(out/'result.json').write_text(json.dumps(result,ensure_ascii=False,indent=2));(out.parent/'latest_attempt.json').write_text(json.dumps({'status':result['status'],'report':str((out/'result.json').relative_to(ROOT))},ensure_ascii=False,indent=2));print(json.dumps({k:v for k,v in result.items()if k not in('commands','transitions')},ensure_ascii=False,indent=2));assert result['status']=='pass',checks
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              ^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: {'no_pixels_from_overwritten_visible_textures': True, 'no_audio_underruns_after_priming': False, 'all_native_commits_within_VBlank': True}

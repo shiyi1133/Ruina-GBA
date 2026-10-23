@@ -1,0 +1,37 @@
+{
+  "status": "fail",
+  "kind": "actual emulated GBA, selected score INT03 near its host-observed polyphony peak, both simplified timbre modes",
+  "production_rom_sha256": "418d4cccf5687740bd42f4f475bb1ec30fdb369da1d7876406a42f4243498f2a",
+  "fixture_sha256": "39e09a6a66137e81c682a62fc9b9ed0e0e8ec554245ef1de35bb7ab3c3766949",
+  "source_bank_sha256": "c2e794c7065cd2dd311d2fd97d199db2331c41fb00c01964a25e47ba82ab0961",
+  "cases": [
+    {
+      "name": "INT03",
+      "track_id": 240,
+      "quality": 0,
+      "seek_source_frame": 671744,
+      "host_peak_voices": 109,
+      "GBA_peak_voices": 109,
+      "underruns_during_capture": 0,
+      "source_clock_ratio": 0.9999949368370421,
+      "voice_overflows": 0,
+      "captured_RMS": 2789.526550258116,
+      "status": "pass"
+    },
+    {
+      "name": "INT03",
+      "track_id": 240,
+      "quality": 1,
+      "seek_source_frame": 671744,
+      "host_peak_voices": 111,
+      "GBA_peak_voices": 111,
+      "underruns_during_capture": 944,
+      "source_clock_ratio": 0.9808764335080125,
+      "voice_overflows": 0,
+      "captured_RMS": 2860.729110458015,
+      "status": "fail"
+    }
+  ],
+  "scope": "three seconds per case after warmup; complete score/loops checked on host separately",
+  "physical_hardware": "not_run"
+}

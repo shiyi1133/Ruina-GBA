@@ -1,0 +1,9 @@
+{
+  "status": "running",
+  "ROM_sha256": "2dc6246fba1ea99eec94a4a49449f6ee01988c4cb8c334d3324edf78ef65167c",
+  "target_loops": 128,
+  "loops_completed": 89,
+  "GBA_seconds_observed": 5424.6368408203125,
+  "underrun_samples": 0,
+  "voice_overflows": 0
+}

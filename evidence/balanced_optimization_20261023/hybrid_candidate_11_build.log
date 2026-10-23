@@ -1,0 +1,27 @@
+{
+  "status": "compiled_not_tested",
+  "ROM": "/mnt/d/gba_hack/废都物语_GBA章节样版/build/fixtures/balanced_runtime/balanced_runtime.gba",
+  "ELF": "/mnt/d/gba_hack/废都物语_GBA章节样版/build/fixtures/balanced_runtime/balanced_runtime.elf",
+  "sha256": "42e331d076155f891c77ea26479094e8edc149b623698eff0e86da9166f83b3c",
+  "bytes": 33396960,
+  "baseline_sha256": "1db4e8b86af4cc3b4e71abdc983f9a8e5a2c84eb5784738258912a75750e1561",
+  "scope": "playable existing port, native hardware-tile maps and direct-color bitmap UI",
+  "source_sha256": {
+    "experiments/balanced_runtime/adapter.c": "3e41786231db934e67aa9ecf29195938c7092dbadf4aec1c270941661af69e7c",
+    "experiments/balanced_runtime/balanced.h": "f2183a6029919466a82b1c1c6e716d3bbc2c543912025f9938affefa287d2b11",
+    "experiments/balanced_runtime/battle.c": "c257f6099cade6b1925363d8f6f884a8a758589756465e6a29d24fac4c16252e",
+    "experiments/balanced_runtime/dialog.c": "5fc49954bbb2fb073afc6094af9930e659387619448155d380ab4d4c7d25b758",
+    "experiments/balanced_runtime/event_input.c": "cdcb91de9201249bcd04dbfd4525b01cbf000b674c5e4283b4054546e8792f77",
+    "experiments/balanced_runtime/main.c": "46340daf4aa0db4fcd149467b274a24b1e3a9244b21b794aec8ab6e17adecce7",
+    "experiments/balanced_runtime/map_hints.h": "aa48aaf1c2fd175aded5339681bb16e44cb8ca9301b0c9aea2d09cbbb783d7a7",
+    "experiments/balanced_runtime/map_hint_asset.json": "cfec67245f51c722518805a76fa678db5408649d668ae2a5c589cc2e4e2684d2",
+    "experiments/balanced_runtime/native_ui.inc": "d88ada2ef3ef96640df80fb57209218a66deb40b9504679365cbf28d9f4f7c14",
+    "experiments/balanced_runtime/pictures.c": "24c2602143defdd64a055613e2375de3a95da6370a581ff82d95c56d5545b6bd",
+    "experiments/balanced_runtime/rgb_surface.inc": "70c08c479bc1f7bc33df897e1833740c00cb92082422588ef354607187e2dd0f",
+    "experiments/balanced_runtime/save.c": "f1250457e8e29975125bb4e0a9f4bf6ea3bd322558697d91d5b4fb3c462b6296",
+    "experiments/balanced_runtime/title_asset.json": "8cf05239b48da1881e8ad0a50624b86d4b7b97bc447cd8ba8ae46534199f5e28",
+    "experiments/balanced_runtime/title_rgb555.h": "0b4edd8083729e12f283692d92bf6fad9fe4bee886b0eb2dbbb9068769c90e14",
+    "experiments/balanced_runtime/video.c": "c7be63a7b4b8af20e93553da903cf0dc30e090cb84aa42ce6e640b1ba41db550",
+    "experiments/balanced_runtime/world.c": "e3f2652b9b38e343eb1c290903a065af72a1425e7d50e7ee74910ce8f32d3627"
+  }
+}

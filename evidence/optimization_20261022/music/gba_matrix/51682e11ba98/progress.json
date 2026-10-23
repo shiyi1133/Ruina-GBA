@@ -1,0 +1,28 @@
+[
+  {
+    "name": "INT03",
+    "track_id": 240,
+    "quality": 0,
+    "seek_source_frame": 671744,
+    "host_peak_voices": 109,
+    "GBA_peak_voices": 109,
+    "underruns_during_capture": 0,
+    "source_clock_ratio": 0.9999949368370421,
+    "voice_overflows": 0,
+    "captured_RMS": 2752.444288843753,
+    "status": "pass"
+  },
+  {
+    "name": "INT03",
+    "track_id": 240,
+    "quality": 1,
+    "seek_source_frame": 671744,
+    "host_peak_voices": 111,
+    "GBA_peak_voices": 111,
+    "underruns_during_capture": 864,
+    "source_clock_ratio": 0.9824966456545404,
+    "voice_overflows": 0,
+    "captured_RMS": 2703.6609787970096,
+    "status": "fail"
+  }
+]

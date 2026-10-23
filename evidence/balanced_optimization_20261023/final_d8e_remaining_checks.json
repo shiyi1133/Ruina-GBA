@@ -1,0 +1,69 @@
+{
+  "status": "pass",
+  "ROM_sha256": "d8e63ad23769ed03f990420723b3c042f3e147b23565e2c23f4c0f67bbe1e780",
+  "checks": [
+    {
+      "command": [
+        "tools/check_shop_comparison.py"
+      ],
+      "status": "pass",
+      "host_seconds": 13.522737690000213
+    },
+    {
+      "command": [
+        "tools/check_inventory_matrix.py"
+      ],
+      "status": "pass",
+      "host_seconds": 43.88640848900104
+    },
+    {
+      "command": [
+        "tools/check_balanced_playable.py",
+        "--origin",
+        "1"
+      ],
+      "status": "pass",
+      "host_seconds": 2.3867051179986447
+    },
+    {
+      "command": [
+        "tools/check_balanced_playable.py",
+        "--origin",
+        "2"
+      ],
+      "status": "pass",
+      "host_seconds": 2.4435566410011234
+    },
+    {
+      "command": [
+        "tools/check_balanced_playable.py",
+        "--origin",
+        "3"
+      ],
+      "status": "pass",
+      "host_seconds": 2.345112416998745
+    },
+    {
+      "command": [
+        "tools/check_balanced_playable.py",
+        "--origin",
+        "4"
+      ],
+      "status": "pass",
+      "host_seconds": 2.546360074999029
+    },
+    {
+      "command": [
+        "tools/measure_balanced_response.py",
+        "--rom",
+        "/mnt/d/gba_hack/废都物语_GBA章节样版/build/废都物语_GBA_开篇开发验证版.gba",
+        "--elf",
+        "/mnt/d/gba_hack/废都物语_GBA章节样版/build/ruina_opening_dev.elf",
+        "--label",
+        "final_balance"
+      ],
+      "status": "pass",
+      "host_seconds": 7.124062030999994
+    }
+  ]
+}

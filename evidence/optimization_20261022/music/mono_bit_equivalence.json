@@ -1,0 +1,1299 @@
+{
+  "status": "pass",
+  "kind": "host optimization parity using all 99 original scores; not original timbre or GBA timing acceptance",
+  "tracks": [
+    {
+      "name": "scene19",
+      "status": "bit-identical",
+      "qualities": [
+        0,
+        1
+      ],
+      "source_positions": [
+        0,
+        1049941,
+        3149624
+      ]
+    },
+    {
+      "name": "ダンジョン4",
+      "status": "bit-identical",
+      "qualities": [
+        0,
+        1
+      ],
+      "source_positions": [
+        0,
+        768780,
+        2306142
+      ]
+    },
+    {
+      "name": "町1",
+      "status": "bit-identical",
+      "qualities": [
+        0,
+        1
+      ],
+      "source_positions": [
+        0,
+        774389,
+        2322969
+      ]
+    },
+    {
+      "name": "Tale",
+      "status": "bit-identical",
+      "qualities": [
+        0,
+        1
+      ],
+      "source_positions": [
+        0,
+        403592,
+        1210577
+      ]
+    },
+    {
+      "name": "battle10",
+      "status": "bit-identical",
+      "qualities": [
+        0,
+        1
+      ],
+      "source_positions": [
+        0,
+        396323,
+        1188770
+      ]
+    },
+    {
+      "name": "boss12",
+      "status": "bit-identical",
+      "qualities": [
+        0,
+        1
+      ],
+      "source_positions": [
+        0,
+        410965,
+        1232696
+      ]
+    },
+    {
+      "name": "J戦闘終了1",
+      "status": "bit-identical",
+      "qualities": [
+        0,
+        1
+      ],
+      "source_positions": [
+        0,
+        23177,
+        69333
+      ]
+    },
+    {
+      "name": "ゲームオーバー3",
+      "status": "bit-identical",
+      "qualities": [
+        0,
+        1
+      ],
+      "source_positions": [
+        0,
+        333015,
+        998847
+      ]
+    },
+    {
+      "name": "J宿2",
+      "status": "bit-identical",
+      "qualities": [
+        0,
+        1
+      ],
+      "source_positions": [
+        0,
+        33417,
+        100053
+      ]
+    },
+    {
+      "name": "安らぎ3",
+      "status": "bit-identical",
+      "qualities": [
+        0,
+        1
+      ],
+      "source_positions": [
+        0,
+        273066,
+        819000
+      ]
+    },
+    {
+      "name": "店2",
+      "status": "bit-identical",
+      "qualities": [
+        0,
+        1
+      ],
+      "source_positions": [
+        0,
+        336341,
+        1008825
+      ]
+    },
+    {
+      "name": "船1",
+      "status": "bit-identical",
+      "qualities": [
+        0,
+        1
+      ],
+      "source_positions": [
+        0,
+        713610,
+        2140631
+      ]
+    },
+    {
+      "name": "船2",
+      "status": "bit-identical",
+      "qualities": [
+        0,
+        1
+      ],
+      "source_positions": [
+        0,
+        365909,
+        1097528
+      ]
+    },
+    {
+      "name": "乗り物1",
+      "status": "bit-identical",
+      "qualities": [
+        0,
+        1
+      ],
+      "source_positions": [
+        0,
+        660373,
+        1980920
+      ]
+    },
+    {
+      "name": "boss05",
+      "status": "bit-identical",
+      "qualities": [
+        0,
+        1
+      ],
+      "source_positions": [
+        0,
+        487292,
+        1461678
+      ]
+    },
+    {
+      "name": "1stEnemy",
+      "status": "bit-identical",
+      "qualities": [
+        0,
+        1
+      ],
+      "source_positions": [
+        0,
+        1593606,
+        4780618
+      ]
+    },
+    {
+      "name": "2bfree",
+      "status": "bit-identical",
+      "qualities": [
+        0,
+        1
+      ],
+      "source_positions": [
+        0,
+        992580,
+        2977542
+      ]
+    },
+    {
+      "name": "DS-ba02",
+      "status": "bit-identical",
+      "qualities": [
+        0,
+        1
+      ],
+      "source_positions": [
+        0,
+        615044,
+        1844933
+      ]
+    },
+    {
+      "name": "DS-ba03",
+      "status": "bit-identical",
+      "qualities": [
+        0,
+        1
+      ],
+      "source_positions": [
+        0,
+        295709,
+        886928
+      ]
+    },
+    {
+      "name": "DS-ba05",
+      "status": "bit-identical",
+      "qualities": [
+        0,
+        1
+      ],
+      "source_positions": [
+        0,
+        338493,
+        1015280
+      ]
+    },
+    {
+      "name": "FTALE_TY",
+      "status": "bit-identical",
+      "qualities": [
+        0,
+        1
+      ],
+      "source_positions": [
+        0,
+        642990,
+        1928770
+      ]
+    },
+    {
+      "name": "INT03",
+      "status": "bit-identical",
+      "qualities": [
+        0,
+        1
+      ],
+      "source_positions": [
+        0,
+        331175,
+        993325
+      ]
+    },
+    {
+      "name": "Jファンファーレ1",
+      "status": "bit-identical",
+      "qualities": [
+        0,
+        1
+      ],
+      "source_positions": [
+        0,
+        46836,
+        140309
+      ]
+    },
+    {
+      "name": "Jファンファーレ2",
+      "status": "bit-identical",
+      "qualities": [
+        0,
+        1
+      ],
+      "source_positions": [
+        0,
+        56732,
+        169996
+      ]
+    },
+    {
+      "name": "Jファンファーレ3",
+      "status": "bit-identical",
+      "qualities": [
+        0,
+        1
+      ],
+      "source_positions": [
+        0,
+        85355,
+        255865
+      ]
+    },
+    {
+      "name": "Jファンファーレ6",
+      "status": "bit-identical",
+      "qualities": [
+        0,
+        1
+      ],
+      "source_positions": [
+        0,
+        51385,
+        153957
+      ]
+    },
+    {
+      "name": "LordofPit",
+      "status": "bit-identical",
+      "qualities": [
+        0,
+        1
+      ],
+      "source_positions": [
+        0,
+        659729,
+        1978987
+      ]
+    },
+    {
+      "name": "SLG_Engi",
+      "status": "bit-identical",
+      "qualities": [
+        0,
+        1
+      ],
+      "source_positions": [
+        0,
+        1792595,
+        5377585
+      ]
+    },
+    {
+      "name": "TRACK_3",
+      "status": "bit-identical",
+      "qualities": [
+        0,
+        1
+      ],
+      "source_positions": [
+        0,
+        514419,
+        1543058
+      ]
+    },
+    {
+      "name": "TRACK_8",
+      "status": "bit-identical",
+      "qualities": [
+        0,
+        1
+      ],
+      "source_positions": [
+        0,
+        378290,
+        1134670
+      ]
+    },
+    {
+      "name": "battle05a",
+      "status": "bit-identical",
+      "qualities": [
+        0,
+        1
+      ],
+      "source_positions": [
+        0,
+        550382,
+        1650946
+      ]
+    },
+    {
+      "name": "boss10",
+      "status": "bit-identical",
+      "qualities": [
+        0,
+        1
+      ],
+      "source_positions": [
+        0,
+        790216,
+        2370450
+      ]
+    },
+    {
+      "name": "climax",
+      "status": "bit-identical",
+      "qualities": [
+        0,
+        1
+      ],
+      "source_positions": [
+        0,
+        549142,
+        1647227
+      ]
+    },
+    {
+      "name": "explorer",
+      "status": "bit-identical",
+      "qualities": [
+        0,
+        1
+      ],
+      "source_positions": [
+        0,
+        863600,
+        2590601
+      ]
+    },
+    {
+      "name": "f03-In thunder",
+      "status": "bit-identical",
+      "qualities": [
+        0,
+        1
+      ],
+      "source_positions": [
+        0,
+        581632,
+        1744696
+      ]
+    },
+    {
+      "name": "f05-Forest of the hesitation",
+      "status": "bit-identical",
+      "qualities": [
+        0,
+        1
+      ],
+      "source_positions": [
+        0,
+        527018,
+        1580856
+      ]
+    },
+    {
+      "name": "f06-Open-Air fire",
+      "status": "bit-identical",
+      "qualities": [
+        0,
+        1
+      ],
+      "source_positions": [
+        0,
+        363178,
+        1089336
+      ]
+    },
+    {
+      "name": "f07-Incantation which was forgotten",
+      "status": "bit-identical",
+      "qualities": [
+        0,
+        1
+      ],
+      "source_positions": [
+        0,
+        576170,
+        1728312
+      ]
+    },
+    {
+      "name": "f08-Long sword",
+      "status": "bit-identical",
+      "qualities": [
+        0,
+        1
+      ],
+      "source_positions": [
+        0,
+        548864,
+        1646392
+      ]
+    },
+    {
+      "name": "f10-The village of the elf",
+      "status": "bit-identical",
+      "qualities": [
+        0,
+        1
+      ],
+      "source_positions": [
+        0,
+        406869,
+        1220408
+      ]
+    },
+    {
+      "name": "f20-Blade sounds",
+      "status": "bit-identical",
+      "qualities": [
+        0,
+        1
+      ],
+      "source_positions": [
+        0,
+        723626,
+        2170680
+      ]
+    },
+    {
+      "name": "f25-Sky high",
+      "status": "bit-identical",
+      "qualities": [
+        0,
+        1
+      ],
+      "source_positions": [
+        0,
+        559786,
+        1679160
+      ]
+    },
+    {
+      "name": "field1",
+      "status": "bit-identical",
+      "qualities": [
+        0,
+        1
+      ],
+      "source_positions": [
+        0,
+        453383,
+        1359950
+      ]
+    },
+    {
+      "name": "field4",
+      "status": "bit-identical",
+      "qualities": [
+        0,
+        1
+      ],
+      "source_positions": [
+        0,
+        377705,
+        1132917
+      ]
+    },
+    {
+      "name": "field5",
+      "status": "bit-identical",
+      "qualities": [
+        0,
+        1
+      ],
+      "source_positions": [
+        0,
+        468167,
+        1404302
+      ]
+    },
+    {
+      "name": "forgotten-ruin",
+      "status": "bit-identical",
+      "qualities": [
+        0,
+        1
+      ],
+      "source_positions": [
+        0,
+        505369,
+        1515909
+      ]
+    },
+    {
+      "name": "groove01",
+      "status": "bit-identical",
+      "qualities": [
+        0,
+        1
+      ],
+      "source_positions": [
+        0,
+        1563923,
+        4691571
+      ]
+    },
+    {
+      "name": "groove03",
+      "status": "bit-identical",
+      "qualities": [
+        0,
+        1
+      ],
+      "source_positions": [
+        0,
+        1534858,
+        4604375
+      ]
+    },
+    {
+      "name": "main1",
+      "status": "bit-identical",
+      "qualities": [
+        0,
+        1
+      ],
+      "source_positions": [
+        0,
+        659395,
+        1977987
+      ]
+    },
+    {
+      "name": "main3",
+      "status": "bit-identical",
+      "qualities": [
+        0,
+        1
+      ],
+      "source_positions": [
+        0,
+        647817,
+        1943253
+      ]
+    },
+    {
+      "name": "mpanic",
+      "status": "bit-identical",
+      "qualities": [
+        0,
+        1
+      ],
+      "source_positions": [
+        0,
+        961986,
+        2885759
+      ]
+    },
+    {
+      "name": "overture",
+      "status": "bit-identical",
+      "qualities": [
+        0,
+        1
+      ],
+      "source_positions": [
+        0,
+        1124051,
+        3371954
+      ]
+    },
+    {
+      "name": "ruins1",
+      "status": "bit-identical",
+      "qualities": [
+        0,
+        1
+      ],
+      "source_positions": [
+        0,
+        403297,
+        1209692
+      ]
+    },
+    {
+      "name": "sanct",
+      "status": "bit-identical",
+      "qualities": [
+        0,
+        1
+      ],
+      "source_positions": [
+        0,
+        428152,
+        1284256
+      ]
+    },
+    {
+      "name": "scene10",
+      "status": "bit-identical",
+      "qualities": [
+        0,
+        1
+      ],
+      "source_positions": [
+        0,
+        732725,
+        2197975
+      ]
+    },
+    {
+      "name": "shrine2",
+      "status": "bit-identical",
+      "qualities": [
+        0,
+        1
+      ],
+      "source_positions": [
+        0,
+        501153,
+        1503261
+      ]
+    },
+    {
+      "name": "syugekir",
+      "status": "bit-identical",
+      "qualities": [
+        0,
+        1
+      ],
+      "source_positions": [
+        0,
+        776344,
+        2328834
+      ]
+    },
+    {
+      "name": "teikoku",
+      "status": "bit-identical",
+      "qualities": [
+        0,
+        1
+      ],
+      "source_positions": [
+        0,
+        560201,
+        1680405
+      ]
+    },
+    {
+      "name": "tower3",
+      "status": "bit-identical",
+      "qualities": [
+        0,
+        1
+      ],
+      "source_positions": [
+        0,
+        426060,
+        1277981
+      ]
+    },
+    {
+      "name": "town08",
+      "status": "bit-identical",
+      "qualities": [
+        0,
+        1
+      ],
+      "source_positions": [
+        0,
+        602450,
+        1807151
+      ]
+    },
+    {
+      "name": "yomei18_gm",
+      "status": "bit-identical",
+      "qualities": [
+        0,
+        1
+      ],
+      "source_positions": [
+        0,
+        563609,
+        1690628
+      ]
+    },
+    {
+      "name": "エンディング2",
+      "status": "bit-identical",
+      "qualities": [
+        0,
+        1
+      ],
+      "source_positions": [
+        0,
+        622581,
+        1867543
+      ]
+    },
+    {
+      "name": "ゴーストタウン1",
+      "status": "bit-identical",
+      "qualities": [
+        0,
+        1
+      ],
+      "source_positions": [
+        0,
+        617174,
+        1851323
+      ]
+    },
+    {
+      "name": "ダンジョン1",
+      "status": "bit-identical",
+      "qualities": [
+        0,
+        1
+      ],
+      "source_positions": [
+        0,
+        406284,
+        1218654
+      ]
+    },
+    {
+      "name": "ダンジョン5",
+      "status": "bit-identical",
+      "qualities": [
+        0,
+        1
+      ],
+      "source_positions": [
+        0,
+        606208,
+        1818424
+      ]
+    },
+    {
+      "name": "ピンチ",
+      "status": "bit-identical",
+      "qualities": [
+        0,
+        1
+      ],
+      "source_positions": [
+        0,
+        198808,
+        596226
+      ]
+    },
+    {
+      "name": "ボス2",
+      "status": "bit-identical",
+      "qualities": [
+        0,
+        1
+      ],
+      "source_positions": [
+        0,
+        389120,
+        1167160
+      ]
+    },
+    {
+      "name": "ボス4",
+      "status": "bit-identical",
+      "qualities": [
+        0,
+        1
+      ],
+      "source_positions": [
+        0,
+        472727,
+        1417982
+      ]
+    },
+    {
+      "name": "乗り物2",
+      "status": "bit-identical",
+      "qualities": [
+        0,
+        1
+      ],
+      "source_positions": [
+        0,
+        399076,
+        1197028
+      ]
+    },
+    {
+      "name": "別れ2",
+      "status": "bit-identical",
+      "qualities": [
+        0,
+        1
+      ],
+      "source_positions": [
+        0,
+        509367,
+        1527902
+      ]
+    },
+    {
+      "name": "勇者2",
+      "status": "bit-identical",
+      "qualities": [
+        0,
+        1
+      ],
+      "source_positions": [
+        0,
+        207530,
+        622392
+      ]
+    },
+    {
+      "name": "城2",
+      "status": "bit-identical",
+      "qualities": [
+        0,
+        1
+      ],
+      "source_positions": [
+        0,
+        481050,
+        1442951
+      ]
+    },
+    {
+      "name": "妖精1",
+      "status": "bit-identical",
+      "qualities": [
+        0,
+        1
+      ],
+      "source_positions": [
+        0,
+        538847,
+        1616343
+      ]
+    },
+    {
+      "name": "妖精2",
+      "status": "bit-identical",
+      "qualities": [
+        0,
+        1
+      ],
+      "source_positions": [
+        0,
+        359388,
+        1077965
+      ]
+    },
+    {
+      "name": "店1",
+      "status": "bit-identical",
+      "qualities": [
+        0,
+        1
+      ],
+      "source_positions": [
+        0,
+        445644,
+        1336734
+      ]
+    },
+    {
+      "name": "店3",
+      "status": "bit-identical",
+      "qualities": [
+        0,
+        1
+      ],
+      "source_positions": [
+        0,
+        161464,
+        484192
+      ]
+    },
+    {
+      "name": "戦闘1",
+      "status": "bit-identical",
+      "qualities": [
+        0,
+        1
+      ],
+      "source_positions": [
+        0,
+        665414,
+        1996042
+      ]
+    },
+    {
+      "name": "戦闘2",
+      "status": "bit-identical",
+      "qualities": [
+        0,
+        1
+      ],
+      "source_positions": [
+        0,
+        452695,
+        1357886
+      ]
+    },
+    {
+      "name": "探索",
+      "status": "bit-identical",
+      "qualities": [
+        0,
+        1
+      ],
+      "source_positions": [
+        0,
+        278528,
+        835384
+      ]
+    },
+    {
+      "name": "明るい市場",
+      "status": "bit-identical",
+      "qualities": [
+        0,
+        1
+      ],
+      "source_positions": [
+        0,
+        545505,
+        1636315
+      ]
+    },
+    {
+      "name": "村1",
+      "status": "bit-identical",
+      "qualities": [
+        0,
+        1
+      ],
+      "source_positions": [
+        0,
+        647064,
+        1940992
+      ]
+    },
+    {
+      "name": "村3",
+      "status": "bit-identical",
+      "qualities": [
+        0,
+        1
+      ],
+      "source_positions": [
+        0,
+        462454,
+        1387164
+      ]
+    },
+    {
+      "name": "町3",
+      "status": "bit-identical",
+      "qualities": [
+        0,
+        1
+      ],
+      "source_positions": [
+        0,
+        340787,
+        1022161
+      ]
+    },
+    {
+      "name": "神秘2",
+      "status": "bit-identical",
+      "qualities": [
+        0,
+        1
+      ],
+      "source_positions": [
+        0,
+        409556,
+        1228468
+      ]
+    },
+    {
+      "name": "神秘3",
+      "status": "bit-identical",
+      "qualities": [
+        0,
+        1
+      ],
+      "source_positions": [
+        0,
+        540672,
+        1621816
+      ]
+    },
+    {
+      "name": "秘宝",
+      "status": "bit-identical",
+      "qualities": [
+        0,
+        1
+      ],
+      "source_positions": [
+        0,
+        247502,
+        742306
+      ]
+    },
+    {
+      "name": "空落ちる日",
+      "status": "bit-identical",
+      "qualities": [
+        0,
+        1
+      ],
+      "source_positions": [
+        0,
+        1034780,
+        3104142
+      ]
+    },
+    {
+      "name": "試練",
+      "status": "bit-identical",
+      "qualities": [
+        0,
+        1
+      ],
+      "source_positions": [
+        0,
+        359645,
+        1078735
+      ]
+    },
+    {
+      "name": "足長- Across the Street, Cross One's Heart",
+      "status": "bit-identical",
+      "qualities": [
+        0,
+        1
+      ],
+      "source_positions": [
+        0,
+        803416,
+        2410050
+      ]
+    },
+    {
+      "name": "足長e- I'll understand how you feel",
+      "status": "bit-identical",
+      "qualities": [
+        0,
+        1
+      ],
+      "source_positions": [
+        0,
+        571539,
+        1714418
+      ]
+    },
+    {
+      "name": "足長j- Hypocrisy Imprint",
+      "status": "bit-identical",
+      "qualities": [
+        0,
+        1
+      ],
+      "source_positions": [
+        0,
+        25859,
+        77378
+      ]
+    },
+    {
+      "name": "足長j- Ownfault",
+      "status": "bit-identical",
+      "qualities": [
+        0,
+        1
+      ],
+      "source_positions": [
+        0,
+        55159,
+        165278
+      ]
+    },
+    {
+      "name": "闇市",
+      "status": "bit-identical",
+      "qualities": [
+        0,
+        1
+      ],
+      "source_positions": [
+        0,
+        334162,
+        1002287
+      ]
+    },
+    {
+      "name": "魔王",
+      "status": "bit-identical",
+      "qualities": [
+        0,
+        1
+      ],
+      "source_positions": [
+        0,
+        395132,
+        1185198
+      ]
+    },
+    {
+      "name": "魔王魂-1-戦闘36",
+      "status": "bit-identical",
+      "qualities": [
+        0,
+        1
+      ],
+      "source_positions": [
+        0,
+        322032,
+        965898
+      ]
+    },
+    {
+      "name": "魔王魂-2-ボス08",
+      "status": "bit-identical",
+      "qualities": [
+        0,
+        1
+      ],
+      "source_positions": [
+        0,
+        359104,
+        1077113
+      ]
+    },
+    {
+      "name": "魔王魂-2-ラストボス01",
+      "status": "bit-identical",
+      "qualities": [
+        0,
+        1
+      ],
+      "source_positions": [
+        0,
+        994443,
+        2983129
+      ]
+    },
+    {
+      "name": "魔王魂-2-ラストボス02",
+      "status": "bit-identical",
+      "qualities": [
+        0,
+        1
+      ],
+      "source_positions": [
+        0,
+        887466,
+        2662200
+      ]
+    },
+    {
+      "name": "魔王魂-7-ロック09",
+      "status": "bit-identical",
+      "qualities": [
+        0,
+        1
+      ],
+      "source_positions": [
+        0,
+        107588,
+        322564
+      ]
+    }
+  ],
+  "frames_compared": 469260,
+  "sources": {
+    "history/quality_performance_20261022/pre_mono/light_midi.c": "a7d4237e2e1679c56c225effe3a05ce91e001530151aed41454edeeb4bd08262",
+    "runtime/rm2k/light_midi.c": "00f1d90fde94e0e73cca5dd3869932a9a4e442f2721ece44112f9f72c21ca8f4",
+    "tests/light_music_host_stub.c": "f77e14cae79c8f176f83bb8fac43abdf64b2e2342dbd1b11ed17c077d4db7770"
+  }
+}

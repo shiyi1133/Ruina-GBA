@@ -1,0 +1,14 @@
+{
+  "source": "Ruina121/game/Title/廃都タイトル2.xyz",
+  "source_sha256": "c32901a13e4eaaf45b5ce96afff2f41027eee2b3f6c461e83cc763703b24404d",
+  "source_dimensions": [
+    320,
+    240
+  ],
+  "output_dimensions": [
+    240,
+    160
+  ],
+  "method": "aspect-preserving Lanczos, black letterbox, RGB555",
+  "cached_header_sha256": "0b4edd8083729e12f283692d92bf6fad9fe4bee886b0eb2dbbb9068769c90e14"
+}

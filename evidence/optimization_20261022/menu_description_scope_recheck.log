@@ -1,0 +1,7 @@
+checking stack_observation
+{"name": "stack_observation", "status": "pass", "seconds": 3.0621647640000447, "returncode": 0, "log": "evidence/optimization_20261022/final_validation/2416a8e950d7/stack_observation.log"}
+{
+  "status": "pass",
+  "tests": 34,
+  "rom_sha256": "2416a8e950d764c790dd55a309d615de4c0dc9420fa791e6b9cd3535fab8824f"
+}

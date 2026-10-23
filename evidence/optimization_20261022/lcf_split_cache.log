@@ -1,0 +1,17 @@
+{
+  "status": "pass",
+  "kind": "immutable original LCF data, cached versus uncached parser, including repeated hits, alternate reader bases and truncated bounds",
+  "checks": {
+    "field_reads": 861746,
+    "entry_reads": 99468,
+    "offset_equivalent_readers": 16578,
+    "truncated_reads": 624279,
+    "files": 73,
+    "command_reads": 1572330,
+    "command_streams": 8871
+  },
+  "source_sha256": "f37386601c67e0f5c5f23de286c933a0472409c0871e54c7c64abda703b9222d",
+  "original_pack_sha256": "03042b9da41392bf8a9766cd9820184ebaaf8bb510fa8aea98a8e93159cc37e1",
+  "mutable_RAM": "excluded from cache in production",
+  "gameplay": "separate GBA spot checks required"
+}

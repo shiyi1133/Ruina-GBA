@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "/mnt/d/gba_hack/废都物语_GBA章节样版/tools/check_balanced_playable.py", line 40, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/mnt/d/gba_hack/废都物语_GBA章节样版/tools/check_balanced_playable.py", line 10, in main
+    rom=Path(args.rom).resolve()if args.rom else ROOT/'build/废都物语_GBA_开篇开发验证版.gba';elf=Path(args.elf).resolve()if args.elf else ROOT/'build/ruina_opening_dev.elf';b={'sha256':hashlib.sha256(rom.read_bytes()).hexdigest()}
+                                                                                                                                                                                                         ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/pathlib.py", line 1021, in read_bytes
+    with self.open(mode='rb') as f:
+         ^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/pathlib.py", line 1015, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/d/gba_hack/废都物语_GBA章节样版/history/balanced_optimization_20261023/baseline/废都物语_GBA_开篇开发验证版.gba'

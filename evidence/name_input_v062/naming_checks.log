@@ -1,0 +1,47 @@
+{
+  "status": "pass",
+  "rom_sha256": "1db4e8b86af4cc3b4e71abdc983f9a8e5a2c84eb5784738258912a75750e1561",
+  "surnames": "王李张刘陈杨黄赵吴周徐孙马朱胡郭何林高罗",
+  "given_name_characters": "明华宇浩子轩安宁晨阳思雨雪梅兰芳静敏诗涵梦瑶欣怡佳清远乐文然",
+  "checks": [
+    {
+      "check": "all selectable characters render as their exact cached glyphs",
+      "page": 0,
+      "characters": 20,
+      "different_pixels": 0,
+      "pass": true
+    },
+    {
+      "check": "all selectable characters render as their exact cached glyphs",
+      "page": 1,
+      "characters": 30,
+      "different_pixels": 0,
+      "pass": true
+    },
+    {
+      "check": "both grid pages wrap without selecting blank cells",
+      "pass": true
+    },
+    {
+      "check": "six-character bound, whole-character deletion and SELECT restore",
+      "pass": true
+    },
+    {
+      "check": "surname starts a new name, auto-opens given names, and confirms the exact name",
+      "confirmed_name": "刘轩",
+      "pass": true
+    },
+    {
+      "check": "START directly preserves the original name",
+      "pass": true
+    },
+    {
+      "check": "empty confirmation keeps the original name rather than writing a blank actor name",
+      "pass": true
+    }
+  ],
+  "input": "real production ROM new-game buttons",
+  "memory": "read only",
+  "emulator_states": false,
+  "hardware": "not_run"
+}

@@ -1,0 +1,31 @@
+{
+  "status": "pass",
+  "fixture_SHA256": "0f8fa25068e1c9d11aedbaf54be1152821f2ca911373fbbeada29fbc7509e0b6",
+  "base_ROM_SHA256": "3371cc8ffac5dfe023ce9458d13617cdc00b2619286f04a5bb4374b7bd69c164",
+  "checks": [
+    {
+      "stage": 2,
+      "glyphs": 30,
+      "hardware_mode": 0,
+      "different_pixels": 0,
+      "safe_capacity_fallbacks": 0
+    },
+    {
+      "stage": 3,
+      "glyphs": 260,
+      "hardware_mode": 3,
+      "different_pixels": 0,
+      "safe_capacity_fallbacks": 1
+    },
+    {
+      "stage": 4,
+      "glyphs": 260,
+      "hardware_mode": 3,
+      "different_pixels": 0,
+      "safe_capacity_fallbacks": 1
+    }
+  ],
+  "scope": "Native 4bpp UI glyphs exactly retain their source masks. An oversized 260-glyph window changes safely to RGB555, preserving the visible map through transparent cells; its next redraw keeps the fallback.",
+  "memory": "read only",
+  "hardware": "not_run"
+}

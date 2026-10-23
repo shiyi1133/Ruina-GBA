@@ -1,0 +1,31 @@
+{
+  "at_UTC": "2026-10-21T22:33:00Z",
+  "status": "active; final replay fix completed, final ROM frozen",
+  "earliest_delivery_UTC": "2026-10-21T23:12:18Z",
+  "ROM_sha256": "2416a8e950d764c790dd55a309d615de4c0dc9420fa791e6b9cd3535fab8824f",
+  "ROM_bytes": 33307620,
+  "LCF_sha256": "03042b9da41392bf8a9766cd9820184ebaaf8bb510fa8aea98a8e93159cc37e1",
+  "last_change": "Music room one-shot completion query and A replay; no sound synthesis/mixing or Game/SAV layout change",
+  "one_shot_replay": "actual production ROM pass in both simplified modes; stopped at 69533 then restarted around12224 source frames",
+  "regression": "34 tests running in session59664, python PID263123; log evidence/optimization_20261022/final_validation_run.log",
+  "whole_music": {
+    "session": 20215,
+    "python_PID": 263106,
+    "probe_PID": 263168,
+    "progress": "evidence/optimization_20261022/music/complete_GBA/2416a8e950d7/progress.json",
+    "cases_complete_at_checkpoint": 4,
+    "total": 210,
+    "log": "evidence/optimization_20261022/complete_music_GBA_run.log"
+  },
+  "source_prepare": "Last clean matching project is previous hash05a321cde73a. AFTER34/34pass run current_feature_status then deliver_optimization.py prepare for2416 hash. Earlier source snapshots preserved.",
+  "remaining": [
+    "finish final34/34regression",
+    "prepare cached matching source (archive/font/site-packages disabled) and verify byte-identical",
+    "finish all210 whole GBA playback cases on final2416 hash; older partial profiles are explicitly interrupted, not counted current",
+    "refresh current_feature_status and optimization text metrics after final evidence",
+    "seal with deliver_optimization.py seal; it creates sourceZIP and automatically extracts/rebuilds that exact ZIP again",
+    "after23:12:18UTC minimum and all validation, deliver_optimization.py deliver copies new ROM+DEMO/sourceZIP to Downloads and 交付, verifies hashes",
+    "mark goal complete after actual delivery, honestly state full natural campaign/hardware/PC parity not established"
+  ],
+  "tools": "No agents, memory or skills applied; no external messages or publication."
+}

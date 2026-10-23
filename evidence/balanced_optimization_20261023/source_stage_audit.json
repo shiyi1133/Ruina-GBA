@@ -1,0 +1,10 @@
+{
+  "status": "pass",
+  "production_ROM_sha256": "6e70c2dc0b4c10a2c9a3aae4f52201ade7a9c652b0e48faa1aa4268b900626d6",
+  "prepared_input_files": 10813,
+  "source_tree_matches_staged_rebuild": true,
+  "original_data_and_SAVs": "unchanged",
+  "rejected_prepare_04": "Guard caught validate_balanced.py changing while staging; failed stage was never sealed or delivered. Prepare05 completed with all inputs stable.",
+  "successful_prepare": "release_prepare_05.log",
+  "unix": 1792705172.5123503
+}

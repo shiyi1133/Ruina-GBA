@@ -1,0 +1,19 @@
+full map 3 stages 10
+full map 4 stages 20
+full map 5 stages 30
+full map 6 stages 40
+full map 7 stages 50
+full map 8 stages 60
+full map 9 stages 70
+full map 10 stages 80
+full map 11 stages 90
+full map 12 stages 100
+full map 20 stages 110
+Traceback (most recent call last):
+  File "/mnt/d/gba_hack/废都物语_GBA章节样版/tools/check_map_window_matrix.py", line 56, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/mnt/d/gba_hack/废都物语_GBA章节样版/tools/check_map_window_matrix.py", line 37, in main
+    assert audio[0]==audio_start,(label,stage,'audio underrun',audio,state,struct.unpack('<3I',e.memory(e.symbols['map_window_matrix_audio'],12)))
+           ^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ('full', 111, 'audio underrun', (1792, 5875, 2032, 0), (21, 0, 1, 11), (176, 192, 1792))

@@ -1,0 +1,242 @@
+{
+  "status": "pass",
+  "rom_sha256": "05a321cde73a1c9979b95664e2771892224be566d6dcb0466a8235128abaee93",
+  "tests": [
+    {
+      "name": "lcf_transport",
+      "status": "pass",
+      "seconds": 20.17320345400367,
+      "returncode": 0,
+      "log": "evidence/optimization_20261022/final_validation/05a321cde73a/lcf_transport.log"
+    },
+    {
+      "name": "borrowed_views",
+      "status": "pass",
+      "seconds": 1.450968085002387,
+      "returncode": 0,
+      "log": "evidence/optimization_20261022/final_validation/05a321cde73a/borrowed_views.log"
+    },
+    {
+      "name": "page_conditions",
+      "status": "pass",
+      "seconds": 3.2817389569972875,
+      "returncode": 0,
+      "log": "evidence/optimization_20261022/final_validation/05a321cde73a/page_conditions.log"
+    },
+    {
+      "name": "map_rule_parity",
+      "status": "pass",
+      "seconds": 5.799962892000622,
+      "returncode": 0,
+      "log": "evidence/optimization_20261022/final_validation/05a321cde73a/map_rule_parity.log"
+    },
+    {
+      "name": "host_mechanisms",
+      "status": "pass",
+      "seconds": 2.828115345997503,
+      "returncode": 0,
+      "log": "evidence/optimization_20261022/final_validation/05a321cde73a/host_mechanisms.log"
+    },
+    {
+      "name": "image_codec",
+      "status": "pass",
+      "seconds": 0.5524031719978666,
+      "returncode": 0,
+      "log": "evidence/optimization_20261022/final_validation/05a321cde73a/image_codec.log"
+    },
+    {
+      "name": "storage_and_images",
+      "status": "pass",
+      "seconds": 15.81141358899913,
+      "returncode": 0,
+      "log": "evidence/optimization_20261022/final_validation/05a321cde73a/storage_and_images.log"
+    },
+    {
+      "name": "original_art",
+      "status": "pass",
+      "seconds": 4.635360020001826,
+      "returncode": 0,
+      "log": "evidence/optimization_20261022/final_validation/05a321cde73a/original_art.log"
+    },
+    {
+      "name": "audio_IRQ_parity",
+      "status": "pass",
+      "seconds": 2.618808994004212,
+      "returncode": 0,
+      "log": "evidence/optimization_20261022/final_validation/05a321cde73a/audio_IRQ_parity.log"
+    },
+    {
+      "name": "opening_four_origins",
+      "status": "pass",
+      "seconds": 9.873191847000271,
+      "returncode": 0,
+      "log": "evidence/optimization_20261022/final_validation/05a321cde73a/opening_four_origins.log"
+    },
+    {
+      "name": "natural_gameplay_and_SAV",
+      "status": "pass",
+      "seconds": 8.38526253800228,
+      "returncode": 0,
+      "log": "evidence/optimization_20261022/final_validation/05a321cde73a/natural_gameplay_and_SAV.log"
+    },
+    {
+      "name": "source_menu_gameplay",
+      "status": "pass",
+      "seconds": 13.155392451000807,
+      "returncode": 0,
+      "log": "evidence/optimization_20261022/final_validation/05a321cde73a/source_menu_gameplay.log"
+    },
+    {
+      "name": "status_browsing",
+      "status": "pass",
+      "seconds": 1.8901299069984816,
+      "returncode": 0,
+      "log": "evidence/optimization_20261022/final_validation/05a321cde73a/status_browsing.log"
+    },
+    {
+      "name": "chapter_first_CP",
+      "status": "pass",
+      "seconds": 56.541122456001176,
+      "returncode": 0,
+      "log": "evidence/optimization_20261022/final_validation/05a321cde73a/chapter_first_CP.log"
+    },
+    {
+      "name": "checkpoint_cold_load",
+      "status": "pass",
+      "seconds": 1.1866542310017394,
+      "returncode": 0,
+      "log": "evidence/optimization_20261022/final_validation/05a321cde73a/checkpoint_cold_load.log"
+    },
+    {
+      "name": "extended_gameplay",
+      "status": "pass",
+      "seconds": 72.45684301300207,
+      "returncode": 0,
+      "log": "evidence/optimization_20261022/final_validation/05a321cde73a/extended_gameplay.log"
+    },
+    {
+      "name": "music_room_UI",
+      "status": "pass",
+      "seconds": 4.276359538998804,
+      "returncode": 0,
+      "log": "evidence/optimization_20261022/final_validation/05a321cde73a/music_room_UI.log"
+    },
+    {
+      "name": "map_navigation",
+      "status": "pass",
+      "seconds": 2.23702853499708,
+      "returncode": 0,
+      "log": "evidence/optimization_20261022/final_validation/05a321cde73a/map_navigation.log"
+    },
+    {
+      "name": "cursor_continuity",
+      "status": "pass",
+      "seconds": 5.379173418004939,
+      "returncode": 0,
+      "log": "evidence/optimization_20261022/final_validation/05a321cde73a/cursor_continuity.log"
+    },
+    {
+      "name": "all_panorama_crops",
+      "status": "pass",
+      "seconds": 17.17633027899865,
+      "returncode": 0,
+      "log": "evidence/optimization_20261022/final_validation/05a321cde73a/all_panorama_crops.log"
+    },
+    {
+      "name": "native_characters",
+      "status": "pass",
+      "seconds": 5.54857810500107,
+      "returncode": 0,
+      "log": "evidence/optimization_20261022/final_validation/05a321cde73a/native_characters.log"
+    },
+    {
+      "name": "changing_actor_palettes",
+      "status": "pass",
+      "seconds": 5.731117431001621,
+      "returncode": 0,
+      "log": "evidence/optimization_20261022/final_validation/05a321cde73a/changing_actor_palettes.log"
+    },
+    {
+      "name": "retained_VRAM",
+      "status": "pass",
+      "seconds": 10.836540600997978,
+      "returncode": 0,
+      "log": "evidence/optimization_20261022/final_validation/05a321cde73a/retained_VRAM.log"
+    },
+    {
+      "name": "scroll_cache",
+      "status": "pass",
+      "seconds": 8.681965155999933,
+      "returncode": 0,
+      "log": "evidence/optimization_20261022/final_validation/05a321cde73a/scroll_cache.log"
+    },
+    {
+      "name": "dialogue_portraits",
+      "status": "pass",
+      "seconds": 3.824926471002982,
+      "returncode": 0,
+      "log": "evidence/optimization_20261022/final_validation/05a321cde73a/dialogue_portraits.log"
+    },
+    {
+      "name": "dense_actors_HUD_audio",
+      "status": "pass",
+      "seconds": 13.975246853995486,
+      "returncode": 0,
+      "log": "evidence/optimization_20261022/final_validation/05a321cde73a/dense_actors_HUD_audio.log"
+    },
+    {
+      "name": "portraits_and_audio_stress",
+      "status": "pass",
+      "seconds": 19.5000729530002,
+      "returncode": 0,
+      "log": "evidence/optimization_20261022/final_validation/05a321cde73a/portraits_and_audio_stress.log"
+    },
+    {
+      "name": "all_MIDI_GBA_modes",
+      "status": "pass",
+      "seconds": 86.17862830100057,
+      "returncode": 0,
+      "log": "evidence/optimization_20261022/final_validation/05a321cde73a/all_MIDI_GBA_modes.log"
+    },
+    {
+      "name": "original_BGM_pitches",
+      "status": "pass",
+      "seconds": 20.944376931001898,
+      "returncode": 0,
+      "log": "evidence/optimization_20261022/final_validation/05a321cde73a/original_BGM_pitches.log"
+    },
+    {
+      "name": "black_cut_presentation",
+      "status": "pass",
+      "seconds": 3.986443330999464,
+      "returncode": 0,
+      "log": "evidence/optimization_20261022/final_validation/05a321cde73a/black_cut_presentation.log"
+    },
+    {
+      "name": "uniform_alpha",
+      "status": "pass",
+      "seconds": 3.904665052999917,
+      "returncode": 0,
+      "log": "evidence/optimization_20261022/final_validation/05a321cde73a/uniform_alpha.log"
+    },
+    {
+      "name": "stack_observation",
+      "status": "pass",
+      "seconds": 3.039980347995879,
+      "returncode": 0,
+      "log": "evidence/optimization_20261022/final_validation/05a321cde73a/stack_observation.log"
+    },
+    {
+      "name": "performance",
+      "status": "pass",
+      "seconds": 5.998080462995858,
+      "returncode": 0,
+      "log": "evidence/optimization_20261022/final_validation/05a321cde73a/performance.log"
+    }
+  ],
+  "completed": 33,
+  "total": 33,
+  "scope": "controlled host and actual emulated GBA spot checks; full campaign and physical hardware not run",
+  "compiler_inputs_unchanged": true,
+  "production_ROM_unchanged": true
+}

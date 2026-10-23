@@ -1,0 +1,9 @@
+{
+  "status": "pass",
+  "subsets": 1024,
+  "sold_item_positions_checked": 472050,
+  "buy_order_and_duplicates_preserved": true,
+  "source": "experiments/shop_item_bits/shop.c",
+  "source_sha256": "5cfbe3a9e8ce0db7905ddce3b509b47995ddae5a6dc6a89439ff529d5360331b",
+  "scope": "Original ascending-ID array used as independent expected order across 1024 random densities, including empty/full and word boundaries. Buying keeps caller order and duplicate IDs. No prices or transactions changed by the index representation."
+}

@@ -1,0 +1,11 @@
+{
+  "status": "pass",
+  "production_rom_sha256": "d8e63ad23769ed03f990420723b3c042f3e147b23565e2c23f4c0f67bbe1e780",
+  "kind": "production ROM, genuine ordinary campaign SAV, actual buttons, actual LCD hashes and bitmap/UI/BG presentation counters",
+  "idle_hardware_frames": 180,
+  "idle_presentations": 0,
+  "browse_changes_visible": true,
+  "up_returns_same_pixels": true,
+  "persistent_player_state_unchanged": true,
+  "hardware": "not_run"
+}

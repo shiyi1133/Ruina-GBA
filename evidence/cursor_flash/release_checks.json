@@ -1,0 +1,62 @@
+[
+  {
+    "tool": "check_event_integration.py",
+    "exit_code": 0,
+    "known_MIDI_performance_failure": false,
+    "log": "build/cursor_accepted_check_event_integration.log"
+  },
+  {
+    "tool": "check_scroll_navigation.py",
+    "exit_code": 0,
+    "known_MIDI_performance_failure": false,
+    "log": "build/cursor_accepted_check_scroll_navigation.log"
+  },
+  {
+    "tool": "check_native_map_crop.py",
+    "exit_code": 0,
+    "known_MIDI_performance_failure": false,
+    "log": "build/cursor_accepted_check_native_map_crop.log"
+  },
+  {
+    "tool": "check_map_objects.py",
+    "exit_code": 0,
+    "known_MIDI_performance_failure": false,
+    "log": "build/cursor_accepted_check_map_objects.log"
+  },
+  {
+    "tool": "check_portraits_gba.py",
+    "exit_code": 0,
+    "known_MIDI_performance_failure": false,
+    "log": "build/cursor_accepted_check_portraits_gba.log"
+  },
+  {
+    "tool": "check_presentation_gba.py",
+    "exit_code": 0,
+    "known_MIDI_performance_failure": false,
+    "log": "build/cursor_accepted_check_presentation_gba.log"
+  },
+  {
+    "tool": "check_uniform_alpha_gba.py",
+    "exit_code": 0,
+    "known_MIDI_performance_failure": false,
+    "log": "build/cursor_accepted_check_uniform_alpha_gba.log"
+  },
+  {
+    "tool": "check_naming_cut.py",
+    "exit_code": 0,
+    "known_MIDI_performance_failure": false,
+    "log": "build/cursor_accepted_check_naming_cut.log"
+  },
+  {
+    "tool": "check_audio.py",
+    "exit_code": 0,
+    "known_MIDI_performance_failure": false,
+    "log": "build/cursor_accepted_check_audio.log"
+  },
+  {
+    "tool": "check_native_audio_gba.py",
+    "exit_code": 1,
+    "known_MIDI_performance_failure": true,
+    "log": "build/cursor_accepted_check_native_audio_gba.log"
+  }
+]

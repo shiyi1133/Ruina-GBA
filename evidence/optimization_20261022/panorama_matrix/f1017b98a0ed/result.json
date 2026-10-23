@@ -1,0 +1,2622 @@
+{
+  "status": "pass",
+  "panoramas": 60,
+  "native_GBA_crops": 237,
+  "pixels_checked": 9040128,
+  "display_different_pixels": 0,
+  "original_RGB555_different_pixels": 782,
+  "scope": "actual GBA cropped native pictures against untouched original XYZ; palette budget approximations separately counted; UI arrows masked out",
+  "production_rom_sha256": "35a8e283662be7a779e92149f77f7aab866bca22b07a583f4a6179849130abdc",
+  "fixture_sha256": "f1017b98a0ed4c5dde481a1aad346f37c2b55dd1452462987747a522d4207cb4",
+  "image_bank_sha256": "ecf45a42fd2a8add868671ad741d8622972b72a64a0b1f87e24b65235d4ebf72",
+  "rows": [
+    {
+      "stage": 1,
+      "image": 519,
+      "source": "Ruina121/game/Panorama/EDA08.xyz",
+      "camera": [
+        0,
+        0
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 2,
+      "image": 519,
+      "source": "Ruina121/game/Panorama/EDA08.xyz",
+      "camera": [
+        80,
+        320
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 3,
+      "image": 519,
+      "source": "Ruina121/game/Panorama/EDA08.xyz",
+      "camera": [
+        40,
+        160
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 4,
+      "image": 519,
+      "source": "Ruina121/game/Panorama/EDA08.xyz",
+      "camera": [
+        8,
+        16
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 5,
+      "image": 520,
+      "source": "Ruina121/game/Panorama/ゲームオーバー0.xyz",
+      "camera": [
+        0,
+        0
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 6,
+      "image": 520,
+      "source": "Ruina121/game/Panorama/ゲームオーバー0.xyz",
+      "camera": [
+        80,
+        80
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 7,
+      "image": 520,
+      "source": "Ruina121/game/Panorama/ゲームオーバー0.xyz",
+      "camera": [
+        40,
+        40
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 8,
+      "image": 520,
+      "source": "Ruina121/game/Panorama/ゲームオーバー0.xyz",
+      "camera": [
+        8,
+        16
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 9,
+      "image": 198,
+      "source": "Ruina121/game/Panorama/メッセウインドウ黒.xyz",
+      "camera": [
+        0,
+        0
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 10,
+      "image": 198,
+      "source": "Ruina121/game/Panorama/メッセウインドウ黒.xyz",
+      "camera": [
+        80,
+        0
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 11,
+      "image": 198,
+      "source": "Ruina121/game/Panorama/メッセウインドウ黒.xyz",
+      "camera": [
+        40,
+        0
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 12,
+      "image": 198,
+      "source": "Ruina121/game/Panorama/メッセウインドウ黒.xyz",
+      "camera": [
+        8,
+        0
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 13,
+      "image": 521,
+      "source": "Ruina121/game/Panorama/宇宙.xyz",
+      "camera": [
+        0,
+        0
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 14,
+      "image": 521,
+      "source": "Ruina121/game/Panorama/宇宙.xyz",
+      "camera": [
+        400,
+        320
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 15,
+      "image": 521,
+      "source": "Ruina121/game/Panorama/宇宙.xyz",
+      "camera": [
+        200,
+        160
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 16,
+      "image": 521,
+      "source": "Ruina121/game/Panorama/宇宙.xyz",
+      "camera": [
+        8,
+        16
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 17,
+      "image": 522,
+      "source": "Ruina121/game/Panorama/廃都タイトル.xyz",
+      "camera": [
+        0,
+        0
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 150
+    },
+    {
+      "stage": 18,
+      "image": 522,
+      "source": "Ruina121/game/Panorama/廃都タイトル.xyz",
+      "camera": [
+        80,
+        80
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 157
+    },
+    {
+      "stage": 19,
+      "image": 522,
+      "source": "Ruina121/game/Panorama/廃都タイトル.xyz",
+      "camera": [
+        40,
+        40
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 157
+    },
+    {
+      "stage": 20,
+      "image": 522,
+      "source": "Ruina121/game/Panorama/廃都タイトル.xyz",
+      "camera": [
+        8,
+        16
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 151
+    },
+    {
+      "stage": 21,
+      "image": 523,
+      "source": "Ruina121/game/Panorama/廃都タイトル2.xyz",
+      "camera": [
+        0,
+        0
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 22,
+      "image": 523,
+      "source": "Ruina121/game/Panorama/廃都タイトル2.xyz",
+      "camera": [
+        80,
+        80
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 23,
+      "image": 523,
+      "source": "Ruina121/game/Panorama/廃都タイトル2.xyz",
+      "camera": [
+        40,
+        40
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 24,
+      "image": 523,
+      "source": "Ruina121/game/Panorama/廃都タイトル2.xyz",
+      "camera": [
+        8,
+        16
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 25,
+      "image": 176,
+      "source": "Ruina121/game/Panorama/背景・ギャラリー.xyz",
+      "camera": [
+        0,
+        0
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 26,
+      "image": 176,
+      "source": "Ruina121/game/Panorama/背景・ギャラリー.xyz",
+      "camera": [
+        80,
+        80
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 27,
+      "image": 176,
+      "source": "Ruina121/game/Panorama/背景・ギャラリー.xyz",
+      "camera": [
+        40,
+        40
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 28,
+      "image": 176,
+      "source": "Ruina121/game/Panorama/背景・ギャラリー.xyz",
+      "camera": [
+        8,
+        16
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 29,
+      "image": 181,
+      "source": "Ruina121/game/Panorama/背景・クラスチェンジ.xyz",
+      "camera": [
+        0,
+        0
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 30,
+      "image": 181,
+      "source": "Ruina121/game/Panorama/背景・クラスチェンジ.xyz",
+      "camera": [
+        80,
+        80
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 31,
+      "image": 181,
+      "source": "Ruina121/game/Panorama/背景・クラスチェンジ.xyz",
+      "camera": [
+        40,
+        40
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 32,
+      "image": 181,
+      "source": "Ruina121/game/Panorama/背景・クラスチェンジ.xyz",
+      "camera": [
+        8,
+        16
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 33,
+      "image": 177,
+      "source": "Ruina121/game/Panorama/背景・テキスト.xyz",
+      "camera": [
+        0,
+        0
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 34,
+      "image": 177,
+      "source": "Ruina121/game/Panorama/背景・テキスト.xyz",
+      "camera": [
+        80,
+        80
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 35,
+      "image": 177,
+      "source": "Ruina121/game/Panorama/背景・テキスト.xyz",
+      "camera": [
+        40,
+        40
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 36,
+      "image": 177,
+      "source": "Ruina121/game/Panorama/背景・テキスト.xyz",
+      "camera": [
+        8,
+        16
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 37,
+      "image": 2,
+      "source": "Ruina121/game/Panorama/背景・ホルムの町.xyz",
+      "camera": [
+        0,
+        0
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 38,
+      "image": 2,
+      "source": "Ruina121/game/Panorama/背景・ホルムの町.xyz",
+      "camera": [
+        80,
+        80
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 39,
+      "image": 2,
+      "source": "Ruina121/game/Panorama/背景・ホルムの町.xyz",
+      "camera": [
+        40,
+        40
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 40,
+      "image": 2,
+      "source": "Ruina121/game/Panorama/背景・ホルムの町.xyz",
+      "camera": [
+        8,
+        16
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 41,
+      "image": 204,
+      "source": "Ruina121/game/Panorama/背景・ホルムの町2.xyz",
+      "camera": [
+        0,
+        0
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 42,
+      "image": 204,
+      "source": "Ruina121/game/Panorama/背景・ホルムの町2.xyz",
+      "camera": [
+        80,
+        80
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 43,
+      "image": 204,
+      "source": "Ruina121/game/Panorama/背景・ホルムの町2.xyz",
+      "camera": [
+        40,
+        40
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 44,
+      "image": 204,
+      "source": "Ruina121/game/Panorama/背景・ホルムの町2.xyz",
+      "camera": [
+        8,
+        16
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 45,
+      "image": 197,
+      "source": "Ruina121/game/Panorama/背景・ラスバト.xyz",
+      "camera": [
+        0,
+        0
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 46,
+      "image": 197,
+      "source": "Ruina121/game/Panorama/背景・ラスバト.xyz",
+      "camera": [
+        80,
+        320
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 47,
+      "image": 197,
+      "source": "Ruina121/game/Panorama/背景・ラスバト.xyz",
+      "camera": [
+        40,
+        160
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 48,
+      "image": 197,
+      "source": "Ruina121/game/Panorama/背景・ラスバト.xyz",
+      "camera": [
+        8,
+        16
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 49,
+      "image": 205,
+      "source": "Ruina121/game/Panorama/背景・ランダム.xyz",
+      "camera": [
+        0,
+        0
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 50,
+      "image": 205,
+      "source": "Ruina121/game/Panorama/背景・ランダム.xyz",
+      "camera": [
+        80,
+        80
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 51,
+      "image": 205,
+      "source": "Ruina121/game/Panorama/背景・ランダム.xyz",
+      "camera": [
+        40,
+        40
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 52,
+      "image": 205,
+      "source": "Ruina121/game/Panorama/背景・ランダム.xyz",
+      "camera": [
+        8,
+        16
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 53,
+      "image": 524,
+      "source": "Ruina121/game/Panorama/背景・ランダム2荒野.xyz",
+      "camera": [
+        0,
+        0
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 54,
+      "image": 524,
+      "source": "Ruina121/game/Panorama/背景・ランダム2荒野.xyz",
+      "camera": [
+        80,
+        80
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 55,
+      "image": 524,
+      "source": "Ruina121/game/Panorama/背景・ランダム2荒野.xyz",
+      "camera": [
+        40,
+        40
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 56,
+      "image": 524,
+      "source": "Ruina121/game/Panorama/背景・ランダム2荒野.xyz",
+      "camera": [
+        8,
+        16
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 57,
+      "image": 208,
+      "source": "Ruina121/game/Panorama/背景・ランダム3森.xyz",
+      "camera": [
+        0,
+        0
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 58,
+      "image": 208,
+      "source": "Ruina121/game/Panorama/背景・ランダム3森.xyz",
+      "camera": [
+        80,
+        80
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 59,
+      "image": 208,
+      "source": "Ruina121/game/Panorama/背景・ランダム3森.xyz",
+      "camera": [
+        40,
+        40
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 60,
+      "image": 208,
+      "source": "Ruina121/game/Panorama/背景・ランダム3森.xyz",
+      "camera": [
+        8,
+        16
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 61,
+      "image": 207,
+      "source": "Ruina121/game/Panorama/背景・ランダム4溶岩.xyz",
+      "camera": [
+        0,
+        0
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 62,
+      "image": 207,
+      "source": "Ruina121/game/Panorama/背景・ランダム4溶岩.xyz",
+      "camera": [
+        80,
+        80
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 63,
+      "image": 207,
+      "source": "Ruina121/game/Panorama/背景・ランダム4溶岩.xyz",
+      "camera": [
+        40,
+        40
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 64,
+      "image": 207,
+      "source": "Ruina121/game/Panorama/背景・ランダム4溶岩.xyz",
+      "camera": [
+        8,
+        16
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 65,
+      "image": 525,
+      "source": "Ruina121/game/Panorama/背景・ランダム5空洞.xyz",
+      "camera": [
+        0,
+        0
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 66,
+      "image": 525,
+      "source": "Ruina121/game/Panorama/背景・ランダム5空洞.xyz",
+      "camera": [
+        80,
+        80
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 67,
+      "image": 525,
+      "source": "Ruina121/game/Panorama/背景・ランダム5空洞.xyz",
+      "camera": [
+        40,
+        40
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 68,
+      "image": 525,
+      "source": "Ruina121/game/Panorama/背景・ランダム5空洞.xyz",
+      "camera": [
+        8,
+        16
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 69,
+      "image": 206,
+      "source": "Ruina121/game/Panorama/背景・ランダム6水中.xyz",
+      "camera": [
+        0,
+        0
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 70,
+      "image": 206,
+      "source": "Ruina121/game/Panorama/背景・ランダム6水中.xyz",
+      "camera": [
+        80,
+        80
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 71,
+      "image": 206,
+      "source": "Ruina121/game/Panorama/背景・ランダム6水中.xyz",
+      "camera": [
+        40,
+        40
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 72,
+      "image": 206,
+      "source": "Ruina121/game/Panorama/背景・ランダム6水中.xyz",
+      "camera": [
+        8,
+        16
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 73,
+      "image": 526,
+      "source": "Ruina121/game/Panorama/背景・世界地図.xyz",
+      "camera": [
+        0,
+        0
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 74,
+      "image": 526,
+      "source": "Ruina121/game/Panorama/背景・世界地図.xyz",
+      "camera": [
+        80,
+        80
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 75,
+      "image": 526,
+      "source": "Ruina121/game/Panorama/背景・世界地図.xyz",
+      "camera": [
+        40,
+        40
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 76,
+      "image": 526,
+      "source": "Ruina121/game/Panorama/背景・世界地図.xyz",
+      "camera": [
+        8,
+        16
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 77,
+      "image": 180,
+      "source": "Ruina121/game/Panorama/背景・世界地図2.xyz",
+      "camera": [
+        0,
+        0
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 28
+    },
+    {
+      "stage": 78,
+      "image": 180,
+      "source": "Ruina121/game/Panorama/背景・世界地図2.xyz",
+      "camera": [
+        80,
+        80
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 39
+    },
+    {
+      "stage": 79,
+      "image": 180,
+      "source": "Ruina121/game/Panorama/背景・世界地図2.xyz",
+      "camera": [
+        40,
+        40
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 38
+    },
+    {
+      "stage": 80,
+      "image": 180,
+      "source": "Ruina121/game/Panorama/背景・世界地図2.xyz",
+      "camera": [
+        8,
+        16
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 36
+    },
+    {
+      "stage": 81,
+      "image": 174,
+      "source": "Ruina121/game/Panorama/背景・作成武器.xyz",
+      "camera": [
+        0,
+        0
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 82,
+      "image": 174,
+      "source": "Ruina121/game/Panorama/背景・作成武器.xyz",
+      "camera": [
+        80,
+        208
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 83,
+      "image": 174,
+      "source": "Ruina121/game/Panorama/背景・作成武器.xyz",
+      "camera": [
+        40,
+        104
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 84,
+      "image": 174,
+      "source": "Ruina121/game/Panorama/背景・作成武器.xyz",
+      "camera": [
+        8,
+        16
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 85,
+      "image": 179,
+      "source": "Ruina121/game/Panorama/背景・作成調合.xyz",
+      "camera": [
+        0,
+        0
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 86,
+      "image": 179,
+      "source": "Ruina121/game/Panorama/背景・作成調合.xyz",
+      "camera": [
+        80,
+        160
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 87,
+      "image": 179,
+      "source": "Ruina121/game/Panorama/背景・作成調合.xyz",
+      "camera": [
+        40,
+        80
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 88,
+      "image": 179,
+      "source": "Ruina121/game/Panorama/背景・作成調合.xyz",
+      "camera": [
+        8,
+        16
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 89,
+      "image": 175,
+      "source": "Ruina121/game/Panorama/背景・作成防具.xyz",
+      "camera": [
+        0,
+        0
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 90,
+      "image": 175,
+      "source": "Ruina121/game/Panorama/背景・作成防具.xyz",
+      "camera": [
+        80,
+        224
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 91,
+      "image": 175,
+      "source": "Ruina121/game/Panorama/背景・作成防具.xyz",
+      "camera": [
+        40,
+        112
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 92,
+      "image": 175,
+      "source": "Ruina121/game/Panorama/背景・作成防具.xyz",
+      "camera": [
+        8,
+        16
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 93,
+      "image": 171,
+      "source": "Ruina121/game/Panorama/背景・墓地.xyz",
+      "camera": [
+        0,
+        0
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 94,
+      "image": 171,
+      "source": "Ruina121/game/Panorama/背景・墓地.xyz",
+      "camera": [
+        80,
+        80
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 95,
+      "image": 171,
+      "source": "Ruina121/game/Panorama/背景・墓地.xyz",
+      "camera": [
+        40,
+        40
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 96,
+      "image": 171,
+      "source": "Ruina121/game/Panorama/背景・墓地.xyz",
+      "camera": [
+        8,
+        16
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 97,
+      "image": 194,
+      "source": "Ruina121/game/Panorama/背景・墓所.xyz",
+      "camera": [
+        0,
+        0
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 98,
+      "image": 194,
+      "source": "Ruina121/game/Panorama/背景・墓所.xyz",
+      "camera": [
+        128,
+        320
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 99,
+      "image": 194,
+      "source": "Ruina121/game/Panorama/背景・墓所.xyz",
+      "camera": [
+        64,
+        160
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 100,
+      "image": 194,
+      "source": "Ruina121/game/Panorama/背景・墓所.xyz",
+      "camera": [
+        8,
+        16
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 101,
+      "image": 195,
+      "source": "Ruina121/game/Panorama/背景・墓所玄室.xyz",
+      "camera": [
+        0,
+        0
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 102,
+      "image": 195,
+      "source": "Ruina121/game/Panorama/背景・墓所玄室.xyz",
+      "camera": [
+        160,
+        256
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 103,
+      "image": 195,
+      "source": "Ruina121/game/Panorama/背景・墓所玄室.xyz",
+      "camera": [
+        80,
+        128
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 104,
+      "image": 195,
+      "source": "Ruina121/game/Panorama/背景・墓所玄室.xyz",
+      "camera": [
+        8,
+        16
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 105,
+      "image": 186,
+      "source": "Ruina121/game/Panorama/背景・大廃墟.xyz",
+      "camera": [
+        0,
+        0
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 106,
+      "image": 186,
+      "source": "Ruina121/game/Panorama/背景・大廃墟.xyz",
+      "camera": [
+        240,
+        224
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 107,
+      "image": 186,
+      "source": "Ruina121/game/Panorama/背景・大廃墟.xyz",
+      "camera": [
+        120,
+        112
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 108,
+      "image": 186,
+      "source": "Ruina121/game/Panorama/背景・大廃墟.xyz",
+      "camera": [
+        8,
+        16
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 109,
+      "image": 168,
+      "source": "Ruina121/game/Panorama/背景・大河神殿.xyz",
+      "camera": [
+        0,
+        0
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 110,
+      "image": 168,
+      "source": "Ruina121/game/Panorama/背景・大河神殿.xyz",
+      "camera": [
+        80,
+        80
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 111,
+      "image": 168,
+      "source": "Ruina121/game/Panorama/背景・大河神殿.xyz",
+      "camera": [
+        40,
+        40
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 112,
+      "image": 168,
+      "source": "Ruina121/game/Panorama/背景・大河神殿.xyz",
+      "camera": [
+        8,
+        16
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 113,
+      "image": 185,
+      "source": "Ruina121/game/Panorama/背景・妖精の塔1.xyz",
+      "camera": [
+        0,
+        0
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 114,
+      "image": 185,
+      "source": "Ruina121/game/Panorama/背景・妖精の塔1.xyz",
+      "camera": [
+        144,
+        288
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 115,
+      "image": 185,
+      "source": "Ruina121/game/Panorama/背景・妖精の塔1.xyz",
+      "camera": [
+        72,
+        144
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 116,
+      "image": 185,
+      "source": "Ruina121/game/Panorama/背景・妖精の塔1.xyz",
+      "camera": [
+        8,
+        16
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 117,
+      "image": 188,
+      "source": "Ruina121/game/Panorama/背景・妖精の塔2.xyz",
+      "camera": [
+        0,
+        0
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 118,
+      "image": 188,
+      "source": "Ruina121/game/Panorama/背景・妖精の塔2.xyz",
+      "camera": [
+        80,
+        320
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 119,
+      "image": 188,
+      "source": "Ruina121/game/Panorama/背景・妖精の塔2.xyz",
+      "camera": [
+        40,
+        160
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 120,
+      "image": 188,
+      "source": "Ruina121/game/Panorama/背景・妖精の塔2.xyz",
+      "camera": [
+        8,
+        16
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 121,
+      "image": 184,
+      "source": "Ruina121/game/Panorama/背景・宮殿.xyz",
+      "camera": [
+        0,
+        0
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 122,
+      "image": 184,
+      "source": "Ruina121/game/Panorama/背景・宮殿.xyz",
+      "camera": [
+        144,
+        320
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 123,
+      "image": 184,
+      "source": "Ruina121/game/Panorama/背景・宮殿.xyz",
+      "camera": [
+        72,
+        160
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 124,
+      "image": 184,
+      "source": "Ruina121/game/Panorama/背景・宮殿.xyz",
+      "camera": [
+        8,
+        16
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 125,
+      "image": 189,
+      "source": "Ruina121/game/Panorama/背景・小人の塔1.xyz",
+      "camera": [
+        0,
+        0
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 126,
+      "image": 189,
+      "source": "Ruina121/game/Panorama/背景・小人の塔1.xyz",
+      "camera": [
+        144,
+        288
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 127,
+      "image": 189,
+      "source": "Ruina121/game/Panorama/背景・小人の塔1.xyz",
+      "camera": [
+        72,
+        144
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 128,
+      "image": 189,
+      "source": "Ruina121/game/Panorama/背景・小人の塔1.xyz",
+      "camera": [
+        8,
+        16
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 129,
+      "image": 190,
+      "source": "Ruina121/game/Panorama/背景・小人の塔2.xyz",
+      "camera": [
+        0,
+        0
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 6
+    },
+    {
+      "stage": 130,
+      "image": 190,
+      "source": "Ruina121/game/Panorama/背景・小人の塔2.xyz",
+      "camera": [
+        144,
+        288
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 9
+    },
+    {
+      "stage": 131,
+      "image": 190,
+      "source": "Ruina121/game/Panorama/背景・小人の塔2.xyz",
+      "camera": [
+        72,
+        144
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 8
+    },
+    {
+      "stage": 132,
+      "image": 190,
+      "source": "Ruina121/game/Panorama/背景・小人の塔2.xyz",
+      "camera": [
+        8,
+        16
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 3
+    },
+    {
+      "stage": 133,
+      "image": 191,
+      "source": "Ruina121/game/Panorama/背景・小部屋1.xyz",
+      "camera": [
+        0,
+        0
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 134,
+      "image": 527,
+      "source": "Ruina121/game/Panorama/背景・小部屋2.xyz",
+      "camera": [
+        0,
+        0
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 135,
+      "image": 527,
+      "source": "Ruina121/game/Panorama/背景・小部屋2.xyz",
+      "camera": [
+        384,
+        320
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 136,
+      "image": 527,
+      "source": "Ruina121/game/Panorama/背景・小部屋2.xyz",
+      "camera": [
+        192,
+        160
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 137,
+      "image": 527,
+      "source": "Ruina121/game/Panorama/背景・小部屋2.xyz",
+      "camera": [
+        8,
+        16
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 138,
+      "image": 166,
+      "source": "Ruina121/game/Panorama/背景・屋根裏.xyz",
+      "camera": [
+        0,
+        0
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 139,
+      "image": 166,
+      "source": "Ruina121/game/Panorama/背景・屋根裏.xyz",
+      "camera": [
+        80,
+        80
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 140,
+      "image": 166,
+      "source": "Ruina121/game/Panorama/背景・屋根裏.xyz",
+      "camera": [
+        40,
+        40
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 141,
+      "image": 166,
+      "source": "Ruina121/game/Panorama/背景・屋根裏.xyz",
+      "camera": [
+        8,
+        16
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 142,
+      "image": 528,
+      "source": "Ruina121/game/Panorama/背景・巨人の塔1-2.xyz",
+      "camera": [
+        0,
+        0
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 143,
+      "image": 528,
+      "source": "Ruina121/game/Panorama/背景・巨人の塔1-2.xyz",
+      "camera": [
+        80,
+        320
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 144,
+      "image": 528,
+      "source": "Ruina121/game/Panorama/背景・巨人の塔1-2.xyz",
+      "camera": [
+        40,
+        160
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 145,
+      "image": 528,
+      "source": "Ruina121/game/Panorama/背景・巨人の塔1-2.xyz",
+      "camera": [
+        8,
+        16
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 146,
+      "image": 192,
+      "source": "Ruina121/game/Panorama/背景・巨人の塔1.xyz",
+      "camera": [
+        0,
+        0
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 147,
+      "image": 192,
+      "source": "Ruina121/game/Panorama/背景・巨人の塔1.xyz",
+      "camera": [
+        80,
+        320
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 148,
+      "image": 192,
+      "source": "Ruina121/game/Panorama/背景・巨人の塔1.xyz",
+      "camera": [
+        40,
+        160
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 149,
+      "image": 192,
+      "source": "Ruina121/game/Panorama/背景・巨人の塔1.xyz",
+      "camera": [
+        8,
+        16
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 150,
+      "image": 193,
+      "source": "Ruina121/game/Panorama/背景・巨人の塔2.xyz",
+      "camera": [
+        0,
+        0
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 151,
+      "image": 193,
+      "source": "Ruina121/game/Panorama/背景・巨人の塔2.xyz",
+      "camera": [
+        80,
+        320
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 152,
+      "image": 193,
+      "source": "Ruina121/game/Panorama/背景・巨人の塔2.xyz",
+      "camera": [
+        40,
+        160
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 153,
+      "image": 193,
+      "source": "Ruina121/game/Panorama/背景・巨人の塔2.xyz",
+      "camera": [
+        8,
+        16
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 154,
+      "image": 187,
+      "source": "Ruina121/game/Panorama/背景・帝都.xyz",
+      "camera": [
+        0,
+        0
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 155,
+      "image": 187,
+      "source": "Ruina121/game/Panorama/背景・帝都.xyz",
+      "camera": [
+        240,
+        224
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 156,
+      "image": 187,
+      "source": "Ruina121/game/Panorama/背景・帝都.xyz",
+      "camera": [
+        120,
+        112
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 157,
+      "image": 187,
+      "source": "Ruina121/game/Panorama/背景・帝都.xyz",
+      "camera": [
+        8,
+        16
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 158,
+      "image": 196,
+      "source": "Ruina121/game/Panorama/背景・帝都最終.xyz",
+      "camera": [
+        0,
+        0
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 159,
+      "image": 196,
+      "source": "Ruina121/game/Panorama/背景・帝都最終.xyz",
+      "camera": [
+        80,
+        80
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 160,
+      "image": 196,
+      "source": "Ruina121/game/Panorama/背景・帝都最終.xyz",
+      "camera": [
+        40,
+        40
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 161,
+      "image": 196,
+      "source": "Ruina121/game/Panorama/背景・帝都最終.xyz",
+      "camera": [
+        8,
+        16
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 162,
+      "image": 169,
+      "source": "Ruina121/game/Panorama/背景・広場.xyz",
+      "camera": [
+        0,
+        0
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 163,
+      "image": 169,
+      "source": "Ruina121/game/Panorama/背景・広場.xyz",
+      "camera": [
+        80,
+        80
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 164,
+      "image": 169,
+      "source": "Ruina121/game/Panorama/背景・広場.xyz",
+      "camera": [
+        40,
+        40
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 165,
+      "image": 169,
+      "source": "Ruina121/game/Panorama/背景・広場.xyz",
+      "camera": [
+        8,
+        16
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 166,
+      "image": 170,
+      "source": "Ruina121/game/Panorama/背景・広場夜.xyz",
+      "camera": [
+        0,
+        0
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 167,
+      "image": 170,
+      "source": "Ruina121/game/Panorama/背景・広場夜.xyz",
+      "camera": [
+        80,
+        80
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 168,
+      "image": 170,
+      "source": "Ruina121/game/Panorama/背景・広場夜.xyz",
+      "camera": [
+        40,
+        40
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 169,
+      "image": 170,
+      "source": "Ruina121/game/Panorama/背景・広場夜.xyz",
+      "camera": [
+        8,
+        16
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 170,
+      "image": 203,
+      "source": "Ruina121/game/Panorama/背景・忘却界.xyz",
+      "camera": [
+        0,
+        0
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 171,
+      "image": 203,
+      "source": "Ruina121/game/Panorama/背景・忘却界.xyz",
+      "camera": [
+        144,
+        192
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 172,
+      "image": 203,
+      "source": "Ruina121/game/Panorama/背景・忘却界.xyz",
+      "camera": [
+        72,
+        96
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 173,
+      "image": 203,
+      "source": "Ruina121/game/Panorama/背景・忘却界.xyz",
+      "camera": [
+        8,
+        16
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 174,
+      "image": 173,
+      "source": "Ruina121/game/Panorama/背景・料理.xyz",
+      "camera": [
+        0,
+        0
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 175,
+      "image": 173,
+      "source": "Ruina121/game/Panorama/背景・料理.xyz",
+      "camera": [
+        80,
+        80
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 176,
+      "image": 173,
+      "source": "Ruina121/game/Panorama/背景・料理.xyz",
+      "camera": [
+        40,
+        40
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 177,
+      "image": 173,
+      "source": "Ruina121/game/Panorama/背景・料理.xyz",
+      "camera": [
+        8,
+        16
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 178,
+      "image": 178,
+      "source": "Ruina121/game/Panorama/背景・料理選択.xyz",
+      "camera": [
+        0,
+        0
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 179,
+      "image": 178,
+      "source": "Ruina121/game/Panorama/背景・料理選択.xyz",
+      "camera": [
+        80,
+        288
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 180,
+      "image": 178,
+      "source": "Ruina121/game/Panorama/背景・料理選択.xyz",
+      "camera": [
+        40,
+        144
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 181,
+      "image": 178,
+      "source": "Ruina121/game/Panorama/背景・料理選択.xyz",
+      "camera": [
+        8,
+        16
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 182,
+      "image": 202,
+      "source": "Ruina121/game/Panorama/背景・星界.xyz",
+      "camera": [
+        0,
+        0
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 183,
+      "image": 202,
+      "source": "Ruina121/game/Panorama/背景・星界.xyz",
+      "camera": [
+        80,
+        320
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 184,
+      "image": 202,
+      "source": "Ruina121/game/Panorama/背景・星界.xyz",
+      "camera": [
+        40,
+        160
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 185,
+      "image": 202,
+      "source": "Ruina121/game/Panorama/背景・星界.xyz",
+      "camera": [
+        8,
+        16
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 186,
+      "image": 172,
+      "source": "Ruina121/game/Panorama/背景・港1.xyz",
+      "camera": [
+        0,
+        0
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 187,
+      "image": 172,
+      "source": "Ruina121/game/Panorama/背景・港1.xyz",
+      "camera": [
+        80,
+        288
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 188,
+      "image": 172,
+      "source": "Ruina121/game/Panorama/背景・港1.xyz",
+      "camera": [
+        40,
+        144
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 189,
+      "image": 172,
+      "source": "Ruina121/game/Panorama/背景・港1.xyz",
+      "camera": [
+        8,
+        16
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 190,
+      "image": 529,
+      "source": "Ruina121/game/Panorama/背景・港2.xyz",
+      "camera": [
+        0,
+        0
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 191,
+      "image": 529,
+      "source": "Ruina121/game/Panorama/背景・港2.xyz",
+      "camera": [
+        80,
+        288
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 192,
+      "image": 529,
+      "source": "Ruina121/game/Panorama/背景・港2.xyz",
+      "camera": [
+        40,
+        144
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 193,
+      "image": 529,
+      "source": "Ruina121/game/Panorama/背景・港2.xyz",
+      "camera": [
+        8,
+        16
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 194,
+      "image": 1,
+      "source": "Ruina121/game/Panorama/背景・滝の洞窟.xyz",
+      "camera": [
+        0,
+        0
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 195,
+      "image": 1,
+      "source": "Ruina121/game/Panorama/背景・滝の洞窟.xyz",
+      "camera": [
+        80,
+        80
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 196,
+      "image": 1,
+      "source": "Ruina121/game/Panorama/背景・滝の洞窟.xyz",
+      "camera": [
+        40,
+        40
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 197,
+      "image": 1,
+      "source": "Ruina121/game/Panorama/背景・滝の洞窟.xyz",
+      "camera": [
+        8,
+        16
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 198,
+      "image": 530,
+      "source": "Ruina121/game/Panorama/背景・潜入01.xyz",
+      "camera": [
+        0,
+        0
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 199,
+      "image": 530,
+      "source": "Ruina121/game/Panorama/背景・潜入01.xyz",
+      "camera": [
+        192,
+        144
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 200,
+      "image": 530,
+      "source": "Ruina121/game/Panorama/背景・潜入01.xyz",
+      "camera": [
+        96,
+        72
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 201,
+      "image": 530,
+      "source": "Ruina121/game/Panorama/背景・潜入01.xyz",
+      "camera": [
+        8,
+        16
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 202,
+      "image": 531,
+      "source": "Ruina121/game/Panorama/背景・潜入02.xyz",
+      "camera": [
+        0,
+        0
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 203,
+      "image": 531,
+      "source": "Ruina121/game/Panorama/背景・潜入02.xyz",
+      "camera": [
+        192,
+        144
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 204,
+      "image": 531,
+      "source": "Ruina121/game/Panorama/背景・潜入02.xyz",
+      "camera": [
+        96,
+        72
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 205,
+      "image": 531,
+      "source": "Ruina121/game/Panorama/背景・潜入02.xyz",
+      "camera": [
+        8,
+        16
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 206,
+      "image": 201,
+      "source": "Ruina121/game/Panorama/背景・潜入03.xyz",
+      "camera": [
+        0,
+        0
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 207,
+      "image": 201,
+      "source": "Ruina121/game/Panorama/背景・潜入03.xyz",
+      "camera": [
+        192,
+        144
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 208,
+      "image": 201,
+      "source": "Ruina121/game/Panorama/背景・潜入03.xyz",
+      "camera": [
+        96,
+        72
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 209,
+      "image": 201,
+      "source": "Ruina121/game/Panorama/背景・潜入03.xyz",
+      "camera": [
+        8,
+        16
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 210,
+      "image": 182,
+      "source": "Ruina121/game/Panorama/背景・竜の塔1.xyz",
+      "camera": [
+        0,
+        0
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 211,
+      "image": 182,
+      "source": "Ruina121/game/Panorama/背景・竜の塔1.xyz",
+      "camera": [
+        80,
+        320
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 212,
+      "image": 182,
+      "source": "Ruina121/game/Panorama/背景・竜の塔1.xyz",
+      "camera": [
+        40,
+        160
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 213,
+      "image": 182,
+      "source": "Ruina121/game/Panorama/背景・竜の塔1.xyz",
+      "camera": [
+        8,
+        16
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 214,
+      "image": 183,
+      "source": "Ruina121/game/Panorama/背景・竜の塔2.xyz",
+      "camera": [
+        0,
+        0
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 215,
+      "image": 183,
+      "source": "Ruina121/game/Panorama/背景・竜の塔2.xyz",
+      "camera": [
+        256,
+        288
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 216,
+      "image": 183,
+      "source": "Ruina121/game/Panorama/背景・竜の塔2.xyz",
+      "camera": [
+        128,
+        144
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 217,
+      "image": 183,
+      "source": "Ruina121/game/Panorama/背景・竜の塔2.xyz",
+      "camera": [
+        8,
+        16
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 218,
+      "image": 200,
+      "source": "Ruina121/game/Panorama/背景・西の戦場.xyz",
+      "camera": [
+        0,
+        0
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 219,
+      "image": 200,
+      "source": "Ruina121/game/Panorama/背景・西の戦場.xyz",
+      "camera": [
+        80,
+        80
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 220,
+      "image": 200,
+      "source": "Ruina121/game/Panorama/背景・西の戦場.xyz",
+      "camera": [
+        40,
+        40
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 221,
+      "image": 200,
+      "source": "Ruina121/game/Panorama/背景・西の戦場.xyz",
+      "camera": [
+        8,
+        16
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 222,
+      "image": 167,
+      "source": "Ruina121/game/Panorama/背景・賢者の庵.xyz",
+      "camera": [
+        0,
+        0
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 223,
+      "image": 167,
+      "source": "Ruina121/game/Panorama/背景・賢者の庵.xyz",
+      "camera": [
+        80,
+        80
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 224,
+      "image": 167,
+      "source": "Ruina121/game/Panorama/背景・賢者の庵.xyz",
+      "camera": [
+        40,
+        40
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 225,
+      "image": 167,
+      "source": "Ruina121/game/Panorama/背景・賢者の庵.xyz",
+      "camera": [
+        8,
+        16
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 226,
+      "image": 3,
+      "source": "Ruina121/game/Panorama/背景・酒場.xyz",
+      "camera": [
+        0,
+        0
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 227,
+      "image": 3,
+      "source": "Ruina121/game/Panorama/背景・酒場.xyz",
+      "camera": [
+        80,
+        80
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 228,
+      "image": 3,
+      "source": "Ruina121/game/Panorama/背景・酒場.xyz",
+      "camera": [
+        40,
+        40
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 229,
+      "image": 3,
+      "source": "Ruina121/game/Panorama/背景・酒場.xyz",
+      "camera": [
+        8,
+        16
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 230,
+      "image": 199,
+      "source": "Ruina121/game/Panorama/背景・野外.xyz",
+      "camera": [
+        0,
+        0
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 231,
+      "image": 199,
+      "source": "Ruina121/game/Panorama/背景・野外.xyz",
+      "camera": [
+        192,
+        224
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 232,
+      "image": 199,
+      "source": "Ruina121/game/Panorama/背景・野外.xyz",
+      "camera": [
+        96,
+        112
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 233,
+      "image": 199,
+      "source": "Ruina121/game/Panorama/背景・野外.xyz",
+      "camera": [
+        8,
+        16
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 234,
+      "image": 165,
+      "source": "Ruina121/game/Panorama/背景・領主の館.xyz",
+      "camera": [
+        0,
+        0
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 235,
+      "image": 165,
+      "source": "Ruina121/game/Panorama/背景・領主の館.xyz",
+      "camera": [
+        80,
+        80
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 236,
+      "image": 165,
+      "source": "Ruina121/game/Panorama/背景・領主の館.xyz",
+      "camera": [
+        40,
+        40
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    },
+    {
+      "stage": 237,
+      "image": 165,
+      "source": "Ruina121/game/Panorama/背景・領主の館.xyz",
+      "camera": [
+        8,
+        16
+      ],
+      "display_different_pixels": 0,
+      "original_RGB555_different_pixels": 0
+    }
+  ],
+  "physical_hardware": "not_run"
+}

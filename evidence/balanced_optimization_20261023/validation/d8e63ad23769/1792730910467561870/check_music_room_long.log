@@ -1,0 +1,46 @@
+music_list_down 2 33.49 ms; black 0
+music_list_up 2 33.49 ms; black 0
+music_list_down 2 33.49 ms; black 0
+music_list_up 2 33.49 ms; black 0
+music_list_down 2 33.49 ms; black 0
+music_list_up 2 33.49 ms; black 0
+{
+  "status": "pass",
+  "ROM_sha256": "d8e63ad23769ed03f990420723b3c042f3e147b23565e2c23f4c0f67bbe1e780",
+  "target_loops": 2,
+  "loops_observed": 2,
+  "voice_overflows": 0,
+  "scope": "Real title-menu selection of INT03 in appreciation timbre, from source zero through the declared loops, actual visible seven-track list and playback timer. First60 observer frames excluded from underrun accounting only.",
+  "underruns_after_startup": 0,
+  "observed_GBA_seconds": 119.54292297363281,
+  "source_clock_ratio": 1.0000003829282909,
+  "UI_metrics": [
+    1,
+    19,
+    151,
+    124,
+    1
+  ],
+  "input_response": [
+    {
+      "action": "music_list_down",
+      "samples": 3,
+      "response_ms_min": 33.48541259765625,
+      "response_ms_max": 33.48541259765625,
+      "response_ms_mean": 33.48541259765625,
+      "black_frames": 0,
+      "intermediate_LCD_frames": 0
+    },
+    {
+      "action": "music_list_up",
+      "samples": 3,
+      "response_ms_min": 33.48541259765625,
+      "response_ms_max": 33.48541259765625,
+      "response_ms_mean": 33.48541259765625,
+      "black_frames": 0,
+      "intermediate_LCD_frames": 0
+    }
+  ],
+  "host_seconds": 10.743811673000891,
+  "hardware": "not_run"
+}

@@ -1,0 +1,6 @@
+{
+  "status": "extracted_for_rebuild",
+  "root": "/tmp/ruina-v062-attribution-compare-37ips4e_/废都物语_GBA_匹配工程_v0.6.2_20261022",
+  "source_ZIP": "/mnt/c/Users/APP/Downloads/废都物语_GBA_匹配工程_v0.6.2_20261022.zip",
+  "rejected_early_launch": "Attempted to read staging record before extraction process completed. No rebuild or file mutation occurred. Corrected by waiting for session72232 exit0."
+}

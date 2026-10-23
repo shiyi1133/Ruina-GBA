@@ -1,0 +1,10 @@
+{
+  "status": "pass",
+  "unix": 1792726729.2139022,
+  "production_ROM_sha256": "6e70c2dc0b4c10a2c9a3aae4f52201ade7a9c652b0e48faa1aa4268b900626d6",
+  "previously_accepted_report_files_checked": 21,
+  "changed_reports": [],
+  "visual_sheets_checked": 4,
+  "changed_visual_sheets": [],
+  "scope": "Checks recorded content hashes from before the I/O interruption, not a new claim of full gameplay coverage."
+}

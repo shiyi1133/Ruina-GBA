@@ -1,0 +1,10 @@
+{
+  "format": "local RGB555 palettes; independently compressed 8x8 8bpp tiles; native image dimensions",
+  "ordinary_images": 561,
+  "unique_compressed_tiles": 190617,
+  "tile_pool_bytes": 9765420,
+  "scene_palette_variants": 480,
+  "scene_lookup_bytes": 3887104,
+  "generator_sha256": "2aa5c7c0328f6439cfeb9e7fc069a276efe86e6854bee0290cb42ac701b96911"
+}
+ASSETS 8711 FONT 5293 UNCHANGED AUDIO SOURCES 4

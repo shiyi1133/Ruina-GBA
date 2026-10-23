@@ -1,0 +1,32 @@
+Preparing a separate source project
+Rebuilding staged base and RGB555 target without original archive or image libraries
+Checking actual source ZIP, then rebuilding both targets from a fresh extraction
+Verified; copying the new delivery without overwriting earlier releases
+{
+  "status": "delivered",
+  "UTC": "2026-10-22T09:13:06.638153+00:00",
+  "ROM": "/mnt/c/Users/APP/Downloads/废都物语_GBA_开场画质预览_20261022/废都物语_GBA_开场画质预览_RGB555.gba",
+  "ROM_sha256": "360c2d70750969f814da9e95244c279669dd431dd1d7bb0134701fcf9f1acc64",
+  "ROM_bytes": 33377816,
+  "DEMO_ZIP": "/mnt/c/Users/APP/Downloads/废都物语_GBA_开场画质预览_20261022.zip",
+  "SOURCE_ZIP": "/mnt/c/Users/APP/Downloads/废都物语_GBA_开场画质预览_匹配工程_20261022.zip",
+  "SOURCE_ZIP_sha256": "f738c5943e60180adcbfb501bdd36300accf7f3f7e156e4960cb40a6cef4e1cc",
+  "actual_source_ZIP_rebuild": {
+    "status": "pass",
+    "base_v062_ROM_sha256": "1db4e8b86af4cc3b4e71abdc983f9a8e5a2c84eb5784738258912a75750e1561",
+    "quality_preview_ROM_sha256": "360c2d70750969f814da9e95244c279669dd431dd1d7bb0134701fcf9f1acc64",
+    "original_archive_access": "disabled by nonexistent path",
+    "font_access": "disabled by nonexistent path",
+    "asset_python_access": "disabled by nonexistent path",
+    "python_site_packages": "disabled by -S",
+    "environment": "Linux/WSL, external GNU Arm toolchain; native Windows not tested",
+    "wall_seconds": 10.094483581997338,
+    "source_ZIP_sha256": "f738c5943e60180adcbfb501bdd36300accf7f3f7e156e4960cb40a6cef4e1cc",
+    "manifest_files_verified": 11858,
+    "archive_CRC": "pass",
+    "fresh_extraction": true
+  },
+  "scope": "opening through first map viewer only",
+  "hardware": "not_run",
+  "full_game": "not_run"
+}

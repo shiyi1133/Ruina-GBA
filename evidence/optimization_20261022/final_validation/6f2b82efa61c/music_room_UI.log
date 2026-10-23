@@ -1,0 +1,58 @@
+{
+  "status": "pass",
+  "kind": "actual production ROM title-menu inputs, no memory writes or save states",
+  "production_rom_sha256": "6f2b82efa61cd015f0216127dc875a61654a74b155d1f532897d7e7e015bee23",
+  "checks": {
+    "105_music_entries_on_title_menu": true,
+    "MIDI_pause_resume_and_quality_seek": true,
+    "shoulder_buttons_change_and_play_tracks": true,
+    "selection_wraps_up_to_last_track": true,
+    "all_six_WAV_quality_toggles_keep_position_and_pause": true,
+    "exit_restores_normal_quality_clock_and_previous_silence": true
+  },
+  "seek_observations": [
+    {
+      "name": "first_MIDI",
+      "paused_position_before": 32016,
+      "after_quality_switch": 32016,
+      "remains_paused": true
+    },
+    {
+      "name": "WAV_323",
+      "paused_position_before": 5886,
+      "after_quality_switch": 5886,
+      "remains_paused": true
+    },
+    {
+      "name": "WAV_322",
+      "paused_position_before": 32896,
+      "after_quality_switch": 32896,
+      "remains_paused": true
+    },
+    {
+      "name": "WAV_321",
+      "paused_position_before": 32896,
+      "after_quality_switch": 32896,
+      "remains_paused": true
+    },
+    {
+      "name": "WAV_320",
+      "paused_position_before": 32896,
+      "after_quality_switch": 32896,
+      "remains_paused": true
+    },
+    {
+      "name": "WAV_319",
+      "paused_position_before": 32896,
+      "after_quality_switch": 32896,
+      "remains_paused": true
+    },
+    {
+      "name": "WAV_318",
+      "paused_position_before": 32896,
+      "after_quality_switch": 32896,
+      "remains_paused": true
+    }
+  ],
+  "physical_hardware": "not_run"
+}

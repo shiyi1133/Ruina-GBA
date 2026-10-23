@@ -1,0 +1,147 @@
+{
+  "status": "pass",
+  "production_ROM_sha256": "d8e63ad23769ed03f990420723b3c042f3e147b23565e2c23f4c0f67bbe1e780",
+  "baseline_ROM_sha256": "1db4e8b86af4cc3b4e71abdc983f9a8e5a2c84eb5784738258912a75750e1561",
+  "unchanged_payloads": [
+    {
+      "path": "build/original_lcf.bin",
+      "SHA256": "03042b9da41392bf8a9766cd9820184ebaaf8bb510fa8aea98a8e93159cc37e1",
+      "same_as_v062": true
+    },
+    {
+      "path": "build/commands.bin",
+      "SHA256": "57d77eb2b07e4487a6171a79e00445f48941913707cfd55f49424a52ac2cba08",
+      "same_as_v062": true
+    },
+    {
+      "path": "build/pages.bin",
+      "SHA256": "ec64f55c07c166a820eb3b7bf7a4e6212bddac31634e661f21313323d173dc83",
+      "same_as_v062": true
+    },
+    {
+      "path": "build/audio.bin",
+      "SHA256": "c2e794c7065cd2dd311d2fd97d199db2331c41fb00c01964a25e47ba82ab0961",
+      "same_as_v062": true
+    },
+    {
+      "path": "build/portraits.bin",
+      "SHA256": "cc29d4bdcd2725f8eeb8b11c759287f02380aabc9be69add3d8de4fe247856eb",
+      "same_as_v062": true
+    },
+    {
+      "path": "build/portrait_combinations.bin",
+      "SHA256": "53b47aaca84933b203e01a450a7e5f08f5f17b8e7e1d4c1f5f6f0a31d6af8339",
+      "same_as_v062": true
+    },
+    {
+      "path": "build/characters.bin",
+      "SHA256": "a40f86f3dc5ae84c858f57068b88c22f6a521afba3d37550f582adfb4b08e839",
+      "same_as_v062": true
+    },
+    {
+      "path": "build/palette_lookup.bin",
+      "SHA256": "f83718804e70cb87892c0e5189b73fc8d6f268a95cf53efe1bcc68503263f3e8",
+      "same_as_v062": true
+    },
+    {
+      "path": "build/high_color_blobs.bin",
+      "SHA256": "ecf45a42fd2a8add868671ad741d8622972b72a64a0b1f87e24b65235d4ebf72",
+      "same_as_v062": true
+    }
+  ],
+  "unchanged_runtime_sources": [
+    "runtime/rm2k/animations.c",
+    "runtime/rm2k/equipment.c",
+    "runtime/rm2k/field_skills.c",
+    "runtime/rm2k/interpreter.c",
+    "runtime/rm2k/lcf.c",
+    "runtime/rm2k/light_midi.c",
+    "runtime/rm2k/map_info.c",
+    "runtime/rm2k/map_rules.c",
+    "runtime/rm2k/movement.c",
+    "runtime/rm2k/native_midi.c",
+    "runtime/rm2k/parallel.c",
+    "runtime/rm2k/presentation.c",
+    "runtime/rm2k/rm2k_rules.c",
+    "runtime/rm2k/timers.c"
+  ],
+  "modified_runtime_sources": [
+    "runtime/rm2k/battle.c",
+    "runtime/rm2k/inventory.c",
+    "runtime/rm2k/pictures.c",
+    "runtime/rm2k/shop.c",
+    "runtime/rm2k/state.c",
+    "runtime/rm2k/storage_codec.c",
+    "runtime/rm2k/world.c"
+  ],
+  "unchanged_combat_rule_functions": [
+    {
+      "function": "normal_attack",
+      "SHA256": "3186d46d1ad3f36fd0cd78fd3d8c11db9ed76cf28db0afcc63a01bb372ce04cd",
+      "same_as_pre_UI_repair": true
+    },
+    {
+      "function": "normal_action",
+      "SHA256": "44f60f00b1074d6a65a6547af84fe168255c1b74df92b6215d907efcea162c1e",
+      "same_as_pre_UI_repair": true
+    },
+    {
+      "function": "skill_usable",
+      "SHA256": "6f11491a4d59aaf45cec570b89e7e3a30b07549bb6d1f3a35b4ef565850994b4",
+      "same_as_pre_UI_repair": true
+    },
+    {
+      "function": "skill_cost",
+      "SHA256": "7821fea24064df6d5d2e12329520bc559406d7fc5884f609d961ce66dda18e74",
+      "same_as_pre_UI_repair": true
+    },
+    {
+      "function": "skill_effect",
+      "SHA256": "02f2a58f28229ead83e415edeae8ef883f9b478896429fb815f0e416fa3eb7c6",
+      "same_as_pre_UI_repair": true
+    },
+    {
+      "function": "use_skill",
+      "SHA256": "3b9fda6ac9442a77ac040f061bc9835304ad957d800537590ec89d0972994da2",
+      "same_as_pre_UI_repair": true
+    },
+    {
+      "function": "use_battle_item",
+      "SHA256": "9ff86eb098db0675ba3c3f229f3d737969bd1c58dc694d4fc4ff281f2f26af0d",
+      "same_as_pre_UI_repair": true
+    },
+    {
+      "function": "enemy_plan",
+      "SHA256": "78d06ac381810df5580af440045832dea48497cc63968c373359452069e60398",
+      "same_as_pre_UI_repair": true
+    },
+    {
+      "function": "unit_turn",
+      "SHA256": "98407539162b1aa53835a38aa86a2ff34721c687a6b543b4820fb44f2c137ff7",
+      "same_as_pre_UI_repair": true
+    },
+    {
+      "function": "action_valid",
+      "SHA256": "2f8893b71999410b9df2c926eaf40d1126ee0e7b4857d4dec317e09a1fc88f64",
+      "same_as_pre_UI_repair": true
+    },
+    {
+      "function": "auto_plan",
+      "SHA256": "85e1239fddfd00bd6599cba43af7836976222114b4438beb64967d12cbe0404a",
+      "same_as_pre_UI_repair": true
+    },
+    {
+      "function": "skill_rank_target",
+      "SHA256": "b89143e878b41457d7dadc511b79cbaea5644a65ec8578355c0093c6fd356ca9",
+      "same_as_pre_UI_repair": true
+    },
+    {
+      "function": "normal_rank_target",
+      "SHA256": "6b7d6b595785dd80d9bcb993d72939e03e4a06f0f48257f51df8aae4a973c9bd",
+      "same_as_pre_UI_repair": true
+    }
+  ],
+  "combat_reference": "40820faea497163e7bae56fd83600b2ea1870a5bd8255409e75906897c2e9958",
+  "scope": "Byte identity of original game payloads; selected combat formula/AI functions also retain exact pre-menu-repair bodies. UI planning now supports nested cancellation, restores provisional RNG/actions, keeps cursor selection and reuses exact RGB555 background pixels. This is not complete RPG_RT or full-campaign equivalence.",
+  "attribution": "In-game production information page plus CREDITS.txt; title artwork unchanged as independently checked."
+}

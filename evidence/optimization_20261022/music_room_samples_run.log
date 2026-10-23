@@ -1,0 +1,29 @@
+{
+  "status": "pass",
+  "production_rom_sha256": "2416a8e950d764c790dd55a309d615de4c0dc9420fa791e6b9cd3535fab8824f",
+  "kind": "actual production title music room, fresh process and buttons, original first score scene19, both deliberately simplified modes",
+  "recordings": [
+    {
+      "quality": 0,
+      "file": "游玩音色_实际录音.wav",
+      "frames": 329174,
+      "rate": 32768,
+      "channels": 2,
+      "seconds": 10.04559326171875,
+      "RMS": 859.1355382595627,
+      "underruns_during_recording": 0
+    },
+    {
+      "quality": 1,
+      "file": "欣赏音色_实际录音.wav",
+      "frames": 329176,
+      "rate": 32768,
+      "channels": 2,
+      "seconds": 10.045654296875,
+      "RMS": 869.6052331522328,
+      "underruns_during_recording": 0
+    }
+  ],
+  "source_audio_timbre": "simplified in both; no original-SoundFont claim",
+  "physical_hardware": "not_run"
+}

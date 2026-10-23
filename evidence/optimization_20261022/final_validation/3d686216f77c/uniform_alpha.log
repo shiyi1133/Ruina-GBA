@@ -1,0 +1,24 @@
+{
+  "status": "pass",
+  "kind": "actual GBA pixels over 256 destination palette colors, independent channel alpha/tint arithmetic, original converted source pixels",
+  "cases": [
+    "opaque background",
+    "70 percent transparency",
+    "25 percent transparency",
+    "opaque source",
+    "fully transparent source",
+    "colored source plus tint and alpha"
+  ],
+  "different_pixels": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "production_rom_sha256": "3d686216f77cd59e4a7bcf1769822bda713d2ec5756d0f218df9ca744afb6c73",
+  "fixture_sha256": "938dc57721300eac9f857cc9c8818cae89cc42131791e5d28b1554771626b02b",
+  "alpha_precision": "33 blend weights, nearest RGB555 palette color; no spatial dither",
+  "hardware": "not_run"
+}

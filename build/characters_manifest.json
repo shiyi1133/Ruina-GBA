@@ -1,0 +1,636 @@
+{
+  "format": "native 24x32 actors, unreduced 8bpp RGB555 colors, all 12 poses pre-tiled",
+  "characters": 72,
+  "poses": 864,
+  "bytes": 922488,
+  "exact_characters": 72,
+  "changed_RGB555_pixels": 0,
+  "visible_pixels": 143529,
+  "sources": [
+    {
+      "path": "Ruina121/game/CharSet/chara05_c.xyz",
+      "sha256": "0897fc1936a1129cda7c57994f63859f7dad4d364eff59bac1fc47797ca868ff",
+      "image": 540
+    },
+    {
+      "path": "Ruina121/game/CharSet/乗り物.xyz",
+      "sha256": "b8558c1270330084cf8b611370ac676cd9639f5e99b7f8229687cb93da631fbf",
+      "image": 541
+    },
+    {
+      "path": "Ruina121/game/CharSet/廃都キャラクター.xyz",
+      "sha256": "c818d0be3bcead5a2b5ae09c8e8f175641775b782d5f8a00afe693ad37deeeb7",
+      "image": 542
+    },
+    {
+      "path": "Ruina121/game/CharSet/廃都キャラクター2.xyz",
+      "sha256": "7788e5fa064834745be09b1d8fc67dba60e1f4c852de4ab9f6cdda48520243d1",
+      "image": 543
+    },
+    {
+      "path": "Ruina121/game/CharSet/廃都キャラ顔絵主役女.xyz",
+      "sha256": "83c10b3e078fd4f9a1a2281c8877b466ba8eb82cf60ae3aa86de88261e79126a",
+      "image": 544
+    },
+    {
+      "path": "Ruina121/game/CharSet/廃都キャラ顔絵主役男.xyz",
+      "sha256": "f211d3ab3a101f5d7fd02b015078ab7c7b2151b6eac5d4962a18a004d152f0eb",
+      "image": 545
+    },
+    {
+      "path": "Ruina121/game/CharSet/廃都キャラ顔絵仲間05-12.xyz",
+      "sha256": "fb994f3996ff539d755a9daf06fecd1fa22c1c64d31fb843de2c27539ec8fdbd",
+      "image": 546
+    },
+    {
+      "path": "Ruina121/game/CharSet/廃都キャラ顔絵仲間13-20.xyz",
+      "sha256": "309db57e802b397d51f419a0f7b46a61e2f1776d9e08570758ba6d2daa62c6ea",
+      "image": 547
+    },
+    {
+      "path": "Ruina121/game/CharSet/廃都戦争キャラ.xyz",
+      "sha256": "0d83aaa84405228ac6f2cd04f2f8d07b2c90babfa5f8b0987cd749537cd34d70",
+      "image": 548
+    }
+  ],
+  "characters_detail": [
+    {
+      "image": 540,
+      "index": 0,
+      "source_colors": 31,
+      "visible_pixels": 5376,
+      "changed_RGB555_pixels": 0,
+      "exact_RGB555": true
+    },
+    {
+      "image": 540,
+      "index": 1,
+      "source_colors": 5,
+      "visible_pixels": 1298,
+      "changed_RGB555_pixels": 0,
+      "exact_RGB555": true
+    },
+    {
+      "image": 540,
+      "index": 2,
+      "source_colors": 21,
+      "visible_pixels": 861,
+      "changed_RGB555_pixels": 0,
+      "exact_RGB555": true
+    },
+    {
+      "image": 540,
+      "index": 3,
+      "source_colors": 11,
+      "visible_pixels": 430,
+      "changed_RGB555_pixels": 0,
+      "exact_RGB555": true
+    },
+    {
+      "image": 540,
+      "index": 4,
+      "source_colors": 12,
+      "visible_pixels": 1437,
+      "changed_RGB555_pixels": 0,
+      "exact_RGB555": true
+    },
+    {
+      "image": 540,
+      "index": 5,
+      "source_colors": 5,
+      "visible_pixels": 1831,
+      "changed_RGB555_pixels": 0,
+      "exact_RGB555": true
+    },
+    {
+      "image": 540,
+      "index": 6,
+      "source_colors": 3,
+      "visible_pixels": 192,
+      "changed_RGB555_pixels": 0,
+      "exact_RGB555": true
+    },
+    {
+      "image": 540,
+      "index": 7,
+      "source_colors": 3,
+      "visible_pixels": 126,
+      "changed_RGB555_pixels": 0,
+      "exact_RGB555": true
+    },
+    {
+      "image": 541,
+      "index": 0,
+      "source_colors": 27,
+      "visible_pixels": 4168,
+      "changed_RGB555_pixels": 0,
+      "exact_RGB555": true
+    },
+    {
+      "image": 541,
+      "index": 1,
+      "source_colors": 22,
+      "visible_pixels": 4462,
+      "changed_RGB555_pixels": 0,
+      "exact_RGB555": true
+    },
+    {
+      "image": 541,
+      "index": 2,
+      "source_colors": 19,
+      "visible_pixels": 4197,
+      "changed_RGB555_pixels": 0,
+      "exact_RGB555": true
+    },
+    {
+      "image": 541,
+      "index": 3,
+      "source_colors": 20,
+      "visible_pixels": 3672,
+      "changed_RGB555_pixels": 0,
+      "exact_RGB555": true
+    },
+    {
+      "image": 541,
+      "index": 4,
+      "source_colors": 15,
+      "visible_pixels": 2844,
+      "changed_RGB555_pixels": 0,
+      "exact_RGB555": true
+    },
+    {
+      "image": 541,
+      "index": 5,
+      "source_colors": 18,
+      "visible_pixels": 4648,
+      "changed_RGB555_pixels": 0,
+      "exact_RGB555": true
+    },
+    {
+      "image": 541,
+      "index": 6,
+      "source_colors": 19,
+      "visible_pixels": 2586,
+      "changed_RGB555_pixels": 0,
+      "exact_RGB555": true
+    },
+    {
+      "image": 541,
+      "index": 7,
+      "source_colors": 20,
+      "visible_pixels": 3296,
+      "changed_RGB555_pixels": 0,
+      "exact_RGB555": true
+    },
+    {
+      "image": 542,
+      "index": 0,
+      "source_colors": 3,
+      "visible_pixels": 1524,
+      "changed_RGB555_pixels": 0,
+      "exact_RGB555": true
+    },
+    {
+      "image": 542,
+      "index": 1,
+      "source_colors": 12,
+      "visible_pixels": 456,
+      "changed_RGB555_pixels": 0,
+      "exact_RGB555": true
+    },
+    {
+      "image": 542,
+      "index": 2,
+      "source_colors": 12,
+      "visible_pixels": 456,
+      "changed_RGB555_pixels": 0,
+      "exact_RGB555": true
+    },
+    {
+      "image": 542,
+      "index": 3,
+      "source_colors": 10,
+      "visible_pixels": 912,
+      "changed_RGB555_pixels": 0,
+      "exact_RGB555": true
+    },
+    {
+      "image": 542,
+      "index": 4,
+      "source_colors": 7,
+      "visible_pixels": 840,
+      "changed_RGB555_pixels": 0,
+      "exact_RGB555": true
+    },
+    {
+      "image": 542,
+      "index": 5,
+      "source_colors": 6,
+      "visible_pixels": 516,
+      "changed_RGB555_pixels": 0,
+      "exact_RGB555": true
+    },
+    {
+      "image": 542,
+      "index": 6,
+      "source_colors": 1,
+      "visible_pixels": 3072,
+      "changed_RGB555_pixels": 0,
+      "exact_RGB555": true
+    },
+    {
+      "image": 542,
+      "index": 7,
+      "source_colors": 0,
+      "visible_pixels": 0,
+      "changed_RGB555_pixels": 0,
+      "exact_RGB555": true
+    },
+    {
+      "image": 543,
+      "index": 0,
+      "source_colors": 13,
+      "visible_pixels": 540,
+      "changed_RGB555_pixels": 0,
+      "exact_RGB555": true
+    },
+    {
+      "image": 543,
+      "index": 1,
+      "source_colors": 13,
+      "visible_pixels": 540,
+      "changed_RGB555_pixels": 0,
+      "exact_RGB555": true
+    },
+    {
+      "image": 543,
+      "index": 2,
+      "source_colors": 12,
+      "visible_pixels": 456,
+      "changed_RGB555_pixels": 0,
+      "exact_RGB555": true
+    },
+    {
+      "image": 543,
+      "index": 3,
+      "source_colors": 12,
+      "visible_pixels": 456,
+      "changed_RGB555_pixels": 0,
+      "exact_RGB555": true
+    },
+    {
+      "image": 543,
+      "index": 4,
+      "source_colors": 15,
+      "visible_pixels": 456,
+      "changed_RGB555_pixels": 0,
+      "exact_RGB555": true
+    },
+    {
+      "image": 543,
+      "index": 5,
+      "source_colors": 15,
+      "visible_pixels": 456,
+      "changed_RGB555_pixels": 0,
+      "exact_RGB555": true
+    },
+    {
+      "image": 543,
+      "index": 6,
+      "source_colors": 21,
+      "visible_pixels": 1728,
+      "changed_RGB555_pixels": 0,
+      "exact_RGB555": true
+    },
+    {
+      "image": 543,
+      "index": 7,
+      "source_colors": 4,
+      "visible_pixels": 120,
+      "changed_RGB555_pixels": 0,
+      "exact_RGB555": true
+    },
+    {
+      "image": 544,
+      "index": 0,
+      "source_colors": 87,
+      "visible_pixels": 6912,
+      "changed_RGB555_pixels": 0,
+      "exact_RGB555": true
+    },
+    {
+      "image": 544,
+      "index": 1,
+      "source_colors": 87,
+      "visible_pixels": 1728,
+      "changed_RGB555_pixels": 0,
+      "exact_RGB555": true
+    },
+    {
+      "image": 544,
+      "index": 2,
+      "source_colors": 100,
+      "visible_pixels": 1728,
+      "changed_RGB555_pixels": 0,
+      "exact_RGB555": true
+    },
+    {
+      "image": 544,
+      "index": 3,
+      "source_colors": 113,
+      "visible_pixels": 1728,
+      "changed_RGB555_pixels": 0,
+      "exact_RGB555": true
+    },
+    {
+      "image": 544,
+      "index": 4,
+      "source_colors": 0,
+      "visible_pixels": 0,
+      "changed_RGB555_pixels": 0,
+      "exact_RGB555": true
+    },
+    {
+      "image": 544,
+      "index": 5,
+      "source_colors": 0,
+      "visible_pixels": 0,
+      "changed_RGB555_pixels": 0,
+      "exact_RGB555": true
+    },
+    {
+      "image": 544,
+      "index": 6,
+      "source_colors": 68,
+      "visible_pixels": 1728,
+      "changed_RGB555_pixels": 0,
+      "exact_RGB555": true
+    },
+    {
+      "image": 544,
+      "index": 7,
+      "source_colors": 0,
+      "visible_pixels": 0,
+      "changed_RGB555_pixels": 0,
+      "exact_RGB555": true
+    },
+    {
+      "image": 545,
+      "index": 0,
+      "source_colors": 95,
+      "visible_pixels": 6912,
+      "changed_RGB555_pixels": 0,
+      "exact_RGB555": true
+    },
+    {
+      "image": 545,
+      "index": 1,
+      "source_colors": 99,
+      "visible_pixels": 1728,
+      "changed_RGB555_pixels": 0,
+      "exact_RGB555": true
+    },
+    {
+      "image": 545,
+      "index": 2,
+      "source_colors": 114,
+      "visible_pixels": 1728,
+      "changed_RGB555_pixels": 0,
+      "exact_RGB555": true
+    },
+    {
+      "image": 545,
+      "index": 3,
+      "source_colors": 81,
+      "visible_pixels": 1728,
+      "changed_RGB555_pixels": 0,
+      "exact_RGB555": true
+    },
+    {
+      "image": 545,
+      "index": 4,
+      "source_colors": 0,
+      "visible_pixels": 0,
+      "changed_RGB555_pixels": 0,
+      "exact_RGB555": true
+    },
+    {
+      "image": 545,
+      "index": 5,
+      "source_colors": 0,
+      "visible_pixels": 0,
+      "changed_RGB555_pixels": 0,
+      "exact_RGB555": true
+    },
+    {
+      "image": 545,
+      "index": 6,
+      "source_colors": 0,
+      "visible_pixels": 0,
+      "changed_RGB555_pixels": 0,
+      "exact_RGB555": true
+    },
+    {
+      "image": 545,
+      "index": 7,
+      "source_colors": 0,
+      "visible_pixels": 0,
+      "changed_RGB555_pixels": 0,
+      "exact_RGB555": true
+    },
+    {
+      "image": 546,
+      "index": 0,
+      "source_colors": 80,
+      "visible_pixels": 6912,
+      "changed_RGB555_pixels": 0,
+      "exact_RGB555": true
+    },
+    {
+      "image": 546,
+      "index": 1,
+      "source_colors": 86,
+      "visible_pixels": 6912,
+      "changed_RGB555_pixels": 0,
+      "exact_RGB555": true
+    },
+    {
+      "image": 546,
+      "index": 2,
+      "source_colors": 81,
+      "visible_pixels": 6912,
+      "changed_RGB555_pixels": 0,
+      "exact_RGB555": true
+    },
+    {
+      "image": 546,
+      "index": 3,
+      "source_colors": 58,
+      "visible_pixels": 2175,
+      "changed_RGB555_pixels": 0,
+      "exact_RGB555": true
+    },
+    {
+      "image": 546,
+      "index": 4,
+      "source_colors": 87,
+      "visible_pixels": 4800,
+      "changed_RGB555_pixels": 0,
+      "exact_RGB555": true
+    },
+    {
+      "image": 546,
+      "index": 5,
+      "source_colors": 103,
+      "visible_pixels": 4992,
+      "changed_RGB555_pixels": 0,
+      "exact_RGB555": true
+    },
+    {
+      "image": 546,
+      "index": 6,
+      "source_colors": 96,
+      "visible_pixels": 3264,
+      "changed_RGB555_pixels": 0,
+      "exact_RGB555": true
+    },
+    {
+      "image": 546,
+      "index": 7,
+      "source_colors": 63,
+      "visible_pixels": 2304,
+      "changed_RGB555_pixels": 0,
+      "exact_RGB555": true
+    },
+    {
+      "image": 547,
+      "index": 0,
+      "source_colors": 77,
+      "visible_pixels": 1728,
+      "changed_RGB555_pixels": 0,
+      "exact_RGB555": true
+    },
+    {
+      "image": 547,
+      "index": 1,
+      "source_colors": 65,
+      "visible_pixels": 1728,
+      "changed_RGB555_pixels": 0,
+      "exact_RGB555": true
+    },
+    {
+      "image": 547,
+      "index": 2,
+      "source_colors": 10,
+      "visible_pixels": 1122,
+      "changed_RGB555_pixels": 0,
+      "exact_RGB555": true
+    },
+    {
+      "image": 547,
+      "index": 3,
+      "source_colors": 10,
+      "visible_pixels": 912,
+      "changed_RGB555_pixels": 0,
+      "exact_RGB555": true
+    },
+    {
+      "image": 547,
+      "index": 4,
+      "source_colors": 80,
+      "visible_pixels": 1728,
+      "changed_RGB555_pixels": 0,
+      "exact_RGB555": true
+    },
+    {
+      "image": 547,
+      "index": 5,
+      "source_colors": 94,
+      "visible_pixels": 1728,
+      "changed_RGB555_pixels": 0,
+      "exact_RGB555": true
+    },
+    {
+      "image": 547,
+      "index": 6,
+      "source_colors": 1,
+      "visible_pixels": 3072,
+      "changed_RGB555_pixels": 0,
+      "exact_RGB555": true
+    },
+    {
+      "image": 547,
+      "index": 7,
+      "source_colors": 91,
+      "visible_pixels": 6912,
+      "changed_RGB555_pixels": 0,
+      "exact_RGB555": true
+    },
+    {
+      "image": 548,
+      "index": 0,
+      "source_colors": 24,
+      "visible_pixels": 456,
+      "changed_RGB555_pixels": 0,
+      "exact_RGB555": true
+    },
+    {
+      "image": 548,
+      "index": 1,
+      "source_colors": 8,
+      "visible_pixels": 576,
+      "changed_RGB555_pixels": 0,
+      "exact_RGB555": true
+    },
+    {
+      "image": 548,
+      "index": 2,
+      "source_colors": 7,
+      "visible_pixels": 576,
+      "changed_RGB555_pixels": 0,
+      "exact_RGB555": true
+    },
+    {
+      "image": 548,
+      "index": 3,
+      "source_colors": 15,
+      "visible_pixels": 1152,
+      "changed_RGB555_pixels": 0,
+      "exact_RGB555": true
+    },
+    {
+      "image": 548,
+      "index": 4,
+      "source_colors": 9,
+      "visible_pixels": 576,
+      "changed_RGB555_pixels": 0,
+      "exact_RGB555": true
+    },
+    {
+      "image": 548,
+      "index": 5,
+      "source_colors": 8,
+      "visible_pixels": 984,
+      "changed_RGB555_pixels": 0,
+      "exact_RGB555": true
+    },
+    {
+      "image": 548,
+      "index": 6,
+      "source_colors": 7,
+      "visible_pixels": 984,
+      "changed_RGB555_pixels": 0,
+      "exact_RGB555": true
+    },
+    {
+      "image": 548,
+      "index": 7,
+      "source_colors": 9,
+      "visible_pixels": 1152,
+      "changed_RGB555_pixels": 0,
+      "exact_RGB555": true
+    }
+  ],
+  "generator_sha256": "ed1049e012415a83381e5e56ecf0fcc98f4a254d3c48e2395090344d6508eef7",
+  "bank_sha256": "a40f86f3dc5ae84c858f57068b88c22f6a521afba3d37550f582adfb4b08e839"
+}

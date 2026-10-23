@@ -1,0 +1,105 @@
+In file included from platform/gba/image.c:1:
+runtime/rm2k/types.h:43:7: warning: conflicting types for built-in function ‘memcpy’; expected ‘void *(void *, const void *, long unsigned int)’ [-Wbuiltin-declaration-mismatch]
+   43 | void *memcpy(void *dest,const void *src,unsigned int n);
+      |       ^~~~~~
+runtime/rm2k/types.h:4:1: note: ‘memcpy’ is declared in header ‘<string.h>’
+    3 | #include "lcf.h"
+  +++ |+#include <string.h>
+    4 | typedef unsigned short u16;
+runtime/rm2k/types.h:44:7: warning: conflicting types for built-in function ‘memset’; expected ‘void *(void *, int,  long unsigned int)’ [-Wbuiltin-declaration-mismatch]
+   44 | void *memset(void *dest,int value,unsigned int n);
+      |       ^~~~~~
+runtime/rm2k/types.h:44:7: note: ‘memset’ is declared in header ‘<string.h>’
+In file included from runtime/rm2k/storage_codec.h:3,
+                 from runtime/rm2k/storage_codec.c:1:
+runtime/rm2k/types.h:43:7: warning: conflicting types for built-in function ‘memcpy’; expected ‘void *(void *, const void *, long unsigned int)’ [-Wbuiltin-declaration-mismatch]
+   43 | void *memcpy(void *dest,const void *src,unsigned int n);
+      |       ^~~~~~
+runtime/rm2k/types.h:4:1: note: ‘memcpy’ is declared in header ‘<string.h>’
+    3 | #include "lcf.h"
+  +++ |+#include <string.h>
+    4 | typedef unsigned short u16;
+runtime/rm2k/types.h:44:7: warning: conflicting types for built-in function ‘memset’; expected ‘void *(void *, int,  long unsigned int)’ [-Wbuiltin-declaration-mismatch]
+   44 | void *memset(void *dest,int value,unsigned int n);
+      |       ^~~~~~
+runtime/rm2k/types.h:44:7: note: ‘memset’ is declared in header ‘<string.h>’
+In file included from runtime/rm2k/engine.h:3,
+                 from tests/state_size.c:1:
+runtime/rm2k/types.h:43:7: warning: conflicting types for built-in function ‘memcpy’; expected ‘void *(void *, const void *, long unsigned int)’ [-Wbuiltin-declaration-mismatch]
+   43 | void *memcpy(void *dest,const void *src,unsigned int n);
+      |       ^~~~~~
+runtime/rm2k/types.h:4:1: note: ‘memcpy’ is declared in header ‘<string.h>’
+    3 | #include "lcf.h"
+  +++ |+#include <string.h>
+    4 | typedef unsigned short u16;
+runtime/rm2k/types.h:44:7: warning: conflicting types for built-in function ‘memset’; expected ‘void *(void *, int,  long unsigned int)’ [-Wbuiltin-declaration-mismatch]
+   44 | void *memset(void *dest,int value,unsigned int n);
+      |       ^~~~~~
+runtime/rm2k/types.h:44:7: note: ‘memset’ is declared in header ‘<string.h>’
+In file included from build/assets.c:1:
+runtime/rm2k/types.h:43:7: warning: conflicting types for built-in function ‘memcpy’; expected ‘void *(void *, const void *, long unsigned int)’ [-Wbuiltin-declaration-mismatch]
+   43 | void *memcpy(void *dest,const void *src,unsigned int n);
+      |       ^~~~~~
+runtime/rm2k/types.h:4:1: note: ‘memcpy’ is declared in header ‘<string.h>’
+    3 | #include "lcf.h"
+  +++ |+#include <string.h>
+    4 | typedef unsigned short u16;
+runtime/rm2k/types.h:44:7: warning: conflicting types for built-in function ‘memset’; expected ‘void *(void *, int,  long unsigned int)’ [-Wbuiltin-declaration-mismatch]
+   44 | void *memset(void *dest,int value,unsigned int n);
+      |       ^~~~~~
+runtime/rm2k/types.h:44:7: note: ‘memset’ is declared in header ‘<string.h>’
+/usr/bin/ld: warning: /tmp/ccBQkYEh.o: missing .note.GNU-stack section implies executable stack
+/usr/bin/ld: NOTE: This behaviour is deprecated and will be removed in a future version of the linker
+{
+  "status": "pass",
+  "kind": "host decoded-image comparison and exact state-storage checks",
+  "images": 8711,
+  "image_rows_checked": 47204,
+  "image_spans_checked": 117337,
+  "resources": 255,
+  "encoded_image_bytes": 11354760,
+  "current_game_bytes": 39704,
+  "legacy_v4_prefix_bytes": 32068,
+  "state_cases": [
+    {
+      "raw_bytes": 39704,
+      "packed_bytes": 612,
+      "fits_SRAM": true
+    },
+    {
+      "raw_bytes": 39704,
+      "packed_bytes": 612,
+      "fits_SRAM": true
+    },
+    {
+      "raw_bytes": 51200,
+      "packed_bytes": 51600,
+      "fits_SRAM": false
+    },
+    {
+      "raw_bytes": 39704,
+      "packed_bytes": 40014,
+      "fits_SRAM": false
+    },
+    {
+      "raw_bytes": 31184,
+      "packed_bytes": 4578,
+      "fits_SRAM": true
+    },
+    {
+      "raw_bytes": 31184,
+      "packed_bytes": 3688,
+      "fits_SRAM": true
+    }
+  ],
+  "incompressible_state": "fails bounded capacity; does not silently truncate",
+  "emulator_gameplay": "separate spot checks required",
+  "sources": {
+    "platform/gba/image.c": "05d7b78ad724b945a8b265c8b0acedb0883f3b470ef9054cfd8d43c8ee283bd8",
+    "runtime/rm2k/storage_codec.c": "a055a2d856831013708757f4b6c6c15bfb9fa09013a54893949ada75108b4312",
+    "tests/state_size.c": "0a6491ec76d91784f49f6cc3cdd6631a05166bb691d6e792fb0a00161c32a899",
+    "build/assets.c": "f6511c49490d8e9dcba9f6419e959c2285a5f208a89fc1d1713c877d5b632b8a",
+    "build/high_color_blobs.s": "db645dcbfe4857060197f57de4668cb884e49eaf1dc5c7e211055844dc7ec484",
+    "build/high_color_blobs.bin": "ecf45a42fd2a8add868671ad741d8622972b72a64a0b1f87e24b65235d4ebf72"
+  }
+}

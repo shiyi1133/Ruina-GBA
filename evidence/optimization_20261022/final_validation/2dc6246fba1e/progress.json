@@ -1,0 +1,130 @@
+{
+  "status": "fail",
+  "rom_sha256": "2dc6246fba1ea99eec94a4a49449f6ee01988c4cb8c334d3324edf78ef65167c",
+  "tests": [
+    {
+      "name": "lcf_transport",
+      "status": "pass",
+      "seconds": 18.32928636900033,
+      "returncode": 0,
+      "log": "evidence/optimization_20261022/final_validation/2dc6246fba1e/lcf_transport.log"
+    },
+    {
+      "name": "borrowed_views",
+      "status": "pass",
+      "seconds": 1.4379275219998817,
+      "returncode": 0,
+      "log": "evidence/optimization_20261022/final_validation/2dc6246fba1e/borrowed_views.log"
+    },
+    {
+      "name": "page_conditions",
+      "status": "pass",
+      "seconds": 2.9402073599994765,
+      "returncode": 0,
+      "log": "evidence/optimization_20261022/final_validation/2dc6246fba1e/page_conditions.log"
+    },
+    {
+      "name": "map_rule_parity",
+      "status": "pass",
+      "seconds": 5.357803206001336,
+      "returncode": 0,
+      "log": "evidence/optimization_20261022/final_validation/2dc6246fba1e/map_rule_parity.log"
+    },
+    {
+      "name": "host_mechanisms",
+      "status": "pass",
+      "seconds": 2.6331039689994213,
+      "returncode": 0,
+      "log": "evidence/optimization_20261022/final_validation/2dc6246fba1e/host_mechanisms.log"
+    },
+    {
+      "name": "image_codec",
+      "status": "pass",
+      "seconds": 0.5573005300011573,
+      "returncode": 0,
+      "log": "evidence/optimization_20261022/final_validation/2dc6246fba1e/image_codec.log"
+    },
+    {
+      "name": "storage_and_images",
+      "status": "pass",
+      "seconds": 25.624770242000523,
+      "returncode": 0,
+      "log": "evidence/optimization_20261022/final_validation/2dc6246fba1e/storage_and_images.log"
+    },
+    {
+      "name": "original_art",
+      "status": "pass",
+      "seconds": 4.5483239619989035,
+      "returncode": 0,
+      "log": "evidence/optimization_20261022/final_validation/2dc6246fba1e/original_art.log"
+    },
+    {
+      "name": "audio_IRQ_parity",
+      "status": "pass",
+      "seconds": 2.4175866109999333,
+      "returncode": 0,
+      "log": "evidence/optimization_20261022/final_validation/2dc6246fba1e/audio_IRQ_parity.log"
+    },
+    {
+      "name": "common_name_UI",
+      "status": "pass",
+      "seconds": 5.785751456000071,
+      "returncode": 0,
+      "log": "evidence/optimization_20261022/final_validation/2dc6246fba1e/common_name_UI.log"
+    },
+    {
+      "name": "opening_four_origins",
+      "status": "pass",
+      "seconds": 7.9547135190005065,
+      "returncode": 0,
+      "log": "evidence/optimization_20261022/final_validation/2dc6246fba1e/opening_four_origins.log"
+    },
+    {
+      "name": "natural_gameplay_and_SAV",
+      "status": "pass",
+      "seconds": 6.220250424999904,
+      "returncode": 0,
+      "log": "evidence/optimization_20261022/final_validation/2dc6246fba1e/natural_gameplay_and_SAV.log"
+    },
+    {
+      "name": "source_menu_gameplay",
+      "status": "pass",
+      "seconds": 15.735837161000745,
+      "returncode": 0,
+      "log": "evidence/optimization_20261022/final_validation/2dc6246fba1e/source_menu_gameplay.log"
+    },
+    {
+      "name": "status_browsing",
+      "status": "pass",
+      "seconds": 1.4624844499994651,
+      "returncode": 0,
+      "log": "evidence/optimization_20261022/final_validation/2dc6246fba1e/status_browsing.log"
+    },
+    {
+      "name": "chapter_first_CP",
+      "status": "pass",
+      "seconds": 44.76785416199891,
+      "returncode": 0,
+      "log": "evidence/optimization_20261022/final_validation/2dc6246fba1e/chapter_first_CP.log"
+    },
+    {
+      "name": "checkpoint_cold_load",
+      "status": "pass",
+      "seconds": 0.8579422749990044,
+      "returncode": 0,
+      "log": "evidence/optimization_20261022/final_validation/2dc6246fba1e/checkpoint_cold_load.log"
+    },
+    {
+      "name": "extended_gameplay",
+      "status": "fail",
+      "seconds": 184.1971121860006,
+      "returncode": 1,
+      "log": "evidence/optimization_20261022/final_validation/2dc6246fba1e/extended_gameplay.log"
+    }
+  ],
+  "completed": 17,
+  "total": 36,
+  "scope": "controlled host and actual emulated GBA spot checks; full campaign and physical hardware not run",
+  "compiler_inputs_unchanged": false,
+  "production_ROM_unchanged": false
+}

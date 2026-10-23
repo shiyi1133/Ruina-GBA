@@ -1,0 +1,5 @@
+本目录同时保留开发历史和交付版本的验收证据。
+只有 acceptance_receipt.json 列出的报告、且其 rom_sha256 与交付 ROM 一致时，才计为交付验收。
+文件名带 rejected、intentional_corruption 的内容是有意保留的失败/拒绝测试，不可当作正常存档。
+audio_attempt.wav、audio_boot.png、audio_game.png、audio_opening_stuck.png、audio_after24seconds.png 是早期声音中断超时排查记录，不是最终音频验收。
+旧图、旧报告不能替代最终版本的完整流程、普通存档冷启动、自动战斗及音频循环验证。

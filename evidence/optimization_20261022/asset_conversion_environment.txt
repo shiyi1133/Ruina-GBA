@@ -1,0 +1,5 @@
+本轮素材转换/验证环境，缓存增量构建不依赖 Pillow/NumPy/liblz4。
+Python 3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]
+Pillow 12.2.0
+NumPy 2.4.4
+liblz4 1.9.4

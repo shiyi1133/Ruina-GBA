@@ -1,0 +1,20 @@
+{
+  "status": "fail",
+  "production_rom_sha256": "35a8e283662be7a779e92149f77f7aab866bca22b07a583f4a6179849130abdc",
+  "fixture_sha256": "acc79e2b2576fbe72b5f714f82c4d21bcf7e340b2a4fe3f76c38d5860da3e515",
+  "source_bank_sha256": "c2e794c7065cd2dd311d2fd97d199db2331c41fb00c01964a25e47ba82ab0961",
+  "completed": 0,
+  "total": 1,
+  "track_filter": "INT03",
+  "quality_filter": 1,
+  "video_source_override": "experiments/rgb_commit/video.c",
+  "emulated_audio_seconds_observed": 0,
+  "host_seconds": 4.158026252999662,
+  "current": {
+    "error": "AssertionError(('underrun', 1, 'INT03', 1, 2520, (16, 45, 1472, 0), (112, 5439, 768, 0)))"
+  },
+  "cases": [],
+  "scope": "All 105 original music sources in both simplified timbre modes, actual GBA execution from source position zero. Looping tracks include their initial play plus one complete repeat. One-second partial RGB UI updates run during playback. No seeking, ROM edits or emulator state loads. Eight startup observer frames per source are excluded only from underrun/clock measurement.",
+  "hardware": "not_run",
+  "campaign": "not_run"
+}

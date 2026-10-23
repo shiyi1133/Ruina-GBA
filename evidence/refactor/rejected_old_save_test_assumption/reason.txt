@@ -1,0 +1,1 @@
+Rejected test run: the old driver required saving inside the cave, but original common event 12 disables saving on entering a dungeon. After correcting ChangeSaveAccess semantics, the driver must respect this original permission. No engine/data relaxation is applied. The campaign is rerun from new game.

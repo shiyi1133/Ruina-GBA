@@ -1,0 +1,29 @@
+{
+  "status": "pass",
+  "map_scenarios": 142,
+  "full_grid_comparisons": 568,
+  "original_rule_edges": 1003296,
+  "cached_player_edges": 1003296,
+  "coordinate_direction_terrain_queries": 363688,
+  "relocated_events": 2394,
+  "kind": "controlled host differential; unchanged original map data; original position/collision/terrain path compared to current sparse and cached queries",
+  "sources_sha256": {
+    "tests/map_rules_parity_host.c": "3e14b0d9882a852351daa805984459c36d432b015de95cc691e5e16d44632ac8",
+    "runtime/rm2k/lcf.c": "376160cc2a7129290906d4e90f8047f9bebecb5d071e02009b03d6a5654fca2c",
+    "runtime/rm2k/state.c": "5317d0f317d7d103613d096725225d9a06c42851f78dc1038e7ad66167de2090",
+    "runtime/rm2k/interpreter.c": "2c606cec995c6da8de3adb9f216168341b1f430d8e5ae0a4123a11734c8e6c2f",
+    "runtime/rm2k/rm2k_rules.c": "5aae18f0f613d9d629000ef444332b4c1d54f4a649d53a6596f70a8a1f1c34d8",
+    "runtime/rm2k/map_rules.c": "896f2e11d4df1941a50f4cb6d380079f16331825eb57741b98aa58687039dfe0",
+    "runtime/rm2k/map_info.c": "ac66645f74beb6757fe2823989991a49122d80b008f5a70ff23a1385197f0aa6",
+    "runtime/rm2k/timers.c": "eabb850778eec8ff0d4996c02041ecc41bb229f173f3e6b9e929d61c65b1f7f7",
+    "runtime/rm2k/movement.c": "edcae00389b391cada08ab44c5024d0bbf16278bef759efdc63356270137103d",
+    "runtime/rm2k/pictures.c": "a7144d48979eb40d3599a1eded7ef564aaaf9fa9485275de7434f2390392611c",
+    "runtime/rm2k/presentation.c": "e2d43c114e87f96d539d2f04461118632427776a3ebb0bdb77844d2d69f0a764",
+    "runtime/rm2k/animations.c": "8c96faf230591c184b43aab0afa0174123e264a105caa0658ad161fdf92aa980",
+    "runtime/rm2k/storage_codec.c": "a055a2d856831013708757f4b6c6c15bfb9fa09013a54893949ada75108b4312",
+    "tests/reference/map_rules_20261021.c": "ffea5974cf5d3a676d8e63ba8c80e72c35fd34759188ff80858e88afe9f066dc",
+    "runtime/rm2k/world.c": "46c8e944bfc60805585e7b1b3b4cf76f45901f3dbb04bb2f063dc04003520e2d",
+    "build/original_lcf.bin": "03042b9da41392bf8a9766cd9820184ebaaf8bb510fa8aea98a8e93159cc37e1"
+  },
+  "source_changed_during_run": false
+}

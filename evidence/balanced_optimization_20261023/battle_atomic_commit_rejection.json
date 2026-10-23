@@ -1,0 +1,24 @@
+{
+  "status": "rejected_not_final",
+  "production_ROM_sha256": "2dc6246fba1ea99eec94a4a49449f6ee01988c4cb8c334d3324edf78ef65167c",
+  "reason": "Strict per-hardware-frame natural mage test observed one incomplete LCD frame on target-to-skill return; optimize bounded VBlank DMA before release.",
+  "stopped_scoped_audio_fixture_processes": [
+    {
+      "pid": 33101,
+      "fixture": "/mnt/d/gba_hack/废都物语_GBA章节样版/build/fixtures/music_full_scores_parallel_2dc6246fba1e/music_full_scores_parallel_2dc6246fba1e.gba"
+    },
+    {
+      "pid": 33104,
+      "fixture": "/mnt/d/gba_hack/废都物语_GBA章节样版/build/fixtures/music_full_scores_parallel_2dc6246fba1e/music_full_scores_parallel_2dc6246fba1e.gba"
+    },
+    {
+      "pid": 33105,
+      "fixture": "/mnt/d/gba_hack/废都物语_GBA章节样版/build/fixtures/music_full_scores_parallel_2dc6246fba1e/music_full_scores_parallel_2dc6246fba1e.gba"
+    },
+    {
+      "pid": 33106,
+      "fixture": "/mnt/d/gba_hack/废都物语_GBA章节样版/build/fixtures/music_full_scores_parallel_2dc6246fba1e/music_full_scores_parallel_2dc6246fba1e.gba"
+    }
+  ],
+  "unix": 1792730336.449839
+}

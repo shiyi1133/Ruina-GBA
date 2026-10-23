@@ -1,0 +1,26 @@
+{
+  "format": "immutable borrowed control/variable instruction views; all live state remains in VM",
+  "commands": 5247,
+  "opcodes": [
+    0,
+    10210,
+    10220,
+    11410,
+    12010,
+    12110,
+    12120,
+    12210,
+    12220,
+    12310,
+    12330,
+    22010,
+    22011,
+    22210
+  ],
+  "target_record_bytes": 68,
+  "hash_slots": 16384,
+  "target_bytes": 389636,
+  "terminal_sentinel": true,
+  "original_pack_sha256": "03042b9da41392bf8a9766cd9820184ebaaf8bb510fa8aea98a8e93159cc37e1",
+  "source_sha256": "4b1016655b791166125da63625000b398501c5be65386cf0fd4600eb35f1f231"
+}

@@ -1,0 +1,95 @@
+{
+  "status": "pass",
+  "controlled_cartridge_sha256": "837e2637dd4222b3092db707b5240e6fd1f276669fdce705a021538b8b93bf60",
+  "base_ROM_sha256": "3371cc8ffac5dfe023ce9458d13617cdc00b2619286f04a5bb4374b7bd69c164",
+  "cases": [
+    {
+      "context": "title RGB555",
+      "states_compared": 18,
+      "partial_and_full_LCD_hashes": [
+        "5e41d6a23a156831",
+        "dfaf97a4bd0eabb1",
+        "11ca703ae812a650",
+        "a7f6e50e2e20f139",
+        "2476b7102eb3483c",
+        "e50d172e8f45d5f1",
+        "4e679e2ef4653ce5",
+        "d9a564c6bbe456e8",
+        "5e41d6a23a156831",
+        "d9a564c6bbe456e8",
+        "b621f92d5247f36d",
+        "44f5a7f34a5a02b1",
+        "3a228cca4aadbfa4",
+        "a9b4e69bd81c1fc9",
+        "f20855b99fa6fa90",
+        "c872ff4a9e171e91",
+        "5e41d6a23a156831",
+        "d9a564c6bbe456e8"
+      ],
+      "all_pixels_match": true
+    },
+    {
+      "context": "native map BG1",
+      "states_compared": 18,
+      "partial_and_full_LCD_hashes": [
+        "b2ee079d29355f15",
+        "30bf6eb9053cd9a5",
+        "4bcda0c4cf7627a0",
+        "0f18ed9d4047511d",
+        "ff7e11c0e1f55fc0",
+        "ed214c5fab1c39f9",
+        "f9d2f52fffc0cbdd",
+        "18ebc215659f210c",
+        "b2ee079d29355f15",
+        "18ebc215659f210c",
+        "57a12a7dae3d8f5d",
+        "0189b8d87421c0a1",
+        "a64c40518f5caf40",
+        "7914d1fddc811781",
+        "01b56a93b98bdc8c",
+        "3c10e659d9542fa5",
+        "b2ee079d29355f15",
+        "18ebc215659f210c"
+      ],
+      "all_pixels_match": true
+    },
+    {
+      "context": "battle RGB555",
+      "states_compared": 18,
+      "partial_and_full_LCD_hashes": [
+        "236c3b49e9405613",
+        "f6eabd2c86283e96",
+        "9d44bd2fdf6e27e3",
+        "74b7ed8e0c1d4fee",
+        "18b86d7b55fe2c5b",
+        "32a45c832de68bc2",
+        "8908488789c19d7b",
+        "1bb67d2b84265c73",
+        "236c3b49e9405613",
+        "1bb67d2b84265c73",
+        "77ac7e94f3b467cf",
+        "b941f12fa9d1cd4a",
+        "1a5b76a2e2d0ce9f",
+        "0e4bf3e8ac940036",
+        "1107d7fe7bac56a3",
+        "3f088ef8a368f742",
+        "236c3b49e9405613",
+        "1bb67d2b84265c73"
+      ],
+      "all_pixels_match": true
+    }
+  ],
+  "total_states_compared": 54,
+  "native_ui_metrics": [
+    1,
+    36,
+    3913,
+    8781,
+    0,
+    159,
+    0,
+    0
+  ],
+  "scope": "Actual LCD comparison of full-scene reference redraw against partial row/list updates, including wraparound and scroll. Separate natural game tests cover campaign entry.",
+  "hardware": "not_run"
+}

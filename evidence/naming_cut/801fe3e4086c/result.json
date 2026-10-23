@@ -1,0 +1,11 @@
+{
+  "status": "pass",
+  "rom_sha256": "801fe3e4086c54201c85836ea5757c0caab4a8a9e84fc3902f1f70a9882b5bd1",
+  "origins": [
+    {
+      "origin": 1,
+      "status": "pass",
+      "report": "evidence/naming_cut/801fe3e4086c/origin_1/result.json"
+    }
+  ]
+}

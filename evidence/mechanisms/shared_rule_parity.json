@@ -1,0 +1,17 @@
+{
+  "status": "pass",
+  "kind": "host differential checks against extracted pinned upstream functions",
+  "checks": {
+    "rm2k_chip_index": 10210,
+    "rm2k_turn_matches": 1984,
+    "rm2k_simulated_base": 3000,
+    "rm2k_fatigue": 10000,
+    "original_battle_page_conditions": 19280,
+    "original_timer_frames_and_flags": 576
+  },
+  "total": 45050,
+  "source_lock_sha256": "583dfd77f5e6324312d3e5275f25b25431f147064b2379dad76fd5a5cd0ccf58",
+  "emulator_gameplay": "separate acceptance required",
+  "RPG_RT_or_hardware": "not_run",
+  "test_code_sha256": "781b599cb3f42366538cca099e93a4ce3e716065bb367060e595f2bc2de9e716"
+}

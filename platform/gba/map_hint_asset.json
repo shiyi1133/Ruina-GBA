@@ -1,0 +1,20 @@
+[
+  {
+    "name": "directions",
+    "bytes": 704,
+    "VRAM_address": "0x6016000",
+    "sha256": "8a20239b6a0f4a15441b99f4b2c33d600f187a682e5140cece17f4b17878386f"
+  },
+  {
+    "name": "selection",
+    "bytes": 512,
+    "VRAM_address": "0x6016500",
+    "sha256": "7bafc89e30943a77e9c5988b1777af3381d655c823afdd594cd76b7c73be2aa1"
+  },
+  {
+    "name": "labels",
+    "bytes": 1024,
+    "VRAM_address": "0x6017a00",
+    "sha256": "899b5c6b2c7e99bff461c125dd8099227b4e8a129739ee7ba91b4c2f37eadcc1"
+  }
+]

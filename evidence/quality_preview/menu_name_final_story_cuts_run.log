@@ -1,0 +1,27 @@
+{
+  "status": "pass",
+  "ROM_sha256": "e56ebdfd20bd1242ff44e6434ef182e8cc86a1ed4a98458dbb163cbf58afa0ed",
+  "frames_observed": 2367,
+  "hardware_forced_blank_seen": false,
+  "explicit_story_black_samples": [
+    {
+      "frame": 136,
+      "image": "black_00136.png",
+      "actual_LCD_is_black": true
+    },
+    {
+      "frame": 372,
+      "image": "black_00372.png",
+      "actual_LCD_is_black": true
+    },
+    {
+      "frame": 397,
+      "image": "black_00397.png",
+      "actual_LCD_is_black": true
+    }
+  ],
+  "opening_reaches_first_map": true,
+  "kind": "actual emulated LCD frames, real buttons, read-only observations",
+  "whole_game": "not_run",
+  "hardware": "not_run"
+}

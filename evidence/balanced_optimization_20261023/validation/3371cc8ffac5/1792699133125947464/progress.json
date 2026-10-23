@@ -1,0 +1,165 @@
+{
+  "status": "running",
+  "production_ROM_sha256": "3371cc8ffac5dfe023ce9458d13617cdc00b2619286f04a5bb4374b7bd69c164",
+  "skip_common_regression": true,
+  "skip_whole_music": true,
+  "tests": [
+    {
+      "name": "check_serviced_storage",
+      "command": [
+        "/usr/bin/python3",
+        "tools/check_serviced_storage.py"
+      ],
+      "status": "pass",
+      "returncode": 0,
+      "host_seconds": 0.3839173279993702,
+      "log": "evidence/balanced_optimization_20261023/validation/3371cc8ffac5/1792699133125947464/check_serviced_storage.log"
+    },
+    {
+      "name": "check_balanced_rgb",
+      "command": [
+        "/home/app/venvs/pig/bin/python",
+        "tools/check_balanced_rgb.py"
+      ],
+      "status": "pass",
+      "returncode": 0,
+      "host_seconds": 10.39040661800027,
+      "log": "evidence/balanced_optimization_20261023/validation/3371cc8ffac5/1792699133125947464/check_balanced_rgb.log"
+    },
+    {
+      "name": "check_balanced_menu_regions",
+      "command": [
+        "/usr/bin/python3",
+        "tools/check_balanced_menu_regions.py"
+      ],
+      "status": "pass",
+      "returncode": 0,
+      "host_seconds": 9.907992615000694,
+      "log": "evidence/balanced_optimization_20261023/validation/3371cc8ffac5/1792699133125947464/check_balanced_menu_regions.log"
+    },
+    {
+      "name": "check_balanced_ui_capacity",
+      "command": [
+        "/home/app/venvs/pig/bin/python",
+        "tools/check_balanced_ui_capacity.py"
+      ],
+      "status": "pass",
+      "returncode": 0,
+      "host_seconds": 4.382198830000561,
+      "log": "evidence/balanced_optimization_20261023/validation/3371cc8ffac5/1792699133125947464/check_balanced_ui_capacity.log"
+    },
+    {
+      "name": "check_map_window_matrix",
+      "command": [
+        "/home/app/venvs/pig/bin/python",
+        "tools/check_map_window_matrix.py"
+      ],
+      "status": "pass",
+      "returncode": 0,
+      "host_seconds": 85.95722183699945,
+      "log": "evidence/balanced_optimization_20261023/validation/3371cc8ffac5/1792699133125947464/check_map_window_matrix.log"
+    },
+    {
+      "name": "check_incremental_rooms",
+      "command": [
+        "/home/app/venvs/pig/bin/python",
+        "tools/check_incremental_rooms.py"
+      ],
+      "status": "pass",
+      "returncode": 0,
+      "host_seconds": 43.20083194200015,
+      "log": "evidence/balanced_optimization_20261023/validation/3371cc8ffac5/1792699133125947464/check_incremental_rooms.log"
+    },
+    {
+      "name": "check_music_room_long",
+      "command": [
+        "/usr/bin/python3",
+        "tools/check_music_room_long.py"
+      ],
+      "status": "pass",
+      "returncode": 0,
+      "host_seconds": 12.379816771999685,
+      "log": "evidence/balanced_optimization_20261023/validation/3371cc8ffac5/1792699133125947464/check_music_room_long.log"
+    },
+    {
+      "name": "measure_balanced_battle",
+      "command": [
+        "/usr/bin/python3",
+        "tools/measure_balanced_battle.py"
+      ],
+      "status": "pass",
+      "returncode": 0,
+      "host_seconds": 8.550666876000832,
+      "log": "evidence/balanced_optimization_20261023/validation/3371cc8ffac5/1792699133125947464/measure_balanced_battle.log"
+    },
+    {
+      "name": "natural_opening_1",
+      "command": [
+        "/usr/bin/python3",
+        "tools/check_balanced_playable.py",
+        "--origin",
+        "1"
+      ],
+      "status": "pass",
+      "returncode": 0,
+      "host_seconds": 2.802634814999692,
+      "log": "evidence/balanced_optimization_20261023/validation/3371cc8ffac5/1792699133125947464/natural_opening_1.log"
+    },
+    {
+      "name": "natural_opening_2",
+      "command": [
+        "/usr/bin/python3",
+        "tools/check_balanced_playable.py",
+        "--origin",
+        "2"
+      ],
+      "status": "pass",
+      "returncode": 0,
+      "host_seconds": 2.880628506998619,
+      "log": "evidence/balanced_optimization_20261023/validation/3371cc8ffac5/1792699133125947464/natural_opening_2.log"
+    },
+    {
+      "name": "natural_opening_3",
+      "command": [
+        "/usr/bin/python3",
+        "tools/check_balanced_playable.py",
+        "--origin",
+        "3"
+      ],
+      "status": "pass",
+      "returncode": 0,
+      "host_seconds": 2.6734718279985827,
+      "log": "evidence/balanced_optimization_20261023/validation/3371cc8ffac5/1792699133125947464/natural_opening_3.log"
+    },
+    {
+      "name": "natural_opening_4",
+      "command": [
+        "/usr/bin/python3",
+        "tools/check_balanced_playable.py",
+        "--origin",
+        "4"
+      ],
+      "status": "pass",
+      "returncode": 0,
+      "host_seconds": 3.0010576370004856,
+      "log": "evidence/balanced_optimization_20261023/validation/3371cc8ffac5/1792699133125947464/natural_opening_4.log"
+    },
+    {
+      "name": "input_response",
+      "command": [
+        "/usr/bin/python3",
+        "tools/measure_balanced_response.py",
+        "--rom",
+        "/mnt/d/gba_hack/废都物语_GBA章节样版/build/废都物语_GBA_开篇开发验证版.gba",
+        "--elf",
+        "/mnt/d/gba_hack/废都物语_GBA章节样版/build/ruina_opening_dev.elf",
+        "--label",
+        "final_balance"
+      ],
+      "status": "pass",
+      "returncode": 0,
+      "host_seconds": 8.346416578999197,
+      "log": "evidence/balanced_optimization_20261023/validation/3371cc8ffac5/1792699133125947464/input_response.log"
+    }
+  ]
+}

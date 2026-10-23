@@ -1,0 +1,48 @@
+view_menu_down 14 transient 0 black 0
+view_menu_up 14 transient 0 black 0
+dialogue_to_origin_menu 42 transient 0 black 0
+origin_down 14 transient 0 black 0
+origin_up 14 transient 0 black 0
+origin_knight 14 transient 0 black 0
+avatar_down 14 transient 0 black 0
+avatar_up 14 transient 0 black 0
+name_cursor_right 14 transient 0 black 0
+name_cursor_left 14 transient 0 black 0
+name_insert_surname 14 transient 0 black 0
+name_next_given 14 transient 0 black 0
+name_insert_given 14 transient 0 black 0
+name_delete_given 14 transient 0 black 0
+name_restore_original 14 transient 0 black 0
+name_tab_surnames 14 transient 0 black 0
+name_tab_given 14 transient 0 black 0
+map_show_complete 43 transient 0 black 0
+map_pan_left 43 transient 0 black 0
+map_pan_up 43 transient 0 black 0
+map_pan_right 42 transient 0 black 0
+map_pan_down 43 transient 0 black 0
+map_restore_mask 846 transient 0 black 0
+dialogue_hide_for_art 36 transient 0 black 0
+art_pan_right 36 transient 0 black 0
+art_pan_left 37 transient 0 black 0
+art_return_to_dialogue 38 transient 0 black 0
+{
+  "status": "pass",
+  "ROM_sha256": "4513437665f659b3a265a57237e7f90dda5a8af5f7d72903090efa755925c5ef",
+  "case_count": 27,
+  "LCD_frames_observed": 1473,
+  "fully_black_frames": 0,
+  "transient_or_torn_frames": 0,
+  "commit_metrics": [
+    56,
+    0,
+    215,
+    160,
+    143,
+    18,
+    0,
+    13090
+  ],
+  "scope": "ordinary UI, dialogue inspector, first-map viewer key presses only; explicit story black cuts are a separate check",
+  "observation": "actual completed mGBA LCD output, real buttons, read-only memory",
+  "hardware": "not_run"
+}

@@ -1,0 +1,14 @@
+{
+  "status": "pass",
+  "kind": "actual GBA OBJ pixels compared at RGB555 precision to original 48x48 source faces",
+  "production_rom_sha256": "6e70c2dc0b4c10a2c9a3aae4f52201ade7a9c652b0e48faa1aa4268b900626d6",
+  "fixture_sha256": "4edb3bbb4c8e5c16d00386d4da1df13b7b87c60a690cc96b555ea41d35dd9379",
+  "checks": {
+    "original_48px_hero_original_colors": true,
+    "four_faces_without_palette_conflict": true,
+    "different_sheet_palette_switch": true,
+    "no_portrait_left_on_next_scene": true,
+    "dialogue_uses_original_face": true
+  },
+  "hardware": "not_run"
+}

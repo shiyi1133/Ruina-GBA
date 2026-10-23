@@ -1,0 +1,21 @@
+{
+  "status": "pass",
+  "production_rom_sha256": "2416a8e950d764c790dd55a309d615de4c0dc9420fa791e6b9cd3535fab8824f",
+  "kind": "actual title music-room buttons, original one-shot MIDI; completion/replay in both simplified modes",
+  "track": "J戦闘終了1",
+  "checks": [
+    {
+      "quality": 1,
+      "ended_source_frame": 69533,
+      "restarted_source_frame": 12240,
+      "real_replay_advances": true
+    },
+    {
+      "quality": 0,
+      "ended_source_frame": 69533,
+      "restarted_source_frame": 12224,
+      "real_replay_advances": true
+    }
+  ],
+  "physical_hardware": "not_run"
+}

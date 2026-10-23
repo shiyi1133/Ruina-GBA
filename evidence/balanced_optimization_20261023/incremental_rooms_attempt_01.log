@@ -1,0 +1,48 @@
+{
+  "status": "pass",
+  "base_ROM_sha256": "fd941406522186050f29eaa3dc27823544a78ff9e8e44c608c868fabf2a5534f",
+  "candidate_ROM_sha256": "dc3e4c65747063edfe435cfd0723dab5cb83fec13317ca778dc8470954d003eb",
+  "unplayed_music_list_states": 21,
+  "music_list_hashes_match": true,
+  "screens": [
+    {
+      "screen": "music_paused_second3.png",
+      "exact_pixels": true
+    },
+    {
+      "screen": "music_paused_other_quality.png",
+      "exact_pixels": true
+    },
+    {
+      "screen": "campaign/01_title_choices.png",
+      "exact_pixels": true
+    },
+    {
+      "screen": "campaign/02_title_acquired.png",
+      "exact_pixels": true
+    },
+    {
+      "screen": "campaign/03_alchemy_choices.png",
+      "exact_pixels": true
+    },
+    {
+      "screen": "campaign/04_medicine_created.png",
+      "exact_pixels": true
+    },
+    {
+      "screen": "campaign/05_status_with_title.png",
+      "exact_pixels": true
+    },
+    {
+      "screen": "campaign/05_cooking_ingredients.png",
+      "exact_pixels": true
+    },
+    {
+      "screen": "campaign/06_original_dish_created.png",
+      "exact_pixels": true
+    }
+  ],
+  "original_event_effects_match": true,
+  "scope": "Natural title inputs and two genuine ordinary campaign saves, original title acquisition/SP/skills, alchemy cancel/production, cooking ingredients/product and ordinary-save cold loads. Full reference and incremental pixels compared; no memory writes or save states.",
+  "hardware": "not_run"
+}

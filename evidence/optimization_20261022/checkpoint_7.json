@@ -1,0 +1,33 @@
+{
+  "at_UTC": "2026-10-21T22:54:00Z",
+  "status": "active; only whole playback and final ZIP sealing/delivery remain",
+  "earliest_delivery_UTC": "2026-10-21T23:12:18Z",
+  "final_ROM_sha256": "2416a8e950d764c790dd55a309d615de4c0dc9420fa791e6b9cd3535fab8824f",
+  "final_ROM_bytes": 33307620,
+  "regression": "34/34 pass, final_validation/latest_attempt.json points to2416 hash",
+  "matching_source": "prepared PASS, source archive/font/asset Python disabled, Python -S, byte-identical; source/input guard rechecked PASS after preparation",
+  "prepared_state": "evidence/optimization_20261022/release_preparation.json",
+  "stage": "/mnt/d/gba_hack/废都物语_GBA章节样版/build/release_staging_v06_2416a8e950d7",
+  "packaged_input_files": 10747,
+  "source_guard_critical_inputs": 10530,
+  "whole_music": {
+    "completed_at_checkpoint": 92,
+    "total": 210,
+    "session": 20215,
+    "python_PID": 263106,
+    "probe_PID": 263168,
+    "progress": "evidence/optimization_20261022/music/complete_GBA/2416a8e950d7/progress.json",
+    "log": "evidence/optimization_20261022/complete_music_GBA_run.log",
+    "old_interrupted_runs": "preserved, never counted as this final full run"
+  },
+  "preview": "actual comparison PNG and two music-room recordings both match final2416 hash",
+  "remaining": [
+    "wait for all210 complete-score GBA playback cases to pass; communicate concise progress about every60s, sleep <=60s while genuine test runs",
+    "refresh current_feature_status after whole_music pass",
+    "python3 tools/deliver_optimization.py seal (automatically extract actual sourceZIP and rebuild it again)",
+    "inspect sealed archives/receipts; after six real wall hours, python3 tools/deliver_optimization.py deliver",
+    "only after actual delivery mark goal complete; final links ROM/DEMO ZIP/source ZIP, honest GBA limits and full campaign/hardware not run"
+  ],
+  "source_frozen": "No more runtime or tool changes are needed. README/evidence only may refresh. Do not weaken final hash or ZIP checks.",
+  "memory_and_skills": "No relevant memory or skills used; no citations needed; no subagents allowed."
+}

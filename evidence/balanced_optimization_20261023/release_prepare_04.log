@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/mnt/d/gba_hack/废都物语_GBA章节样版/tools/deliver_balanced.py", line 172, in <module>
+    p=argparse.ArgumentParser();p.add_argument('action',choices=['prepare','seal','deliver']);args=p.parse_args();globals()[args.action]()
+                                                                                                                  ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/gba_hack/废都物语_GBA章节样版/tools/deliver_balanced.py", line 78, in prepare
+    assert all(sha(ROOT/p)==h and sha(project/p)==h for p,h in snapshot.items())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

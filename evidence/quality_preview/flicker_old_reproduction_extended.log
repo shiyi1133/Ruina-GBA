@@ -1,0 +1,32 @@
+view_menu_down 227 transient 220 black 220
+view_menu_up 227 transient 220 black 220
+dialogue_to_origin_menu 49 transient 42 black 41
+origin_down 47 transient 40 black 40
+origin_up 47 transient 40 black 40
+origin_knight 47 transient 40 black 40
+avatar_down 61 transient 54 black 54
+avatar_up 60 transient 53 black 53
+name_cursor_right 51 transient 44 black 44
+name_cursor_left 52 transient 45 black 45
+map_show_complete 44 transient 37 black 37
+map_pan_left 44 transient 37 black 37
+map_pan_up 43 transient 36 black 36
+map_pan_right 43 transient 36 black 36
+map_pan_down 44 transient 37 black 37
+map_restore_mask 846 transient 839 black 839
+dialogue_hide_for_art 39 transient 32 black 32
+art_pan_right 37 transient 30 black 30
+art_pan_left 37 transient 30 black 30
+art_return_to_dialogue 44 transient 37 black 37
+{
+  "status": "known_released_bug_reproduced",
+  "ROM_sha256": "360c2d70750969f814da9e95244c279669dd431dd1d7bb0134701fcf9f1acc64",
+  "case_count": 20,
+  "LCD_frames_observed": 2089,
+  "fully_black_frames": 1948,
+  "transient_or_torn_frames": 1949,
+  "commit_metrics": null,
+  "scope": "ordinary UI, dialogue inspector, first-map viewer key presses only; explicit story black cuts are a separate check",
+  "observation": "actual completed mGBA LCD output, real buttons, read-only memory",
+  "hardware": "not_run"
+}

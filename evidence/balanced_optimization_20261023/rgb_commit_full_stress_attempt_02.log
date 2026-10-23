@@ -1,0 +1,31 @@
+{
+  "status": "fail",
+  "stress_music_plus_four_effects": true,
+  "quick_subset": false,
+  "MIDI_underruns_after_priming": 16,
+  "original_portrait_bank_size": 160,
+  "single_original_portraits": 160,
+  "mixed_sheet_combinations": 375,
+  "LCD_faces_checked": 1660,
+  "different_pixels": 0,
+  "VBlank_commit_overruns": 0,
+  "max_commit_scanlines": 6,
+  "production_rom_sha256": "35a8e283662be7a779e92149f77f7aab866bca22b07a583f4a6179849130abdc",
+  "fixture_sha256": "a39b13487d756e9d396898f3b5e9879b5c301f421ca94ed2d0269333ef1092e7",
+  "native_bank_sha256": "cc29d4bdcd2725f8eeb8b11c759287f02380aabc9be69add3d8de4fe247856eb",
+  "mixed_bank_sha256": "53b47aaca84933b203e01a450a7e5f08f5f17b8e7e1d4c1f5f6f0a31d6af8339",
+  "kind": "RGB555 singles and mixed pages each retain original XYZ colors",
+  "mixed_color_error_report": null,
+  "direct_RGB555_faces": true,
+  "RGB_commit_late_chunks": 0,
+  "video_source_override": "experiments/rgb_commit/video.c",
+  "physical_hardware": "not_run"
+}
+Traceback (most recent call last):
+  File "/mnt/d/gba_hack/废都物语_GBA章节样版/tools/check_portrait_matrix_gba.py", line 48, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/mnt/d/gba_hack/废都物语_GBA章节样版/tools/check_portrait_matrix_gba.py", line 45, in main
+    metrics=struct.unpack('<8I',e.memory(e.symbols['video_metrics'],32));rgb_late=struct.unpack('<I',e.memory(e.symbols['balanced_rgb_metrics']+8,4))[0]if direct else 0;result={'status':'pass'if not metrics[5]and not rgb_late and stream[0]==stream_start else'fail','stress_music_plus_four_effects':stress,'quick_subset':quick,'MIDI_underruns_after_priming':stream[0]-stream_start,'original_portrait_bank_size':h[1],'single_original_portraits':sum(len(f)==1 for _,f in cases),'mixed_sheet_combinations':sum(len(f)>1 for _,f in cases),'LCD_faces_checked':sum(len(r['portraits'])for r in rows),'different_pixels':sum(r['different_pixels']for r in rows),'VBlank_commit_overruns':metrics[5],'max_commit_scanlines':metrics[6],'production_rom_sha256':production,'fixture_sha256':digest,'native_bank_sha256':hashlib.sha256(native).hexdigest(),'mixed_bank_sha256':hashlib.sha256(mixed).hexdigest(),'kind':('RGB555 singles and mixed pages each retain original XYZ colors'if direct else'indexed singles retain original colors; mixed pages match explicitly fitted palettes'),'mixed_color_error_report':None if direct else'build/portrait_combinations_manifest.json','direct_RGB555_faces':direct,'RGB_commit_late_chunks':rgb_late if direct else None,'video_source_override':video_override,'rows':rows,'physical_hardware':'not_run'};(out/'result.json').write_text(json.dumps(result,ensure_ascii=False,indent=2));(out.parent/('latest_stress_subset_attempt.json'if quick else'latest_stress_attempt.json'if stress else'latest_attempt.json')).write_text(json.dumps({'status':result['status'],'report':str((out/'result.json').relative_to(ROOT))},ensure_ascii=False,indent=2));print(json.dumps({k:v for k,v in result.items()if k!='rows'},ensure_ascii=False,indent=2));assert result['status']=='pass'
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          ^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

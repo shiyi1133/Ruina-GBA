@@ -1,0 +1,56 @@
+{
+  "status": "pass",
+  "production_ROM_sha256": "6e70c2dc0b4c10a2c9a3aae4f52201ade7a9c652b0e48faa1aa4268b900626d6",
+  "observations": [
+    {
+      "scene": "save_game",
+      "SYS_margin_above_fast_code_data": 2364,
+      "modes": {
+        "18": {
+          "minimum_SP": 50364020,
+          "PC": 50347324,
+          "instructions_observed": 1265016
+        },
+        "31": {
+          "minimum_SP": 50361936,
+          "PC": 50341288,
+          "instructions_observed": 6279128
+        }
+      }
+    },
+    {
+      "scene": "cold_load",
+      "SYS_margin_above_fast_code_data": 1852,
+      "modes": {
+        "18": {
+          "minimum_SP": 50364112,
+          "PC": 50349604,
+          "instructions_observed": 899977
+        },
+        "31": {
+          "minimum_SP": 50361424,
+          "PC": 50341288,
+          "instructions_observed": 8402674
+        }
+      }
+    }
+  ],
+  "save_music_underrun_samples": 0,
+  "save_version": 5,
+  "exact_cold_load": {
+    "full_state_checksum_at_load_matches": true,
+    "state_bytes_at_load": 39704,
+    "player_progress_after_background_events_resume_matches": true,
+    "compared_after_resume": [
+      "map",
+      "gold",
+      "inventory",
+      "party and party actor records",
+      "origin, SP, story phase"
+    ],
+    "all_bytes_after_resuming_background_events": "not required: original parallel events legitimately update scratch state"
+  },
+  "original_SAV_unchanged": true,
+  "scope": "Real production ROM, actual menu buttons, ordinary SRAM save and fresh-process cold load. Read CPU SP at every emulated instruction; no RAM sentinels, ROM patches or save states. Sampled call paths, not all recursion proven.",
+  "physical_hardware": "not_run"
+}

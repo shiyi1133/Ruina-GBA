@@ -1,0 +1,296 @@
+{
+  "format": "immutable page spans and condition operands only; variables, switches, items, party and timer evaluated live",
+  "events": 3527,
+  "pages": 8205,
+  "bytes": 335408,
+  "mean_lookup_probes": 1.3878650411114262,
+  "original_pack_sha256": "03042b9da41392bf8a9766cd9820184ebaaf8bb510fa8aea98a8e93159cc37e1",
+  "bank_sha256": "ec64f55c07c166a820eb3b7bf7a4e6212bddac31634e661f21313323d173dc83",
+  "generator_sha256": "e322998a980c6377a2bdf45aadee3b64ff7e6ca77d928d08d8d73343109dea31",
+  "event_array_order": [
+    {
+      "file": "Map0001.lmu",
+      "event_ids_sorted": true
+    },
+    {
+      "file": "Map0002.lmu",
+      "event_ids_sorted": true
+    },
+    {
+      "file": "Map0003.lmu",
+      "event_ids_sorted": true
+    },
+    {
+      "file": "Map0004.lmu",
+      "event_ids_sorted": true
+    },
+    {
+      "file": "Map0005.lmu",
+      "event_ids_sorted": true
+    },
+    {
+      "file": "Map0006.lmu",
+      "event_ids_sorted": true
+    },
+    {
+      "file": "Map0007.lmu",
+      "event_ids_sorted": true
+    },
+    {
+      "file": "Map0008.lmu",
+      "event_ids_sorted": true
+    },
+    {
+      "file": "Map0009.lmu",
+      "event_ids_sorted": true
+    },
+    {
+      "file": "Map0010.lmu",
+      "event_ids_sorted": true
+    },
+    {
+      "file": "Map0011.lmu",
+      "event_ids_sorted": true
+    },
+    {
+      "file": "Map0012.lmu",
+      "event_ids_sorted": true
+    },
+    {
+      "file": "Map0013.lmu",
+      "event_ids_sorted": true
+    },
+    {
+      "file": "Map0014.lmu",
+      "event_ids_sorted": true
+    },
+    {
+      "file": "Map0015.lmu",
+      "event_ids_sorted": true
+    },
+    {
+      "file": "Map0016.lmu",
+      "event_ids_sorted": true
+    },
+    {
+      "file": "Map0017.lmu",
+      "event_ids_sorted": true
+    },
+    {
+      "file": "Map0018.lmu",
+      "event_ids_sorted": true
+    },
+    {
+      "file": "Map0019.lmu",
+      "event_ids_sorted": true
+    },
+    {
+      "file": "Map0020.lmu",
+      "event_ids_sorted": true
+    },
+    {
+      "file": "Map0021.lmu",
+      "event_ids_sorted": true
+    },
+    {
+      "file": "Map0022.lmu",
+      "event_ids_sorted": true
+    },
+    {
+      "file": "Map0023.lmu",
+      "event_ids_sorted": true
+    },
+    {
+      "file": "Map0024.lmu",
+      "event_ids_sorted": true
+    },
+    {
+      "file": "Map0025.lmu",
+      "event_ids_sorted": true
+    },
+    {
+      "file": "Map0026.lmu",
+      "event_ids_sorted": true
+    },
+    {
+      "file": "Map0027.lmu",
+      "event_ids_sorted": true
+    },
+    {
+      "file": "Map0028.lmu",
+      "event_ids_sorted": true
+    },
+    {
+      "file": "Map0029.lmu",
+      "event_ids_sorted": true
+    },
+    {
+      "file": "Map0030.lmu",
+      "event_ids_sorted": true
+    },
+    {
+      "file": "Map0031.lmu",
+      "event_ids_sorted": true
+    },
+    {
+      "file": "Map0032.lmu",
+      "event_ids_sorted": true
+    },
+    {
+      "file": "Map0033.lmu",
+      "event_ids_sorted": true
+    },
+    {
+      "file": "Map0034.lmu",
+      "event_ids_sorted": true
+    },
+    {
+      "file": "Map0035.lmu",
+      "event_ids_sorted": true
+    },
+    {
+      "file": "Map0036.lmu",
+      "event_ids_sorted": true
+    },
+    {
+      "file": "Map0037.lmu",
+      "event_ids_sorted": true
+    },
+    {
+      "file": "Map0038.lmu",
+      "event_ids_sorted": true
+    },
+    {
+      "file": "Map0039.lmu",
+      "event_ids_sorted": true
+    },
+    {
+      "file": "Map0040.lmu",
+      "event_ids_sorted": true
+    },
+    {
+      "file": "Map0041.lmu",
+      "event_ids_sorted": true
+    },
+    {
+      "file": "Map0042.lmu",
+      "event_ids_sorted": true
+    },
+    {
+      "file": "Map0043.lmu",
+      "event_ids_sorted": true
+    },
+    {
+      "file": "Map0044.lmu",
+      "event_ids_sorted": true
+    },
+    {
+      "file": "Map0045.lmu",
+      "event_ids_sorted": true
+    },
+    {
+      "file": "Map0046.lmu",
+      "event_ids_sorted": true
+    },
+    {
+      "file": "Map0047.lmu",
+      "event_ids_sorted": true
+    },
+    {
+      "file": "Map0048.lmu",
+      "event_ids_sorted": true
+    },
+    {
+      "file": "Map0049.lmu",
+      "event_ids_sorted": true
+    },
+    {
+      "file": "Map0050.lmu",
+      "event_ids_sorted": true
+    },
+    {
+      "file": "Map0051.lmu",
+      "event_ids_sorted": true
+    },
+    {
+      "file": "Map0052.lmu",
+      "event_ids_sorted": true
+    },
+    {
+      "file": "Map0053.lmu",
+      "event_ids_sorted": true
+    },
+    {
+      "file": "Map0054.lmu",
+      "event_ids_sorted": true
+    },
+    {
+      "file": "Map0055.lmu",
+      "event_ids_sorted": true
+    },
+    {
+      "file": "Map0056.lmu",
+      "event_ids_sorted": true
+    },
+    {
+      "file": "Map0057.lmu",
+      "event_ids_sorted": true
+    },
+    {
+      "file": "Map0058.lmu",
+      "event_ids_sorted": true
+    },
+    {
+      "file": "Map0059.lmu",
+      "event_ids_sorted": true
+    },
+    {
+      "file": "Map0060.lmu",
+      "event_ids_sorted": true
+    },
+    {
+      "file": "Map0061.lmu",
+      "event_ids_sorted": true
+    },
+    {
+      "file": "Map0062.lmu",
+      "event_ids_sorted": true
+    },
+    {
+      "file": "Map0063.lmu",
+      "event_ids_sorted": true
+    },
+    {
+      "file": "Map0064.lmu",
+      "event_ids_sorted": true
+    },
+    {
+      "file": "Map0065.lmu",
+      "event_ids_sorted": true
+    },
+    {
+      "file": "Map0066.lmu",
+      "event_ids_sorted": true
+    },
+    {
+      "file": "Map0067.lmu",
+      "event_ids_sorted": true
+    },
+    {
+      "file": "Map0068.lmu",
+      "event_ids_sorted": true
+    },
+    {
+      "file": "Map0069.lmu",
+      "event_ids_sorted": true
+    },
+    {
+      "file": "Map0071.lmu",
+      "event_ids_sorted": true
+    },
+    {
+      "file": "Map0072.lmu",
+      "event_ids_sorted": true
+    }
+  ]
+}

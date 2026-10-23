@@ -1,0 +1,38 @@
+{
+  "format": "Original score events with two simplified wavetable presentation levels; unchanged source SFX",
+  "music_tracks": 105,
+  "sound_effects": 218,
+  "bytes": 7213246,
+  "native_soundfont_bytes": 132796,
+  "score_events_preserved": true,
+  "full_original_timbre": false,
+  "direct_pcm_wav": true,
+  "gameplay": "coarse mono wavetable, paired samples",
+  "music_room": "fine stereo wavetable, original controllers",
+  "generator_sha256": "37e9a2b6864b83e73719b20be586ab6227256d5da96e4553b3b673c312a661e5",
+  "original_soundfont_sha256": "0785e26e6d4aeda2254d3059505921dbc58513d9c7c8d2d0a5d589da20b8bc98"
+}
+{
+  "format": "128 original-derived periodic programs, 65 compiled amplitude steps, 128 points; gameplay samples 32 points",
+  "bytes": 2262716,
+  "table_bytes": 2129920,
+  "additional_samples_per_mix": 2,
+  "score_clock_Hz": 16384,
+  "music_room": "fine stereo wavetable, paired samples",
+  "gameplay": "coarse mono wavetable, paired samples",
+  "generator_sha256": "8912fbd4c47c8f281c95e407234915a5161054af00a5abcaf69278007a1df4bd",
+  "bank_sha256": "14f511e3ba953cd45c9bf63a2dfd950496141389a0ccddfdd75cee48b15b4e79"
+}
+{
+  "status": "rebuilt",
+  "historical_work_folders_required": false,
+  "before": {
+    "build/audio.bin": "c2e794c7065cd2dd311d2fd97d199db2331c41fb00c01964a25e47ba82ab0961",
+    "build/native_music/native_soundfont.bin": "14f511e3ba953cd45c9bf63a2dfd950496141389a0ccddfdd75cee48b15b4e79"
+  },
+  "after": {
+    "build/audio.bin": "c2e794c7065cd2dd311d2fd97d199db2331c41fb00c01964a25e47ba82ab0961",
+    "build/native_music/native_soundfont.bin": "14f511e3ba953cd45c9bf63a2dfd950496141389a0ccddfdd75cee48b15b4e79"
+  },
+  "same_input_byte_identical": true
+}

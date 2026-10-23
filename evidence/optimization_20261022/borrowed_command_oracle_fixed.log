@@ -1,0 +1,14 @@
+{
+  "status": "pass",
+  "scope": "all linked immutable operand views, original parser comparison, literal no-op equivalence, shifted spans, truncated/error spans, mutable RAM excluded",
+  "checks": {
+    "borrowed_control_instructions": 15741,
+    "literal_empty_noops": 6723,
+    "fallback_instructions": 1702,
+    "bounded_or_error_rejections": 36760,
+    "offset_equivalent_readers": 9190
+  },
+  "source_sha256": "d342215cb12079e3c222799f5f9760dbf2ccff416d049a3b8dc23d348395df3d",
+  "linked_views_sha256": "899dced8d06d5c355157d293a1f10edb0482962bf6b8f9f20146fa3c74568c04",
+  "original_pack_sha256": "03042b9da41392bf8a9766cd9820184ebaaf8bb510fa8aea98a8e93159cc37e1"
+}

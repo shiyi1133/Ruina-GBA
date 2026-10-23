@@ -1,0 +1,7 @@
+{
+  "status": "interrupted_incomplete_not_pass",
+  "pid": 32208,
+  "command": "/home/app/venvs/pig/bin/python tools/check_music_full_scores_gba.py ",
+  "reason": "Re-run all 210 complete scores on four isolated emulator workers; same original scores and real GBA timing, no skipped assigned coverage.",
+  "unix": 1792730279.0092723
+}

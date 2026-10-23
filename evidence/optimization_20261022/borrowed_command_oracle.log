@@ -1,0 +1,15 @@
+/mnt/d/gba_hack/废都物语_GBA章节样版/build/borrow_lcf_snapshot.c: In function ‘lcf_borrow_command’:
+/mnt/d/gba_hack/废都物语_GBA章节样版/build/borrow_lcf_snapshot.c:294:44: error: ‘original_lcf_start’ undeclared (first use in this function); did you mean ‘original_lcf_end’?
+  294 |  unsigned long address,base=(unsigned long)original_lcf_start;ru32 offset,slot;
+      |                                            ^~~~~~~~~~~~~~~~~~
+      |                                            original_lcf_end
+/mnt/d/gba_hack/废都物语_GBA章节样版/build/borrow_lcf_snapshot.c:294:44: note: each undeclared identifier is reported only once for each function it appears in
+Traceback (most recent call last):
+  File "/mnt/d/gba_hack/废都物语_GBA章节样版/tools/check_borrowed_commands.py", line 32, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/mnt/d/gba_hack/废都物语_GBA章节样版/tools/check_borrowed_commands.py", line 11, in main
+    subprocess.run([*flags,'-DRUINA_BORROW_COMMANDS',str(snapshot),'build/borrowed_commands.c','tests/predecoded_lcf_stub.c','-o','build/borrow_views_host.so'],cwd=ROOT,check=True)
+  File "/usr/lib/python3.12/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['cc', '-std=c99', '-O2', '-fPIC', '-shared', '-ffreestanding', '-Iruntime/rm2k', '-DRUINA_BORROW_COMMANDS', '/mnt/d/gba_hack/废都物语_GBA章节样版/build/borrow_lcf_snapshot.c', 'build/borrowed_commands.c', 'tests/predecoded_lcf_stub.c', '-o', 'build/borrow_views_host.so']' returned non-zero exit status 1.

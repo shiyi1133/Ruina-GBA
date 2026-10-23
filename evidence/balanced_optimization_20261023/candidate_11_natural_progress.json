@@ -1,0 +1,92 @@
+[
+  {
+    "args": [
+      "tools/check_first_battle.py",
+      "1",
+      "--rom",
+      "build/fixtures/balanced_runtime/balanced_runtime.gba",
+      "--elf",
+      "build/fixtures/balanced_runtime/balanced_runtime.elf"
+    ],
+    "returncode": 0,
+    "host_seconds": 4.730975772999955,
+    "log": "evidence/balanced_optimization_20261023/candidate_11_natural_case_0.log"
+  },
+  {
+    "args": [
+      "tools/check_first_battle.py",
+      "2",
+      "--rom",
+      "build/fixtures/balanced_runtime/balanced_runtime.gba",
+      "--elf",
+      "build/fixtures/balanced_runtime/balanced_runtime.elf"
+    ],
+    "returncode": 0,
+    "host_seconds": 5.114557033999972,
+    "log": "evidence/balanced_optimization_20261023/candidate_11_natural_case_1.log"
+  },
+  {
+    "args": [
+      "tools/check_first_battle.py",
+      "3",
+      "--rom",
+      "build/fixtures/balanced_runtime/balanced_runtime.gba",
+      "--elf",
+      "build/fixtures/balanced_runtime/balanced_runtime.elf"
+    ],
+    "returncode": 0,
+    "host_seconds": 4.825749987000108,
+    "log": "evidence/balanced_optimization_20261023/candidate_11_natural_case_2.log"
+  },
+  {
+    "args": [
+      "tools/check_first_battle.py",
+      "4",
+      "--rom",
+      "build/fixtures/balanced_runtime/balanced_runtime.gba",
+      "--elf",
+      "build/fixtures/balanced_runtime/balanced_runtime.elf"
+    ],
+    "returncode": 0,
+    "host_seconds": 5.335055956999895,
+    "log": "evidence/balanced_optimization_20261023/candidate_11_natural_case_3.log"
+  },
+  {
+    "args": [
+      "tools/check_first_battle.py",
+      "3",
+      "--auto",
+      "--rom",
+      "build/fixtures/balanced_runtime/balanced_runtime.gba",
+      "--elf",
+      "build/fixtures/balanced_runtime/balanced_runtime.elf"
+    ],
+    "returncode": 0,
+    "host_seconds": 4.672931619999872,
+    "log": "evidence/balanced_optimization_20261023/candidate_11_natural_case_4.log"
+  },
+  {
+    "args": [
+      "tools/check_phase_demo.py",
+      "--rom",
+      "build/fixtures/balanced_runtime/balanced_runtime.gba",
+      "--elf",
+      "build/fixtures/balanced_runtime/balanced_runtime.elf"
+    ],
+    "returncode": 0,
+    "host_seconds": 7.492282857000191,
+    "log": "evidence/balanced_optimization_20261023/candidate_11_natural_case_5.log"
+  },
+  {
+    "args": [
+      "tools/check_manual_investigation.py",
+      "--rom",
+      "build/fixtures/balanced_runtime/balanced_runtime.gba",
+      "--elf",
+      "build/fixtures/balanced_runtime/balanced_runtime.elf"
+    ],
+    "returncode": 0,
+    "host_seconds": 8.172297438999976,
+    "log": "evidence/balanced_optimization_20261023/candidate_11_natural_case_6.log"
+  }
+]

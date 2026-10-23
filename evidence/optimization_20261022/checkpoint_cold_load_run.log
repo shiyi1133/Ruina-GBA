@@ -1,0 +1,36 @@
+{
+  "status": "pass",
+  "production_rom_sha256": "3d686216f77cd59e4a7bcf1769822bda713d2ec5756d0f218df9ca744afb6c73",
+  "natural_run_report": "evidence/chapter_progress/progress.json",
+  "natural_run_report_sha256": "c75293c008427b22573245c8078e1f1a3e710853c7fec5d4e7c67cb0dbcef9cf",
+  "genuine_SAV_sha256": "e28f74a33286303331df3845868c2479fd4307db8195e3ccba5c4e1b5f2a29ed",
+  "load_observations": {
+    "full_state_checksum_at_load_matches": true,
+    "state_bytes_at_load": 39704,
+    "player_progress_after_background_events_resume_matches": true,
+    "compared_after_resume": [
+      "map",
+      "gold",
+      "inventory",
+      "party and party actor records",
+      "origin, SP, story phase"
+    ],
+    "all_bytes_after_resuming_background_events": "not required: original parallel events legitimately update scratch state"
+  },
+  "progress": {
+    "map": 3,
+    "story_phase": 15,
+    "SP": 3,
+    "original_title_certificates": 1,
+    "CP_flag_114": true,
+    "gold": 24,
+    "party": [
+      1,
+      6,
+      7
+    ]
+  },
+  "kind": "production ROM, fresh emulator process, ordinary SAV from actual current knight opening-to-first-CP gameplay, actual buttons and read-only observations",
+  "full_game": "not_run",
+  "hardware": "not_run"
+}

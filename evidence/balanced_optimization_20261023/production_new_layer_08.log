@@ -1,0 +1,40 @@
+checking check_serviced_storage
+{"name": "check_serviced_storage", "command": ["/usr/bin/python3", "tools/check_serviced_storage.py"], "status": "pass", "returncode": 0, "host_seconds": 0.34618377900187625, "log": "evidence/balanced_optimization_20261023/validation/6e70c2dc0b4c/1792703071540366032/check_serviced_storage.log"}
+checking check_balanced_rgb
+{"name": "check_balanced_rgb", "command": ["/home/app/venvs/pig/bin/python", "tools/check_balanced_rgb.py"], "status": "pass", "returncode": 0, "host_seconds": 9.745051309997507, "log": "evidence/balanced_optimization_20261023/validation/6e70c2dc0b4c/1792703071540366032/check_balanced_rgb.log"}
+checking check_balanced_menu_regions
+{"name": "check_balanced_menu_regions", "command": ["/usr/bin/python3", "tools/check_balanced_menu_regions.py"], "status": "pass", "returncode": 0, "host_seconds": 9.53947782600153, "log": "evidence/balanced_optimization_20261023/validation/6e70c2dc0b4c/1792703071540366032/check_balanced_menu_regions.log"}
+checking check_balanced_ui_capacity
+{"name": "check_balanced_ui_capacity", "command": ["/home/app/venvs/pig/bin/python", "tools/check_balanced_ui_capacity.py"], "status": "pass", "returncode": 0, "host_seconds": 4.112740988999576, "log": "evidence/balanced_optimization_20261023/validation/6e70c2dc0b4c/1792703071540366032/check_balanced_ui_capacity.log"}
+checking check_map_window_matrix
+{"name": "check_map_window_matrix", "command": ["/home/app/venvs/pig/bin/python", "tools/check_map_window_matrix.py"], "status": "pass", "returncode": 0, "host_seconds": 83.5485204329998, "log": "evidence/balanced_optimization_20261023/validation/6e70c2dc0b4c/1792703071540366032/check_map_window_matrix.log"}
+checking check_incremental_rooms
+{"name": "check_incremental_rooms", "command": ["/home/app/venvs/pig/bin/python", "tools/check_incremental_rooms.py"], "status": "pass", "returncode": 0, "host_seconds": 42.23314481700072, "log": "evidence/balanced_optimization_20261023/validation/6e70c2dc0b4c/1792703071540366032/check_incremental_rooms.log"}
+checking check_music_room_long
+{"name": "check_music_room_long", "command": ["/usr/bin/python3", "tools/check_music_room_long.py"], "status": "pass", "returncode": 0, "host_seconds": 12.044272581999394, "log": "evidence/balanced_optimization_20261023/validation/6e70c2dc0b4c/1792703071540366032/check_music_room_long.log"}
+checking measure_balanced_battle
+{"name": "measure_balanced_battle", "command": ["/usr/bin/python3", "tools/measure_balanced_battle.py"], "status": "pass", "returncode": 0, "host_seconds": 8.395726826998725, "log": "evidence/balanced_optimization_20261023/validation/6e70c2dc0b4c/1792703071540366032/measure_balanced_battle.log"}
+checking check_save_stack
+{"name": "check_save_stack", "command": ["/usr/bin/python3", "tools/check_save_stack.py"], "status": "pass", "returncode": 0, "host_seconds": 2.125638659003016, "log": "evidence/balanced_optimization_20261023/validation/6e70c2dc0b4c/1792703071540366032/check_save_stack.log"}
+checking check_shop_item_order
+{"name": "check_shop_item_order", "command": ["/usr/bin/python3", "tools/check_shop_item_order.py"], "status": "pass", "returncode": 0, "host_seconds": 0.5282748649988207, "log": "evidence/balanced_optimization_20261023/validation/6e70c2dc0b4c/1792703071540366032/check_shop_item_order.log"}
+checking check_shop_comparison
+{"name": "check_shop_comparison", "command": ["/usr/bin/python3", "tools/check_shop_comparison.py"], "status": "pass", "returncode": 0, "host_seconds": 15.338000815001578, "log": "evidence/balanced_optimization_20261023/validation/6e70c2dc0b4c/1792703071540366032/check_shop_comparison.log"}
+checking check_inventory_matrix
+{"name": "check_inventory_matrix", "command": ["/usr/bin/python3", "tools/check_inventory_matrix.py"], "status": "pass", "returncode": 0, "host_seconds": 50.87147354899935, "log": "evidence/balanced_optimization_20261023/validation/6e70c2dc0b4c/1792703071540366032/check_inventory_matrix.log"}
+checking natural_opening_1
+{"name": "natural_opening_1", "command": ["/usr/bin/python3", "tools/check_balanced_playable.py", "--origin", "1"], "status": "pass", "returncode": 0, "host_seconds": 2.93825497799844, "log": "evidence/balanced_optimization_20261023/validation/6e70c2dc0b4c/1792703071540366032/natural_opening_1.log"}
+checking natural_opening_2
+{"name": "natural_opening_2", "command": ["/usr/bin/python3", "tools/check_balanced_playable.py", "--origin", "2"], "status": "pass", "returncode": 0, "host_seconds": 2.9143872280001233, "log": "evidence/balanced_optimization_20261023/validation/6e70c2dc0b4c/1792703071540366032/natural_opening_2.log"}
+checking natural_opening_3
+{"name": "natural_opening_3", "command": ["/usr/bin/python3", "tools/check_balanced_playable.py", "--origin", "3"], "status": "pass", "returncode": 0, "host_seconds": 2.617277009998361, "log": "evidence/balanced_optimization_20261023/validation/6e70c2dc0b4c/1792703071540366032/natural_opening_3.log"}
+checking natural_opening_4
+{"name": "natural_opening_4", "command": ["/usr/bin/python3", "tools/check_balanced_playable.py", "--origin", "4"], "status": "pass", "returncode": 0, "host_seconds": 2.8221798990016396, "log": "evidence/balanced_optimization_20261023/validation/6e70c2dc0b4c/1792703071540366032/natural_opening_4.log"}
+checking input_response
+{"name": "input_response", "command": ["/usr/bin/python3", "tools/measure_balanced_response.py", "--rom", "/mnt/d/gba_hack/废都物语_GBA章节样版/build/废都物语_GBA_开篇开发验证版.gba", "--elf", "/mnt/d/gba_hack/废都物语_GBA章节样版/build/ruina_opening_dev.elf", "--label", "final_balance"], "status": "pass", "returncode": 0, "host_seconds": 8.147409028999391, "log": "evidence/balanced_optimization_20261023/validation/6e70c2dc0b4c/1792703071540366032/input_response.log"}
+{
+  "status": "partial_checks_pass",
+  "production_ROM_sha256": "6e70c2dc0b4c10a2c9a3aae4f52201ade7a9c652b0e48faa1aa4268b900626d6",
+  "skip_common_regression": true,
+  "skip_whole_music": true
+}

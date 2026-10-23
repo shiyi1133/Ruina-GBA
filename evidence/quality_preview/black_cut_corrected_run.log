@@ -1,0 +1,77 @@
+{
+  "status": "pass",
+  "ROM_sha256": "df5bbc73c680e750aeebb0997111a6c7aff2ac6bf76457417f39b541101e7cc8",
+  "frames_observed": 2385,
+  "hardware_forced_blank_seen": false,
+  "black_preparation_samples": [
+    {
+      "frame": 3,
+      "image": "black_00003.png",
+      "actual_LCD_is_black": true
+    },
+    {
+      "frame": 57,
+      "image": "black_00057.png",
+      "actual_LCD_is_black": true
+    },
+    {
+      "frame": 101,
+      "image": "black_00101.png",
+      "actual_LCD_is_black": true
+    },
+    {
+      "frame": 149,
+      "image": "black_00149.png",
+      "actual_LCD_is_black": true
+    },
+    {
+      "frame": 263,
+      "image": "black_00263.png",
+      "actual_LCD_is_black": true
+    },
+    {
+      "frame": 280,
+      "image": "black_00280.png",
+      "actual_LCD_is_black": true
+    },
+    {
+      "frame": 306,
+      "image": "black_00306.png",
+      "actual_LCD_is_black": true
+    },
+    {
+      "frame": 332,
+      "image": "black_00332.png",
+      "actual_LCD_is_black": true
+    },
+    {
+      "frame": 358,
+      "image": "black_00358.png",
+      "actual_LCD_is_black": true
+    },
+    {
+      "frame": 389,
+      "image": "black_00389.png",
+      "actual_LCD_is_black": true
+    },
+    {
+      "frame": 414,
+      "image": "black_00414.png",
+      "actual_LCD_is_black": true
+    },
+    {
+      "frame": 1438,
+      "image": "black_01438.png",
+      "actual_LCD_is_black": true
+    },
+    {
+      "frame": 1539,
+      "image": "black_01539.png",
+      "actual_LCD_is_black": true
+    }
+  ],
+  "opening_reaches_first_map": true,
+  "kind": "actual emulated LCD frames, real buttons, read-only observations",
+  "whole_game": "not_run",
+  "hardware": "not_run"
+}

@@ -1,0 +1,9 @@
+{
+  "status": "delivered",
+  "demo_zip": "/mnt/c/Users/APP/Downloads/废都物语_GBA_阶段DEMO_v0.5.1_20261021.zip",
+  "rom": "/mnt/c/Users/APP/Downloads/废都物语_GBA_阶段DEMO_v0.5.1_20261021/废都物语_GBA_DEMO_v0.5.1_光标闪烁修正.gba",
+  "source_zip": "/mnt/c/Users/APP/Downloads/废都物语_GBA_阶段工程_v0.5.1_20261021.zip",
+  "sha256": "219b9c59aa42a74fb83eac327920b6d076553122611ad556bc50979dea86325c",
+  "source_rebuild": "pass byte-identical",
+  "full_game_port": false
+}

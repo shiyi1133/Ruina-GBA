@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/mnt/d/gba_hack/废都物语_GBA章节样版/tools/check_first_battle.py", line 66, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/mnt/d/gba_hack/废都物语_GBA章节样版/tools/check_first_battle.py", line 55, in main
+    e.key(128);e.frames(24);assert e.debug()[11]==1,e.debug();e.key(1)
+                                   ^^^^^^^^^^^^^^^^
+AssertionError: (1296125952, 0, 0, 0, 0, 0, 0, 7, 610, 23, 3, 0, 1, 3, 201, 4, 0, 4, 0, 0, 11550, 28, 7, 1)

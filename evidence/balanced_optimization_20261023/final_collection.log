@@ -1,0 +1,158 @@
+{
+  "status": "pass",
+  "ROM_sha256": "6e70c2dc0b4c10a2c9a3aae4f52201ade7a9c652b0e48faa1aa4268b900626d6",
+  "ROM_bytes": 33399132,
+  "version": "0.7",
+  "reports": [
+    {
+      "name": "common regression",
+      "report": "evidence/optimization_20261022/final_validation/6e70c2dc0b4c/result.json",
+      "report_sha256": "a5bb57ca2b4ca195594bb829d664aa91b096661347b85eab364372771f3687b2",
+      "status": "pass"
+    },
+    {
+      "name": "original data and rules source identity",
+      "report": "evidence/balanced_optimization_20261023/content_identity.json",
+      "report_sha256": "00bc18e0c987008e6f5ea5804b7914ad84c13d25035a02fe16c1d9ef070151d6",
+      "status": "pass"
+    },
+    {
+      "name": "shop exact pixels, prices, stock and full Game state",
+      "report": "evidence/balanced_optimization_20261023/shop_comparison/6e70c2dc0b4c/result.json",
+      "report_sha256": "356f2dfcd4876f25961181ab72436f2770470e5ce7f7f48bd23483a81b765a6e",
+      "status": "pass"
+    },
+    {
+      "name": "inventory original filters, return IDs and pixels",
+      "report": "evidence/balanced_optimization_20261023/inventory_matrix/6e70c2dc0b4c_e228efdd/result.json",
+      "report_sha256": "ac9705f70a17b476c616fce716ea194b286967d78734c781c3cf9ea6ecf538d0",
+      "status": "pass"
+    },
+    {
+      "name": "original item ID order and buying duplicates",
+      "report": "evidence/balanced_optimization_20261023/shop_order/f248a8ede679.json",
+      "report_sha256": "18155a97a897b65bff01728d72a48ee27e317def358036ba8451bd2fd5018dbf",
+      "status": "pass"
+    },
+    {
+      "name": "independent RGB555 pixels",
+      "report": "evidence/balanced_optimization_20261023/rgb_pixels/8b753403d739/result.json",
+      "report_sha256": "d48c277b8a0edda253009682dd81d7790cd978b776ffb502f78b7c117ff89b83",
+      "status": "pass"
+    },
+    {
+      "name": "partial menu pixels",
+      "report": "evidence/balanced_optimization_20261023/menu_regions/07b2dfea10d8/result.json",
+      "report_sha256": "fcb4d009a9a25a8679097f60dc4e6d59b6dcfa7e4dae91956eb9b9741c45e1ce",
+      "status": "pass"
+    },
+    {
+      "name": "native text capacity and RGB fallback",
+      "report": "evidence/balanced_optimization_20261023/ui_capacity/970f2c2c54f7/result.json",
+      "report_sha256": "e45407fcf4873840abd1961a94558c07329fdc7946aff656d22850166ed6a3ad",
+      "status": "pass"
+    },
+    {
+      "name": "all native maps: window, portrait, save and bitmap return",
+      "report": "evidence/balanced_optimization_20261023/map_windows/6e70c2dc0b4c_6261e16d_q0/result.json",
+      "report_sha256": "7b59d623b7c11ffdb67b40b0c8a6a4b87c0d0047ee3111923bed1c4c90964134",
+      "status": "pass"
+    },
+    {
+      "name": "exact state codec with audio callbacks",
+      "report": "evidence/balanced_optimization_20261023/storage/host_2b61f7661e7f.json",
+      "report_sha256": "ba46a48b0476217ce7e2a5f6ec5461a77bd71c22676d178aa7af5beaf00c0dfb",
+      "status": "pass"
+    },
+    {
+      "name": "original recipe/title effects and list pixels",
+      "report": "evidence/balanced_optimization_20261023/list_optimization/6e70c2dc0b4c/result.json",
+      "report_sha256": "152c8c22da9daa1ec406dbdee853e005e1d32bad278c0cb9580352d56ef01558",
+      "status": "pass"
+    },
+    {
+      "name": "natural opening origin 1",
+      "report": "evidence/balanced_optimization_20261023/6e70c2dc0b4c/opening_1/result.json",
+      "report_sha256": "037b624c027486a001c69d9a44d86452332adebafc6c37996b13e11244df814b",
+      "status": "pass"
+    },
+    {
+      "name": "natural opening origin 2",
+      "report": "evidence/balanced_optimization_20261023/6e70c2dc0b4c/opening_2/result.json",
+      "report_sha256": "10d243460d6893a2626143a49ead193b51d86c51583c6ef1db09bafa49a6c3db",
+      "status": "pass"
+    },
+    {
+      "name": "natural opening origin 3",
+      "report": "evidence/balanced_optimization_20261023/6e70c2dc0b4c/opening_3/result.json",
+      "report_sha256": "35bb5cda0d80af68665c4256b007a8c7c9e16ddadc4c5a558784ce1797ddbcf6",
+      "status": "pass"
+    },
+    {
+      "name": "natural opening origin 4",
+      "report": "evidence/balanced_optimization_20261023/6e70c2dc0b4c/opening_4/result.json",
+      "report_sha256": "efaadb40dbd7529efacbe49757b792a532d51269a778d0ccc457c1b3b72ebe15",
+      "status": "pass"
+    },
+    {
+      "name": "actual music room two loops",
+      "report": "evidence/balanced_optimization_20261023/music_room_long/6e70c2dc0b4c/result.json",
+      "report_sha256": "938759aca8cb724a6aa7d436f925e0fb100e22be2c1e7ae10373c558d5825162",
+      "status": "pass"
+    },
+    {
+      "name": "actual music room128-loop longevity",
+      "report": "evidence/balanced_optimization_20261023/music_room_long/6e70c2dc0b4c_soak_128/result.json",
+      "report_sha256": "0b3ad943cd727cada9843e3d93ad9ccb3e1bcb4ab674e9f4ef441d265a5d9966",
+      "status": "pass"
+    },
+    {
+      "name": "real save and cold-load stack/audio",
+      "report": "evidence/balanced_optimization_20261023/save_stack/6e70c2dc0b4c/result.json",
+      "report_sha256": "2591cac37cf2cee55a86cea40c22c73486f4e8d77ca526b9bf518154ec4496dd",
+      "status": "pass"
+    },
+    {
+      "name": "actual first battle and response",
+      "report": "evidence/balanced_optimization_20261023/6e70c2dc0b4c/battle_response/result.json",
+      "report_sha256": "7da9df0f601d644761b0cbf4e940ddb3ec83ccc63ce33143137462fc629f5821",
+      "status": "measured"
+    },
+    {
+      "name": "actual map/menu response",
+      "report": "evidence/balanced_optimization_20261023/6e70c2dc0b4c/performance_final_balance/result.json",
+      "report_sha256": "d0060b68f0d49df8e55fc9c32eacdf6c976821cc09068731d06a9ee5e6133f3c",
+      "status": "measured"
+    },
+    {
+      "name": "105 whole sources in both timbres",
+      "report": "evidence/balanced_optimization_20261023/full_scores/51a93034b5c7/result.json",
+      "report_sha256": "4a2ad7a14bf920ef443bc2d3ca996749cb88179c52513b5cf5195bd9f0493fd2",
+      "status": "pass"
+    }
+  ],
+  "common_regression_tests": 36,
+  "whole_music_cases": 210,
+  "emulated_audio_seconds_observed": 37942.3210144043,
+  "music_room_longevity": {
+    "loops_observed": 128,
+    "observed_GBA_seconds": 7760.244369506836,
+    "source_clock_ratio": 1.000000096347567,
+    "underruns_after_startup": 0,
+    "voice_overflows": 0
+  },
+  "native_map_matrix": {
+    "native_maps": 61,
+    "LCD_states": 610,
+    "continuing_score_underruns": 0,
+    "maximum_new_BGM_startup_silent_samples": 16,
+    "note": "New score startup is separately counted and bounded to one 16-sample IRQ (about 1 ms); first-map initialization/priming is excluded. Gaps later in a score are required to be zero."
+  },
+  "scope": "Continuing playable build with original game data and ordinary saves. Production-ROM button checks and separate controlled pixel/audio tests are distinguished in the linked reports.",
+  "unverified": [
+    "full natural campaign and all endings",
+    "physical GBA hardware",
+    "universal PC visual and performance parity"
+  ],
+  "source_archive_verification": "separate archive receipt required"
+}

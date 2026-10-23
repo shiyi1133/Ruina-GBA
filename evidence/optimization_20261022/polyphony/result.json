@@ -1,0 +1,903 @@
+{
+  "status": "pass",
+  "kind": "host control/envelope census; not GBA timing or listening acceptance",
+  "host_capacity": 1024,
+  "max_original_voices": 157,
+  "tracks": [
+    {
+      "name": "1stEnemy",
+      "samples_observed": 19123272,
+      "peak_voices": 40,
+      "overflows": 0,
+      "loops": 3,
+      "host_seconds": 0.035924895004427526,
+      "sequence_sha256": "cceb1dccf079eff890795886d2628a2248bbee502e4749690ee44c6bc7aa74a3"
+    },
+    {
+      "name": "2bfree",
+      "samples_observed": 11910968,
+      "peak_voices": 48,
+      "overflows": 0,
+      "loops": 3,
+      "host_seconds": 0.025985574000515044,
+      "sequence_sha256": "e0f2461eb2a59274a321019f9d5a43414001406b26f21cb93d9de8e4c1653e6d"
+    },
+    {
+      "name": "DS-ba02",
+      "samples_observed": 6536938,
+      "peak_voices": 40,
+      "overflows": 0,
+      "loops": 3,
+      "host_seconds": 0.01741316699917661,
+      "sequence_sha256": "83144e1fb9d7e3d32f5d9bf5f5f8f1c61a18f0acb80400f68a128621f63a52d5"
+    },
+    {
+      "name": "DS-ba03",
+      "samples_observed": 3476605,
+      "peak_voices": 127,
+      "overflows": 0,
+      "loops": 3,
+      "host_seconds": 0.04335906800406519,
+      "sequence_sha256": "7daf4cc9f9c5a727cc5682a3a1f837f4546346e164b668a768cc7285b038d651"
+    },
+    {
+      "name": "DS-ba05",
+      "samples_observed": 4020190,
+      "peak_voices": 122,
+      "overflows": 0,
+      "loops": 3,
+      "host_seconds": 0.07037911400402663,
+      "sequence_sha256": "f7704ed839d410dfb2fd062cb8321bad98036331fb4ee2961a22d3bbf3880266"
+    },
+    {
+      "name": "FTALE_TY",
+      "samples_observed": 7715880,
+      "peak_voices": 87,
+      "overflows": 0,
+      "loops": 3,
+      "host_seconds": 0.03680717700626701,
+      "sequence_sha256": "27d94098e70fb5b304be39bc55d335eb316b49420c01aa4a9045fdebd1bc767c"
+    },
+    {
+      "name": "INT03",
+      "samples_observed": 3974100,
+      "peak_voices": 117,
+      "overflows": 0,
+      "loops": 3,
+      "host_seconds": 0.024274859999422915,
+      "sequence_sha256": "3ac871442c5312078fcdc1b8d8e90fc3fca1a339f79c892a8c0cb3a407c77674"
+    },
+    {
+      "name": "Jファンファーレ1",
+      "samples_observed": 142573,
+      "peak_voices": 35,
+      "overflows": 0,
+      "loops": 3,
+      "host_seconds": 0.00043025299964938313,
+      "sequence_sha256": "5b4a950decf5fc1fd583dd3bcd1c1e846c9f18f1ded1b479adc47eca1dee8a78"
+    },
+    {
+      "name": "Jファンファーレ2",
+      "samples_observed": 170196,
+      "peak_voices": 37,
+      "overflows": 0,
+      "loops": 0,
+      "host_seconds": 0.0008069949981290847,
+      "sequence_sha256": "6ab2dec9f70544a830c27ed1752a207a7e1a7cf7dec29eb1b0d12d9e537641e5"
+    },
+    {
+      "name": "Jファンファーレ3",
+      "samples_observed": 463731,
+      "peak_voices": 124,
+      "overflows": 0,
+      "loops": 3,
+      "host_seconds": 0.00147158199979458,
+      "sequence_sha256": "96a1462ae7fbbf7dfe4b6c4fcafb563dfaf5212765b30809dc83b0e0cb7faf3c"
+    },
+    {
+      "name": "Jファンファーレ6",
+      "samples_observed": 154157,
+      "peak_voices": 46,
+      "overflows": 0,
+      "loops": 0,
+      "host_seconds": 0.00037908599915681407,
+      "sequence_sha256": "c63faea6e6654a07232b7c9686e3d5218ab7063b8f1eb55914a11b0572e38606"
+    },
+    {
+      "name": "J宿2",
+      "samples_observed": 100253,
+      "peak_voices": 29,
+      "overflows": 0,
+      "loops": 0,
+      "host_seconds": 0.000250170000072103,
+      "sequence_sha256": "a730424581a8617fa772ec9836927904e4249939ae25eed8f402e6f16e081324"
+    },
+    {
+      "name": "J戦闘終了1",
+      "samples_observed": 69533,
+      "peak_voices": 38,
+      "overflows": 0,
+      "loops": 0,
+      "host_seconds": 0.00018123400514014065,
+      "sequence_sha256": "790ee84a01eaf26b3f948c4415dcdb4a3663abaa834f63d176401107ee1455ba"
+    },
+    {
+      "name": "LordofPit",
+      "samples_observed": 7916748,
+      "peak_voices": 70,
+      "overflows": 0,
+      "loops": 3,
+      "host_seconds": 0.024830244001350366,
+      "sequence_sha256": "598e3e3a87c195c63fadb704902e8a6f260691b6a4ce6731330773df4909a08d"
+    },
+    {
+      "name": "SLG_Engi",
+      "samples_observed": 21511140,
+      "peak_voices": 39,
+      "overflows": 0,
+      "loops": 3,
+      "host_seconds": 0.05084084899863228,
+      "sequence_sha256": "24e3f85f082f23eb3334c341dcee3645186d86d8f2b92e04cca209bdcae81e56"
+    },
+    {
+      "name": "TRACK_3",
+      "samples_observed": 6173032,
+      "peak_voices": 46,
+      "overflows": 0,
+      "loops": 3,
+      "host_seconds": 0.025303720001829788,
+      "sequence_sha256": "02e1137fa9649fbed2439b072604bebac28d8773098b468b5a9aba7072d54aa7"
+    },
+    {
+      "name": "TRACK_8",
+      "samples_observed": 4539480,
+      "peak_voices": 21,
+      "overflows": 0,
+      "loops": 3,
+      "host_seconds": 0.010279583002557047,
+      "sequence_sha256": "54d41468c85b7caa7ba0cfe134c5a036232b148384eae529ea7f18fff9b1927a"
+    },
+    {
+      "name": "Tale",
+      "samples_observed": 4843108,
+      "peak_voices": 35,
+      "overflows": 0,
+      "loops": 3,
+      "host_seconds": 0.010073111996462103,
+      "sequence_sha256": "6f8f015ff97fa69b180ae295c3ae5390c7c0ede1ba49c72d95026d9f77b7041a"
+    },
+    {
+      "name": "battle05a",
+      "samples_observed": 6595788,
+      "peak_voices": 64,
+      "overflows": 0,
+      "loops": 3,
+      "host_seconds": 0.01889690700045321,
+      "sequence_sha256": "95b2b3bbb6fc44c7449ab4b988990c2190f627829394d4ab6c1c96b887dccee5"
+    },
+    {
+      "name": "battle10",
+      "samples_observed": 4747672,
+      "peak_voices": 53,
+      "overflows": 0,
+      "loops": 3,
+      "host_seconds": 0.014214298003935255,
+      "sequence_sha256": "1e15c0fbe1037d765447792329360f1b4a459188fd29ae1e0138b4a16c4c9f53"
+    },
+    {
+      "name": "boss05",
+      "samples_observed": 5839943,
+      "peak_voices": 26,
+      "overflows": 0,
+      "loops": 3,
+      "host_seconds": 0.009626002000004519,
+      "sequence_sha256": "85dc7056913a1c45e8af2a917721322d681581efb13934aca640061a798572d5"
+    },
+    {
+      "name": "boss10",
+      "samples_observed": 9432467,
+      "peak_voices": 44,
+      "overflows": 0,
+      "loops": 3,
+      "host_seconds": 0.015694324996729847,
+      "sequence_sha256": "a4dcc331fa784605dd2f0d5195128a8fc404e20520e5b8fbbfe632814565ba44"
+    },
+    {
+      "name": "boss12",
+      "samples_observed": 4919296,
+      "peak_voices": 41,
+      "overflows": 0,
+      "loops": 3,
+      "host_seconds": 0.01346291999652749,
+      "sequence_sha256": "8891a8c1d2b876557d78a3b3d1e6b0f90e4dfc4d769c8da274ca7bbbf3367601"
+    },
+    {
+      "name": "climax",
+      "samples_observed": 5819398,
+      "peak_voices": 144,
+      "overflows": 0,
+      "loops": 3,
+      "host_seconds": 0.02705536400026176,
+      "sequence_sha256": "ea6a7f41b88c314c7895c293fe53accfec6c9f939f318b42591a5d40edc94eed"
+    },
+    {
+      "name": "explorer",
+      "samples_observed": 10363204,
+      "peak_voices": 52,
+      "overflows": 0,
+      "loops": 3,
+      "host_seconds": 0.053680616001656745,
+      "sequence_sha256": "0223bac8559ddd8a31aec758b0317b6b6de30ea1ee5d0bd3236b02104c610460"
+    },
+    {
+      "name": "f03-In thunder",
+      "samples_observed": 6955008,
+      "peak_voices": 79,
+      "overflows": 0,
+      "loops": 3,
+      "host_seconds": 0.04234097500011558,
+      "sequence_sha256": "f3c6bdaa587397c8a0cb722cf57833eff2a2cc9790c1dea018c0dd2e7753930f"
+    },
+    {
+      "name": "f05-Forest of the hesitation",
+      "samples_observed": 6299648,
+      "peak_voices": 55,
+      "overflows": 0,
+      "loops": 3,
+      "host_seconds": 0.018262092002260033,
+      "sequence_sha256": "008693fcc5e7e2e24bc8bf87962a0beb1d63952f8933af129d9d0f118ed52079"
+    },
+    {
+      "name": "f06-Open-Air fire",
+      "samples_observed": 4333568,
+      "peak_voices": 25,
+      "overflows": 0,
+      "loops": 3,
+      "host_seconds": 0.005555067000386771,
+      "sequence_sha256": "8ce32fd24772ad92b5b1c39bf8a23a36dfed165c17bc91437cc91f64d45bf448"
+    },
+    {
+      "name": "f07-Incantation which was forgotten",
+      "samples_observed": 6889472,
+      "peak_voices": 73,
+      "overflows": 0,
+      "loops": 3,
+      "host_seconds": 0.0239918579973164,
+      "sequence_sha256": "ca790dc60fa18386a3d9c8169ca95060eac7eace91af1fd6dd2fce35436c08a6"
+    },
+    {
+      "name": "f08-Long sword",
+      "samples_observed": 6365184,
+      "peak_voices": 100,
+      "overflows": 0,
+      "loops": 3,
+      "host_seconds": 0.034809695003787056,
+      "sequence_sha256": "eefcf5ee85a820b52b514e21997c5aae74bb66654a8bb52a4de92939e3948005"
+    },
+    {
+      "name": "f10-The village of the elf",
+      "samples_observed": 4759552,
+      "peak_voices": 58,
+      "overflows": 0,
+      "loops": 3,
+      "host_seconds": 0.02612989400222432,
+      "sequence_sha256": "68c75a17ca86e331e4ab72f4a2e779c0a4f901a0d43157d10b3a82a8ce0963df"
+    },
+    {
+      "name": "f20-Blade sounds",
+      "samples_observed": 8560640,
+      "peak_voices": 86,
+      "overflows": 0,
+      "loops": 3,
+      "host_seconds": 0.032413577995612286,
+      "sequence_sha256": "00bdd70ac088a45111ab7b250403c7eaee19bfbde36b4e73848514cfb634a094"
+    },
+    {
+      "name": "f25-Sky high",
+      "samples_observed": 6692864,
+      "peak_voices": 96,
+      "overflows": 0,
+      "loops": 3,
+      "host_seconds": 0.05140443699929165,
+      "sequence_sha256": "c92cf6daf1e8bdb1b49ce3ba0356093073b24664fedda08550e1c1f93526dfc3"
+    },
+    {
+      "name": "field1",
+      "samples_observed": 5124703,
+      "peak_voices": 30,
+      "overflows": 0,
+      "loops": 3,
+      "host_seconds": 0.013203469003201462,
+      "sequence_sha256": "1ccc43beda2137f262f2b3d4dd005547b60d0ed6fbf57815f5be08b99f3cc12e"
+    },
+    {
+      "name": "field4",
+      "samples_observed": 4192289,
+      "peak_voices": 43,
+      "overflows": 0,
+      "loops": 3,
+      "host_seconds": 0.015368587002740242,
+      "sequence_sha256": "305ee9665493405ccac8ae17387b1bd272f9de98fd5bf84c1ab214b45d4ddb65"
+    },
+    {
+      "name": "field5",
+      "samples_observed": 4802626,
+      "peak_voices": 107,
+      "overflows": 0,
+      "loops": 3,
+      "host_seconds": 0.02717635500448523,
+      "sequence_sha256": "090dc9b2ab16f72925a302588146bd98d65e8d62ca0514b6f62cc4c84f9972b0"
+    },
+    {
+      "name": "forgotten-ruin",
+      "samples_observed": 6064436,
+      "peak_voices": 63,
+      "overflows": 0,
+      "loops": 3,
+      "host_seconds": 0.029407390000415035,
+      "sequence_sha256": "3a62f5a115df5b78dd3f16375333657c9d427596447ac9d11063e32b26a37c43"
+    },
+    {
+      "name": "groove01",
+      "samples_observed": 18767084,
+      "peak_voices": 53,
+      "overflows": 0,
+      "loops": 3,
+      "host_seconds": 0.0498708759987494,
+      "sequence_sha256": "bbce8ad1a03474710b918ee7cb40d7f9843cec8626dcef7a6a5ab3f7cb427bdc"
+    },
+    {
+      "name": "groove03",
+      "samples_observed": 18418300,
+      "peak_voices": 51,
+      "overflows": 0,
+      "loops": 3,
+      "host_seconds": 0.04434089399728691,
+      "sequence_sha256": "6e008ff568712bf8c5b5e174fac9504987659ece0444e1f0e9c60ca56d466301"
+    },
+    {
+      "name": "main1",
+      "samples_observed": 7912748,
+      "peak_voices": 114,
+      "overflows": 0,
+      "loops": 3,
+      "host_seconds": 0.04547964000084903,
+      "sequence_sha256": "4d4f6bd4ff7946fc9a574783a18fbe2ee221b4088af8519e67bac40b991df965"
+    },
+    {
+      "name": "main3",
+      "samples_observed": 1943453,
+      "peak_voices": 116,
+      "overflows": 0,
+      "loops": 0,
+      "host_seconds": 0.009758066000358667,
+      "sequence_sha256": "c6e2307a4a40684f516e8cbca9e68cfa03d93670cd1d05c66b0efc0448dbc6fc"
+    },
+    {
+      "name": "mpanic",
+      "samples_observed": 11543836,
+      "peak_voices": 112,
+      "overflows": 0,
+      "loops": 3,
+      "host_seconds": 0.09476718299993081,
+      "sequence_sha256": "a6e95bee76106809ef2ef929010465ee496abaea258f36849a2ba94ace70e2a5"
+    },
+    {
+      "name": "overture",
+      "samples_observed": 13488616,
+      "peak_voices": 61,
+      "overflows": 0,
+      "loops": 3,
+      "host_seconds": 0.050304028001846746,
+      "sequence_sha256": "901df398b37794146a82cf3bea927dae81b63f1286955391c6fa06acf3202c16"
+    },
+    {
+      "name": "ruins1",
+      "samples_observed": 4476730,
+      "peak_voices": 19,
+      "overflows": 0,
+      "loops": 3,
+      "host_seconds": 0.005792015996121336,
+      "sequence_sha256": "4fa69ad770611285a409d8930f46e6c3a7b2c23f19e4e900507d37becd8db516"
+    },
+    {
+      "name": "sanct",
+      "samples_observed": 4769235,
+      "peak_voices": 39,
+      "overflows": 0,
+      "loops": 3,
+      "host_seconds": 0.012280723996809684,
+      "sequence_sha256": "d2617274bd80ebdb1264a7ab2bd27e30d7f0064016ba1da0ba7a8fcf9e3e39e2"
+    },
+    {
+      "name": "scene10",
+      "samples_observed": 8751759,
+      "peak_voices": 11,
+      "overflows": 0,
+      "loops": 3,
+      "host_seconds": 0.005278705000819173,
+      "sequence_sha256": "7f3a74553c396066bec8f3064fc66bd04561a0cc4e8cf2916ce39e7e42d12021"
+    },
+    {
+      "name": "scene19",
+      "samples_observed": 10227712,
+      "peak_voices": 41,
+      "overflows": 0,
+      "loops": 3,
+      "host_seconds": 0.04676272800134029,
+      "sequence_sha256": "67c3b618bedc697c12eb9499632f48ecde4e595ab9ef912c8d7cf688a11b34e8"
+    },
+    {
+      "name": "shrine2",
+      "samples_observed": 5927192,
+      "peak_voices": 40,
+      "overflows": 0,
+      "loops": 3,
+      "host_seconds": 0.02678779399866471,
+      "sequence_sha256": "2a847bc5a31938fd1c96c11568b040d0a7dac02e1084f0d0cea768fc24d0462f"
+    },
+    {
+      "name": "syugekir",
+      "samples_observed": 9316136,
+      "peak_voices": 131,
+      "overflows": 0,
+      "loops": 3,
+      "host_seconds": 0.05949962500017136,
+      "sequence_sha256": "5210fd1c8d5dff4bba2865d8dc06c2020e632870bde26df84e6d20ac5010c359"
+    },
+    {
+      "name": "teikoku",
+      "samples_observed": 6722420,
+      "peak_voices": 79,
+      "overflows": 0,
+      "loops": 3,
+      "host_seconds": 0.04550406299676979,
+      "sequence_sha256": "23643359923d4d05911583f9da9561dadf9495d9d848c9c7b7bb795f636586ba"
+    },
+    {
+      "name": "tower3",
+      "samples_observed": 4817176,
+      "peak_voices": 45,
+      "overflows": 0,
+      "loops": 3,
+      "host_seconds": 0.009686135999800172,
+      "sequence_sha256": "a714587b98eef5c3407a48d67742008582ca087a718c9cb5c552b0ae1f05f9e4"
+    },
+    {
+      "name": "town08",
+      "samples_observed": 7214071,
+      "peak_voices": 36,
+      "overflows": 0,
+      "loops": 3,
+      "host_seconds": 0.012675038997258525,
+      "sequence_sha256": "766f0101082d8f47c52b7e1d574daabd616c7949d70068ee6f4c3e6339ba6ff6"
+    },
+    {
+      "name": "yomei18_gm",
+      "samples_observed": 6763312,
+      "peak_voices": 29,
+      "overflows": 0,
+      "loops": 3,
+      "host_seconds": 0.012302160997933242,
+      "sequence_sha256": "b98cae801e21e2ace6fcd8ab1f27de33071e6361128d10869960249088459652"
+    },
+    {
+      "name": "エンディング2",
+      "samples_observed": 6586287,
+      "peak_voices": 35,
+      "overflows": 0,
+      "loops": 3,
+      "host_seconds": 0.017108357002143748,
+      "sequence_sha256": "b14bcac97ab1967244e53a096aa00ddb37c49fe24c592627e0bba2c4a34d5503"
+    },
+    {
+      "name": "ゲームオーバー3",
+      "samples_observed": 3827696,
+      "peak_voices": 44,
+      "overflows": 0,
+      "loops": 3,
+      "host_seconds": 0.013709279002796393,
+      "sequence_sha256": "455525661e332745493b43b143b38899969a95ee2d4f0e02adda364e2ac5f1e3"
+    },
+    {
+      "name": "ゴーストタウン1",
+      "samples_observed": 7238044,
+      "peak_voices": 42,
+      "overflows": 0,
+      "loops": 3,
+      "host_seconds": 0.01695872499840334,
+      "sequence_sha256": "f0a2d26b5f2721e7286bf127cddf4e68ba550d648e16e1db25386147a26a96e8"
+    },
+    {
+      "name": "ダンジョン1",
+      "samples_observed": 4050008,
+      "peak_voices": 66,
+      "overflows": 0,
+      "loops": 3,
+      "host_seconds": 0.013027499000600073,
+      "sequence_sha256": "5cd28c858d546924ccc084da9d8e08f221a42d41c9280fafcb25cd1b7a8e312a"
+    },
+    {
+      "name": "ダンジョン4",
+      "samples_observed": 8658254,
+      "peak_voices": 56,
+      "overflows": 0,
+      "loops": 3,
+      "host_seconds": 0.03957282000192208,
+      "sequence_sha256": "6a5414e5b020a039e9ab9f3799f715ebb8fa98f644a547d71cf74adbfc57d9bf"
+    },
+    {
+      "name": "ダンジョン5",
+      "samples_observed": 6537216,
+      "peak_voices": 41,
+      "overflows": 0,
+      "loops": 3,
+      "host_seconds": 0.022775981997256167,
+      "sequence_sha256": "7d8d4b35ebb685955220aed075dd107250d9adb2fe3a36be4def50ad698e922c"
+    },
+    {
+      "name": "ピンチ",
+      "samples_observed": 2186936,
+      "peak_voices": 44,
+      "overflows": 0,
+      "loops": 3,
+      "host_seconds": 0.011645714999758638,
+      "sequence_sha256": "9b93124febafe5907b9849490144b73975902fd8cc1e6f8109693205539a8daa"
+    },
+    {
+      "name": "ボス2",
+      "samples_observed": 3527052,
+      "peak_voices": 46,
+      "overflows": 0,
+      "loops": 3,
+      "host_seconds": 0.011747909004043322,
+      "sequence_sha256": "782e989df56f3dbe2dc5ff3254f31e10b73eee427e61be2a6d593d0440dc3237"
+    },
+    {
+      "name": "ボス4",
+      "samples_observed": 4397629,
+      "peak_voices": 76,
+      "overflows": 0,
+      "loops": 3,
+      "host_seconds": 0.024713842998608015,
+      "sequence_sha256": "4c40751d84ff265a597298874a2bd3630505e702727acd8073256ace209e7ce3"
+    },
+    {
+      "name": "乗り物1",
+      "samples_observed": 7788625,
+      "peak_voices": 42,
+      "overflows": 0,
+      "loops": 3,
+      "host_seconds": 0.02138365800055908,
+      "sequence_sha256": "8a1b1ec7f3f45149fcfdb746be070c4c374419635c691e1d30401370345898c7"
+    },
+    {
+      "name": "乗り物2",
+      "samples_observed": 4628334,
+      "peak_voices": 32,
+      "overflows": 0,
+      "loops": 3,
+      "host_seconds": 0.008250970000517555,
+      "sequence_sha256": "0d28f74b53a341076582149722bb8a7ed58608db84ea98f87e149f4412ee37c2"
+    },
+    {
+      "name": "別れ2",
+      "samples_observed": 5925190,
+      "peak_voices": 55,
+      "overflows": 0,
+      "loops": 3,
+      "host_seconds": 0.029661804997886065,
+      "sequence_sha256": "0cc508982ca435cdf40f2a894d36f8d492914fbc0f1e920daa91f5843b4fba35"
+    },
+    {
+      "name": "勇者2",
+      "samples_observed": 2392064,
+      "peak_voices": 46,
+      "overflows": 0,
+      "loops": 3,
+      "host_seconds": 0.011391768995963503,
+      "sequence_sha256": "42bd3edc0290177a97599cb257aef9bfeee53682d85573a674c867aacd6aeb8a"
+    },
+    {
+      "name": "城2",
+      "samples_observed": 5641909,
+      "peak_voices": 28,
+      "overflows": 0,
+      "loops": 3,
+      "host_seconds": 0.010331065001082607,
+      "sequence_sha256": "bfc69a2b1bd0eaf63270a1e25ae724763f6cff2c0e16ea45b3d9a3d0651a7bfe"
+    },
+    {
+      "name": "妖精1",
+      "samples_observed": 5811173,
+      "peak_voices": 68,
+      "overflows": 0,
+      "loops": 3,
+      "host_seconds": 0.04697309299808694,
+      "sequence_sha256": "d45b69c31ec3942024f3a40e653a05e3c0287358e4e18f68f082c009e39f01e4"
+    },
+    {
+      "name": "妖精2",
+      "samples_observed": 4122442,
+      "peak_voices": 37,
+      "overflows": 0,
+      "loops": 3,
+      "host_seconds": 0.014292362000560388,
+      "sequence_sha256": "49055bc53240dcfb8a49b11ee4a1b326964e4ef824d45ec3b24bcad85a310e38"
+    },
+    {
+      "name": "安らぎ3",
+      "samples_observed": 3178496,
+      "peak_voices": 52,
+      "overflows": 0,
+      "loops": 3,
+      "host_seconds": 0.020531399997707922,
+      "sequence_sha256": "efff5380bed7bc7047ecb7a59390932f2cbc20410be0dd1e95dabd135898ef3a"
+    },
+    {
+      "name": "店1",
+      "samples_observed": 5112152,
+      "peak_voices": 29,
+      "overflows": 0,
+      "loops": 3,
+      "host_seconds": 0.010651536998921074,
+      "sequence_sha256": "46f5f9c60a4ae01dc8045270741326af7f264e3b3aca88a5c021535f148cef74"
+    },
+    {
+      "name": "店2",
+      "samples_observed": 3911600,
+      "peak_voices": 46,
+      "overflows": 0,
+      "loops": 3,
+      "host_seconds": 0.023182505996373948,
+      "sequence_sha256": "bdeee0a445ab7546329f2a1577ebc903d383f4d6baeff867454180902f10b081"
+    },
+    {
+      "name": "店3",
+      "samples_observed": 1852095,
+      "peak_voices": 14,
+      "overflows": 0,
+      "loops": 3,
+      "host_seconds": 0.00207692600088194,
+      "sequence_sha256": "41d066c833bee3f603cc486ad045723923ae1bb1c673b7a41a89f0a68bbeec39"
+    },
+    {
+      "name": "戦闘1",
+      "samples_observed": 7803747,
+      "peak_voices": 145,
+      "overflows": 0,
+      "loops": 3,
+      "host_seconds": 0.04713179399550427,
+      "sequence_sha256": "09e5028f9d2f036a1c54610fc5a577667c01db10fef33b549aa6698cab44586f"
+    },
+    {
+      "name": "戦闘2",
+      "samples_observed": 5218189,
+      "peak_voices": 70,
+      "overflows": 0,
+      "loops": 3,
+      "host_seconds": 0.0237157669980661,
+      "sequence_sha256": "d00a634df68fa438d2559d79e9320da4149c9e8139219b48cd47ce3b9e82dc43"
+    },
+    {
+      "name": "探索",
+      "samples_observed": 3195276,
+      "peak_voices": 44,
+      "overflows": 0,
+      "loops": 3,
+      "host_seconds": 0.007303241996851284,
+      "sequence_sha256": "969298cbecba1b44fc1f6c8f2f09578b2fd9ff4d0d22c758c8b4940566e522ee"
+    },
+    {
+      "name": "明るい市場",
+      "samples_observed": 6355893,
+      "peak_voices": 49,
+      "overflows": 0,
+      "loops": 3,
+      "host_seconds": 0.03749640200112481,
+      "sequence_sha256": "0d161e1365c59edd0861185b3c6c006407d83c8dfd138d18b7f0f6272a772d40"
+    },
+    {
+      "name": "村1",
+      "samples_observed": 7602912,
+      "peak_voices": 62,
+      "overflows": 0,
+      "loops": 3,
+      "host_seconds": 0.043962971001747064,
+      "sequence_sha256": "b61813df9057c6cc40dc68d40977ceec877d4989460b0dcc4c8f19e498e18bab"
+    },
+    {
+      "name": "村3",
+      "samples_observed": 5473862,
+      "peak_voices": 42,
+      "overflows": 0,
+      "loops": 3,
+      "host_seconds": 0.012201065001136158,
+      "sequence_sha256": "c0f9c2c69dd3f021402afe92228cb5d82c68bb18364434ff80594f34e59dab40"
+    },
+    {
+      "name": "町1",
+      "samples_observed": 9185723,
+      "peak_voices": 71,
+      "overflows": 0,
+      "loops": 3,
+      "host_seconds": 0.08020218700403348,
+      "sequence_sha256": "976f0c6e8c36618018f3efa76f47e51b5988347d3fd2625c549ad73bdb25c9d9"
+    },
+    {
+      "name": "町3",
+      "samples_observed": 3971481,
+      "peak_voices": 43,
+      "overflows": 0,
+      "loops": 3,
+      "host_seconds": 0.013635775001603179,
+      "sequence_sha256": "108bb9b747a392cc40e365de8c43fc712babc2e6595c750fca87591990138869"
+    },
+    {
+      "name": "神秘2",
+      "samples_observed": 4767612,
+      "peak_voices": 70,
+      "overflows": 0,
+      "loops": 3,
+      "host_seconds": 0.03121327499684412,
+      "sequence_sha256": "64340c0c97b5d73236e23ba8b00f0753483b32f3b6d780939886dd79c798aeca"
+    },
+    {
+      "name": "神秘3",
+      "samples_observed": 5750784,
+      "peak_voices": 73,
+      "overflows": 0,
+      "loops": 3,
+      "host_seconds": 0.0224919590036734,
+      "sequence_sha256": "4bdb760fea5d9987460a155f0132c0f85d0e614ea1eba5b9f7e73c889cad4503"
+    },
+    {
+      "name": "秘宝",
+      "samples_observed": 2839329,
+      "peak_voices": 60,
+      "overflows": 0,
+      "loops": 3,
+      "host_seconds": 0.010897061001742259,
+      "sequence_sha256": "26451621573e73c0ce2200d5468e2c80d283dbdb3a5e684117894adf3ffa0d44"
+    },
+    {
+      "name": "空落ちる日",
+      "samples_observed": 12417368,
+      "peak_voices": 157,
+      "overflows": 0,
+      "loops": 3,
+      "host_seconds": 0.06789677999768173,
+      "sequence_sha256": "6882c338ac2b8b82fcc7fc9af358e527f49d89b07025f02debd03e416ab1aeef"
+    },
+    {
+      "name": "船1",
+      "samples_observed": 8432629,
+      "peak_voices": 58,
+      "overflows": 0,
+      "loops": 3,
+      "host_seconds": 0.04244489900156623,
+      "sequence_sha256": "ed95f52383561cf6da7b178e74d63adec9e837ba5619631602269fc17e36b8dc"
+    },
+    {
+      "name": "船2",
+      "samples_observed": 4243753,
+      "peak_voices": 58,
+      "overflows": 0,
+      "loops": 3,
+      "host_seconds": 0.019219701003748924,
+      "sequence_sha256": "7da4f9e9bf65658695b81a58c3a7ae67d0d0ccb232ba6d1339a72b47e14411f2"
+    },
+    {
+      "name": "試練",
+      "samples_observed": 4243833,
+      "peak_voices": 38,
+      "overflows": 0,
+      "loops": 3,
+      "host_seconds": 0.02051694200054044,
+      "sequence_sha256": "c1e06d08b75ec8a1b881f0286ee7a22cbc92a0335a4d93f6196e59f1a8fb8d48"
+    },
+    {
+      "name": "足長- Across the Street, Cross One's Heart",
+      "samples_observed": 9619226,
+      "peak_voices": 47,
+      "overflows": 0,
+      "loops": 3,
+      "host_seconds": 0.03038047500012908,
+      "sequence_sha256": "7eccc8923cef77e96ff04a40c4465421a3af19a39e9ed596dd2a0df0751b16da"
+    },
+    {
+      "name": "足長e- I'll understand how you feel",
+      "samples_observed": 6833947,
+      "peak_voices": 66,
+      "overflows": 0,
+      "loops": 3,
+      "host_seconds": 0.013927158004662488,
+      "sequence_sha256": "586d49a606c6d54ce665e8669e77b2f05db12313bb6a49a1b4fd334f1bba2a66"
+    },
+    {
+      "name": "足長j- Hypocrisy Imprint",
+      "samples_observed": 77629,
+      "peak_voices": 85,
+      "overflows": 0,
+      "loops": 3,
+      "host_seconds": 0.00024212700373027474,
+      "sequence_sha256": "cc70a46570ad6242c23d0d62c5fe08045d93e42870a39529dd98d8ccbd89c7b8"
+    },
+    {
+      "name": "足長j- Ownfault",
+      "samples_observed": 165526,
+      "peak_voices": 13,
+      "overflows": 0,
+      "loops": 3,
+      "host_seconds": 0.00019166499987477437,
+      "sequence_sha256": "2a16ce4ac38f26da2d1ab2032ee85a1b9db6f6f4e833a2c5987de0838856be7f"
+    },
+    {
+      "name": "闇市",
+      "samples_observed": 3833347,
+      "peak_voices": 70,
+      "overflows": 0,
+      "loops": 3,
+      "host_seconds": 0.02605445600056555,
+      "sequence_sha256": "66d1928192afc817f6106f4dd06981fd8a3970af149745b071fc99fa37d375c7"
+    },
+    {
+      "name": "魔王",
+      "samples_observed": 3960962,
+      "peak_voices": 83,
+      "overflows": 0,
+      "loops": 3,
+      "host_seconds": 0.028285490996495355,
+      "sequence_sha256": "f04914386b6126147065a5322929c1b94305589b1d7b7959789def4d88310fca"
+    },
+    {
+      "name": "魔王魂-1-戦闘36",
+      "samples_observed": 3325394,
+      "peak_voices": 51,
+      "overflows": 0,
+      "loops": 3,
+      "host_seconds": 0.009077448004973121,
+      "sequence_sha256": "05866e6388001d89c7bd0558fe35f89ce504c1347604b0aefbe3198fc6f4d6dd"
+    },
+    {
+      "name": "魔王魂-2-ボス08",
+      "samples_observed": 4008541,
+      "peak_voices": 53,
+      "overflows": 0,
+      "loops": 3,
+      "host_seconds": 0.013239788000646513,
+      "sequence_sha256": "ed297e10c67650774fec3a04e6067d3d57955b4c112e741e56f0313bae7f8c92"
+    },
+    {
+      "name": "魔王魂-2-ラストボス01",
+      "samples_observed": 11328747,
+      "peak_voices": 131,
+      "overflows": 0,
+      "loops": 3,
+      "host_seconds": 0.10174551099771634,
+      "sequence_sha256": "dcc531f3f6665d526897b11e1da6a0b1aa7e65b55e77590fcb346e9b764ad250"
+    },
+    {
+      "name": "魔王魂-2-ラストボス02",
+      "samples_observed": 10133504,
+      "peak_voices": 55,
+      "overflows": 0,
+      "loops": 3,
+      "host_seconds": 0.0389329270037706,
+      "sequence_sha256": "702db7cffaf1f8ca1b7687ced3e3b7418c0070309f032efb7d69afa2a55229b1"
+    },
+    {
+      "name": "魔王魂-7-ロック09",
+      "samples_observed": 1266480,
+      "peak_voices": 35,
+      "overflows": 0,
+      "loops": 3,
+      "host_seconds": 0.002862592002202291,
+      "sequence_sha256": "a96e1ecbaacf0cb39a1cad866a3ed56cf0a2195bdf08a69cf64dc7db1bbf0d51"
+    }
+  ],
+  "sources": {
+    "runtime/rm2k/native_midi.c": "26c0de02d3b03996f834e0f738331f032d226e27600908b6b4caba788a4afc8f"
+  },
+  "soundfont_bank_sha256": "bfdb53a460eaf453da08df42a6098b9b3e0d80c91afc52f814ad029c4d30f752"
+}

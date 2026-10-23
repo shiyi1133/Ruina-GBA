@@ -1,0 +1,34 @@
+In file included from platform/gba/image.c:1:
+runtime/rm2k/types.h:43:7: warning: conflicting types for built-in function ‘memcpy’; expected ‘void *(void *, const void *, long unsigned int)’ [-Wbuiltin-declaration-mismatch]
+   43 | void *memcpy(void *dest,const void *src,unsigned int n);
+      |       ^~~~~~
+runtime/rm2k/types.h:4:1: note: ‘memcpy’ is declared in header ‘<string.h>’
+    3 | #include "lcf.h"
+  +++ |+#include <string.h>
+    4 | typedef unsigned short u16;
+runtime/rm2k/types.h:44:7: warning: conflicting types for built-in function ‘memset’; expected ‘void *(void *, int,  long unsigned int)’ [-Wbuiltin-declaration-mismatch]
+   44 | void *memset(void *dest,int value,unsigned int n);
+      |       ^~~~~~
+runtime/rm2k/types.h:44:7: note: ‘memset’ is declared in header ‘<string.h>’
+In file included from build/assets.c:1:
+runtime/rm2k/types.h:43:7: warning: conflicting types for built-in function ‘memcpy’; expected ‘void *(void *, const void *, long unsigned int)’ [-Wbuiltin-declaration-mismatch]
+   43 | void *memcpy(void *dest,const void *src,unsigned int n);
+      |       ^~~~~~
+runtime/rm2k/types.h:4:1: note: ‘memcpy’ is declared in header ‘<string.h>’
+    3 | #include "lcf.h"
+  +++ |+#include <string.h>
+    4 | typedef unsigned short u16;
+runtime/rm2k/types.h:44:7: warning: conflicting types for built-in function ‘memset’; expected ‘void *(void *, int,  long unsigned int)’ [-Wbuiltin-declaration-mismatch]
+   44 | void *memset(void *dest,int value,unsigned int n);
+      |       ^~~~~~
+runtime/rm2k/types.h:44:7: note: ‘memset’ is declared in header ‘<string.h>’
+/usr/bin/ld: warning: /tmp/cc1QkjhY.o: missing .note.GNU-stack section implies executable stack
+/usr/bin/ld: NOTE: This behaviour is deprecated and will be removed in a future version of the linker
+Traceback (most recent call last):
+  File "/mnt/d/gba_hack/废都物语_GBA章节样版/tools/check_source_art.py", line 38, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/mnt/d/gba_hack/废都物语_GBA章节样版/tools/check_source_art.py", line 35, in main
+    if r['kind']!=3:assert not different and not alpha,row
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: {'source': 'Ruina121/game/Picture/EXP0.xyz', 'kind': 'Picture', 'image': 387, 'pixels': 796, 'stored_RGB555_different_pixels': 263, 'alpha_different_pixels': 0, 'display_with_own_scene_different_pixels': 263, 'display_RGB555_mean_squared_error': 0.9447236180904522, 'display_RGB555_max_squared_error': 75, 'fallback_16_color_OBJ_atlas': False}

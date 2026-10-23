@@ -1,0 +1,134 @@
+full map 3 stages 10
+full map 4 stages 20
+full map 5 stages 30
+full map 6 stages 40
+full map 7 stages 50
+full map 8 stages 60
+full map 9 stages 70
+full map 10 stages 80
+full map 11 stages 90
+full map 12 stages 100
+full map 20 stages 110
+full map 21 stages 120
+full map 23 stages 130
+full map 24 stages 140
+full map 25 stages 150
+full map 26 stages 160
+full map 27 stages 170
+full map 28 stages 180
+full map 29 stages 190
+full map 30 stages 200
+full map 31 stages 210
+full map 32 stages 220
+full map 33 stages 230
+full map 34 stages 240
+full map 35 stages 250
+full map 36 stages 260
+full map 37 stages 270
+full map 38 stages 280
+full map 39 stages 290
+full map 40 stages 300
+full map 41 stages 310
+full map 42 stages 320
+full map 43 stages 330
+full map 44 stages 340
+full map 45 stages 350
+full map 46 stages 360
+full map 47 stages 370
+full map 48 stages 380
+full map 49 stages 390
+full map 50 stages 400
+full map 51 stages 410
+full map 52 stages 420
+full map 53 stages 430
+full map 54 stages 440
+full map 55 stages 450
+full map 56 stages 460
+full map 57 stages 470
+full map 58 stages 480
+full map 59 stages 490
+full map 60 stages 500
+full map 61 stages 510
+full map 62 stages 520
+full map 63 stages 530
+full map 64 stages 540
+full map 65 stages 550
+full map 66 stages 560
+full map 67 stages 570
+full map 68 stages 580
+full map 69 stages 590
+full map 71 stages 600
+full map 72 stages 610
+cache map 3 stages 10
+cache map 4 stages 20
+cache map 5 stages 30
+cache map 6 stages 40
+cache map 7 stages 50
+cache map 8 stages 60
+cache map 9 stages 70
+cache map 10 stages 80
+cache map 11 stages 90
+cache map 12 stages 100
+cache map 20 stages 110
+cache map 21 stages 120
+cache map 23 stages 130
+cache map 24 stages 140
+cache map 25 stages 150
+cache map 26 stages 160
+cache map 27 stages 170
+cache map 28 stages 180
+cache map 29 stages 190
+cache map 30 stages 200
+cache map 31 stages 210
+cache map 32 stages 220
+cache map 33 stages 230
+cache map 34 stages 240
+cache map 35 stages 250
+cache map 36 stages 260
+cache map 37 stages 270
+cache map 38 stages 280
+cache map 39 stages 290
+cache map 40 stages 300
+cache map 41 stages 310
+cache map 42 stages 320
+cache map 43 stages 330
+cache map 44 stages 340
+cache map 45 stages 350
+cache map 46 stages 360
+cache map 47 stages 370
+cache map 48 stages 380
+cache map 49 stages 390
+cache map 50 stages 400
+cache map 51 stages 410
+cache map 52 stages 420
+cache map 53 stages 430
+cache map 54 stages 440
+cache map 55 stages 450
+cache map 56 stages 460
+cache map 57 stages 470
+cache map 58 stages 480
+cache map 59 stages 490
+cache map 60 stages 500
+cache map 61 stages 510
+cache map 62 stages 520
+cache map 63 stages 530
+cache map 64 stages 540
+cache map 65 stages 550
+cache map 66 stages 560
+cache map 67 stages 570
+cache map 68 stages 580
+cache map 69 stages 590
+cache map 71 stages 600
+cache map 72 stages 610
+{
+  "status": "pass",
+  "production_ROM_sha256": "2dc6246fba1ea99eec94a4a49449f6ee01988c4cb8c334d3324edf78ef65167c",
+  "source_overrides": {},
+  "music_timbre": 0,
+  "original_maps_available": 71,
+  "native_maps_tested": 61,
+  "LCD_states_compared": 610,
+  "different_pixels": 0,
+  "scope": "Controlled original-map snapshots with real production drawing/audio/save APIs; map text and portraits, warm scrolling, real SRAM compression, RGB illustration and return. Against forced complete view reconstruction. Story/custom-list maps are excluded because this checks native map cache ownership. Does not execute or validate all story events.",
+  "physical_hardware": "not_run"
+}

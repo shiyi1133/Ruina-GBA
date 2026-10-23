@@ -1,0 +1,17 @@
+{
+  "start_unix": 1792687288,
+  "minimum_seconds": 21600,
+  "not_before_unix": 1792708888,
+  "user_scope": "Merge balanced picture quality into the continuing playable version, preserve story/mechanics/save support. User delegates full campaign acceptance; emulator spot checks, no hardware claim.",
+  "baseline_playable_ROM": "build/废都物语_GBA_开篇开发验证版.gba",
+  "baseline_playable_sha256": "1db4e8b86af4cc3b4e71abdc983f9a8e5a2c84eb5784738258912a75750e1561",
+  "baseline_quality_ROM": "build/fixtures/quality_preview/quality_preview.gba",
+  "baseline_quality_sha256": "4513437665f659b3a265a57237e7f90dda5a8af5f7d72903090efa755925c5ef",
+  "milestones": [
+    "Profile map reconstruction and image decoding with original pixels as reference",
+    "Remove redundant decode and composition, compare representation alternatives",
+    "Integrate selected balance into playable target, preserve save and game logic",
+    "Probe openings, navigation, cursor, menu, first battle, save cold load, audio and graphic regressions",
+    "Verify matching source ZIP rebuild and deliver only after six real hours"
+  ]
+}

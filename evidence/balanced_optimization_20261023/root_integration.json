@@ -1,0 +1,88 @@
+{
+  "status": "source_integrated_not_built",
+  "time_unix": 1792691291.144031,
+  "candidate_source_SHA256": "42e331d076155f891c77ea26479094e8edc149b623698eff0e86da9166f83b3c",
+  "changes": [
+    {
+      "path": "platform/gba/video.c",
+      "before": "5f73201b588274292b157e36b824c334adb7d67afbe865aea2739378858ae68b",
+      "after": "c7be63a7b4b8af20e93553da903cf0dc30e090cb84aa42ce6e640b1ba41db550"
+    },
+    {
+      "path": "platform/gba/save.c",
+      "before": "ff7aad6794b67f687f22a8c63951395e8b4a007da3028dac09c2c4446bf8ed84",
+      "after": "f1250457e8e29975125bb4e0a9f4bf6ea3bd322558697d91d5b4fb3c462b6296"
+    },
+    {
+      "path": "runtime/rm2k/world.c",
+      "before": "cb84a6be09fa9fe94a681cfc00efc3233428298cffaa73b084605aad856ccbd0",
+      "after": "e3f2652b9b38e343eb1c290903a065af72a1425e7d50e7ee74910ce8f32d3627"
+    },
+    {
+      "path": "runtime/rm2k/battle.c",
+      "before": "5fc755e29364d37760ed7947fb817e54c1159b5a5129326e1864953a8286fd02",
+      "after": "c257f6099cade6b1925363d8f6f884a8a758589756465e6a29d24fac4c16252e"
+    },
+    {
+      "path": "source/ruina_adapter.c",
+      "before": "fe2a116ebb8715d1591c32938dd1b19c27e6d820f97f8421f415ae20a8b05973",
+      "after": "3e41786231db934e67aa9ecf29195938c7092dbadf4aec1c270941661af69e7c"
+    },
+    {
+      "path": "source/game.c",
+      "before": "cb63e7503589aae770b4e8aa955a6489d2741004d6a5005a5bd3ad39a701112b",
+      "after": "46340daf4aa0db4fcd149467b274a24b1e3a9244b21b794aec8ab6e17adecce7"
+    },
+    {
+      "path": "platform/gba/balanced.h",
+      "before": null,
+      "after": "f2183a6029919466a82b1c1c6e716d3bbc2c543912025f9938affefa287d2b11"
+    },
+    {
+      "path": "platform/gba/rgb_surface.inc",
+      "before": null,
+      "after": "70c08c479bc1f7bc33df897e1833740c00cb92082422588ef354607187e2dd0f"
+    },
+    {
+      "path": "platform/gba/native_ui.inc",
+      "before": null,
+      "after": "d88ada2ef3ef96640df80fb57209218a66deb40b9504679365cbf28d9f4f7c14"
+    },
+    {
+      "path": "platform/gba/title_rgb555.h",
+      "before": null,
+      "after": "0b4edd8083729e12f283692d92bf6fad9fe4bee886b0eb2dbbb9068769c90e14"
+    },
+    {
+      "path": "platform/gba/title_asset.json",
+      "before": null,
+      "after": "8cf05239b48da1881e8ad0a50624b86d4b7b97bc447cd8ba8ae46534199f5e28"
+    },
+    {
+      "path": "platform/gba/map_hints.h",
+      "before": null,
+      "after": "aa48aaf1c2fd175aded5339681bb16e44cb8ca9301b0c9aea2d09cbbb783d7a7"
+    },
+    {
+      "path": "platform/gba/map_hint_asset.json",
+      "before": null,
+      "after": "cfec67245f51c722518805a76fa678db5408649d668ae2a5c589cc2e4e2684d2"
+    },
+    {
+      "path": "platform/gba/dialog.c",
+      "before": "63d6ab81e002bc331985b9cd73a4025ed32de39ef526cd46471699b41b223c93",
+      "after": "7c6c998b171de2d7e3d8643b5dc58eb8d9c0f3d19f4ace7c841f09d36b937e34"
+    },
+    {
+      "path": "platform/gba/event_input.c",
+      "before": "a911f3be298fabcbded16a351df05fb0731ae9f4a2996510383895d21c8378d5",
+      "after": "0850441862018a3e78def6e08789e8cc67dd1f783b3f8505b305ed0d8c935c11"
+    },
+    {
+      "path": "runtime/rm2k/pictures.c",
+      "before": "a7144d48979eb40d3599a1eded7ef564aaaf9fa9485275de7434f2390392611c",
+      "after": "869a41a5e0c54a8cf4928c61f1942a25d68fbe6f52e4d85487d05a2ddc7332e3"
+    }
+  ],
+  "unchanged_game_logic": "Event data, formulas, item/skill rules and save payload format were retained. battle.c adds only a visible-field render checksum; world.c changes only rendering/camera cache geometry."
+}

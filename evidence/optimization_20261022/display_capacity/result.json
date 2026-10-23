@@ -1,0 +1,4193 @@
+{
+  "status": "measured_conservative_static_bounds",
+  "source_LCF_sha256": "03042b9da41392bf8a9766cd9820184ebaaf8bb510fa8aea98a8e93159cc37e1",
+  "source_script_sha256": "d8eb29677296aac92fb1526f899964fd155080d9faedf282bcf168929be8f9c2",
+  "native_maps": 61,
+  "camera_views": 23233,
+  "limits": {
+    "actor_objects": 48,
+    "pose_texture_slots": 24,
+    "visible_point_objects": 71
+  },
+  "upper_bounds": {
+    "actors": 38,
+    "declared_poses": 23,
+    "points": 34
+  },
+  "all_static_actor_unions_fit": true,
+  "all_static_declared_pose_unions_fit": true,
+  "all_static_point_unions_fit": true,
+  "double_buffer_all_declared_poses_fit": false,
+  "scope": "all source pages, mutually exclusive pages combined, every 8px camera; actual pages are condition-dependent. Forced script relocations, sprite overrides and direction changes are excluded. Not a full campaign capacity guarantee.",
+  "rows": [
+    {
+      "map": 3,
+      "views": 121,
+      "all_pages_actor_upper_bound": 23,
+      "all_pages_declared_pose_upper_bound": 15,
+      "all_pages_point_upper_bound": 20,
+      "worst_actors": {
+        "camera": [
+          16,
+          24
+        ],
+        "event_IDs": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          8,
+          9,
+          13,
+          14,
+          16,
+          17,
+          18,
+          19,
+          20,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          32
+        ],
+        "includes_one_possible_player": true
+      },
+      "worst_poses": {
+        "camera": [
+          16,
+          0
+        ],
+        "event_IDs": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          8,
+          9,
+          14,
+          16,
+          18,
+          19,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          32
+        ],
+        "includes_one_possible_player": true
+      },
+      "worst_points": {
+        "camera": [
+          24,
+          24
+        ],
+        "event_IDs": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          8,
+          9,
+          13,
+          14,
+          16,
+          18,
+          19,
+          20,
+          22,
+          23,
+          24,
+          26,
+          27,
+          32
+        ]
+      }
+    },
+    {
+      "map": 4,
+      "views": 121,
+      "all_pages_actor_upper_bound": 2,
+      "all_pages_declared_pose_upper_bound": 2,
+      "all_pages_point_upper_bound": 20,
+      "worst_actors": {
+        "camera": [
+          0,
+          40
+        ],
+        "event_IDs": [
+          13
+        ],
+        "includes_one_possible_player": true
+      },
+      "worst_poses": {
+        "camera": [
+          0,
+          40
+        ],
+        "event_IDs": [
+          13
+        ],
+        "includes_one_possible_player": true
+      },
+      "worst_points": {
+        "camera": [
+          56,
+          56
+        ],
+        "event_IDs": [
+          3,
+          4,
+          5,
+          6,
+          10,
+          12,
+          13,
+          32,
+          34,
+          36,
+          39,
+          41,
+          43,
+          48,
+          50,
+          52,
+          54,
+          56,
+          58,
+          61
+        ]
+      }
+    },
+    {
+      "map": 5,
+      "views": 121,
+      "all_pages_actor_upper_bound": 3,
+      "all_pages_declared_pose_upper_bound": 3,
+      "all_pages_point_upper_bound": 15,
+      "worst_actors": {
+        "camera": [
+          0,
+          40
+        ],
+        "event_IDs": [
+          7,
+          38
+        ],
+        "includes_one_possible_player": true
+      },
+      "worst_poses": {
+        "camera": [
+          0,
+          40
+        ],
+        "event_IDs": [
+          7,
+          38
+        ],
+        "includes_one_possible_player": true
+      },
+      "worst_points": {
+        "camera": [
+          56,
+          56
+        ],
+        "event_IDs": [
+          3,
+          4,
+          6,
+          7,
+          8,
+          10,
+          12,
+          16,
+          18,
+          20,
+          22,
+          23,
+          27,
+          33,
+          38
+        ]
+      }
+    },
+    {
+      "map": 6,
+      "views": 121,
+      "all_pages_actor_upper_bound": 3,
+      "all_pages_declared_pose_upper_bound": 3,
+      "all_pages_point_upper_bound": 9,
+      "worst_actors": {
+        "camera": [
+          0,
+          8
+        ],
+        "event_IDs": [
+          14,
+          22
+        ],
+        "includes_one_possible_player": true
+      },
+      "worst_poses": {
+        "camera": [
+          0,
+          8
+        ],
+        "event_IDs": [
+          14,
+          22
+        ],
+        "includes_one_possible_player": true
+      },
+      "worst_points": {
+        "camera": [
+          40,
+          24
+        ],
+        "event_IDs": [
+          3,
+          4,
+          9,
+          10,
+          11,
+          14,
+          16,
+          22,
+          23
+        ]
+      }
+    },
+    {
+      "map": 7,
+      "views": 121,
+      "all_pages_actor_upper_bound": 4,
+      "all_pages_declared_pose_upper_bound": 4,
+      "all_pages_point_upper_bound": 10,
+      "worst_actors": {
+        "camera": [
+          0,
+          40
+        ],
+        "event_IDs": [
+          8,
+          15,
+          24
+        ],
+        "includes_one_possible_player": true
+      },
+      "worst_poses": {
+        "camera": [
+          0,
+          40
+        ],
+        "event_IDs": [
+          8,
+          15,
+          24
+        ],
+        "includes_one_possible_player": true
+      },
+      "worst_points": {
+        "camera": [
+          40,
+          56
+        ],
+        "event_IDs": [
+          2,
+          3,
+          8,
+          9,
+          13,
+          15,
+          16,
+          20,
+          21,
+          24
+        ]
+      }
+    },
+    {
+      "map": 8,
+      "views": 121,
+      "all_pages_actor_upper_bound": 5,
+      "all_pages_declared_pose_upper_bound": 4,
+      "all_pages_point_upper_bound": 21,
+      "worst_actors": {
+        "camera": [
+          0,
+          40
+        ],
+        "event_IDs": [
+          4,
+          18,
+          20,
+          46
+        ],
+        "includes_one_possible_player": true
+      },
+      "worst_poses": {
+        "camera": [
+          0,
+          40
+        ],
+        "event_IDs": [
+          4,
+          18,
+          20,
+          46
+        ],
+        "includes_one_possible_player": true
+      },
+      "worst_points": {
+        "camera": [
+          8,
+          72
+        ],
+        "event_IDs": [
+          3,
+          4,
+          5,
+          10,
+          11,
+          15,
+          16,
+          17,
+          18,
+          20,
+          21,
+          23,
+          25,
+          30,
+          33,
+          34,
+          36,
+          38,
+          40,
+          44,
+          46
+        ]
+      }
+    },
+    {
+      "map": 9,
+      "views": 121,
+      "all_pages_actor_upper_bound": 5,
+      "all_pages_declared_pose_upper_bound": 5,
+      "all_pages_point_upper_bound": 13,
+      "worst_actors": {
+        "camera": [
+          0,
+          40
+        ],
+        "event_IDs": [
+          1,
+          2,
+          12,
+          27
+        ],
+        "includes_one_possible_player": true
+      },
+      "worst_poses": {
+        "camera": [
+          0,
+          40
+        ],
+        "event_IDs": [
+          1,
+          2,
+          12,
+          27
+        ],
+        "includes_one_possible_player": true
+      },
+      "worst_points": {
+        "camera": [
+          56,
+          56
+        ],
+        "event_IDs": [
+          1,
+          2,
+          3,
+          6,
+          8,
+          10,
+          12,
+          13,
+          15,
+          19,
+          22,
+          27,
+          28
+        ]
+      }
+    },
+    {
+      "map": 10,
+      "views": 121,
+      "all_pages_actor_upper_bound": 3,
+      "all_pages_declared_pose_upper_bound": 3,
+      "all_pages_point_upper_bound": 2,
+      "worst_actors": {
+        "camera": [
+          0,
+          40
+        ],
+        "event_IDs": [
+          1,
+          2
+        ],
+        "includes_one_possible_player": true
+      },
+      "worst_poses": {
+        "camera": [
+          0,
+          40
+        ],
+        "event_IDs": [
+          1,
+          2
+        ],
+        "includes_one_possible_player": true
+      },
+      "worst_points": {
+        "camera": [
+          0,
+          56
+        ],
+        "event_IDs": [
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "map": 11,
+      "views": 121,
+      "all_pages_actor_upper_bound": 3,
+      "all_pages_declared_pose_upper_bound": 3,
+      "all_pages_point_upper_bound": 6,
+      "worst_actors": {
+        "camera": [
+          0,
+          40
+        ],
+        "event_IDs": [
+          3,
+          4
+        ],
+        "includes_one_possible_player": true
+      },
+      "worst_poses": {
+        "camera": [
+          0,
+          40
+        ],
+        "event_IDs": [
+          3,
+          4
+        ],
+        "includes_one_possible_player": true
+      },
+      "worst_points": {
+        "camera": [
+          0,
+          56
+        ],
+        "event_IDs": [
+          3,
+          4,
+          5,
+          6,
+          9,
+          11
+        ]
+      }
+    },
+    {
+      "map": 12,
+      "views": 407,
+      "all_pages_actor_upper_bound": 4,
+      "all_pages_declared_pose_upper_bound": 4,
+      "all_pages_point_upper_bound": 22,
+      "worst_actors": {
+        "camera": [
+          32,
+          248
+        ],
+        "event_IDs": [
+          2,
+          3,
+          4
+        ],
+        "includes_one_possible_player": true
+      },
+      "worst_poses": {
+        "camera": [
+          32,
+          248
+        ],
+        "event_IDs": [
+          2,
+          3,
+          4
+        ],
+        "includes_one_possible_player": true
+      },
+      "worst_points": {
+        "camera": [
+          56,
+          264
+        ],
+        "event_IDs": [
+          2,
+          3,
+          4,
+          23,
+          25,
+          26,
+          27,
+          36,
+          38,
+          40,
+          42,
+          44,
+          46,
+          48,
+          50,
+          52,
+          55,
+          57,
+          60,
+          62,
+          64,
+          67
+        ]
+      }
+    },
+    {
+      "map": 20,
+      "views": 121,
+      "all_pages_actor_upper_bound": 19,
+      "all_pages_declared_pose_upper_bound": 5,
+      "all_pages_point_upper_bound": 18,
+      "worst_actors": {
+        "camera": [
+          32,
+          8
+        ],
+        "event_IDs": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          19,
+          20,
+          21,
+          22
+        ],
+        "includes_one_possible_player": true
+      },
+      "worst_poses": {
+        "camera": [
+          0,
+          0
+        ],
+        "event_IDs": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          10,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          19,
+          21,
+          22
+        ],
+        "includes_one_possible_player": true
+      },
+      "worst_points": {
+        "camera": [
+          40,
+          24
+        ],
+        "event_IDs": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          19,
+          20,
+          21,
+          22
+        ]
+      }
+    },
+    {
+      "map": 21,
+      "views": 121,
+      "all_pages_actor_upper_bound": 31,
+      "all_pages_declared_pose_upper_bound": 2,
+      "all_pages_point_upper_bound": 30,
+      "worst_actors": {
+        "camera": [
+          0,
+          40
+        ],
+        "event_IDs": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34
+        ],
+        "includes_one_possible_player": true
+      },
+      "worst_poses": {
+        "camera": [
+          0,
+          0
+        ],
+        "event_IDs": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31
+        ],
+        "includes_one_possible_player": true
+      },
+      "worst_points": {
+        "camera": [
+          0,
+          56
+        ],
+        "event_IDs": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34
+        ]
+      }
+    },
+    {
+      "map": 23,
+      "views": 121,
+      "all_pages_actor_upper_bound": 27,
+      "all_pages_declared_pose_upper_bound": 16,
+      "all_pages_point_upper_bound": 20,
+      "worst_actors": {
+        "camera": [
+          48,
+          40
+        ],
+        "event_IDs": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          9,
+          10,
+          11,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          25,
+          26,
+          27,
+          28,
+          29,
+          47
+        ],
+        "includes_one_possible_player": true
+      },
+      "worst_poses": {
+        "camera": [
+          0,
+          40
+        ],
+        "event_IDs": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          9,
+          10,
+          11,
+          13,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          25,
+          26,
+          27,
+          28,
+          29
+        ],
+        "includes_one_possible_player": true
+      },
+      "worst_points": {
+        "camera": [
+          24,
+          56
+        ],
+        "event_IDs": [
+          1,
+          2,
+          4,
+          5,
+          6,
+          7,
+          9,
+          10,
+          13,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          25,
+          26,
+          27,
+          28
+        ]
+      }
+    },
+    {
+      "map": 24,
+      "views": 451,
+      "all_pages_actor_upper_bound": 20,
+      "all_pages_declared_pose_upper_bound": 9,
+      "all_pages_point_upper_bound": 16,
+      "worst_actors": {
+        "camera": [
+          48,
+          200
+        ],
+        "event_IDs": [
+          8,
+          9,
+          10,
+          11,
+          13,
+          14,
+          15,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          31,
+          33,
+          34
+        ],
+        "includes_one_possible_player": true
+      },
+      "worst_poses": {
+        "camera": [
+          0,
+          200
+        ],
+        "event_IDs": [
+          8,
+          9,
+          10,
+          11,
+          13,
+          14,
+          15,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          31,
+          33,
+          34
+        ],
+        "includes_one_possible_player": true
+      },
+      "worst_points": {
+        "camera": [
+          56,
+          168
+        ],
+        "event_IDs": [
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          20,
+          21,
+          22,
+          26,
+          27,
+          28,
+          29,
+          31,
+          33,
+          34
+        ]
+      }
+    },
+    {
+      "map": 25,
+      "views": 1221,
+      "all_pages_actor_upper_bound": 14,
+      "all_pages_declared_pose_upper_bound": 12,
+      "all_pages_point_upper_bound": 11,
+      "worst_actors": {
+        "camera": [
+          192,
+          88
+        ],
+        "event_IDs": [
+          3,
+          4,
+          5,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ],
+        "includes_one_possible_player": true
+      },
+      "worst_poses": {
+        "camera": [
+          192,
+          72
+        ],
+        "event_IDs": [
+          3,
+          4,
+          5,
+          8,
+          9,
+          10,
+          11,
+          13,
+          14,
+          15,
+          16
+        ],
+        "includes_one_possible_player": true
+      },
+      "worst_points": {
+        "camera": [
+          200,
+          88
+        ],
+        "event_IDs": [
+          3,
+          4,
+          5,
+          8,
+          9,
+          10,
+          11,
+          13,
+          14,
+          15,
+          16
+        ]
+      }
+    },
+    {
+      "map": 26,
+      "views": 779,
+      "all_pages_actor_upper_bound": 38,
+      "all_pages_declared_pose_upper_bound": 12,
+      "all_pages_point_upper_bound": 34,
+      "worst_actors": {
+        "camera": [
+          96,
+          264
+        ],
+        "event_IDs": [
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          19,
+          20,
+          21,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          80,
+          83
+        ],
+        "includes_one_possible_player": true
+      },
+      "worst_poses": {
+        "camera": [
+          0,
+          0
+        ],
+        "event_IDs": [
+          8,
+          18,
+          31,
+          52,
+          54,
+          57,
+          59,
+          60,
+          61,
+          62,
+          63,
+          64,
+          65,
+          76,
+          77,
+          78,
+          82,
+          84,
+          87
+        ],
+        "includes_one_possible_player": true
+      },
+      "worst_points": {
+        "camera": [
+          72,
+          280
+        ],
+        "event_IDs": [
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          19,
+          20,
+          21,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          80
+        ]
+      }
+    },
+    {
+      "map": 27,
+      "views": 703,
+      "all_pages_actor_upper_bound": 22,
+      "all_pages_declared_pose_upper_bound": 15,
+      "all_pages_point_upper_bound": 18,
+      "worst_actors": {
+        "camera": [
+          112,
+          184
+        ],
+        "event_IDs": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          16,
+          17,
+          21,
+          23,
+          24,
+          25,
+          27,
+          29,
+          31,
+          33,
+          35,
+          36,
+          42
+        ],
+        "includes_one_possible_player": true
+      },
+      "worst_poses": {
+        "camera": [
+          64,
+          168
+        ],
+        "event_IDs": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          21,
+          22,
+          23,
+          27,
+          29,
+          31,
+          32,
+          33,
+          35,
+          37,
+          42
+        ],
+        "includes_one_possible_player": true
+      },
+      "worst_points": {
+        "camera": [
+          120,
+          264
+        ],
+        "event_IDs": [
+          3,
+          4,
+          5,
+          6,
+          8,
+          9,
+          11,
+          13,
+          15,
+          16,
+          17,
+          27,
+          29,
+          30,
+          31,
+          33,
+          39,
+          42
+        ]
+      }
+    },
+    {
+      "map": 28,
+      "views": 899,
+      "all_pages_actor_upper_bound": 26,
+      "all_pages_declared_pose_upper_bound": 16,
+      "all_pages_point_upper_bound": 22,
+      "worst_actors": {
+        "camera": [
+          112,
+          88
+        ],
+        "event_IDs": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          9,
+          12,
+          13,
+          16,
+          17,
+          26,
+          32,
+          33,
+          34,
+          35,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          45,
+          46,
+          51,
+          52
+        ],
+        "includes_one_possible_player": true
+      },
+      "worst_poses": {
+        "camera": [
+          16,
+          24
+        ],
+        "event_IDs": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          9,
+          26,
+          27,
+          32,
+          33,
+          35,
+          36,
+          38,
+          39,
+          44,
+          46,
+          51,
+          52
+        ],
+        "includes_one_possible_player": true
+      },
+      "worst_points": {
+        "camera": [
+          216,
+          40
+        ],
+        "event_IDs": [
+          3,
+          4,
+          6,
+          13,
+          14,
+          15,
+          16,
+          21,
+          22,
+          23,
+          24,
+          25,
+          32,
+          33,
+          38,
+          41,
+          42,
+          43,
+          45,
+          46,
+          49,
+          52
+        ]
+      }
+    },
+    {
+      "map": 29,
+      "views": 899,
+      "all_pages_actor_upper_bound": 17,
+      "all_pages_declared_pose_upper_bound": 15,
+      "all_pages_point_upper_bound": 15,
+      "worst_actors": {
+        "camera": [
+          16,
+          104
+        ],
+        "event_IDs": [
+          6,
+          7,
+          9,
+          10,
+          11,
+          19,
+          20,
+          21,
+          22,
+          23,
+          25,
+          26,
+          27,
+          30,
+          33,
+          34
+        ],
+        "includes_one_possible_player": true
+      },
+      "worst_poses": {
+        "camera": [
+          112,
+          88
+        ],
+        "event_IDs": [
+          4,
+          6,
+          9,
+          10,
+          11,
+          12,
+          15,
+          19,
+          25,
+          26,
+          30,
+          33,
+          34,
+          35
+        ],
+        "includes_one_possible_player": true
+      },
+      "worst_points": {
+        "camera": [
+          24,
+          104
+        ],
+        "event_IDs": [
+          6,
+          7,
+          9,
+          10,
+          11,
+          19,
+          20,
+          21,
+          22,
+          23,
+          25,
+          26,
+          30,
+          33,
+          34
+        ]
+      }
+    },
+    {
+      "map": 30,
+      "views": 451,
+      "all_pages_actor_upper_bound": 11,
+      "all_pages_declared_pose_upper_bound": 7,
+      "all_pages_point_upper_bound": 10,
+      "worst_actors": {
+        "camera": [
+          0,
+          152
+        ],
+        "event_IDs": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          11,
+          14,
+          15,
+          16,
+          17
+        ],
+        "includes_one_possible_player": true
+      },
+      "worst_poses": {
+        "camera": [
+          0,
+          152
+        ],
+        "event_IDs": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          11,
+          14,
+          15,
+          16,
+          17
+        ],
+        "includes_one_possible_player": true
+      },
+      "worst_points": {
+        "camera": [
+          8,
+          168
+        ],
+        "event_IDs": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          11,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "map": 31,
+      "views": 703,
+      "all_pages_actor_upper_bound": 31,
+      "all_pages_declared_pose_upper_bound": 23,
+      "all_pages_point_upper_bound": 26,
+      "worst_actors": {
+        "camera": [
+          80,
+          56
+        ],
+        "event_IDs": [
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          19,
+          20,
+          22,
+          23,
+          25,
+          26,
+          28,
+          29,
+          30,
+          31,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          41,
+          42,
+          46,
+          50,
+          52,
+          53
+        ],
+        "includes_one_possible_player": true
+      },
+      "worst_poses": {
+        "camera": [
+          112,
+          56
+        ],
+        "event_IDs": [
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          19,
+          20,
+          22,
+          23,
+          25,
+          26,
+          27,
+          28,
+          29,
+          31,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          41,
+          42,
+          43,
+          46,
+          52,
+          53
+        ],
+        "includes_one_possible_player": true
+      },
+      "worst_points": {
+        "camera": [
+          88,
+          56
+        ],
+        "event_IDs": [
+          12,
+          13,
+          16,
+          17,
+          19,
+          20,
+          22,
+          23,
+          25,
+          26,
+          28,
+          29,
+          30,
+          31,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          41,
+          42,
+          46,
+          52,
+          53
+        ]
+      }
+    },
+    {
+      "map": 32,
+      "views": 703,
+      "all_pages_actor_upper_bound": 13,
+      "all_pages_declared_pose_upper_bound": 10,
+      "all_pages_point_upper_bound": 12,
+      "worst_actors": {
+        "camera": [
+          80,
+          88
+        ],
+        "event_IDs": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          12,
+          13,
+          14,
+          15,
+          16,
+          23
+        ],
+        "includes_one_possible_player": true
+      },
+      "worst_poses": {
+        "camera": [
+          32,
+          56
+        ],
+        "event_IDs": [
+          3,
+          5,
+          6,
+          7,
+          9,
+          10,
+          14,
+          22,
+          25
+        ],
+        "includes_one_possible_player": true
+      },
+      "worst_points": {
+        "camera": [
+          88,
+          136
+        ],
+        "event_IDs": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          12,
+          13,
+          14,
+          15,
+          16,
+          20,
+          23
+        ]
+      }
+    },
+    {
+      "map": 33,
+      "views": 3969,
+      "all_pages_actor_upper_bound": 8,
+      "all_pages_declared_pose_upper_bound": 8,
+      "all_pages_point_upper_bound": 18,
+      "worst_actors": {
+        "camera": [
+          0,
+          504
+        ],
+        "event_IDs": [
+          4,
+          5,
+          105,
+          107,
+          108,
+          109,
+          110
+        ],
+        "includes_one_possible_player": true
+      },
+      "worst_poses": {
+        "camera": [
+          0,
+          504
+        ],
+        "event_IDs": [
+          4,
+          5,
+          105,
+          107,
+          108,
+          109,
+          110
+        ],
+        "includes_one_possible_player": true
+      },
+      "worst_points": {
+        "camera": [
+          312,
+          104
+        ],
+        "event_IDs": [
+          42,
+          62,
+          65,
+          66,
+          67,
+          68,
+          69,
+          70,
+          71,
+          72,
+          73,
+          74,
+          75,
+          76,
+          77,
+          78,
+          79,
+          80
+        ]
+      }
+    },
+    {
+      "map": 34,
+      "views": 451,
+      "all_pages_actor_upper_bound": 11,
+      "all_pages_declared_pose_upper_bound": 11,
+      "all_pages_point_upper_bound": 9,
+      "worst_actors": {
+        "camera": [
+          0,
+          72
+        ],
+        "event_IDs": [
+          7,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          19,
+          20
+        ],
+        "includes_one_possible_player": true
+      },
+      "worst_poses": {
+        "camera": [
+          0,
+          72
+        ],
+        "event_IDs": [
+          7,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          19,
+          20
+        ],
+        "includes_one_possible_player": true
+      },
+      "worst_points": {
+        "camera": [
+          0,
+          40
+        ],
+        "event_IDs": [
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ]
+      }
+    },
+    {
+      "map": 35,
+      "views": 451,
+      "all_pages_actor_upper_bound": 12,
+      "all_pages_declared_pose_upper_bound": 12,
+      "all_pages_point_upper_bound": 10,
+      "worst_actors": {
+        "camera": [
+          16,
+          72
+        ],
+        "event_IDs": [
+          5,
+          6,
+          8,
+          9,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ],
+        "includes_one_possible_player": true
+      },
+      "worst_poses": {
+        "camera": [
+          16,
+          72
+        ],
+        "event_IDs": [
+          5,
+          6,
+          8,
+          9,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ],
+        "includes_one_possible_player": true
+      },
+      "worst_points": {
+        "camera": [
+          0,
+          88
+        ],
+        "event_IDs": [
+          5,
+          6,
+          8,
+          9,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19
+        ]
+      }
+    },
+    {
+      "map": 36,
+      "views": 697,
+      "all_pages_actor_upper_bound": 18,
+      "all_pages_declared_pose_upper_bound": 11,
+      "all_pages_point_upper_bound": 17,
+      "worst_actors": {
+        "camera": [
+          80,
+          72
+        ],
+        "event_IDs": [
+          4,
+          5,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          19,
+          20,
+          21,
+          24
+        ],
+        "includes_one_possible_player": true
+      },
+      "worst_poses": {
+        "camera": [
+          0,
+          280
+        ],
+        "event_IDs": [
+          22,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          32,
+          33,
+          34,
+          36
+        ],
+        "includes_one_possible_player": true
+      },
+      "worst_points": {
+        "camera": [
+          88,
+          88
+        ],
+        "event_IDs": [
+          4,
+          5,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          19,
+          20,
+          21,
+          24
+        ]
+      }
+    },
+    {
+      "map": 37,
+      "views": 693,
+      "all_pages_actor_upper_bound": 22,
+      "all_pages_declared_pose_upper_bound": 11,
+      "all_pages_point_upper_bound": 19,
+      "worst_actors": {
+        "camera": [
+          48,
+          88
+        ],
+        "event_IDs": [
+          4,
+          5,
+          6,
+          7,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          17,
+          18,
+          19,
+          26,
+          32,
+          33,
+          36,
+          37,
+          40,
+          42
+        ],
+        "includes_one_possible_player": true
+      },
+      "worst_poses": {
+        "camera": [
+          0,
+          104
+        ],
+        "event_IDs": [
+          5,
+          6,
+          7,
+          9,
+          11,
+          13,
+          14,
+          15,
+          17,
+          18,
+          19,
+          26,
+          28,
+          33,
+          36,
+          37,
+          42
+        ],
+        "includes_one_possible_player": true
+      },
+      "worst_points": {
+        "camera": [
+          24,
+          88
+        ],
+        "event_IDs": [
+          4,
+          5,
+          6,
+          7,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          17,
+          18,
+          19,
+          32,
+          33,
+          36,
+          37,
+          42
+        ]
+      }
+    },
+    {
+      "map": 38,
+      "views": 121,
+      "all_pages_actor_upper_bound": 13,
+      "all_pages_declared_pose_upper_bound": 12,
+      "all_pages_point_upper_bound": 11,
+      "worst_actors": {
+        "camera": [
+          16,
+          24
+        ],
+        "event_IDs": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ],
+        "includes_one_possible_player": true
+      },
+      "worst_poses": {
+        "camera": [
+          16,
+          8
+        ],
+        "event_IDs": [
+          4,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ],
+        "includes_one_possible_player": true
+      },
+      "worst_points": {
+        "camera": [
+          24,
+          24
+        ],
+        "event_IDs": [
+          4,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ]
+      }
+    },
+    {
+      "map": 39,
+      "views": 451,
+      "all_pages_actor_upper_bound": 1,
+      "all_pages_declared_pose_upper_bound": 1,
+      "all_pages_point_upper_bound": 0,
+      "worst_actors": {
+        "camera": [
+          0,
+          0
+        ],
+        "event_IDs": [],
+        "includes_one_possible_player": true
+      },
+      "worst_poses": {
+        "camera": [
+          0,
+          0
+        ],
+        "event_IDs": [],
+        "includes_one_possible_player": true
+      },
+      "worst_points": null
+    },
+    {
+      "map": 40,
+      "views": 451,
+      "all_pages_actor_upper_bound": 2,
+      "all_pages_declared_pose_upper_bound": 2,
+      "all_pages_point_upper_bound": 0,
+      "worst_actors": {
+        "camera": [
+          0,
+          0
+        ],
+        "event_IDs": [
+          6
+        ],
+        "includes_one_possible_player": true
+      },
+      "worst_poses": {
+        "camera": [
+          0,
+          0
+        ],
+        "event_IDs": [
+          6
+        ],
+        "includes_one_possible_player": true
+      },
+      "worst_points": null
+    },
+    {
+      "map": 41,
+      "views": 121,
+      "all_pages_actor_upper_bound": 1,
+      "all_pages_declared_pose_upper_bound": 1,
+      "all_pages_point_upper_bound": 0,
+      "worst_actors": {
+        "camera": [
+          0,
+          0
+        ],
+        "event_IDs": [],
+        "includes_one_possible_player": true
+      },
+      "worst_poses": {
+        "camera": [
+          0,
+          0
+        ],
+        "event_IDs": [],
+        "includes_one_possible_player": true
+      },
+      "worst_points": null
+    },
+    {
+      "map": 42,
+      "views": 725,
+      "all_pages_actor_upper_bound": 21,
+      "all_pages_declared_pose_upper_bound": 21,
+      "all_pages_point_upper_bound": 17,
+      "worst_actors": {
+        "camera": [
+          80,
+          104
+        ],
+        "event_IDs": [
+          3,
+          4,
+          6,
+          7,
+          8,
+          10,
+          11,
+          12,
+          13,
+          14,
+          17,
+          18,
+          22,
+          23,
+          24,
+          25,
+          27,
+          28,
+          29,
+          33
+        ],
+        "includes_one_possible_player": true
+      },
+      "worst_poses": {
+        "camera": [
+          80,
+          104
+        ],
+        "event_IDs": [
+          3,
+          4,
+          6,
+          7,
+          8,
+          10,
+          11,
+          12,
+          13,
+          14,
+          17,
+          18,
+          22,
+          23,
+          24,
+          25,
+          27,
+          28,
+          29,
+          33
+        ],
+        "includes_one_possible_player": true
+      },
+      "worst_points": {
+        "camera": [
+          88,
+          104
+        ],
+        "event_IDs": [
+          3,
+          4,
+          6,
+          7,
+          10,
+          11,
+          12,
+          13,
+          14,
+          17,
+          18,
+          22,
+          23,
+          24,
+          28,
+          29,
+          33
+        ]
+      }
+    },
+    {
+      "map": 43,
+      "views": 2009,
+      "all_pages_actor_upper_bound": 8,
+      "all_pages_declared_pose_upper_bound": 8,
+      "all_pages_point_upper_bound": 7,
+      "worst_actors": {
+        "camera": [
+          0,
+          24
+        ],
+        "event_IDs": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "includes_one_possible_player": true
+      },
+      "worst_poses": {
+        "camera": [
+          0,
+          24
+        ],
+        "event_IDs": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "includes_one_possible_player": true
+      },
+      "worst_points": {
+        "camera": [
+          0,
+          40
+        ],
+        "event_IDs": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      }
+    },
+    {
+      "map": 44,
+      "views": 121,
+      "all_pages_actor_upper_bound": 12,
+      "all_pages_declared_pose_upper_bound": 8,
+      "all_pages_point_upper_bound": 11,
+      "worst_actors": {
+        "camera": [
+          0,
+          0
+        ],
+        "event_IDs": [
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23
+        ],
+        "includes_one_possible_player": true
+      },
+      "worst_poses": {
+        "camera": [
+          0,
+          0
+        ],
+        "event_IDs": [
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23
+        ],
+        "includes_one_possible_player": true
+      },
+      "worst_points": {
+        "camera": [
+          8,
+          8
+        ],
+        "event_IDs": [
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23
+        ]
+      }
+    },
+    {
+      "map": 45,
+      "views": 475,
+      "all_pages_actor_upper_bound": 22,
+      "all_pages_declared_pose_upper_bound": 17,
+      "all_pages_point_upper_bound": 19,
+      "worst_actors": {
+        "camera": [
+          96,
+          104
+        ],
+        "event_IDs": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          24,
+          26,
+          27,
+          32,
+          34
+        ],
+        "includes_one_possible_player": true
+      },
+      "worst_poses": {
+        "camera": [
+          144,
+          40
+        ],
+        "event_IDs": [
+          8,
+          14,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          23,
+          25,
+          26,
+          27,
+          29,
+          30,
+          31,
+          32
+        ],
+        "includes_one_possible_player": true
+      },
+      "worst_points": {
+        "camera": [
+          88,
+          104
+        ],
+        "event_IDs": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          24,
+          26,
+          27,
+          32,
+          34
+        ]
+      }
+    },
+    {
+      "map": 46,
+      "views": 451,
+      "all_pages_actor_upper_bound": 7,
+      "all_pages_declared_pose_upper_bound": 5,
+      "all_pages_point_upper_bound": 5,
+      "worst_actors": {
+        "camera": [
+          16,
+          216
+        ],
+        "event_IDs": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "includes_one_possible_player": true
+      },
+      "worst_poses": {
+        "camera": [
+          0,
+          216
+        ],
+        "event_IDs": [
+          6,
+          7,
+          9,
+          10
+        ],
+        "includes_one_possible_player": true
+      },
+      "worst_points": {
+        "camera": [
+          24,
+          72
+        ],
+        "event_IDs": [
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      }
+    },
+    {
+      "map": 47,
+      "views": 475,
+      "all_pages_actor_upper_bound": 12,
+      "all_pages_declared_pose_upper_bound": 11,
+      "all_pages_point_upper_bound": 10,
+      "worst_actors": {
+        "camera": [
+          48,
+          120
+        ],
+        "event_IDs": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ],
+        "includes_one_possible_player": true
+      },
+      "worst_poses": {
+        "camera": [
+          48,
+          120
+        ],
+        "event_IDs": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ],
+        "includes_one_possible_player": true
+      },
+      "worst_points": {
+        "camera": [
+          56,
+          136
+        ],
+        "event_IDs": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      }
+    },
+    {
+      "map": 48,
+      "views": 121,
+      "all_pages_actor_upper_bound": 12,
+      "all_pages_declared_pose_upper_bound": 8,
+      "all_pages_point_upper_bound": 10,
+      "worst_actors": {
+        "camera": [
+          48,
+          8
+        ],
+        "event_IDs": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          19
+        ],
+        "includes_one_possible_player": true
+      },
+      "worst_poses": {
+        "camera": [
+          32,
+          0
+        ],
+        "event_IDs": [
+          6,
+          7,
+          8,
+          11,
+          12,
+          14,
+          15,
+          19
+        ],
+        "includes_one_possible_player": true
+      },
+      "worst_points": {
+        "camera": [
+          56,
+          24
+        ],
+        "event_IDs": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          15,
+          19
+        ]
+      }
+    },
+    {
+      "map": 49,
+      "views": 121,
+      "all_pages_actor_upper_bound": 23,
+      "all_pages_declared_pose_upper_bound": 12,
+      "all_pages_point_upper_bound": 20,
+      "worst_actors": {
+        "camera": [
+          0,
+          24
+        ],
+        "event_IDs": [
+          2,
+          3,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25
+        ],
+        "includes_one_possible_player": true
+      },
+      "worst_poses": {
+        "camera": [
+          0,
+          0
+        ],
+        "event_IDs": [
+          2,
+          3,
+          5,
+          6,
+          7,
+          8,
+          10,
+          12,
+          13,
+          14,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25
+        ],
+        "includes_one_possible_player": true
+      },
+      "worst_points": {
+        "camera": [
+          0,
+          40
+        ],
+        "event_IDs": [
+          2,
+          3,
+          5,
+          6,
+          8,
+          10,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25
+        ]
+      }
+    },
+    {
+      "map": 50,
+      "views": 121,
+      "all_pages_actor_upper_bound": 18,
+      "all_pages_declared_pose_upper_bound": 5,
+      "all_pages_point_upper_bound": 17,
+      "worst_actors": {
+        "camera": [
+          0,
+          24
+        ],
+        "event_IDs": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ],
+        "includes_one_possible_player": true
+      },
+      "worst_poses": {
+        "camera": [
+          0,
+          0
+        ],
+        "event_IDs": [
+          4,
+          5,
+          6,
+          8,
+          9,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ],
+        "includes_one_possible_player": true
+      },
+      "worst_points": {
+        "camera": [
+          0,
+          40
+        ],
+        "event_IDs": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ]
+      }
+    },
+    {
+      "map": 51,
+      "views": 121,
+      "all_pages_actor_upper_bound": 20,
+      "all_pages_declared_pose_upper_bound": 6,
+      "all_pages_point_upper_bound": 18,
+      "worst_actors": {
+        "camera": [
+          48,
+          40
+        ],
+        "event_IDs": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          14,
+          15,
+          16,
+          27,
+          29,
+          34,
+          35,
+          50,
+          51,
+          52
+        ],
+        "includes_one_possible_player": true
+      },
+      "worst_poses": {
+        "camera": [
+          0,
+          0
+        ],
+        "event_IDs": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          13,
+          14,
+          27,
+          29,
+          34,
+          35
+        ],
+        "includes_one_possible_player": true
+      },
+      "worst_points": {
+        "camera": [
+          24,
+          24
+        ],
+        "event_IDs": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          27,
+          29,
+          30,
+          31,
+          34,
+          35
+        ]
+      }
+    },
+    {
+      "map": 52,
+      "views": 121,
+      "all_pages_actor_upper_bound": 16,
+      "all_pages_declared_pose_upper_bound": 7,
+      "all_pages_point_upper_bound": 16,
+      "worst_actors": {
+        "camera": [
+          48,
+          40
+        ],
+        "event_IDs": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          22,
+          45
+        ],
+        "includes_one_possible_player": true
+      },
+      "worst_poses": {
+        "camera": [
+          0,
+          24
+        ],
+        "event_IDs": [
+          4,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          14,
+          15,
+          16,
+          22,
+          45
+        ],
+        "includes_one_possible_player": true
+      },
+      "worst_points": {
+        "camera": [
+          24,
+          56
+        ],
+        "event_IDs": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          13,
+          14,
+          15,
+          16,
+          22,
+          27,
+          34,
+          45
+        ]
+      }
+    },
+    {
+      "map": 53,
+      "views": 121,
+      "all_pages_actor_upper_bound": 21,
+      "all_pages_declared_pose_upper_bound": 10,
+      "all_pages_point_upper_bound": 22,
+      "worst_actors": {
+        "camera": [
+          32,
+          24
+        ],
+        "event_IDs": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          38,
+          39,
+          56,
+          57
+        ],
+        "includes_one_possible_player": true
+      },
+      "worst_poses": {
+        "camera": [
+          0,
+          0
+        ],
+        "event_IDs": [
+          4,
+          5,
+          6,
+          10,
+          12,
+          16,
+          38,
+          39,
+          56,
+          57
+        ],
+        "includes_one_possible_player": true
+      },
+      "worst_points": {
+        "camera": [
+          40,
+          40
+        ],
+        "event_IDs": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          38,
+          39,
+          50,
+          51,
+          56,
+          57
+        ]
+      }
+    },
+    {
+      "map": 54,
+      "views": 121,
+      "all_pages_actor_upper_bound": 21,
+      "all_pages_declared_pose_upper_bound": 8,
+      "all_pages_point_upper_bound": 18,
+      "worst_actors": {
+        "camera": [
+          16,
+          24
+        ],
+        "event_IDs": [
+          4,
+          5,
+          6,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          30,
+          44,
+          46,
+          61
+        ],
+        "includes_one_possible_player": true
+      },
+      "worst_poses": {
+        "camera": [
+          16,
+          0
+        ],
+        "event_IDs": [
+          4,
+          5,
+          6,
+          8,
+          10,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          44,
+          46,
+          61
+        ],
+        "includes_one_possible_player": true
+      },
+      "worst_points": {
+        "camera": [
+          24,
+          24
+        ],
+        "event_IDs": [
+          4,
+          5,
+          6,
+          8,
+          9,
+          10,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          20,
+          44,
+          45,
+          46,
+          61
+        ]
+      }
+    },
+    {
+      "map": 55,
+      "views": 121,
+      "all_pages_actor_upper_bound": 18,
+      "all_pages_declared_pose_upper_bound": 10,
+      "all_pages_point_upper_bound": 18,
+      "worst_actors": {
+        "camera": [
+          16,
+          24
+        ],
+        "event_IDs": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          29,
+          36,
+          40
+        ],
+        "includes_one_possible_player": true
+      },
+      "worst_poses": {
+        "camera": [
+          0,
+          24
+        ],
+        "event_IDs": [
+          4,
+          5,
+          7,
+          8,
+          10,
+          11,
+          12,
+          13,
+          15,
+          16,
+          17,
+          18,
+          29,
+          36,
+          40
+        ],
+        "includes_one_possible_player": true
+      },
+      "worst_points": {
+        "camera": [
+          24,
+          56
+        ],
+        "event_IDs": [
+          4,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          29,
+          30,
+          36,
+          40
+        ]
+      }
+    },
+    {
+      "map": 56,
+      "views": 121,
+      "all_pages_actor_upper_bound": 22,
+      "all_pages_declared_pose_upper_bound": 9,
+      "all_pages_point_upper_bound": 26,
+      "worst_actors": {
+        "camera": [
+          16,
+          24
+        ],
+        "event_IDs": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          23,
+          24,
+          28,
+          29
+        ],
+        "includes_one_possible_player": true
+      },
+      "worst_poses": {
+        "camera": [
+          0,
+          0
+        ],
+        "event_IDs": [
+          4,
+          5,
+          6,
+          8,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          23,
+          28,
+          29
+        ],
+        "includes_one_possible_player": true
+      },
+      "worst_points": {
+        "camera": [
+          24,
+          40
+        ],
+        "event_IDs": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29
+        ]
+      }
+    },
+    {
+      "map": 57,
+      "views": 121,
+      "all_pages_actor_upper_bound": 20,
+      "all_pages_declared_pose_upper_bound": 11,
+      "all_pages_point_upper_bound": 19,
+      "worst_actors": {
+        "camera": [
+          16,
+          24
+        ],
+        "event_IDs": [
+          4,
+          5,
+          6,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          30,
+          31,
+          38
+        ],
+        "includes_one_possible_player": true
+      },
+      "worst_poses": {
+        "camera": [
+          16,
+          0
+        ],
+        "event_IDs": [
+          4,
+          5,
+          6,
+          8,
+          9,
+          10,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          30,
+          38
+        ],
+        "includes_one_possible_player": true
+      },
+      "worst_points": {
+        "camera": [
+          24,
+          24
+        ],
+        "event_IDs": [
+          4,
+          5,
+          6,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          30,
+          31,
+          37,
+          38
+        ]
+      }
+    },
+    {
+      "map": 58,
+      "views": 121,
+      "all_pages_actor_upper_bound": 23,
+      "all_pages_declared_pose_upper_bound": 13,
+      "all_pages_point_upper_bound": 27,
+      "worst_actors": {
+        "camera": [
+          32,
+          8
+        ],
+        "event_IDs": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          23,
+          26,
+          27,
+          47,
+          49
+        ],
+        "includes_one_possible_player": true
+      },
+      "worst_poses": {
+        "camera": [
+          0,
+          8
+        ],
+        "event_IDs": [
+          4,
+          5,
+          6,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          18,
+          19,
+          23,
+          26,
+          27,
+          47,
+          49
+        ],
+        "includes_one_possible_player": true
+      },
+      "worst_points": {
+        "camera": [
+          40,
+          24
+        ],
+        "event_IDs": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          23,
+          26,
+          27,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49
+        ]
+      }
+    },
+    {
+      "map": 59,
+      "views": 121,
+      "all_pages_actor_upper_bound": 28,
+      "all_pages_declared_pose_upper_bound": 14,
+      "all_pages_point_upper_bound": 26,
+      "worst_actors": {
+        "camera": [
+          16,
+          24
+        ],
+        "event_IDs": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          23,
+          24,
+          26,
+          27,
+          28,
+          29,
+          30,
+          34,
+          38,
+          42
+        ],
+        "includes_one_possible_player": true
+      },
+      "worst_poses": {
+        "camera": [
+          0,
+          8
+        ],
+        "event_IDs": [
+          4,
+          7,
+          8,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          23,
+          24,
+          26,
+          27,
+          28,
+          29,
+          30,
+          34,
+          38,
+          42
+        ],
+        "includes_one_possible_player": true
+      },
+      "worst_points": {
+        "camera": [
+          24,
+          24
+        ],
+        "event_IDs": [
+          4,
+          5,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          23,
+          24,
+          26,
+          27,
+          28,
+          29,
+          30,
+          34,
+          38,
+          42
+        ]
+      }
+    },
+    {
+      "map": 60,
+      "views": 121,
+      "all_pages_actor_upper_bound": 1,
+      "all_pages_declared_pose_upper_bound": 1,
+      "all_pages_point_upper_bound": 0,
+      "worst_actors": {
+        "camera": [
+          0,
+          0
+        ],
+        "event_IDs": [],
+        "includes_one_possible_player": true
+      },
+      "worst_poses": {
+        "camera": [
+          0,
+          0
+        ],
+        "event_IDs": [],
+        "includes_one_possible_player": true
+      },
+      "worst_points": null
+    },
+    {
+      "map": 61,
+      "views": 121,
+      "all_pages_actor_upper_bound": 26,
+      "all_pages_declared_pose_upper_bound": 6,
+      "all_pages_point_upper_bound": 25,
+      "worst_actors": {
+        "camera": [
+          16,
+          24
+        ],
+        "event_IDs": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          38,
+          39,
+          40
+        ],
+        "includes_one_possible_player": true
+      },
+      "worst_poses": {
+        "camera": [
+          0,
+          0
+        ],
+        "event_IDs": [
+          4,
+          5,
+          6,
+          8,
+          10,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          22,
+          23,
+          24,
+          25,
+          38,
+          39,
+          40
+        ],
+        "includes_one_possible_player": true
+      },
+      "worst_points": {
+        "camera": [
+          24,
+          40
+        ],
+        "event_IDs": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          38,
+          39,
+          40
+        ]
+      }
+    },
+    {
+      "map": 62,
+      "views": 121,
+      "all_pages_actor_upper_bound": 20,
+      "all_pages_declared_pose_upper_bound": 6,
+      "all_pages_point_upper_bound": 19,
+      "worst_actors": {
+        "camera": [
+          32,
+          40
+        ],
+        "event_IDs": [
+          5,
+          6,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          48,
+          49,
+          50,
+          51,
+          80
+        ],
+        "includes_one_possible_player": true
+      },
+      "worst_poses": {
+        "camera": [
+          0,
+          0
+        ],
+        "event_IDs": [
+          4,
+          5,
+          7,
+          8,
+          11,
+          12,
+          14,
+          15,
+          16,
+          48,
+          49,
+          50,
+          51,
+          80
+        ],
+        "includes_one_possible_player": true
+      },
+      "worst_points": {
+        "camera": [
+          40,
+          56
+        ],
+        "event_IDs": [
+          5,
+          6,
+          8,
+          9,
+          10,
+          11,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          48,
+          49,
+          50,
+          51,
+          80,
+          81
+        ]
+      }
+    },
+    {
+      "map": 63,
+      "views": 121,
+      "all_pages_actor_upper_bound": 27,
+      "all_pages_declared_pose_upper_bound": 6,
+      "all_pages_point_upper_bound": 26,
+      "worst_actors": {
+        "camera": [
+          32,
+          24
+        ],
+        "event_IDs": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          29,
+          37,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59
+        ],
+        "includes_one_possible_player": true
+      },
+      "worst_poses": {
+        "camera": [
+          0,
+          0
+        ],
+        "event_IDs": [
+          4,
+          5,
+          8,
+          9,
+          12,
+          13,
+          14,
+          15,
+          16,
+          37,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59
+        ],
+        "includes_one_possible_player": true
+      },
+      "worst_points": {
+        "camera": [
+          40,
+          40
+        ],
+        "event_IDs": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          29,
+          37,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59
+        ]
+      }
+    },
+    {
+      "map": 64,
+      "views": 121,
+      "all_pages_actor_upper_bound": 21,
+      "all_pages_declared_pose_upper_bound": 10,
+      "all_pages_point_upper_bound": 20,
+      "worst_actors": {
+        "camera": [
+          32,
+          24
+        ],
+        "event_IDs": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          50,
+          51,
+          71
+        ],
+        "includes_one_possible_player": true
+      },
+      "worst_poses": {
+        "camera": [
+          32,
+          0
+        ],
+        "event_IDs": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          50,
+          71
+        ],
+        "includes_one_possible_player": true
+      },
+      "worst_points": {
+        "camera": [
+          40,
+          40
+        ],
+        "event_IDs": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          50,
+          51,
+          70,
+          71
+        ]
+      }
+    },
+    {
+      "map": 65,
+      "views": 121,
+      "all_pages_actor_upper_bound": 1,
+      "all_pages_declared_pose_upper_bound": 1,
+      "all_pages_point_upper_bound": 0,
+      "worst_actors": {
+        "camera": [
+          0,
+          0
+        ],
+        "event_IDs": [],
+        "includes_one_possible_player": true
+      },
+      "worst_poses": {
+        "camera": [
+          0,
+          0
+        ],
+        "event_IDs": [],
+        "includes_one_possible_player": true
+      },
+      "worst_points": null
+    },
+    {
+      "map": 66,
+      "views": 121,
+      "all_pages_actor_upper_bound": 1,
+      "all_pages_declared_pose_upper_bound": 1,
+      "all_pages_point_upper_bound": 0,
+      "worst_actors": {
+        "camera": [
+          0,
+          0
+        ],
+        "event_IDs": [],
+        "includes_one_possible_player": true
+      },
+      "worst_poses": {
+        "camera": [
+          0,
+          0
+        ],
+        "event_IDs": [],
+        "includes_one_possible_player": true
+      },
+      "worst_points": null
+    },
+    {
+      "map": 67,
+      "views": 121,
+      "all_pages_actor_upper_bound": 1,
+      "all_pages_declared_pose_upper_bound": 1,
+      "all_pages_point_upper_bound": 0,
+      "worst_actors": {
+        "camera": [
+          0,
+          0
+        ],
+        "event_IDs": [],
+        "includes_one_possible_player": true
+      },
+      "worst_poses": {
+        "camera": [
+          0,
+          0
+        ],
+        "event_IDs": [],
+        "includes_one_possible_player": true
+      },
+      "worst_points": null
+    },
+    {
+      "map": 68,
+      "views": 121,
+      "all_pages_actor_upper_bound": 1,
+      "all_pages_declared_pose_upper_bound": 1,
+      "all_pages_point_upper_bound": 0,
+      "worst_actors": {
+        "camera": [
+          0,
+          0
+        ],
+        "event_IDs": [],
+        "includes_one_possible_player": true
+      },
+      "worst_poses": {
+        "camera": [
+          0,
+          0
+        ],
+        "event_IDs": [],
+        "includes_one_possible_player": true
+      },
+      "worst_points": null
+    },
+    {
+      "map": 69,
+      "views": 121,
+      "all_pages_actor_upper_bound": 1,
+      "all_pages_declared_pose_upper_bound": 1,
+      "all_pages_point_upper_bound": 0,
+      "worst_actors": {
+        "camera": [
+          0,
+          0
+        ],
+        "event_IDs": [],
+        "includes_one_possible_player": true
+      },
+      "worst_poses": {
+        "camera": [
+          0,
+          0
+        ],
+        "event_IDs": [],
+        "includes_one_possible_player": true
+      },
+      "worst_points": null
+    },
+    {
+      "map": 71,
+      "views": 121,
+      "all_pages_actor_upper_bound": 1,
+      "all_pages_declared_pose_upper_bound": 1,
+      "all_pages_point_upper_bound": 0,
+      "worst_actors": {
+        "camera": [
+          0,
+          0
+        ],
+        "event_IDs": [],
+        "includes_one_possible_player": true
+      },
+      "worst_poses": {
+        "camera": [
+          0,
+          0
+        ],
+        "event_IDs": [],
+        "includes_one_possible_player": true
+      },
+      "worst_points": null
+    },
+    {
+      "map": 72,
+      "views": 121,
+      "all_pages_actor_upper_bound": 1,
+      "all_pages_declared_pose_upper_bound": 1,
+      "all_pages_point_upper_bound": 0,
+      "worst_actors": {
+        "camera": [
+          0,
+          0
+        ],
+        "event_IDs": [],
+        "includes_one_possible_player": true
+      },
+      "worst_poses": {
+        "camera": [
+          0,
+          0
+        ],
+        "event_IDs": [],
+        "includes_one_possible_player": true
+      },
+      "worst_points": null
+    }
+  ]
+}

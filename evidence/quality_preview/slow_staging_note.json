@@ -1,0 +1,6 @@
+{
+  "status": "preparation_interrupted_before_rebuild",
+  "reason": "Windows-mounted many-small-file copy was slow; retained partial staging and moved new staging to Linux temporary filesystem. No ROM or gameplay test failed.",
+  "retained": "build/quality_release_360c2d707509",
+  "current_staging": "/tmp/ruina_quality_release_360c2d707509"
+}

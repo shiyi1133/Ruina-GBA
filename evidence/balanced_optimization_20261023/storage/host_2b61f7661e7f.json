@@ -1,0 +1,250 @@
+{
+  "status": "pass",
+  "source": "runtime/rm2k/storage_codec.c",
+  "source_sha256": "2b61f7661e7fb5a01874bd5bf2f7182ca8486f7f707806f1bd9cbfdfc432746b",
+  "cases": 48,
+  "service_calls": 1424,
+  "rows": [
+    {
+      "raw_bytes": 1,
+      "encoded_bytes": 2,
+      "service_calls_including_bounded_failure_cases": 4
+    },
+    {
+      "raw_bytes": 1,
+      "encoded_bytes": 2,
+      "service_calls_including_bounded_failure_cases": 4
+    },
+    {
+      "raw_bytes": 1,
+      "encoded_bytes": 2,
+      "service_calls_including_bounded_failure_cases": 4
+    },
+    {
+      "raw_bytes": 263,
+      "encoded_bytes": 136,
+      "service_calls_including_bounded_failure_cases": 4
+    },
+    {
+      "raw_bytes": 2,
+      "encoded_bytes": 3,
+      "service_calls_including_bounded_failure_cases": 4
+    },
+    {
+      "raw_bytes": 2,
+      "encoded_bytes": 3,
+      "service_calls_including_bounded_failure_cases": 4
+    },
+    {
+      "raw_bytes": 2,
+      "encoded_bytes": 3,
+      "service_calls_including_bounded_failure_cases": 4
+    },
+    {
+      "raw_bytes": 263,
+      "encoded_bytes": 136,
+      "service_calls_including_bounded_failure_cases": 4
+    },
+    {
+      "raw_bytes": 3,
+      "encoded_bytes": 2,
+      "service_calls_including_bounded_failure_cases": 4
+    },
+    {
+      "raw_bytes": 3,
+      "encoded_bytes": 2,
+      "service_calls_including_bounded_failure_cases": 4
+    },
+    {
+      "raw_bytes": 3,
+      "encoded_bytes": 4,
+      "service_calls_including_bounded_failure_cases": 4
+    },
+    {
+      "raw_bytes": 263,
+      "encoded_bytes": 136,
+      "service_calls_including_bounded_failure_cases": 4
+    },
+    {
+      "raw_bytes": 127,
+      "encoded_bytes": 2,
+      "service_calls_including_bounded_failure_cases": 4
+    },
+    {
+      "raw_bytes": 127,
+      "encoded_bytes": 2,
+      "service_calls_including_bounded_failure_cases": 4
+    },
+    {
+      "raw_bytes": 127,
+      "encoded_bytes": 128,
+      "service_calls_including_bounded_failure_cases": 4
+    },
+    {
+      "raw_bytes": 263,
+      "encoded_bytes": 136,
+      "service_calls_including_bounded_failure_cases": 4
+    },
+    {
+      "raw_bytes": 128,
+      "encoded_bytes": 2,
+      "service_calls_including_bounded_failure_cases": 4
+    },
+    {
+      "raw_bytes": 128,
+      "encoded_bytes": 2,
+      "service_calls_including_bounded_failure_cases": 4
+    },
+    {
+      "raw_bytes": 128,
+      "encoded_bytes": 129,
+      "service_calls_including_bounded_failure_cases": 4
+    },
+    {
+      "raw_bytes": 263,
+      "encoded_bytes": 136,
+      "service_calls_including_bounded_failure_cases": 4
+    },
+    {
+      "raw_bytes": 129,
+      "encoded_bytes": 2,
+      "service_calls_including_bounded_failure_cases": 4
+    },
+    {
+      "raw_bytes": 129,
+      "encoded_bytes": 2,
+      "service_calls_including_bounded_failure_cases": 4
+    },
+    {
+      "raw_bytes": 129,
+      "encoded_bytes": 131,
+      "service_calls_including_bounded_failure_cases": 4
+    },
+    {
+      "raw_bytes": 263,
+      "encoded_bytes": 136,
+      "service_calls_including_bounded_failure_cases": 4
+    },
+    {
+      "raw_bytes": 130,
+      "encoded_bytes": 2,
+      "service_calls_including_bounded_failure_cases": 4
+    },
+    {
+      "raw_bytes": 130,
+      "encoded_bytes": 2,
+      "service_calls_including_bounded_failure_cases": 4
+    },
+    {
+      "raw_bytes": 130,
+      "encoded_bytes": 132,
+      "service_calls_including_bounded_failure_cases": 4
+    },
+    {
+      "raw_bytes": 263,
+      "encoded_bytes": 136,
+      "service_calls_including_bounded_failure_cases": 4
+    },
+    {
+      "raw_bytes": 131,
+      "encoded_bytes": 4,
+      "service_calls_including_bounded_failure_cases": 4
+    },
+    {
+      "raw_bytes": 131,
+      "encoded_bytes": 4,
+      "service_calls_including_bounded_failure_cases": 4
+    },
+    {
+      "raw_bytes": 131,
+      "encoded_bytes": 133,
+      "service_calls_including_bounded_failure_cases": 4
+    },
+    {
+      "raw_bytes": 263,
+      "encoded_bytes": 136,
+      "service_calls_including_bounded_failure_cases": 4
+    },
+    {
+      "raw_bytes": 511,
+      "encoded_bytes": 8,
+      "service_calls_including_bounded_failure_cases": 4
+    },
+    {
+      "raw_bytes": 511,
+      "encoded_bytes": 8,
+      "service_calls_including_bounded_failure_cases": 4
+    },
+    {
+      "raw_bytes": 511,
+      "encoded_bytes": 515,
+      "service_calls_including_bounded_failure_cases": 4
+    },
+    {
+      "raw_bytes": 526,
+      "encoded_bytes": 272,
+      "service_calls_including_bounded_failure_cases": 8
+    },
+    {
+      "raw_bytes": 512,
+      "encoded_bytes": 8,
+      "service_calls_including_bounded_failure_cases": 4
+    },
+    {
+      "raw_bytes": 512,
+      "encoded_bytes": 8,
+      "service_calls_including_bounded_failure_cases": 4
+    },
+    {
+      "raw_bytes": 512,
+      "encoded_bytes": 516,
+      "service_calls_including_bounded_failure_cases": 4
+    },
+    {
+      "raw_bytes": 526,
+      "encoded_bytes": 272,
+      "service_calls_including_bounded_failure_cases": 8
+    },
+    {
+      "raw_bytes": 513,
+      "encoded_bytes": 8,
+      "service_calls_including_bounded_failure_cases": 4
+    },
+    {
+      "raw_bytes": 513,
+      "encoded_bytes": 8,
+      "service_calls_including_bounded_failure_cases": 4
+    },
+    {
+      "raw_bytes": 513,
+      "encoded_bytes": 518,
+      "service_calls_including_bounded_failure_cases": 8
+    },
+    {
+      "raw_bytes": 526,
+      "encoded_bytes": 272,
+      "service_calls_including_bounded_failure_cases": 8
+    },
+    {
+      "raw_bytes": 39704,
+      "encoded_bytes": 612,
+      "service_calls_including_bounded_failure_cases": 308
+    },
+    {
+      "raw_bytes": 39704,
+      "encoded_bytes": 612,
+      "service_calls_including_bounded_failure_cases": 308
+    },
+    {
+      "raw_bytes": 39704,
+      "encoded_bytes": 40015,
+      "service_calls_including_bounded_failure_cases": 312
+    },
+    {
+      "raw_bytes": 39713,
+      "encoded_bytes": 20536,
+      "service_calls_including_bounded_failure_cases": 304
+    }
+  ],
+  "scope": "Independent exact PackBits encoding, callback and plain API byte identity, full unpack, output guard bytes, undersized capacities and immutable source. Emulator save/cold-load and actual audio continuity tested separately."
+}

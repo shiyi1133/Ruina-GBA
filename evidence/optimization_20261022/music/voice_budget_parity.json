@@ -1,0 +1,10 @@
+{
+  "status": "pass",
+  "cases": 198,
+  "source_frames_per_quality": 457070953,
+  "max_voices": 111,
+  "new_voice_capacity": 128,
+  "PCM_and_clocks_identical_to_160_voice_build": true,
+  "reference_sha256": "cff15f4045a021f1831e138180fd9f05af6ca59674d6bf3e461c79091d45bde3",
+  "current_sha256": "17833f178584e540bb0f09189786dca2fdc31bc4f358f5f9f28890d7dee6f935"
+}

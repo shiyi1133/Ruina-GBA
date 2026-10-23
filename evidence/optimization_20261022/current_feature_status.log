@@ -1,0 +1,45 @@
+{
+  "date": "2026-10-22",
+  "status": "optimized stage; full natural campaign and PC parity not established",
+  "active_phase": 2,
+  "work_order": [
+    "补齐原作所需特性并做执行抽查",
+    "整体优化运行效率与图片质量"
+  ],
+  "full_game_port": false,
+  "all_original_features_accepted": false,
+  "rom_sha256": "2416a8e950d764c790dd55a309d615de4c0dc9420fa791e6b9cd3535fab8824f",
+  "rom_bytes": 33307620,
+  "within_GBA_32MiB": true,
+  "released_v0_2_preserved": true,
+  "delivered_demo_preserved": true,
+  "current_regression": {
+    "report": "evidence/optimization_20261022/final_validation/latest_attempt.json",
+    "status": "pass",
+    "completed": 34
+  },
+  "original_command_inventory": {
+    "count": 167495,
+    "report": "evidence/refactor/compatibility_audit.json",
+    "case_presence_is_not_acceptance": true
+  },
+  "music_policy": "Both modes use simplified original-score timbres. Gameplay is coarser mono; music room is finer stereo. No original-SoundFont split carts.",
+  "save_format": {
+    "write_version": 5,
+    "reads_released_versions": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "game_bytes": 39704,
+    "SRAM_bytes": 32768,
+    "encoding": "exact packed state, checksum, refuse overflow before writing existing save"
+  },
+  "animation_policy": "direct black cuts, no fades; see 动画简化说明.txt",
+  "full_natural_playthrough": "user acceptance, not required from developer by user instruction",
+  "hardware": "not_run",
+  "original_RPG_RT_executable_comparison": "not_run",
+  "performance_phase": "spot checks and controlled benchmarks separately bound to this ROM; not all-scene PC parity"
+}
+{"delivered_demo_opening_walk_and_victory": "pass_historical", "incremental_map_pixel_equivalence": "pass_historical", "opening_checkpoint_and_return": "pass_current_ROM", "ordinary_sav_cold_load": "pass_historical", "source_menu_examples_and_legacy_sav": "pass_current_ROM", "defeat_new_game_and_bad_sav": "pass_current_ROM", "opening_PCM_output": "pass_historical", "opening_PCM_loop": "pass_historical", "walk_handbook_world_map_weapon_armor": "pass_current_ROM", "battle_enemy_capacity": "pass_historical", "origin_1_first_battle": "pass_current_ROM", "origin_2_first_battle": "pass_current_ROM", "origin_3_first_battle": "pass_current_ROM", "origin_4_first_battle": "pass_current_ROM", "actual_naming_to_cave_black_cuts": "pass_current_ROM", "actual_navigation_markers_and_scroll": "pass_current_ROM", "cursor_every_LCD_frame_continuity": "pass_current_ROM", "hardware_scroll_cache_pixel_equivalence": "pass_current_ROM", "native_map_pixel_crops": "pass_historical", "historical_full_SoundFont_MIDI_experiment": "pass_historical", "reduced_animation": "pass_current_ROM", "original_portraits": "pass_current_ROM", "uniform_picture_alpha": "pass_current_ROM", "phase_demo_actual_buttons_and_cold_load": "pass_current_ROM", "all_panorama_crops": "pass_current_ROM", "all_native_characters": "pass_current_ROM", "changing_actor_palettes": "pass_current_ROM", "all_portraits_plus_music_and_SFX": "pass_current_ROM", "status_browsing": "pass_current_ROM", "menu_stack_observation": "pass_current_ROM", "dense_actors_HUD_and_music": "pass_current_ROM", "natural_first_CP_cold_load": "pass_current_ROM", "extended_gameplay": "pass_current_ROM", "music_room_one_shot_replay": "pass_current_ROM", "all_MIDI_peak_excerpts": "pass_current_ROM", "original_music_pitch_uses": "pass_current_ROM", "complete_simplified_GBA_music": "pass_current_ROM", "music_room_UI": "pass_current_ROM"}

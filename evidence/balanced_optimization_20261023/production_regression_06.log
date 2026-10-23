@@ -1,0 +1,77 @@
+checking lcf_transport
+{"name": "lcf_transport", "status": "pass", "seconds": 20.354898866999065, "returncode": 0, "log": "evidence/optimization_20261022/final_validation/dd2688a615e8/lcf_transport.log"}
+checking borrowed_views
+{"name": "borrowed_views", "status": "pass", "seconds": 1.5963383190010063, "returncode": 0, "log": "evidence/optimization_20261022/final_validation/dd2688a615e8/borrowed_views.log"}
+checking page_conditions
+{"name": "page_conditions", "status": "pass", "seconds": 3.4999046600005386, "returncode": 0, "log": "evidence/optimization_20261022/final_validation/dd2688a615e8/page_conditions.log"}
+checking map_rule_parity
+{"name": "map_rule_parity", "status": "pass", "seconds": 6.0282448990001285, "returncode": 0, "log": "evidence/optimization_20261022/final_validation/dd2688a615e8/map_rule_parity.log"}
+checking host_mechanisms
+{"name": "host_mechanisms", "status": "pass", "seconds": 3.065394502000345, "returncode": 0, "log": "evidence/optimization_20261022/final_validation/dd2688a615e8/host_mechanisms.log"}
+checking image_codec
+{"name": "image_codec", "status": "pass", "seconds": 0.6213160100014647, "returncode": 0, "log": "evidence/optimization_20261022/final_validation/dd2688a615e8/image_codec.log"}
+checking storage_and_images
+{"name": "storage_and_images", "status": "pass", "seconds": 20.018654628998775, "returncode": 0, "log": "evidence/optimization_20261022/final_validation/dd2688a615e8/storage_and_images.log"}
+checking original_art
+{"name": "original_art", "status": "pass", "seconds": 4.94927141900007, "returncode": 0, "log": "evidence/optimization_20261022/final_validation/dd2688a615e8/original_art.log"}
+checking audio_IRQ_parity
+{"name": "audio_IRQ_parity", "status": "pass", "seconds": 2.7543176359995414, "returncode": 0, "log": "evidence/optimization_20261022/final_validation/dd2688a615e8/audio_IRQ_parity.log"}
+checking common_name_UI
+{"name": "common_name_UI", "status": "pass", "seconds": 7.128987418998804, "returncode": 0, "log": "evidence/optimization_20261022/final_validation/dd2688a615e8/common_name_UI.log"}
+checking opening_four_origins
+{"name": "opening_four_origins", "status": "pass", "seconds": 10.165837800999725, "returncode": 0, "log": "evidence/optimization_20261022/final_validation/dd2688a615e8/opening_four_origins.log"}
+checking natural_gameplay_and_SAV
+{"name": "natural_gameplay_and_SAV", "status": "pass", "seconds": 7.713082361000488, "returncode": 0, "log": "evidence/optimization_20261022/final_validation/dd2688a615e8/natural_gameplay_and_SAV.log"}
+checking source_menu_gameplay
+{"name": "source_menu_gameplay", "status": "pass", "seconds": 18.00115312899834, "returncode": 0, "log": "evidence/optimization_20261022/final_validation/dd2688a615e8/source_menu_gameplay.log"}
+checking status_browsing
+{"name": "status_browsing", "status": "pass", "seconds": 1.891212936001466, "returncode": 0, "log": "evidence/optimization_20261022/final_validation/dd2688a615e8/status_browsing.log"}
+checking chapter_first_CP
+{"name": "chapter_first_CP", "status": "pass", "seconds": 54.43180576600025, "returncode": 0, "log": "evidence/optimization_20261022/final_validation/dd2688a615e8/chapter_first_CP.log"}
+checking checkpoint_cold_load
+{"name": "checkpoint_cold_load", "status": "pass", "seconds": 1.2104963029996725, "returncode": 0, "log": "evidence/optimization_20261022/final_validation/dd2688a615e8/checkpoint_cold_load.log"}
+checking extended_gameplay
+{"name": "extended_gameplay", "status": "pass", "seconds": 64.23307823999858, "returncode": 0, "log": "evidence/optimization_20261022/final_validation/dd2688a615e8/extended_gameplay.log"}
+checking music_room_UI
+{"name": "music_room_UI", "status": "pass", "seconds": 4.076834084999064, "returncode": 0, "log": "evidence/optimization_20261022/final_validation/dd2688a615e8/music_room_UI.log"}
+checking music_room_one_shot_replay
+{"name": "music_room_one_shot_replay", "status": "pass", "seconds": 2.723167991000082, "returncode": 0, "log": "evidence/optimization_20261022/final_validation/dd2688a615e8/music_room_one_shot_replay.log"}
+checking manual_local_action
+{"name": "manual_local_action", "status": "pass", "seconds": 8.29471283300154, "returncode": 0, "log": "evidence/optimization_20261022/final_validation/dd2688a615e8/manual_local_action.log"}
+checking map_navigation
+{"name": "map_navigation", "status": "pass", "seconds": 2.2100021280002693, "returncode": 0, "log": "evidence/optimization_20261022/final_validation/dd2688a615e8/map_navigation.log"}
+checking cursor_continuity
+{"name": "cursor_continuity", "status": "pass", "seconds": 5.655852018999212, "returncode": 0, "log": "evidence/optimization_20261022/final_validation/dd2688a615e8/cursor_continuity.log"}
+checking all_panorama_crops
+{"name": "all_panorama_crops", "status": "pass", "seconds": 16.621500946001106, "returncode": 0, "log": "evidence/optimization_20261022/final_validation/dd2688a615e8/all_panorama_crops.log"}
+checking native_characters
+{"name": "native_characters", "status": "pass", "seconds": 6.880674017000274, "returncode": 0, "log": "evidence/optimization_20261022/final_validation/dd2688a615e8/native_characters.log"}
+checking changing_actor_palettes
+{"name": "changing_actor_palettes", "status": "pass", "seconds": 7.445278019000398, "returncode": 0, "log": "evidence/optimization_20261022/final_validation/dd2688a615e8/changing_actor_palettes.log"}
+checking retained_VRAM
+{"name": "retained_VRAM", "status": "pass", "seconds": 11.609029016999557, "returncode": 0, "log": "evidence/optimization_20261022/final_validation/dd2688a615e8/retained_VRAM.log"}
+checking scroll_cache
+{"name": "scroll_cache", "status": "pass", "seconds": 8.809236622999379, "returncode": 0, "log": "evidence/optimization_20261022/final_validation/dd2688a615e8/scroll_cache.log"}
+checking dialogue_portraits
+{"name": "dialogue_portraits", "status": "pass", "seconds": 4.217598324999926, "returncode": 0, "log": "evidence/optimization_20261022/final_validation/dd2688a615e8/dialogue_portraits.log"}
+checking dense_actors_HUD_audio
+{"name": "dense_actors_HUD_audio", "status": "pass", "seconds": 16.61691588800022, "returncode": 0, "log": "evidence/optimization_20261022/final_validation/dd2688a615e8/dense_actors_HUD_audio.log"}
+checking portraits_and_audio_stress
+{"name": "portraits_and_audio_stress", "status": "pass", "seconds": 42.54399132599974, "returncode": 0, "log": "evidence/optimization_20261022/final_validation/dd2688a615e8/portraits_and_audio_stress.log"}
+checking all_MIDI_GBA_modes
+{"name": "all_MIDI_GBA_modes", "status": "pass", "seconds": 86.4718250829992, "returncode": 0, "log": "evidence/optimization_20261022/final_validation/dd2688a615e8/all_MIDI_GBA_modes.log"}
+checking original_BGM_pitches
+{"name": "original_BGM_pitches", "status": "pass", "seconds": 21.223931731999983, "returncode": 0, "log": "evidence/optimization_20261022/final_validation/dd2688a615e8/original_BGM_pitches.log"}
+checking black_cut_presentation
+{"name": "black_cut_presentation", "status": "pass", "seconds": 4.346431766000023, "returncode": 0, "log": "evidence/optimization_20261022/final_validation/dd2688a615e8/black_cut_presentation.log"}
+checking uniform_alpha
+{"name": "uniform_alpha", "status": "pass", "seconds": 4.248521498000628, "returncode": 0, "log": "evidence/optimization_20261022/final_validation/dd2688a615e8/uniform_alpha.log"}
+checking stack_observation
+{"name": "stack_observation", "status": "pass", "seconds": 2.804741808999097, "returncode": 0, "log": "evidence/optimization_20261022/final_validation/dd2688a615e8/stack_observation.log"}
+checking performance
+{"name": "performance", "status": "pass", "seconds": 6.13766722499895, "returncode": 0, "log": "evidence/optimization_20261022/final_validation/dd2688a615e8/performance.log"}
+{
+  "status": "pass",
+  "tests": 36,
+  "rom_sha256": "dd2688a615e895a8b0f53d22d9615d5ac4d226571d9513e4c61ea31904287a91"
+}

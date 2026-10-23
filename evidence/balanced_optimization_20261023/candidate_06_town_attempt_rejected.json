@@ -1,0 +1,7 @@
+{
+  "status": "rejected_test_assumption",
+  "test": "check_first_battle.py --town",
+  "problem": "The helper expected the down movement key to select entrance ID 1. Since the previously delivered manual-investigation fix, direct movement intentionally sets selected=0. The actual first battle completed before this helper assertion.",
+  "correction": "Use genuine R button selection to choose entrance 1 before investigation; no game behavior was changed for this failure.",
+  "prior_failed_log": "hybrid_candidate_06_mage_battle_town.log"
+}

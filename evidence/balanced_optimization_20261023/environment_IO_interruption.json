@@ -1,0 +1,17 @@
+{
+  "status": "packaging_interrupted_external_IO",
+  "observed_UTC": "2026-10-22 21:52:46 UTC",
+  "production_ROM_sha256": "6e70c2dc0b4c10a2c9a3aae4f52201ade7a9c652b0e48faa1aa4268b900626d6",
+  "production_ROM_bytes": 33399132,
+  "accepted_checks": "36 regression; all new checks;210 whole music sources;128-loop actual music room; post-freeze music-to-newgame/SAV transitions",
+  "last_seal_session": 57567,
+  "seal_exit": 1,
+  "last_prepare": "release_prepare_05.log",
+  "stage": "/tmp/ruina-v07-release-1w8wn8zv/废都物语_GBA_匹配工程_v0.7_20261023",
+  "failure": "exec_command every shell returns I/O error(os error5); view_image from /tmp stage returns I/O error5; view_image from /mnt/d project still succeeds",
+  "delivery_done": false,
+  "source_zip_verified": false,
+  "user_restart_question": "pending; no WSL restart or other task interruption performed",
+  "minimum_delivery_unix": 1792708888,
+  "next": "Recover WSL; read seal_01.log; preserve failed stage/evidence; recheck build inputs/ROM/SAV hashes; reprepare if /tmp lost; seal fresh ZIP; actual archive smoke; deliver only after hard real-time gate"
+}

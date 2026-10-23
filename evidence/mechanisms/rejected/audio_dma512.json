@@ -1,0 +1,9 @@
+{
+  "status": "rejected",
+  "rom_sha256": "de952b058ce1b204829c5f1ce6a5cb65bc17a7c1c6890aac90e1cc78ccbec44d",
+  "correlations": [
+    0.9371770278139722,
+    0.9366291608570981
+  ],
+  "required_minimum": 0.96
+}

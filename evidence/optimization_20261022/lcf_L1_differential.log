@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/mnt/d/gba_hack/废都物语_GBA章节样版/tools/check_lcf_cache.py", line 104, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/mnt/d/gba_hack/废都物语_GBA章节样版/tools/check_lcf_cache.py", line 100, in main
+    counters=list((C.c_uint*8).in_dll(libs[-1],'lcf_cache_debug'));assert counters[6]>10000,counters
+                                                                          ^^^^^^^^^^^^^^^^^
+AssertionError: [396408, 441153, 33156, 49734, 669624, 567716, 9190, 536250]

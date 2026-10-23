@@ -1,0 +1,28 @@
+{
+  "status": "pass",
+  "kind": "immutable original LCF data, RAM cache and predecoded ROM transport versus uncached parser, including repeated hits, alternate reader bases and truncated bounds",
+  "checks": {
+    "field_reads": 861746,
+    "entry_reads": 99468,
+    "offset_equivalent_readers": 16578,
+    "truncated_reads": 624279,
+    "files": 73,
+    "command_reads": 1572330,
+    "command_streams": 8871
+  },
+  "predecoded_cache_counters": [
+    396243,
+    465503,
+    33156,
+    49734,
+    632864,
+    558526,
+    45950,
+    1169114
+  ],
+  "command_bank_sha256": "57d77eb2b07e4487a6171a79e00445f48941913707cfd55f49424a52ac2cba08",
+  "source_sha256": "4334eedd423d045fd100b5bc18f3111f06448fda246f503976519fb8e60ea621",
+  "original_pack_sha256": "03042b9da41392bf8a9766cd9820184ebaaf8bb510fa8aea98a8e93159cc37e1",
+  "mutable_RAM": "excluded from cache in production",
+  "gameplay": "separate GBA spot checks required"
+}

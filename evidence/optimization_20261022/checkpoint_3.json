@@ -1,0 +1,36 @@
+{
+  "status": "active, not delivered",
+  "minimum_finish_UTC": "2026-10-21T23:12:18Z",
+  "last_time_UTC": "2026-10-21T20:54:55Z",
+  "main_build": {
+    "artifact": "废都物语_GBA_开篇开发验证版.gba",
+    "bytes": 33304336,
+    "sha256": "03d889807b1caf3b596ebb6ea9c68fd0e7033a4365ee687bad5cf2e0a5e5b2eb",
+    "kind": "native GBA RM2000 compatibility framework with Ruina chapter adapter",
+    "build_status": "compiled",
+    "runtime_validation": "not run by this build command; see acceptance_receipt.json",
+    "full_game_port": false,
+    "complete_EasyRPG_port": false,
+    "upstream_lock_sha256": "583dfd77f5e6324312d3e5275f25b25431f147064b2379dad76fd5a5cd0ccf58"
+  },
+  "implemented_since_checkpoint_2": [
+    "single-read VBlank commit window, actual 1660 face cases no deadline overruns",
+    "all native HUD colors retained, original XYZ comparison across 14.65M pixels",
+    "palette halfword DMA fixes misaligned scene palettes; all60 panoramas237native GBA crops pass",
+    "immutable page transport8205pages,118851 live-condition comparisons",
+    "original position and player edge caches, over1M old/new movement edges",
+    "borrowed readonly VM control instructions and no-op decoding, fallback owns complex operands",
+    "menu lists narrow IDs, message/choice workspace reuse, observed SYS stack margin",
+    "cached audio Voice metadata and PCM music-room seek support",
+    "128 voices fits full original corpus with111max; complete scores and2loops identical to160voice outputs",
+    "cached source build scaling now uses standard-library Python; audio regeneration no history dependency"
+  ],
+  "remaining": [
+    "borrowed view oracle and fallback execution differential",
+    "music-room UI including six WAV seek and pause toggle",
+    "full audio GBA matrix and mixed portraits with concurrent effects",
+    "allmaps palette/actor combined-display checks",
+    "portable source extraction rebuild and exact final verification",
+    "finish at or after six real hours; no full parity claim if performance remains below original"
+  ]
+}

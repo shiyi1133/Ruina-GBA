@@ -1,0 +1,64 @@
+battle_mode_menu_down 2 33.49 ms; black 0
+battle_mode_menu_up 2 33.49 ms; black 0
+battle_mode_menu_down 3 50.23 ms; black 0
+battle_mode_menu_up 2 33.49 ms; black 0
+battle_mode_menu_down 2 33.49 ms; black 0
+battle_mode_menu_up 2 33.49 ms; black 0
+battle_actor_menu_down 3 50.23 ms; black 0
+battle_actor_menu_up 2 33.49 ms; black 0
+battle_actor_menu_down 2 33.49 ms; black 0
+battle_actor_menu_up 2 33.49 ms; black 0
+battle_actor_menu_down 2 33.49 ms; black 0
+battle_actor_menu_up 3 50.23 ms; black 0
+{
+  "status": "measured",
+  "production_rom_sha256": "35a8e283662be7a779e92149f77f7aab866bca22b07a583f4a6179849130abdc",
+  "scope": "Sage origin, actual opening, original first encounter, unchanged options and first victory. Real two-frame pulses; actual completed LCD hashes every hardware frame.",
+  "summary": [
+    {
+      "action": "battle_mode_menu_down",
+      "samples": 3,
+      "response_ms_min": 33.48541259765625,
+      "response_ms_max": 50.228118896484375,
+      "response_ms_mean": 39.066314697265625,
+      "black_frames": 0,
+      "intermediate_LCD_frames": 0
+    },
+    {
+      "action": "battle_mode_menu_up",
+      "samples": 3,
+      "response_ms_min": 33.48541259765625,
+      "response_ms_max": 33.48541259765625,
+      "response_ms_mean": 33.48541259765625,
+      "black_frames": 0,
+      "intermediate_LCD_frames": 0
+    },
+    {
+      "action": "battle_actor_menu_down",
+      "samples": 3,
+      "response_ms_min": 33.48541259765625,
+      "response_ms_max": 50.228118896484375,
+      "response_ms_mean": 39.066314697265625,
+      "black_frames": 0,
+      "intermediate_LCD_frames": 0
+    },
+    {
+      "action": "battle_actor_menu_up",
+      "samples": 3,
+      "response_ms_min": 33.48541259765625,
+      "response_ms_max": 50.228118896484375,
+      "response_ms_mean": 39.066314697265625,
+      "black_frames": 0,
+      "intermediate_LCD_frames": 0
+    }
+  ],
+  "skill_menu_had_multiple_choices": false,
+  "victory": {
+    "hp": 14,
+    "mp": 10,
+    "XP": 1,
+    "gold": 1
+  },
+  "hardware": "not_run",
+  "full_campaign": "not_run"
+}

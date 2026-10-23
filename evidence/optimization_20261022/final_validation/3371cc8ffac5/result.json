@@ -1,0 +1,263 @@
+{
+  "status": "pass",
+  "rom_sha256": "3371cc8ffac5dfe023ce9458d13617cdc00b2619286f04a5bb4374b7bd69c164",
+  "tests": [
+    {
+      "name": "lcf_transport",
+      "status": "pass",
+      "seconds": 19.986523714000214,
+      "returncode": 0,
+      "log": "evidence/optimization_20261022/final_validation/3371cc8ffac5/lcf_transport.log"
+    },
+    {
+      "name": "borrowed_views",
+      "status": "pass",
+      "seconds": 1.7121035820000543,
+      "returncode": 0,
+      "log": "evidence/optimization_20261022/final_validation/3371cc8ffac5/borrowed_views.log"
+    },
+    {
+      "name": "page_conditions",
+      "status": "pass",
+      "seconds": 3.700140122000448,
+      "returncode": 0,
+      "log": "evidence/optimization_20261022/final_validation/3371cc8ffac5/page_conditions.log"
+    },
+    {
+      "name": "map_rule_parity",
+      "status": "pass",
+      "seconds": 6.220085024000582,
+      "returncode": 0,
+      "log": "evidence/optimization_20261022/final_validation/3371cc8ffac5/map_rule_parity.log"
+    },
+    {
+      "name": "host_mechanisms",
+      "status": "pass",
+      "seconds": 3.212297488000331,
+      "returncode": 0,
+      "log": "evidence/optimization_20261022/final_validation/3371cc8ffac5/host_mechanisms.log"
+    },
+    {
+      "name": "image_codec",
+      "status": "pass",
+      "seconds": 0.6232455379995372,
+      "returncode": 0,
+      "log": "evidence/optimization_20261022/final_validation/3371cc8ffac5/image_codec.log"
+    },
+    {
+      "name": "storage_and_images",
+      "status": "pass",
+      "seconds": 19.160081205000097,
+      "returncode": 0,
+      "log": "evidence/optimization_20261022/final_validation/3371cc8ffac5/storage_and_images.log"
+    },
+    {
+      "name": "original_art",
+      "status": "pass",
+      "seconds": 5.120774383000025,
+      "returncode": 0,
+      "log": "evidence/optimization_20261022/final_validation/3371cc8ffac5/original_art.log"
+    },
+    {
+      "name": "audio_IRQ_parity",
+      "status": "pass",
+      "seconds": 2.9613432829992234,
+      "returncode": 0,
+      "log": "evidence/optimization_20261022/final_validation/3371cc8ffac5/audio_IRQ_parity.log"
+    },
+    {
+      "name": "common_name_UI",
+      "status": "pass",
+      "seconds": 7.6810478679999505,
+      "returncode": 0,
+      "log": "evidence/optimization_20261022/final_validation/3371cc8ffac5/common_name_UI.log"
+    },
+    {
+      "name": "opening_four_origins",
+      "status": "pass",
+      "seconds": 10.482210274998579,
+      "returncode": 0,
+      "log": "evidence/optimization_20261022/final_validation/3371cc8ffac5/opening_four_origins.log"
+    },
+    {
+      "name": "natural_gameplay_and_SAV",
+      "status": "pass",
+      "seconds": 8.128470625000773,
+      "returncode": 0,
+      "log": "evidence/optimization_20261022/final_validation/3371cc8ffac5/natural_gameplay_and_SAV.log"
+    },
+    {
+      "name": "source_menu_gameplay",
+      "status": "pass",
+      "seconds": 18.770357625000543,
+      "returncode": 0,
+      "log": "evidence/optimization_20261022/final_validation/3371cc8ffac5/source_menu_gameplay.log"
+    },
+    {
+      "name": "status_browsing",
+      "status": "pass",
+      "seconds": 1.8689104610002687,
+      "returncode": 0,
+      "log": "evidence/optimization_20261022/final_validation/3371cc8ffac5/status_browsing.log"
+    },
+    {
+      "name": "chapter_first_CP",
+      "status": "pass",
+      "seconds": 55.447347687999354,
+      "returncode": 0,
+      "log": "evidence/optimization_20261022/final_validation/3371cc8ffac5/chapter_first_CP.log"
+    },
+    {
+      "name": "checkpoint_cold_load",
+      "status": "pass",
+      "seconds": 1.2572523740000179,
+      "returncode": 0,
+      "log": "evidence/optimization_20261022/final_validation/3371cc8ffac5/checkpoint_cold_load.log"
+    },
+    {
+      "name": "extended_gameplay",
+      "status": "pass",
+      "seconds": 64.10153713,
+      "returncode": 0,
+      "log": "evidence/optimization_20261022/final_validation/3371cc8ffac5/extended_gameplay.log"
+    },
+    {
+      "name": "music_room_UI",
+      "status": "pass",
+      "seconds": 4.0142758450001566,
+      "returncode": 0,
+      "log": "evidence/optimization_20261022/final_validation/3371cc8ffac5/music_room_UI.log"
+    },
+    {
+      "name": "music_room_one_shot_replay",
+      "status": "pass",
+      "seconds": 2.624227977999908,
+      "returncode": 0,
+      "log": "evidence/optimization_20261022/final_validation/3371cc8ffac5/music_room_one_shot_replay.log"
+    },
+    {
+      "name": "manual_local_action",
+      "status": "pass",
+      "seconds": 8.544361013000525,
+      "returncode": 0,
+      "log": "evidence/optimization_20261022/final_validation/3371cc8ffac5/manual_local_action.log"
+    },
+    {
+      "name": "map_navigation",
+      "status": "pass",
+      "seconds": 2.4061129660003644,
+      "returncode": 0,
+      "log": "evidence/optimization_20261022/final_validation/3371cc8ffac5/map_navigation.log"
+    },
+    {
+      "name": "cursor_continuity",
+      "status": "pass",
+      "seconds": 5.694332813000074,
+      "returncode": 0,
+      "log": "evidence/optimization_20261022/final_validation/3371cc8ffac5/cursor_continuity.log"
+    },
+    {
+      "name": "all_panorama_crops",
+      "status": "pass",
+      "seconds": 16.55909103200065,
+      "returncode": 0,
+      "log": "evidence/optimization_20261022/final_validation/3371cc8ffac5/all_panorama_crops.log"
+    },
+    {
+      "name": "native_characters",
+      "status": "pass",
+      "seconds": 7.257435886000167,
+      "returncode": 0,
+      "log": "evidence/optimization_20261022/final_validation/3371cc8ffac5/native_characters.log"
+    },
+    {
+      "name": "changing_actor_palettes",
+      "status": "pass",
+      "seconds": 7.45695553600126,
+      "returncode": 0,
+      "log": "evidence/optimization_20261022/final_validation/3371cc8ffac5/changing_actor_palettes.log"
+    },
+    {
+      "name": "retained_VRAM",
+      "status": "pass",
+      "seconds": 11.23083489199962,
+      "returncode": 0,
+      "log": "evidence/optimization_20261022/final_validation/3371cc8ffac5/retained_VRAM.log"
+    },
+    {
+      "name": "scroll_cache",
+      "status": "pass",
+      "seconds": 8.960229954998795,
+      "returncode": 0,
+      "log": "evidence/optimization_20261022/final_validation/3371cc8ffac5/scroll_cache.log"
+    },
+    {
+      "name": "dialogue_portraits",
+      "status": "pass",
+      "seconds": 4.163982987000054,
+      "returncode": 0,
+      "log": "evidence/optimization_20261022/final_validation/3371cc8ffac5/dialogue_portraits.log"
+    },
+    {
+      "name": "dense_actors_HUD_audio",
+      "status": "pass",
+      "seconds": 16.438213305998943,
+      "returncode": 0,
+      "log": "evidence/optimization_20261022/final_validation/3371cc8ffac5/dense_actors_HUD_audio.log"
+    },
+    {
+      "name": "portraits_and_audio_stress",
+      "status": "pass",
+      "seconds": 42.91453398900012,
+      "returncode": 0,
+      "log": "evidence/optimization_20261022/final_validation/3371cc8ffac5/portraits_and_audio_stress.log"
+    },
+    {
+      "name": "all_MIDI_GBA_modes",
+      "status": "pass",
+      "seconds": 86.16473164700074,
+      "returncode": 0,
+      "log": "evidence/optimization_20261022/final_validation/3371cc8ffac5/all_MIDI_GBA_modes.log"
+    },
+    {
+      "name": "original_BGM_pitches",
+      "status": "pass",
+      "seconds": 21.425518927999292,
+      "returncode": 0,
+      "log": "evidence/optimization_20261022/final_validation/3371cc8ffac5/original_BGM_pitches.log"
+    },
+    {
+      "name": "black_cut_presentation",
+      "status": "pass",
+      "seconds": 4.376116254001317,
+      "returncode": 0,
+      "log": "evidence/optimization_20261022/final_validation/3371cc8ffac5/black_cut_presentation.log"
+    },
+    {
+      "name": "uniform_alpha",
+      "status": "pass",
+      "seconds": 4.336692025000957,
+      "returncode": 0,
+      "log": "evidence/optimization_20261022/final_validation/3371cc8ffac5/uniform_alpha.log"
+    },
+    {
+      "name": "stack_observation",
+      "status": "pass",
+      "seconds": 2.8513056749998213,
+      "returncode": 0,
+      "log": "evidence/optimization_20261022/final_validation/3371cc8ffac5/stack_observation.log"
+    },
+    {
+      "name": "performance",
+      "status": "pass",
+      "seconds": 6.472310633000234,
+      "returncode": 0,
+      "log": "evidence/optimization_20261022/final_validation/3371cc8ffac5/performance.log"
+    }
+  ],
+  "completed": 36,
+  "total": 36,
+  "scope": "controlled host and actual emulated GBA spot checks; full campaign and physical hardware not run",
+  "compiler_inputs_unchanged": true,
+  "production_ROM_unchanged": true
+}

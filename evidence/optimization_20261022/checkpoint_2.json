@@ -1,0 +1,82 @@
+{
+  "status": "active, not delivered",
+  "minimum_finish_UTC": "2026-10-21T23:12:18Z",
+  "last_time_UTC": "2026-10-21T20:11:34Z",
+  "phase": "about 3 hours elapsed; continue meaningful optimization and validation until at least six hours",
+  "last_built_rom": {
+    "artifact": "废都物语_GBA_开篇开发验证版.gba",
+    "bytes": 32350288,
+    "sha256": "f635697aa61e0105afb4d855222a763e0b38035f709b26c64d3a0fd1ade90a88",
+    "kind": "native GBA RM2000 compatibility framework with Ruina chapter adapter",
+    "build_status": "compiled",
+    "runtime_validation": "not run by this build command; see acceptance_receipt.json",
+    "full_game_port": false,
+    "complete_EasyRPG_port": false,
+    "upstream_lock_sha256": "583dfd77f5e6324312d3e5275f25b25431f147064b2379dad76fd5a5cd0ccf58"
+  },
+  "source_unbuilt_changes": [
+    "native PBG indices precolored into exact own scene palettes; raw span copy",
+    "hardware VBlank frame serial avoids redundant wait after presenting a frame"
+  ],
+  "implemented_since_checkpoint_1": [
+    "exact navigation component cache, occupied-start exception, deferred route refresh",
+    "ROM predecoded command transport for 9190 immutable parallel commands, original dynamic conditions still live",
+    "sparse map/autorun candidate ID scans, eager moved-position index",
+    "native 8bpp 72 character bank, 864 poses; all RGB555 source pixels retained",
+    "atomic portrait palette/OAM/texture commits, seven texture slots, cursor does not recolor faces",
+    "375 joint face-sheet palettes, native single-sheet faces retained, mixed remaps borrow and invalidate decoder scratch",
+    "all 224 original WAV resources direct signed-8 PCM; stereo kept for three files",
+    "scaled simplified waves, finer stereo music room vs coarse mono gameplay, adaptive dense passages, 128-frame light synth blocks",
+    "constant image codec 7, exact uniform opacity lookup, retained VRAM row/column ownership and independent screen-map wrap repair",
+    "HUD reclassification/offscreen background invalidation and nonuniform fixed-screen camera roots"
+  ],
+  "validated_intermediate": [
+    "LCF transport differential, over 1.57M command queries incl bounds/capacity/null arrays",
+    "2272 navigation cached vs rebuilt states incl dynamic changes",
+    "8711 image storage rows/spans, 39704-byte Game layout and bounded save capacity",
+    "864 native actor bank poses and 288 actual GBA actor directions exact against original RGB555",
+    "ordinary 48px portraits preserve source pixels/colors in single-sheet cases",
+    "25 actual GBA full-vs-cached map states, including 32/24 ring wrap, offscreen erase, HUD transitions",
+    "99 full scores and two loops, both modes on host; no voice overflows/clipping; max111",
+    "worst INT03 track passes both modes at normal GBA playback rate after block128, no capture underruns"
+  ],
+  "historical_rejected_evidence": [
+    "initial music-matrix 22 timing failures",
+    "scaled matrix only INT03 remained failing",
+    "INT03 q1 dense before block128 still short; retained reports",
+    "first full-score census assumed jingles loop and was rejected; next revealed pedal-held envelope floor bug",
+    "universal mixed portrait palette abandoned in favor of per-sheet-combination remaps"
+  ],
+  "remaining_required": [
+    "build and validate new frame serial and precolored art",
+    "full 99x2 GBA music matrix for current audio plus music-room button UX",
+    "all native/mixed face combinations and commit deadline checks",
+    "expanded source-color comparison and fixed-palette selection on tile-only/fullscreen picture scenes",
+    "remaining runtime CPU bottlenecks, audio Voice metadata cache if beneficial",
+    "stack watermark/static usage audit",
+    "actual newgame four origins, first battle, menu, normal save/cold loads, cursor continuity",
+    "portable matching cached source build; docs/known limits/duration guard and final package"
+  ],
+  "current_rough_cave_metrics_prior_to_frame_clock": {
+    "baseline_walking_logic_per_second": 11.95,
+    "latest_walking_logic_per_second": 33.65,
+    "baseline_camera_updates_per_second": 3.19,
+    "latest_camera_updates_per_second": 10.15
+  },
+  "important_actual_counts": {
+    "portraits": 160,
+    "face_sheets": 10,
+    "native_characters": 72,
+    "native_character_poses": 864,
+    "images": 8711,
+    "music_scores_MIDI": 99,
+    "WAV_resources": 224
+  },
+  "do_not_claim": [
+    "full original timbre",
+    "original-level complete performance yet",
+    "physical hardware verification",
+    "full campaign completed"
+  ],
+  "memory_used": "no relevant memory files used"
+}

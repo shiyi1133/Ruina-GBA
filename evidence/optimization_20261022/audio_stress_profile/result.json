@@ -1,0 +1,141 @@
+{
+  "kind": "controlled actual GBA CPU cycles, dense INT03 plus four 200 percent pitch PCM effects; no UI changes during profile",
+  "reports": [
+    {
+      "variant": "normal_wave",
+      "underruns": 0,
+      "source_clock_advance": 49392,
+      "source_clock_expected": 49376.25,
+      "cycles": [
+        [
+          "audio_service",
+          20500953
+        ],
+        [
+          "segment",
+          17947938
+        ],
+        [
+          "audio_irq",
+          3152085
+        ],
+        [
+          "wait_frame",
+          2673232
+        ],
+        [
+          "story_image",
+          2635048
+        ],
+        [
+          "__audio_current_quality_from_thumb",
+          1314526
+        ],
+        [
+          "__lcf_next_entry_from_thumb",
+          1126750
+        ],
+        [
+          "advance_voice",
+          699578
+        ],
+        [
+          "native_midi_render",
+          247052
+        ],
+        [
+          "0x0",
+          132503
+        ],
+        [
+          "0x8",
+          120815
+        ],
+        [
+          "engine_tick",
+          3960
+        ],
+        [
+          "show",
+          3602
+        ],
+        [
+          "timer_command",
+          3242
+        ]
+      ],
+      "fixture_sha256": "5cafed79ba44c2674837569264de086c539ccc0c53418e4c09989bc807272687",
+      "production_rom_sha256": "7574a6e66664336ba0d990d56784ee72dd85ee00c10601429b0c5bd066436f24"
+    },
+    {
+      "variant": "dense_pulse",
+      "underruns": 1504,
+      "source_clock_advance": 47872,
+      "source_clock_expected": 49376.25,
+      "cycles": [
+        [
+          "segment",
+          20386296
+        ],
+        [
+          "audio_service",
+          11205616
+        ],
+        [
+          "audio_irq",
+          7811585
+        ],
+        [
+          "advance_voice",
+          6235320
+        ],
+        [
+          "wait_frame",
+          1472239
+        ],
+        [
+          "story_image",
+          1440218
+        ],
+        [
+          "__audio_current_quality_from_thumb",
+          717608
+        ],
+        [
+          "__lcf_next_entry_from_thumb",
+          615088
+        ],
+        [
+          "native_midi_render",
+          344358
+        ],
+        [
+          "0x0",
+          127286
+        ],
+        [
+          "0x8",
+          120805
+        ],
+        [
+          "map_event",
+          75801
+        ],
+        [
+          "engine_tick",
+          3324
+        ],
+        [
+          "show",
+          3020
+        ],
+        [
+          "timer_command",
+          2718
+        ]
+      ],
+      "fixture_sha256": "bf22465fc43e38a9fdd9a0798c4f75374728bbe61ad0d4123b1d160d8001ac40",
+      "production_rom_sha256": "7574a6e66664336ba0d990d56784ee72dd85ee00c10601429b0c5bd066436f24"
+    }
+  ]
+}

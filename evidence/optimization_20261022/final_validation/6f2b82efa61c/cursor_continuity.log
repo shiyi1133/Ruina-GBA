@@ -1,0 +1,28 @@
+select_next missing arrows 0 black frames 0
+select_next_again missing arrows 0 black frames 0
+select_previous missing arrows 0 black frames 0
+browse_up missing arrows 0 black frames 0
+browse_left missing arrows 0 black frames 0
+browse_down missing arrows 0 black frames 0
+browse_right missing arrows 0 black frames 0
+walk_up missing arrows 0 black frames 0
+walk_down missing arrows 0 black frames 0
+walk_left missing arrows 0 black frames 0
+walk_right missing arrows 0 black frames 0
+{
+  "status": "pass",
+  "rom_sha256": "6f2b82efa61cd015f0216127dc875a61654a74b155d1f532897d7e7e015bee23",
+  "checks": {
+    "all_native_commits_within_VBlank": true,
+    "no_transient_loss_of_edge_arrows": true,
+    "no_black_frames_during_navigation": true,
+    "navigation_does_not_apply_screen_shading": true,
+    "idle_selection_blink_does_not_repaint_BG": true,
+    "selection_border_animates": true
+  },
+  "frames_observed": 1650,
+  "missing_arrow_frames": 0,
+  "black_frames": 0,
+  "kind": "actual production cartridge, genuine ordinary save and buttons, every intermediate LCD frame observed",
+  "hardware": "not_run"
+}

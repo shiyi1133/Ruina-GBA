@@ -1,0 +1,151 @@
+{
+  "status": "fail",
+  "production_ROM_sha256": "d8e63ad23769ed03f990420723b3c042f3e147b23565e2c23f4c0f67bbe1e780",
+  "skip_common_regression": true,
+  "skip_whole_music": true,
+  "tests": [
+    {
+      "name": "check_attribution",
+      "command": [
+        "/home/app/venvs/pig/bin/python",
+        "tools/check_attribution.py"
+      ],
+      "status": "pass",
+      "returncode": 0,
+      "host_seconds": 3.569752117000462,
+      "log": "evidence/balanced_optimization_20261023/validation/d8e63ad23769/1792730910467561870/check_attribution.log"
+    },
+    {
+      "name": "check_battle_menu_comparison",
+      "command": [
+        "/home/app/venvs/pig/bin/python",
+        "tools/check_battle_menu_comparison.py"
+      ],
+      "status": "pass",
+      "returncode": 0,
+      "host_seconds": 20.21988392500134,
+      "log": "evidence/balanced_optimization_20261023/validation/d8e63ad23769/1792730910467561870/check_battle_menu_comparison.log"
+    },
+    {
+      "name": "check_serviced_storage",
+      "command": [
+        "/home/app/venvs/pig/bin/python",
+        "tools/check_serviced_storage.py"
+      ],
+      "status": "pass",
+      "returncode": 0,
+      "host_seconds": 0.28538031700009014,
+      "log": "evidence/balanced_optimization_20261023/validation/d8e63ad23769/1792730910467561870/check_serviced_storage.log"
+    },
+    {
+      "name": "check_balanced_rgb",
+      "command": [
+        "/home/app/venvs/pig/bin/python",
+        "tools/check_balanced_rgb.py"
+      ],
+      "status": "pass",
+      "returncode": 0,
+      "host_seconds": 9.22761654000169,
+      "log": "evidence/balanced_optimization_20261023/validation/d8e63ad23769/1792730910467561870/check_balanced_rgb.log"
+    },
+    {
+      "name": "check_balanced_menu_regions",
+      "command": [
+        "/home/app/venvs/pig/bin/python",
+        "tools/check_balanced_menu_regions.py"
+      ],
+      "status": "pass",
+      "returncode": 0,
+      "host_seconds": 9.473506979999001,
+      "log": "evidence/balanced_optimization_20261023/validation/d8e63ad23769/1792730910467561870/check_balanced_menu_regions.log"
+    },
+    {
+      "name": "check_balanced_ui_capacity",
+      "command": [
+        "/home/app/venvs/pig/bin/python",
+        "tools/check_balanced_ui_capacity.py"
+      ],
+      "status": "pass",
+      "returncode": 0,
+      "host_seconds": 3.3667586560004565,
+      "log": "evidence/balanced_optimization_20261023/validation/d8e63ad23769/1792730910467561870/check_balanced_ui_capacity.log"
+    },
+    {
+      "name": "check_map_window_matrix",
+      "command": [
+        "/home/app/venvs/pig/bin/python",
+        "tools/check_map_window_matrix.py"
+      ],
+      "status": "pass",
+      "returncode": 0,
+      "host_seconds": 78.13301318999947,
+      "log": "evidence/balanced_optimization_20261023/validation/d8e63ad23769/1792730910467561870/check_map_window_matrix.log"
+    },
+    {
+      "name": "check_incremental_rooms",
+      "command": [
+        "/home/app/venvs/pig/bin/python",
+        "tools/check_incremental_rooms.py"
+      ],
+      "status": "pass",
+      "returncode": 0,
+      "host_seconds": 38.601634153001214,
+      "log": "evidence/balanced_optimization_20261023/validation/d8e63ad23769/1792730910467561870/check_incremental_rooms.log"
+    },
+    {
+      "name": "check_music_room_long",
+      "command": [
+        "/home/app/venvs/pig/bin/python",
+        "tools/check_music_room_long.py"
+      ],
+      "status": "pass",
+      "returncode": 0,
+      "host_seconds": 11.135085420000905,
+      "log": "evidence/balanced_optimization_20261023/validation/d8e63ad23769/1792730910467561870/check_music_room_long.log"
+    },
+    {
+      "name": "measure_balanced_battle",
+      "command": [
+        "/home/app/venvs/pig/bin/python",
+        "tools/measure_balanced_battle.py"
+      ],
+      "status": "pass",
+      "returncode": 0,
+      "host_seconds": 8.075793722000526,
+      "log": "evidence/balanced_optimization_20261023/validation/d8e63ad23769/1792730910467561870/measure_balanced_battle.log"
+    },
+    {
+      "name": "check_save_stack",
+      "command": [
+        "/home/app/venvs/pig/bin/python",
+        "tools/check_save_stack.py"
+      ],
+      "status": "pass",
+      "returncode": 0,
+      "host_seconds": 1.6749466559995199,
+      "log": "evidence/balanced_optimization_20261023/validation/d8e63ad23769/1792730910467561870/check_save_stack.log"
+    },
+    {
+      "name": "check_shop_item_order",
+      "command": [
+        "/home/app/venvs/pig/bin/python",
+        "tools/check_shop_item_order.py"
+      ],
+      "status": "pass",
+      "returncode": 0,
+      "host_seconds": 0.3770698080006696,
+      "log": "evidence/balanced_optimization_20261023/validation/d8e63ad23769/1792730910467561870/check_shop_item_order.log"
+    },
+    {
+      "name": "check_shop_comparison",
+      "command": [
+        "/home/app/venvs/pig/bin/python",
+        "tools/check_shop_comparison.py"
+      ],
+      "status": "fail",
+      "returncode": 1,
+      "host_seconds": 3.860771940999257,
+      "log": "evidence/balanced_optimization_20261023/validation/d8e63ad23769/1792730910467561870/check_shop_comparison.log"
+    }
+  ]
+}

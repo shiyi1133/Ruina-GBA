@@ -1,0 +1,51 @@
+{
+  "status": "pass",
+  "checks": {
+    "all_native_commits_within_VBlank": true,
+    "all_pixels_equal_full_rebuild": true,
+    "horizontal_scroll_uploads_at_most_new_columns": true,
+    "vertical_scroll_uploads_at_most_new_rows": true,
+    "returning_to_resident_columns_needs_no_pixel_upload": true,
+    "turning_does_not_upload_background": true,
+    "moving_HUD_does_not_upload_background": true,
+    "menu_return_rebuilds_invalidated_VRAM": true,
+    "map_uses_tiled_BG_mode": true
+  },
+  "different_pixels": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "BG_upload_deltas": [
+    170,
+    40,
+    0,
+    60,
+    390,
+    460,
+    130,
+    0,
+    0,
+    0,
+    600,
+    600,
+    600,
+    600
+  ],
+  "kind": "controlled real GBA cartridges; same genuine ordinary save, current compositor full viewport rebuild versus ring cache",
+  "production_rom_sha256": "2416a8e950d764c790dd55a309d615de4c0dc9420fa791e6b9cd3535fab8824f",
+  "natural_gameplay": "separate test",
+  "hardware": "not_run"
+}

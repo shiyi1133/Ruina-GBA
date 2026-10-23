@@ -1,0 +1,273 @@
+title_menu_down 2 33.49 ms; black 0
+title_menu_up 2 33.49 ms; black 0
+title_menu_down 2 33.49 ms; black 0
+title_menu_up 2 33.49 ms; black 0
+title_menu_down 2 33.49 ms; black 0
+title_menu_up 2 33.49 ms; black 0
+origin_down 3 50.23 ms; black 0
+origin_up 3 50.23 ms; black 0
+origin_down 3 50.23 ms; black 0
+origin_up 3 50.23 ms; black 0
+origin_down 3 50.23 ms; black 0
+origin_up 3 50.23 ms; black 0
+avatar_down 2 33.49 ms; black 0
+avatar_up 2 33.49 ms; black 0
+avatar_down 2 33.49 ms; black 0
+avatar_up 2 33.49 ms; black 0
+avatar_down 2 33.49 ms; black 0
+avatar_up 2 33.49 ms; black 0
+name_cursor_right 2 33.49 ms; black 0
+name_cursor_left 2 33.49 ms; black 0
+name_cursor_right 2 33.49 ms; black 0
+name_cursor_left 2 33.49 ms; black 0
+name_cursor_right 2 33.49 ms; black 0
+name_cursor_left 2 33.49 ms; black 0
+name_select_surname 6 100.46 ms; black 0
+name_select_given 2 33.49 ms; black 0
+name_delete_given 2 33.49 ms; black 0
+name_show_surnames 5 83.71 ms; black 0
+name_show_given 6 100.46 ms; black 0
+name_restore_default 2 33.49 ms; black 0
+map_walk_up 3 50.23 ms; black 0
+map_walk_down 3 50.23 ms; black 0
+map_open_menu 7 117.2 ms; black 0
+map_menu_down 3 50.23 ms; black 0
+map_menu_up 3 50.23 ms; black 0
+map_menu_down 3 50.23 ms; black 0
+map_menu_up 3 50.23 ms; black 0
+map_close_menu 2 33.49 ms; black 0
+map_camera_up 6 100.46 ms; black 0
+map_camera_down 2 33.49 ms; black 0
+map_walk_up 3 50.23 ms; black 0
+map_walk_down 3 50.23 ms; black 0
+map_open_menu 9 150.68 ms; black 0
+map_menu_down 3 50.23 ms; black 0
+map_menu_up 3 50.23 ms; black 0
+map_menu_down 3 50.23 ms; black 0
+map_menu_up 3 50.23 ms; black 0
+map_close_menu 2 33.49 ms; black 0
+map_camera_up 2 33.49 ms; black 0
+map_camera_down 2 33.49 ms; black 0
+map_walk_up 3 50.23 ms; black 0
+map_walk_down 3 50.23 ms; black 0
+map_open_menu 7 117.2 ms; black 0
+map_menu_down 3 50.23 ms; black 0
+map_menu_up 3 50.23 ms; black 0
+map_menu_down 3 50.23 ms; black 0
+map_menu_up 3 50.23 ms; black 0
+map_close_menu 2 33.49 ms; black 0
+map_camera_up 2 33.49 ms; black 0
+map_camera_down 2 33.49 ms; black 0
+{
+  "status": "measured",
+  "label": "final_balance",
+  "ROM": "/mnt/d/gba_hack/废都物语_GBA章节样版/build/废都物语_GBA_开篇开发验证版.gba",
+  "ROM_sha256": "6e70c2dc0b4c10a2c9a3aae4f52201ade7a9c652b0e48faa1aa4268b900626d6",
+  "sample_count": 60,
+  "summary": [
+    {
+      "action": "title_menu_down",
+      "samples": 3,
+      "response_ms_min": 33.48541259765625,
+      "response_ms_max": 33.48541259765625,
+      "response_ms_mean": 33.48541259765625,
+      "black_frames": 0
+    },
+    {
+      "action": "title_menu_up",
+      "samples": 3,
+      "response_ms_min": 33.48541259765625,
+      "response_ms_max": 33.48541259765625,
+      "response_ms_mean": 33.48541259765625,
+      "black_frames": 0
+    },
+    {
+      "action": "origin_down",
+      "samples": 3,
+      "response_ms_min": 50.228118896484375,
+      "response_ms_max": 50.228118896484375,
+      "response_ms_mean": 50.228118896484375,
+      "black_frames": 0
+    },
+    {
+      "action": "origin_up",
+      "samples": 3,
+      "response_ms_min": 50.228118896484375,
+      "response_ms_max": 50.228118896484375,
+      "response_ms_mean": 50.228118896484375,
+      "black_frames": 0
+    },
+    {
+      "action": "avatar_down",
+      "samples": 3,
+      "response_ms_min": 33.48541259765625,
+      "response_ms_max": 33.48541259765625,
+      "response_ms_mean": 33.48541259765625,
+      "black_frames": 0
+    },
+    {
+      "action": "avatar_up",
+      "samples": 3,
+      "response_ms_min": 33.48541259765625,
+      "response_ms_max": 33.48541259765625,
+      "response_ms_mean": 33.48541259765625,
+      "black_frames": 0
+    },
+    {
+      "action": "name_cursor_right",
+      "samples": 3,
+      "response_ms_min": 33.48541259765625,
+      "response_ms_max": 33.48541259765625,
+      "response_ms_mean": 33.48541259765625,
+      "black_frames": 0
+    },
+    {
+      "action": "name_cursor_left",
+      "samples": 3,
+      "response_ms_min": 33.48541259765625,
+      "response_ms_max": 33.48541259765625,
+      "response_ms_mean": 33.48541259765625,
+      "black_frames": 0
+    },
+    {
+      "action": "name_select_surname",
+      "samples": 1,
+      "response_ms_min": 100.45623779296875,
+      "response_ms_max": 100.45623779296875,
+      "response_ms_mean": 100.45623779296875,
+      "black_frames": 0
+    },
+    {
+      "action": "name_select_given",
+      "samples": 1,
+      "response_ms_min": 33.48541259765625,
+      "response_ms_max": 33.48541259765625,
+      "response_ms_mean": 33.48541259765625,
+      "black_frames": 0
+    },
+    {
+      "action": "name_delete_given",
+      "samples": 1,
+      "response_ms_min": 33.48541259765625,
+      "response_ms_max": 33.48541259765625,
+      "response_ms_mean": 33.48541259765625,
+      "black_frames": 0
+    },
+    {
+      "action": "name_show_surnames",
+      "samples": 1,
+      "response_ms_min": 83.71353149414062,
+      "response_ms_max": 83.71353149414062,
+      "response_ms_mean": 83.71353149414062,
+      "black_frames": 0
+    },
+    {
+      "action": "name_show_given",
+      "samples": 1,
+      "response_ms_min": 100.45623779296875,
+      "response_ms_max": 100.45623779296875,
+      "response_ms_mean": 100.45623779296875,
+      "black_frames": 0
+    },
+    {
+      "action": "name_restore_default",
+      "samples": 1,
+      "response_ms_min": 33.48541259765625,
+      "response_ms_max": 33.48541259765625,
+      "response_ms_mean": 33.48541259765625,
+      "black_frames": 0
+    },
+    {
+      "action": "map_walk_up",
+      "samples": 3,
+      "response_ms_min": 50.228118896484375,
+      "response_ms_max": 50.228118896484375,
+      "response_ms_mean": 50.228118896484375,
+      "black_frames": 0
+    },
+    {
+      "action": "map_walk_down",
+      "samples": 3,
+      "response_ms_min": 50.228118896484375,
+      "response_ms_max": 50.228118896484375,
+      "response_ms_mean": 50.228118896484375,
+      "black_frames": 0
+    },
+    {
+      "action": "map_open_menu",
+      "samples": 3,
+      "response_ms_min": 117.19894409179688,
+      "response_ms_max": 150.68435668945312,
+      "response_ms_mean": 128.36074829101562,
+      "black_frames": 0
+    },
+    {
+      "action": "map_menu_down",
+      "samples": 6,
+      "response_ms_min": 50.228118896484375,
+      "response_ms_max": 50.228118896484375,
+      "response_ms_mean": 50.228118896484375,
+      "black_frames": 0
+    },
+    {
+      "action": "map_menu_up",
+      "samples": 6,
+      "response_ms_min": 50.228118896484375,
+      "response_ms_max": 50.228118896484375,
+      "response_ms_mean": 50.228118896484375,
+      "black_frames": 0
+    },
+    {
+      "action": "map_close_menu",
+      "samples": 3,
+      "response_ms_min": 33.48541259765625,
+      "response_ms_max": 33.48541259765625,
+      "response_ms_mean": 33.48541259765625,
+      "black_frames": 0
+    },
+    {
+      "action": "map_camera_up",
+      "samples": 3,
+      "response_ms_min": 33.48541259765625,
+      "response_ms_max": 100.45623779296875,
+      "response_ms_mean": 55.80902099609375,
+      "black_frames": 0
+    },
+    {
+      "action": "map_camera_down",
+      "samples": 3,
+      "response_ms_min": 33.48541259765625,
+      "response_ms_max": 33.48541259765625,
+      "response_ms_mean": 33.48541259765625,
+      "black_frames": 0
+    }
+  ],
+  "opening_full_map_rebuilds": [
+    {
+      "total_full_rebuilds": 1,
+      "last_world_draw_ticks_16384Hz": 8143
+    },
+    {
+      "total_full_rebuilds": 2,
+      "last_world_draw_ticks_16384Hz": 5851
+    },
+    {
+      "total_full_rebuilds": 5,
+      "last_world_draw_ticks_16384Hz": 9346
+    }
+  ],
+  "native_ui_metrics": [
+    4,
+    16,
+    847,
+    2603,
+    0,
+    194,
+    0,
+    0
+  ],
+  "host_total_seconds_with_IPC": 7.759785031001229,
+  "method": "Real two-frame input pulses; actual LCD hash plus complete GPU presentation counters sampled every hardware frame. Observer settling frames are excluded from response time. Normal GBA timing; no memory writes or instant states.",
+  "hardware": "not_run",
+  "full_gameplay": "not_run"
+}

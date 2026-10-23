@@ -1,0 +1,14 @@
+{
+  "status": "pass",
+  "scope": "host FIFO arithmetic parity, all 323 audio IDs, pitches50/100/150/200, MIDI modes, four simultaneous effects, gain/pan changes, pause/resume; separate GBA timing tests required",
+  "cases": 1688,
+  "FIFO_words_compared": 13828096,
+  "source_sha256": {
+    "tests/reference/audio_pre_voice_metadata.c": "0b7238b62f9da0a86ec3f253d766b94a6fc219b2c92bc3f9a03d4f868803e934",
+    "platform/gba/audio.c": "09d37fa59be005b0fb9a4dbf49a25fd9cfd8025d40c16578afc929c36125865f",
+    "runtime/rm2k/light_midi.c": "ecfc83588163e0b163ba9716650d672c1533f02f224e4bf0a613dc38af0c41ce",
+    "runtime/rm2k/native_midi.h": "1fbcff165261e1f9c74988d97b3077cdcb8122d6bbb269c8730f1a840a2e7b86",
+    "build/audio.bin": "c2e794c7065cd2dd311d2fd97d199db2331c41fb00c01964a25e47ba82ab0961",
+    "build/native_music/native_soundfont.bin": "14f511e3ba953cd45c9bf63a2dfd950496141389a0ccddfdd75cee48b15b4e79"
+  }
+}

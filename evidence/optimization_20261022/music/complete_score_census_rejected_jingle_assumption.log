@@ -1,0 +1,20 @@
+{"name": "scene19", "quality": 0, "source_frames": 7868416, "peak_voices": 21, "overflows": 0, "loops": 2, "clipped_channels": 0, "PCM_sha256": "28d7ae27f0962103e0c1774b05c7bf86b3f20ef0bbf0e9692734c7186cbf85d5", "host_seconds": 0.050377924999338575}
+{"name": "scene19", "quality": 1, "source_frames": 7868416, "peak_voices": 23, "overflows": 0, "loops": 2, "clipped_channels": 0, "PCM_sha256": "f9f1728e2797b09023378a9c9657b083bdfdd08f347fc657550804379cbffc53", "host_seconds": 0.12376456799393054}
+{"name": "ダンジョン4", "quality": 0, "source_frames": 6540950, "peak_voices": 25, "overflows": 0, "loops": 2, "clipped_channels": 0, "PCM_sha256": "7566f3f52e422fcd6b075fe7fb9d81a9223ba90f54838bda91807884d48c4571", "host_seconds": 0.038578339997911826}
+{"name": "ダンジョン4", "quality": 1, "source_frames": 6540950, "peak_voices": 25, "overflows": 0, "loops": 2, "clipped_channels": 0, "PCM_sha256": "d3106507da95529ea59902253b5280f772becc9e798847e85ad8f951cc8bb844", "host_seconds": 0.09847332700155675}
+{"name": "町1", "quality": 0, "source_frames": 6898205, "peak_voices": 22, "overflows": 0, "loops": 2, "clipped_channels": 0, "PCM_sha256": "b69c06852959c150c4fd80efd5184f9a514ef91057224eb9dede4bbbd6fff35a", "host_seconds": 0.04590062500210479}
+{"name": "町1", "quality": 1, "source_frames": 6898205, "peak_voices": 28, "overflows": 0, "loops": 2, "clipped_channels": 0, "PCM_sha256": "ca7d63717c7b1e5f2d786dc8447470d3bc48d9eadd3bc05e13ad57c3d8482357", "host_seconds": 0.13478006299556}
+{"name": "Tale", "quality": 0, "source_frames": 3632331, "peak_voices": 17, "overflows": 0, "loops": 2, "clipped_channels": 0, "PCM_sha256": "981da3bfb402e9be13354cb3d68de26d4f0a40b5cdb308f7c3ab4c65ead80207", "host_seconds": 0.01702461599779781}
+{"name": "Tale", "quality": 1, "source_frames": 3632331, "peak_voices": 20, "overflows": 0, "loops": 2, "clipped_channels": 0, "PCM_sha256": "f62844dd85910253dd89ef38b2d24f3fde912f1b39f0c6529b276b78b92a6011", "host_seconds": 0.04580183999496512}
+{"name": "battle10", "quality": 0, "source_frames": 3561438, "peak_voices": 23, "overflows": 0, "loops": 2, "clipped_channels": 0, "PCM_sha256": "bf55c53427bd7243f3b80f5bbb325e9c1147172e0740ae2879b7bb82c73462ca", "host_seconds": 0.02346449100150494}
+{"name": "battle10", "quality": 1, "source_frames": 3561438, "peak_voices": 25, "overflows": 0, "loops": 2, "clipped_channels": 0, "PCM_sha256": "7c250ef4cdf5ecec764a69064f742e2b293fac438a7d8e2d714ceda86bf3cb70", "host_seconds": 0.06226742500439286}
+{"name": "boss12", "quality": 0, "source_frames": 3690496, "peak_voices": 31, "overflows": 0, "loops": 2, "clipped_channels": 0, "PCM_sha256": "d830de595c10761800af4503669a4f2e80f6edbcdd0f0ec13a3f5da128002edc", "host_seconds": 0.028977052999834996}
+{"name": "boss12", "quality": 1, "source_frames": 3690496, "peak_voices": 37, "overflows": 0, "loops": 2, "clipped_channels": 0, "PCM_sha256": "71748bb64fbe9267849bb0d036f5dc243211628198e9da04ea5bf2019d6ca1c3", "host_seconds": 0.09102707499550888}
+Traceback (most recent call last):
+  File "/mnt/d/gba_hack/废都物语_GBA章节样版/tools/census_light_music.py", line 22, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/mnt/d/gba_hack/废都物语_GBA章节样版/tools/census_light_music.py", line 18, in main
+    debug=list((C.c_uint*8).in_dll(lib,'native_midi_debug'));assert not debug[3]and debug[5]>=2,(track['name'],quality,debug)
+                                                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ('J戦闘終了1', 0, [169, 26, 0, 0, 0, 0, 69533, 0])

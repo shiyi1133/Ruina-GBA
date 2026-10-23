@@ -1,0 +1,13 @@
+{"name": "origin_1_manual", "status": "pass", "report": "evidence/first_battle_origin_1/result.json", "seconds": 3.8000410690001445}
+{"name": "origin_2_manual", "status": "pass", "report": "evidence/first_battle_origin_2/result.json", "seconds": 4.277885450999747}
+{"name": "origin_3_manual", "status": "pass", "report": "evidence/first_battle_origin_3/result.json", "seconds": 3.8855711219985096}
+{"name": "origin_4_manual", "status": "pass", "report": "evidence/first_battle_origin_4/result.json", "seconds": 4.364908989000469}
+{"name": "mage_original_auto_battle", "status": "pass", "report": "evidence/first_battle_origin_3_auto/result.json", "seconds": 3.8646984129991324}
+Traceback (most recent call last):
+  File "/mnt/d/gba_hack/废都物语_GBA章节样版/tools/check_extended_acceptance.py", line 20, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/mnt/d/gba_hack/废都物语_GBA章节样版/tools/check_extended_acceptance.py", line 15, in main
+    assert p.returncode==0,(name,p.returncode,str(out/(name+'.log')))
+           ^^^^^^^^^^^^^^^
+AssertionError: ('game_over_new_game_bad_SAV', 1, '/mnt/d/gba_hack/废都物语_GBA章节样版/evidence/optimization_20261022/extended_acceptance/2dc6246fba1e/game_over_new_game_bad_SAV.log')

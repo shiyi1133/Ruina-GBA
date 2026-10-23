@@ -1,0 +1,27 @@
+{
+  "status": "active",
+  "at_UTC": "2026-10-21T22:12:15Z",
+  "earliest_delivery_UTC": "2026-10-21T23:12:18Z",
+  "production_ROM_sha256": "05a321cde73a1c9979b95664e2771892224be566d6dcb0466a8235128abaee93",
+  "new_since_checkpoint_3": [
+    "bounded audio IRQ voice blocks, exact FIFO parity",
+    "60KiB resident BG cache",
+    "original RGB555 art, native actor palette reclaim",
+    "HUD and overlapping 24 OBJ texture slots staged atomically in idle framebuffer",
+    "bounded palette cache and IWRAM helpers",
+    "audio service safe points in cold icon/HUD/palette setup",
+    "resume requested navigation after source ground-touch events",
+    "idle status screen no redraw",
+    "portable cached build and actual source ZIP rebuild tools"
+  ],
+  "latest_dense_scene": "pass: 23 actors, two HUDs, INT03 and four effects; 0 unexpected pixels, 0 underruns after priming, 0 VBlank overruns; max52scanlines",
+  "regression": "33 checks rerunning on final hash",
+  "whole_GBA_music": "210 complete playback cases rerunning on final hash; older partial runs retained as interrupted, not relabeled",
+  "packaging": "v0.6 tools implemented; previous hash clean-source rebuild passed. Reprepare matching final hash after regression. Seal only after full music check. Delivery enforces six real hours.",
+  "not_claimed": [
+    "full natural campaign/endings",
+    "physical GBA hardware",
+    "complete EasyRPG port",
+    "full PC visual/performance parity"
+  ]
+}

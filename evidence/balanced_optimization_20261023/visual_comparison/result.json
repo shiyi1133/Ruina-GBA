@@ -1,0 +1,80 @@
+{
+  "status": "created_from_actual_GBA_screenshots",
+  "production_ROM_sha256": "d8e63ad23769ed03f990420723b3c042f3e147b23565e2c23f4c0f67bbe1e780",
+  "baseline_ROM_sha256": "1db4e8b86af4cc3b4e71abdc983f9a8e5a2c84eb5784738258912a75750e1561",
+  "enlargement": "2x integer nearest-neighbor; no enhancement",
+  "screenshots": [
+    {
+      "file": "evidence/balanced_optimization_20261023/1db4e8b86af4/opening_1/four_faces.png",
+      "sha256": "4e3339be039eff0a7ed880c5f2f26bcd76517c4e983287c69a3d1ba14f0639d4",
+      "native_size": [
+        240,
+        160
+      ]
+    },
+    {
+      "file": "evidence/balanced_optimization_20261023/d8e63ad23769/opening_1/four_faces.png",
+      "sha256": "e4aad1f8456f1bd3b70405e7972dbf137143283f4ce3155f2ad77a2cc339166f",
+      "native_size": [
+        240,
+        160
+      ]
+    },
+    {
+      "file": "evidence/balanced_optimization_20261023/1db4e8b86af4/opening_1/dialogue_000.png",
+      "sha256": "627d7507e66c327d7cbe834a273e947c3651d22b5ebcf7b40b6df6c00af86124",
+      "native_size": [
+        240,
+        160
+      ]
+    },
+    {
+      "file": "evidence/balanced_optimization_20261023/d8e63ad23769/opening_1/dialogue_000.png",
+      "sha256": "c07a933cdc27aec0e4061106fc9f6bba0628b8f12e1d936f85442360bdb6593d",
+      "native_size": [
+        240,
+        160
+      ]
+    },
+    {
+      "file": "evidence/balanced_optimization_20261023/1db4e8b86af4/opening_1/title.png",
+      "sha256": "5671d78231a426d57afbc0cb18f4f9a69dc081eda872b5a4d1c347710d1665a4",
+      "native_size": [
+        240,
+        160
+      ]
+    },
+    {
+      "file": "evidence/balanced_optimization_20261023/d8e63ad23769/opening_1/title.png",
+      "sha256": "dcafb6da4b869fd9047a88968840162d35b6cdf7de0ea51c3329e830ede08b09",
+      "native_size": [
+        240,
+        160
+      ]
+    },
+    {
+      "file": "evidence/balanced_optimization_20261023/1db4e8b86af4/opening_1/first_map.png",
+      "sha256": "62f13e942feaacccc9b01d68e3799f2f9cd7b35271b7459878dcfa6486b45f3f",
+      "native_size": [
+        240,
+        160
+      ]
+    },
+    {
+      "file": "evidence/balanced_optimization_20261023/d8e63ad23769/opening_1/first_map.png",
+      "sha256": "53e93a18ecda2e5ca3c1b95aaa3ef420ee60d0d40436023307046f38572735ab",
+      "native_size": [
+        240,
+        160
+      ]
+    }
+  ],
+  "sheets": {
+    "多组头像颜色对照.png": "8d6ad075967e70f2c22895e301a97c59ddc9593c6127df2558fbee86bf6d934c",
+    "头像与插图对照.png": "3b2ad763558ae75cef96d58e9be7bc1327209c9ff148d39c0262841f1022d8df",
+    "实际游戏画面.png": "d308613e6a082b2780ca2312973e2ac9292781a6b1de02c76495dbbe54837f0e",
+    "标题与地图对照.png": "b70303f79ee1904f12c0ec8d2994bb86fbd20c271b71f0aec2f778f0af6a4444"
+  },
+  "viewport_note": "The first dialogue uses native-size cropping in the new build and reduced full-image layout in the old build; do not compare different source regions as invented detail.",
+  "mixed_portrait_comparison": "evidence/balanced_optimization_20261023/visual_comparison/mixed_portraits/result.json"
+}

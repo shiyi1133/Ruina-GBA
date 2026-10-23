@@ -1,0 +1,19 @@
+{"name": "INT03", "track_id": 240, "quality": 0, "seek_source_frame": 671744, "host_peak_voices": 109, "GBA_peak_voices": 109, "underruns_during_capture": 0, "source_clock_ratio": 0.9999949368370421, "voice_overflows": 0, "captured_RMS": 2752.444288843753, "status": "pass"}
+{"name": "INT03", "track_id": 240, "quality": 1, "seek_source_frame": 671744, "host_peak_voices": 111, "GBA_peak_voices": 111, "underruns_during_capture": 864, "source_clock_ratio": 0.9824966456545404, "voice_overflows": 0, "captured_RMS": 2703.6609787970096, "status": "fail"}
+{
+  "status": "fail",
+  "kind": "actual emulated GBA, selected score INT03 near its host-observed polyphony peak, both simplified timbre modes",
+  "production_rom_sha256": "5279ab567fc449e6f7b55373f955cc73386235a0dac7267f30719052943eebc7",
+  "fixture_sha256": "51682e11ba982798e4f69cf087990f783010202f18ebc5dc263648f3524abc3f",
+  "source_bank_sha256": "c2e794c7065cd2dd311d2fd97d199db2331c41fb00c01964a25e47ba82ab0961",
+  "scope": "three seconds per case after warmup; complete score/loops checked on host separately",
+  "physical_hardware": "not_run"
+}
+Traceback (most recent call last):
+  File "/mnt/d/gba_hack/废都物语_GBA章节样版/tools/check_music_matrix_gba.py", line 38, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/mnt/d/gba_hack/废都物语_GBA章节样版/tools/check_music_matrix_gba.py", line 35, in main
+    (out/'result.json').write_text(json.dumps(result,ensure_ascii=False,indent=2));(out.parent/('latest_subset_attempt.json'if selected else'latest_attempt.json')).write_text(json.dumps({'status':result['status'],'report':str((out/'result.json').relative_to(ROOT))},ensure_ascii=False,indent=2));print(json.dumps({k:v for k,v in result.items()if k!='cases'},ensure_ascii=False,indent=2));assert result['status']=='pass'
+                                                                                                                                                                                                                                                                                                                                                                                                           ^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

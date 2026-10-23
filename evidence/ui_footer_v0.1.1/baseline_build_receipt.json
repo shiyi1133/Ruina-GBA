@@ -1,0 +1,9 @@
+{
+  "artifact": "废都物语_GBA_开篇开发验证版.gba",
+  "bytes": 31997224,
+  "sha256": "9be26f7cc5d52e6e25f5f5ef126c24f42c1eb6cae9c49a248b15f19968f40c5f",
+  "kind": "native GBA chapter prototype",
+  "build_status": "compiled",
+  "runtime_validation": "not run by this build command; see acceptance_receipt.json",
+  "full_game_port": false
+}

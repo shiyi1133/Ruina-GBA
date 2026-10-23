@@ -1,0 +1,30 @@
+initial_audio_underruns 0
+{"stage": 2, "hardware_frames_observed": 136, "unexpected_frames": [], "audio_underruns": 0, "audio_events": []}
+{"stage": 3, "hardware_frames_observed": 87, "unexpected_frames": [], "audio_underruns": 0, "audio_events": []}
+{"stage": 4, "hardware_frames_observed": 47, "unexpected_frames": [], "audio_underruns": 0, "audio_events": []}
+{"stage": 5, "hardware_frames_observed": 68, "unexpected_frames": [], "audio_underruns": 0, "audio_events": []}
+{"stage": 6, "hardware_frames_observed": 96, "unexpected_frames": [], "audio_underruns": 0, "audio_events": []}
+{"stage": 7, "hardware_frames_observed": 67, "unexpected_frames": [], "audio_underruns": 0, "audio_events": []}
+{
+  "status": "pass",
+  "production_rom_sha256": "d8e63ad23769ed03f990420723b3c042f3e147b23565e2c23f4c0f67bbe1e780",
+  "fixture_sha256": "c1d6035a827e22eddf0941507babafae3cd76adc8f37b826ca5a1cec7fad6a10",
+  "scope": "controlled actual GBA, 23 simultaneous original poses changed six times, two original HUDs, dense original INT03 score and four original effects; every intermediate LCD frame observed",
+  "checks": {
+    "no_pixels_from_overwritten_visible_textures": true,
+    "no_audio_underruns_after_priming": true,
+    "all_native_commits_within_VBlank": true
+  },
+  "initial_audio_underruns_after_priming": 0,
+  "audio_underruns_after_priming": 0,
+  "native_commit_metrics": [
+    0,
+    52,
+    7
+  ],
+  "deferred_texture_metrics": [
+    132,
+    22
+  ],
+  "physical_hardware": "not_run"
+}

@@ -1,0 +1,18 @@
+/mnt/d/gba_hack/废都物语_GBA章节样版/tests/quality_menu_fixture.c: In function 'main':
+/mnt/d/gba_hack/废都物语_GBA章节样版/tests/quality_menu_fixture.c:6:97: error: 'IMG_TITLE' undeclared (first use in this function)
+    6 |     video_init();audio_init();presentation_reset();engine_clock_paused=1;game.map=0;scene_image=IMG_TITLE;quality_fit=1;
+      |                                                                                                 ^~~~~~~~~
+/mnt/d/gba_hack/废都物语_GBA章节样版/tests/quality_menu_fixture.c:6:97: note: each undeclared identifier is reported only once for each function it appears in
+Traceback (most recent call last):
+  File "/mnt/d/gba_hack/废都物语_GBA章节样版/tools/check_quality_menu_regions.py", line 36, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/mnt/d/gba_hack/废都物语_GBA章节样版/tools/check_quality_menu_regions.py", line 15, in main
+    rom,elf,base=fixture('tests/quality_menu_fixture.c','quality_menu_regions',overrides);e=Emulator(rom=rom,elf=elf);captures=[];rows=[]
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/gba_hack/废都物语_GBA章节样版/tools/gba_fixture.py", line 12, in fixture
+    obj=out/'main.o';subprocess.run([PREFIX+'gcc',*flags,'-c',str(ROOT/source),'-o',str(obj)],cwd=ROOT,check=True)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['/home/app/gba-runtime/test-manager/mode_entry_npc/tree-blend-3a7dcbc-20260923/rebuild-v001/selective/selective-check/parent/toolchain/usr/bin/arm-none-eabi-gcc', '-mcpu=arm7tdmi', '-mthumb', '-mthumb-interwork', '-Os', '-ffreestanding', '-fno-builtin', '-fdata-sections', '-ffunction-sections', '-g', '-Isource', '-Iruntime/rm2k', '-Iplatform/gba', '-Ibuild', '-std=c99', '-finput-charset=UTF-8', '-fexec-charset=GBK', '-DRUINA_LIGHT_MUSIC', '-DRUINA_LIGHT_VOICES=128', '-DRUINA_PREDECODE_COMMANDS', '-DRUINA_PREDECODE_PAGES', '-DRUINA_BORROW_COMMANDS', '-DRUINA_PCM_WAV', '-c', '/mnt/d/gba_hack/废都物语_GBA章节样版/tests/quality_menu_fixture.c', '-o', '/mnt/d/gba_hack/废都物语_GBA章节样版/build/fixtures/quality_menu_regions/main.o']' returned non-zero exit status 1.

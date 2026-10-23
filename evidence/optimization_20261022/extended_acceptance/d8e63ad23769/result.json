@@ -1,0 +1,51 @@
+{
+  "status": "pass",
+  "production_rom_sha256": "d8e63ad23769ed03f990420723b3c042f3e147b23565e2c23f4c0f67bbe1e780",
+  "checks": [
+    {
+      "name": "origin_1_manual",
+      "status": "pass",
+      "report": "evidence/first_battle_origin_1/result.json",
+      "seconds": 4.226766859001145
+    },
+    {
+      "name": "origin_2_manual",
+      "status": "pass",
+      "report": "evidence/first_battle_origin_2/result.json",
+      "seconds": 4.926848892000635
+    },
+    {
+      "name": "origin_3_manual",
+      "status": "pass",
+      "report": "evidence/first_battle_origin_3/result.json",
+      "seconds": 4.460754821000592
+    },
+    {
+      "name": "origin_4_manual",
+      "status": "pass",
+      "report": "evidence/first_battle_origin_4/result.json",
+      "seconds": 4.8085097310013225
+    },
+    {
+      "name": "mage_original_auto_battle",
+      "status": "pass",
+      "report": "evidence/first_battle_origin_3_auto/result.json",
+      "seconds": 4.177352774999235
+    },
+    {
+      "name": "game_over_new_game_bad_SAV",
+      "status": "pass",
+      "report": "evidence/recovery/result.json",
+      "seconds": 26.733775889000754
+    },
+    {
+      "name": "source_interfaces_controlled",
+      "status": "pass",
+      "report": "evidence/full_features/interfaces/result.json",
+      "seconds": 8.364659243999995
+    }
+  ],
+  "kind": "four fresh origins and original automatic mage battle, genuine SAV defeat/reset/rejection; special interfaces use separate controlled cartridge",
+  "full_campaign": "not_run",
+  "hardware": "not_run"
+}

@@ -1,0 +1,7 @@
+{
+  "status": "rejected",
+  "kind": "controlled host fixture, not emulator gameplay",
+  "observed_error": "setup: Assertion `count<=8' failed.",
+  "finding": "Original troop 265 has 9 enemy entries; original troop 202 has 10. The previous eight-enemy bound cannot cover this original data.",
+  "fixed_by": "MAX_BATTLE_ENEMY=10, fourteen total unit slots and sixteen-option UI; later reports verify separately."
+}

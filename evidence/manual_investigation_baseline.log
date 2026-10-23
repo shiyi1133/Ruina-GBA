@@ -1,0 +1,27 @@
+{
+  "status": "reported_bug_reproduced",
+  "rom_sha256": "2416a8e950d764c790dd55a309d615de4c0dc9420fa791e6b9cd3535fab8824f",
+  "checks": [
+    {
+      "check": "manual A enters the tavern under the cursor instead of the old cave target",
+      "before": [
+        3,
+        9,
+        4,
+        2
+      ],
+      "after": [
+        3,
+        9,
+        1,
+        2
+      ],
+      "ui": 1,
+      "pass": false
+    }
+  ],
+  "input": "real emulated buttons; genuine ordinary SAV",
+  "memory": "read only",
+  "instant_states": false,
+  "hardware": "not_run"
+}

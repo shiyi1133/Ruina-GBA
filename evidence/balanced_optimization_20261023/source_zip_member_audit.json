@@ -1,0 +1,12 @@
+{
+  "status": "pass",
+  "unix": 1792727020.3274946,
+  "source_ZIP_sha256": "dbdff0419628b04fd3d24339a586966402207d0fd351cc80c2c02230a708cd16",
+  "members": 12696,
+  "invalid_Windows_names": [],
+  "case_insensitive_collisions": [],
+  "unexpected_program_binaries": [],
+  "longest_relative_member": "废都物语_GBA_匹配工程_v0.7_20261023/evidence/balanced_optimization_20261023/map_windows/dd2688a615e8_c47aa1a2_q0/full/preserved_dd2688a615e8_c47aa1a2_q0_before_filter_fix.json",
+  "longest_path_characters_when_extracted_in_Downloads": 190,
+  "scope": "Actual source ZIP member names, not Windows-native compilation verification."
+}

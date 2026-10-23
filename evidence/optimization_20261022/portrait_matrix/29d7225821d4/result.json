@@ -1,0 +1,494 @@
+{
+  "status": "fail",
+  "stress_music_plus_four_effects": true,
+  "quick_subset": true,
+  "MIDI_underruns_after_warmup": 3440,
+  "original_portrait_bank_size": 160,
+  "single_original_portraits": 4,
+  "mixed_sheet_combinations": 40,
+  "LCD_faces_checked": 164,
+  "different_pixels": 0,
+  "VBlank_commit_overruns": 0,
+  "max_commit_scanlines": 25,
+  "production_rom_sha256": "265f44c3e8118fda25061b48abeff29c3573bc6d4e908c47f9af9a762c943a9d",
+  "fixture_sha256": "29d7225821d407d919f624fb6336fbdbeee3c06c6681eacd2d560cf8fb2934dd",
+  "native_bank_sha256": "cc29d4bdcd2725f8eeb8b11c759287f02380aabc9be69add3d8de4fe247856eb",
+  "mixed_bank_sha256": "53b47aaca84933b203e01a450a7e5f08f5f17b8e7e1d4c1f5f6f0a31d6af8339",
+  "kind": "all native singles match original XYZ RGB555; mixed pages match explicitly fitted palettes; alpha and decoder scratch ownership retained",
+  "mixed_color_error_report": "build/portrait_combinations_manifest.json",
+  "rows": [
+    {
+      "stage": 1,
+      "sheets_mask": 1,
+      "portraits": [
+        0
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 2,
+      "sheets_mask": 1,
+      "portraits": [
+        1
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 3,
+      "sheets_mask": 1,
+      "portraits": [
+        2
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 4,
+      "sheets_mask": 1,
+      "portraits": [
+        3
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 5,
+      "sheets_mask": 3,
+      "portraits": [
+        3,
+        26,
+        1,
+        24
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 6,
+      "sheets_mask": 5,
+      "portraits": [
+        5,
+        44,
+        3,
+        42
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 7,
+      "sheets_mask": 6,
+      "portraits": [
+        22,
+        45,
+        20,
+        43
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 8,
+      "sheets_mask": 7,
+      "portraits": [
+        7,
+        30,
+        37,
+        12
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 9,
+      "sheets_mask": 9,
+      "portraits": [
+        9,
+        48,
+        7,
+        62
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 10,
+      "sheets_mask": 10,
+      "portraits": [
+        26,
+        49,
+        24,
+        63
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 11,
+      "sheets_mask": 11,
+      "portraits": [
+        11,
+        18,
+        57,
+        0
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 12,
+      "sheets_mask": 12,
+      "portraits": [
+        44,
+        51,
+        42,
+        49
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 13,
+      "sheets_mask": 13,
+      "portraits": [
+        13,
+        36,
+        59,
+        2
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 14,
+      "sheets_mask": 14,
+      "portraits": [
+        30,
+        37,
+        60,
+        19
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 15,
+      "sheets_mask": 15,
+      "portraits": [
+        15,
+        22,
+        45,
+        52
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 16,
+      "sheets_mask": 17,
+      "portraits": [
+        1,
+        72,
+        15,
+        70
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 17,
+      "sheets_mask": 18,
+      "portraits": [
+        18,
+        73,
+        16,
+        71
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 18,
+      "sheets_mask": 19,
+      "portraits": [
+        3,
+        26,
+        65,
+        8
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 19,
+      "sheets_mask": 20,
+      "portraits": [
+        36,
+        75,
+        34,
+        73
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 20,
+      "sheets_mask": 21,
+      "portraits": [
+        5,
+        44,
+        67,
+        10
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 21,
+      "sheets_mask": 22,
+      "portraits": [
+        22,
+        45,
+        68,
+        27
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 22,
+      "sheets_mask": 23,
+      "portraits": [
+        7,
+        30,
+        37,
+        76
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 23,
+      "sheets_mask": 24,
+      "portraits": [
+        56,
+        79,
+        54,
+        77
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 24,
+      "sheets_mask": 25,
+      "portraits": [
+        9,
+        48,
+        71,
+        14
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 25,
+      "sheets_mask": 26,
+      "portraits": [
+        26,
+        49,
+        72,
+        31
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 26,
+      "sheets_mask": 27,
+      "portraits": [
+        11,
+        18,
+        57,
+        64
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 27,
+      "sheets_mask": 28,
+      "portraits": [
+        44,
+        51,
+        74,
+        33
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 28,
+      "sheets_mask": 29,
+      "portraits": [
+        13,
+        36,
+        59,
+        66
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 29,
+      "sheets_mask": 30,
+      "portraits": [
+        30,
+        37,
+        60,
+        67
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 30,
+      "sheets_mask": 33,
+      "portraits": [
+        1,
+        88,
+        15,
+        86
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 31,
+      "sheets_mask": 34,
+      "portraits": [
+        18,
+        89,
+        16,
+        87
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 32,
+      "sheets_mask": 35,
+      "portraits": [
+        3,
+        26,
+        81,
+        8
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 33,
+      "sheets_mask": 36,
+      "portraits": [
+        36,
+        91,
+        34,
+        89
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 34,
+      "sheets_mask": 37,
+      "portraits": [
+        5,
+        44,
+        83,
+        10
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 35,
+      "sheets_mask": 38,
+      "portraits": [
+        22,
+        45,
+        84,
+        27
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 36,
+      "sheets_mask": 39,
+      "portraits": [
+        7,
+        30,
+        37,
+        92
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 37,
+      "sheets_mask": 40,
+      "portraits": [
+        56,
+        95,
+        54,
+        93
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 38,
+      "sheets_mask": 41,
+      "portraits": [
+        9,
+        48,
+        87,
+        14
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 39,
+      "sheets_mask": 42,
+      "portraits": [
+        26,
+        49,
+        88,
+        31
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 40,
+      "sheets_mask": 43,
+      "portraits": [
+        11,
+        18,
+        57,
+        80
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 41,
+      "sheets_mask": 44,
+      "portraits": [
+        44,
+        51,
+        90,
+        33
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 42,
+      "sheets_mask": 45,
+      "portraits": [
+        13,
+        36,
+        59,
+        82
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 43,
+      "sheets_mask": 46,
+      "portraits": [
+        30,
+        37,
+        60,
+        83
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 44,
+      "sheets_mask": 48,
+      "portraits": [
+        64,
+        87,
+        78,
+        85
+      ],
+      "different_pixels": 0
+    }
+  ],
+  "physical_hardware": "not_run"
+}

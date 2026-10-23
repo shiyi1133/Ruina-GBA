@@ -1,0 +1,12 @@
+view_menu_down 14 transient 0 black 0
+Traceback (most recent call last):
+  File "/mnt/d/gba_hack/废都物语_GBA章节样版/tools/check_quality_flicker.py", line 88, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/mnt/d/gba_hack/废都物语_GBA章节样版/tools/check_quality_flicker.py", line 46, in main
+    action('view_menu_down',128);action('view_menu_up',64);e.key(1)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/gba_hack/废都物语_GBA章节样版/tools/check_quality_flicker.py", line 41, in action
+    assert menu_before[0]==menu_after[0] and menu_after[1]-menu_before[1]==2 and 0<damage[0]<=240*36,item
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: {'action': 'view_menu_down', 'frames_observed': 14, 'before': 'a66b64d5ee4f5f8e', 'after': 'a66b64d5ee4f5f8e', 'transient_frames': 0, 'fully_black_frames': 0, 'commit_metrics': [4, 0, 211, 160, 143, 19, 0, 1200], 'copied_damage': [38400, 4, 0, 0], 'menu_before': [1, 2, 0, 0], 'menu_after': [1, 2, 0, 0], 'name_before': [0, 0, 0, 0], 'name_after': [0, 0, 0, 0], 'trace': [{'frame': 0, 'LCD_hash': 'a66b64d5ee4f5f8e', 'black_pixels': 481}, {'frame': 1, 'LCD_hash': 'a66b64d5ee4f5f8e', 'black_pixels': 481}, {'frame': 2, 'LCD_hash': 'a66b64d5ee4f5f8e', 'black_pixels': 481}, {'frame': 3, 'LCD_hash': 'a66b64d5ee4f5f8e', 'black_pixels': 481}, {'frame': 4, 'LCD_hash': 'a66b64d5ee4f5f8e', 'black_pixels': 481}, {'frame': 5, 'LCD_hash': 'a66b64d5ee4f5f8e', 'black_pixels': 481}, {'frame': 6, 'LCD_hash': 'a66b64d5ee4f5f8e', 'black_pixels': 481}, {'frame': 7, 'LCD_hash': 'a66b64d5ee4f5f8e', 'black_pixels': 481}, {'frame': 8, 'LCD_hash': 'a66b64d5ee4f5f8e', 'black_pixels': 481}, {'frame': 9, 'LCD_hash': 'a66b64d5ee4f5f8e', 'black_pixels': 481}, {'frame': 10, 'LCD_hash': 'a66b64d5ee4f5f8e', 'black_pixels': 481}, {'frame': 11, 'LCD_hash': 'a66b64d5ee4f5f8e', 'black_pixels': 481}, {'frame': 12, 'LCD_hash': 'a66b64d5ee4f5f8e', 'black_pixels': 481}, {'frame': 13, 'LCD_hash': 'a66b64d5ee4f5f8e', 'black_pixels': 481}]}

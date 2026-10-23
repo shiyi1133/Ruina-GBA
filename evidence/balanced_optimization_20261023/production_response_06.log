@@ -1,0 +1,2 @@
+usage: measure_balanced_response.py [-h] --rom ROM --elf ELF --label LABEL
+measure_balanced_response.py: error: the following arguments are required: --rom, --elf

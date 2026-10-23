@@ -1,0 +1,194 @@
+{
+  "status": "pass",
+  "kind": "actual production ROM, genuine prior SAV, buttons and read-only ARM SP observation at every instruction; original audio IRQ remains active",
+  "production_rom_sha256": "d8e63ad23769ed03f990420723b3c042f3e147b23565e2c23f4c0f67bbe1e780",
+  "fast_code_data_end": 50359756,
+  "initial_SYS_SP": 50363392,
+  "initial_IRQ_SP": 50364320,
+  "observations": [
+    {
+      "scene": "map_walking",
+      "modes": {
+        "18": {
+          "minimum_SP": 50364112,
+          "at_PC": 50349604,
+          "instructions_observed": 995169
+        },
+        "31": {
+          "minimum_SP": 50361392,
+          "at_PC": 50341288,
+          "instructions_observed": 8282784
+        }
+      },
+      "SYS_margin_above_fast_code_data": 1636
+    },
+    {
+      "scene": "inventory_enter",
+      "modes": {
+        "18": {
+          "minimum_SP": 50364020,
+          "at_PC": 50347324,
+          "instructions_observed": 1265016
+        },
+        "31": {
+          "minimum_SP": 50361744,
+          "at_PC": 50341288,
+          "instructions_observed": 5676510
+        }
+      },
+      "SYS_margin_above_fast_code_data": 1988
+    },
+    {
+      "scene": "inventory_description",
+      "modes": {
+        "18": {
+          "minimum_SP": 50364112,
+          "at_PC": 50349604,
+          "instructions_observed": 994686
+        },
+        "31": {
+          "minimum_SP": 50361672,
+          "at_PC": 50341288,
+          "instructions_observed": 5689388
+        }
+      },
+      "SYS_margin_above_fast_code_data": 1916
+    },
+    {
+      "scene": "equipment_enter",
+      "modes": {
+        "18": {
+          "minimum_SP": 50364020,
+          "at_PC": 50347324,
+          "instructions_observed": 1264534
+        },
+        "31": {
+          "minimum_SP": 50360000,
+          "at_PC": 50341288,
+          "instructions_observed": 5962313
+        }
+      },
+      "SYS_margin_above_fast_code_data": 244
+    },
+    {
+      "scene": "field_skill_enter",
+      "modes": {
+        "18": {
+          "minimum_SP": 50364020,
+          "at_PC": 50347324,
+          "instructions_observed": 1264560
+        },
+        "31": {
+          "minimum_SP": 50360904,
+          "at_PC": 50341288,
+          "instructions_observed": 6013725
+        }
+      },
+      "SYS_margin_above_fast_code_data": 1148
+    }
+  ],
+  "largest_single_frames": [
+    {
+      "function": "equipment_menu",
+      "stack_bytes": 2048,
+      "bound": "static"
+    },
+    {
+      "function": "source_menu_screen",
+      "stack_bytes": 1104,
+      "bound": "static"
+    },
+    {
+      "function": "field_skill_menu",
+      "stack_bytes": 1064,
+      "bound": "static"
+    },
+    {
+      "function": "segment",
+      "stack_bytes": 880,
+      "bound": "static"
+    },
+    {
+      "function": "battle",
+      "stack_bytes": 640,
+      "bound": "static"
+    },
+    {
+      "function": "select_target",
+      "stack_bytes": 608,
+      "bound": "static"
+    },
+    {
+      "function": "movement_tick",
+      "stack_bytes": 352,
+      "bound": "static"
+    },
+    {
+      "function": "inventory_select_from",
+      "stack_bytes": 304,
+      "bound": "static"
+    },
+    {
+      "function": "party_select",
+      "stack_bytes": 288,
+      "bound": "static"
+    },
+    {
+      "function": "picture_region_scaled",
+      "stack_bytes": 256,
+      "bound": "static"
+    },
+    {
+      "function": "goods_menu",
+      "stack_bytes": 248,
+      "bound": "static"
+    },
+    {
+      "function": "load_game",
+      "stack_bytes": 216,
+      "bound": "static"
+    },
+    {
+      "function": "tiles",
+      "stack_bytes": 208,
+      "bound": "static"
+    },
+    {
+      "function": "battle_skill_row",
+      "stack_bytes": 184,
+      "bound": "static"
+    },
+    {
+      "function": "execute_events_until",
+      "stack_bytes": 184,
+      "bound": "static"
+    },
+    {
+      "function": "goods_row",
+      "stack_bytes": 184,
+      "bound": "static"
+    },
+    {
+      "function": "audio_irq",
+      "stack_bytes": 176,
+      "bound": "static"
+    },
+    {
+      "function": "use_map_skill",
+      "stack_bytes": 176,
+      "bound": "static"
+    },
+    {
+      "function": "rgb_picture",
+      "stack_bytes": 176,
+      "bound": "static"
+    },
+    {
+      "function": "music_room",
+      "stack_bytes": 168,
+      "bound": "static"
+    }
+  ],
+  "scope": "sampled map/inventory/equipment/field skill paths; not a proof of every possible recursive call chain",
+  "physical_hardware": "not_run"
+}

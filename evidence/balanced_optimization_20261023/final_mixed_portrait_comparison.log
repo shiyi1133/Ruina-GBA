@@ -1,0 +1,70 @@
+{
+  "status": "compared_actual_GBA_pixels",
+  "production_ROM_sha256": "6e70c2dc0b4c10a2c9a3aae4f52201ade7a9c652b0e48faa1aa4268b900626d6",
+  "baseline_ROM_sha256": "1db4e8b86af4cc3b4e71abdc983f9a8e5a2c84eb5784738258912a75750e1561",
+  "baseline_fixture_sha256": "bf11f1cc3cb82d0125158682890060d2c1e4c530bb066c61a4b39da68583690f",
+  "current_fixture_sha256": "f649b0d8370cf113a1af3e5f2cac1f835450ab5a799a99fa1e96f704fa22d58a",
+  "original_portrait_bank_sha256": "cc29d4bdcd2725f8eeb8b11c759287f02380aabc9be69add3d8de4fe247856eb",
+  "stage": 400,
+  "source_portrait_indices": [
+    96,
+    119,
+    142,
+    101
+  ],
+  "faces": [
+    {
+      "source_portrait_index": 96,
+      "source_image_id": 289,
+      "opaque_pixels": 2304,
+      "old_different_RGB555_pixels": 1274,
+      "new_different_RGB555_pixels": 0,
+      "RGB555_channel_RMSE_before_after": [
+        0.522358876919208,
+        0.0
+      ]
+    },
+    {
+      "source_portrait_index": 119,
+      "source_image_id": 312,
+      "opaque_pixels": 2304,
+      "old_different_RGB555_pixels": 1073,
+      "new_different_RGB555_pixels": 0,
+      "RGB555_channel_RMSE_before_after": [
+        0.4538926288435609,
+        0.0
+      ]
+    },
+    {
+      "source_portrait_index": 142,
+      "source_image_id": 335,
+      "opaque_pixels": 2304,
+      "old_different_RGB555_pixels": 941,
+      "new_different_RGB555_pixels": 0,
+      "RGB555_channel_RMSE_before_after": [
+        0.4279716371702945,
+        0.0
+      ]
+    },
+    {
+      "source_portrait_index": 101,
+      "source_image_id": 294,
+      "opaque_pixels": 2304,
+      "old_different_RGB555_pixels": 697,
+      "new_different_RGB555_pixels": 0,
+      "RGB555_channel_RMSE_before_after": [
+        0.32117586332908826,
+        0.0
+      ]
+    }
+  ],
+  "old_original_color_mismatches": 3985,
+  "new_original_color_mismatches": 0,
+  "comparison": "多组头像颜色对照.png",
+  "comparison_sha256": "8d6ad075967e70f2c22895e301a97c59ddc9593c6127df2558fbee86bf6d934c",
+  "captures": {
+    "v062_actual.png": "f02251ed1beab0ce5c62982a195a4903dd5503a0a0ccabf0f8991521250bcd78",
+    "v07_actual.png": "853384612901c7f59e784a23ab3adc39e6805f72720f5da4fa5973eea18779c1"
+  },
+  "scope": "Controlled mixed-FaceSet fixture, actual GBA LCD screenshots; original nontransparent source pixels converted to RGB555. No enhancement and no claim that this scene occurs in the natural campaign."
+}

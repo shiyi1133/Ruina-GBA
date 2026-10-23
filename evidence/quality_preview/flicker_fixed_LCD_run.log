@@ -1,0 +1,25 @@
+view_menu_down 224 transient 0 black 0
+view_menu_up 224 transient 0 black 0
+dialogue_to_origin_menu 45 transient 0 black 0
+origin_down 43 transient 0 black 0
+origin_up 43 transient 0 black 0
+origin_knight 43 transient 0 black 0
+avatar_down 58 transient 0 black 0
+avatar_up 57 transient 0 black 0
+name_cursor_right 47 transient 0 black 0
+name_cursor_left 47 transient 0 black 0
+map_show_complete 41 transient 0 black 0
+map_pan_left 41 transient 0 black 0
+map_pan_up 40 transient 0 black 0
+map_pan_right 41 transient 1 black 0
+Traceback (most recent call last):
+  File "/mnt/d/gba_hack/废都物语_GBA章节样版/tools/check_quality_flicker.py", line 70, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/mnt/d/gba_hack/废都物语_GBA章节样版/tools/check_quality_flicker.py", line 54, in main
+    action('map_show_complete',4);action('map_pan_left',32);action('map_pan_up',64);action('map_pan_right',16);action('map_pan_down',128);action('map_restore_mask',4)
+                                                                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/gba_hack/废都物语_GBA章节样版/tools/check_quality_flicker.py", line 33, in action
+    if not args.old:assert not transients and not black,item
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: {'action': 'map_pan_right', 'frames_observed': 41, 'before': 'aad345f3695a2572', 'after': 'f5fb1f272fee55bb', 'transient_frames': 1, 'fully_black_frames': 0, 'trace': [{'frame': 0, 'LCD_hash': 'aad345f3695a2572', 'black_pixels': 0}, {'frame': 1, 'LCD_hash': 'aad345f3695a2572', 'black_pixels': 0}, {'frame': 2, 'LCD_hash': 'aad345f3695a2572', 'black_pixels': 0}, {'frame': 3, 'LCD_hash': 'aad345f3695a2572', 'black_pixels': 0}, {'frame': 4, 'LCD_hash': 'aad345f3695a2572', 'black_pixels': 0}, {'frame': 5, 'LCD_hash': 'aad345f3695a2572', 'black_pixels': 0}, {'frame': 6, 'LCD_hash': 'aad345f3695a2572', 'black_pixels': 0}, {'frame': 7, 'LCD_hash': 'aad345f3695a2572', 'black_pixels': 0}, {'frame': 8, 'LCD_hash': 'aad345f3695a2572', 'black_pixels': 0}, {'frame': 9, 'LCD_hash': 'aad345f3695a2572', 'black_pixels': 0}, {'frame': 10, 'LCD_hash': 'aad345f3695a2572', 'black_pixels': 0}, {'frame': 11, 'LCD_hash': 'aad345f3695a2572', 'black_pixels': 0}, {'frame': 12, 'LCD_hash': 'aad345f3695a2572', 'black_pixels': 0}, {'frame': 13, 'LCD_hash': 'aad345f3695a2572', 'black_pixels': 0}, {'frame': 14, 'LCD_hash': 'aad345f3695a2572', 'black_pixels': 0}, {'frame': 15, 'LCD_hash': 'aad345f3695a2572', 'black_pixels': 0}, {'frame': 16, 'LCD_hash': 'aad345f3695a2572', 'black_pixels': 0}, {'frame': 17, 'LCD_hash': 'aad345f3695a2572', 'black_pixels': 0}, {'frame': 18, 'LCD_hash': 'aad345f3695a2572', 'black_pixels': 0}, {'frame': 19, 'LCD_hash': 'aad345f3695a2572', 'black_pixels': 0}, {'frame': 20, 'LCD_hash': 'aad345f3695a2572', 'black_pixels': 0}, {'frame': 21, 'LCD_hash': 'aad345f3695a2572', 'black_pixels': 0}, {'frame': 22, 'LCD_hash': 'aad345f3695a2572', 'black_pixels': 0}, {'frame': 23, 'LCD_hash': 'aad345f3695a2572', 'black_pixels': 0}, {'frame': 24, 'LCD_hash': 'aad345f3695a2572', 'black_pixels': 0}, {'frame': 25, 'LCD_hash': 'aad345f3695a2572', 'black_pixels': 0}, {'frame': 26, 'LCD_hash': 'aad345f3695a2572', 'black_pixels': 0}, {'frame': 27, 'LCD_hash': 'aad345f3695a2572', 'black_pixels': 0}, {'frame': 28, 'LCD_hash': 'aad345f3695a2572', 'black_pixels': 0}, {'frame': 29, 'LCD_hash': 'aad345f3695a2572', 'black_pixels': 0}, {'frame': 30, 'LCD_hash': 'aad345f3695a2572', 'black_pixels': 0}, {'frame': 31, 'LCD_hash': 'aad345f3695a2572', 'black_pixels': 0}, {'frame': 32, 'LCD_hash': 'aad345f3695a2572', 'black_pixels': 0}, {'frame': 33, 'LCD_hash': '5bd1dd1b4148e494', 'black_pixels': 0}, {'frame': 34, 'LCD_hash': 'f5fb1f272fee55bb', 'black_pixels': 0}, {'frame': 35, 'LCD_hash': 'f5fb1f272fee55bb', 'black_pixels': 0}, {'frame': 36, 'LCD_hash': 'f5fb1f272fee55bb', 'black_pixels': 0}, {'frame': 37, 'LCD_hash': 'f5fb1f272fee55bb', 'black_pixels': 0}, {'frame': 38, 'LCD_hash': 'f5fb1f272fee55bb', 'black_pixels': 0}, {'frame': 39, 'LCD_hash': 'f5fb1f272fee55bb', 'black_pixels': 0}, {'frame': 40, 'LCD_hash': 'f5fb1f272fee55bb', 'black_pixels': 0}]}

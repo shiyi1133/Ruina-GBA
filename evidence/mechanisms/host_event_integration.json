@@ -1,0 +1,51 @@
+{
+  "status": "pass",
+  "kind": "controlled host integration fixtures using unchanged original event streams",
+  "original_troops": [
+    34,
+    29,
+    58
+  ],
+  "checks": [
+    "actor states synchronized with battle units",
+    "parent event suspended and preserved",
+    "once per turn scheduling",
+    "original abort event",
+    "original four hidden enemies revealed",
+    "zero based monster slots",
+    "percent HP uses current HP",
+    "nonlethal HP floor",
+    "lethal HP and dead-monster no-heal",
+    "death state removal revives",
+    "original common 100 pauses and resumes its program counter",
+    "foreground frame survives parallel execution",
+    "original Map3 event10 forced player movement",
+    "movement direction, eight-frame step and asynchronous completion",
+    "map transfer clears forced routes",
+    "through movement still respects non-looping map bounds"
+  ],
+  "emulator_gameplay": "not_run_by_this_fixture",
+  "full_feature_fixture_output": "navigation cache: 2272 cached vs rebuilt states, 3612 reuse hits, 36 occupied starts, 678 dynamic changes\nexpanded late-game fixture: 39704 raw -> 17216 packed bytes\ngrid edges checked: 5808; routes checked: 10\n",
+  "production_sources_sha256": {
+    "tests/shared_events_host.c": "94419f65fe886511c409e8328987e59dde51133c9b274e9032b96faca577e633",
+    "runtime/rm2k/lcf.c": "35ca46eb9785d41059866ee7ef8dd10aa5a6ea1d3d508b6b1ea17116157562db",
+    "runtime/rm2k/state.c": "c393b4ab5511a3487162b4f3aca9968bbdabee61c894bd28093153a0f3f35304",
+    "runtime/rm2k/interpreter.c": "9543d4e1077b6206c5b686e074a8874f8c0f1f14ce46c89949054c1f80dc76b9",
+    "runtime/rm2k/rm2k_rules.c": "5aae18f0f613d9d629000ef444332b4c1d54f4a649d53a6596f70a8a1f1c34d8",
+    "runtime/rm2k/map_rules.c": "ffea5974cf5d3a676d8e63ba8c80e72c35fd34759188ff80858e88afe9f066dc",
+    "runtime/rm2k/map_info.c": "ac66645f74beb6757fe2823989991a49122d80b008f5a70ff23a1385197f0aa6",
+    "runtime/rm2k/timers.c": "eabb850778eec8ff0d4996c02041ecc41bb229f173f3e6b9e929d61c65b1f7f7",
+    "runtime/rm2k/movement.c": "edcae00389b391cada08ab44c5024d0bbf16278bef759efdc63356270137103d",
+    "runtime/rm2k/pictures.c": "a7144d48979eb40d3599a1eded7ef564aaaf9fa9485275de7434f2390392611c",
+    "runtime/rm2k/presentation.c": "e2d43c114e87f96d539d2f04461118632427776a3ebb0bdb77844d2d69f0a764",
+    "runtime/rm2k/animations.c": "8c96faf230591c184b43aab0afa0174123e264a105caa0658ad161fdf92aa980",
+    "runtime/rm2k/storage_codec.c": "a055a2d856831013708757f4b6c6c15bfb9fa09013a54893949ada75108b4312",
+    "runtime/rm2k/battle.c": "f08adb46c02cb1541e7399200032c90e2dec526bc5ab250683263b9c26076af3",
+    "runtime/rm2k/parallel.c": "c27c2aea96fd81e45895b46d312bf259e6eb516e9bcaa3f74a73f51d0d7a1824",
+    "runtime/rm2k/world.c": "d3e23fc84af99c5f3c4812769bdc1325c87ae0c53bdbd1db0afd4dd14ea721c8",
+    "tests/full_features_host.inc": "360cc2ef23627a89edb1c66172df8fa852e51911495255844a027a658f276771"
+  },
+  "controlled_setup": "Actors, switches and enemy HP are set in the host fixture to exercise rules. This is not a natural gameplay playthrough, emulator input or release-game modification.",
+  "original_switch_range_instructions_checked": 189,
+  "original_enemy_variable_instructions_checked": 10
+}

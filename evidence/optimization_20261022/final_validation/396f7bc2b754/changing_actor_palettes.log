@@ -1,0 +1,16 @@
+{
+  "status": "pass",
+  "scope": "controlled actual GBA; three original characters shown together while traversing all72 source characters twice; current poses compared to original XYZ RGB555",
+  "views": 144,
+  "actors_checked": 432,
+  "OBJ_palette_reclaims": 17,
+  "native_commit_metrics": [
+    0,
+    7,
+    144
+  ],
+  "different_RGB555_pixels": 0,
+  "production_rom_sha256": "396f7bc2b7546fd062112d6041503adb3b31b0630a763e0259046228a995364a",
+  "fixture_sha256": "bc4cf5dff692c73a10706a5e77ff770c27449a867319c20d4f9a8c22d597110a",
+  "physical_hardware": "not_run"
+}

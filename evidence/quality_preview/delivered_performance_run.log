@@ -1,0 +1,274 @@
+view_menu_down 3 50.23 ms
+view_menu_up 3 50.23 ms
+view_menu_down 3 50.23 ms
+view_menu_up 3 50.23 ms
+view_menu_down 3 50.23 ms
+view_menu_up 3 50.23 ms
+dialogue_to_origin_menu 36 602.74 ms
+origin_menu_down 3 50.23 ms
+origin_menu_up 3 50.23 ms
+origin_menu_down 3 50.23 ms
+origin_menu_up 3 50.23 ms
+origin_menu_down 3 50.23 ms
+origin_menu_up 3 50.23 ms
+avatar_menu_down 3 50.23 ms
+avatar_menu_up 3 50.23 ms
+avatar_menu_down 2 33.49 ms
+avatar_menu_up 3 50.23 ms
+avatar_menu_down 3 50.23 ms
+avatar_menu_up 2 33.49 ms
+name_cursor_right 2 33.49 ms
+name_cursor_left 2 33.49 ms
+name_cursor_right 2 33.49 ms
+name_cursor_left 2 33.49 ms
+name_cursor_right 2 33.49 ms
+name_cursor_left 2 33.49 ms
+name_insert_surname_and_switch_pool 7 117.2 ms
+name_insert_given 2 33.49 ms
+name_delete_given 2 33.49 ms
+name_tab_surnames 6 100.46 ms
+name_tab_given 7 117.2 ms
+name_restore_default 2 33.49 ms
+show_complete_map 37 619.48 ms
+complete_map_pan_left_8px 37 619.48 ms
+complete_map_pan_right_8px 37 619.48 ms
+restore_exploration_mask 843 14114.1 ms
+show_complete_map 36 602.74 ms
+complete_map_pan_left_8px 37 619.48 ms
+complete_map_pan_right_8px 35 585.99 ms
+restore_exploration_mask 831 13913.19 ms
+show_complete_map 38 636.22 ms
+complete_map_pan_left_8px 36 602.74 ms
+complete_map_pan_right_8px 37 619.48 ms
+restore_exploration_mask 857 14348.5 ms
+hide_dialogue_show_illustration 30 502.28 ms
+illustration_pan_right_8px 30 502.28 ms
+illustration_pan_left_8px 30 502.28 ms
+illustration_pan_right_8px 30 502.28 ms
+illustration_pan_left_8px 30 502.28 ms
+illustration_pan_right_8px 30 502.28 ms
+illustration_pan_left_8px 30 502.28 ms
+restore_dialogue 34 569.25 ms
+{
+  "status": "measured",
+  "ROM": "/mnt/c/Users/APP/Downloads/废都物语_GBA_开场画质预览_局部刷新修正版_20261022/废都物语_GBA_开场画质预览_RGB555_局部刷新修正版.gba",
+  "ROM_sha256": "4513437665f659b3a265a57237e7f90dda5a8af5f7d72903090efa755925c5ef",
+  "sample_count": 51,
+  "emulator_core_frequency_Hz": 16777216,
+  "emulator_frame_cycles": 280896,
+  "emulated_LCD_refresh_Hz": 59.72750056960583,
+  "summary": [
+    {
+      "action": "view_menu_down",
+      "samples": 3,
+      "response_frames_min": 3,
+      "response_frames_max": 3,
+      "response_ms_min": 50.228118896484375,
+      "response_ms_max": 50.228118896484375,
+      "response_ms_mean": 50.228118896484375
+    },
+    {
+      "action": "view_menu_up",
+      "samples": 3,
+      "response_frames_min": 3,
+      "response_frames_max": 3,
+      "response_ms_min": 50.228118896484375,
+      "response_ms_max": 50.228118896484375,
+      "response_ms_mean": 50.228118896484375
+    },
+    {
+      "action": "dialogue_to_origin_menu",
+      "samples": 1,
+      "response_frames_min": 36,
+      "response_frames_max": 36,
+      "response_ms_min": 602.7374267578125,
+      "response_ms_max": 602.7374267578125,
+      "response_ms_mean": 602.7374267578125
+    },
+    {
+      "action": "origin_menu_down",
+      "samples": 3,
+      "response_frames_min": 3,
+      "response_frames_max": 3,
+      "response_ms_min": 50.228118896484375,
+      "response_ms_max": 50.228118896484375,
+      "response_ms_mean": 50.228118896484375
+    },
+    {
+      "action": "origin_menu_up",
+      "samples": 3,
+      "response_frames_min": 3,
+      "response_frames_max": 3,
+      "response_ms_min": 50.228118896484375,
+      "response_ms_max": 50.228118896484375,
+      "response_ms_mean": 50.228118896484375
+    },
+    {
+      "action": "avatar_menu_down",
+      "samples": 3,
+      "response_frames_min": 2,
+      "response_frames_max": 3,
+      "response_ms_min": 33.48541259765625,
+      "response_ms_max": 50.228118896484375,
+      "response_ms_mean": 44.647216796875
+    },
+    {
+      "action": "avatar_menu_up",
+      "samples": 3,
+      "response_frames_min": 2,
+      "response_frames_max": 3,
+      "response_ms_min": 33.48541259765625,
+      "response_ms_max": 50.228118896484375,
+      "response_ms_mean": 44.647216796875
+    },
+    {
+      "action": "name_cursor_right",
+      "samples": 3,
+      "response_frames_min": 2,
+      "response_frames_max": 2,
+      "response_ms_min": 33.48541259765625,
+      "response_ms_max": 33.48541259765625,
+      "response_ms_mean": 33.48541259765625
+    },
+    {
+      "action": "name_cursor_left",
+      "samples": 3,
+      "response_frames_min": 2,
+      "response_frames_max": 2,
+      "response_ms_min": 33.48541259765625,
+      "response_ms_max": 33.48541259765625,
+      "response_ms_mean": 33.48541259765625
+    },
+    {
+      "action": "name_insert_surname_and_switch_pool",
+      "samples": 1,
+      "response_frames_min": 7,
+      "response_frames_max": 7,
+      "response_ms_min": 117.19894409179688,
+      "response_ms_max": 117.19894409179688,
+      "response_ms_mean": 117.19894409179688
+    },
+    {
+      "action": "name_insert_given",
+      "samples": 1,
+      "response_frames_min": 2,
+      "response_frames_max": 2,
+      "response_ms_min": 33.48541259765625,
+      "response_ms_max": 33.48541259765625,
+      "response_ms_mean": 33.48541259765625
+    },
+    {
+      "action": "name_delete_given",
+      "samples": 1,
+      "response_frames_min": 2,
+      "response_frames_max": 2,
+      "response_ms_min": 33.48541259765625,
+      "response_ms_max": 33.48541259765625,
+      "response_ms_mean": 33.48541259765625
+    },
+    {
+      "action": "name_tab_surnames",
+      "samples": 1,
+      "response_frames_min": 6,
+      "response_frames_max": 6,
+      "response_ms_min": 100.45623779296875,
+      "response_ms_max": 100.45623779296875,
+      "response_ms_mean": 100.45623779296875
+    },
+    {
+      "action": "name_tab_given",
+      "samples": 1,
+      "response_frames_min": 7,
+      "response_frames_max": 7,
+      "response_ms_min": 117.19894409179688,
+      "response_ms_max": 117.19894409179688,
+      "response_ms_mean": 117.19894409179688
+    },
+    {
+      "action": "name_restore_default",
+      "samples": 1,
+      "response_frames_min": 2,
+      "response_frames_max": 2,
+      "response_ms_min": 33.48541259765625,
+      "response_ms_max": 33.48541259765625,
+      "response_ms_mean": 33.48541259765625
+    },
+    {
+      "action": "show_complete_map",
+      "samples": 3,
+      "response_frames_min": 36,
+      "response_frames_max": 38,
+      "response_ms_min": 602.7374267578125,
+      "response_ms_max": 636.2228393554688,
+      "response_ms_mean": 619.4801330566406
+    },
+    {
+      "action": "complete_map_pan_left_8px",
+      "samples": 3,
+      "response_frames_min": 36,
+      "response_frames_max": 37,
+      "response_ms_min": 602.7374267578125,
+      "response_ms_max": 619.4801330566406,
+      "response_ms_mean": 613.8992309570312
+    },
+    {
+      "action": "complete_map_pan_right_8px",
+      "samples": 3,
+      "response_frames_min": 35,
+      "response_frames_max": 37,
+      "response_ms_min": 585.9947204589844,
+      "response_ms_max": 619.4801330566406,
+      "response_ms_mean": 608.3183288574219
+    },
+    {
+      "action": "restore_exploration_mask",
+      "samples": 3,
+      "response_frames_min": 831,
+      "response_frames_max": 857,
+      "response_ms_min": 13913.188934326172,
+      "response_ms_max": 14348.499298095703,
+      "response_ms_mean": 14125.263214111328
+    },
+    {
+      "action": "hide_dialogue_show_illustration",
+      "samples": 1,
+      "response_frames_min": 30,
+      "response_frames_max": 30,
+      "response_ms_min": 502.28118896484375,
+      "response_ms_max": 502.28118896484375,
+      "response_ms_mean": 502.28118896484375
+    },
+    {
+      "action": "illustration_pan_right_8px",
+      "samples": 3,
+      "response_frames_min": 30,
+      "response_frames_max": 30,
+      "response_ms_min": 502.28118896484375,
+      "response_ms_max": 502.28118896484375,
+      "response_ms_mean": 502.28118896484375
+    },
+    {
+      "action": "illustration_pan_left_8px",
+      "samples": 3,
+      "response_frames_min": 30,
+      "response_frames_max": 30,
+      "response_ms_min": 502.28118896484375,
+      "response_ms_max": 502.28118896484375,
+      "response_ms_mean": 502.28118896484375
+    },
+    {
+      "action": "restore_dialogue",
+      "samples": 1,
+      "response_frames_min": 34,
+      "response_frames_max": 34,
+      "response_ms_min": 569.2520141601562,
+      "response_ms_max": 569.2520141601562,
+      "response_ms_mean": 569.2520141601562
+    }
+  ],
+  "host_total_seconds_including_setup_IPC_and_settling": 14.020921221002936,
+  "method": "Real two-frame button pulses; complete actual LCD hash sampled every hardware frame. Latency is from pulse start to first complete new image, quantized to one frame. Six stable frames/minimum 14-frame observer windows are excluded from response time. Normal GBA core timing; no speed changes, writes or instant states.",
+  "scope": "delivered native-pixel opening preview through first-map viewer; knight origin; not whole-game FPS",
+  "hardware": "not_run",
+  "battle_or_continuous_gameplay_FPS": "not_measured"
+}

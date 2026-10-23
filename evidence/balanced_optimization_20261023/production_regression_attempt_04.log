@@ -1,0 +1,10 @@
+checking all_panorama_crops
+{"name": "all_panorama_crops", "status": "pass", "seconds": 18.720224715999393, "returncode": 0, "log": "evidence/optimization_20261022/final_validation/35a8e283662b/all_panorama_crops.log"}
+checking native_characters
+{"name": "native_characters", "status": "pass", "seconds": 7.097864224000659, "returncode": 0, "log": "evidence/optimization_20261022/final_validation/35a8e283662b/native_characters.log"}
+checking changing_actor_palettes
+{"name": "changing_actor_palettes", "status": "pass", "seconds": 7.3672990820005, "returncode": 0, "log": "evidence/optimization_20261022/final_validation/35a8e283662b/changing_actor_palettes.log"}
+checking retained_VRAM
+{"name": "retained_VRAM", "status": "pass", "seconds": 10.909587832000398, "returncode": 0, "log": "evidence/optimization_20261022/final_validation/35a8e283662b/retained_VRAM.log"}
+checking scroll_cache
+{"name": "scroll_cache", "status": "fail", "seconds": 9.0240900280005, "returncode": 1, "log": "evidence/optimization_20261022/final_validation/35a8e283662b/scroll_cache.log"}

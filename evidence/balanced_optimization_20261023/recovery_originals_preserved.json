@@ -1,0 +1,22 @@
+{
+  "status": "pass",
+  "unix": 1792726428.9549212,
+  "scope": "Original user archive, immutable prior source ZIP and v0.6.2 playable baseline; independent current rehash after environment recovery.",
+  "files": [
+    {
+      "path": "/mnt/e/下载/废都物语251102修复优化版.zip",
+      "sha256": "589a0adb0f710200f19522e19a96fa394f67aabd40100edd8664bb60f5e509c4",
+      "unchanged": true
+    },
+    {
+      "path": "/mnt/c/Users/APP/Downloads/废都物语_GBA_匹配工程_v0.6.2_20261022.zip",
+      "sha256": "e7c9dc866b95162046d8e235a3449687217fd56cf88c9903972fcf842b67c7a1",
+      "unchanged": true
+    },
+    {
+      "path": "history/balanced_optimization_20261023/baseline/build/废都物语_GBA_开篇开发验证版.gba",
+      "sha256": "1db4e8b86af4cc3b4e71abdc983f9a8e5a2c84eb5784738258912a75750e1561",
+      "unchanged": true
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "updated_unix": 1792726729.2313921,
+  "production_ROM_sha256": "6e70c2dc0b4c10a2c9a3aae4f52201ade7a9c652b0e48faa1aa4268b900626d6",
+  "ROM": "build/废都物语_GBA_开篇开发验证版.gba",
+  "ELF": "build/ruina_opening_dev.elf",
+  "ROM_bytes": 33399132,
+  "time_gate": "Both original session.json and recovery_session supplementary active window must elapse; do not count offline I/O wait as optimization.",
+  "common_regression": "36/36 passed: evidence/optimization_20261022/final_validation/6e70c2dc0b4c/result.json",
+  "new_layer_validation": "All new checks including shop/order/inventory completed and passed; runner was partial only because common36 and whole music are independent.",
+  "whole_music_session": 12729,
+  "whole_music_log": "production_full_scores_final_04.log",
+  "whole_music_fixture": "51a93034b5c7",
+  "release_prepare_session": 37503,
+  "release_prepare_log": "release_prepare_07.log",
+  "production_frozen": true,
+  "new_changes": [
+    "whole-tile indexed panorama path in platform/gba/image.c + video.c (about half crop decode time)",
+    "packet-boundary storage callbacks and SRAM/checksum audio safe points; same exact PackBits/save format",
+    "audio safe points during state map indexing, world snapshot and object collection"
+  ],
+  "source_tools": [
+    "collect_balanced_acceptance.py (exact SHA only)",
+    "deliver_balanced.py (prepare/seal/deliver gate)",
+    "verify_balanced_archive.py (fresh /tmp rebuild plus extracted gameplay/recipe/RGB/save smoke)",
+    "validate_balanced.py",
+    "make_balanced_comparison.py",
+    "make_mixed_portrait_comparison.py",
+    "check_map_window_matrix.py",
+    "check_serviced_storage.py",
+    "check_save_stack.py",
+    "profile_first_map_draw.py"
+  ],
+  "comparison": "visual_comparison: main sheets now corrected old 4-face capture; mixed controlled sample old3985 inaccurate RGB555 pixels vs new0; source original bank unchanged",
+  "rejected_trials": [
+    "RGB whole-tile path: exact pixels but no material natural opening benefit; not promoted",
+    "metadata-bank idea: index_map only3.4ms in profiled view, not implemented"
+  ],
+  "known_scope": [
+    "full campaign/all endings unverified, user handles",
+    "hardware unverified",
+    "PC universal visual/performance parity not established"
+  ],
+  "no_agents": true,
+  "memory_used": false,
+  "shop_stack_session": null,
+  "shop_stack_log": "shop_stack_02.log",
+  "regression_session": 66237,
+  "new_layer_session": 87019,
+  "regression_log": "production_regression_08.log",
+  "new_layer_log": "production_new_layer_08.log",
+  "new_production_changes": [
+    "runtime/rm2k/item_mask.h exact ascending membership representation",
+    "shop.c selling list1864B ->120B; row and quantity partial rendering; original prices/transactions unchanged",
+    "inventory.c same compact IDs/row updates; original battle eligibility unchanged"
+  ],
+  "new_proofs": [
+    "check_shop_comparison.py exact10screens and sold99 medicine: gold12345->17295, fullGame SHA equal to original source",
+    "check_inventory_matrix.py 4 native/RGB contexts68states, original actor3 battle item eligibility, returnIDs and fullGame hashes exact",
+    "check_shop_item_order.py 1024subsets472050positions; buy caller order/duplicates preserved"
+  ],
+  "release_preparation": "Prepare05 passed exact input set/hash and byte-identical cached rebuild; no source edits after freeze.",
+  "baseline_portrait_comparison_project": "/tmp/ruina-v062-visual-proof-xcfba_nv/废都物语_GBA_匹配工程_v0.6.2_20261022",
+  "release_state": "prepared, not delivered",
+  "release_project": "/tmp/ruina-v07-release-1w8wn8zv/废都物语_GBA_匹配工程_v0.7_20261023",
+  "long_music_soak_session": null,
+  "long_music_soak_log": "music_room_128_loops.log",
+  "long_music_soak_dir": "music_room_long/6e70c2dc0b4c_soak_128",
+  "comparisons": "Regenerated both main and mixed portrait sheets for final6e70; exact-source verification0 new mixed portrait mismatches vs3985 old, source bank unchanged.",
+  "required_next": [
+    "Finish prepare07 with new source tools/docs frozen",
+    "Seal from fresh sourceZIP and check six extracted-project smoke commands",
+    "Extract demoZIP to new path and verify CRC/ROM/noSAV/real renamed-ROM newgame with separate evidence",
+    "Inspect archive/source inputs stability and preservation receipts; do not count original I/O interruption as productive work",
+    "Do not deliver before recovery supplementary deadline epoch 1792728253.7981176",
+    "After both gates deliver, verify Downloads CRC/hash, update_goal complete; concise ROM/package/source links and unverified full campaign/hardware"
+  ],
+  "long_music_soak_status": "PASS 128 loops, 7760.2443695 emulated GBA seconds, zero continuing underruns/voice overflow",
+  "post_freeze_transition_session": null,
+  "post_freeze_transition_log": "music_game_transition.log",
+  "environment": "recovered; real new process and file reads succeed",
+  "recovery_supplementary_not_before_unix": 1792728253.7981176,
+  "whole_music_status": "all210 passed, exact6e70",
+  "post_freeze_transition_status": "PASS 105 track changes in each of newgame/ordinarySAV, quality/clock/title/map/menu restoration",
+  "recovery_changes": "Only driver file-I/O error reporting, save-copy receipt assertion, source archive verification smoke, performance text report and stale architecture text corrected; runtime ROM remains6e70"
+}

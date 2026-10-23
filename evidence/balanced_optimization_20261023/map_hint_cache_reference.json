@@ -1,0 +1,23 @@
+{
+  "status": "pass",
+  "reference_ROM_sha256": "634d6147cc738c02a0a3babf11029c50df44644ea3e1c407c60338fa202f094f",
+  "checks": [
+    {
+      "name": "directions",
+      "bytes": 704,
+      "exact_existing_game_VRAM": true
+    },
+    {
+      "name": "selection",
+      "bytes": 512,
+      "exact_existing_game_VRAM": true
+    },
+    {
+      "name": "labels",
+      "bytes": 1024,
+      "exact_existing_game_VRAM": true
+    }
+  ],
+  "input": "ordinary SAV cold-load and real buttons",
+  "memory": "read only"
+}

@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/mnt/d/gba_hack/废都物语_GBA章节样版/tools/check_music_room_ui.py", line 29, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/mnt/d/gba_hack/废都物语_GBA章节样版/tools/check_music_room_ui.py", line 19, in main
+    e.key(512);assert e.debug()[16]==1 and audio()[1]==tracks[1]['id'];e.key(256);assert e.debug()[16]==0 and audio()[1]==tracks[0]['id'];checks['shoulder_buttons_change_and_play_tracks']=True
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

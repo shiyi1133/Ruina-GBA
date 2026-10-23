@@ -1,0 +1,13 @@
+{"scene": "original_event_shop_entry", "SYS_margin_above_fast_code_data": 180, "music_underrun_samples": 0, "modes": {"18": {"minimum_SP": 50364112, "PC": 50349604, "instructions": 994687}, "31": {"minimum_SP": 50359936, "PC": 50341288, "instructions": 11943046}}, "UI": [5395790, 0, 0, 0, 0, 10720, 0, 0, 11, 3, 1, 0, 0, 0, 1, 2, 0, 3, 0, 0, 0, 0, 1, 0]}
+{"scene": "dense_sell_list", "SYS_margin_above_fast_code_data": 124, "music_underrun_samples": 0, "modes": {"18": {"minimum_SP": 50364020, "PC": 50347324, "instructions": 1264696}, "31": {"minimum_SP": 50359880, "PC": 50341288, "instructions": 7991799}}, "UI": [5395790, 0, 0, 0, 0, 10720, 0, 0, 11, 3, 1, 0, 0, 0, 1, 8, 0, 471, 1, 0, 0, 0, 1, 0]}
+Traceback (most recent call last):
+  File "/mnt/d/gba_hack/废都物语_GBA章节样版/tools/check_shop_stack.py", line 77, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/mnt/d/gba_hack/废都物语_GBA章节样版/tools/check_shop_stack.py", line 45, in main
+    e.frames(60);observe('original_event_shop_entry',1);assert e.debug()[15]==2,e.debug();e.key(0);e.key(128);observe('dense_sell_list',1);assert e.debug()[15]==8 and e.debug()[17]>100,e.debug()
+                                                                                                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/gba_hack/废都物语_GBA章节样版/tools/check_shop_stack.py", line 39, in observe
+    after=struct.unpack('<I',e.memory(e.symbols['audio_stream_debug'],4))[0];margin=modes[31]['minimum_SP']-e.symbols['__iwram_bss_end'];row={'scene':label,'SYS_margin_above_fast_code_data':margin,'music_underrun_samples':after-before,'modes':modes,'UI':list(e.debug())};rows.append(row);e.frames(2);e.shot(out/(label+'.png'));print(json.dumps(row),flush=True);assert margin>=128,row;assert before==after,row;return row
+                                                                                                                                                                                                                                                                                                                                                                                ^^^^^^^^^^^
+AssertionError: {'scene': 'dense_sell_list', 'SYS_margin_above_fast_code_data': 124, 'music_underrun_samples': 0, 'modes': {18: {'minimum_SP': 50364020, 'PC': 50347324, 'instructions': 1264696}, 31: {'minimum_SP': 50359880, 'PC': 50341288, 'instructions': 7991799}}, 'UI': [5395790, 0, 0, 0, 0, 10720, 0, 0, 11, 3, 1, 0, 0, 0, 1, 8, 0, 471, 1, 0, 0, 0, 1, 0]}

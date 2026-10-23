@@ -1,0 +1,28 @@
+{
+  "status": "pass",
+  "panoramas": 60,
+  "native_GBA_crops": 237,
+  "pixels_checked": 9040128,
+  "display_different_pixels": 0,
+  "original_RGB555_different_pixels": 782,
+  "scope": "actual GBA cropped native pictures against untouched original XYZ; palette budget approximations separately counted; UI arrows masked out",
+  "production_rom_sha256": "396f7bc2b7546fd062112d6041503adb3b31b0630a763e0259046228a995364a",
+  "fixture_sha256": "dfe51a2fe4dfbdd0b3107fda60c9c009df593357827d0257e9205cf918e5ebe9",
+  "image_bank_sha256": "ecf45a42fd2a8add868671ad741d8622972b72a64a0b1f87e24b65235d4ebf72",
+  "physical_hardware": "not_run"
+}
+row_spans 237 53.10888671875
+{
+  "status": "pass",
+  "panoramas": 60,
+  "native_GBA_crops": 237,
+  "pixels_checked": 9040128,
+  "display_different_pixels": 0,
+  "original_RGB555_different_pixels": 782,
+  "scope": "actual GBA cropped native pictures against untouched original XYZ; palette budget approximations separately counted; UI arrows masked out",
+  "production_rom_sha256": "396f7bc2b7546fd062112d6041503adb3b31b0630a763e0259046228a995364a",
+  "fixture_sha256": "87d4a4527be3aa6673a246d03a8d0734e87d5b37eb8d615be41b7a5001060cf1",
+  "image_bank_sha256": "ecf45a42fd2a8add868671ad741d8622972b72a64a0b1f87e24b65235d4ebf72",
+  "physical_hardware": "not_run"
+}
+whole_tiles 237 24.84295654296875

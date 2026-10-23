@@ -1,0 +1,4 @@
+{
+  "scope": "opening pilot only; superseded before release",
+  "not_accepted": "prototype used the hardware forced-blank bit while drawing, which would display white; replaced by actual black shading before formal validation"
+}

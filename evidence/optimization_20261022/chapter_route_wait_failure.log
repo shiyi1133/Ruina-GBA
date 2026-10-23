@@ -1,0 +1,22 @@
+{"name": "01_cave_entered", "debug": [1296125952, 0, 0, 0, 0, 0, 0, 24, 67, 23, 1, 1, 1, 0, 0, 4, 0, 3, 0, 0, 11510, 13, 5, 0], "story_phase": 1, "party": [1], "gold": 0}
+BATTLE 7 1 [[1, 0, 36, 7], [0, 1, 8, 8], [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]]
+{"name": "02_first_encounter_complete", "debug": [1296125952, 0, 0, 0, 0, 0, 0, 7, 610, 23, 3, 7, 1, 1, 0, 4, 0, 4, 0, 0, 11550, 28, 7, 1], "story_phase": 3, "party": [1], "gold": 1}
+{"name": "03_holm_town", "debug": [1296125952, 0, 0, 0, 0, 0, 0, 10, 866, 3, 4, 8, 1, 1, 0, 4, 0, 4, 0, 0, 11550, 32, 7, 1], "story_phase": 4, "party": [1], "gold": 1}
+{"name": "03b_first_home_visit", "debug": [1296125952, 0, 0, 0, 0, 0, 0, 1, 128, 5, 4, 4, 1, 1, 0, 4, 0, 4, 0, 0, 11550, 33, 7, 1], "story_phase": 4, "party": [1], "gold": 1}
+{"name": "03c_father_conversation", "debug": [1296125952, 0, 0, 0, 0, 0, 0, 4, 2322, 5, 5, 4, 1, 1, 0, 4, 0, 4, 0, 0, 11550, 42, 7, 1], "story_phase": 5, "party": [1], "gold": 1}
+{"name": "03d_back_to_town", "debug": [1296125952, 0, 0, 0, 0, 0, 0, 15, 19, 5, 5, 7, 1, 1, 0, 4, 0, 4, 0, 0, 11550, 42, 7, 1], "story_phase": 5, "party": [1], "gold": 1}
+STOPPED RuntimeError(('node not currently available', 1, 7))
+Traceback (most recent call last):
+  File "/mnt/d/gba_hack/废都物语_GBA章节样版/tools/play_chapter.py", line 169, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/mnt/d/gba_hack/废都物语_GBA章节样版/tools/play_chapter.py", line 166, in main
+    else:c.main()
+         ^^^^^^^^
+  File "/mnt/d/gba_hack/废都物语_GBA章节样版/tools/play_chapter.py", line 151, in main
+    self.node(1);self.run_to_map();self.mark('04_tavern')
+    ^^^^^^^^^^^^
+  File "/mnt/d/gba_hack/废都物语_GBA章节样版/tools/play_chapter.py", line 55, in node
+    if d[11]in seen:raise RuntimeError(('node not currently available',eid,d[11]))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: ('node not currently available', 1, 7)

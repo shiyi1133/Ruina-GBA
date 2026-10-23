@@ -1,0 +1,77 @@
+checking lcf_transport
+{"name": "lcf_transport", "status": "pass", "seconds": 19.47999554299895, "returncode": 0, "log": "evidence/optimization_20261022/final_validation/6e70c2dc0b4c/lcf_transport.log"}
+checking borrowed_views
+{"name": "borrowed_views", "status": "pass", "seconds": 1.6066882439990877, "returncode": 0, "log": "evidence/optimization_20261022/final_validation/6e70c2dc0b4c/borrowed_views.log"}
+checking page_conditions
+{"name": "page_conditions", "status": "pass", "seconds": 3.694925855998008, "returncode": 0, "log": "evidence/optimization_20261022/final_validation/6e70c2dc0b4c/page_conditions.log"}
+checking map_rule_parity
+{"name": "map_rule_parity", "status": "pass", "seconds": 6.11631764699996, "returncode": 0, "log": "evidence/optimization_20261022/final_validation/6e70c2dc0b4c/map_rule_parity.log"}
+checking host_mechanisms
+{"name": "host_mechanisms", "status": "pass", "seconds": 3.105031446000794, "returncode": 0, "log": "evidence/optimization_20261022/final_validation/6e70c2dc0b4c/host_mechanisms.log"}
+checking image_codec
+{"name": "image_codec", "status": "pass", "seconds": 0.6266583570031798, "returncode": 0, "log": "evidence/optimization_20261022/final_validation/6e70c2dc0b4c/image_codec.log"}
+checking storage_and_images
+{"name": "storage_and_images", "status": "pass", "seconds": 18.652038256997912, "returncode": 0, "log": "evidence/optimization_20261022/final_validation/6e70c2dc0b4c/storage_and_images.log"}
+checking original_art
+{"name": "original_art", "status": "pass", "seconds": 4.977114320998226, "returncode": 0, "log": "evidence/optimization_20261022/final_validation/6e70c2dc0b4c/original_art.log"}
+checking audio_IRQ_parity
+{"name": "audio_IRQ_parity", "status": "pass", "seconds": 2.7737819950016274, "returncode": 0, "log": "evidence/optimization_20261022/final_validation/6e70c2dc0b4c/audio_IRQ_parity.log"}
+checking common_name_UI
+{"name": "common_name_UI", "status": "pass", "seconds": 7.118296777996875, "returncode": 0, "log": "evidence/optimization_20261022/final_validation/6e70c2dc0b4c/common_name_UI.log"}
+checking opening_four_origins
+{"name": "opening_four_origins", "status": "pass", "seconds": 10.024823817999277, "returncode": 0, "log": "evidence/optimization_20261022/final_validation/6e70c2dc0b4c/opening_four_origins.log"}
+checking natural_gameplay_and_SAV
+{"name": "natural_gameplay_and_SAV", "status": "pass", "seconds": 7.591272064000805, "returncode": 0, "log": "evidence/optimization_20261022/final_validation/6e70c2dc0b4c/natural_gameplay_and_SAV.log"}
+checking source_menu_gameplay
+{"name": "source_menu_gameplay", "status": "pass", "seconds": 17.767930580997927, "returncode": 0, "log": "evidence/optimization_20261022/final_validation/6e70c2dc0b4c/source_menu_gameplay.log"}
+checking status_browsing
+{"name": "status_browsing", "status": "pass", "seconds": 1.823534691000532, "returncode": 0, "log": "evidence/optimization_20261022/final_validation/6e70c2dc0b4c/status_browsing.log"}
+checking chapter_first_CP
+{"name": "chapter_first_CP", "status": "pass", "seconds": 52.88456377900002, "returncode": 0, "log": "evidence/optimization_20261022/final_validation/6e70c2dc0b4c/chapter_first_CP.log"}
+checking checkpoint_cold_load
+{"name": "checkpoint_cold_load", "status": "pass", "seconds": 0.9914004019992717, "returncode": 0, "log": "evidence/optimization_20261022/final_validation/6e70c2dc0b4c/checkpoint_cold_load.log"}
+checking extended_gameplay
+{"name": "extended_gameplay", "status": "pass", "seconds": 62.971274989999074, "returncode": 0, "log": "evidence/optimization_20261022/final_validation/6e70c2dc0b4c/extended_gameplay.log"}
+checking music_room_UI
+{"name": "music_room_UI", "status": "pass", "seconds": 4.029516931001126, "returncode": 0, "log": "evidence/optimization_20261022/final_validation/6e70c2dc0b4c/music_room_UI.log"}
+checking music_room_one_shot_replay
+{"name": "music_room_one_shot_replay", "status": "pass", "seconds": 2.4327526980014227, "returncode": 0, "log": "evidence/optimization_20261022/final_validation/6e70c2dc0b4c/music_room_one_shot_replay.log"}
+checking manual_local_action
+{"name": "manual_local_action", "status": "pass", "seconds": 7.509376742000313, "returncode": 0, "log": "evidence/optimization_20261022/final_validation/6e70c2dc0b4c/manual_local_action.log"}
+checking map_navigation
+{"name": "map_navigation", "status": "pass", "seconds": 2.305899850001879, "returncode": 0, "log": "evidence/optimization_20261022/final_validation/6e70c2dc0b4c/map_navigation.log"}
+checking cursor_continuity
+{"name": "cursor_continuity", "status": "pass", "seconds": 5.364127203996759, "returncode": 0, "log": "evidence/optimization_20261022/final_validation/6e70c2dc0b4c/cursor_continuity.log"}
+checking all_panorama_crops
+{"name": "all_panorama_crops", "status": "pass", "seconds": 16.09183811999901, "returncode": 0, "log": "evidence/optimization_20261022/final_validation/6e70c2dc0b4c/all_panorama_crops.log"}
+checking native_characters
+{"name": "native_characters", "status": "pass", "seconds": 7.050495194001996, "returncode": 0, "log": "evidence/optimization_20261022/final_validation/6e70c2dc0b4c/native_characters.log"}
+checking changing_actor_palettes
+{"name": "changing_actor_palettes", "status": "pass", "seconds": 7.2320887749992835, "returncode": 0, "log": "evidence/optimization_20261022/final_validation/6e70c2dc0b4c/changing_actor_palettes.log"}
+checking retained_VRAM
+{"name": "retained_VRAM", "status": "pass", "seconds": 11.205418855999596, "returncode": 0, "log": "evidence/optimization_20261022/final_validation/6e70c2dc0b4c/retained_VRAM.log"}
+checking scroll_cache
+{"name": "scroll_cache", "status": "pass", "seconds": 8.694614097999875, "returncode": 0, "log": "evidence/optimization_20261022/final_validation/6e70c2dc0b4c/scroll_cache.log"}
+checking dialogue_portraits
+{"name": "dialogue_portraits", "status": "pass", "seconds": 4.023633037002583, "returncode": 0, "log": "evidence/optimization_20261022/final_validation/6e70c2dc0b4c/dialogue_portraits.log"}
+checking dense_actors_HUD_audio
+{"name": "dense_actors_HUD_audio", "status": "pass", "seconds": 16.06236063400138, "returncode": 0, "log": "evidence/optimization_20261022/final_validation/6e70c2dc0b4c/dense_actors_HUD_audio.log"}
+checking portraits_and_audio_stress
+{"name": "portraits_and_audio_stress", "status": "pass", "seconds": 42.340801684000326, "returncode": 0, "log": "evidence/optimization_20261022/final_validation/6e70c2dc0b4c/portraits_and_audio_stress.log"}
+checking all_MIDI_GBA_modes
+{"name": "all_MIDI_GBA_modes", "status": "pass", "seconds": 86.09633624499838, "returncode": 0, "log": "evidence/optimization_20261022/final_validation/6e70c2dc0b4c/all_MIDI_GBA_modes.log"}
+checking original_BGM_pitches
+{"name": "original_BGM_pitches", "status": "pass", "seconds": 21.216241883001203, "returncode": 0, "log": "evidence/optimization_20261022/final_validation/6e70c2dc0b4c/original_BGM_pitches.log"}
+checking black_cut_presentation
+{"name": "black_cut_presentation", "status": "pass", "seconds": 4.364727718999347, "returncode": 0, "log": "evidence/optimization_20261022/final_validation/6e70c2dc0b4c/black_cut_presentation.log"}
+checking uniform_alpha
+{"name": "uniform_alpha", "status": "pass", "seconds": 4.196120045999123, "returncode": 0, "log": "evidence/optimization_20261022/final_validation/6e70c2dc0b4c/uniform_alpha.log"}
+checking stack_observation
+{"name": "stack_observation", "status": "pass", "seconds": 2.861509902999387, "returncode": 0, "log": "evidence/optimization_20261022/final_validation/6e70c2dc0b4c/stack_observation.log"}
+checking performance
+{"name": "performance", "status": "pass", "seconds": 6.152498599996761, "returncode": 0, "log": "evidence/optimization_20261022/final_validation/6e70c2dc0b4c/performance.log"}
+{
+  "status": "pass",
+  "tests": 36,
+  "rom_sha256": "6e70c2dc0b4c10a2c9a3aae4f52201ade7a9c652b0e48faa1aa4268b900626d6"
+}

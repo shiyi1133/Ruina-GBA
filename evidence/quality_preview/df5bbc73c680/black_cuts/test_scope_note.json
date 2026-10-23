@@ -1,0 +1,3 @@
+{
+  "note": "The original test tried to read write-only BLDY, yielding open-bus data. That failed assertion is retained in failure.json. The check uses readable BLDCNT target/mode and actual completed LCD black pixels instead; preview ROM unchanged."
+}

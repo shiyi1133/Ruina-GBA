@@ -1,0 +1,33 @@
+{
+  "status": "pass",
+  "production_ROM_sha256": "6e70c2dc0b4c10a2c9a3aae4f52201ade7a9c652b0e48faa1aa4268b900626d6",
+  "driver_source_sha256": "5270f80236ee34f0af199f10cdcac99f6fb6d13dd98360d887306154820c0b73",
+  "original_SAV_sha256": "3b8e0ae1315a577dbb177bbd15254038f9fde7e141c631edbdf425095bf1780f",
+  "original_SAV_unchanged": true,
+  "emulated_Game_unchanged": true,
+  "cases": [
+    {
+      "case": "open failure",
+      "expected_errno": 2,
+      "reply": "SAVE_ERROR 2 0/32768"
+    },
+    {
+      "case": "write failure",
+      "expected_errno": 28,
+      "reply": "SAVE_ERROR 28 0/32768"
+    },
+    {
+      "case": "Unicode path containing a space",
+      "reply": "SAVE 32768",
+      "bytes": 32768,
+      "input_SAV_bytes_exact": true
+    },
+    {
+      "case": "long Linux extraction path",
+      "path_UTF8_bytes": 283,
+      "reply": "SAVE 32768",
+      "input_SAV_bytes_exact": true
+    }
+  ],
+  "scope": "Host-side acceptance harness file I/O only; not a gameplay or hardware test"
+}

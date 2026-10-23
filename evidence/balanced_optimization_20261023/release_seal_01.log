@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "/mnt/d/gba_hack/废都物语_GBA章节样版/tools/deliver_balanced.py", line 172, in <module>
+    p=argparse.ArgumentParser();p.add_argument('action',choices=['prepare','seal','deliver']);args=p.parse_args();globals()[args.action]()
+                                                                                                                  ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/gba_hack/废都物语_GBA章节样版/tools/deliver_balanced.py", line 96, in seal
+    source_zip=zipped(project,selected);archive=verify(source_zip);assert archive['production_ROM_sha256']==digest
+                                                ^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/gba_hack/废都物语_GBA章节样版/tools/verify_balanced_archive.py", line 34, in verify
+    with(out/(label+'.log')).open('w')as stream:subprocess.run(command,cwd=project,env=smoke_env,stdout=stream,stderr=subprocess.STDOUT,check=True)
+                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/subprocess.py", line 571, in run
+subprocess.CalledProcessError: Command '['/home/app/venvs/pig/bin/python', 'tools/check_incremental_rooms.py']' returned non-zero exit status 1.

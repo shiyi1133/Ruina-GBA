@@ -1,0 +1,47 @@
+{
+  "status": "active, do not deliver before six real wall hours",
+  "at_UTC": "2026-10-21T22:20:55Z",
+  "earliest_delivery_UTC": "2026-10-21T23:12:18Z",
+  "ROM_sha256": "05a321cde73a1c9979b95664e2771892224be566d6dcb0466a8235128abaee93",
+  "ROM_bytes": 33307420,
+  "final_regression": "33/33 pass; frozen compiler inputs and production ROM unchanged",
+  "natural_gameplay": "current knight new game -> recruit Nell/Laban -> first CP -> return to town -> normal SAV cold load pass; four origins first battles, mage original auto battle, natural defeat/new game and corrupted copy rejection pass",
+  "dense_OBJ_stress": "23 actors plus two HUDs plus INT03 and four effects, every hardware frame: 0 unexpected pixels, 0 underruns after priming, 0 VBlank overruns; max52scanlines; 22 overlapping texture slots staged at once",
+  "current_performance_samples": {
+    "cave_walking_logic_Hz": 51.37,
+    "cave_walking_changed_displays_Hz": 6.97,
+    "camera_logic_Hz": 53.36,
+    "camera_changed_displays_Hz": 10.75,
+    "baseline_walking_logic_Hz": 14.53
+  },
+  "minimum_sampled_SYS_stack_margin_bytes": 2204,
+  "whole_GBA_music": {
+    "completed_at_checkpoint": 32,
+    "total": 210,
+    "session": 7877,
+    "python_PID": 256131,
+    "probe_PID": 256226,
+    "log": "evidence/optimization_20261022/complete_music_GBA_run.log",
+    "progress": "evidence/optimization_20261022/music/complete_GBA/05a321cde73a/progress.json"
+  },
+  "source_prepare": {
+    "session": 60514,
+    "log": "evidence/optimization_20261022/package_preparation_run.log",
+    "tool": "python3 tools/deliver_optimization.py prepare",
+    "stage": "build/release_staging_v06_05a321cde73a"
+  },
+  "remaining": [
+    "finish whole_GBA music run on this exact SHA",
+    "finish matching clean source preparation (archive/font/site packages disabled), byte-identical ROM",
+    "update current_feature_status after whole music pass",
+    "seal via tools/deliver_optimization.py seal; automatically extract actual source ZIP and clean rebuild again",
+    "verify final DE​MO/source ZIP, compare screenshots and actual music-room recordings",
+    "deliver via tool after 23:12:18 UTC and mark goal complete"
+  ],
+  "limits": [
+    "full natural game/endings not run by developer; user acceptance",
+    "physical GBA hardware not run",
+    "PC visual/performance parity not claimed",
+    "not full EasyRPG port"
+  ]
+}

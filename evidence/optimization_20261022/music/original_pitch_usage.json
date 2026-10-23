@@ -1,0 +1,1447 @@
+{
+  "music_commands_and_defaults": 619,
+  "source_pitch_counts": {
+    "100": 531,
+    "110": 24,
+    "120": 17,
+    "130": 5,
+    "150": 5,
+    "140": 2,
+    "80": 14,
+    "70": 3,
+    "50": 14,
+    "90": 4
+  },
+  "distinct_name_pitch_pairs": 135,
+  "cases": [
+    {
+      "name": "1stEnemy",
+      "pitch": 100,
+      "source_uses": [
+        "Map0044.lmu/event10/page1/system_music/command0",
+        "Map0044.lmu/event10/page1/system_music/command1",
+        "Map0044.lmu/event10/page2/system_music/command0",
+        "Map0044.lmu/event10/page2/system_music/command1",
+        "common13/command686"
+      ]
+    },
+    {
+      "name": "2bfree",
+      "pitch": 100,
+      "source_uses": [
+        "Map0045.lmu/event2/page1/system_music/command6",
+        "Map0045.lmu/event2/page1/system_music/command7",
+        "Map0045.lmu/event3/page4/system_music/command35",
+        "Map0045.lmu/event3/page4/system_music/command94",
+        "common13/command698"
+      ]
+    },
+    {
+      "name": "DS-ba02",
+      "pitch": 100,
+      "source_uses": [
+        "Map0029.lmu/event25/page1/command28",
+        "Map0029.lmu/event25/page1/system_music/command29",
+        "Map0029.lmu/event25/page1/system_music/command30",
+        "Map0029.lmu/event25/page1/system_music/command74",
+        "Map0029.lmu/event34/page1/command16",
+        "Map0029.lmu/event34/page1/system_music/command17",
+        "Map0029.lmu/event34/page1/system_music/command18",
+        "Map0030.lmu/event12/page1/system_music/command207",
+        "Map0031.lmu/event49/page2/system_music/command59",
+        "Map0044.lmu/event12/page3/system_music/command90",
+        "Map0044.lmu/event12/page3/system_music/command91",
+        "Map0044.lmu/event13/page3/system_music/command37",
+        "Map0048.lmu/event6/page1/system_music/command108",
+        "Map0048.lmu/event9/page1/system_music/command121",
+        "common174/system_music/command193",
+        "common174/system_music/command234",
+        "common174/system_music/command266",
+        "common174/system_music/command302",
+        "common174/system_music/command335",
+        "common174/system_music/command371",
+        "common174/system_music/command416",
+        "common174/system_music/command460",
+        "common174/system_music/command495"
+      ]
+    },
+    {
+      "name": "DS-ba03",
+      "pitch": 100,
+      "source_uses": [
+        "Map0025.lmu/event23/page1/system_music/command22",
+        "Map0028.lmu/event23/page1/system_music/command29",
+        "Map0030.lmu/event15/page1/system_music/command18",
+        "Map0032.lmu/event22/page1/system_music/command15",
+        "Map0034.lmu/event20/page1/system_music/command21"
+      ]
+    },
+    {
+      "name": "DS-ba05",
+      "pitch": 100,
+      "source_uses": [
+        "Map0034.lmu/event18/page1/system_music/command104"
+      ]
+    },
+    {
+      "name": "FTALE_TY",
+      "pitch": 100,
+      "source_uses": [
+        "Map0011.lmu/event5/page6/command525",
+        "common13/command723"
+      ]
+    },
+    {
+      "name": "INT03",
+      "pitch": 100,
+      "source_uses": [
+        "Map0045.lmu/event2/page1/system_music/command1",
+        "Map0045.lmu/event2/page1/system_music/command2",
+        "common13/command694"
+      ]
+    },
+    {
+      "name": "Jアイテム",
+      "pitch": 100,
+      "source_uses": [
+        "system_music2"
+      ]
+    },
+    {
+      "name": "Jファンファーレ1",
+      "pitch": 100,
+      "source_uses": [
+        "Map0003.lmu/event9/page3/command175",
+        "Map0005.lmu/event23/page4/command130",
+        "Map0022.lmu/event2/page1/command46",
+        "Map0022.lmu/event6/page1/command170",
+        "Map0029.lmu/event28/page2/command241",
+        "Map0029.lmu/event39/page2/command240",
+        "common177/command76"
+      ]
+    },
+    {
+      "name": "Jファンファーレ2",
+      "pitch": 100,
+      "source_uses": [
+        "Map0004.lmu/event60/page2/command60",
+        "Map0005.lmu/event37/page2/command59",
+        "Map0007.lmu/event19/page2/command61",
+        "Map0008.lmu/event30/page2/command62",
+        "Map0022.lmu/event2/page2/command30",
+        "Map0022.lmu/event5/page2/command61",
+        "Map0022.lmu/event5/page3/command63",
+        "Map0022.lmu/event5/page4/command63"
+      ]
+    },
+    {
+      "name": "Jファンファーレ3",
+      "pitch": 100,
+      "source_uses": [
+        "Map0004.lmu/event43/page6/command88",
+        "Map0009.lmu/event10/page12/command33"
+      ]
+    },
+    {
+      "name": "Jファンファーレ6",
+      "pitch": 100,
+      "source_uses": [
+        "common174/command519"
+      ]
+    },
+    {
+      "name": "J宿2",
+      "pitch": 100,
+      "source_uses": [
+        "Map0004.lmu/event2/page5/command1",
+        "common20/command61",
+        "common87/command85",
+        "common87/command189",
+        "common87/command218",
+        "common87/command292",
+        "common87/command325",
+        "common87/command429",
+        "common87/command668",
+        "common87/command749",
+        "common87/command838",
+        "common87/command977"
+      ]
+    },
+    {
+      "name": "J戦闘終了1",
+      "pitch": 100,
+      "source_uses": [
+        "Map0017.lmu/event173/page1/command166",
+        "Map0031.lmu/event42/page1/command142",
+        "Map0031.lmu/event42/page1/command153",
+        "common36/system_music/command1",
+        "system_music1"
+      ]
+    },
+    {
+      "name": "K010風",
+      "pitch": 50,
+      "source_uses": [
+        "Map0034.lmu/event17/page5/command184",
+        "Map0034.lmu/event17/page5/command229",
+        "Map0034.lmu/event17/page5/command274",
+        "Map0046.lmu/event11/page1/command11",
+        "common13/command583",
+        "common13/command586",
+        "common13/command660",
+        "common87/command394"
+      ]
+    },
+    {
+      "name": "K010風",
+      "pitch": 70,
+      "source_uses": [
+        "Map0034.lmu/event17/page5/command19"
+      ]
+    },
+    {
+      "name": "K010風",
+      "pitch": 80,
+      "source_uses": [
+        "Map0034.lmu/event17/page5/command21"
+      ]
+    },
+    {
+      "name": "K013心臓音",
+      "pitch": 90,
+      "source_uses": [
+        "common13/command608"
+      ]
+    },
+    {
+      "name": "K013心臓音",
+      "pitch": 100,
+      "source_uses": [
+        "Map0025.lmu/event16/page2/command71",
+        "Map0026.lmu/event58/page1/command14",
+        "common87/command341",
+        "common87/command347",
+        "common87/command352",
+        "common87/command445",
+        "common87/command456",
+        "common87/command554",
+        "common87/command561",
+        "common177/command138"
+      ]
+    },
+    {
+      "name": "K013心臓音",
+      "pitch": 110,
+      "source_uses": [
+        "common87/command357"
+      ]
+    },
+    {
+      "name": "K013心臓音",
+      "pitch": 120,
+      "source_uses": [
+        "Map0026.lmu/event58/page1/command25",
+        "common87/command362"
+      ]
+    },
+    {
+      "name": "K013心臓音",
+      "pitch": 130,
+      "source_uses": [
+        "common87/command366"
+      ]
+    },
+    {
+      "name": "K013心臓音",
+      "pitch": 140,
+      "source_uses": [
+        "Map0026.lmu/event58/page1/command36"
+      ]
+    },
+    {
+      "name": "LordofPit",
+      "pitch": 100,
+      "source_uses": [
+        "Map0029.lmu/event31/page1/command13",
+        "Map0029.lmu/event31/page1/system_music/command44",
+        "Map0029.lmu/event31/page3/command50",
+        "Map0029.lmu/event35/page1/command40"
+      ]
+    },
+    {
+      "name": "SE地震",
+      "pitch": 110,
+      "source_uses": [
+        "Map0039.lmu/event1/page1/command492",
+        "common13/command649"
+      ]
+    },
+    {
+      "name": "SE大雨",
+      "pitch": 100,
+      "source_uses": [
+        "Map0029.lmu/event33/page1/command19"
+      ]
+    },
+    {
+      "name": "SE海",
+      "pitch": 50,
+      "source_uses": [
+        "Map0039.lmu/event1/page1/command324"
+      ]
+    },
+    {
+      "name": "SE雨",
+      "pitch": 100,
+      "source_uses": [
+        "Map0029.lmu/event33/page1/command11"
+      ]
+    },
+    {
+      "name": "SLG_Engi",
+      "pitch": 100,
+      "source_uses": [
+        "Map0031.lmu/event1/page2/system_music/command0",
+        "Map0031.lmu/event1/page2/system_music/command1",
+        "common13/command567",
+        "common13/command574"
+      ]
+    },
+    {
+      "name": "TRACK_3",
+      "pitch": 100,
+      "source_uses": [
+        "common13/command677"
+      ]
+    },
+    {
+      "name": "TRACK_8",
+      "pitch": 100,
+      "source_uses": [
+        "Map0026.lmu/event7/page1/command8",
+        "Map0026.lmu/event7/page2/command8"
+      ]
+    },
+    {
+      "name": "TRACK_8",
+      "pitch": 130,
+      "source_uses": [
+        "Map0026.lmu/event7/page2/system_music/command25",
+        "Map0026.lmu/event7/page2/command156"
+      ]
+    },
+    {
+      "name": "Tale",
+      "pitch": 50,
+      "source_uses": [
+        "Map0046.lmu/event14/page1/command156",
+        "Map0046.lmu/event14/page1/command244",
+        "Map0046.lmu/event14/page2/command160",
+        "Map0046.lmu/event14/page2/command267"
+      ]
+    },
+    {
+      "name": "Tale",
+      "pitch": 70,
+      "source_uses": [
+        "common87/command477",
+        "common87/command577"
+      ]
+    },
+    {
+      "name": "Tale",
+      "pitch": 80,
+      "source_uses": [
+        "Map0029.lmu/event30/page1/command32",
+        "common13/command548"
+      ]
+    },
+    {
+      "name": "Tale",
+      "pitch": 100,
+      "source_uses": [
+        "common13/command69",
+        "common13/command137",
+        "common13/command180",
+        "common13/command229",
+        "common13/command284",
+        "common13/command327",
+        "common13/command382",
+        "common13/command431",
+        "common13/command456"
+      ]
+    },
+    {
+      "name": "battle05a",
+      "pitch": 100,
+      "source_uses": [
+        "Map0044.lmu/event11/page4/system_music/command116",
+        "Map0045.lmu/event26/page5/system_music/command32",
+        "Map0045.lmu/event30/page1/system_music/command32"
+      ]
+    },
+    {
+      "name": "battle10",
+      "pitch": 100,
+      "source_uses": [
+        "common36/system_music/command3",
+        "common84/command227"
+      ]
+    },
+    {
+      "name": "boss05",
+      "pitch": 100,
+      "source_uses": [
+        "Map0006.lmu/event2/page6/system_music/command176",
+        "Map0010.lmu/event4/page1/system_music/command54",
+        "Map0023.lmu/event5/page2/system_music/command36",
+        "Map0024.lmu/event21/page2/system_music/command49",
+        "Map0024.lmu/event23/page1/system_music/command26",
+        "Map0025.lmu/event16/page2/system_music/command95",
+        "Map0026.lmu/event48/page1/system_music/command8",
+        "Map0026.lmu/event49/page1/system_music/command41",
+        "Map0027.lmu/event1/page3/system_music/command131",
+        "Map0027.lmu/event37/page1/system_music/command39",
+        "Map0028.lmu/event14/page1/system_music/command109",
+        "Map0029.lmu/event28/page2/system_music/command222",
+        "Map0029.lmu/event39/page2/system_music/command221",
+        "Map0030.lmu/event10/page1/system_music/command6",
+        "Map0031.lmu/event25/page2/system_music/command90",
+        "Map0031.lmu/event25/page3/system_music/command113",
+        "Map0031.lmu/event42/page1/command40",
+        "Map0032.lmu/event19/page1/system_music/command42",
+        "Map0032.lmu/event19/page1/system_music/command43",
+        "Map0032.lmu/event19/page1/command44",
+        "Map0032.lmu/event19/page1/system_music/command66",
+        "Map0032.lmu/event20/page1/system_music/command88",
+        "Map0035.lmu/event11/page1/system_music/command31",
+        "Map0035.lmu/event21/page1/system_music/command18",
+        "Map0042.lmu/event15/page1/system_music/command48",
+        "Map0042.lmu/event18/page2/system_music/command51",
+        "Map0042.lmu/event18/page4/system_music/command262",
+        "Map0044.lmu/event12/page3/system_music/command37",
+        "common10/system_music/command28",
+        "common10/system_music/command657",
+        "common98/system_music/command466",
+        "common170/system_music/command306",
+        "common171/system_music/command203",
+        "common171/system_music/command637",
+        "common174/system_music/command76"
+      ]
+    },
+    {
+      "name": "boss10",
+      "pitch": 100,
+      "source_uses": [
+        "Map0031.lmu/event36/page2/system_music/command44",
+        "Map0044.lmu/event11/page4/system_music/command106"
+      ]
+    },
+    {
+      "name": "boss12",
+      "pitch": 100,
+      "source_uses": [
+        "common36/system_music/command6",
+        "common84/command230",
+        "system_music0"
+      ]
+    },
+    {
+      "name": "climax",
+      "pitch": 100,
+      "source_uses": [
+        "Map0038.lmu/event2/page1/system_music/command0",
+        "Map0038.lmu/event2/page1/system_music/command1",
+        "Map0038.lmu/event2/page2/system_music/command0",
+        "Map0038.lmu/event2/page2/system_music/command1",
+        "Map0038.lmu/event10/page1/system_music/command35",
+        "Map0038.lmu/event10/page1/system_music/command36",
+        "common10/system_music/command1153",
+        "common10/system_music/command1154",
+        "common13/command657"
+      ]
+    },
+    {
+      "name": "explorer",
+      "pitch": 100,
+      "source_uses": [
+        "common13/command533",
+        "common13/command560"
+      ]
+    },
+    {
+      "name": "f03-In thunder",
+      "pitch": 110,
+      "source_uses": [
+        "common36/system_music/command14",
+        "common84/command238"
+      ]
+    },
+    {
+      "name": "f05-Forest of the hesitation",
+      "pitch": 100,
+      "source_uses": [
+        "common13/command22"
+      ]
+    },
+    {
+      "name": "f06-Open-Air fire",
+      "pitch": 100,
+      "source_uses": [
+        "common87/command865",
+        "common140/command455"
+      ]
+    },
+    {
+      "name": "f07-Incantation which was forgotten",
+      "pitch": 100,
+      "source_uses": [
+        "common13/command26"
+      ]
+    },
+    {
+      "name": "f08-Long sword",
+      "pitch": 100,
+      "source_uses": [
+        "common36/system_music/command28",
+        "common84/command252"
+      ]
+    },
+    {
+      "name": "f10-The village of the elf",
+      "pitch": 90,
+      "source_uses": [
+        "common87/command712",
+        "common102/command30",
+        "common102/command129"
+      ]
+    },
+    {
+      "name": "f10-The village of the elf",
+      "pitch": 100,
+      "source_uses": [
+        "common13/command30"
+      ]
+    },
+    {
+      "name": "f20-Blade sounds",
+      "pitch": 100,
+      "source_uses": [
+        "Map0027.lmu/event38/page1/system_music/command7",
+        "common36/system_music/command17",
+        "common84/command241"
+      ]
+    },
+    {
+      "name": "f25-Sky high",
+      "pitch": 100,
+      "source_uses": [
+        "Map0046.lmu/event14/page1/system_music/command54",
+        "Map0046.lmu/event14/page2/system_music/command57",
+        "troop258/page3/command24"
+      ]
+    },
+    {
+      "name": "field1",
+      "pitch": 100,
+      "source_uses": [
+        "common13/command81",
+        "common13/command188",
+        "common13/command241",
+        "common13/command288",
+        "common13/command339",
+        "common13/command390",
+        "common13/command468"
+      ]
+    },
+    {
+      "name": "field4",
+      "pitch": 100,
+      "source_uses": [
+        "common13/command73",
+        "common13/command184",
+        "common13/command233",
+        "common13/command331",
+        "common13/command386",
+        "common13/command435",
+        "common13/command460",
+        "common13/command674"
+      ]
+    },
+    {
+      "name": "field5",
+      "pitch": 110,
+      "source_uses": [
+        "troop180/page8/command84",
+        "troop180/page8/command90"
+      ]
+    },
+    {
+      "name": "forgotten-ruin",
+      "pitch": 100,
+      "source_uses": [
+        "common13/command540"
+      ]
+    },
+    {
+      "name": "groove01",
+      "pitch": 100,
+      "source_uses": [
+        "Map0039.lmu/event1/page1/command20",
+        "Map0039.lmu/event1/page1/command61"
+      ]
+    },
+    {
+      "name": "groove01",
+      "pitch": 110,
+      "source_uses": [
+        "Map0039.lmu/event1/page1/system_music/command147"
+      ]
+    },
+    {
+      "name": "groove01",
+      "pitch": 120,
+      "source_uses": [
+        "troop180/page7/command8"
+      ]
+    },
+    {
+      "name": "groove01",
+      "pitch": 130,
+      "source_uses": [
+        "troop180/page5/command7"
+      ]
+    },
+    {
+      "name": "groove01",
+      "pitch": 140,
+      "source_uses": [
+        "troop180/page4/command7"
+      ]
+    },
+    {
+      "name": "groove01",
+      "pitch": 150,
+      "source_uses": [
+        "troop180/page3/command4"
+      ]
+    },
+    {
+      "name": "groove03",
+      "pitch": 50,
+      "source_uses": [
+        "common13/command712"
+      ]
+    },
+    {
+      "name": "groove03",
+      "pitch": 80,
+      "source_uses": [
+        "Map0046.lmu/event14/page1/command82",
+        "Map0046.lmu/event14/page2/command86"
+      ]
+    },
+    {
+      "name": "groove03",
+      "pitch": 100,
+      "source_uses": [
+        "Map0046.lmu/event14/page1/command86",
+        "Map0046.lmu/event14/page2/command90"
+      ]
+    },
+    {
+      "name": "groove03",
+      "pitch": 110,
+      "source_uses": [
+        "Map0046.lmu/event14/page1/command98",
+        "Map0046.lmu/event14/page2/command102"
+      ]
+    },
+    {
+      "name": "groove03",
+      "pitch": 120,
+      "source_uses": [
+        "Map0046.lmu/event14/page1/command114",
+        "Map0046.lmu/event14/page2/command118"
+      ]
+    },
+    {
+      "name": "main1",
+      "pitch": 100,
+      "source_uses": [
+        "Map0041.lmu/event1/page1/command12"
+      ]
+    },
+    {
+      "name": "main3",
+      "pitch": 100,
+      "source_uses": [
+        "Map0029.lmu/event28/page1/command25",
+        "Map0029.lmu/event28/page2/command46",
+        "Map0029.lmu/event39/page1/command24",
+        "Map0029.lmu/event39/page2/command44",
+        "Map0032.lmu/event20/page1/command323",
+        "Map0033.lmu/event5/page3/command20",
+        "Map0033.lmu/event5/page4/command20",
+        "Map0043.lmu/event5/page3/command20",
+        "Map0043.lmu/event5/page4/command20",
+        "Map0048.lmu/event2/page3/command203"
+      ]
+    },
+    {
+      "name": "mpanic",
+      "pitch": 100,
+      "source_uses": [
+        "Map0003.lmu/event18/page1/command108",
+        "Map0003.lmu/event18/page1/system_music/command110",
+        "Map0003.lmu/event18/page1/system_music/command111",
+        "Map0003.lmu/event26/page2/command301",
+        "Map0003.lmu/event26/page2/system_music/command392",
+        "Map0003.lmu/event26/page2/system_music/command393",
+        "Map0003.lmu/event26/page2/system_music/command443",
+        "Map0003.lmu/event26/page2/system_music/command444",
+        "Map0006.lmu/event2/page5/command629",
+        "Map0006.lmu/event2/page6/command175",
+        "Map0006.lmu/event2/page6/command254",
+        "Map0007.lmu/event1/page8/command62",
+        "Map0011.lmu/event5/page6/command454",
+        "Map0011.lmu/event5/page6/command457",
+        "Map0011.lmu/event5/page6/system_music/command465",
+        "Map0011.lmu/event5/page6/system_music/command466",
+        "Map0046.lmu/event9/page1/system_music/command37",
+        "Map0049.lmu/event10/page1/system_music/command77",
+        "Map0049.lmu/event10/page1/system_music/command78",
+        "Map0049.lmu/event10/page1/system_music/command79",
+        "Map0049.lmu/event10/page1/system_music/command125",
+        "Map0049.lmu/event10/page1/system_music/command126",
+        "Map0049.lmu/event10/page1/system_music/command127",
+        "Map0049.lmu/event10/page2/system_music/command81",
+        "Map0049.lmu/event10/page2/system_music/command82"
+      ]
+    },
+    {
+      "name": "overture",
+      "pitch": 100,
+      "source_uses": [
+        "Map0040.lmu/event1/page2/command15"
+      ]
+    },
+    {
+      "name": "ruins1",
+      "pitch": 100,
+      "source_uses": [
+        "common13/command6",
+        "common13/command595"
+      ]
+    },
+    {
+      "name": "sanct",
+      "pitch": 100,
+      "source_uses": [
+        "common13/command2"
+      ]
+    },
+    {
+      "name": "scene10",
+      "pitch": 100,
+      "source_uses": [
+        "Map0006.lmu/event2/page4/command100",
+        "Map0033.lmu/event3/page1/command0",
+        "Map0043.lmu/event3/page1/command0"
+      ]
+    },
+    {
+      "name": "scene19",
+      "pitch": 100,
+      "source_uses": [
+        "Map0002.lmu/event1/page1/command21",
+        "Map0003.lmu/event9/page1/command11",
+        "Map0028.lmu/event11/page1/command15",
+        "Map0036.lmu/event34/page1/command88",
+        "Map0047.lmu/event5/page10/command2"
+      ]
+    },
+    {
+      "name": "shrine2",
+      "pitch": 100,
+      "source_uses": [
+        "common13/command18"
+      ]
+    },
+    {
+      "name": "syugekir",
+      "pitch": 100,
+      "source_uses": [
+        "Map0005.lmu/event2/page1/command28",
+        "Map0006.lmu/event2/page1/command74",
+        "Map0008.lmu/event2/page2/command29",
+        "Map0010.lmu/event3/page2/command8",
+        "Map0010.lmu/event3/page2/command13",
+        "common13/command97",
+        "common13/command153",
+        "common13/command200",
+        "common13/command253",
+        "common13/command300",
+        "common13/command351",
+        "common13/command402",
+        "common13/command480"
+      ]
+    },
+    {
+      "name": "teikoku",
+      "pitch": 100,
+      "source_uses": [
+        "Map0005.lmu/event2/page5/command57",
+        "Map0005.lmu/event2/page5/system_music/command108",
+        "Map0005.lmu/event2/page5/system_music/command109",
+        "Map0005.lmu/event2/page5/system_music/command193",
+        "Map0005.lmu/event2/page5/system_music/command194",
+        "Map0048.lmu/event6/page1/system_music/command0",
+        "Map0048.lmu/event6/page1/system_music/command1",
+        "Map0048.lmu/event7/page1/system_music/command0",
+        "Map0048.lmu/event7/page1/system_music/command1",
+        "Map0048.lmu/event8/page1/system_music/command0",
+        "Map0048.lmu/event8/page1/system_music/command1",
+        "Map0048.lmu/event9/page1/system_music/command0",
+        "Map0048.lmu/event9/page1/system_music/command1",
+        "Map0048.lmu/event10/page1/system_music/command0",
+        "Map0048.lmu/event10/page1/system_music/command1",
+        "Map0048.lmu/event11/page1/system_music/command0",
+        "Map0048.lmu/event11/page1/system_music/command1",
+        "Map0048.lmu/event12/page1/system_music/command0",
+        "Map0048.lmu/event12/page1/system_music/command1",
+        "Map0048.lmu/event13/page1/system_music/command0",
+        "Map0048.lmu/event13/page1/system_music/command1",
+        "Map0048.lmu/event14/page1/system_music/command0",
+        "Map0048.lmu/event14/page1/system_music/command1",
+        "Map0048.lmu/event15/page1/system_music/command0",
+        "Map0048.lmu/event15/page1/system_music/command1",
+        "Map0049.lmu/event3/page1/command6",
+        "Map0049.lmu/event3/page1/command58",
+        "common13/command77",
+        "common13/command85",
+        "common13/command125",
+        "common13/command145",
+        "common13/command237",
+        "common13/command335",
+        "common13/command464",
+        "common87/command161"
+      ]
+    },
+    {
+      "name": "town08",
+      "pitch": 100,
+      "source_uses": [
+        "common13/command89",
+        "common13/command192",
+        "common13/command292",
+        "common13/command343",
+        "common13/command394",
+        "common13/command472"
+      ]
+    },
+    {
+      "name": "yomei18_gm",
+      "pitch": 100,
+      "source_uses": [
+        "Map0026.lmu/event28/page1/command23",
+        "common177/command141"
+      ]
+    },
+    {
+      "name": "エンディング2",
+      "pitch": 100,
+      "source_uses": [
+        "Map0028.lmu/event7/page1/command71",
+        "common13/command551"
+      ]
+    },
+    {
+      "name": "ゲームオーバー3",
+      "pitch": 100,
+      "source_uses": [
+        "Map0010.lmu/event4/page1/command60",
+        "Map0023.lmu/event1/page4/command17",
+        "Map0023.lmu/event10/page1/command70",
+        "Map0025.lmu/event12/page1/command87",
+        "Map0025.lmu/event16/page2/command124",
+        "Map0026.lmu/event5/page1/command170",
+        "Map0026.lmu/event22/page1/command87",
+        "Map0026.lmu/event61/page1/command51",
+        "Map0026.lmu/event70/page2/command18",
+        "Map0029.lmu/event2/page1/command14",
+        "Map0029.lmu/event2/page2/command6",
+        "Map0031.lmu/event1/page6/command6",
+        "Map0032.lmu/event20/page1/command182",
+        "Map0033.lmu/event110/page1/command46",
+        "Map0034.lmu/event18/page1/command125",
+        "Map0039.lmu/event1/page1/command170",
+        "Map0043.lmu/event10/page1/command47",
+        "common10/command119",
+        "common36/system_music/command37",
+        "system_music6"
+      ]
+    },
+    {
+      "name": "ゴーストタウン1",
+      "pitch": 100,
+      "source_uses": [
+        "common13/command10"
+      ]
+    },
+    {
+      "name": "ダンジョン1",
+      "pitch": 100,
+      "source_uses": [
+        "common13/command14"
+      ]
+    },
+    {
+      "name": "ダンジョン4",
+      "pitch": 100,
+      "source_uses": [
+        "Map0002.lmu/event1/page1/command331",
+        "Map0017.lmu/event175/page1/command185",
+        "Map0017.lmu/event175/page1/command410",
+        "common13/command57",
+        "common13/command510",
+        "common13/command519"
+      ]
+    },
+    {
+      "name": "ダンジョン5",
+      "pitch": 100,
+      "source_uses": [
+        "common13/command526"
+      ]
+    },
+    {
+      "name": "ピンチ",
+      "pitch": 100,
+      "source_uses": [
+        "Map0026.lmu/event5/page1/command113",
+        "Map0026.lmu/event5/page1/command123",
+        "Map0026.lmu/event5/page1/command141",
+        "Map0026.lmu/event20/page2/command50",
+        "Map0026.lmu/event20/page2/system_music/command57",
+        "Map0026.lmu/event58/page1/command50",
+        "Map0026.lmu/event59/page1/command55",
+        "Map0026.lmu/event59/page1/system_music/command59",
+        "Map0026.lmu/event70/page2/system_music/command9",
+        "Map0027.lmu/event35/page1/command59",
+        "Map0027.lmu/event35/page1/command65",
+        "Map0033.lmu/event15/page1/command18",
+        "Map0033.lmu/event27/page1/command5",
+        "Map0033.lmu/event27/page1/system_music/command19",
+        "Map0033.lmu/event27/page1/system_music/command20",
+        "common10/command64",
+        "common10/command83",
+        "common13/command507"
+      ]
+    },
+    {
+      "name": "ボス2",
+      "pitch": 100,
+      "source_uses": [
+        "troop151/page5/command16",
+        "troop172/page5/command13",
+        "troop173/page6/command13",
+        "troop174/page5/command13",
+        "troop175/page6/command13",
+        "troop176/page5/command13",
+        "troop177/page7/command13"
+      ]
+    },
+    {
+      "name": "ボス4",
+      "pitch": 100,
+      "source_uses": [
+        "Map0026.lmu/event22/page1/system_music/command68",
+        "Map0037.lmu/event27/page2/system_music/command13",
+        "Map0037.lmu/event29/page2/system_music/command12",
+        "Map0037.lmu/event32/page2/system_music/command12",
+        "Map0037.lmu/event33/page2/system_music/command13",
+        "Map0037.lmu/event34/page2/system_music/command12",
+        "Map0037.lmu/event35/page2/system_music/command12",
+        "Map0037.lmu/event36/page2/system_music/command12",
+        "Map0037.lmu/event38/page2/system_music/command12",
+        "Map0037.lmu/event39/page2/system_music/command12",
+        "Map0037.lmu/event40/page2/system_music/command12",
+        "Map0037.lmu/event41/page2/system_music/command12",
+        "Map0037.lmu/event42/page2/system_music/command13",
+        "Map0037.lmu/event43/page2/system_music/command12"
+      ]
+    },
+    {
+      "name": "乗り物1",
+      "pitch": 100,
+      "source_uses": [
+        "Map0046.lmu/event10/page1/command109",
+        "system_music5"
+      ]
+    },
+    {
+      "name": "乗り物2",
+      "pitch": 100,
+      "source_uses": [
+        "Map0035.lmu/event17/page3/command74",
+        "Map0035.lmu/event17/page4/command11"
+      ]
+    },
+    {
+      "name": "別れ2",
+      "pitch": 100,
+      "source_uses": [
+        "Map0037.lmu/event26/page1/command332",
+        "Map0037.lmu/event26/page2/command376"
+      ]
+    },
+    {
+      "name": "別れ2",
+      "pitch": 110,
+      "source_uses": [
+        "Map0011.lmu/event5/page6/command431",
+        "Map0045.lmu/event3/page3/command5",
+        "Map0046.lmu/event10/page1/command165"
+      ]
+    },
+    {
+      "name": "別れ2",
+      "pitch": 120,
+      "source_uses": [
+        "Map0010.lmu/event4/page1/command156",
+        "Map0026.lmu/event7/page2/command135",
+        "Map0026.lmu/event63/page1/command16",
+        "Map0026.lmu/event63/page2/command17",
+        "Map0026.lmu/event63/page3/command17",
+        "Map0026.lmu/event63/page4/command27",
+        "Map0030.lmu/event12/page1/command125",
+        "Map0044.lmu/event12/page1/command0",
+        "common87/command35"
+      ]
+    },
+    {
+      "name": "勇者2",
+      "pitch": 100,
+      "source_uses": [
+        "Map0017.lmu/event173/page1/command19",
+        "Map0024.lmu/event21/page2/command2",
+        "Map0026.lmu/event7/page2/command118",
+        "Map0031.lmu/event42/page1/command240",
+        "Map0031.lmu/event42/page1/command274",
+        "Map0031.lmu/event42/page2/command2",
+        "Map0031.lmu/event42/page2/command52",
+        "Map0031.lmu/event42/page4/command6",
+        "Map0031.lmu/event42/page4/command52"
+      ]
+    },
+    {
+      "name": "城2",
+      "pitch": 100,
+      "source_uses": [
+        "Map0005.lmu/event2/page4/command73"
+      ]
+    },
+    {
+      "name": "妖精1",
+      "pitch": 100,
+      "source_uses": [
+        "Map0001.lmu/event1/page1/command38",
+        "Map0017.lmu/event17/page1/command26",
+        "map_tree21"
+      ]
+    },
+    {
+      "name": "妖精2",
+      "pitch": 100,
+      "source_uses": [
+        "Map0040.lmu/event1/page1/command18"
+      ]
+    },
+    {
+      "name": "安らぎ3",
+      "pitch": 100,
+      "source_uses": [
+        "Map0004.lmu/event2/page4/command111",
+        "Map0007.lmu/event1/page7/command11",
+        "Map0026.lmu/event7/page2/command93",
+        "Map0036.lmu/event22/page1/command18",
+        "common13/command245",
+        "common13/command249",
+        "common13/command438",
+        "common87/command774"
+      ]
+    },
+    {
+      "name": "店1",
+      "pitch": 100,
+      "source_uses": [
+        "Map0010.lmu/event4/page1/command70",
+        "Map0017.lmu/event175/page1/command17",
+        "Map0023.lmu/event1/page4/command26",
+        "Map0023.lmu/event10/page1/command79",
+        "Map0025.lmu/event12/page1/command96",
+        "Map0025.lmu/event16/page2/command134",
+        "Map0026.lmu/event22/page1/command95",
+        "Map0029.lmu/event2/page1/command23",
+        "Map0029.lmu/event2/page2/command15",
+        "Map0031.lmu/event1/page6/command15",
+        "Map0032.lmu/event20/page1/command191",
+        "Map0033.lmu/event110/page1/command54",
+        "Map0034.lmu/event18/page1/command135",
+        "Map0043.lmu/event10/page1/command55",
+        "Map0047.lmu/event15/page1/command17",
+        "common110/command24",
+        "common111/command24",
+        "common112/command24",
+        "map_tree13"
+      ]
+    },
+    {
+      "name": "店2",
+      "pitch": 100,
+      "source_uses": [
+        "common13/command156"
+      ]
+    },
+    {
+      "name": "店3",
+      "pitch": 100,
+      "source_uses": [
+        "Map0027.lmu/event1/page3/command4"
+      ]
+    },
+    {
+      "name": "店3",
+      "pitch": 120,
+      "source_uses": [
+        "Map0026.lmu/event54/page1/command25",
+        "Map0026.lmu/event54/page1/system_music/command58",
+        "Map0026.lmu/event54/page1/system_music/command59"
+      ]
+    },
+    {
+      "name": "戦闘1",
+      "pitch": 100,
+      "source_uses": [
+        "Map0017.lmu/event175/page1/command441",
+        "Map0017.lmu/event175/page1/command583"
+      ]
+    },
+    {
+      "name": "戦闘2",
+      "pitch": 100,
+      "source_uses": [
+        "Map0017.lmu/event175/page1/command313"
+      ]
+    },
+    {
+      "name": "探索",
+      "pitch": 100,
+      "source_uses": [
+        "Map0003.lmu/event8/page9/command61",
+        "Map0003.lmu/event8/page12/command13",
+        "Map0003.lmu/event18/page1/command61",
+        "Map0003.lmu/event26/page2/command14",
+        "Map0004.lmu/event2/page3/command10",
+        "Map0006.lmu/event2/page5/command12",
+        "Map0006.lmu/event2/page6/command20",
+        "Map0033.lmu/event5/page3/command208",
+        "Map0033.lmu/event5/page4/command35",
+        "Map0033.lmu/event21/page1/command27",
+        "Map0033.lmu/event92/page1/command7",
+        "Map0043.lmu/event5/page3/command208",
+        "Map0043.lmu/event5/page4/command35",
+        "Map0045.lmu/event2/page1/system_music/command10",
+        "Map0045.lmu/event2/page1/system_music/command11",
+        "Map0048.lmu/event2/page3/command139",
+        "Map0049.lmu/event25/page1/command1",
+        "common13/command701"
+      ]
+    },
+    {
+      "name": "明るい市場",
+      "pitch": 100,
+      "source_uses": [
+        "Map0004.lmu/event2/page4/command68",
+        "Map0004.lmu/event2/page4/command264",
+        "Map0026.lmu/event38/page1/command152",
+        "Map0035.lmu/event1/page1/command40"
+      ]
+    },
+    {
+      "name": "村1",
+      "pitch": 150,
+      "source_uses": [
+        "Map0026.lmu/event7/page2/command63"
+      ]
+    },
+    {
+      "name": "村3",
+      "pitch": 100,
+      "source_uses": [
+        "Map0017.lmu/event173/page1/command91"
+      ]
+    },
+    {
+      "name": "町1",
+      "pitch": 80,
+      "source_uses": [
+        "common13/command65",
+        "common13/command133",
+        "common13/command176",
+        "common13/command225",
+        "common13/command280",
+        "common13/command323",
+        "common13/command378",
+        "common13/command427",
+        "common13/command452"
+      ]
+    },
+    {
+      "name": "町1",
+      "pitch": 100,
+      "source_uses": [
+        "Map0017.lmu/event175/page1/command130",
+        "common13/command100",
+        "common13/command203",
+        "common13/command256",
+        "common13/command303",
+        "common13/command354",
+        "common13/command405",
+        "common13/command483"
+      ]
+    },
+    {
+      "name": "町3",
+      "pitch": 100,
+      "source_uses": [
+        "Map0029.lmu/event35/page1/command27",
+        "Map0029.lmu/event35/page1/command84",
+        "Map0032.lmu/event22/page2/command11",
+        "common171/command707",
+        "common177/command30"
+      ]
+    },
+    {
+      "name": "神秘2",
+      "pitch": 100,
+      "source_uses": [
+        "Map0003.lmu/event9/page3/command7",
+        "Map0022.lmu/event6/page1/command2",
+        "Map0025.lmu/event18/page1/command19",
+        "Map0028.lmu/event11/page2/command17",
+        "Map0028.lmu/event11/page3/command16"
+      ]
+    },
+    {
+      "name": "神秘3",
+      "pitch": 100,
+      "source_uses": [
+        "Map0047.lmu/event18/page1/command3",
+        "common13/command720"
+      ]
+    },
+    {
+      "name": "神秘3",
+      "pitch": 130,
+      "source_uses": [
+        "Map0047.lmu/event18/page1/command33"
+      ]
+    },
+    {
+      "name": "神秘3",
+      "pitch": 150,
+      "source_uses": [
+        "Map0047.lmu/event18/page1/command64"
+      ]
+    },
+    {
+      "name": "秘宝",
+      "pitch": 100,
+      "source_uses": [
+        "Map0007.lmu/event1/page2/command26",
+        "Map0010.lmu/event3/page2/command4",
+        "Map0010.lmu/event4/page1/command4",
+        "Map0026.lmu/event38/page1/command48"
+      ]
+    },
+    {
+      "name": "空落ちる日",
+      "pitch": 100,
+      "source_uses": [
+        "Map0037.lmu/event26/page1/command42",
+        "Map0037.lmu/event26/page1/system_music/command123",
+        "Map0037.lmu/event26/page2/command43",
+        "Map0037.lmu/event26/page2/system_music/command171",
+        "Map0044.lmu/event11/page4/command0",
+        "Map0048.lmu/event2/page3/command52",
+        "common87/command513",
+        "common87/command612"
+      ]
+    },
+    {
+      "name": "船1",
+      "pitch": 100,
+      "source_uses": [
+        "common35/command16",
+        "system_music3"
+      ]
+    },
+    {
+      "name": "船2",
+      "pitch": 100,
+      "source_uses": [
+        "common13/command93",
+        "common13/command196",
+        "common13/command296",
+        "common13/command347",
+        "common13/command398",
+        "common13/command476",
+        "system_music4"
+      ]
+    },
+    {
+      "name": "試練",
+      "pitch": 100,
+      "source_uses": [
+        "Map0017.lmu/event173/page1/command136"
+      ]
+    },
+    {
+      "name": "足長- Across the Street, Cross One's Heart",
+      "pitch": 100,
+      "source_uses": [
+        "Map0006.lmu/event2/page5/system_music/command115",
+        "Map0044.lmu/event11/page1/system_music/command51",
+        "Map0047.lmu/event18/page1/system_music/command364",
+        "common98/system_music/command403",
+        "common102/system_music/command156",
+        "common102/system_music/command247"
+      ]
+    },
+    {
+      "name": "足長e- I'll understand how you feel",
+      "pitch": 100,
+      "source_uses": [
+        "Map0006.lmu/event2/page5/command396",
+        "Map0006.lmu/event2/page5/system_music/command433",
+        "Map0006.lmu/event2/page5/system_music/command434",
+        "Map0036.lmu/event34/page2/command3",
+        "Map0036.lmu/event34/page3/command3",
+        "Map0047.lmu/event17/page1/command20",
+        "Map0047.lmu/event17/page1/system_music/command70"
+      ]
+    },
+    {
+      "name": "足長j- Hypocrisy Imprint",
+      "pitch": 100,
+      "source_uses": [
+        "common36/system_music/command23"
+      ]
+    },
+    {
+      "name": "足長j- Ownfault",
+      "pitch": 150,
+      "source_uses": [
+        "Map0039.lmu/event1/page1/command487",
+        "common36/system_music/command12"
+      ]
+    },
+    {
+      "name": "闇市",
+      "pitch": 100,
+      "source_uses": [
+        "Map0004.lmu/event2/page3/command246",
+        "common13/command141",
+        "common13/command149"
+      ]
+    },
+    {
+      "name": "闇市",
+      "pitch": 110,
+      "source_uses": [
+        "Map0004.lmu/event2/page1/command3"
+      ]
+    },
+    {
+      "name": "魔王",
+      "pitch": 100,
+      "source_uses": [
+        "common13/command612",
+        "common13/command616",
+        "common13/command620"
+      ]
+    },
+    {
+      "name": "魔王",
+      "pitch": 110,
+      "source_uses": [
+        "Map0036.lmu/event14/page1/system_music/command28",
+        "Map0036.lmu/event14/page1/system_music/command29",
+        "Map0036.lmu/event26/page1/system_music/command17",
+        "Map0036.lmu/event26/page1/system_music/command18",
+        "common10/system_music/command1005",
+        "common10/system_music/command1006",
+        "common13/command604",
+        "common13/command624",
+        "common13/command627"
+      ]
+    },
+    {
+      "name": "魔王魂-1-戦闘36",
+      "pitch": 100,
+      "source_uses": [
+        "common36/system_music/command25",
+        "common84/command249"
+      ]
+    },
+    {
+      "name": "魔王魂-2-ボス08",
+      "pitch": 100,
+      "source_uses": [
+        "troop309/page1/command17"
+      ]
+    },
+    {
+      "name": "魔王魂-2-ラストボス01",
+      "pitch": 100,
+      "source_uses": [
+        "common177/command325",
+        "common177/system_music/command468"
+      ]
+    },
+    {
+      "name": "魔王魂-2-ラストボス02",
+      "pitch": 100,
+      "source_uses": [
+        "Map0025.lmu/event12/page1/system_music/command2",
+        "Map0032.lmu/event20/page1/system_music/command169",
+        "Map0033.lmu/event110/page1/system_music/command28",
+        "Map0036.lmu/event25/page1/system_music/command33",
+        "Map0036.lmu/event35/page1/command22",
+        "Map0036.lmu/event35/page1/system_music/command23",
+        "Map0036.lmu/event35/page1/system_music/command30",
+        "Map0043.lmu/event10/page1/system_music/command29"
+      ]
+    },
+    {
+      "name": "魔王魂-2-ラストボス02",
+      "pitch": 110,
+      "source_uses": [
+        "Map0029.lmu/event2/page1/system_music/command1"
+      ]
+    },
+    {
+      "name": "魔王魂-7-ロック09",
+      "pitch": 100,
+      "source_uses": [
+        "Map0029.lmu/event7/page1/command31",
+        "Map0029.lmu/event7/page1/system_music/command61",
+        "Map0029.lmu/event19/page2/command69",
+        "common174/command97",
+        "common174/system_music/command133"
+      ]
+    }
+  ]
+}

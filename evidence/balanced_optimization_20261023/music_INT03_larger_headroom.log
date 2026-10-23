@@ -1,0 +1,2 @@
+{"index": 1, "name": "INT03", "quality": 1, "codec": "simplified original MIDI score", "source_frames": 993525, "loop_frame": 0, "loops_observed": 2, "raw_debug_loop_counter": 2, "hardware_seconds_observed": 123.56117248535156, "source_clock_ratio": 1.0000028403109276, "underruns": 0, "voice_overflows": 0, "peak_voices": 111, "status": "pass"}
+PASS 1

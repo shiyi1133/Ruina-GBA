@@ -1,0 +1,14 @@
+music_list_down 8 133.94 ms; black 0
+music_list_up 8 133.94 ms; black 0
+music_list_down 8 133.94 ms; black 0
+music_list_up 8 133.94 ms; black 0
+music_list_down 8 133.94 ms; black 0
+music_list_up 8 133.94 ms; black 0
+Traceback (most recent call last):
+  File "/mnt/d/gba_hack/废都物语_GBA章节样版/tools/check_music_room_long.py", line 33, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/mnt/d/gba_hack/废都物语_GBA章节样版/tools/check_music_room_long.py", line 22, in main
+    assert current[0]==stream[0],('music-room underflow',updates,audio,current,stream)
+           ^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ('music-room underflow', 40, (80450, 240, 0, 687456, 0, 0, 0, 0), (496, 5373, 288, 0), (32, 246, 1936, 0))

@@ -1,0 +1,6 @@
+{
+  "ROM": "/mnt/d/gba_hack/\u5e9f\u90fd\u7269\u8bed_GBA\u7ae0\u8282\u6837\u7248/build/fixtures/tile_blit_playable/tile_blit_playable.gba",
+  "ELF": "/mnt/d/gba_hack/\u5e9f\u90fd\u7269\u8bed_GBA\u7ae0\u8282\u6837\u7248/build/fixtures/tile_blit_playable/tile_blit_playable.elf",
+  "sha256": "1c3db74cb809eaeda38c3c7b1d8324aa3b73110d3adc48239a0e81eea8480903",
+  "base": "396f7bc2b7546fd062112d6041503adb3b31b0630a763e0259046228a995364a"
+}

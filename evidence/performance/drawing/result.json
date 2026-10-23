@@ -1,0 +1,122 @@
+{
+  "status": "measured",
+  "kind": "controlled facing changes on genuine ordinary-save scene; isolated cartridges; full-paint reference and incremental renderer share current audio and parser",
+  "rows": [
+    {
+      "variant": "before",
+      "metrics": {
+        "world_metrics": [
+          0,
+          18639,
+          14411,
+          17796,
+          28336,
+          13772,
+          126,
+          3
+        ]
+      },
+      "completed_map_updates": 2,
+      "seconds": 10.045623779296875,
+      "map_updates_per_second": 0.19909166856535276,
+      "fixture_sha256": "10648ad7dcd3e76cd731677054e4a80f8ffa0430d31a23de352ecdffb8b6febd",
+      "production_rom_sha256": "34c859df8d30bd955e427d6261a778bd6d8010066341c09118029d6edcc7b4f6",
+      "commands": [
+        "frames 30 0",
+        "read 0201066c 60",
+        "frames 30 0",
+        "read 0201066c 60",
+        "frames 30 0",
+        "read 0201066c 60",
+        "frames 30 0",
+        "read 0201066c 60",
+        "frames 30 0",
+        "read 0201066c 60",
+        "frames 30 0",
+        "read 0201066c 60",
+        "frames 30 0",
+        "read 0201066c 60",
+        "frames 30 0",
+        "read 0201066c 60",
+        "frames 30 0",
+        "read 0201066c 60",
+        "frames 30 0",
+        "read 0201066c 60",
+        "frames 30 0",
+        "read 0201066c 60",
+        "frames 30 0",
+        "read 0201066c 60",
+        "frames 30 0",
+        "read 0201066c 60",
+        "frames 30 0",
+        "read 0201066c 60",
+        "frames 30 0",
+        "read 0201066c 60",
+        "frames 30 0",
+        "read 0201066c 60",
+        "frames 30 0",
+        "read 0201066c 60",
+        "frames 30 0",
+        "read 0201066c 60",
+        "read 0201066c 60",
+        "frames 600 0",
+        "read 0201066c 60",
+        "shot /mnt/d/gba_hack/废都物语_GBA章节样版/evidence/performance/drawing/before.png",
+        "read 02020ad0 20"
+      ]
+    },
+    {
+      "variant": "after",
+      "metrics": {
+        "world_metrics": [
+          47,
+          358,
+          291,
+          806,
+          537,
+          3125,
+          126,
+          48
+        ],
+        "video_metrics": [
+          1261,
+          153880,
+          3867,
+          132377,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "completed_map_updates": 47,
+      "seconds": 10.045623779296875,
+      "map_updates_per_second": 4.6786542112857905,
+      "fixture_sha256": "32b26c765b42a7b9f8e2888b8d561e557c029596eba7bb5473e100672c80937a",
+      "production_rom_sha256": "34c859df8d30bd955e427d6261a778bd6d8010066341c09118029d6edcc7b4f6",
+      "commands": [
+        "frames 30 0",
+        "read 02010a84 60",
+        "frames 30 0",
+        "read 02010a84 60",
+        "frames 30 0",
+        "read 02010a84 60",
+        "frames 30 0",
+        "read 02010a84 60",
+        "frames 30 0",
+        "read 02010a84 60",
+        "frames 30 0",
+        "read 02010a84 60",
+        "read 02010a84 60",
+        "frames 600 0",
+        "read 02010a84 60",
+        "shot /mnt/d/gba_hack/废都物语_GBA章节样版/evidence/performance/drawing/after.png",
+        "read 02020f38 20",
+        "read 02035ed4 20"
+      ]
+    }
+  ],
+  "not_a_full_game_FPS_benchmark": true,
+  "screen_scanout_can_straddle_flips": true,
+  "physical_hardware": "not_run"
+}

@@ -1,0 +1,235 @@
+{
+  "status": "key_press_fix_verified",
+  "ROM_sha256": "4513437665f659b3a265a57237e7f90dda5a8af5f7d72903090efa755925c5ef",
+  "previous_release_ROM_sha256": "360c2d70750969f814da9e95244c279669dd431dd1d7bb0134701fcf9f1acc64",
+  "cause": "clear() applied full-screen -16 brightness before every redraw; choices() always rebuilt the entire scene",
+  "fix": [
+    "complete RGB555 CPU staging frame retains prior displayed image while rendering",
+    "ordinary redraw hiding requests are suppressed; explicit story cuts remain",
+    "menu arrows repaint two rows, scroll repaints list, actual visible scene signature controls full invalidation",
+    "name arrows repaint two cells; name changes repaint only name field; page switches repaint tabs and character pool",
+    "only damaged framebuffer spans are uploaded; early scan commit and bounded DMA preserve sound IRQ service"
+  ],
+  "LCD_cases": 27,
+  "LCD_frames": 1473,
+  "ordinary_key_black_frames": 0,
+  "transient_or_torn_frames": 0,
+  "region_examples": [
+    {
+      "action": "view_menu_down",
+      "copied_damage": [
+        7168,
+        2,
+        1,
+        0
+      ],
+      "menu_before": [
+        1,
+        2,
+        0,
+        0
+      ],
+      "menu_after": [
+        1,
+        4,
+        0,
+        1
+      ],
+      "name_before": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "name_after": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "transient_frames": 0,
+      "fully_black_frames": 0
+    },
+    {
+      "action": "origin_down",
+      "copied_damage": [
+        7168,
+        5,
+        3,
+        0
+      ],
+      "menu_before": [
+        2,
+        10,
+        0,
+        2
+      ],
+      "menu_after": [
+        2,
+        12,
+        0,
+        3
+      ],
+      "name_before": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "name_after": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "transient_frames": 0,
+      "fully_black_frames": 0
+    },
+    {
+      "action": "avatar_down",
+      "copied_damage": [
+        7168,
+        9,
+        6,
+        0
+      ],
+      "menu_before": [
+        4,
+        22,
+        0,
+        5
+      ],
+      "menu_after": [
+        4,
+        24,
+        0,
+        6
+      ],
+      "name_before": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "name_after": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "transient_frames": 0,
+      "fully_black_frames": 0
+    },
+    {
+      "action": "name_cursor_right",
+      "copied_damage": [
+        756,
+        13,
+        8,
+        0
+      ],
+      "menu_before": [
+        5,
+        28,
+        0,
+        7
+      ],
+      "menu_after": [
+        5,
+        28,
+        0,
+        7
+      ],
+      "name_before": [
+        1,
+        1,
+        20,
+        1
+      ],
+      "name_after": [
+        1,
+        1,
+        22,
+        1
+      ],
+      "transient_frames": 0,
+      "fully_black_frames": 0
+    },
+    {
+      "action": "name_insert_given",
+      "copied_damage": [
+        1992,
+        13,
+        12,
+        0
+      ],
+      "menu_before": [
+        5,
+        28,
+        0,
+        7
+      ],
+      "menu_after": [
+        5,
+        28,
+        0,
+        7
+      ],
+      "name_before": [
+        1,
+        2,
+        56,
+        2
+      ],
+      "name_after": [
+        1,
+        2,
+        56,
+        3
+      ],
+      "transient_frames": 0,
+      "fully_black_frames": 0
+    },
+    {
+      "action": "name_delete_given",
+      "copied_damage": [
+        1992,
+        13,
+        13,
+        0
+      ],
+      "menu_before": [
+        5,
+        28,
+        0,
+        7
+      ],
+      "menu_after": [
+        5,
+        28,
+        0,
+        7
+      ],
+      "name_before": [
+        1,
+        2,
+        56,
+        3
+      ],
+      "name_after": [
+        1,
+        2,
+        56,
+        4
+      ],
+      "transient_frames": 0,
+      "fully_black_frames": 0
+    }
+  ],
+  "limitations": [
+    "opening to first-map viewer only",
+    "first-map layer reconstruction and source-art decoding can still be slow",
+    "hardware not tested",
+    "not a full-game speed or feature acceptance"
+  ]
+}

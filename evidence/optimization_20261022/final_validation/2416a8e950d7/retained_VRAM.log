@@ -1,0 +1,41 @@
+{
+  "status": "pass",
+  "kind": "controlled actual GBA cartridges; original save; independent full-view rebuild versus retained VRAM pixels",
+  "production_rom_sha256": "2416a8e950d764c790dd55a309d615de4c0dc9420fa791e6b9cd3535fab8824f",
+  "checks": {
+    "all_native_commits_within_VBlank": true,
+    "all_pixels_match_complete_rebuild": true,
+    "resident_regions_reused": true,
+    "texture_and_screen_map_wraps_checked": true,
+    "HUD_reclassification_and_offscreen_erase_checked": true,
+    "map_transition_checked": true
+  },
+  "different_pixels": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "physical_hardware": "not_run"
+}

@@ -1,0 +1,10 @@
+{
+  "status": "pass",
+  "production_ROM_sha256": "d8e63ad23769ed03f990420723b3c042f3e147b23565e2c23f4c0f67bbe1e780",
+  "rebuilt_ROM_sha256": "d8e63ad23769ed03f990420723b3c042f3e147b23565e2c23f4c0f67bbe1e780",
+  "byte_identical": true,
+  "original_archive_font_asset_python": "disabled by nonexistent paths",
+  "Python_site_packages": "disabled by -S",
+  "host_seconds": 23.000909623999178,
+  "environment": "Linux/WSL with external GNU Arm; native Windows not tested"
+}

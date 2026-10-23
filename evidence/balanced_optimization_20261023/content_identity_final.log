@@ -1,0 +1,33 @@
+{
+  "status": "pass",
+  "production_ROM_sha256": "d8e63ad23769ed03f990420723b3c042f3e147b23565e2c23f4c0f67bbe1e780",
+  "baseline_ROM_sha256": "1db4e8b86af4cc3b4e71abdc983f9a8e5a2c84eb5784738258912a75750e1561",
+  "unchanged_runtime_sources": [
+    "runtime/rm2k/animations.c",
+    "runtime/rm2k/equipment.c",
+    "runtime/rm2k/field_skills.c",
+    "runtime/rm2k/interpreter.c",
+    "runtime/rm2k/lcf.c",
+    "runtime/rm2k/light_midi.c",
+    "runtime/rm2k/map_info.c",
+    "runtime/rm2k/map_rules.c",
+    "runtime/rm2k/movement.c",
+    "runtime/rm2k/native_midi.c",
+    "runtime/rm2k/parallel.c",
+    "runtime/rm2k/presentation.c",
+    "runtime/rm2k/rm2k_rules.c",
+    "runtime/rm2k/timers.c"
+  ],
+  "modified_runtime_sources": [
+    "runtime/rm2k/battle.c",
+    "runtime/rm2k/inventory.c",
+    "runtime/rm2k/pictures.c",
+    "runtime/rm2k/shop.c",
+    "runtime/rm2k/state.c",
+    "runtime/rm2k/storage_codec.c",
+    "runtime/rm2k/world.c"
+  ],
+  "combat_reference": "40820faea497163e7bae56fd83600b2ea1870a5bd8255409e75906897c2e9958",
+  "scope": "Byte identity of original game payloads; selected combat formula/AI functions also retain exact pre-menu-repair bodies. UI planning now supports nested cancellation, restores provisional RNG/actions, keeps cursor selection and reuses exact RGB555 background pixels. This is not complete RPG_RT or full-campaign equivalence.",
+  "attribution": "In-game production information page plus CREDITS.txt; title artwork unchanged as independently checked."
+}

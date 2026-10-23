@@ -1,0 +1,51 @@
+{
+  "status": "pass",
+  "production_ROM_sha256": "6e70c2dc0b4c10a2c9a3aae4f52201ade7a9c652b0e48faa1aa4268b900626d6",
+  "scope": "After switching through all 105 music-room entries and timbres, return to title, then new game or old ordinary SAV. Real key inputs; no game memory writes or emulator states.",
+  "original_SAV_sha256": "3b8e0ae1315a577dbb177bbd15254038f9fde7e141c631edbdf425095bf1780f",
+  "original_SAV_unchanged": true,
+  "cases": [
+    {
+      "kind": "new_game",
+      "status": "pass",
+      "track_changes": 105,
+      "quality_toggles": 10,
+      "pause_toggles": 12,
+      "restored_title_LCD_exact": true,
+      "game_timbre_restored": true,
+      "game_clock_restored": true,
+      "map_hardware_mode": 0,
+      "menu_open_close_cycles": 24,
+      "state": {
+        "new_game_original_knight_opening": true
+      }
+    },
+    {
+      "kind": "continue_ordinary_SAV",
+      "status": "pass",
+      "track_changes": 105,
+      "quality_toggles": 10,
+      "pause_toggles": 12,
+      "restored_title_LCD_exact": true,
+      "game_timbre_restored": true,
+      "game_clock_restored": true,
+      "map_hardware_mode": 0,
+      "menu_open_close_cycles": 24,
+      "state": {
+        "full_state_checksum_at_load_matches": true,
+        "state_bytes_at_load": 39704,
+        "player_progress_after_background_events_resume_matches": true,
+        "compared_after_resume": [
+          "map",
+          "gold",
+          "inventory",
+          "party and party actor records",
+          "origin, SP, story phase"
+        ],
+        "all_bytes_after_resuming_background_events": "not required: original parallel events legitimately update scratch state"
+      }
+    }
+  ],
+  "host_seconds": 29.039102433998778,
+  "physical_hardware": "not_run"
+}

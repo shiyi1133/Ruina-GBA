@@ -1,0 +1,66 @@
+{
+  "format": "128 original-derived periodic programs, 65 compiled amplitude steps, 128 points; gameplay samples 32 points",
+  "bytes": 2262716,
+  "table_bytes": 2129920,
+  "additional_samples_per_mix": 2,
+  "score_clock_Hz": 16384,
+  "music_room": "fine stereo wavetable, paired samples",
+  "gameplay": "coarse mono wavetable, paired samples",
+  "generator_sha256": "b4a91e28049f48e048753ab3077770f5e49209579dbdbe166ae37c08c9dbe6e3",
+  "bank_sha256": "14f511e3ba953cd45c9bf63a2dfd950496141389a0ccddfdd75cee48b15b4e79"
+}
+{
+  "format": "immutable command transport only; dynamic conditions and original VM remain live",
+  "target_commands": 9390,
+  "cached_commands": 9190,
+  "common_ids": [
+    1,
+    3,
+    7,
+    8,
+    9,
+    13,
+    16,
+    27,
+    29,
+    32,
+    36,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    84,
+    89,
+    100,
+    101,
+    107,
+    108,
+    116,
+    117,
+    128
+  ],
+  "bytes": 543448,
+  "hash_slots": 32768,
+  "max_lookup_probes": 8,
+  "mean_lookup_probes": 1.1532100108813927,
+  "original_pack_sha256": "03042b9da41392bf8a9766cd9820184ebaaf8bb510fa8aea98a8e93159cc37e1",
+  "bank_sha256": "57d77eb2b07e4487a6171a79e00445f48941913707cfd55f49424a52ac2cba08",
+  "generator_sha256": "1c0f1835307856f66d9c39ae3f14fa3dcf4ed666b5fd861b9e1e077ec3c78084"
+}
+{"native_menu_labels": 283}
+{"MIDI_clock_tracks": 99, "tempo_segments": 388}
+   text	   data	    bss	    dec	    hex	filename
+32563836	     56	 264844	32828736	1f4ed40	/mnt/d/gba_hack/废都物语_GBA章节样版/build/ruina_opening_dev.elf
+{
+  "artifact": "废都物语_GBA_开篇开发验证版.gba",
+  "bytes": 32563892,
+  "sha256": "df2684b829953a86f80c4267b8435a598c8b1a4c15031adb09a9e6053609037b",
+  "kind": "native GBA RM2000 compatibility framework with Ruina chapter adapter",
+  "build_status": "compiled",
+  "runtime_validation": "not run by this build command; see acceptance_receipt.json",
+  "full_game_port": false,
+  "complete_EasyRPG_port": false,
+  "upstream_lock_sha256": "583dfd77f5e6324312d3e5275f25b25431f147064b2379dad76fd5a5cd0ccf58"
+}

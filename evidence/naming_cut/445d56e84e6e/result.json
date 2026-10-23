@@ -1,0 +1,26 @@
+{
+  "status": "pass",
+  "rom_sha256": "445d56e84e6ef84b4cc8bdd8dd95eb74205799ac139a59e6adb471fe530c757f",
+  "origins": [
+    {
+      "origin": 1,
+      "status": "pass",
+      "report": "evidence/naming_cut/445d56e84e6e/origin_1/result.json"
+    },
+    {
+      "origin": 2,
+      "status": "pass",
+      "report": "evidence/naming_cut/445d56e84e6e/origin_2/result.json"
+    },
+    {
+      "origin": 3,
+      "status": "pass",
+      "report": "evidence/naming_cut/445d56e84e6e/origin_3/result.json"
+    },
+    {
+      "origin": 4,
+      "status": "pass",
+      "report": "evidence/naming_cut/445d56e84e6e/origin_4/result.json"
+    }
+  ]
+}

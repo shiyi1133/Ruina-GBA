@@ -1,0 +1,62 @@
+{
+  "status": "pass",
+  "base_ROM_sha256": "3371cc8ffac5dfe023ce9458d13617cdc00b2619286f04a5bb4374b7bd69c164",
+  "old_report": "evidence/balanced_optimization_20261023/shop_stack/3371cc8ffac5/cd4a5078/result.json",
+  "candidate_report": "evidence/balanced_optimization_20261023/shop_stack/3371cc8ffac5/604c3026/result.json",
+  "candidate_shop_source_sha256": "f248a8ede679c397da26b13e7cf82091d0e7f83aa67a6f87f151664e6bb9d8e8",
+  "screens": [
+    {
+      "screen": "after_sell_reopened.png",
+      "exact_pixels": true
+    },
+    {
+      "screen": "buy_quantity_limit.png",
+      "exact_pixels": true
+    },
+    {
+      "screen": "dense_sell_list.png",
+      "exact_pixels": true
+    },
+    {
+      "screen": "item_description.png",
+      "exact_pixels": true
+    },
+    {
+      "screen": "original_event_shop_entry.png",
+      "exact_pixels": true
+    },
+    {
+      "screen": "quantity_minus1.png",
+      "exact_pixels": true
+    },
+    {
+      "screen": "quantity_minus10.png",
+      "exact_pixels": true
+    },
+    {
+      "screen": "quantity_plus1.png",
+      "exact_pixels": true
+    },
+    {
+      "screen": "quantity_plus10.png",
+      "exact_pixels": true
+    },
+    {
+      "screen": "sell_quantity.png",
+      "exact_pixels": true
+    }
+  ],
+  "full_Game_state_equal_after_transaction": true,
+  "transaction": {
+    "sold_item": 10,
+    "count": 99,
+    "unit_sale_price": 50,
+    "gold_before": 999999,
+    "gold_after": 999999,
+    "remaining_item_count": 0,
+    "usage_counter_cleared": true,
+    "reopened_sell_list_count": 470,
+    "post_shop_Game_sha256": "4fbeae827713e805a8f32db01da1847a58ac558eb7c9d16f6e9c739692d0a437"
+  },
+  "scope": "Controlled real event-VM shop, exact LCD pixels before/after rows and quantity changes, full Game-state hash after sale/depletion/reopen and full-inventory refusal. Not natural campaign."
+}

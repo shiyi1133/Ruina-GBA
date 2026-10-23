@@ -1,0 +1,23 @@
+{
+  "status": "built_not_tested",
+  "ROM": "/mnt/d/gba_hack/废都物语_GBA章节样版/build/fixtures/quality_preview/quality_preview.gba",
+  "ELF": "/mnt/d/gba_hack/废都物语_GBA章节样版/build/fixtures/quality_preview/quality_preview.elf",
+  "ROM_sha256": "4513437665f659b3a265a57237e7f90dda5a8af5f7d72903090efa755925c5ef",
+  "ROM_bytes": 33379120,
+  "base_v062_ROM_sha256": "1db4e8b86af4cc3b4e71abdc983f9a8e5a2c84eb5784738258912a75750e1561",
+  "display": "GBA Mode 3 RGB555 direct color",
+  "scope": "original opening through first map viewer; not a full gameplay version",
+  "source_sha256": {
+    "experiments/quality_preview/adapter.c": "603dbea11ee2aa58454e0e3b03ac7b5a652dbc474b947564b5b7950aa7fdb700",
+    "experiments/quality_preview/dialog.c": "a646d094f9edf02fbc6749d1cdb6cf9ac086c5fe704f274d304c64640ed2c5fb",
+    "experiments/quality_preview/event_input.c": "738a76765d745a768e4accbaa91a0d8b908f123b918a526f03170230c81237fa",
+    "experiments/quality_preview/main.c": "46fcbb617bda303f68038dd889e94bd5e98e712ed2fbff442f273f544fbd3536",
+    "experiments/quality_preview/pictures.c": "f4d0ef53ce442a3d5df3ddab4985b6bdb374612f690fd67a04c8896e30d0e039",
+    "experiments/quality_preview/quality.h": "8d41c88ebbe45b4f94478b4a66a24198c6619bd59be7f9ea0414939e287e7aaf",
+    "experiments/quality_preview/save.c": "8c9bac1e1625cc2e97672489381653ea660af28d14ee273caf774a05f8f2627f",
+    "experiments/quality_preview/source_manifest.json": "7560e627fbea347f946390c1b2150ddaa0c4511d4430d8dea0997a10e6d94b54",
+    "experiments/quality_preview/title_source.h": "3850d70f9136b17b9075e5e47bf648a10b9965e22b2b3cf5e383a38eb60b50bd",
+    "experiments/quality_preview/video.c": "c12be6e17e6b4948b2ac168e3758a422120709c73a0414c2b4e1f2a600cfa550",
+    "experiments/quality_preview/world.c": "4486d3fae86bf45e4646e9911a565c6c6f26c3fa9423972801bc77cd16c08489"
+  }
+}

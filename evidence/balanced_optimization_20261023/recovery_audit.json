@@ -1,0 +1,8 @@
+{
+  "status": "pass",
+  "ROM_sha256": "6e70c2dc0b4c10a2c9a3aae4f52201ade7a9c652b0e48faa1aa4268b900626d6",
+  "compiler_input_mismatches": [],
+  "old_temporary_staging": "absent after environment recovery; rebuild from authoritative D drive",
+  "old_seal_failure": "archive_rebuild/f8224053f0bc/original_recipes_and_title.log; host save copy could not create its target, later all Linux command execution returned I/O error5",
+  "recovery_change": "Acceptance probe now reports actual host SAV open/write/close errors; title/recipe test asserts the save-copy receipt before reading. No game code/resource changes."
+}

@@ -1,0 +1,16 @@
+{
+  "status": "pass",
+  "single_original_portraits": 160,
+  "mixed_sheet_combinations": 375,
+  "LCD_faces_checked": 1660,
+  "different_pixels": 0,
+  "VBlank_commit_overruns": 0,
+  "max_commit_scanlines": 30,
+  "production_rom_sha256": "0a4353fad48785c44976137cc69d21622505d80206690d1b21a6a7e7e004392a",
+  "fixture_sha256": "d607f84cda40d57778b9c2a1730da70532bf1c867d42f666665eb5c6a3d56919",
+  "native_bank_sha256": "cc29d4bdcd2725f8eeb8b11c759287f02380aabc9be69add3d8de4fe247856eb",
+  "mixed_bank_sha256": "53b47aaca84933b203e01a450a7e5f08f5f17b8e7e1d4c1f5f6f0a31d6af8339",
+  "kind": "all native singles match original XYZ RGB555; mixed pages match explicitly fitted palettes; alpha and decoder scratch ownership retained",
+  "mixed_color_error_report": "build/portrait_combinations_manifest.json",
+  "physical_hardware": "not_run"
+}

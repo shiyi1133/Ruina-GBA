@@ -1,0 +1,12 @@
+{
+  "status": "delivered",
+  "delivery_UTC": "2026-10-21T23:26:14.805219+00:00",
+  "optimization_wall_seconds": 22436.805218935013,
+  "rom_sha256": "2416a8e950d764c790dd55a309d615de4c0dc9420fa791e6b9cd3535fab8824f",
+  "ROM": "/mnt/c/Users/APP/Downloads/废都物语_GBA_DEMO_v0.6_画质性能版_20261022/废都物语_GBA_v0.6_画质性能版.gba",
+  "DEMO_ZIP": "/mnt/c/Users/APP/Downloads/废都物语_GBA_DEMO_v0.6_画质性能版_20261022.zip",
+  "SOURCE_ZIP": "/mnt/c/Users/APP/Downloads/废都物语_GBA_匹配工程_v0.6_20261022.zip",
+  "full_game_port": false,
+  "PC_parity": "not_claimed",
+  "hardware": "not_run"
+}

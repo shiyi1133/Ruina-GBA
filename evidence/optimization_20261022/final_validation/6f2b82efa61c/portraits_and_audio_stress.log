@@ -1,0 +1,20 @@
+{
+  "status": "pass",
+  "stress_music_plus_four_effects": true,
+  "quick_subset": false,
+  "MIDI_underruns_after_priming": 0,
+  "original_portrait_bank_size": 160,
+  "single_original_portraits": 160,
+  "mixed_sheet_combinations": 375,
+  "LCD_faces_checked": 1660,
+  "different_pixels": 0,
+  "VBlank_commit_overruns": 0,
+  "max_commit_scanlines": 13,
+  "production_rom_sha256": "6f2b82efa61cd015f0216127dc875a61654a74b155d1f532897d7e7e015bee23",
+  "fixture_sha256": "77d61e02af1a8bb0bc5b24d9178972b2668ee5b6f1af2cdc246a45faa8878abe",
+  "native_bank_sha256": "cc29d4bdcd2725f8eeb8b11c759287f02380aabc9be69add3d8de4fe247856eb",
+  "mixed_bank_sha256": "53b47aaca84933b203e01a450a7e5f08f5f17b8e7e1d4c1f5f6f0a31d6af8339",
+  "kind": "all native singles match original XYZ RGB555; mixed pages match explicitly fitted palettes; alpha and decoder scratch ownership retained",
+  "mixed_color_error_report": "build/portrait_combinations_manifest.json",
+  "physical_hardware": "not_run"
+}

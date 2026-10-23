@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/mnt/d/gba_hack/废都物语_GBA章节样版/tools/check_shop_comparison.py", line 23, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/mnt/d/gba_hack/废都物语_GBA章节样版/tools/check_shop_comparison.py", line 9, in main
+    with(out/(label+'.log')).open('w')as stream:subprocess.run([sys.executable,'tools/check_shop_stack.py',*args],cwd=ROOT,stdout=stream,stderr=subprocess.STDOUT,check=True)
+                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['/home/app/venvs/pig/bin/python', 'tools/check_shop_stack.py', '--face', '--shop', 'tests/shop_full_reference.c']' returned non-zero exit status 1.

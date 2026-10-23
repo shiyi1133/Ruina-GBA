@@ -1,0 +1,11 @@
+{"scene": "original_event_shop_entry", "SYS_margin_above_fast_code_data": 444, "music_underrun_samples": 0, "modes": {"18": {"minimum_SP": 50364112, "PC": 50349604, "instructions": 994687}, "31": {"minimum_SP": 50360016, "PC": 50341288, "instructions": 11942480}}, "UI": [5395790, 0, 0, 0, 0, 10720, 0, 0, 11, 3, 1, 0, 0, 0, 1, 2, 0, 3, 0, 0, 0, 0, 1, 0]}
+{"scene": "dense_sell_list", "SYS_margin_above_fast_code_data": 308, "music_underrun_samples": 0, "modes": {"18": {"minimum_SP": 50364020, "PC": 50347324, "instructions": 1264534}, "31": {"minimum_SP": 50359880, "PC": 50341288, "instructions": 7993381}}, "UI": [5395790, 0, 0, 0, 0, 10720, 0, 0, 11, 3, 1, 0, 0, 0, 1, 8, 0, 471, 1, 0, 0, 0, 1, 0]}
+{"scene": "item_description", "SYS_margin_above_fast_code_data": 308, "music_underrun_samples": 0, "modes": {"18": {"minimum_SP": 50364112, "PC": 50349604, "instructions": 995169}, "31": {"minimum_SP": 50359880, "PC": 50341288, "instructions": 9590925}}, "UI": [5395790, 0, 0, 0, 0, 10720, 0, 0, 11, 3, 1, 0, 0, 0, 1, 8, 0, 471, 1, 0, 0, 0, 1, 0]}
+Traceback (most recent call last):
+  File "/mnt/d/gba_hack/废都物语_GBA章节样版/tools/check_shop_stack.py", line 29, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/mnt/d/gba_hack/废都物语_GBA章节样版/tools/check_shop_stack.py", line 21, in main
+    observe('item_description',512);assert e.debug()[15]==1,e.debug();e.key(1);e.key(0);observe('sell_quantity',1);assert e.debug()[15]==9,e.debug()
+                                           ^^^^^^^^^^^^^^^^
+AssertionError: (5395790, 0, 0, 0, 0, 10720, 0, 0, 11, 3, 1, 0, 0, 0, 1, 8, 0, 471, 1, 0, 0, 0, 1, 0)

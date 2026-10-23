@@ -1,0 +1,12 @@
+{
+  "status": "environment_recovered",
+  "unix": 1792726211.7981172,
+  "previous_goal_accounted_seconds": 19558,
+  "minimum_active_goal_seconds": 21600,
+  "supplementary_active_window_seconds": 2042,
+  "supplementary_not_before_unix": 1792728253.7981176,
+  "reason": "Do not count the offline I/O interruption as optimization work. Continue actual archive verification and recovery checks for the remaining active time.",
+  "production_ROM_sha256": "6e70c2dc0b4c10a2c9a3aae4f52201ade7a9c652b0e48faa1aa4268b900626d6",
+  "old_seal_failure": "release_seal_01.log preserved",
+  "no_WSL_restart_performed_by_agent": true
+}

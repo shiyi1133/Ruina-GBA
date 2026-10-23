@@ -1,0 +1,104 @@
+battle_mode_menu_down 2 33.49 ms; black 0
+battle_mode_menu_up 2 33.49 ms; black 0
+battle_mode_menu_down 2 33.49 ms; black 0
+battle_mode_menu_up 2 33.49 ms; black 0
+battle_mode_menu_down 2 33.49 ms; black 0
+battle_mode_menu_up 2 33.49 ms; black 0
+battle_actor_menu_down 2 33.49 ms; black 0
+battle_actor_menu_up 2 33.49 ms; black 0
+battle_actor_menu_down 2 33.49 ms; black 0
+battle_actor_menu_up 2 33.49 ms; black 0
+battle_actor_menu_down 2 33.49 ms; black 0
+battle_actor_menu_up 2 33.49 ms; black 0
+battle_skill_choose_target 9 150.68 ms; black 0
+battle_skill_target_B_to_skill 7 117.2 ms; black 0
+battle_skill_choose_target 9 150.68 ms; black 0
+battle_skill_target_B_to_skill 6 100.46 ms; black 0
+battle_skill_choose_target 9 150.68 ms; black 0
+battle_skill_target_B_to_skill 6 100.46 ms; black 0
+battle_skill_choose_target 9 150.68 ms; black 0
+battle_skill_target_B_to_skill 6 100.46 ms; black 0
+battle_skill_choose_target 9 150.68 ms; black 0
+battle_skill_target_B_to_skill 6 100.46 ms; black 0
+battle_skill_choose_target 9 150.68 ms; black 0
+battle_skill_target_B_to_skill 6 100.46 ms; black 0
+battle_skill_B_to_command 8 133.94 ms; black 0
+{
+  "status": "measured",
+  "production_rom_sha256": "d8e63ad23769ed03f990420723b3c042f3e147b23565e2c23f4c0f67bbe1e780",
+  "scope": "Sage origin, actual opening, original first encounter, unchanged options and first victory. Real two-frame pulses; actual completed LCD hashes every hardware frame.",
+  "summary": [
+    {
+      "action": "battle_mode_menu_down",
+      "samples": 3,
+      "response_ms_min": 33.48541259765625,
+      "response_ms_max": 33.48541259765625,
+      "response_ms_mean": 33.48541259765625,
+      "black_frames": 0,
+      "intermediate_LCD_frames": 0
+    },
+    {
+      "action": "battle_mode_menu_up",
+      "samples": 3,
+      "response_ms_min": 33.48541259765625,
+      "response_ms_max": 33.48541259765625,
+      "response_ms_mean": 33.48541259765625,
+      "black_frames": 0,
+      "intermediate_LCD_frames": 0
+    },
+    {
+      "action": "battle_actor_menu_down",
+      "samples": 3,
+      "response_ms_min": 33.48541259765625,
+      "response_ms_max": 33.48541259765625,
+      "response_ms_mean": 33.48541259765625,
+      "black_frames": 0,
+      "intermediate_LCD_frames": 0
+    },
+    {
+      "action": "battle_actor_menu_up",
+      "samples": 3,
+      "response_ms_min": 33.48541259765625,
+      "response_ms_max": 33.48541259765625,
+      "response_ms_mean": 33.48541259765625,
+      "black_frames": 0,
+      "intermediate_LCD_frames": 0
+    },
+    {
+      "action": "battle_skill_choose_target",
+      "samples": 6,
+      "response_ms_min": 150.68435668945312,
+      "response_ms_max": 150.68435668945312,
+      "response_ms_mean": 150.68435668945312,
+      "black_frames": 0,
+      "intermediate_LCD_frames": 0
+    },
+    {
+      "action": "battle_skill_target_B_to_skill",
+      "samples": 6,
+      "response_ms_min": 100.45623779296875,
+      "response_ms_max": 117.19894409179688,
+      "response_ms_mean": 103.24668884277344,
+      "black_frames": 0,
+      "intermediate_LCD_frames": 0
+    },
+    {
+      "action": "battle_skill_B_to_command",
+      "samples": 1,
+      "response_ms_min": 133.941650390625,
+      "response_ms_max": 133.941650390625,
+      "response_ms_mean": 133.941650390625,
+      "black_frames": 0,
+      "intermediate_LCD_frames": 0
+    }
+  ],
+  "skill_menu_had_multiple_choices": false,
+  "victory": {
+    "hp": 16,
+    "mp": 10,
+    "XP": 1,
+    "gold": 1
+  },
+  "hardware": "not_run",
+  "full_campaign": "not_run"
+}

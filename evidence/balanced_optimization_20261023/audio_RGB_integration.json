@@ -1,0 +1,28 @@
+{
+  "status": "source_integrated_not_built",
+  "time_unix": 1792694711.4290543,
+  "changes": [
+    {
+      "path": "platform/gba/video.c",
+      "before": "c7be63a7b4b8af20e93553da903cf0dc30e090cb84aa42ce6e640b1ba41db550",
+      "after": "f4a5eadecbbee3f32ee21c97d7d49e5995a96635d1e2c94613a1d14447a4cd64"
+    },
+    {
+      "path": "platform/gba/rgb_surface.inc",
+      "before": "70c08c479bc1f7bc33df897e1833740c00cb92082422588ef354607187e2dd0f",
+      "after": "75aba2f22e381301ba7a2affd08eea0dc88d0267c0287019ad1cc0a11a8c802f"
+    },
+    {
+      "path": "platform/gba/audio.c",
+      "before": "b8bfe88c4a2c3a9d22c8974c1439816850025a51a25dca53bf2528f75eee14b1",
+      "after": "09d37fa59be005b0fb9a4dbf49a25fd9cfd8025d40c16578afc929c36125865f"
+    }
+  ],
+  "changes_description": [
+    "Trim net bitmap differences against prior displayed VRAM before DMA.",
+    "Refill MIDI more frequently during drawing; reserve visible DMA interval for bounded copy and sound IRQ.",
+    "Use a hard black cut only when switching the hardware display into RGB555.",
+    "Use all2048 existing queue frames for125ms headroom, no additional RAM or timbre/score reduction.",
+    "Include the new BG1 text layer in hardware brightness targets."
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "status": "superseded_not_pass",
+  "reason": "The actual music-room full repaint failed its long playback test. Its partial repaint replacement is now being integrated; the final210-case run will bind to that resulting production hash. Stop only the owned full-score process35229; keep its partial progress and raw logs.",
+  "baseline_ROM_SHA256": "fd941406522186050f29eaa3dc27823544a78ff9e8e44c608c868fabf2a5534f",
+  "time_unix": 1792696122.6577332
+}

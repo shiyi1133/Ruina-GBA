@@ -1,0 +1,12 @@
+{"scene": "original_event_shop_entry", "SYS_margin_above_fast_code_data": 2188, "music_underrun_samples": 0, "modes": {"18": {"minimum_SP": 50364112, "PC": 50349604, "instructions": 994686}, "31": {"minimum_SP": 50361760, "PC": 50341288, "instructions": 11942432}}, "UI": [5395790, 0, 0, 0, 0, 10720, 0, 0, 11, 3, 1, 0, 0, 0, 1, 2, 0, 3, 0, 0, 0, 0, 1, 0]}
+{"scene": "dense_sell_list", "SYS_margin_above_fast_code_data": 2020, "music_underrun_samples": 0, "modes": {"18": {"minimum_SP": 50364020, "PC": 50347324, "instructions": 1264534}, "31": {"minimum_SP": 50361592, "PC": 50341288, "instructions": 8056327}}, "UI": [5395790, 0, 0, 0, 0, 10720, 0, 0, 11, 3, 1, 0, 0, 0, 1, 8, 0, 471, 1, 0, 0, 0, 1, 0]}
+shop_sell_down 5 83.71 ms; black 0
+shop_sell_up 6 100.46 ms; black 0
+shop_sell_down 3 50.23 ms; black 0
+shop_sell_up 3 50.23 ms; black 0
+shop_sell_down 3 50.23 ms; black 0
+shop_sell_up 3 50.23 ms; black 0
+{"scene": "item_description", "SYS_margin_above_fast_code_data": 1940, "music_underrun_samples": 0, "modes": {"18": {"minimum_SP": 50364112, "PC": 50349604, "instructions": 994686}, "31": {"minimum_SP": 50361512, "PC": 50341288, "instructions": 7851230}}, "UI": [5395790, 0, 0, 0, 0, 10720, 0, 0, 11, 3, 1, 0, 0, 0, 1, 1, 0, 471, 10, 0, 0, 1, 1, 0]}
+{"scene": "sell_quantity", "SYS_margin_above_fast_code_data": 2020, "music_underrun_samples": 0, "modes": {"18": {"minimum_SP": 50364112, "PC": 50349604, "instructions": 994687}, "31": {"minimum_SP": 50361592, "PC": 50341288, "instructions": 8163670}}, "UI": [5395790, 0, 0, 0, 0, 10720, 0, 0, 11, 3, 1, 0, 0, 0, 1, 9, 1, 471, 10, 0, 0, 1, 1, 0]}
+{"scene": "buy_quantity_limit", "SYS_margin_above_fast_code_data": 2020, "music_underrun_samples": 0, "modes": {"18": {"minimum_SP": 50364112, "PC": 50349604, "instructions": 995142}, "31": {"minimum_SP": 50361592, "PC": 50341288, "instructions": 7586292}}, "UI": [5395790, 0, 0, 0, 0, 10720, 0, 0, 11, 3, 1, 0, 0, 0, 1, 8, 0, 2, 1, 0, 0, 1, 2, 0]}
+PASS 3371cc8ffac5dfe023ce9458d13617cdc00b2619286f04a5bb4374b7bd69c164

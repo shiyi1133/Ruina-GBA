@@ -1,0 +1,955 @@
+{
+  "status": "audit_complete",
+  "source_lock_verified": true,
+  "command_ids_match_pinned_liblcf": true,
+  "commands_observed": 167495,
+  "map_event_capacity": 512,
+  "largest_original_map_event_id": 349,
+  "largest_map": "Map0018.lmu",
+  "database_capacities": {
+    "MAX_ACTOR": {
+      "capacity": 130,
+      "original_maximum": 130,
+      "fits": true
+    },
+    "MAX_SKILL": {
+      "capacity": 430,
+      "original_maximum": 430,
+      "fits": true
+    },
+    "MAX_ITEM": {
+      "capacity": 932,
+      "original_maximum": 932,
+      "fits": true
+    },
+    "MAX_ENEMY": {
+      "capacity": 260,
+      "original_maximum": 260,
+      "fits": true
+    },
+    "MAX_TROOP": {
+      "capacity": 360,
+      "original_maximum": 360,
+      "fits": true
+    },
+    "MAX_ATTRIBUTE": {
+      "capacity": 60,
+      "original_maximum": 60,
+      "fits": true
+    },
+    "MAX_STATE": {
+      "capacity": 42,
+      "original_maximum": 42,
+      "fits": true
+    },
+    "MAX_SWITCH": {
+      "capacity": 1120,
+      "original_maximum": 1120,
+      "fits": true
+    },
+    "MAX_VAR": {
+      "capacity": 500,
+      "original_maximum": 500,
+      "fits": true
+    },
+    "MAX_COMMON": {
+      "capacity": 190,
+      "original_maximum": 190,
+      "fits": true
+    }
+  },
+  "battle_enemy_capacity": 10,
+  "original_map_pages": 8205,
+  "original_troop_pages": 476,
+  "parallel_map_pages": 23,
+  "operand_forms": {
+    "10220": {
+      "0": 5023,
+      "1": 778,
+      "7": 146,
+      "4": 845,
+      "5": 602,
+      "3": 608,
+      "6": 184,
+      "2": 23,
+      "8": 10
+    },
+    "12010": {
+      "1": 7416,
+      "0": 2586,
+      "5": 1645,
+      "3": 8,
+      "4": 358,
+      "9": 6,
+      "6": 16,
+      "2": 1
+    },
+    "10210": {
+      "1": 189,
+      "0": 6079
+    },
+    "13310": {
+      "0": 16,
+      "1": 250,
+      "3": 22
+    }
+  },
+  "forced_movement": {
+    "routes": 470,
+    "repeating_routes": 0,
+    "opcodes": {
+      "0": 158,
+      "1": 195,
+      "2": 141,
+      "3": 206,
+      "4": 63,
+      "5": 28,
+      "6": 55,
+      "7": 33,
+      "9": 3,
+      "11": 264,
+      "12": 15,
+      "13": 18,
+      "14": 22,
+      "15": 9,
+      "23": 3,
+      "26": 10,
+      "27": 4,
+      "28": 477,
+      "29": 418,
+      "34": 59,
+      "35": 7,
+      "36": 57,
+      "37": 45,
+      "39": 2,
+      "40": 15,
+      "41": 7
+    }
+  },
+  "work_order": [
+    "feature completeness and execution spot checks",
+    "runtime performance after functional acceptance"
+  ],
+  "full_game_compatibility": "not_complete",
+  "all_features_can_be_completed": "not_confirmed_by_existing_tests",
+  "functional_gaps": [
+    {
+      "feature": "原版地图探索与触发",
+      "status": "implemented_with_spot_checks",
+      "gap": "真实步行、接触、通行、强制移动已接入；本作8205页事件均为固定自主移动类型，未宣称支持任意RM2000自主AI"
+    },
+    {
+      "feature": "图片与特殊地图界面",
+      "status": "implemented_with_spot_checks",
+      "gap": "通用图片合成、坐标/缩放/透明度与实际底图已接入；手册、世界地图、锻造、制甲有独立GBA按键抽查"
+    },
+    {
+      "feature": "动画表现",
+      "status": "reduced_by_user_request",
+      "gap": "转场直接黑屏后显示新图，色调和透明度动画直接取端点；技能用短闪光和原音效，雨雪静态覆盖；独立事件等待与实质判定保留，见动画简化说明.txt"
+    },
+    {
+      "feature": "战斗数值与状态",
+      "status": "implemented_with_spot_checks",
+      "gap": "已有原函数对照、全部原状态命中组合和双击/全体武器检查；未宣称所有后期组合均经过自然游玩"
+    },
+    {
+      "feature": "称号、制作、料理、调和",
+      "status": "implemented_with_spot_checks",
+      "gap": "沿用原事件和配方条件；指定称号、料理、调和及锻造制甲抽查，全部配方枚举非人工试玩"
+    },
+    {
+      "feature": "存读档",
+      "status": "implemented_with_spot_checks",
+      "gap": "v5将39704字节Game压入32KiB SRAM，读取v2/v3/v4/v5；后期受控状态压缩往返已验，当前构建冷读档另计"
+    },
+    {
+      "feature": "完整音频",
+      "status": "simplified_profile_validation_separate",
+      "gap": "全部99首MIDI、6首WAV和218音效进入单卡，游戏和欣赏均用用户确认的简化音色；完整乐谱、循环、GBA时钟与队列压力报告分别绑定当前来源，不以旧全音源实验代表当前简化版"
+    },
+    {
+      "feature": "完整剧情与结局",
+      "status": "user_playthrough_not_run",
+      "gap": "原LCF事件未逐章改写；按用户分工，仅做功能与流程抽查，完整自然通关及实机验收由用户进行"
+    }
+  ],
+  "commands": [
+    {
+      "code": 0,
+      "name": "CommandStreamEnd",
+      "occurrences": 8871,
+      "category": "implemented subset; runtime acceptance separate",
+      "example": "Map0001.lmu/event1/page1",
+      "limit": null
+    },
+    {
+      "code": 10,
+      "name": "END",
+      "occurrences": 22105,
+      "category": "implemented subset; runtime acceptance separate",
+      "example": "Map0001.lmu/event1/page1",
+      "limit": null
+    },
+    {
+      "code": 10110,
+      "name": "ShowMessage",
+      "occurrences": 17778,
+      "category": "partial",
+      "example": "Map0001.lmu/event1/page1",
+      "limit": "Original text, variables, names, choices and paging retained; typewriter/color/wait glyph effects simplified for GBA"
+    },
+    {
+      "code": 10120,
+      "name": "MessageOptions",
+      "occurrences": 239,
+      "category": "implemented subset; runtime acceptance separate",
+      "example": "Map0002.lmu/event1/page1",
+      "limit": null
+    },
+    {
+      "code": 10130,
+      "name": "ChangeFaceGraphic",
+      "occurrences": 5281,
+      "category": "implemented subset; runtime acceptance separate",
+      "example": "Map0002.lmu/event1/page1",
+      "limit": null
+    },
+    {
+      "code": 10140,
+      "name": "ShowChoice",
+      "occurrences": 1514,
+      "category": "implemented subset; runtime acceptance separate",
+      "example": "Map0001.lmu/event1/page1",
+      "limit": null
+    },
+    {
+      "code": 10150,
+      "name": "InputNumber",
+      "occurrences": 22,
+      "category": "implemented subset; runtime acceptance separate",
+      "example": "Map0003.lmu/event17/page1",
+      "limit": null
+    },
+    {
+      "code": 10210,
+      "name": "ControlSwitches",
+      "occurrences": 6268,
+      "category": "implemented subset; runtime acceptance separate",
+      "example": "Map0001.lmu/event1/page1",
+      "limit": null
+    },
+    {
+      "code": 10220,
+      "name": "ControlVars",
+      "occurrences": 8219,
+      "category": "implemented subset; runtime acceptance separate",
+      "example": "Map0001.lmu/event1/page1",
+      "limit": null
+    },
+    {
+      "code": 10230,
+      "name": "TimerOperation",
+      "occurrences": 2,
+      "category": "implemented subset; runtime acceptance separate",
+      "example": "common108",
+      "limit": null
+    },
+    {
+      "code": 10310,
+      "name": "ChangeGold",
+      "occurrences": 66,
+      "category": "implemented subset; runtime acceptance separate",
+      "example": "Map0001.lmu/event1/page1",
+      "limit": null
+    },
+    {
+      "code": 10320,
+      "name": "ChangeItems",
+      "occurrences": 1665,
+      "category": "implemented subset; runtime acceptance separate",
+      "example": "Map0001.lmu/event1/page1",
+      "limit": null
+    },
+    {
+      "code": 10330,
+      "name": "ChangePartyMembers",
+      "occurrences": 32,
+      "category": "implemented subset; runtime acceptance separate",
+      "example": "Map0002.lmu/event1/page1",
+      "limit": null
+    },
+    {
+      "code": 10410,
+      "name": "ChangeExp",
+      "occurrences": 9,
+      "category": "implemented subset; runtime acceptance separate",
+      "example": "Map0001.lmu/event1/page1",
+      "limit": null
+    },
+    {
+      "code": 10420,
+      "name": "ChangeLevel",
+      "occurrences": 3,
+      "category": "implemented subset; runtime acceptance separate",
+      "example": "Map0001.lmu/event1/page1",
+      "limit": null
+    },
+    {
+      "code": 10430,
+      "name": "ChangeParameters",
+      "occurrences": 314,
+      "category": "implemented subset; runtime acceptance separate",
+      "example": "Map0001.lmu/event1/page1",
+      "limit": null
+    },
+    {
+      "code": 10440,
+      "name": "ChangeSkills",
+      "occurrences": 345,
+      "category": "implemented subset; runtime acceptance separate",
+      "example": "Map0001.lmu/event1/page1",
+      "limit": null
+    },
+    {
+      "code": 10450,
+      "name": "ChangeEquipment",
+      "occurrences": 233,
+      "category": "implemented subset; runtime acceptance separate",
+      "example": "Map0001.lmu/event1/page1",
+      "limit": null
+    },
+    {
+      "code": 10460,
+      "name": "ChangeHP",
+      "occurrences": 11,
+      "category": "implemented subset; runtime acceptance separate",
+      "example": "Map0031.lmu/event42/page1",
+      "limit": null
+    },
+    {
+      "code": 10470,
+      "name": "ChangeSP",
+      "occurrences": 21,
+      "category": "implemented subset; runtime acceptance separate",
+      "example": "Map0026.lmu/event20/page2",
+      "limit": null
+    },
+    {
+      "code": 10480,
+      "name": "ChangeCondition",
+      "occurrences": 206,
+      "category": "implemented subset; runtime acceptance separate",
+      "example": "Map0003.lmu/event20/page1",
+      "limit": null
+    },
+    {
+      "code": 10490,
+      "name": "FullHeal",
+      "occurrences": 54,
+      "category": "implemented subset; runtime acceptance separate",
+      "example": "Map0001.lmu/event1/page1",
+      "limit": null
+    },
+    {
+      "code": 10500,
+      "name": "SimulatedAttack",
+      "occurrences": 44,
+      "category": "implemented subset; runtime acceptance separate",
+      "example": "Map0023.lmu/event6/page1",
+      "limit": null
+    },
+    {
+      "code": 10610,
+      "name": "ChangeHeroName",
+      "occurrences": 720,
+      "category": "implemented subset; runtime acceptance separate",
+      "example": "Map0001.lmu/event1/page1",
+      "limit": null
+    },
+    {
+      "code": 10620,
+      "name": "ChangeHeroTitle",
+      "occurrences": 319,
+      "category": "implemented subset; runtime acceptance separate",
+      "example": "Map0001.lmu/event1/page1",
+      "limit": null
+    },
+    {
+      "code": 10630,
+      "name": "ChangeSpriteAssociation",
+      "occurrences": 68,
+      "category": "visual adaptation",
+      "example": "common25",
+      "limit": null
+    },
+    {
+      "code": 10640,
+      "name": "ChangeActorFace",
+      "occurrences": 144,
+      "category": "implemented subset; runtime acceptance separate",
+      "example": "Map0002.lmu/event1/page1",
+      "limit": null
+    },
+    {
+      "code": 10660,
+      "name": "ChangeSystemBGM",
+      "occurrences": 237,
+      "category": "implemented subset; runtime acceptance separate",
+      "example": "Map0003.lmu/event18/page1",
+      "limit": null
+    },
+    {
+      "code": 10670,
+      "name": "ChangeSystemSFX",
+      "occurrences": 9,
+      "category": "implemented subset; runtime acceptance separate",
+      "example": "Map0037.lmu/event26/page1",
+      "limit": null
+    },
+    {
+      "code": 10680,
+      "name": "ChangeSystemGraphics",
+      "occurrences": 91,
+      "category": "visual adaptation",
+      "example": "Map0002.lmu/event1/page1",
+      "limit": null
+    },
+    {
+      "code": 10690,
+      "name": "ChangeScreenTransitions",
+      "occurrences": 28,
+      "category": "partial",
+      "example": "Map0002.lmu/event1/page1",
+      "limit": "All scene transitions cut to black while preparing the next image, then show its final state without fades. Original transition style settings are not reproduced"
+    },
+    {
+      "code": 10710,
+      "name": "EnemyEncounter",
+      "occurrences": 640,
+      "category": "partial",
+      "example": "Map0003.lmu/event1/page3",
+      "limit": "Shared battle rules and original event pages implemented; late-game combinations receive spot checks, full campaign acceptance belongs to the user"
+    },
+    {
+      "code": 10720,
+      "name": "OpenShop",
+      "occurrences": 34,
+      "category": "implemented subset; runtime acceptance separate",
+      "example": "Map0003.lmu/event23/page1",
+      "limit": null
+    },
+    {
+      "code": 10740,
+      "name": "EnterHeroName",
+      "occurrences": 14,
+      "category": "implemented subset; runtime acceptance separate",
+      "example": "Map0002.lmu/event1/page1",
+      "limit": null
+    },
+    {
+      "code": 10810,
+      "name": "Teleport",
+      "occurrences": 570,
+      "category": "implemented subset; runtime acceptance separate",
+      "example": "Map0001.lmu/event1/page1",
+      "limit": null
+    },
+    {
+      "code": 10820,
+      "name": "MemorizeLocation",
+      "occurrences": 30,
+      "category": "implemented subset; runtime acceptance separate",
+      "example": "Map0003.lmu/event9/page1",
+      "limit": null
+    },
+    {
+      "code": 10830,
+      "name": "RecallToLocation",
+      "occurrences": 74,
+      "category": "implemented subset; runtime acceptance separate",
+      "example": "Map0005.lmu/event8/page6",
+      "limit": null
+    },
+    {
+      "code": 10860,
+      "name": "ChangeEventLocation",
+      "occurrences": 17,
+      "category": "implemented subset; runtime acceptance separate",
+      "example": "Map0038.lmu/event1/page1",
+      "limit": null
+    },
+    {
+      "code": 10910,
+      "name": "StoreTerrainID",
+      "occurrences": 1,
+      "category": "implemented subset; runtime acceptance separate",
+      "example": "common107",
+      "limit": null
+    },
+    {
+      "code": 11010,
+      "name": "EraseScreen",
+      "occurrences": 91,
+      "category": "visual adaptation",
+      "example": "Map0001.lmu/event1/page1",
+      "limit": null
+    },
+    {
+      "code": 11020,
+      "name": "ShowScreen",
+      "occurrences": 92,
+      "category": "visual adaptation",
+      "example": "Map0001.lmu/event1/page1",
+      "limit": null
+    },
+    {
+      "code": 11030,
+      "name": "TintScreen",
+      "occurrences": 831,
+      "category": "visual adaptation",
+      "example": "Map0002.lmu/event1/page1",
+      "limit": null
+    },
+    {
+      "code": 11040,
+      "name": "FlashScreen",
+      "occurrences": 447,
+      "category": "visual adaptation",
+      "example": "Map0003.lmu/event18/page1",
+      "limit": null
+    },
+    {
+      "code": 11050,
+      "name": "ShakeScreen",
+      "occurrences": 53,
+      "category": "visual adaptation",
+      "example": "Map0003.lmu/event18/page1",
+      "limit": null
+    },
+    {
+      "code": 11060,
+      "name": "PanScreen",
+      "occurrences": 14,
+      "category": "visual adaptation",
+      "example": "Map0012.lmu/event1/page1",
+      "limit": null
+    },
+    {
+      "code": 11070,
+      "name": "WeatherEffects",
+      "occurrences": 26,
+      "category": "visual adaptation",
+      "example": "Map0003.lmu/event9/page1",
+      "limit": null
+    },
+    {
+      "code": 11110,
+      "name": "ShowPicture",
+      "occurrences": 459,
+      "category": "implemented subset; runtime acceptance separate",
+      "example": "Map0001.lmu/event1/page1",
+      "limit": null
+    },
+    {
+      "code": 11120,
+      "name": "MovePicture",
+      "occurrences": 410,
+      "category": "visual adaptation",
+      "example": "Map0001.lmu/event1/page1",
+      "limit": null
+    },
+    {
+      "code": 11130,
+      "name": "ErasePicture",
+      "occurrences": 563,
+      "category": "implemented subset; runtime acceptance separate",
+      "example": "Map0001.lmu/event1/page1",
+      "limit": null
+    },
+    {
+      "code": 11210,
+      "name": "ShowBattleAnimation",
+      "occurrences": 3,
+      "category": "visual adaptation",
+      "example": "Map0003.lmu/event26/page2",
+      "limit": null
+    },
+    {
+      "code": 11310,
+      "name": "PlayerVisibility",
+      "occurrences": 26,
+      "category": "visual adaptation",
+      "example": "Map0002.lmu/event1/page1",
+      "limit": null
+    },
+    {
+      "code": 11330,
+      "name": "MoveEvent",
+      "occurrences": 470,
+      "category": "implemented subset; runtime acceptance separate",
+      "example": "Map0003.lmu/event10/page1",
+      "limit": null
+    },
+    {
+      "code": 11340,
+      "name": "ProceedWithMovement",
+      "occurrences": 200,
+      "category": "visual adaptation",
+      "example": "Map0003.lmu/event27/page1",
+      "limit": null
+    },
+    {
+      "code": 11410,
+      "name": "Wait",
+      "occurrences": 1275,
+      "category": "implemented subset; runtime acceptance separate",
+      "example": "Map0001.lmu/event1/page1",
+      "limit": null
+    },
+    {
+      "code": 11510,
+      "name": "PlayBGM",
+      "occurrences": 564,
+      "category": "implemented subset; runtime acceptance separate",
+      "example": "Map0001.lmu/event1/page1",
+      "limit": null
+    },
+    {
+      "code": 11520,
+      "name": "FadeOutBGM",
+      "occurrences": 228,
+      "category": "implemented subset; runtime acceptance separate",
+      "example": "Map0001.lmu/event1/page1",
+      "limit": null
+    },
+    {
+      "code": 11530,
+      "name": "MemorizeBGM",
+      "occurrences": 38,
+      "category": "implemented subset; runtime acceptance separate",
+      "example": "Map0003.lmu/event9/page1",
+      "limit": null
+    },
+    {
+      "code": 11540,
+      "name": "PlayMemorizedBGM",
+      "occurrences": 46,
+      "category": "implemented subset; runtime acceptance separate",
+      "example": "Map0003.lmu/event9/page3",
+      "limit": null
+    },
+    {
+      "code": 11550,
+      "name": "PlaySound",
+      "occurrences": 2441,
+      "category": "implemented subset; runtime acceptance separate",
+      "example": "Map0001.lmu/event1/page1",
+      "limit": null
+    },
+    {
+      "code": 11610,
+      "name": "KeyInputProc",
+      "occurrences": 79,
+      "category": "implemented subset; runtime acceptance separate",
+      "example": "Map0005.lmu/event2/page5",
+      "limit": null
+    },
+    {
+      "code": 11720,
+      "name": "ChangePBG",
+      "occurrences": 30,
+      "category": "visual adaptation",
+      "example": "Map0003.lmu/event13/page4",
+      "limit": null
+    },
+    {
+      "code": 11750,
+      "name": "TileSubstitution",
+      "occurrences": 219,
+      "category": "implemented subset; runtime acceptance separate",
+      "example": "Map0023.lmu/event4/page1",
+      "limit": null
+    },
+    {
+      "code": 11910,
+      "name": "OpenSaveMenu",
+      "occurrences": 12,
+      "category": "implemented subset; runtime acceptance separate",
+      "example": "Map0001.lmu/event1/page1",
+      "limit": null
+    },
+    {
+      "code": 11930,
+      "name": "ChangeSaveAccess",
+      "occurrences": 49,
+      "category": "implemented subset; runtime acceptance separate",
+      "example": "Map0017.lmu/event17/page1",
+      "limit": null
+    },
+    {
+      "code": 11960,
+      "name": "ChangeMainMenuAccess",
+      "occurrences": 28,
+      "category": "implemented subset; runtime acceptance separate",
+      "example": "Map0003.lmu/event9/page1",
+      "limit": null
+    },
+    {
+      "code": 12010,
+      "name": "ConditionalBranch",
+      "occurrences": 12036,
+      "category": "implemented subset; runtime acceptance separate",
+      "example": "Map0001.lmu/event1/page1",
+      "limit": null
+    },
+    {
+      "code": 12110,
+      "name": "Label",
+      "occurrences": 745,
+      "category": "implemented subset; runtime acceptance separate",
+      "example": "Map0001.lmu/event1/page1",
+      "limit": null
+    },
+    {
+      "code": 12120,
+      "name": "JumpToLabel",
+      "occurrences": 2459,
+      "category": "implemented subset; runtime acceptance separate",
+      "example": "Map0001.lmu/event1/page1",
+      "limit": null
+    },
+    {
+      "code": 12210,
+      "name": "Loop",
+      "occurrences": 193,
+      "category": "implemented subset; runtime acceptance separate",
+      "example": "Map0001.lmu/event1/page1",
+      "limit": null
+    },
+    {
+      "code": 12220,
+      "name": "BreakLoop",
+      "occurrences": 245,
+      "category": "implemented subset; runtime acceptance separate",
+      "example": "Map0001.lmu/event1/page1",
+      "limit": null
+    },
+    {
+      "code": 12310,
+      "name": "EndEventProcessing",
+      "occurrences": 1716,
+      "category": "implemented subset; runtime acceptance separate",
+      "example": "Map0001.lmu/event2/page1",
+      "limit": null
+    },
+    {
+      "code": 12320,
+      "name": "EraseEvent",
+      "occurrences": 154,
+      "category": "implemented subset; runtime acceptance separate",
+      "example": "Map0003.lmu/event10/page1",
+      "limit": null
+    },
+    {
+      "code": 12330,
+      "name": "CallEvent",
+      "occurrences": 9449,
+      "category": "implemented subset; runtime acceptance separate",
+      "example": "Map0001.lmu/event1/page1",
+      "limit": null
+    },
+    {
+      "code": 12410,
+      "name": "Comment",
+      "occurrences": 2295,
+      "category": "implemented subset; runtime acceptance separate",
+      "example": "Map0001.lmu/event1/page1",
+      "limit": null
+    },
+    {
+      "code": 12420,
+      "name": "GameOver",
+      "occurrences": 48,
+      "category": "implemented subset; runtime acceptance separate",
+      "example": "Map0023.lmu/event1/page4",
+      "limit": null
+    },
+    {
+      "code": 12510,
+      "name": "ReturntoTitleScreen",
+      "occurrences": 25,
+      "category": "implemented subset; runtime acceptance separate",
+      "example": "Map0001.lmu/event1/page1",
+      "limit": null
+    },
+    {
+      "code": 13110,
+      "name": "ChangeMonsterHP",
+      "occurrences": 103,
+      "category": "implemented subset; runtime acceptance separate",
+      "example": "troop136/page1",
+      "limit": null
+    },
+    {
+      "code": 13120,
+      "name": "ChangeMonsterMP",
+      "occurrences": 13,
+      "category": "implemented subset; runtime acceptance separate",
+      "example": "troop136/page1",
+      "limit": null
+    },
+    {
+      "code": 13130,
+      "name": "ChangeMonsterCondition",
+      "occurrences": 104,
+      "category": "implemented subset; runtime acceptance separate",
+      "example": "troop66/page2",
+      "limit": null
+    },
+    {
+      "code": 13150,
+      "name": "ShowHiddenMonster",
+      "occurrences": 82,
+      "category": "implemented subset; runtime acceptance separate",
+      "example": "troop58/page2",
+      "limit": null
+    },
+    {
+      "code": 13210,
+      "name": "ChangeBattleBG",
+      "occurrences": 5,
+      "category": "implemented subset; runtime acceptance separate",
+      "example": "troop180/page3",
+      "limit": null
+    },
+    {
+      "code": 13260,
+      "name": "ShowBattleAnimation_B",
+      "occurrences": 12,
+      "category": "implemented subset; runtime acceptance separate",
+      "example": "troop136/page1",
+      "limit": null
+    },
+    {
+      "code": 13310,
+      "name": "ConditionalBranch_B",
+      "occurrences": 288,
+      "category": "implemented subset; runtime acceptance separate",
+      "example": "troop58/page2",
+      "limit": null
+    },
+    {
+      "code": 13410,
+      "name": "TerminateBattle",
+      "occurrences": 9,
+      "category": "implemented subset; runtime acceptance separate",
+      "example": "troop29/page2",
+      "limit": null
+    },
+    {
+      "code": 20110,
+      "name": "ShowMessage_2",
+      "occurrences": 26528,
+      "category": "implemented subset; runtime acceptance separate",
+      "example": "Map0001.lmu/event1/page1",
+      "limit": null
+    },
+    {
+      "code": 20140,
+      "name": "ShowChoiceOption",
+      "occurrences": 3642,
+      "category": "implemented subset; runtime acceptance separate",
+      "example": "Map0001.lmu/event1/page1",
+      "limit": null
+    },
+    {
+      "code": 20141,
+      "name": "ShowChoiceEnd",
+      "occurrences": 1514,
+      "category": "implemented subset; runtime acceptance separate",
+      "example": "Map0001.lmu/event1/page1",
+      "limit": null
+    },
+    {
+      "code": 20710,
+      "name": "VictoryHandler",
+      "occurrences": 293,
+      "category": "implemented subset; runtime acceptance separate",
+      "example": "Map0003.lmu/event8/page9",
+      "limit": null
+    },
+    {
+      "code": 20711,
+      "name": "EscapeHandler",
+      "occurrences": 259,
+      "category": "implemented subset; runtime acceptance separate",
+      "example": "Map0003.lmu/event8/page9",
+      "limit": null
+    },
+    {
+      "code": 20712,
+      "name": "DefeatHandler",
+      "occurrences": 114,
+      "category": "implemented subset; runtime acceptance separate",
+      "example": "Map0004.lmu/event2/page1",
+      "limit": null
+    },
+    {
+      "code": 20713,
+      "name": "EndBattle",
+      "occurrences": 293,
+      "category": "implemented subset; runtime acceptance separate",
+      "example": "Map0003.lmu/event8/page9",
+      "limit": null
+    },
+    {
+      "code": 22010,
+      "name": "ElseBranch",
+      "occurrences": 5210,
+      "category": "implemented subset; runtime acceptance separate",
+      "example": "Map0001.lmu/event1/page1",
+      "limit": null
+    },
+    {
+      "code": 22011,
+      "name": "EndBranch",
+      "occurrences": 12037,
+      "category": "implemented subset; runtime acceptance separate",
+      "example": "Map0001.lmu/event1/page1",
+      "limit": null
+    },
+    {
+      "code": 22210,
+      "name": "EndLoop",
+      "occurrences": 193,
+      "category": "implemented subset; runtime acceptance separate",
+      "example": "Map0001.lmu/event1/page1",
+      "limit": null
+    },
+    {
+      "code": 22410,
+      "name": "Comment_2",
+      "occurrences": 2082,
+      "category": "implemented subset; runtime acceptance separate",
+      "example": "Map0001.lmu/event1/page1",
+      "limit": null
+    },
+    {
+      "code": 23310,
+      "name": "ElseBranch_B",
+      "occurrences": 69,
+      "category": "implemented subset; runtime acceptance separate",
+      "example": "troop88/page1",
+      "limit": null
+    },
+    {
+      "code": 23311,
+      "name": "EndBranch_B",
+      "occurrences": 288,
+      "category": "implemented subset; runtime acceptance separate",
+      "example": "troop58/page2",
+      "limit": null
+    }
+  ]
+}

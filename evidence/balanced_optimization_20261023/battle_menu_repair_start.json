@@ -1,0 +1,8 @@
+{
+  "status": "superseded_for_battle_menu_repairs",
+  "unix": 1792728921.6548083,
+  "previous_ROM_sha256": "40820faea497163e7bae56fd83600b2ea1870a5bd8255409e75906897c2e9958",
+  "reason": "User reports slow battle menus and missing B return. Current skill list still full-redraws, actor-command B has cancel=0, target cancellation skips its immediate parent; repair before publication. Whole-score run deliberately interrupted; no incomplete report is counted as passing.",
+  "common_regression_host_failure": "dense_actor_transition: OSError errno12 from opening a host screenshot; no game assertion failure. Preserve failure and repeat on final hash using Linux temporary screenshot storage.",
+  "GitHub": "not created; public authorized; no extra credits on GitHub homepage or release notes"
+}

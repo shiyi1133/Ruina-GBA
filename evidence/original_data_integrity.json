@@ -1,0 +1,382 @@
+{
+  "source_sha256": "589a0adb0f710200f19522e19a96fa394f67aabd40100edd8664bb60f5e509c4",
+  "data_integrity": "pass",
+  "runtime_rules": "not_run",
+  "gba_playthrough": "not_run",
+  "gba_ordinary_save_cold_load": "not_run",
+  "hardware": "not_run",
+  "files": [
+    {
+      "name": "Map0001.lmu",
+      "bytes": 15434,
+      "sha256": "39dfbb4deccfdee9c6c96c32efcd0e662c111789858bafd1d43fce6250d82d2a"
+    },
+    {
+      "name": "Map0002.lmu",
+      "bytes": 6893,
+      "sha256": "bff2e893f8053ab189484f285c4b8911e8e5a2b30ce7870a10ca93ed925ba1e3"
+    },
+    {
+      "name": "Map0003.lmu",
+      "bytes": 93226,
+      "sha256": "029f9cd3bbb240d5a4286fab6d2435c427dcf0259bd1ffe67364e17fbfc85d70"
+    },
+    {
+      "name": "Map0004.lmu",
+      "bytes": 93507,
+      "sha256": "b5a05a0f6c742b34a0c72546991bbbbf8a6288a1e6b690ce779aa9e1bd178b46"
+    },
+    {
+      "name": "Map0005.lmu",
+      "bytes": 91956,
+      "sha256": "66fdf71dd5263848c1e2dd4716883085e1888bd9ecd93a96263bfa825ded3125"
+    },
+    {
+      "name": "Map0006.lmu",
+      "bytes": 59243,
+      "sha256": "f2e46b3a39847833b9607ef459122c2ad935bdb3e2e66cfa51dd2e8a0124fe91"
+    },
+    {
+      "name": "Map0007.lmu",
+      "bytes": 33286,
+      "sha256": "db9043c5f6df8b5804d3c6130578f9ee376e7cbbdfcedd68f6e6943585be2222"
+    },
+    {
+      "name": "Map0008.lmu",
+      "bytes": 46563,
+      "sha256": "9ed73eee66e124a98e1ca599dcba3af459e18363735924cfa3d2f1ab7ab2e6e0"
+    },
+    {
+      "name": "Map0009.lmu",
+      "bytes": 40274,
+      "sha256": "f2dd2b785053c3a3dde13a078fbd171d0a6d3ae739b8479eb9a7585040787484"
+    },
+    {
+      "name": "Map0010.lmu",
+      "bytes": 9308,
+      "sha256": "970aff53be4e31f379a1f940298762b8c6929741c6a1ace2e8d1f756243eaaa5"
+    },
+    {
+      "name": "Map0011.lmu",
+      "bytes": 22112,
+      "sha256": "4e925ca0b20d4b1e46a0ff509e72a33fbda433ac41e28d88099c5cc1f1756f8b"
+    },
+    {
+      "name": "Map0012.lmu",
+      "bytes": 42078,
+      "sha256": "d89afee1bd6003fa53292a453fbd0aa9aea828f539d5d296141b74a785cf6bf1"
+    },
+    {
+      "name": "Map0013.lmu",
+      "bytes": 35332,
+      "sha256": "446a6f76a24e23fd5b539d3ea31df569aec00df958928ff850dc25c562bc80a2"
+    },
+    {
+      "name": "Map0014.lmu",
+      "bytes": 55603,
+      "sha256": "1645787f20ff0e20de43b87083fc18a02ce4f569b8780956bdb3e19d40244be3"
+    },
+    {
+      "name": "Map0015.lmu",
+      "bytes": 57859,
+      "sha256": "36dee828fc10f4c66a831de68469c4a4c413558c36e96987c21d60ca21a050f4"
+    },
+    {
+      "name": "Map0016.lmu",
+      "bytes": 22325,
+      "sha256": "5729d1d381ce5953536c596b6db51bbaec69ea5eb251ad785f51004c26c7acb4"
+    },
+    {
+      "name": "Map0017.lmu",
+      "bytes": 117562,
+      "sha256": "99e462d9e605d85af63c7466335e24a93d348260cc5ce5fdbd249b3a961d17f3"
+    },
+    {
+      "name": "Map0018.lmu",
+      "bytes": 47720,
+      "sha256": "55ef9276d13f801bf2af3076071c4f4e98e70123b54ca078d262c4b554188fa8"
+    },
+    {
+      "name": "Map0019.lmu",
+      "bytes": 44194,
+      "sha256": "d3008f0877f7c41cdc4b2671eac2040c8ebb2478f90540ef1d684e142f98c935"
+    },
+    {
+      "name": "Map0020.lmu",
+      "bytes": 7874,
+      "sha256": "51d643fd031e16ab75838de309b6556f4b42fb52d2f204d301985915e5081753"
+    },
+    {
+      "name": "Map0021.lmu",
+      "bytes": 38656,
+      "sha256": "434753d9a24a3e6eab880bbabc3a65ac13dccca443a2f7ea79b42cf1b0e85e51"
+    },
+    {
+      "name": "Map0022.lmu",
+      "bytes": 68373,
+      "sha256": "5e4044ec0a0d9a6fa045d0b06e5c70a70d3fa0f24ee416a8c92569e4009e6a02"
+    },
+    {
+      "name": "Map0023.lmu",
+      "bytes": 43887,
+      "sha256": "9cbf1eccf960ae37ddac8b3f14dae525fcdc9c2f662eb9a4559b0841f10df004"
+    },
+    {
+      "name": "Map0024.lmu",
+      "bytes": 40413,
+      "sha256": "13a5356064e229515ee366702d5e0256735f6eff42ffba3c6c0b9f3cf3841914"
+    },
+    {
+      "name": "Map0025.lmu",
+      "bytes": 40188,
+      "sha256": "f7d6503ba669bbd3b6c095c74740cf5bd183878af8c6c60a146c1d2896be9766"
+    },
+    {
+      "name": "Map0026.lmu",
+      "bytes": 120529,
+      "sha256": "3cfc83da8e52356458199b68a09055e3b7c70a299a9e6b1d2afb5364122dea62"
+    },
+    {
+      "name": "Map0027.lmu",
+      "bytes": 39979,
+      "sha256": "8f3e80dd3dadb435e2d7f154db61da7fe8e6af45ff38aa07dd1c675682a38533"
+    },
+    {
+      "name": "Map0028.lmu",
+      "bytes": 52764,
+      "sha256": "97631170682360976d4e7520ee6a03b4ce1d69829382f65819dabb3e404b5db7"
+    },
+    {
+      "name": "Map0029.lmu",
+      "bytes": 105435,
+      "sha256": "32473e12ed25cc7fee7fdcd28a3fa21dd1a064ee879ac1a9eb7e97ec12443437"
+    },
+    {
+      "name": "Map0030.lmu",
+      "bytes": 25875,
+      "sha256": "604f0377de08ebaf7db4a80d5518ced59fbf0e850d221906a8a1344a4db3bcaa"
+    },
+    {
+      "name": "Map0031.lmu",
+      "bytes": 95680,
+      "sha256": "f3cbabfd13f93ef57f957636304de9fbe3612f205f6f08e263cd1be4312d2c8a"
+    },
+    {
+      "name": "Map0032.lmu",
+      "bytes": 39120,
+      "sha256": "88d715b6ff606b2955baf4a9d97b20db32a9b6b496d713531648fc351c331d86"
+    },
+    {
+      "name": "Map0033.lmu",
+      "bytes": 68720,
+      "sha256": "af7def3f5277b379b555277e0a02f02307f2c60f5a5c829329c2a711176dbcfd"
+    },
+    {
+      "name": "Map0034.lmu",
+      "bytes": 56447,
+      "sha256": "13082aec3d53fd7aaa2a1e0f2809b288f6dc2df12e777d7a7ba1bc3e3102e3c8"
+    },
+    {
+      "name": "Map0035.lmu",
+      "bytes": 41800,
+      "sha256": "8d277bc26dc2cd1ec2b4ebc0190495c2a8121456a7c0c11e95b741fab9ecba04"
+    },
+    {
+      "name": "Map0036.lmu",
+      "bytes": 45737,
+      "sha256": "1baac46d8e8ac015caad45662ac40431d436b6c694e07c51f8e784420f6edf79"
+    },
+    {
+      "name": "Map0037.lmu",
+      "bytes": 59985,
+      "sha256": "a64acfe441c3bb8b57fd999c91e6d8f8647b4f21987859443790b90de41be00a"
+    },
+    {
+      "name": "Map0038.lmu",
+      "bytes": 40475,
+      "sha256": "ae704fab177060f1267db60d015cdaa354ab678c5a985fd67fa916b2edfd53f3"
+    },
+    {
+      "name": "Map0039.lmu",
+      "bytes": 14179,
+      "sha256": "4d1c9a87a055888b71029e920dbfef01115b11036b2620e98c282042297a8ec4"
+    },
+    {
+      "name": "Map0040.lmu",
+      "bytes": 19682,
+      "sha256": "75a90f8f461eb3e51b228872bcfd5c542cefd94c2a027618d869fbb08e4408dc"
+    },
+    {
+      "name": "Map0041.lmu",
+      "bytes": 4161,
+      "sha256": "0e94430096787b41e287e422fa1617e326c4de1f50688b88a4be519647ff8325"
+    },
+    {
+      "name": "Map0042.lmu",
+      "bytes": 88431,
+      "sha256": "51773d107eeb70efd9a39edff9919f7edc89be2f6708d223f09de9bb003d7eeb"
+    },
+    {
+      "name": "Map0043.lmu",
+      "bytes": 22049,
+      "sha256": "568b52e48aadcdbc293ee7d39ae6863d1c330d26e2b66191b47ae4fc265ca914"
+    },
+    {
+      "name": "Map0044.lmu",
+      "bytes": 52398,
+      "sha256": "0f1e2f3fd06ec8b0df189b878a7c7ee664397378a6feb4462e7bfb817072bf3d"
+    },
+    {
+      "name": "Map0045.lmu",
+      "bytes": 83895,
+      "sha256": "0118a454f71dd37600307ee23f30fa16ca32f0ceb018bf3983c9d220755dea28"
+    },
+    {
+      "name": "Map0046.lmu",
+      "bytes": 40911,
+      "sha256": "3c8ae4a57341b1d494059aa54d381af8e978473a0659ada172b1f03ec10fb26d"
+    },
+    {
+      "name": "Map0047.lmu",
+      "bytes": 59807,
+      "sha256": "308cbeac7fa9cfad8564dc1e78bdfffff8b357efa669b33f128a2f29bebf8e44"
+    },
+    {
+      "name": "Map0048.lmu",
+      "bytes": 26826,
+      "sha256": "f6f6fa963ecd5745ada71efd38fc373ce074d261e566fa2b58707d30be51c2a8"
+    },
+    {
+      "name": "Map0049.lmu",
+      "bytes": 25738,
+      "sha256": "4a20e8bc2c5ad1c253fc10a7019107543d0ebc710ac4d1dc2c43169a8d658964"
+    },
+    {
+      "name": "Map0050.lmu",
+      "bytes": 8046,
+      "sha256": "648f3757bb51008d161e9b5317a2d4f34adc4a781011c594b00029a40e4f1b3f"
+    },
+    {
+      "name": "Map0051.lmu",
+      "bytes": 14791,
+      "sha256": "277507888da942f27d0e6e184a1760696996c5bf67af12a94eb0660936d01feb"
+    },
+    {
+      "name": "Map0052.lmu",
+      "bytes": 13250,
+      "sha256": "51def2f8d278fd4d1c33cbafa72c70726d4df096831c2ddda077814ac09219c4"
+    },
+    {
+      "name": "Map0053.lmu",
+      "bytes": 17459,
+      "sha256": "f8c6dcb742573e238c1fc0f31fb2928803657ce04bb3fb125a49717fef845266"
+    },
+    {
+      "name": "Map0054.lmu",
+      "bytes": 18324,
+      "sha256": "d012a7e0f2e8cbff06674303e142bf3f7c45e59ca1297906c4d17978ceaaf8a9"
+    },
+    {
+      "name": "Map0055.lmu",
+      "bytes": 14536,
+      "sha256": "7fb55f8feabc3e6651e9537a7fce0d6b82a279da196779cb9cf38003b8e28acf"
+    },
+    {
+      "name": "Map0056.lmu",
+      "bytes": 12712,
+      "sha256": "7e11de099b9e20fc209b3f156c9dc85b5eb95d3b15b5b347c509a35e2dd9bcd7"
+    },
+    {
+      "name": "Map0057.lmu",
+      "bytes": 15601,
+      "sha256": "cbaca5591e3bed4f41c9bd63958682b237c405a5cccf4041f48fb0904f9faaf2"
+    },
+    {
+      "name": "Map0058.lmu",
+      "bytes": 20896,
+      "sha256": "a55532629ecb67b653813809bcc076adceebdef2ebeed129545c00b4108d2b66"
+    },
+    {
+      "name": "Map0059.lmu",
+      "bytes": 28052,
+      "sha256": "a2a9a2bb678a13329c401e81d719d79869a34e7c23ecc00f97cb0babeceabefd"
+    },
+    {
+      "name": "Map0060.lmu",
+      "bytes": 1249,
+      "sha256": "45e66c8cfca0c47da9212474a54e5951a94577aa2d5fea301c0ffa3e7d5d0147"
+    },
+    {
+      "name": "Map0061.lmu",
+      "bytes": 17186,
+      "sha256": "57ca2c471cc0c27f0467bdf4caa3f8e5d9c73b8a5733ba214dd742da973f100f"
+    },
+    {
+      "name": "Map0062.lmu",
+      "bytes": 20729,
+      "sha256": "eff3707b165ae11c83d08a8fd81cd6c285af7b97cbd60c19023c5ff3ed8909aa"
+    },
+    {
+      "name": "Map0063.lmu",
+      "bytes": 22996,
+      "sha256": "bfce9956651326ffa128b23ac22af8023590fc62614c93e8fb2bc3e80dc8ca88"
+    },
+    {
+      "name": "Map0064.lmu",
+      "bytes": 19989,
+      "sha256": "37f5781c52d7940e0414ae25852b14593b4d5390f8e5cd2dfd203d2a3b8827bd"
+    },
+    {
+      "name": "Map0065.lmu",
+      "bytes": 1254,
+      "sha256": "7f414cd730c9cbaf44f2d6450cf49852b952cbf1337733c4a8ef682e287ec86c"
+    },
+    {
+      "name": "Map0066.lmu",
+      "bytes": 1254,
+      "sha256": "4359ea910da7e224fc867f5f942044a6905d9370b7fff0b8cbce58f9b8247f75"
+    },
+    {
+      "name": "Map0067.lmu",
+      "bytes": 1249,
+      "sha256": "fb2e88095e05a8872daf024dc695e5e05058c4d061bf72bfe853af3eb82b2d8a"
+    },
+    {
+      "name": "Map0068.lmu",
+      "bytes": 1249,
+      "sha256": "fb2e88095e05a8872daf024dc695e5e05058c4d061bf72bfe853af3eb82b2d8a"
+    },
+    {
+      "name": "Map0069.lmu",
+      "bytes": 1249,
+      "sha256": "fb2e88095e05a8872daf024dc695e5e05058c4d061bf72bfe853af3eb82b2d8a"
+    },
+    {
+      "name": "Map0071.lmu",
+      "bytes": 1252,
+      "sha256": "5a07efb5c8b1c4beeecea91d29994c5e96e1dec548ba8fc1f3a82abeb43bf179"
+    },
+    {
+      "name": "Map0072.lmu",
+      "bytes": 1254,
+      "sha256": "426862675197bc2654e507eac1c3ea489d32d85a34f2ca8367084f71396ec2d9"
+    },
+    {
+      "name": "RPG_RT.ldb",
+      "bytes": 1203103,
+      "sha256": "038d19cbf046c57a9c5dde56750a6bd06392af8b610f2f61c1bfc145d78bb367"
+    },
+    {
+      "name": "RPG_RT.lmt",
+      "bytes": 5204,
+      "sha256": "85a0395678d4eb077e4e23b84887d3623afc12702afdeea52e883b9c4d74d8c0"
+    }
+  ],
+  "command_count": 167495,
+  "text_decoding_requires_review": [],
+  "rom_data_blob": {
+    "bytes": 3870992,
+    "sha256": "03042b9da41392bf8a9766cd9820184ebaaf8bb510fa8aea98a8e93159cc37e1",
+    "byte_for_byte_source_comparison": "pass"
+  }
+}

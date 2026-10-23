@@ -1,0 +1,4 @@
+{
+  "status": "superseded_test_scope",
+  "reason": "The prior stack script used R (256), which does not open the inventory description. Correct to L (512) and assert description mode. Production ROM is unchanged."
+}

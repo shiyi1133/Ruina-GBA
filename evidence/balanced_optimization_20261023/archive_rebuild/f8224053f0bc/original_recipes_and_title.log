@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/tmp/ruina-v07-archive-jg3acjl1/废都物语_GBA_匹配工程_v0.7_20261023/tools/check_incremental_rooms.py", line 57, in <module>
+  File "/tmp/ruina-v07-archive-jg3acjl1/废都物语_GBA_匹配工程_v0.7_20261023/tools/check_incremental_rooms.py", line 44, in main
+  File "/tmp/ruina-v07-archive-jg3acjl1/废都物语_GBA_匹配工程_v0.7_20261023/tools/check_source_menus.py", line 105, in run
+  File "/tmp/ruina-v07-archive-jg3acjl1/废都物语_GBA_匹配工程_v0.7_20261023/tools/check_source_menus.py", line 113, in cold_check
+  File "/usr/lib/python3.12/pathlib.py", line 1021, in read_bytes
+  File "/usr/lib/python3.12/pathlib.py", line 1015, in open
+FileNotFoundError: [Errno 2] No such file or directory: '/tmp/ruina-v07-archive-jg3acjl1/废都物语_GBA_匹配工程_v0.7_20261023/evidence/balanced_optimization_20261023/list_optimization/6e70c2dc0b4c/full_reference/campaign/after_cooking_and_workshops.sav'

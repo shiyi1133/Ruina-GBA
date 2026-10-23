@@ -1,0 +1,24 @@
+battle_mode_menu_down 2 33.49 ms; black 0
+battle_mode_menu_up 2 33.49 ms; black 0
+battle_mode_menu_down 2 33.49 ms; black 0
+battle_mode_menu_up 2 33.49 ms; black 0
+battle_mode_menu_down 2 33.49 ms; black 0
+battle_mode_menu_up 2 33.49 ms; black 0
+battle_actor_menu_down 2 33.49 ms; black 0
+battle_actor_menu_up 2 33.49 ms; black 0
+battle_actor_menu_down 2 33.49 ms; black 0
+battle_actor_menu_up 2 33.49 ms; black 0
+battle_actor_menu_down 2 33.49 ms; black 0
+battle_actor_menu_up 2 33.49 ms; black 0
+battle_skill_choose_target 9 150.68 ms; black 0
+Traceback (most recent call last):
+  File "/mnt/d/gba_hack/废都物语_GBA章节样版/tools/measure_balanced_battle.py", line 54, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/mnt/d/gba_hack/废都物语_GBA章节样版/tools/measure_balanced_battle.py", line 36, in main
+    meter.action('battle_skill_target_B_to_skill',2);assert e.debug()[15]==6,e.debug()
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/gba_hack/废都物语_GBA章节样版/tools/response_meter.py", line 22, in action
+    if strict_pixels:assert not unexpected,(label,'incomplete/intermediate LCD output',unexpected)
+                            ^^^^^^^^^^^^^^
+AssertionError: ('battle_skill_target_B_to_skill', 'incomplete/intermediate LCD output', [{'frame': 7, 'LCD_hash': '49418623546175a7', 'black_pixels': 0, 'presentations': 0, 'ready': 0, 'pending': 2}])

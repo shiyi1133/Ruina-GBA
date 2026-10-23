@@ -1,0 +1,14 @@
+{
+  "objective": "图片质量和性能持续优化，至少6小时，不能将未达到原版的部分称为完成",
+  "start_UTC": "2026-10-21T17:12:18Z",
+  "start_unix": 1792602738,
+  "minimum_seconds": 21600,
+  "earliest_delivery_UTC": "2026-10-21T23:12:18Z",
+  "earliest_delivery_Asia_Shanghai": "2026-10-22T07:12:18+08:00",
+  "baseline_rom_sha256": "219b9c59aa42a74fb83eac327920b6d076553122611ad556bc50979dea86325c",
+  "baseline_version": "0.5.1",
+  "status": "active",
+  "hardware": "not_run",
+  "full_playthrough": "user acceptance; developer spot checks",
+  "music_policy": "用户确认：音乐欣赏也使用简化音色，游戏中进一步简化；两种模式放在游戏内，保留原曲音符、节奏和段落。无需原音色分册。"
+}

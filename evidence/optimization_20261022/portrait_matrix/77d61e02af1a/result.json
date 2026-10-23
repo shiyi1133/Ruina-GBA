@@ -1,0 +1,5427 @@
+{
+  "status": "pass",
+  "stress_music_plus_four_effects": true,
+  "quick_subset": false,
+  "MIDI_underruns_after_priming": 0,
+  "original_portrait_bank_size": 160,
+  "single_original_portraits": 160,
+  "mixed_sheet_combinations": 375,
+  "LCD_faces_checked": 1660,
+  "different_pixels": 0,
+  "VBlank_commit_overruns": 0,
+  "max_commit_scanlines": 13,
+  "production_rom_sha256": "6f2b82efa61cd015f0216127dc875a61654a74b155d1f532897d7e7e015bee23",
+  "fixture_sha256": "77d61e02af1a8bb0bc5b24d9178972b2668ee5b6f1af2cdc246a45faa8878abe",
+  "native_bank_sha256": "cc29d4bdcd2725f8eeb8b11c759287f02380aabc9be69add3d8de4fe247856eb",
+  "mixed_bank_sha256": "53b47aaca84933b203e01a450a7e5f08f5f17b8e7e1d4c1f5f6f0a31d6af8339",
+  "kind": "all native singles match original XYZ RGB555; mixed pages match explicitly fitted palettes; alpha and decoder scratch ownership retained",
+  "mixed_color_error_report": "build/portrait_combinations_manifest.json",
+  "rows": [
+    {
+      "stage": 1,
+      "sheets_mask": 1,
+      "portraits": [
+        0
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 2,
+      "sheets_mask": 1,
+      "portraits": [
+        1
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 3,
+      "sheets_mask": 1,
+      "portraits": [
+        2
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 4,
+      "sheets_mask": 1,
+      "portraits": [
+        3
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 5,
+      "sheets_mask": 1,
+      "portraits": [
+        4
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 6,
+      "sheets_mask": 1,
+      "portraits": [
+        5
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 7,
+      "sheets_mask": 1,
+      "portraits": [
+        6
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 8,
+      "sheets_mask": 1,
+      "portraits": [
+        7
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 9,
+      "sheets_mask": 1,
+      "portraits": [
+        8
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 10,
+      "sheets_mask": 1,
+      "portraits": [
+        9
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 11,
+      "sheets_mask": 1,
+      "portraits": [
+        10
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 12,
+      "sheets_mask": 1,
+      "portraits": [
+        11
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 13,
+      "sheets_mask": 1,
+      "portraits": [
+        12
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 14,
+      "sheets_mask": 1,
+      "portraits": [
+        13
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 15,
+      "sheets_mask": 1,
+      "portraits": [
+        14
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 16,
+      "sheets_mask": 1,
+      "portraits": [
+        15
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 17,
+      "sheets_mask": 2,
+      "portraits": [
+        16
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 18,
+      "sheets_mask": 2,
+      "portraits": [
+        17
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 19,
+      "sheets_mask": 2,
+      "portraits": [
+        18
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 20,
+      "sheets_mask": 2,
+      "portraits": [
+        19
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 21,
+      "sheets_mask": 2,
+      "portraits": [
+        20
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 22,
+      "sheets_mask": 2,
+      "portraits": [
+        21
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 23,
+      "sheets_mask": 2,
+      "portraits": [
+        22
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 24,
+      "sheets_mask": 2,
+      "portraits": [
+        23
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 25,
+      "sheets_mask": 2,
+      "portraits": [
+        24
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 26,
+      "sheets_mask": 2,
+      "portraits": [
+        25
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 27,
+      "sheets_mask": 2,
+      "portraits": [
+        26
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 28,
+      "sheets_mask": 2,
+      "portraits": [
+        27
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 29,
+      "sheets_mask": 2,
+      "portraits": [
+        28
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 30,
+      "sheets_mask": 2,
+      "portraits": [
+        29
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 31,
+      "sheets_mask": 2,
+      "portraits": [
+        30
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 32,
+      "sheets_mask": 2,
+      "portraits": [
+        31
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 33,
+      "sheets_mask": 4,
+      "portraits": [
+        32
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 34,
+      "sheets_mask": 4,
+      "portraits": [
+        33
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 35,
+      "sheets_mask": 4,
+      "portraits": [
+        34
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 36,
+      "sheets_mask": 4,
+      "portraits": [
+        35
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 37,
+      "sheets_mask": 4,
+      "portraits": [
+        36
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 38,
+      "sheets_mask": 4,
+      "portraits": [
+        37
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 39,
+      "sheets_mask": 4,
+      "portraits": [
+        38
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 40,
+      "sheets_mask": 4,
+      "portraits": [
+        39
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 41,
+      "sheets_mask": 4,
+      "portraits": [
+        40
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 42,
+      "sheets_mask": 4,
+      "portraits": [
+        41
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 43,
+      "sheets_mask": 4,
+      "portraits": [
+        42
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 44,
+      "sheets_mask": 4,
+      "portraits": [
+        43
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 45,
+      "sheets_mask": 4,
+      "portraits": [
+        44
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 46,
+      "sheets_mask": 4,
+      "portraits": [
+        45
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 47,
+      "sheets_mask": 4,
+      "portraits": [
+        46
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 48,
+      "sheets_mask": 4,
+      "portraits": [
+        47
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 49,
+      "sheets_mask": 8,
+      "portraits": [
+        48
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 50,
+      "sheets_mask": 8,
+      "portraits": [
+        49
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 51,
+      "sheets_mask": 8,
+      "portraits": [
+        50
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 52,
+      "sheets_mask": 8,
+      "portraits": [
+        51
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 53,
+      "sheets_mask": 8,
+      "portraits": [
+        52
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 54,
+      "sheets_mask": 8,
+      "portraits": [
+        53
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 55,
+      "sheets_mask": 8,
+      "portraits": [
+        54
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 56,
+      "sheets_mask": 8,
+      "portraits": [
+        55
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 57,
+      "sheets_mask": 8,
+      "portraits": [
+        56
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 58,
+      "sheets_mask": 8,
+      "portraits": [
+        57
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 59,
+      "sheets_mask": 8,
+      "portraits": [
+        58
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 60,
+      "sheets_mask": 8,
+      "portraits": [
+        59
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 61,
+      "sheets_mask": 8,
+      "portraits": [
+        60
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 62,
+      "sheets_mask": 8,
+      "portraits": [
+        61
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 63,
+      "sheets_mask": 8,
+      "portraits": [
+        62
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 64,
+      "sheets_mask": 8,
+      "portraits": [
+        63
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 65,
+      "sheets_mask": 16,
+      "portraits": [
+        64
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 66,
+      "sheets_mask": 16,
+      "portraits": [
+        65
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 67,
+      "sheets_mask": 16,
+      "portraits": [
+        66
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 68,
+      "sheets_mask": 16,
+      "portraits": [
+        67
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 69,
+      "sheets_mask": 16,
+      "portraits": [
+        68
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 70,
+      "sheets_mask": 16,
+      "portraits": [
+        69
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 71,
+      "sheets_mask": 16,
+      "portraits": [
+        70
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 72,
+      "sheets_mask": 16,
+      "portraits": [
+        71
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 73,
+      "sheets_mask": 16,
+      "portraits": [
+        72
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 74,
+      "sheets_mask": 16,
+      "portraits": [
+        73
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 75,
+      "sheets_mask": 16,
+      "portraits": [
+        74
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 76,
+      "sheets_mask": 16,
+      "portraits": [
+        75
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 77,
+      "sheets_mask": 16,
+      "portraits": [
+        76
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 78,
+      "sheets_mask": 16,
+      "portraits": [
+        77
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 79,
+      "sheets_mask": 16,
+      "portraits": [
+        78
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 80,
+      "sheets_mask": 16,
+      "portraits": [
+        79
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 81,
+      "sheets_mask": 32,
+      "portraits": [
+        80
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 82,
+      "sheets_mask": 32,
+      "portraits": [
+        81
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 83,
+      "sheets_mask": 32,
+      "portraits": [
+        82
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 84,
+      "sheets_mask": 32,
+      "portraits": [
+        83
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 85,
+      "sheets_mask": 32,
+      "portraits": [
+        84
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 86,
+      "sheets_mask": 32,
+      "portraits": [
+        85
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 87,
+      "sheets_mask": 32,
+      "portraits": [
+        86
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 88,
+      "sheets_mask": 32,
+      "portraits": [
+        87
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 89,
+      "sheets_mask": 32,
+      "portraits": [
+        88
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 90,
+      "sheets_mask": 32,
+      "portraits": [
+        89
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 91,
+      "sheets_mask": 32,
+      "portraits": [
+        90
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 92,
+      "sheets_mask": 32,
+      "portraits": [
+        91
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 93,
+      "sheets_mask": 32,
+      "portraits": [
+        92
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 94,
+      "sheets_mask": 32,
+      "portraits": [
+        93
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 95,
+      "sheets_mask": 32,
+      "portraits": [
+        94
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 96,
+      "sheets_mask": 32,
+      "portraits": [
+        95
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 97,
+      "sheets_mask": 64,
+      "portraits": [
+        96
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 98,
+      "sheets_mask": 64,
+      "portraits": [
+        97
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 99,
+      "sheets_mask": 64,
+      "portraits": [
+        98
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 100,
+      "sheets_mask": 64,
+      "portraits": [
+        99
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 101,
+      "sheets_mask": 64,
+      "portraits": [
+        100
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 102,
+      "sheets_mask": 64,
+      "portraits": [
+        101
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 103,
+      "sheets_mask": 64,
+      "portraits": [
+        102
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 104,
+      "sheets_mask": 64,
+      "portraits": [
+        103
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 105,
+      "sheets_mask": 64,
+      "portraits": [
+        104
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 106,
+      "sheets_mask": 64,
+      "portraits": [
+        105
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 107,
+      "sheets_mask": 64,
+      "portraits": [
+        106
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 108,
+      "sheets_mask": 64,
+      "portraits": [
+        107
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 109,
+      "sheets_mask": 64,
+      "portraits": [
+        108
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 110,
+      "sheets_mask": 64,
+      "portraits": [
+        109
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 111,
+      "sheets_mask": 64,
+      "portraits": [
+        110
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 112,
+      "sheets_mask": 64,
+      "portraits": [
+        111
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 113,
+      "sheets_mask": 128,
+      "portraits": [
+        112
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 114,
+      "sheets_mask": 128,
+      "portraits": [
+        113
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 115,
+      "sheets_mask": 128,
+      "portraits": [
+        114
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 116,
+      "sheets_mask": 128,
+      "portraits": [
+        115
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 117,
+      "sheets_mask": 128,
+      "portraits": [
+        116
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 118,
+      "sheets_mask": 128,
+      "portraits": [
+        117
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 119,
+      "sheets_mask": 128,
+      "portraits": [
+        118
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 120,
+      "sheets_mask": 128,
+      "portraits": [
+        119
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 121,
+      "sheets_mask": 128,
+      "portraits": [
+        120
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 122,
+      "sheets_mask": 128,
+      "portraits": [
+        121
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 123,
+      "sheets_mask": 128,
+      "portraits": [
+        122
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 124,
+      "sheets_mask": 128,
+      "portraits": [
+        123
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 125,
+      "sheets_mask": 128,
+      "portraits": [
+        124
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 126,
+      "sheets_mask": 128,
+      "portraits": [
+        125
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 127,
+      "sheets_mask": 128,
+      "portraits": [
+        126
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 128,
+      "sheets_mask": 128,
+      "portraits": [
+        127
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 129,
+      "sheets_mask": 256,
+      "portraits": [
+        128
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 130,
+      "sheets_mask": 256,
+      "portraits": [
+        129
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 131,
+      "sheets_mask": 256,
+      "portraits": [
+        130
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 132,
+      "sheets_mask": 256,
+      "portraits": [
+        131
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 133,
+      "sheets_mask": 256,
+      "portraits": [
+        132
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 134,
+      "sheets_mask": 256,
+      "portraits": [
+        133
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 135,
+      "sheets_mask": 256,
+      "portraits": [
+        134
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 136,
+      "sheets_mask": 256,
+      "portraits": [
+        135
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 137,
+      "sheets_mask": 256,
+      "portraits": [
+        136
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 138,
+      "sheets_mask": 256,
+      "portraits": [
+        137
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 139,
+      "sheets_mask": 256,
+      "portraits": [
+        138
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 140,
+      "sheets_mask": 256,
+      "portraits": [
+        139
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 141,
+      "sheets_mask": 256,
+      "portraits": [
+        140
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 142,
+      "sheets_mask": 256,
+      "portraits": [
+        141
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 143,
+      "sheets_mask": 256,
+      "portraits": [
+        142
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 144,
+      "sheets_mask": 256,
+      "portraits": [
+        143
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 145,
+      "sheets_mask": 512,
+      "portraits": [
+        144
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 146,
+      "sheets_mask": 512,
+      "portraits": [
+        145
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 147,
+      "sheets_mask": 512,
+      "portraits": [
+        146
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 148,
+      "sheets_mask": 512,
+      "portraits": [
+        147
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 149,
+      "sheets_mask": 512,
+      "portraits": [
+        148
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 150,
+      "sheets_mask": 512,
+      "portraits": [
+        149
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 151,
+      "sheets_mask": 512,
+      "portraits": [
+        150
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 152,
+      "sheets_mask": 512,
+      "portraits": [
+        151
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 153,
+      "sheets_mask": 512,
+      "portraits": [
+        152
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 154,
+      "sheets_mask": 512,
+      "portraits": [
+        153
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 155,
+      "sheets_mask": 512,
+      "portraits": [
+        154
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 156,
+      "sheets_mask": 512,
+      "portraits": [
+        155
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 157,
+      "sheets_mask": 512,
+      "portraits": [
+        156
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 158,
+      "sheets_mask": 512,
+      "portraits": [
+        157
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 159,
+      "sheets_mask": 512,
+      "portraits": [
+        158
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 160,
+      "sheets_mask": 512,
+      "portraits": [
+        159
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 161,
+      "sheets_mask": 3,
+      "portraits": [
+        3,
+        26,
+        1,
+        24
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 162,
+      "sheets_mask": 5,
+      "portraits": [
+        5,
+        44,
+        3,
+        42
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 163,
+      "sheets_mask": 6,
+      "portraits": [
+        22,
+        45,
+        20,
+        43
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 164,
+      "sheets_mask": 7,
+      "portraits": [
+        7,
+        30,
+        37,
+        12
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 165,
+      "sheets_mask": 9,
+      "portraits": [
+        9,
+        48,
+        7,
+        62
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 166,
+      "sheets_mask": 10,
+      "portraits": [
+        26,
+        49,
+        24,
+        63
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 167,
+      "sheets_mask": 11,
+      "portraits": [
+        11,
+        18,
+        57,
+        0
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 168,
+      "sheets_mask": 12,
+      "portraits": [
+        44,
+        51,
+        42,
+        49
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 169,
+      "sheets_mask": 13,
+      "portraits": [
+        13,
+        36,
+        59,
+        2
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 170,
+      "sheets_mask": 14,
+      "portraits": [
+        30,
+        37,
+        60,
+        19
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 171,
+      "sheets_mask": 15,
+      "portraits": [
+        15,
+        22,
+        45,
+        52
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 172,
+      "sheets_mask": 17,
+      "portraits": [
+        1,
+        72,
+        15,
+        70
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 173,
+      "sheets_mask": 18,
+      "portraits": [
+        18,
+        73,
+        16,
+        71
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 174,
+      "sheets_mask": 19,
+      "portraits": [
+        3,
+        26,
+        65,
+        8
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 175,
+      "sheets_mask": 20,
+      "portraits": [
+        36,
+        75,
+        34,
+        73
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 176,
+      "sheets_mask": 21,
+      "portraits": [
+        5,
+        44,
+        67,
+        10
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 177,
+      "sheets_mask": 22,
+      "portraits": [
+        22,
+        45,
+        68,
+        27
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 178,
+      "sheets_mask": 23,
+      "portraits": [
+        7,
+        30,
+        37,
+        76
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 179,
+      "sheets_mask": 24,
+      "portraits": [
+        56,
+        79,
+        54,
+        77
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 180,
+      "sheets_mask": 25,
+      "portraits": [
+        9,
+        48,
+        71,
+        14
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 181,
+      "sheets_mask": 26,
+      "portraits": [
+        26,
+        49,
+        72,
+        31
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 182,
+      "sheets_mask": 27,
+      "portraits": [
+        11,
+        18,
+        57,
+        64
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 183,
+      "sheets_mask": 28,
+      "portraits": [
+        44,
+        51,
+        74,
+        33
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 184,
+      "sheets_mask": 29,
+      "portraits": [
+        13,
+        36,
+        59,
+        66
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 185,
+      "sheets_mask": 30,
+      "portraits": [
+        30,
+        37,
+        60,
+        67
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 186,
+      "sheets_mask": 33,
+      "portraits": [
+        1,
+        88,
+        15,
+        86
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 187,
+      "sheets_mask": 34,
+      "portraits": [
+        18,
+        89,
+        16,
+        87
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 188,
+      "sheets_mask": 35,
+      "portraits": [
+        3,
+        26,
+        81,
+        8
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 189,
+      "sheets_mask": 36,
+      "portraits": [
+        36,
+        91,
+        34,
+        89
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 190,
+      "sheets_mask": 37,
+      "portraits": [
+        5,
+        44,
+        83,
+        10
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 191,
+      "sheets_mask": 38,
+      "portraits": [
+        22,
+        45,
+        84,
+        27
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 192,
+      "sheets_mask": 39,
+      "portraits": [
+        7,
+        30,
+        37,
+        92
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 193,
+      "sheets_mask": 40,
+      "portraits": [
+        56,
+        95,
+        54,
+        93
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 194,
+      "sheets_mask": 41,
+      "portraits": [
+        9,
+        48,
+        87,
+        14
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 195,
+      "sheets_mask": 42,
+      "portraits": [
+        26,
+        49,
+        88,
+        31
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 196,
+      "sheets_mask": 43,
+      "portraits": [
+        11,
+        18,
+        57,
+        80
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 197,
+      "sheets_mask": 44,
+      "portraits": [
+        44,
+        51,
+        90,
+        33
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 198,
+      "sheets_mask": 45,
+      "portraits": [
+        13,
+        36,
+        59,
+        82
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 199,
+      "sheets_mask": 46,
+      "portraits": [
+        30,
+        37,
+        60,
+        83
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 200,
+      "sheets_mask": 48,
+      "portraits": [
+        64,
+        87,
+        78,
+        85
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 201,
+      "sheets_mask": 49,
+      "portraits": [
+        1,
+        72,
+        95,
+        6
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 202,
+      "sheets_mask": 50,
+      "portraits": [
+        18,
+        73,
+        80,
+        23
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 203,
+      "sheets_mask": 51,
+      "portraits": [
+        3,
+        26,
+        65,
+        88
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 204,
+      "sheets_mask": 52,
+      "portraits": [
+        36,
+        75,
+        82,
+        41
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 205,
+      "sheets_mask": 53,
+      "portraits": [
+        5,
+        44,
+        67,
+        90
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 206,
+      "sheets_mask": 54,
+      "portraits": [
+        22,
+        45,
+        68,
+        91
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 207,
+      "sheets_mask": 56,
+      "portraits": [
+        56,
+        79,
+        86,
+        61
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 208,
+      "sheets_mask": 57,
+      "portraits": [
+        9,
+        48,
+        71,
+        94
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 209,
+      "sheets_mask": 58,
+      "portraits": [
+        26,
+        49,
+        72,
+        95
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 210,
+      "sheets_mask": 60,
+      "portraits": [
+        44,
+        51,
+        74,
+        81
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 211,
+      "sheets_mask": 65,
+      "portraits": [
+        1,
+        104,
+        15,
+        102
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 212,
+      "sheets_mask": 66,
+      "portraits": [
+        18,
+        105,
+        16,
+        103
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 213,
+      "sheets_mask": 67,
+      "portraits": [
+        3,
+        26,
+        97,
+        8
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 214,
+      "sheets_mask": 68,
+      "portraits": [
+        36,
+        107,
+        34,
+        105
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 215,
+      "sheets_mask": 69,
+      "portraits": [
+        5,
+        44,
+        99,
+        10
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 216,
+      "sheets_mask": 70,
+      "portraits": [
+        22,
+        45,
+        100,
+        27
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 217,
+      "sheets_mask": 71,
+      "portraits": [
+        7,
+        30,
+        37,
+        108
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 218,
+      "sheets_mask": 72,
+      "portraits": [
+        56,
+        111,
+        54,
+        109
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 219,
+      "sheets_mask": 73,
+      "portraits": [
+        9,
+        48,
+        103,
+        14
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 220,
+      "sheets_mask": 74,
+      "portraits": [
+        26,
+        49,
+        104,
+        31
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 221,
+      "sheets_mask": 75,
+      "portraits": [
+        11,
+        18,
+        57,
+        96
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 222,
+      "sheets_mask": 76,
+      "portraits": [
+        44,
+        51,
+        106,
+        33
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 223,
+      "sheets_mask": 77,
+      "portraits": [
+        13,
+        36,
+        59,
+        98
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 224,
+      "sheets_mask": 78,
+      "portraits": [
+        30,
+        37,
+        60,
+        99
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 225,
+      "sheets_mask": 80,
+      "portraits": [
+        64,
+        103,
+        78,
+        101
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 226,
+      "sheets_mask": 81,
+      "portraits": [
+        1,
+        72,
+        111,
+        6
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 227,
+      "sheets_mask": 82,
+      "portraits": [
+        18,
+        73,
+        96,
+        23
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 228,
+      "sheets_mask": 83,
+      "portraits": [
+        3,
+        26,
+        65,
+        104
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 229,
+      "sheets_mask": 84,
+      "portraits": [
+        36,
+        75,
+        98,
+        41
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 230,
+      "sheets_mask": 85,
+      "portraits": [
+        5,
+        44,
+        67,
+        106
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 231,
+      "sheets_mask": 86,
+      "portraits": [
+        22,
+        45,
+        68,
+        107
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 232,
+      "sheets_mask": 88,
+      "portraits": [
+        56,
+        79,
+        102,
+        61
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 233,
+      "sheets_mask": 89,
+      "portraits": [
+        9,
+        48,
+        71,
+        110
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 234,
+      "sheets_mask": 90,
+      "portraits": [
+        26,
+        49,
+        72,
+        111
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 235,
+      "sheets_mask": 92,
+      "portraits": [
+        44,
+        51,
+        74,
+        97
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 236,
+      "sheets_mask": 96,
+      "portraits": [
+        80,
+        103,
+        94,
+        101
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 237,
+      "sheets_mask": 97,
+      "portraits": [
+        1,
+        88,
+        111,
+        6
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 238,
+      "sheets_mask": 98,
+      "portraits": [
+        18,
+        89,
+        96,
+        23
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 239,
+      "sheets_mask": 99,
+      "portraits": [
+        3,
+        26,
+        81,
+        104
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 240,
+      "sheets_mask": 100,
+      "portraits": [
+        36,
+        91,
+        98,
+        41
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 241,
+      "sheets_mask": 101,
+      "portraits": [
+        5,
+        44,
+        83,
+        106
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 242,
+      "sheets_mask": 102,
+      "portraits": [
+        22,
+        45,
+        84,
+        107
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 243,
+      "sheets_mask": 104,
+      "portraits": [
+        56,
+        95,
+        102,
+        61
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 244,
+      "sheets_mask": 105,
+      "portraits": [
+        9,
+        48,
+        87,
+        110
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 245,
+      "sheets_mask": 106,
+      "portraits": [
+        26,
+        49,
+        88,
+        111
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 246,
+      "sheets_mask": 108,
+      "portraits": [
+        44,
+        51,
+        90,
+        97
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 247,
+      "sheets_mask": 112,
+      "portraits": [
+        64,
+        87,
+        110,
+        69
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 248,
+      "sheets_mask": 113,
+      "portraits": [
+        1,
+        72,
+        95,
+        102
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 249,
+      "sheets_mask": 114,
+      "portraits": [
+        18,
+        73,
+        80,
+        103
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 250,
+      "sheets_mask": 116,
+      "portraits": [
+        36,
+        75,
+        82,
+        105
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 251,
+      "sheets_mask": 120,
+      "portraits": [
+        56,
+        79,
+        86,
+        109
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 252,
+      "sheets_mask": 129,
+      "portraits": [
+        1,
+        120,
+        15,
+        118
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 253,
+      "sheets_mask": 130,
+      "portraits": [
+        18,
+        121,
+        16,
+        119
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 254,
+      "sheets_mask": 131,
+      "portraits": [
+        3,
+        26,
+        113,
+        8
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 255,
+      "sheets_mask": 132,
+      "portraits": [
+        36,
+        123,
+        34,
+        121
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 256,
+      "sheets_mask": 133,
+      "portraits": [
+        5,
+        44,
+        115,
+        10
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 257,
+      "sheets_mask": 134,
+      "portraits": [
+        22,
+        45,
+        116,
+        27
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 258,
+      "sheets_mask": 135,
+      "portraits": [
+        7,
+        30,
+        37,
+        124
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 259,
+      "sheets_mask": 136,
+      "portraits": [
+        56,
+        127,
+        54,
+        125
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 260,
+      "sheets_mask": 137,
+      "portraits": [
+        9,
+        48,
+        119,
+        14
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 261,
+      "sheets_mask": 138,
+      "portraits": [
+        26,
+        49,
+        120,
+        31
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 262,
+      "sheets_mask": 139,
+      "portraits": [
+        11,
+        18,
+        57,
+        112
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 263,
+      "sheets_mask": 140,
+      "portraits": [
+        44,
+        51,
+        122,
+        33
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 264,
+      "sheets_mask": 141,
+      "portraits": [
+        13,
+        36,
+        59,
+        114
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 265,
+      "sheets_mask": 142,
+      "portraits": [
+        30,
+        37,
+        60,
+        115
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 266,
+      "sheets_mask": 144,
+      "portraits": [
+        64,
+        119,
+        78,
+        117
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 267,
+      "sheets_mask": 145,
+      "portraits": [
+        1,
+        72,
+        127,
+        6
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 268,
+      "sheets_mask": 146,
+      "portraits": [
+        18,
+        73,
+        112,
+        23
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 269,
+      "sheets_mask": 147,
+      "portraits": [
+        3,
+        26,
+        65,
+        120
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 270,
+      "sheets_mask": 148,
+      "portraits": [
+        36,
+        75,
+        114,
+        41
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 271,
+      "sheets_mask": 149,
+      "portraits": [
+        5,
+        44,
+        67,
+        122
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 272,
+      "sheets_mask": 150,
+      "portraits": [
+        22,
+        45,
+        68,
+        123
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 273,
+      "sheets_mask": 152,
+      "portraits": [
+        56,
+        79,
+        118,
+        61
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 274,
+      "sheets_mask": 153,
+      "portraits": [
+        9,
+        48,
+        71,
+        126
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 275,
+      "sheets_mask": 154,
+      "portraits": [
+        26,
+        49,
+        72,
+        127
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 276,
+      "sheets_mask": 156,
+      "portraits": [
+        44,
+        51,
+        74,
+        113
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 277,
+      "sheets_mask": 160,
+      "portraits": [
+        80,
+        119,
+        94,
+        117
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 278,
+      "sheets_mask": 161,
+      "portraits": [
+        1,
+        88,
+        127,
+        6
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 279,
+      "sheets_mask": 162,
+      "portraits": [
+        18,
+        89,
+        112,
+        23
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 280,
+      "sheets_mask": 163,
+      "portraits": [
+        3,
+        26,
+        81,
+        120
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 281,
+      "sheets_mask": 164,
+      "portraits": [
+        36,
+        91,
+        114,
+        41
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 282,
+      "sheets_mask": 165,
+      "portraits": [
+        5,
+        44,
+        83,
+        122
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 283,
+      "sheets_mask": 166,
+      "portraits": [
+        22,
+        45,
+        84,
+        123
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 284,
+      "sheets_mask": 168,
+      "portraits": [
+        56,
+        95,
+        118,
+        61
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 285,
+      "sheets_mask": 169,
+      "portraits": [
+        9,
+        48,
+        87,
+        126
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 286,
+      "sheets_mask": 170,
+      "portraits": [
+        26,
+        49,
+        88,
+        127
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 287,
+      "sheets_mask": 172,
+      "portraits": [
+        44,
+        51,
+        90,
+        113
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 288,
+      "sheets_mask": 176,
+      "portraits": [
+        64,
+        87,
+        126,
+        69
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 289,
+      "sheets_mask": 177,
+      "portraits": [
+        1,
+        72,
+        95,
+        118
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 290,
+      "sheets_mask": 178,
+      "portraits": [
+        18,
+        73,
+        80,
+        119
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 291,
+      "sheets_mask": 180,
+      "portraits": [
+        36,
+        75,
+        82,
+        121
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 292,
+      "sheets_mask": 184,
+      "portraits": [
+        56,
+        79,
+        86,
+        125
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 293,
+      "sheets_mask": 192,
+      "portraits": [
+        96,
+        119,
+        110,
+        117
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 294,
+      "sheets_mask": 193,
+      "portraits": [
+        1,
+        104,
+        127,
+        6
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 295,
+      "sheets_mask": 194,
+      "portraits": [
+        18,
+        105,
+        112,
+        23
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 296,
+      "sheets_mask": 195,
+      "portraits": [
+        3,
+        26,
+        97,
+        120
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 297,
+      "sheets_mask": 196,
+      "portraits": [
+        36,
+        107,
+        114,
+        41
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 298,
+      "sheets_mask": 197,
+      "portraits": [
+        5,
+        44,
+        99,
+        122
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 299,
+      "sheets_mask": 198,
+      "portraits": [
+        22,
+        45,
+        100,
+        123
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 300,
+      "sheets_mask": 200,
+      "portraits": [
+        56,
+        111,
+        118,
+        61
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 301,
+      "sheets_mask": 201,
+      "portraits": [
+        9,
+        48,
+        103,
+        126
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 302,
+      "sheets_mask": 202,
+      "portraits": [
+        26,
+        49,
+        104,
+        127
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 303,
+      "sheets_mask": 204,
+      "portraits": [
+        44,
+        51,
+        106,
+        113
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 304,
+      "sheets_mask": 208,
+      "portraits": [
+        64,
+        103,
+        126,
+        69
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 305,
+      "sheets_mask": 209,
+      "portraits": [
+        1,
+        72,
+        111,
+        118
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 306,
+      "sheets_mask": 210,
+      "portraits": [
+        18,
+        73,
+        96,
+        119
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 307,
+      "sheets_mask": 212,
+      "portraits": [
+        36,
+        75,
+        98,
+        121
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 308,
+      "sheets_mask": 216,
+      "portraits": [
+        56,
+        79,
+        102,
+        125
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 309,
+      "sheets_mask": 224,
+      "portraits": [
+        80,
+        103,
+        126,
+        85
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 310,
+      "sheets_mask": 225,
+      "portraits": [
+        1,
+        88,
+        111,
+        118
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 311,
+      "sheets_mask": 226,
+      "portraits": [
+        18,
+        89,
+        96,
+        119
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 312,
+      "sheets_mask": 228,
+      "portraits": [
+        36,
+        91,
+        98,
+        121
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 313,
+      "sheets_mask": 232,
+      "portraits": [
+        56,
+        95,
+        102,
+        125
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 314,
+      "sheets_mask": 240,
+      "portraits": [
+        64,
+        87,
+        110,
+        117
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 315,
+      "sheets_mask": 257,
+      "portraits": [
+        1,
+        136,
+        15,
+        134
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 316,
+      "sheets_mask": 258,
+      "portraits": [
+        18,
+        137,
+        16,
+        135
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 317,
+      "sheets_mask": 259,
+      "portraits": [
+        3,
+        26,
+        129,
+        8
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 318,
+      "sheets_mask": 260,
+      "portraits": [
+        36,
+        139,
+        34,
+        137
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 319,
+      "sheets_mask": 261,
+      "portraits": [
+        5,
+        44,
+        131,
+        10
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 320,
+      "sheets_mask": 262,
+      "portraits": [
+        22,
+        45,
+        132,
+        27
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 321,
+      "sheets_mask": 263,
+      "portraits": [
+        7,
+        30,
+        37,
+        140
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 322,
+      "sheets_mask": 264,
+      "portraits": [
+        56,
+        143,
+        54,
+        141
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 323,
+      "sheets_mask": 265,
+      "portraits": [
+        9,
+        48,
+        135,
+        14
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 324,
+      "sheets_mask": 266,
+      "portraits": [
+        26,
+        49,
+        136,
+        31
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 325,
+      "sheets_mask": 267,
+      "portraits": [
+        11,
+        18,
+        57,
+        128
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 326,
+      "sheets_mask": 268,
+      "portraits": [
+        44,
+        51,
+        138,
+        33
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 327,
+      "sheets_mask": 269,
+      "portraits": [
+        13,
+        36,
+        59,
+        130
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 328,
+      "sheets_mask": 270,
+      "portraits": [
+        30,
+        37,
+        60,
+        131
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 329,
+      "sheets_mask": 272,
+      "portraits": [
+        64,
+        135,
+        78,
+        133
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 330,
+      "sheets_mask": 273,
+      "portraits": [
+        1,
+        72,
+        143,
+        6
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 331,
+      "sheets_mask": 274,
+      "portraits": [
+        18,
+        73,
+        128,
+        23
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 332,
+      "sheets_mask": 275,
+      "portraits": [
+        3,
+        26,
+        65,
+        136
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 333,
+      "sheets_mask": 276,
+      "portraits": [
+        36,
+        75,
+        130,
+        41
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 334,
+      "sheets_mask": 277,
+      "portraits": [
+        5,
+        44,
+        67,
+        138
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 335,
+      "sheets_mask": 278,
+      "portraits": [
+        22,
+        45,
+        68,
+        139
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 336,
+      "sheets_mask": 280,
+      "portraits": [
+        56,
+        79,
+        134,
+        61
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 337,
+      "sheets_mask": 281,
+      "portraits": [
+        9,
+        48,
+        71,
+        142
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 338,
+      "sheets_mask": 282,
+      "portraits": [
+        26,
+        49,
+        72,
+        143
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 339,
+      "sheets_mask": 284,
+      "portraits": [
+        44,
+        51,
+        74,
+        129
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 340,
+      "sheets_mask": 288,
+      "portraits": [
+        80,
+        135,
+        94,
+        133
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 341,
+      "sheets_mask": 289,
+      "portraits": [
+        1,
+        88,
+        143,
+        6
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 342,
+      "sheets_mask": 290,
+      "portraits": [
+        18,
+        89,
+        128,
+        23
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 343,
+      "sheets_mask": 291,
+      "portraits": [
+        3,
+        26,
+        81,
+        136
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 344,
+      "sheets_mask": 292,
+      "portraits": [
+        36,
+        91,
+        130,
+        41
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 345,
+      "sheets_mask": 293,
+      "portraits": [
+        5,
+        44,
+        83,
+        138
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 346,
+      "sheets_mask": 294,
+      "portraits": [
+        22,
+        45,
+        84,
+        139
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 347,
+      "sheets_mask": 296,
+      "portraits": [
+        56,
+        95,
+        134,
+        61
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 348,
+      "sheets_mask": 297,
+      "portraits": [
+        9,
+        48,
+        87,
+        142
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 349,
+      "sheets_mask": 298,
+      "portraits": [
+        26,
+        49,
+        88,
+        143
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 350,
+      "sheets_mask": 300,
+      "portraits": [
+        44,
+        51,
+        90,
+        129
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 351,
+      "sheets_mask": 304,
+      "portraits": [
+        64,
+        87,
+        142,
+        69
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 352,
+      "sheets_mask": 305,
+      "portraits": [
+        1,
+        72,
+        95,
+        134
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 353,
+      "sheets_mask": 306,
+      "portraits": [
+        18,
+        73,
+        80,
+        135
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 354,
+      "sheets_mask": 308,
+      "portraits": [
+        36,
+        75,
+        82,
+        137
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 355,
+      "sheets_mask": 312,
+      "portraits": [
+        56,
+        79,
+        86,
+        141
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 356,
+      "sheets_mask": 320,
+      "portraits": [
+        96,
+        135,
+        110,
+        133
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 357,
+      "sheets_mask": 321,
+      "portraits": [
+        1,
+        104,
+        143,
+        6
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 358,
+      "sheets_mask": 322,
+      "portraits": [
+        18,
+        105,
+        128,
+        23
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 359,
+      "sheets_mask": 323,
+      "portraits": [
+        3,
+        26,
+        97,
+        136
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 360,
+      "sheets_mask": 324,
+      "portraits": [
+        36,
+        107,
+        130,
+        41
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 361,
+      "sheets_mask": 325,
+      "portraits": [
+        5,
+        44,
+        99,
+        138
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 362,
+      "sheets_mask": 326,
+      "portraits": [
+        22,
+        45,
+        100,
+        139
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 363,
+      "sheets_mask": 328,
+      "portraits": [
+        56,
+        111,
+        134,
+        61
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 364,
+      "sheets_mask": 329,
+      "portraits": [
+        9,
+        48,
+        103,
+        142
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 365,
+      "sheets_mask": 330,
+      "portraits": [
+        26,
+        49,
+        104,
+        143
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 366,
+      "sheets_mask": 332,
+      "portraits": [
+        44,
+        51,
+        106,
+        129
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 367,
+      "sheets_mask": 336,
+      "portraits": [
+        64,
+        103,
+        142,
+        69
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 368,
+      "sheets_mask": 337,
+      "portraits": [
+        1,
+        72,
+        111,
+        134
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 369,
+      "sheets_mask": 338,
+      "portraits": [
+        18,
+        73,
+        96,
+        135
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 370,
+      "sheets_mask": 340,
+      "portraits": [
+        36,
+        75,
+        98,
+        137
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 371,
+      "sheets_mask": 344,
+      "portraits": [
+        56,
+        79,
+        102,
+        141
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 372,
+      "sheets_mask": 352,
+      "portraits": [
+        80,
+        103,
+        142,
+        85
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 373,
+      "sheets_mask": 353,
+      "portraits": [
+        1,
+        88,
+        111,
+        134
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 374,
+      "sheets_mask": 354,
+      "portraits": [
+        18,
+        89,
+        96,
+        135
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 375,
+      "sheets_mask": 356,
+      "portraits": [
+        36,
+        91,
+        98,
+        137
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 376,
+      "sheets_mask": 360,
+      "portraits": [
+        56,
+        95,
+        102,
+        141
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 377,
+      "sheets_mask": 368,
+      "portraits": [
+        64,
+        87,
+        110,
+        133
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 378,
+      "sheets_mask": 384,
+      "portraits": [
+        112,
+        135,
+        126,
+        133
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 379,
+      "sheets_mask": 385,
+      "portraits": [
+        1,
+        120,
+        143,
+        6
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 380,
+      "sheets_mask": 386,
+      "portraits": [
+        18,
+        121,
+        128,
+        23
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 381,
+      "sheets_mask": 387,
+      "portraits": [
+        3,
+        26,
+        113,
+        136
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 382,
+      "sheets_mask": 388,
+      "portraits": [
+        36,
+        123,
+        130,
+        41
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 383,
+      "sheets_mask": 389,
+      "portraits": [
+        5,
+        44,
+        115,
+        138
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 384,
+      "sheets_mask": 390,
+      "portraits": [
+        22,
+        45,
+        116,
+        139
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 385,
+      "sheets_mask": 392,
+      "portraits": [
+        56,
+        127,
+        134,
+        61
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 386,
+      "sheets_mask": 393,
+      "portraits": [
+        9,
+        48,
+        119,
+        142
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 387,
+      "sheets_mask": 394,
+      "portraits": [
+        26,
+        49,
+        120,
+        143
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 388,
+      "sheets_mask": 396,
+      "portraits": [
+        44,
+        51,
+        122,
+        129
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 389,
+      "sheets_mask": 400,
+      "portraits": [
+        64,
+        119,
+        142,
+        69
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 390,
+      "sheets_mask": 401,
+      "portraits": [
+        1,
+        72,
+        127,
+        134
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 391,
+      "sheets_mask": 402,
+      "portraits": [
+        18,
+        73,
+        112,
+        135
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 392,
+      "sheets_mask": 404,
+      "portraits": [
+        36,
+        75,
+        114,
+        137
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 393,
+      "sheets_mask": 408,
+      "portraits": [
+        56,
+        79,
+        118,
+        141
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 394,
+      "sheets_mask": 416,
+      "portraits": [
+        80,
+        119,
+        142,
+        85
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 395,
+      "sheets_mask": 417,
+      "portraits": [
+        1,
+        88,
+        127,
+        134
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 396,
+      "sheets_mask": 418,
+      "portraits": [
+        18,
+        89,
+        112,
+        135
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 397,
+      "sheets_mask": 420,
+      "portraits": [
+        36,
+        91,
+        114,
+        137
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 398,
+      "sheets_mask": 424,
+      "portraits": [
+        56,
+        95,
+        118,
+        141
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 399,
+      "sheets_mask": 432,
+      "portraits": [
+        64,
+        87,
+        126,
+        133
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 400,
+      "sheets_mask": 448,
+      "portraits": [
+        96,
+        119,
+        142,
+        101
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 401,
+      "sheets_mask": 449,
+      "portraits": [
+        1,
+        104,
+        127,
+        134
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 402,
+      "sheets_mask": 450,
+      "portraits": [
+        18,
+        105,
+        112,
+        135
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 403,
+      "sheets_mask": 452,
+      "portraits": [
+        36,
+        107,
+        114,
+        137
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 404,
+      "sheets_mask": 456,
+      "portraits": [
+        56,
+        111,
+        118,
+        141
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 405,
+      "sheets_mask": 464,
+      "portraits": [
+        64,
+        103,
+        126,
+        133
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 406,
+      "sheets_mask": 480,
+      "portraits": [
+        80,
+        103,
+        126,
+        133
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 407,
+      "sheets_mask": 513,
+      "portraits": [
+        1,
+        152,
+        15,
+        150
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 408,
+      "sheets_mask": 514,
+      "portraits": [
+        18,
+        153,
+        16,
+        151
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 409,
+      "sheets_mask": 515,
+      "portraits": [
+        3,
+        26,
+        145,
+        8
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 410,
+      "sheets_mask": 516,
+      "portraits": [
+        36,
+        155,
+        34,
+        153
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 411,
+      "sheets_mask": 517,
+      "portraits": [
+        5,
+        44,
+        147,
+        10
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 412,
+      "sheets_mask": 518,
+      "portraits": [
+        22,
+        45,
+        148,
+        27
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 413,
+      "sheets_mask": 519,
+      "portraits": [
+        7,
+        30,
+        37,
+        156
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 414,
+      "sheets_mask": 520,
+      "portraits": [
+        56,
+        159,
+        54,
+        157
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 415,
+      "sheets_mask": 521,
+      "portraits": [
+        9,
+        48,
+        151,
+        14
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 416,
+      "sheets_mask": 522,
+      "portraits": [
+        26,
+        49,
+        152,
+        31
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 417,
+      "sheets_mask": 523,
+      "portraits": [
+        11,
+        18,
+        57,
+        144
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 418,
+      "sheets_mask": 524,
+      "portraits": [
+        44,
+        51,
+        154,
+        33
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 419,
+      "sheets_mask": 525,
+      "portraits": [
+        13,
+        36,
+        59,
+        146
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 420,
+      "sheets_mask": 526,
+      "portraits": [
+        30,
+        37,
+        60,
+        147
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 421,
+      "sheets_mask": 528,
+      "portraits": [
+        64,
+        151,
+        78,
+        149
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 422,
+      "sheets_mask": 529,
+      "portraits": [
+        1,
+        72,
+        159,
+        6
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 423,
+      "sheets_mask": 530,
+      "portraits": [
+        18,
+        73,
+        144,
+        23
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 424,
+      "sheets_mask": 531,
+      "portraits": [
+        3,
+        26,
+        65,
+        152
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 425,
+      "sheets_mask": 532,
+      "portraits": [
+        36,
+        75,
+        146,
+        41
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 426,
+      "sheets_mask": 533,
+      "portraits": [
+        5,
+        44,
+        67,
+        154
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 427,
+      "sheets_mask": 534,
+      "portraits": [
+        22,
+        45,
+        68,
+        155
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 428,
+      "sheets_mask": 536,
+      "portraits": [
+        56,
+        79,
+        150,
+        61
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 429,
+      "sheets_mask": 537,
+      "portraits": [
+        9,
+        48,
+        71,
+        158
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 430,
+      "sheets_mask": 538,
+      "portraits": [
+        26,
+        49,
+        72,
+        159
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 431,
+      "sheets_mask": 540,
+      "portraits": [
+        44,
+        51,
+        74,
+        145
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 432,
+      "sheets_mask": 544,
+      "portraits": [
+        80,
+        151,
+        94,
+        149
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 433,
+      "sheets_mask": 545,
+      "portraits": [
+        1,
+        88,
+        159,
+        6
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 434,
+      "sheets_mask": 546,
+      "portraits": [
+        18,
+        89,
+        144,
+        23
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 435,
+      "sheets_mask": 547,
+      "portraits": [
+        3,
+        26,
+        81,
+        152
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 436,
+      "sheets_mask": 548,
+      "portraits": [
+        36,
+        91,
+        146,
+        41
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 437,
+      "sheets_mask": 549,
+      "portraits": [
+        5,
+        44,
+        83,
+        154
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 438,
+      "sheets_mask": 550,
+      "portraits": [
+        22,
+        45,
+        84,
+        155
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 439,
+      "sheets_mask": 552,
+      "portraits": [
+        56,
+        95,
+        150,
+        61
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 440,
+      "sheets_mask": 553,
+      "portraits": [
+        9,
+        48,
+        87,
+        158
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 441,
+      "sheets_mask": 554,
+      "portraits": [
+        26,
+        49,
+        88,
+        159
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 442,
+      "sheets_mask": 556,
+      "portraits": [
+        44,
+        51,
+        90,
+        145
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 443,
+      "sheets_mask": 560,
+      "portraits": [
+        64,
+        87,
+        158,
+        69
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 444,
+      "sheets_mask": 561,
+      "portraits": [
+        1,
+        72,
+        95,
+        150
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 445,
+      "sheets_mask": 562,
+      "portraits": [
+        18,
+        73,
+        80,
+        151
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 446,
+      "sheets_mask": 564,
+      "portraits": [
+        36,
+        75,
+        82,
+        153
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 447,
+      "sheets_mask": 568,
+      "portraits": [
+        56,
+        79,
+        86,
+        157
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 448,
+      "sheets_mask": 576,
+      "portraits": [
+        96,
+        151,
+        110,
+        149
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 449,
+      "sheets_mask": 577,
+      "portraits": [
+        1,
+        104,
+        159,
+        6
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 450,
+      "sheets_mask": 578,
+      "portraits": [
+        18,
+        105,
+        144,
+        23
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 451,
+      "sheets_mask": 579,
+      "portraits": [
+        3,
+        26,
+        97,
+        152
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 452,
+      "sheets_mask": 580,
+      "portraits": [
+        36,
+        107,
+        146,
+        41
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 453,
+      "sheets_mask": 581,
+      "portraits": [
+        5,
+        44,
+        99,
+        154
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 454,
+      "sheets_mask": 582,
+      "portraits": [
+        22,
+        45,
+        100,
+        155
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 455,
+      "sheets_mask": 584,
+      "portraits": [
+        56,
+        111,
+        150,
+        61
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 456,
+      "sheets_mask": 585,
+      "portraits": [
+        9,
+        48,
+        103,
+        158
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 457,
+      "sheets_mask": 586,
+      "portraits": [
+        26,
+        49,
+        104,
+        159
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 458,
+      "sheets_mask": 588,
+      "portraits": [
+        44,
+        51,
+        106,
+        145
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 459,
+      "sheets_mask": 592,
+      "portraits": [
+        64,
+        103,
+        158,
+        69
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 460,
+      "sheets_mask": 593,
+      "portraits": [
+        1,
+        72,
+        111,
+        150
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 461,
+      "sheets_mask": 594,
+      "portraits": [
+        18,
+        73,
+        96,
+        151
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 462,
+      "sheets_mask": 596,
+      "portraits": [
+        36,
+        75,
+        98,
+        153
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 463,
+      "sheets_mask": 600,
+      "portraits": [
+        56,
+        79,
+        102,
+        157
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 464,
+      "sheets_mask": 608,
+      "portraits": [
+        80,
+        103,
+        158,
+        85
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 465,
+      "sheets_mask": 609,
+      "portraits": [
+        1,
+        88,
+        111,
+        150
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 466,
+      "sheets_mask": 610,
+      "portraits": [
+        18,
+        89,
+        96,
+        151
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 467,
+      "sheets_mask": 612,
+      "portraits": [
+        36,
+        91,
+        98,
+        153
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 468,
+      "sheets_mask": 616,
+      "portraits": [
+        56,
+        95,
+        102,
+        157
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 469,
+      "sheets_mask": 624,
+      "portraits": [
+        64,
+        87,
+        110,
+        149
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 470,
+      "sheets_mask": 640,
+      "portraits": [
+        112,
+        151,
+        126,
+        149
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 471,
+      "sheets_mask": 641,
+      "portraits": [
+        1,
+        120,
+        159,
+        6
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 472,
+      "sheets_mask": 642,
+      "portraits": [
+        18,
+        121,
+        144,
+        23
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 473,
+      "sheets_mask": 643,
+      "portraits": [
+        3,
+        26,
+        113,
+        152
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 474,
+      "sheets_mask": 644,
+      "portraits": [
+        36,
+        123,
+        146,
+        41
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 475,
+      "sheets_mask": 645,
+      "portraits": [
+        5,
+        44,
+        115,
+        154
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 476,
+      "sheets_mask": 646,
+      "portraits": [
+        22,
+        45,
+        116,
+        155
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 477,
+      "sheets_mask": 648,
+      "portraits": [
+        56,
+        127,
+        150,
+        61
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 478,
+      "sheets_mask": 649,
+      "portraits": [
+        9,
+        48,
+        119,
+        158
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 479,
+      "sheets_mask": 650,
+      "portraits": [
+        26,
+        49,
+        120,
+        159
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 480,
+      "sheets_mask": 652,
+      "portraits": [
+        44,
+        51,
+        122,
+        145
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 481,
+      "sheets_mask": 656,
+      "portraits": [
+        64,
+        119,
+        158,
+        69
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 482,
+      "sheets_mask": 657,
+      "portraits": [
+        1,
+        72,
+        127,
+        150
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 483,
+      "sheets_mask": 658,
+      "portraits": [
+        18,
+        73,
+        112,
+        151
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 484,
+      "sheets_mask": 660,
+      "portraits": [
+        36,
+        75,
+        114,
+        153
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 485,
+      "sheets_mask": 664,
+      "portraits": [
+        56,
+        79,
+        118,
+        157
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 486,
+      "sheets_mask": 672,
+      "portraits": [
+        80,
+        119,
+        158,
+        85
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 487,
+      "sheets_mask": 673,
+      "portraits": [
+        1,
+        88,
+        127,
+        150
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 488,
+      "sheets_mask": 674,
+      "portraits": [
+        18,
+        89,
+        112,
+        151
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 489,
+      "sheets_mask": 676,
+      "portraits": [
+        36,
+        91,
+        114,
+        153
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 490,
+      "sheets_mask": 680,
+      "portraits": [
+        56,
+        95,
+        118,
+        157
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 491,
+      "sheets_mask": 688,
+      "portraits": [
+        64,
+        87,
+        126,
+        149
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 492,
+      "sheets_mask": 704,
+      "portraits": [
+        96,
+        119,
+        158,
+        101
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 493,
+      "sheets_mask": 705,
+      "portraits": [
+        1,
+        104,
+        127,
+        150
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 494,
+      "sheets_mask": 706,
+      "portraits": [
+        18,
+        105,
+        112,
+        151
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 495,
+      "sheets_mask": 708,
+      "portraits": [
+        36,
+        107,
+        114,
+        153
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 496,
+      "sheets_mask": 712,
+      "portraits": [
+        56,
+        111,
+        118,
+        157
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 497,
+      "sheets_mask": 720,
+      "portraits": [
+        64,
+        103,
+        126,
+        149
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 498,
+      "sheets_mask": 736,
+      "portraits": [
+        80,
+        103,
+        126,
+        149
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 499,
+      "sheets_mask": 768,
+      "portraits": [
+        128,
+        151,
+        142,
+        149
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 500,
+      "sheets_mask": 769,
+      "portraits": [
+        1,
+        136,
+        159,
+        6
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 501,
+      "sheets_mask": 770,
+      "portraits": [
+        18,
+        137,
+        144,
+        23
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 502,
+      "sheets_mask": 771,
+      "portraits": [
+        3,
+        26,
+        129,
+        152
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 503,
+      "sheets_mask": 772,
+      "portraits": [
+        36,
+        139,
+        146,
+        41
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 504,
+      "sheets_mask": 773,
+      "portraits": [
+        5,
+        44,
+        131,
+        154
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 505,
+      "sheets_mask": 774,
+      "portraits": [
+        22,
+        45,
+        132,
+        155
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 506,
+      "sheets_mask": 776,
+      "portraits": [
+        56,
+        143,
+        150,
+        61
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 507,
+      "sheets_mask": 777,
+      "portraits": [
+        9,
+        48,
+        135,
+        158
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 508,
+      "sheets_mask": 778,
+      "portraits": [
+        26,
+        49,
+        136,
+        159
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 509,
+      "sheets_mask": 780,
+      "portraits": [
+        44,
+        51,
+        138,
+        145
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 510,
+      "sheets_mask": 784,
+      "portraits": [
+        64,
+        135,
+        158,
+        69
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 511,
+      "sheets_mask": 785,
+      "portraits": [
+        1,
+        72,
+        143,
+        150
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 512,
+      "sheets_mask": 786,
+      "portraits": [
+        18,
+        73,
+        128,
+        151
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 513,
+      "sheets_mask": 788,
+      "portraits": [
+        36,
+        75,
+        130,
+        153
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 514,
+      "sheets_mask": 792,
+      "portraits": [
+        56,
+        79,
+        134,
+        157
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 515,
+      "sheets_mask": 800,
+      "portraits": [
+        80,
+        135,
+        158,
+        85
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 516,
+      "sheets_mask": 801,
+      "portraits": [
+        1,
+        88,
+        143,
+        150
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 517,
+      "sheets_mask": 802,
+      "portraits": [
+        18,
+        89,
+        128,
+        151
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 518,
+      "sheets_mask": 804,
+      "portraits": [
+        36,
+        91,
+        130,
+        153
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 519,
+      "sheets_mask": 808,
+      "portraits": [
+        56,
+        95,
+        134,
+        157
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 520,
+      "sheets_mask": 816,
+      "portraits": [
+        64,
+        87,
+        142,
+        149
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 521,
+      "sheets_mask": 832,
+      "portraits": [
+        96,
+        135,
+        158,
+        101
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 522,
+      "sheets_mask": 833,
+      "portraits": [
+        1,
+        104,
+        143,
+        150
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 523,
+      "sheets_mask": 834,
+      "portraits": [
+        18,
+        105,
+        128,
+        151
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 524,
+      "sheets_mask": 836,
+      "portraits": [
+        36,
+        107,
+        130,
+        153
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 525,
+      "sheets_mask": 840,
+      "portraits": [
+        56,
+        111,
+        134,
+        157
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 526,
+      "sheets_mask": 848,
+      "portraits": [
+        64,
+        103,
+        142,
+        149
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 527,
+      "sheets_mask": 864,
+      "portraits": [
+        80,
+        103,
+        142,
+        149
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 528,
+      "sheets_mask": 896,
+      "portraits": [
+        112,
+        135,
+        158,
+        117
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 529,
+      "sheets_mask": 897,
+      "portraits": [
+        1,
+        120,
+        143,
+        150
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 530,
+      "sheets_mask": 898,
+      "portraits": [
+        18,
+        121,
+        128,
+        151
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 531,
+      "sheets_mask": 900,
+      "portraits": [
+        36,
+        123,
+        130,
+        153
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 532,
+      "sheets_mask": 904,
+      "portraits": [
+        56,
+        127,
+        134,
+        157
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 533,
+      "sheets_mask": 912,
+      "portraits": [
+        64,
+        119,
+        142,
+        149
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 534,
+      "sheets_mask": 928,
+      "portraits": [
+        80,
+        119,
+        142,
+        149
+      ],
+      "different_pixels": 0
+    },
+    {
+      "stage": 535,
+      "sheets_mask": 960,
+      "portraits": [
+        96,
+        119,
+        142,
+        149
+      ],
+      "different_pixels": 0
+    }
+  ],
+  "physical_hardware": "not_run"
+}

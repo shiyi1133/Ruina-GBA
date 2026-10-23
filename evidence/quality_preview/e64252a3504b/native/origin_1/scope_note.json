@@ -1,0 +1,1 @@
+{"note":"Independent image check initially assumed a 320px illustration. Original lotus source is 290px wide, centered in the 320px scene; native crop starts at x=25, not x=40. Original failure retained. Background fallback centering was also aligned to the same source canvas before rebuilding."}

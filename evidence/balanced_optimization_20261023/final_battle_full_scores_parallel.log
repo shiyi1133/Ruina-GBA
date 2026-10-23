@@ -1,0 +1,48 @@
+{"index": 53, "worker": 1, "name": "ruins1", "quality": 0, "underruns": 0, "status": "pass"}
+{"index": 158, "worker": 3, "name": "ruins1", "quality": 1, "underruns": 0, "status": "pass"}
+{"index": 54, "worker": 1, "name": "sanct", "quality": 0, "underruns": 0, "status": "pass"}
+{"index": 1, "worker": 0, "name": "scene19", "quality": 0, "underruns": 0, "status": "pass"}
+{"index": 159, "worker": 3, "name": "sanct", "quality": 1, "underruns": 0, "status": "pass"}
+{"index": 106, "worker": 2, "name": "scene19", "quality": 1, "underruns": 0, "status": "pass"}
+{"index": 55, "worker": 1, "name": "scene10", "quality": 0, "underruns": 0, "status": "pass"}
+{"index": 2, "worker": 0, "name": "ダンジョン4", "quality": 0, "underruns": 0, "status": "pass"}
+{"index": 160, "worker": 3, "name": "scene10", "quality": 1, "underruns": 0, "status": "pass"}
+{"index": 107, "worker": 2, "name": "ダンジョン4", "quality": 1, "underruns": 0, "status": "pass"}
+{"index": 56, "worker": 1, "name": "shrine2", "quality": 0, "underruns": 0, "status": "pass"}
+{"index": 161, "worker": 3, "name": "shrine2", "quality": 1, "underruns": 0, "status": "pass"}
+Traceback (most recent call last):
+  File "/mnt/d/gba_hack/废都物语_GBA章节样版/tools/check_music_full_scores_parallel.py", line 41, in worker
+    e.frames(180);sampled+=180;current=read('audio_stream_debug',4);midi=read('native_midi_debug',8)
+    ^^^^^^^^^^^^^
+  File "/mnt/d/gba_hack/废都物语_GBA章节样版/tools/drive_opening.py", line 23, in frames
+    def frames(self,n,key=0):return self.command(f'frames {n} {key:x}')
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/gba_hack/废都物语_GBA章节样版/tools/drive_opening.py", line 21, in command
+    if not s:raise RuntimeError(self.proc.stderr.read())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/d/gba_hack/废都物语_GBA章节样版/tools/check_music_full_scores_parallel.py", line 63, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/mnt/d/gba_hack/废都物语_GBA章节样版/tools/check_music_full_scores_parallel.py", line 59, in main
+    for future in concurrent.futures.as_completed(futures):future.result()
+                                                           ^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/usr/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/gba_hack/废都物语_GBA章节样版/tools/check_music_full_scores_parallel.py", line 56, in worker
+    finally:e.close()
+            ^^^^^^^^^
+  File "/mnt/d/gba_hack/废都物语_GBA章节样版/tools/drive_opening.py", line 42, in close
+    def close(self):self.proc.stdin.write('quit\n');self.proc.stdin.flush();self.proc.wait(timeout=5)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+BrokenPipeError: [Errno 32] Broken pipe

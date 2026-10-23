@@ -1,0 +1,15 @@
+In file included from tests/audio_irq_parity_host.c:13:
+/mnt/d/gba_hack/废都物语_GBA章节样版/history/quality_performance_20261022/pre_voice_metadata/audio.c:1:10: fatal error: gba_hw.h: No such file or directory
+    1 | #include "gba_hw.h"
+      |          ^~~~~~~~~~
+compilation terminated.
+Traceback (most recent call last):
+  File "/mnt/d/gba_hack/废都物语_GBA章节样版/tools/check_audio_irq_parity.py", line 11, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/mnt/d/gba_hack/废都物语_GBA章节样版/tools/check_audio_irq_parity.py", line 8, in main
+    target=ROOT/'build'/('audio_irq_'+name+'_host');subprocess.run(['cc','-std=c99','-O2','-ffreestanding','-fno-builtin','-fdata-sections','-ffunction-sections','-Wl,--gc-sections','-DRUINA_LIGHT_MUSIC','-DRUINA_PCM_WAV','-DAUDIO_SOURCE="'+str(source)+'"','-Isource','-Iruntime/rm2k','tests/audio_irq_parity_host.c','runtime/rm2k/light_midi.c','-o',str(target)],cwd=ROOT,check=True);p=subprocess.run([str(target)],capture_output=True,text=True,cwd=ROOT);assert p.returncode==0,(p.returncode,p.stderr);rows=json.loads(p.stdout);(out/(name+'.json')).write_text(json.dumps(rows,indent=2));all_rows.append(rows)
+                                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['cc', '-std=c99', '-O2', '-ffreestanding', '-fno-builtin', '-fdata-sections', '-ffunction-sections', '-Wl,--gc-sections', '-DRUINA_LIGHT_MUSIC', '-DRUINA_PCM_WAV', '-DAUDIO_SOURCE="/mnt/d/gba_hack/废都物语_GBA章节样版/history/quality_performance_20261022/pre_voice_metadata/audio.c"', '-Isource', '-Iruntime/rm2k', 'tests/audio_irq_parity_host.c', 'runtime/rm2k/light_midi.c', '-o', '/mnt/d/gba_hack/废都物语_GBA章节样版/build/audio_irq_before_host']' returned non-zero exit status 1.

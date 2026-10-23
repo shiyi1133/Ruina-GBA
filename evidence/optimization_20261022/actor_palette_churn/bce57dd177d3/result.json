@@ -1,0 +1,3186 @@
+{
+  "status": "pass",
+  "scope": "controlled actual GBA; three original characters shown together while traversing all72 source characters twice; current poses compared to original XYZ RGB555",
+  "views": 144,
+  "actors_checked": 432,
+  "OBJ_palette_reclaims": 17,
+  "native_commit_metrics": [
+    0,
+    4,
+    144
+  ],
+  "different_RGB555_pixels": 0,
+  "production_rom_sha256": "3d686216f77cd59e4a7bcf1769822bda713d2ec5756d0f218df9ca744afb6c73",
+  "fixture_sha256": "bce57dd177d35d6eb472a70b8ccad4375912338c94fcb3f0ca2cbcec94adf5ae",
+  "rows": [
+    {
+      "stage": 1,
+      "actors": [
+        [
+          540,
+          0,
+          0
+        ],
+        [
+          544,
+          3,
+          1
+        ],
+        [
+          540,
+          0,
+          2
+        ]
+      ],
+      "visible_source_pixels": 768,
+      "different_RGB555_pixels": 0
+    },
+    {
+      "stage": 2,
+      "actors": [
+        [
+          540,
+          1,
+          1
+        ],
+        [
+          546,
+          4,
+          2
+        ],
+        [
+          540,
+          0,
+          3
+        ]
+      ],
+      "visible_source_pixels": 1217,
+      "different_RGB555_pixels": 0
+    },
+    {
+      "stage": 3,
+      "actors": [
+        [
+          540,
+          2,
+          2
+        ],
+        [
+          548,
+          5,
+          3
+        ],
+        [
+          540,
+          0,
+          0
+        ]
+      ],
+      "visible_source_pixels": 417,
+      "different_RGB555_pixels": 0
+    },
+    {
+      "stage": 4,
+      "actors": [
+        [
+          540,
+          3,
+          3
+        ],
+        [
+          541,
+          6,
+          0
+        ],
+        [
+          540,
+          0,
+          1
+        ]
+      ],
+      "visible_source_pixels": 806,
+      "different_RGB555_pixels": 0
+    },
+    {
+      "stage": 5,
+      "actors": [
+        [
+          540,
+          4,
+          0
+        ],
+        [
+          543,
+          7,
+          1
+        ],
+        [
+          540,
+          0,
+          2
+        ]
+      ],
+      "visible_source_pixels": 635,
+      "different_RGB555_pixels": 0
+    },
+    {
+      "stage": 6,
+      "actors": [
+        [
+          540,
+          5,
+          1
+        ],
+        [
+          546,
+          0,
+          2
+        ],
+        [
+          540,
+          0,
+          3
+        ]
+      ],
+      "visible_source_pixels": 1140,
+      "different_RGB555_pixels": 0
+    },
+    {
+      "stage": 7,
+      "actors": [
+        [
+          540,
+          6,
+          2
+        ],
+        [
+          548,
+          1,
+          3
+        ],
+        [
+          540,
+          0,
+          0
+        ]
+      ],
+      "visible_source_pixels": 306,
+      "different_RGB555_pixels": 0
+    },
+    {
+      "stage": 8,
+      "actors": [
+        [
+          540,
+          7,
+          3
+        ],
+        [
+          541,
+          2,
+          0
+        ],
+        [
+          540,
+          0,
+          1
+        ]
+      ],
+      "visible_source_pixels": 863,
+      "different_RGB555_pixels": 0
+    },
+    {
+      "stage": 9,
+      "actors": [
+        [
+          541,
+          0,
+          0
+        ],
+        [
+          543,
+          3,
+          1
+        ],
+        [
+          540,
+          0,
+          2
+        ]
+      ],
+      "visible_source_pixels": 940,
+      "different_RGB555_pixels": 0
+    },
+    {
+      "stage": 10,
+      "actors": [
+        [
+          541,
+          1,
+          1
+        ],
+        [
+          545,
+          4,
+          2
+        ],
+        [
+          540,
+          0,
+          3
+        ]
+      ],
+      "visible_source_pixels": 862,
+      "different_RGB555_pixels": 0
+    },
+    {
+      "stage": 11,
+      "actors": [
+        [
+          541,
+          2,
+          2
+        ],
+        [
+          547,
+          5,
+          3
+        ],
+        [
+          540,
+          0,
+          0
+        ]
+      ],
+      "visible_source_pixels": 632,
+      "different_RGB555_pixels": 0
+    },
+    {
+      "stage": 12,
+      "actors": [
+        [
+          541,
+          3,
+          3
+        ],
+        [
+          540,
+          6,
+          0
+        ],
+        [
+          540,
+          0,
+          1
+        ]
+      ],
+      "visible_source_pixels": 836,
+      "different_RGB555_pixels": 0
+    },
+    {
+      "stage": 13,
+      "actors": [
+        [
+          541,
+          4,
+          0
+        ],
+        [
+          542,
+          7,
+          1
+        ],
+        [
+          540,
+          0,
+          2
+        ]
+      ],
+      "visible_source_pixels": 710,
+      "different_RGB555_pixels": 0
+    },
+    {
+      "stage": 14,
+      "actors": [
+        [
+          541,
+          5,
+          1
+        ],
+        [
+          545,
+          0,
+          2
+        ],
+        [
+          540,
+          0,
+          3
+        ]
+      ],
+      "visible_source_pixels": 1480,
+      "different_RGB555_pixels": 0
+    },
+    {
+      "stage": 15,
+      "actors": [
+        [
+          541,
+          6,
+          2
+        ],
+        [
+          547,
+          1,
+          3
+        ],
+        [
+          540,
+          0,
+          0
+        ]
+      ],
+      "visible_source_pixels": 499,
+      "different_RGB555_pixels": 0
+    },
+    {
+      "stage": 16,
+      "actors": [
+        [
+          541,
+          7,
+          3
+        ],
+        [
+          540,
+          2,
+          0
+        ],
+        [
+          540,
+          0,
+          1
+        ]
+      ],
+      "visible_source_pixels": 893,
+      "different_RGB555_pixels": 0
+    },
+    {
+      "stage": 17,
+      "actors": [
+        [
+          542,
+          0,
+          0
+        ],
+        [
+          542,
+          3,
+          1
+        ],
+        [
+          540,
+          0,
+          2
+        ]
+      ],
+      "visible_source_pixels": 713,
+      "different_RGB555_pixels": 0
+    },
+    {
+      "stage": 18,
+      "actors": [
+        [
+          542,
+          1,
+          1
+        ],
+        [
+          544,
+          4,
+          2
+        ],
+        [
+          540,
+          0,
+          3
+        ]
+      ],
+      "visible_source_pixels": 550,
+      "different_RGB555_pixels": 0
+    },
+    {
+      "stage": 19,
+      "actors": [
+        [
+          542,
+          2,
+          2
+        ],
+        [
+          546,
+          5,
+          3
+        ],
+        [
+          540,
+          0,
+          0
+        ]
+      ],
+      "visible_source_pixels": 870,
+      "different_RGB555_pixels": 0
+    },
+    {
+      "stage": 20,
+      "actors": [
+        [
+          542,
+          3,
+          3
+        ],
+        [
+          548,
+          6,
+          0
+        ],
+        [
+          540,
+          0,
+          1
+        ]
+      ],
+      "visible_source_pixels": 668,
+      "different_RGB555_pixels": 0
+    },
+    {
+      "stage": 21,
+      "actors": [
+        [
+          542,
+          4,
+          0
+        ],
+        [
+          541,
+          7,
+          1
+        ],
+        [
+          540,
+          0,
+          2
+        ]
+      ],
+      "visible_source_pixels": 881,
+      "different_RGB555_pixels": 0
+    },
+    {
+      "stage": 22,
+      "actors": [
+        [
+          542,
+          5,
+          1
+        ],
+        [
+          544,
+          0,
+          2
+        ],
+        [
+          540,
+          0,
+          3
+        ]
+      ],
+      "visible_source_pixels": 1130,
+      "different_RGB555_pixels": 0
+    },
+    {
+      "stage": 23,
+      "actors": [
+        [
+          542,
+          6,
+          2
+        ],
+        [
+          546,
+          1,
+          3
+        ],
+        [
+          540,
+          0,
+          0
+        ]
+      ],
+      "visible_source_pixels": 1088,
+      "different_RGB555_pixels": 0
+    },
+    {
+      "stage": 24,
+      "actors": [
+        [
+          542,
+          7,
+          3
+        ],
+        [
+          548,
+          2,
+          0
+        ],
+        [
+          540,
+          0,
+          1
+        ]
+      ],
+      "visible_source_pixels": 560,
+      "different_RGB555_pixels": 0
+    },
+    {
+      "stage": 25,
+      "actors": [
+        [
+          543,
+          0,
+          0
+        ],
+        [
+          541,
+          3,
+          1
+        ],
+        [
+          540,
+          0,
+          2
+        ]
+      ],
+      "visible_source_pixels": 877,
+      "different_RGB555_pixels": 0
+    },
+    {
+      "stage": 26,
+      "actors": [
+        [
+          543,
+          1,
+          1
+        ],
+        [
+          543,
+          4,
+          2
+        ],
+        [
+          540,
+          0,
+          3
+        ]
+      ],
+      "visible_source_pixels": 609,
+      "different_RGB555_pixels": 0
+    },
+    {
+      "stage": 27,
+      "actors": [
+        [
+          543,
+          2,
+          2
+        ],
+        [
+          545,
+          5,
+          3
+        ],
+        [
+          540,
+          0,
+          0
+        ]
+      ],
+      "visible_source_pixels": 294,
+      "different_RGB555_pixels": 0
+    },
+    {
+      "stage": 28,
+      "actors": [
+        [
+          543,
+          3,
+          3
+        ],
+        [
+          547,
+          6,
+          0
+        ],
+        [
+          540,
+          0,
+          1
+        ]
+      ],
+      "visible_source_pixels": 806,
+      "different_RGB555_pixels": 0
+    },
+    {
+      "stage": 29,
+      "actors": [
+        [
+          543,
+          4,
+          0
+        ],
+        [
+          540,
+          7,
+          1
+        ],
+        [
+          540,
+          0,
+          2
+        ]
+      ],
+      "visible_source_pixels": 566,
+      "different_RGB555_pixels": 0
+    },
+    {
+      "stage": 30,
+      "actors": [
+        [
+          543,
+          5,
+          1
+        ],
+        [
+          543,
+          0,
+          2
+        ],
+        [
+          540,
+          0,
+          3
+        ]
+      ],
+      "visible_source_pixels": 609,
+      "different_RGB555_pixels": 0
+    },
+    {
+      "stage": 31,
+      "actors": [
+        [
+          543,
+          6,
+          2
+        ],
+        [
+          545,
+          1,
+          3
+        ],
+        [
+          540,
+          0,
+          0
+        ]
+      ],
+      "visible_source_pixels": 400,
+      "different_RGB555_pixels": 0
+    },
+    {
+      "stage": 32,
+      "actors": [
+        [
+          543,
+          7,
+          3
+        ],
+        [
+          547,
+          2,
+          0
+        ],
+        [
+          540,
+          0,
+          1
+        ]
+      ],
+      "visible_source_pixels": 606,
+      "different_RGB555_pixels": 0
+    },
+    {
+      "stage": 33,
+      "actors": [
+        [
+          544,
+          0,
+          0
+        ],
+        [
+          540,
+          3,
+          1
+        ],
+        [
+          540,
+          0,
+          2
+        ]
+      ],
+      "visible_source_pixels": 1154,
+      "different_RGB555_pixels": 0
+    },
+    {
+      "stage": 34,
+      "actors": [
+        [
+          544,
+          1,
+          1
+        ],
+        [
+          542,
+          4,
+          2
+        ],
+        [
+          540,
+          0,
+          3
+        ]
+      ],
+      "visible_source_pixels": 582,
+      "different_RGB555_pixels": 0
+    },
+    {
+      "stage": 35,
+      "actors": [
+        [
+          544,
+          2,
+          2
+        ],
+        [
+          544,
+          5,
+          3
+        ],
+        [
+          540,
+          0,
+          0
+        ]
+      ],
+      "visible_source_pixels": 832,
+      "different_RGB555_pixels": 0
+    },
+    {
+      "stage": 36,
+      "actors": [
+        [
+          544,
+          3,
+          3
+        ],
+        [
+          546,
+          6,
+          0
+        ],
+        [
+          540,
+          0,
+          1
+        ]
+      ],
+      "visible_source_pixels": 768,
+      "different_RGB555_pixels": 0
+    },
+    {
+      "stage": 37,
+      "actors": [
+        [
+          544,
+          4,
+          0
+        ],
+        [
+          548,
+          7,
+          1
+        ],
+        [
+          540,
+          0,
+          2
+        ]
+      ],
+      "visible_source_pixels": 608,
+      "different_RGB555_pixels": 0
+    },
+    {
+      "stage": 38,
+      "actors": [
+        [
+          544,
+          5,
+          1
+        ],
+        [
+          542,
+          0,
+          2
+        ],
+        [
+          540,
+          0,
+          3
+        ]
+      ],
+      "visible_source_pixels": 639,
+      "different_RGB555_pixels": 0
+    },
+    {
+      "stage": 39,
+      "actors": [
+        [
+          544,
+          6,
+          2
+        ],
+        [
+          544,
+          1,
+          3
+        ],
+        [
+          540,
+          0,
+          0
+        ]
+      ],
+      "visible_source_pixels": 832,
+      "different_RGB555_pixels": 0
+    },
+    {
+      "stage": 40,
+      "actors": [
+        [
+          544,
+          7,
+          3
+        ],
+        [
+          546,
+          2,
+          0
+        ],
+        [
+          540,
+          0,
+          1
+        ]
+      ],
+      "visible_source_pixels": 1088,
+      "different_RGB555_pixels": 0
+    },
+    {
+      "stage": 41,
+      "actors": [
+        [
+          545,
+          0,
+          0
+        ],
+        [
+          548,
+          3,
+          1
+        ],
+        [
+          540,
+          0,
+          2
+        ]
+      ],
+      "visible_source_pixels": 1184,
+      "different_RGB555_pixels": 0
+    },
+    {
+      "stage": 42,
+      "actors": [
+        [
+          545,
+          1,
+          1
+        ],
+        [
+          541,
+          4,
+          2
+        ],
+        [
+          540,
+          0,
+          3
+        ]
+      ],
+      "visible_source_pixels": 730,
+      "different_RGB555_pixels": 0
+    },
+    {
+      "stage": 43,
+      "actors": [
+        [
+          545,
+          2,
+          2
+        ],
+        [
+          543,
+          5,
+          3
+        ],
+        [
+          540,
+          0,
+          0
+        ]
+      ],
+      "visible_source_pixels": 870,
+      "different_RGB555_pixels": 0
+    },
+    {
+      "stage": 44,
+      "actors": [
+        [
+          545,
+          3,
+          3
+        ],
+        [
+          545,
+          6,
+          0
+        ],
+        [
+          540,
+          0,
+          1
+        ]
+      ],
+      "visible_source_pixels": 512,
+      "different_RGB555_pixels": 0
+    },
+    {
+      "stage": 45,
+      "actors": [
+        [
+          545,
+          4,
+          0
+        ],
+        [
+          547,
+          7,
+          1
+        ],
+        [
+          540,
+          0,
+          2
+        ]
+      ],
+      "visible_source_pixels": 1088,
+      "different_RGB555_pixels": 0
+    },
+    {
+      "stage": 46,
+      "actors": [
+        [
+          545,
+          5,
+          1
+        ],
+        [
+          541,
+          0,
+          2
+        ],
+        [
+          540,
+          0,
+          3
+        ]
+      ],
+      "visible_source_pixels": 902,
+      "different_RGB555_pixels": 0
+    },
+    {
+      "stage": 47,
+      "actors": [
+        [
+          545,
+          6,
+          2
+        ],
+        [
+          543,
+          1,
+          3
+        ],
+        [
+          540,
+          0,
+          0
+        ]
+      ],
+      "visible_source_pixels": 315,
+      "different_RGB555_pixels": 0
+    },
+    {
+      "stage": 48,
+      "actors": [
+        [
+          545,
+          7,
+          3
+        ],
+        [
+          545,
+          2,
+          0
+        ],
+        [
+          540,
+          0,
+          1
+        ]
+      ],
+      "visible_source_pixels": 512,
+      "different_RGB555_pixels": 0
+    },
+    {
+      "stage": 49,
+      "actors": [
+        [
+          546,
+          0,
+          0
+        ],
+        [
+          547,
+          3,
+          1
+        ],
+        [
+          540,
+          0,
+          2
+        ]
+      ],
+      "visible_source_pixels": 1162,
+      "different_RGB555_pixels": 0
+    },
+    {
+      "stage": 50,
+      "actors": [
+        [
+          546,
+          1,
+          1
+        ],
+        [
+          540,
+          4,
+          2
+        ],
+        [
+          540,
+          0,
+          3
+        ]
+      ],
+      "visible_source_pixels": 1202,
+      "different_RGB555_pixels": 0
+    },
+    {
+      "stage": 51,
+      "actors": [
+        [
+          546,
+          2,
+          2
+        ],
+        [
+          542,
+          5,
+          3
+        ],
+        [
+          540,
+          0,
+          0
+        ]
+      ],
+      "visible_source_pixels": 874,
+      "different_RGB555_pixels": 0
+    },
+    {
+      "stage": 52,
+      "actors": [
+        [
+          546,
+          3,
+          3
+        ],
+        [
+          544,
+          6,
+          0
+        ],
+        [
+          540,
+          0,
+          1
+        ]
+      ],
+      "visible_source_pixels": 583,
+      "different_RGB555_pixels": 0
+    },
+    {
+      "stage": 53,
+      "actors": [
+        [
+          546,
+          4,
+          0
+        ],
+        [
+          546,
+          7,
+          1
+        ],
+        [
+          540,
+          0,
+          2
+        ]
+      ],
+      "visible_source_pixels": 1120,
+      "different_RGB555_pixels": 0
+    },
+    {
+      "stage": 54,
+      "actors": [
+        [
+          546,
+          5,
+          1
+        ],
+        [
+          540,
+          0,
+          2
+        ],
+        [
+          540,
+          0,
+          3
+        ]
+      ],
+      "visible_source_pixels": 1280,
+      "different_RGB555_pixels": 0
+    },
+    {
+      "stage": 55,
+      "actors": [
+        [
+          546,
+          6,
+          2
+        ],
+        [
+          542,
+          1,
+          3
+        ],
+        [
+          540,
+          0,
+          0
+        ]
+      ],
+      "visible_source_pixels": 870,
+      "different_RGB555_pixels": 0
+    },
+    {
+      "stage": 56,
+      "actors": [
+        [
+          546,
+          7,
+          3
+        ],
+        [
+          544,
+          2,
+          0
+        ],
+        [
+          540,
+          0,
+          1
+        ]
+      ],
+      "visible_source_pixels": 512,
+      "different_RGB555_pixels": 0
+    },
+    {
+      "stage": 57,
+      "actors": [
+        [
+          547,
+          0,
+          0
+        ],
+        [
+          546,
+          3,
+          1
+        ],
+        [
+          540,
+          0,
+          2
+        ]
+      ],
+      "visible_source_pixels": 512,
+      "different_RGB555_pixels": 0
+    },
+    {
+      "stage": 58,
+      "actors": [
+        [
+          547,
+          1,
+          1
+        ],
+        [
+          548,
+          4,
+          2
+        ],
+        [
+          540,
+          0,
+          3
+        ]
+      ],
+      "visible_source_pixels": 560,
+      "different_RGB555_pixels": 0
+    },
+    {
+      "stage": 59,
+      "actors": [
+        [
+          547,
+          2,
+          2
+        ],
+        [
+          541,
+          5,
+          3
+        ],
+        [
+          540,
+          0,
+          0
+        ]
+      ],
+      "visible_source_pixels": 742,
+      "different_RGB555_pixels": 0
+    },
+    {
+      "stage": 60,
+      "actors": [
+        [
+          547,
+          3,
+          3
+        ],
+        [
+          543,
+          6,
+          0
+        ],
+        [
+          540,
+          0,
+          1
+        ]
+      ],
+      "visible_source_pixels": 730,
+      "different_RGB555_pixels": 0
+    },
+    {
+      "stage": 61,
+      "actors": [
+        [
+          547,
+          4,
+          0
+        ],
+        [
+          545,
+          7,
+          1
+        ],
+        [
+          540,
+          0,
+          2
+        ]
+      ],
+      "visible_source_pixels": 512,
+      "different_RGB555_pixels": 0
+    },
+    {
+      "stage": 62,
+      "actors": [
+        [
+          547,
+          5,
+          1
+        ],
+        [
+          548,
+          0,
+          2
+        ],
+        [
+          540,
+          0,
+          3
+        ]
+      ],
+      "visible_source_pixels": 550,
+      "different_RGB555_pixels": 0
+    },
+    {
+      "stage": 63,
+      "actors": [
+        [
+          547,
+          6,
+          2
+        ],
+        [
+          541,
+          1,
+          3
+        ],
+        [
+          540,
+          0,
+          0
+        ]
+      ],
+      "visible_source_pixels": 861,
+      "different_RGB555_pixels": 0
+    },
+    {
+      "stage": 64,
+      "actors": [
+        [
+          547,
+          7,
+          3
+        ],
+        [
+          543,
+          2,
+          0
+        ],
+        [
+          540,
+          0,
+          1
+        ]
+      ],
+      "visible_source_pixels": 1126,
+      "different_RGB555_pixels": 0
+    },
+    {
+      "stage": 65,
+      "actors": [
+        [
+          548,
+          0,
+          0
+        ],
+        [
+          545,
+          3,
+          1
+        ],
+        [
+          540,
+          0,
+          2
+        ]
+      ],
+      "visible_source_pixels": 550,
+      "different_RGB555_pixels": 0
+    },
+    {
+      "stage": 66,
+      "actors": [
+        [
+          548,
+          1,
+          1
+        ],
+        [
+          547,
+          4,
+          2
+        ],
+        [
+          540,
+          0,
+          3
+        ]
+      ],
+      "visible_source_pixels": 1136,
+      "different_RGB555_pixels": 0
+    },
+    {
+      "stage": 67,
+      "actors": [
+        [
+          548,
+          2,
+          2
+        ],
+        [
+          540,
+          5,
+          3
+        ],
+        [
+          540,
+          0,
+          0
+        ]
+      ],
+      "visible_source_pixels": 486,
+      "different_RGB555_pixels": 0
+    },
+    {
+      "stage": 68,
+      "actors": [
+        [
+          548,
+          3,
+          3
+        ],
+        [
+          542,
+          6,
+          0
+        ],
+        [
+          540,
+          0,
+          1
+        ]
+      ],
+      "visible_source_pixels": 864,
+      "different_RGB555_pixels": 0
+    },
+    {
+      "stage": 69,
+      "actors": [
+        [
+          548,
+          4,
+          0
+        ],
+        [
+          544,
+          7,
+          1
+        ],
+        [
+          540,
+          0,
+          2
+        ]
+      ],
+      "visible_source_pixels": 560,
+      "different_RGB555_pixels": 0
+    },
+    {
+      "stage": 70,
+      "actors": [
+        [
+          548,
+          5,
+          1
+        ],
+        [
+          547,
+          0,
+          2
+        ],
+        [
+          540,
+          0,
+          3
+        ]
+      ],
+      "visible_source_pixels": 1170,
+      "different_RGB555_pixels": 0
+    },
+    {
+      "stage": 71,
+      "actors": [
+        [
+          548,
+          6,
+          2
+        ],
+        [
+          540,
+          1,
+          3
+        ],
+        [
+          540,
+          0,
+          0
+        ]
+      ],
+      "visible_source_pixels": 460,
+      "different_RGB555_pixels": 0
+    },
+    {
+      "stage": 72,
+      "actors": [
+        [
+          548,
+          7,
+          3
+        ],
+        [
+          542,
+          2,
+          0
+        ],
+        [
+          540,
+          0,
+          1
+        ]
+      ],
+      "visible_source_pixels": 646,
+      "different_RGB555_pixels": 0
+    },
+    {
+      "stage": 73,
+      "actors": [
+        [
+          540,
+          0,
+          0
+        ],
+        [
+          544,
+          3,
+          1
+        ],
+        [
+          540,
+          0,
+          2
+        ]
+      ],
+      "visible_source_pixels": 768,
+      "different_RGB555_pixels": 0
+    },
+    {
+      "stage": 74,
+      "actors": [
+        [
+          540,
+          1,
+          1
+        ],
+        [
+          546,
+          4,
+          2
+        ],
+        [
+          540,
+          0,
+          3
+        ]
+      ],
+      "visible_source_pixels": 1217,
+      "different_RGB555_pixels": 0
+    },
+    {
+      "stage": 75,
+      "actors": [
+        [
+          540,
+          2,
+          2
+        ],
+        [
+          548,
+          5,
+          3
+        ],
+        [
+          540,
+          0,
+          0
+        ]
+      ],
+      "visible_source_pixels": 417,
+      "different_RGB555_pixels": 0
+    },
+    {
+      "stage": 76,
+      "actors": [
+        [
+          540,
+          3,
+          3
+        ],
+        [
+          541,
+          6,
+          0
+        ],
+        [
+          540,
+          0,
+          1
+        ]
+      ],
+      "visible_source_pixels": 806,
+      "different_RGB555_pixels": 0
+    },
+    {
+      "stage": 77,
+      "actors": [
+        [
+          540,
+          4,
+          0
+        ],
+        [
+          543,
+          7,
+          1
+        ],
+        [
+          540,
+          0,
+          2
+        ]
+      ],
+      "visible_source_pixels": 635,
+      "different_RGB555_pixels": 0
+    },
+    {
+      "stage": 78,
+      "actors": [
+        [
+          540,
+          5,
+          1
+        ],
+        [
+          546,
+          0,
+          2
+        ],
+        [
+          540,
+          0,
+          3
+        ]
+      ],
+      "visible_source_pixels": 1140,
+      "different_RGB555_pixels": 0
+    },
+    {
+      "stage": 79,
+      "actors": [
+        [
+          540,
+          6,
+          2
+        ],
+        [
+          548,
+          1,
+          3
+        ],
+        [
+          540,
+          0,
+          0
+        ]
+      ],
+      "visible_source_pixels": 306,
+      "different_RGB555_pixels": 0
+    },
+    {
+      "stage": 80,
+      "actors": [
+        [
+          540,
+          7,
+          3
+        ],
+        [
+          541,
+          2,
+          0
+        ],
+        [
+          540,
+          0,
+          1
+        ]
+      ],
+      "visible_source_pixels": 863,
+      "different_RGB555_pixels": 0
+    },
+    {
+      "stage": 81,
+      "actors": [
+        [
+          541,
+          0,
+          0
+        ],
+        [
+          543,
+          3,
+          1
+        ],
+        [
+          540,
+          0,
+          2
+        ]
+      ],
+      "visible_source_pixels": 940,
+      "different_RGB555_pixels": 0
+    },
+    {
+      "stage": 82,
+      "actors": [
+        [
+          541,
+          1,
+          1
+        ],
+        [
+          545,
+          4,
+          2
+        ],
+        [
+          540,
+          0,
+          3
+        ]
+      ],
+      "visible_source_pixels": 862,
+      "different_RGB555_pixels": 0
+    },
+    {
+      "stage": 83,
+      "actors": [
+        [
+          541,
+          2,
+          2
+        ],
+        [
+          547,
+          5,
+          3
+        ],
+        [
+          540,
+          0,
+          0
+        ]
+      ],
+      "visible_source_pixels": 632,
+      "different_RGB555_pixels": 0
+    },
+    {
+      "stage": 84,
+      "actors": [
+        [
+          541,
+          3,
+          3
+        ],
+        [
+          540,
+          6,
+          0
+        ],
+        [
+          540,
+          0,
+          1
+        ]
+      ],
+      "visible_source_pixels": 836,
+      "different_RGB555_pixels": 0
+    },
+    {
+      "stage": 85,
+      "actors": [
+        [
+          541,
+          4,
+          0
+        ],
+        [
+          542,
+          7,
+          1
+        ],
+        [
+          540,
+          0,
+          2
+        ]
+      ],
+      "visible_source_pixels": 710,
+      "different_RGB555_pixels": 0
+    },
+    {
+      "stage": 86,
+      "actors": [
+        [
+          541,
+          5,
+          1
+        ],
+        [
+          545,
+          0,
+          2
+        ],
+        [
+          540,
+          0,
+          3
+        ]
+      ],
+      "visible_source_pixels": 1480,
+      "different_RGB555_pixels": 0
+    },
+    {
+      "stage": 87,
+      "actors": [
+        [
+          541,
+          6,
+          2
+        ],
+        [
+          547,
+          1,
+          3
+        ],
+        [
+          540,
+          0,
+          0
+        ]
+      ],
+      "visible_source_pixels": 499,
+      "different_RGB555_pixels": 0
+    },
+    {
+      "stage": 88,
+      "actors": [
+        [
+          541,
+          7,
+          3
+        ],
+        [
+          540,
+          2,
+          0
+        ],
+        [
+          540,
+          0,
+          1
+        ]
+      ],
+      "visible_source_pixels": 893,
+      "different_RGB555_pixels": 0
+    },
+    {
+      "stage": 89,
+      "actors": [
+        [
+          542,
+          0,
+          0
+        ],
+        [
+          542,
+          3,
+          1
+        ],
+        [
+          540,
+          0,
+          2
+        ]
+      ],
+      "visible_source_pixels": 713,
+      "different_RGB555_pixels": 0
+    },
+    {
+      "stage": 90,
+      "actors": [
+        [
+          542,
+          1,
+          1
+        ],
+        [
+          544,
+          4,
+          2
+        ],
+        [
+          540,
+          0,
+          3
+        ]
+      ],
+      "visible_source_pixels": 550,
+      "different_RGB555_pixels": 0
+    },
+    {
+      "stage": 91,
+      "actors": [
+        [
+          542,
+          2,
+          2
+        ],
+        [
+          546,
+          5,
+          3
+        ],
+        [
+          540,
+          0,
+          0
+        ]
+      ],
+      "visible_source_pixels": 870,
+      "different_RGB555_pixels": 0
+    },
+    {
+      "stage": 92,
+      "actors": [
+        [
+          542,
+          3,
+          3
+        ],
+        [
+          548,
+          6,
+          0
+        ],
+        [
+          540,
+          0,
+          1
+        ]
+      ],
+      "visible_source_pixels": 668,
+      "different_RGB555_pixels": 0
+    },
+    {
+      "stage": 93,
+      "actors": [
+        [
+          542,
+          4,
+          0
+        ],
+        [
+          541,
+          7,
+          1
+        ],
+        [
+          540,
+          0,
+          2
+        ]
+      ],
+      "visible_source_pixels": 881,
+      "different_RGB555_pixels": 0
+    },
+    {
+      "stage": 94,
+      "actors": [
+        [
+          542,
+          5,
+          1
+        ],
+        [
+          544,
+          0,
+          2
+        ],
+        [
+          540,
+          0,
+          3
+        ]
+      ],
+      "visible_source_pixels": 1130,
+      "different_RGB555_pixels": 0
+    },
+    {
+      "stage": 95,
+      "actors": [
+        [
+          542,
+          6,
+          2
+        ],
+        [
+          546,
+          1,
+          3
+        ],
+        [
+          540,
+          0,
+          0
+        ]
+      ],
+      "visible_source_pixels": 1088,
+      "different_RGB555_pixels": 0
+    },
+    {
+      "stage": 96,
+      "actors": [
+        [
+          542,
+          7,
+          3
+        ],
+        [
+          548,
+          2,
+          0
+        ],
+        [
+          540,
+          0,
+          1
+        ]
+      ],
+      "visible_source_pixels": 560,
+      "different_RGB555_pixels": 0
+    },
+    {
+      "stage": 97,
+      "actors": [
+        [
+          543,
+          0,
+          0
+        ],
+        [
+          541,
+          3,
+          1
+        ],
+        [
+          540,
+          0,
+          2
+        ]
+      ],
+      "visible_source_pixels": 877,
+      "different_RGB555_pixels": 0
+    },
+    {
+      "stage": 98,
+      "actors": [
+        [
+          543,
+          1,
+          1
+        ],
+        [
+          543,
+          4,
+          2
+        ],
+        [
+          540,
+          0,
+          3
+        ]
+      ],
+      "visible_source_pixels": 609,
+      "different_RGB555_pixels": 0
+    },
+    {
+      "stage": 99,
+      "actors": [
+        [
+          543,
+          2,
+          2
+        ],
+        [
+          545,
+          5,
+          3
+        ],
+        [
+          540,
+          0,
+          0
+        ]
+      ],
+      "visible_source_pixels": 294,
+      "different_RGB555_pixels": 0
+    },
+    {
+      "stage": 100,
+      "actors": [
+        [
+          543,
+          3,
+          3
+        ],
+        [
+          547,
+          6,
+          0
+        ],
+        [
+          540,
+          0,
+          1
+        ]
+      ],
+      "visible_source_pixels": 806,
+      "different_RGB555_pixels": 0
+    },
+    {
+      "stage": 101,
+      "actors": [
+        [
+          543,
+          4,
+          0
+        ],
+        [
+          540,
+          7,
+          1
+        ],
+        [
+          540,
+          0,
+          2
+        ]
+      ],
+      "visible_source_pixels": 566,
+      "different_RGB555_pixels": 0
+    },
+    {
+      "stage": 102,
+      "actors": [
+        [
+          543,
+          5,
+          1
+        ],
+        [
+          543,
+          0,
+          2
+        ],
+        [
+          540,
+          0,
+          3
+        ]
+      ],
+      "visible_source_pixels": 609,
+      "different_RGB555_pixels": 0
+    },
+    {
+      "stage": 103,
+      "actors": [
+        [
+          543,
+          6,
+          2
+        ],
+        [
+          545,
+          1,
+          3
+        ],
+        [
+          540,
+          0,
+          0
+        ]
+      ],
+      "visible_source_pixels": 400,
+      "different_RGB555_pixels": 0
+    },
+    {
+      "stage": 104,
+      "actors": [
+        [
+          543,
+          7,
+          3
+        ],
+        [
+          547,
+          2,
+          0
+        ],
+        [
+          540,
+          0,
+          1
+        ]
+      ],
+      "visible_source_pixels": 606,
+      "different_RGB555_pixels": 0
+    },
+    {
+      "stage": 105,
+      "actors": [
+        [
+          544,
+          0,
+          0
+        ],
+        [
+          540,
+          3,
+          1
+        ],
+        [
+          540,
+          0,
+          2
+        ]
+      ],
+      "visible_source_pixels": 1154,
+      "different_RGB555_pixels": 0
+    },
+    {
+      "stage": 106,
+      "actors": [
+        [
+          544,
+          1,
+          1
+        ],
+        [
+          542,
+          4,
+          2
+        ],
+        [
+          540,
+          0,
+          3
+        ]
+      ],
+      "visible_source_pixels": 582,
+      "different_RGB555_pixels": 0
+    },
+    {
+      "stage": 107,
+      "actors": [
+        [
+          544,
+          2,
+          2
+        ],
+        [
+          544,
+          5,
+          3
+        ],
+        [
+          540,
+          0,
+          0
+        ]
+      ],
+      "visible_source_pixels": 832,
+      "different_RGB555_pixels": 0
+    },
+    {
+      "stage": 108,
+      "actors": [
+        [
+          544,
+          3,
+          3
+        ],
+        [
+          546,
+          6,
+          0
+        ],
+        [
+          540,
+          0,
+          1
+        ]
+      ],
+      "visible_source_pixels": 768,
+      "different_RGB555_pixels": 0
+    },
+    {
+      "stage": 109,
+      "actors": [
+        [
+          544,
+          4,
+          0
+        ],
+        [
+          548,
+          7,
+          1
+        ],
+        [
+          540,
+          0,
+          2
+        ]
+      ],
+      "visible_source_pixels": 608,
+      "different_RGB555_pixels": 0
+    },
+    {
+      "stage": 110,
+      "actors": [
+        [
+          544,
+          5,
+          1
+        ],
+        [
+          542,
+          0,
+          2
+        ],
+        [
+          540,
+          0,
+          3
+        ]
+      ],
+      "visible_source_pixels": 639,
+      "different_RGB555_pixels": 0
+    },
+    {
+      "stage": 111,
+      "actors": [
+        [
+          544,
+          6,
+          2
+        ],
+        [
+          544,
+          1,
+          3
+        ],
+        [
+          540,
+          0,
+          0
+        ]
+      ],
+      "visible_source_pixels": 832,
+      "different_RGB555_pixels": 0
+    },
+    {
+      "stage": 112,
+      "actors": [
+        [
+          544,
+          7,
+          3
+        ],
+        [
+          546,
+          2,
+          0
+        ],
+        [
+          540,
+          0,
+          1
+        ]
+      ],
+      "visible_source_pixels": 1088,
+      "different_RGB555_pixels": 0
+    },
+    {
+      "stage": 113,
+      "actors": [
+        [
+          545,
+          0,
+          0
+        ],
+        [
+          548,
+          3,
+          1
+        ],
+        [
+          540,
+          0,
+          2
+        ]
+      ],
+      "visible_source_pixels": 1184,
+      "different_RGB555_pixels": 0
+    },
+    {
+      "stage": 114,
+      "actors": [
+        [
+          545,
+          1,
+          1
+        ],
+        [
+          541,
+          4,
+          2
+        ],
+        [
+          540,
+          0,
+          3
+        ]
+      ],
+      "visible_source_pixels": 730,
+      "different_RGB555_pixels": 0
+    },
+    {
+      "stage": 115,
+      "actors": [
+        [
+          545,
+          2,
+          2
+        ],
+        [
+          543,
+          5,
+          3
+        ],
+        [
+          540,
+          0,
+          0
+        ]
+      ],
+      "visible_source_pixels": 870,
+      "different_RGB555_pixels": 0
+    },
+    {
+      "stage": 116,
+      "actors": [
+        [
+          545,
+          3,
+          3
+        ],
+        [
+          545,
+          6,
+          0
+        ],
+        [
+          540,
+          0,
+          1
+        ]
+      ],
+      "visible_source_pixels": 512,
+      "different_RGB555_pixels": 0
+    },
+    {
+      "stage": 117,
+      "actors": [
+        [
+          545,
+          4,
+          0
+        ],
+        [
+          547,
+          7,
+          1
+        ],
+        [
+          540,
+          0,
+          2
+        ]
+      ],
+      "visible_source_pixels": 1088,
+      "different_RGB555_pixels": 0
+    },
+    {
+      "stage": 118,
+      "actors": [
+        [
+          545,
+          5,
+          1
+        ],
+        [
+          541,
+          0,
+          2
+        ],
+        [
+          540,
+          0,
+          3
+        ]
+      ],
+      "visible_source_pixels": 902,
+      "different_RGB555_pixels": 0
+    },
+    {
+      "stage": 119,
+      "actors": [
+        [
+          545,
+          6,
+          2
+        ],
+        [
+          543,
+          1,
+          3
+        ],
+        [
+          540,
+          0,
+          0
+        ]
+      ],
+      "visible_source_pixels": 315,
+      "different_RGB555_pixels": 0
+    },
+    {
+      "stage": 120,
+      "actors": [
+        [
+          545,
+          7,
+          3
+        ],
+        [
+          545,
+          2,
+          0
+        ],
+        [
+          540,
+          0,
+          1
+        ]
+      ],
+      "visible_source_pixels": 512,
+      "different_RGB555_pixels": 0
+    },
+    {
+      "stage": 121,
+      "actors": [
+        [
+          546,
+          0,
+          0
+        ],
+        [
+          547,
+          3,
+          1
+        ],
+        [
+          540,
+          0,
+          2
+        ]
+      ],
+      "visible_source_pixels": 1162,
+      "different_RGB555_pixels": 0
+    },
+    {
+      "stage": 122,
+      "actors": [
+        [
+          546,
+          1,
+          1
+        ],
+        [
+          540,
+          4,
+          2
+        ],
+        [
+          540,
+          0,
+          3
+        ]
+      ],
+      "visible_source_pixels": 1202,
+      "different_RGB555_pixels": 0
+    },
+    {
+      "stage": 123,
+      "actors": [
+        [
+          546,
+          2,
+          2
+        ],
+        [
+          542,
+          5,
+          3
+        ],
+        [
+          540,
+          0,
+          0
+        ]
+      ],
+      "visible_source_pixels": 874,
+      "different_RGB555_pixels": 0
+    },
+    {
+      "stage": 124,
+      "actors": [
+        [
+          546,
+          3,
+          3
+        ],
+        [
+          544,
+          6,
+          0
+        ],
+        [
+          540,
+          0,
+          1
+        ]
+      ],
+      "visible_source_pixels": 583,
+      "different_RGB555_pixels": 0
+    },
+    {
+      "stage": 125,
+      "actors": [
+        [
+          546,
+          4,
+          0
+        ],
+        [
+          546,
+          7,
+          1
+        ],
+        [
+          540,
+          0,
+          2
+        ]
+      ],
+      "visible_source_pixels": 1120,
+      "different_RGB555_pixels": 0
+    },
+    {
+      "stage": 126,
+      "actors": [
+        [
+          546,
+          5,
+          1
+        ],
+        [
+          540,
+          0,
+          2
+        ],
+        [
+          540,
+          0,
+          3
+        ]
+      ],
+      "visible_source_pixels": 1280,
+      "different_RGB555_pixels": 0
+    },
+    {
+      "stage": 127,
+      "actors": [
+        [
+          546,
+          6,
+          2
+        ],
+        [
+          542,
+          1,
+          3
+        ],
+        [
+          540,
+          0,
+          0
+        ]
+      ],
+      "visible_source_pixels": 870,
+      "different_RGB555_pixels": 0
+    },
+    {
+      "stage": 128,
+      "actors": [
+        [
+          546,
+          7,
+          3
+        ],
+        [
+          544,
+          2,
+          0
+        ],
+        [
+          540,
+          0,
+          1
+        ]
+      ],
+      "visible_source_pixels": 512,
+      "different_RGB555_pixels": 0
+    },
+    {
+      "stage": 129,
+      "actors": [
+        [
+          547,
+          0,
+          0
+        ],
+        [
+          546,
+          3,
+          1
+        ],
+        [
+          540,
+          0,
+          2
+        ]
+      ],
+      "visible_source_pixels": 512,
+      "different_RGB555_pixels": 0
+    },
+    {
+      "stage": 130,
+      "actors": [
+        [
+          547,
+          1,
+          1
+        ],
+        [
+          548,
+          4,
+          2
+        ],
+        [
+          540,
+          0,
+          3
+        ]
+      ],
+      "visible_source_pixels": 560,
+      "different_RGB555_pixels": 0
+    },
+    {
+      "stage": 131,
+      "actors": [
+        [
+          547,
+          2,
+          2
+        ],
+        [
+          541,
+          5,
+          3
+        ],
+        [
+          540,
+          0,
+          0
+        ]
+      ],
+      "visible_source_pixels": 742,
+      "different_RGB555_pixels": 0
+    },
+    {
+      "stage": 132,
+      "actors": [
+        [
+          547,
+          3,
+          3
+        ],
+        [
+          543,
+          6,
+          0
+        ],
+        [
+          540,
+          0,
+          1
+        ]
+      ],
+      "visible_source_pixels": 730,
+      "different_RGB555_pixels": 0
+    },
+    {
+      "stage": 133,
+      "actors": [
+        [
+          547,
+          4,
+          0
+        ],
+        [
+          545,
+          7,
+          1
+        ],
+        [
+          540,
+          0,
+          2
+        ]
+      ],
+      "visible_source_pixels": 512,
+      "different_RGB555_pixels": 0
+    },
+    {
+      "stage": 134,
+      "actors": [
+        [
+          547,
+          5,
+          1
+        ],
+        [
+          548,
+          0,
+          2
+        ],
+        [
+          540,
+          0,
+          3
+        ]
+      ],
+      "visible_source_pixels": 550,
+      "different_RGB555_pixels": 0
+    },
+    {
+      "stage": 135,
+      "actors": [
+        [
+          547,
+          6,
+          2
+        ],
+        [
+          541,
+          1,
+          3
+        ],
+        [
+          540,
+          0,
+          0
+        ]
+      ],
+      "visible_source_pixels": 861,
+      "different_RGB555_pixels": 0
+    },
+    {
+      "stage": 136,
+      "actors": [
+        [
+          547,
+          7,
+          3
+        ],
+        [
+          543,
+          2,
+          0
+        ],
+        [
+          540,
+          0,
+          1
+        ]
+      ],
+      "visible_source_pixels": 1126,
+      "different_RGB555_pixels": 0
+    },
+    {
+      "stage": 137,
+      "actors": [
+        [
+          548,
+          0,
+          0
+        ],
+        [
+          545,
+          3,
+          1
+        ],
+        [
+          540,
+          0,
+          2
+        ]
+      ],
+      "visible_source_pixels": 550,
+      "different_RGB555_pixels": 0
+    },
+    {
+      "stage": 138,
+      "actors": [
+        [
+          548,
+          1,
+          1
+        ],
+        [
+          547,
+          4,
+          2
+        ],
+        [
+          540,
+          0,
+          3
+        ]
+      ],
+      "visible_source_pixels": 1136,
+      "different_RGB555_pixels": 0
+    },
+    {
+      "stage": 139,
+      "actors": [
+        [
+          548,
+          2,
+          2
+        ],
+        [
+          540,
+          5,
+          3
+        ],
+        [
+          540,
+          0,
+          0
+        ]
+      ],
+      "visible_source_pixels": 486,
+      "different_RGB555_pixels": 0
+    },
+    {
+      "stage": 140,
+      "actors": [
+        [
+          548,
+          3,
+          3
+        ],
+        [
+          542,
+          6,
+          0
+        ],
+        [
+          540,
+          0,
+          1
+        ]
+      ],
+      "visible_source_pixels": 864,
+      "different_RGB555_pixels": 0
+    },
+    {
+      "stage": 141,
+      "actors": [
+        [
+          548,
+          4,
+          0
+        ],
+        [
+          544,
+          7,
+          1
+        ],
+        [
+          540,
+          0,
+          2
+        ]
+      ],
+      "visible_source_pixels": 560,
+      "different_RGB555_pixels": 0
+    },
+    {
+      "stage": 142,
+      "actors": [
+        [
+          548,
+          5,
+          1
+        ],
+        [
+          547,
+          0,
+          2
+        ],
+        [
+          540,
+          0,
+          3
+        ]
+      ],
+      "visible_source_pixels": 1170,
+      "different_RGB555_pixels": 0
+    },
+    {
+      "stage": 143,
+      "actors": [
+        [
+          548,
+          6,
+          2
+        ],
+        [
+          540,
+          1,
+          3
+        ],
+        [
+          540,
+          0,
+          0
+        ]
+      ],
+      "visible_source_pixels": 460,
+      "different_RGB555_pixels": 0
+    },
+    {
+      "stage": 144,
+      "actors": [
+        [
+          548,
+          7,
+          3
+        ],
+        [
+          542,
+          2,
+          0
+        ],
+        [
+          540,
+          0,
+          1
+        ]
+      ],
+      "visible_source_pixels": 646,
+      "different_RGB555_pixels": 0
+    }
+  ],
+  "physical_hardware": "not_run"
+}

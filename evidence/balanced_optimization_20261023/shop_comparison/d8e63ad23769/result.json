@@ -1,0 +1,147 @@
+{
+  "status": "pass",
+  "production_ROM_sha256": "d8e63ad23769ed03f990420723b3c042f3e147b23565e2c23f4c0f67bbe1e780",
+  "shop_source_sha256": "f248a8ede679c397da26b13e7cf82091d0e7f83aa67a6f87f151664e6bb9d8e8",
+  "item_mask_header_sha256": "3fbe9fbd7267af90c5e9f77bdc0433890c048194aee4475b26b0eaa916f6792f",
+  "full_reference_report": "evidence/balanced_optimization_20261023/shop_stack/d8e63ad23769/d823d0dc/result.json",
+  "current_report": "evidence/balanced_optimization_20261023/shop_stack/d8e63ad23769/30747479/result.json",
+  "LCD_screens_exact": [
+    "after_sell_reopened.png",
+    "buy_quantity_limit.png",
+    "dense_sell_list.png",
+    "item_description.png",
+    "original_event_shop_entry.png",
+    "quantity_minus1.png",
+    "quantity_minus10.png",
+    "quantity_plus1.png",
+    "quantity_plus10.png",
+    "sell_quantity.png"
+  ],
+  "transaction": {
+    "sold_item": 10,
+    "count": 99,
+    "unit_sale_price": 50,
+    "gold_before": 12345,
+    "gold_after": 17295,
+    "remaining_item_count": 0,
+    "usage_counter_cleared": true,
+    "reopened_sell_list_count": 470,
+    "post_shop_Game_sha256": "028abc89c3887f10d777f4b3e29b02ff70336c947ee7d6098ccecdb1ce4d1012"
+  },
+  "old_response": [
+    {
+      "action": "shop_sell_down",
+      "samples": 3,
+      "response_ms_min": 117.19894409179688,
+      "response_ms_max": 234.39788818359375,
+      "response_ms_mean": 161.84616088867188,
+      "black_frames": 0,
+      "intermediate_LCD_frames": 0
+    },
+    {
+      "action": "shop_sell_up",
+      "samples": 3,
+      "response_ms_min": 117.19894409179688,
+      "response_ms_max": 184.16976928710938,
+      "response_ms_mean": 139.52255249023438,
+      "black_frames": 0,
+      "intermediate_LCD_frames": 0
+    },
+    {
+      "action": "quantity_plus1",
+      "samples": 1,
+      "response_ms_min": 133.941650390625,
+      "response_ms_max": 133.941650390625,
+      "response_ms_mean": 133.941650390625,
+      "black_frames": 0,
+      "intermediate_LCD_frames": 0
+    },
+    {
+      "action": "quantity_minus1",
+      "samples": 1,
+      "response_ms_min": 100.45623779296875,
+      "response_ms_max": 100.45623779296875,
+      "response_ms_mean": 100.45623779296875,
+      "black_frames": 0,
+      "intermediate_LCD_frames": 0
+    },
+    {
+      "action": "quantity_plus10",
+      "samples": 1,
+      "response_ms_min": 117.19894409179688,
+      "response_ms_max": 117.19894409179688,
+      "response_ms_mean": 117.19894409179688,
+      "black_frames": 0,
+      "intermediate_LCD_frames": 0
+    },
+    {
+      "action": "quantity_minus10",
+      "samples": 1,
+      "response_ms_min": 167.42706298828125,
+      "response_ms_max": 167.42706298828125,
+      "response_ms_mean": 167.42706298828125,
+      "black_frames": 0,
+      "intermediate_LCD_frames": 0
+    }
+  ],
+  "current_response": [
+    {
+      "action": "shop_sell_down",
+      "samples": 3,
+      "response_ms_min": 50.228118896484375,
+      "response_ms_max": 83.71353149414062,
+      "response_ms_mean": 61.389923095703125,
+      "black_frames": 0,
+      "intermediate_LCD_frames": 0
+    },
+    {
+      "action": "shop_sell_up",
+      "samples": 3,
+      "response_ms_min": 50.228118896484375,
+      "response_ms_max": 100.45623779296875,
+      "response_ms_mean": 66.9708251953125,
+      "black_frames": 0,
+      "intermediate_LCD_frames": 0
+    },
+    {
+      "action": "quantity_plus1",
+      "samples": 1,
+      "response_ms_min": 33.48541259765625,
+      "response_ms_max": 33.48541259765625,
+      "response_ms_mean": 33.48541259765625,
+      "black_frames": 0,
+      "intermediate_LCD_frames": 0
+    },
+    {
+      "action": "quantity_minus1",
+      "samples": 1,
+      "response_ms_min": 66.9708251953125,
+      "response_ms_max": 66.9708251953125,
+      "response_ms_mean": 66.9708251953125,
+      "black_frames": 0,
+      "intermediate_LCD_frames": 0
+    },
+    {
+      "action": "quantity_plus10",
+      "samples": 1,
+      "response_ms_min": 50.228118896484375,
+      "response_ms_max": 50.228118896484375,
+      "response_ms_mean": 50.228118896484375,
+      "black_frames": 0,
+      "intermediate_LCD_frames": 0
+    },
+    {
+      "action": "quantity_minus10",
+      "samples": 1,
+      "response_ms_min": 50.228118896484375,
+      "response_ms_max": 50.228118896484375,
+      "response_ms_mean": 50.228118896484375,
+      "black_frames": 0,
+      "intermediate_LCD_frames": 0
+    }
+  ],
+  "minimum_SYS_margin_before": 956,
+  "minimum_SYS_margin_after": 1756,
+  "scope": "Separate source-bound real-GBA fixtures with original item DB, actual event VM and buttons. Exact shop/list/quantity pixels and identical full Game after sale of99 items, stock exhaustion/reopen and refused buy at capacity. No natural-campaign claim.",
+  "hardware": "not_run"
+}

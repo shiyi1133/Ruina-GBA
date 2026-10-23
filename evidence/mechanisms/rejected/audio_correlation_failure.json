@@ -1,0 +1,11 @@
+{
+  "status": "rejected",
+  "rom_sha256": "29a527c32440413c72ec5be6e1d013f5a70baa8108787a02c7ecf3582bded462",
+  "observed_left_right_correlations": [
+    0.7196366821936228,
+    0.7186865175591114
+  ],
+  "required_minimum": 0.96,
+  "capture": "evidence/audio/cave_native_capture.wav",
+  "note": "A later result does not erase this failure."
+}

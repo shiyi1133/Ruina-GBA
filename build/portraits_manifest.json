@@ -1,0 +1,53 @@
+{
+  "format": "original indexed 48x48 faces in 8-bit OBJ tiles, original sheet palette converted only to GBA RGB555",
+  "portraits": 160,
+  "sheets": 10,
+  "bytes": 375060,
+  "additional_lossy_resize": false,
+  "additional_color_reduction": false,
+  "transparent_palette_index": 0,
+  "sources": [
+    {
+      "path": "Ruina121/game/FaceSet/召喚キャラ１.xyz",
+      "sha256": "a86687bc572349f077e51c32cdbd5f9cb4b6a9843565dbc4380b722df75c2355"
+    },
+    {
+      "path": "Ruina121/game/FaceSet/顔絵一般1.xyz",
+      "sha256": "189e73fbc6fe59dd2c2fdabf529cc6c5460eb0b055aa40e9473214db1d63f3fb"
+    },
+    {
+      "path": "Ruina121/game/FaceSet/顔絵一般2.xyz",
+      "sha256": "b4510ae8f17bda8da4464db19132805221ac5110e609b885266d2b1c33540747"
+    },
+    {
+      "path": "Ruina121/game/FaceSet/顔絵主役.xyz",
+      "sha256": "e5d9e5e7791e4b75ce9177b47f4ebf2d18655f31035a5b1dc14315a626e19533"
+    },
+    {
+      "path": "Ruina121/game/FaceSet/顔絵仲間１.xyz",
+      "sha256": "b9617bd3dbf800695c5c418aebe7558ab4ddf7143bb3f464f22e77c328513d9a"
+    },
+    {
+      "path": "Ruina121/game/FaceSet/顔絵仲間２.xyz",
+      "sha256": "2f3e85eea52b91cfded2d63aece78844e71f9ecbb4890f2f539a8f5a53471e2d"
+    },
+    {
+      "path": "Ruina121/game/FaceSet/顔絵仲間３.xyz",
+      "sha256": "879a86c08cabc0347891eaea910031418684d90d80634fc1498ec8078f971796"
+    },
+    {
+      "path": "Ruina121/game/FaceSet/顔絵仲間４.xyz",
+      "sha256": "db6a5266420d29e9b6b7531e2e3389d6fa840b4bf4f1cb48f9e13e3d4b8658bd"
+    },
+    {
+      "path": "Ruina121/game/FaceSet/顔絵敵１.xyz",
+      "sha256": "c2508518a1985f7aed226866309db1c9af0ed3014843db605b3bddcbcba9d75d"
+    },
+    {
+      "path": "Ruina121/game/FaceSet/顔絵敵２.xyz",
+      "sha256": "a145acc4d058926c91ccf4673a3bcbb3d0ef6edc8e6d803ed43d469cab144a3f"
+    }
+  ],
+  "generator_sha256": "5611a1578e754a8e7856995df9fd77a727abdebef00d4775fbe916d3355018a7",
+  "bank_sha256": "cc29d4bdcd2725f8eeb8b11c759287f02380aabc9be69add3d8de4fe247856eb"
+}

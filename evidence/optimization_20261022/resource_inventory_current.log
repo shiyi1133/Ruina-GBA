@@ -1,0 +1,68 @@
+{
+  "status": "pass",
+  "kind": "static original requirement/resource inventory; gameplay separate",
+  "source_archive_sha256": "589a0adb0f710200f19522e19a96fa394f67aabd40100edd8664bb60f5e509c4",
+  "original_map_pages": 8205,
+  "original_page_move_types": {
+    "0": 8205
+  },
+  "autonomous_movement_needed_by_this_game": false,
+  "random_encounter_entries": 0,
+  "map_music_types": {
+    "0": 11,
+    "1": 59,
+    "2": 2
+  },
+  "max_picture_slot": 50,
+  "max_map_cells": 1950,
+  "used_chipsets": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "image_references_checked": 3091,
+  "audio_references_checked": 3496,
+  "all_referenced_resources_found": true,
+  "missing": [],
+  "unprovided_unused_defaults": [
+    {
+      "type": "chipset",
+      "database_id": 1,
+      "name_hex": "8aee967b",
+      "reason": "Not selected by any source map or ChangeMapTileset command"
+    },
+    {
+      "type": "chipset",
+      "database_id": 2,
+      "name_hex": "8a4f8acf",
+      "reason": "Not selected by any source map or ChangeMapTileset command"
+    },
+    {
+      "type": "chipset",
+      "database_id": 3,
+      "name_hex": "93e09195",
+      "reason": "Not selected by any source map or ChangeMapTileset command"
+    },
+    {
+      "type": "chipset",
+      "database_id": 4,
+      "name_hex": "835f8393835783878393",
+      "reason": "Not selected by any source map or ChangeMapTileset command"
+    },
+    {
+      "type": "chipset",
+      "database_id": 5,
+      "name_hex": "9144",
+      "reason": "Not selected by any source map or ChangeMapTileset command"
+    },
+    {
+      "type": "system inn music",
+      "name_hex": "4a8341834383658380",
+      "reason": "No ShowInn commands in the original; scripted resting music is audited separately"
+    }
+  ],
+  "resource_manifest_sha256": "c933201673f66c603fe7b6f756800b2e34b2a2e344cd12f740184056c6130982",
+  "audio_bank_sha256": "c2e794c7065cd2dd311d2fd97d199db2331c41fb00c01964a25e47ba82ab0961",
+  "audio_playback_acceptance": "separate; static presence is not a passing playback test"
+}

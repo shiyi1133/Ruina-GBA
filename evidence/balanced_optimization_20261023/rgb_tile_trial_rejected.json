@@ -1,0 +1,17 @@
+{
+  "status": "experiment_rejected",
+  "base_production_ROM_sha256": "3371cc8ffac5dfe023ce9458d13617cdc00b2619286f04a5bb4374b7bd69c164",
+  "trial": {
+    "ROM": "/mnt/d/gba_hack/废都物语_GBA章节样版/build/fixtures/rgb_tile_trial/rgb_tile_trial.gba",
+    "ELF": "/mnt/d/gba_hack/废都物语_GBA章节样版/build/fixtures/rgb_tile_trial/rgb_tile_trial.elf",
+    "base": "3371cc8ffac5dfe023ce9458d13617cdc00b2619286f04a5bb4374b7bd69c164",
+    "sha256": "ad27fc0d45f405f0813b77625a8143d11a9509d49cfce7aa0ae479e16761d5ee"
+  },
+  "reason": "44 independent PNG cases passed, including three aligned native tile cases; natural opening response showed no material gain. Keep the simpler validated production RGB renderer. No production source changes.",
+  "pixel_report": "evidence/balanced_optimization_20261023/rgb_pixels/4c187e53e664/result.json",
+  "whole_tile_metrics": [
+    4,
+    2232
+  ],
+  "pixels_status": "pass"
+}

@@ -1,0 +1,19 @@
+原作：Ruina 廃都の物語（废都物语），枯草章吉。
+GBA 版本：胖胖&咩咩 移植。
+本次原数据与素材来源：用户提供的“废都物语251102修复优化版.zip”。
+原包 SHA-256：589a0adb0f710200f19522e19a96fa394f67aabd40100edd8664bb60f5e509c4。
+原汉化、修复与优化版本的署名见该原包 Ruina121/说明+原readme.txt，未替换原作者或汉化团队署名。
+
+本工程自行实现原生 GBA 运行时；事件与战斗规则参考 EasyRPG Player、liblcf。
+自动战斗排序等实现根据 EasyRPG GPL-3.0-or-later 代码适配；引擎及工具代码采用 GPL-3.0-or-later，全文见 LICENSE。
+旧参考源码及其原有版权声明保存在 research/reference/，来源为 EasyRPG 官方仓库。
+本次重构另固定 EasyRPG Player 0.8.1.1（78328fa29f465315291e161130e6682f69410370）和 liblcf 0.8.1（92c4450a1bc1acb58bd02bbb99b57e5036919cdf）。
+所用参考文件、原始版权/许可证和逐文件 SHA-256 保存在 third_party/ 与 sources.lock.json。
+Player 为 GPL-3.0-or-later；liblcf 的独立许可证以 third_party/liblcf/COPYING 为准。
+本工程只作有选择的规则适配与数据读取，不是完整 EasyRPG Player 的 GBA 平台版本。
+MIDI 离线转换使用 TinySoundFont（MIT）与 TinyMidiLoader（zlib），原许可证保留在各自头文件。
+模拟器验收依赖 mGBA（MPL-2.0）；验收工具使用公开核心接口。
+本次中文栅格字形由本机宋体生成，可通过 RUINA_FONT 改用其它字体重建。
+
+引擎源码许可证不改变原游戏剧情、图像、音乐、原包附带字体/音源等材料各自的权利归属。
+“GBA 移植原型”不代表原作者、汉化团队或 EasyRPG 官方发布。

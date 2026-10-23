@@ -1,0 +1,20 @@
+checking check_attribution
+{"name": "check_attribution", "command": ["/home/app/venvs/pig/bin/python", "tools/check_attribution.py"], "status": "pass", "returncode": 0, "host_seconds": 3.0423036689990113, "log": "evidence/balanced_optimization_20261023/validation/2dc6246fba1e/1792730009409919410/check_attribution.log"}
+checking check_battle_menu_comparison
+{"name": "check_battle_menu_comparison", "command": ["/home/app/venvs/pig/bin/python", "tools/check_battle_menu_comparison.py"], "status": "pass", "returncode": 0, "host_seconds": 16.517908045001604, "log": "evidence/balanced_optimization_20261023/validation/2dc6246fba1e/1792730009409919410/check_battle_menu_comparison.log"}
+checking check_serviced_storage
+{"name": "check_serviced_storage", "command": ["/home/app/venvs/pig/bin/python", "tools/check_serviced_storage.py"], "status": "pass", "returncode": 0, "host_seconds": 0.22795451799902366, "log": "evidence/balanced_optimization_20261023/validation/2dc6246fba1e/1792730009409919410/check_serviced_storage.log"}
+checking check_balanced_rgb
+{"name": "check_balanced_rgb", "command": ["/home/app/venvs/pig/bin/python", "tools/check_balanced_rgb.py"], "status": "pass", "returncode": 0, "host_seconds": 8.172907846999806, "log": "evidence/balanced_optimization_20261023/validation/2dc6246fba1e/1792730009409919410/check_balanced_rgb.log"}
+checking check_balanced_menu_regions
+{"name": "check_balanced_menu_regions", "command": ["/home/app/venvs/pig/bin/python", "tools/check_balanced_menu_regions.py"], "status": "pass", "returncode": 0, "host_seconds": 8.380991252999593, "log": "evidence/balanced_optimization_20261023/validation/2dc6246fba1e/1792730009409919410/check_balanced_menu_regions.log"}
+checking check_balanced_ui_capacity
+{"name": "check_balanced_ui_capacity", "command": ["/home/app/venvs/pig/bin/python", "tools/check_balanced_ui_capacity.py"], "status": "pass", "returncode": 0, "host_seconds": 3.351654553998742, "log": "evidence/balanced_optimization_20261023/validation/2dc6246fba1e/1792730009409919410/check_balanced_ui_capacity.log"}
+checking check_map_window_matrix
+{"name": "check_map_window_matrix", "command": ["/home/app/venvs/pig/bin/python", "tools/check_map_window_matrix.py"], "status": "pass", "returncode": 0, "host_seconds": 70.28727201699985, "log": "evidence/balanced_optimization_20261023/validation/2dc6246fba1e/1792730009409919410/check_map_window_matrix.log"}
+checking check_incremental_rooms
+{"name": "check_incremental_rooms", "command": ["/home/app/venvs/pig/bin/python", "tools/check_incremental_rooms.py"], "status": "pass", "returncode": 0, "host_seconds": 38.20449374999953, "log": "evidence/balanced_optimization_20261023/validation/2dc6246fba1e/1792730009409919410/check_incremental_rooms.log"}
+checking check_music_room_long
+{"name": "check_music_room_long", "command": ["/home/app/venvs/pig/bin/python", "tools/check_music_room_long.py"], "status": "pass", "returncode": 0, "host_seconds": 10.971924683999532, "log": "evidence/balanced_optimization_20261023/validation/2dc6246fba1e/1792730009409919410/check_music_room_long.log"}
+checking measure_balanced_battle
+{"name": "measure_balanced_battle", "command": ["/home/app/venvs/pig/bin/python", "tools/measure_balanced_battle.py"], "status": "fail", "returncode": 1, "host_seconds": 4.28586731500036, "log": "evidence/balanced_optimization_20261023/validation/2dc6246fba1e/1792730009409919410/measure_balanced_battle.log"}

@@ -1,0 +1,11 @@
+{
+  "status": "pass",
+  "original_bank_poses_checked": 864,
+  "LCD_directions_checked": 288,
+  "different_RGB555_pixels": 0,
+  "production_rom_sha256": "2416a8e950d764c790dd55a309d615de4c0dc9420fa791e6b9cd3535fab8824f",
+  "fixture_sha256": "08d2c1ef87bb82b46d7e87e5ec03982bf093c2389699b3df83d32cc16dfcdac3",
+  "bank_sha256": "a40f86f3dc5ae84c858f57068b88c22f6a521afba3d37550f582adfb4b08e839",
+  "scope": "isolated original characters; actual gameplay visibility and combined palette checked separately",
+  "physical_hardware": "not_run"
+}

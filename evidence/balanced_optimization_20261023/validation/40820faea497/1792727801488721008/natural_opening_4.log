@@ -1,0 +1,33 @@
+{
+  "status": "pass",
+  "ROM_sha256": "40820faea497163e7bae56fd83600b2ea1870a5bd8255409e75906897c2e9958",
+  "origin": 4,
+  "new_game_reaches_first_map": true,
+  "native_map_hardware_mode": 0,
+  "game_map_x_y_selection": [
+    23,
+    15,
+    12,
+    1
+  ],
+  "captures": [
+    "title.png",
+    "title_menu.png",
+    "dialogue_000.png",
+    "dialogue_004.png",
+    "four_faces.png",
+    "dialogue_006.png",
+    "dialogue_008.png",
+    "name.png",
+    "dialogue_010.png",
+    "dialogue_011.png",
+    "dialogue_014.png",
+    "dialogue_015.png",
+    "dialogue_016.png",
+    "dialogue_017.png",
+    "dialogue_018.png",
+    "first_map.png"
+  ],
+  "hardware": "not_run",
+  "whole_game": "not_run"
+}

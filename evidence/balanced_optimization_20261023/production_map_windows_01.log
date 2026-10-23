@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/mnt/d/gba_hack/废都物语_GBA章节样版/tools/check_map_window_matrix.py", line 51, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/mnt/d/gba_hack/废都物语_GBA章节样版/tools/check_map_window_matrix.py", line 32, in main
+    assert audio[0]==audio_start,(label,stage,'audio underrun',audio)
+           ^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ('full', 8, 'audio underrun', (2880, 408, 1936, 0))

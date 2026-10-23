@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/mnt/d/gba_hack/废都物语_GBA章节样版/tools/check_panorama_matrix_gba.py", line 38, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/mnt/d/gba_hack/废都物语_GBA章节样版/tools/check_panorama_matrix_gba.py", line 35, in main
+    assert not different,row;e.frames(2,1);e.frames(2)
+           ^^^^^^^^^^^^^
+AssertionError: {'stage': 9, 'image': 198, 'source': 'Ruina121/game/Panorama/メッセウインドウ黒.xyz', 'camera': [0, 0], 'display_different_pixels': 19072, 'original_RGB555_different_pixels': 19072}
