@@ -94,6 +94,11 @@ int decode_image_storage_span(const Image*im,int y,int x,int length,u8*row,unsig
  if(im->encoding==7){for(i=0;i<(unsigned)length;i++)row[i]=im->pixels[0];return length;}
  if(im->encoding==6)return tiled_span(im,y,x,length,row);
  if(!im->encoding){src=im->pixels+(unsigned)y*width+x;for(i=0;i<(unsigned)length;i++)row[i]=src[i];return length;}
+ if(im->encoding==8){unsigned bh=4096/width,block=(unsigned)y/bh,lines=height-block*bh,expected;if(lines>bh)lines=bh;expected=lines*width;
+  legacy_blocks();if(!im->rows)return 0;
+  if(last_pixels!=im->pixels||last_block!=(int)block){last_pixels=0;last_block=-1;if((unsigned)lz4(im->pixels+im->rows[block],im->rows[block+1]-im->rows[block],block_pixels,expected)!=expected)return 0;last_pixels=im->pixels;last_block=block;}
+  memcpy(row,block_pixels+((unsigned)y%bh)*width+x,length);return length;
+ }
  if(im->encoding==2||im->encoding==4){
   legacy_blocks();
   unsigned stride=(width+1)/2,bh=im->encoding==4?4096/stride:8,block=(unsigned)y/bh,lines=height-block*bh,expected;if(lines>bh)lines=bh;expected=stride*lines;

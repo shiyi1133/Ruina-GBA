@@ -14,7 +14,7 @@ def fixture(source,stem,overrides=None):
  for directory in ['source','runtime/rm2k','platform/gba']:objects += [ROOT/'build'/(p.stem+'.o')for p in sorted((ROOT/directory).glob('*.c'))if p.name!='game.c']
  for name,path in (overrides or {}).items():
   replacement=out/(name+'.o')
-  subprocess.run([PREFIX+'gcc',*flags,*(['-marm','-O3','-mlong-calls']if name in('audio','lcf','light_midi','native_midi')else[]),'-c',str(ROOT/path),'-o',str(replacement)],cwd=ROOT,check=True)
+  subprocess.run([PREFIX+'gcc',*flags,*(['-marm','-O3','-mlong-calls']if name in('audio','lcf','image','light_midi','native_midi')else[]),'-c',str(ROOT/path),'-o',str(replacement)],cwd=ROOT,check=True)
   objects=[replacement if p.name==name+'.o'else p for p in objects]
  objects += [ROOT/'build'/n for n in ['assets.o','borrowed_commands.o','source_menu_labels.o','midi_clock.o','music_room_names.o','start.o']]+[obj]
  if(ROOT/'build/high_color_blobs.s').exists():objects.append(ROOT/'build/high_color_blobs.o')

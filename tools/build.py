@@ -47,7 +47,7 @@ def main():
   flags+=['-DRUINA_PREDECODE_COMMANDS','-DRUINA_PREDECODE_PAGES','-DRUINA_BORROW_COMMANDS']
   if audio_metadata.get('direct_pcm_wav'):flags+=['-DRUINA_PCM_WAV']
   if src.name in ('audio.c','native_midi.c','light_midi.c'):flags+=['-marm','-O3','-mlong-calls']
-  if src.name=='lcf.c':flags+=['-marm','-O3','-mlong-calls']
+  if src.name in ('lcf.c','image.c'):flags+=['-marm','-O3','-mlong-calls']
   if src.suffix=='.c':flags+=['-std=c99','-Wall','-Wextra','-Wno-misleading-indentation','-finput-charset=UTF-8','-fexec-charset=GBK']
   run([str(PREFIX)+'gcc',*flags,'-c',src,'-o',obj])
  elf=out/'ruina_opening_dev.elf'
@@ -56,12 +56,12 @@ def main():
  data=bytearray(rom.read_bytes())
  logo=bytes.fromhex('24ffae51699aa2213d84820a84e409ad11248b98c0817f21a352be199309ce2010464a4af82731ec58c7e83382e3cebf85f4df94ce4b09c194568ac01372a7fc9f844d73a3ca9a615897a327fc039876231dc7610304ae56bf38840040a70efdff52fe036f9530f197fbc08560d68025a963be03014e38e2f9a234ffbb3e0344780090cb88113a9465c07c6387f03cafd625e48b380aac7221d4f807')
  assert len(logo)==156;data[4:160]=logo;data[160:172]=b'RUINA GBA   ';data[172:176]=b'RUIN';data[176:178]=b'00';data[178]=0x96;data[179:188]=bytes(9);data[188]=0;data[189]=(-sum(data[160:189])-0x19)&255;data[190:192]=b'\0\0'
- data[172:176]=b'RUB8';data[189]=(-sum(data[160:189])-0x19)&255
+ data[172:176]=b'RUB9';data[189]=(-sum(data[160:189])-0x19)&255
  data+=b'\xff'*((-len(data))%4);assert len(data)<=32*1024*1024,'GBA ROM exceeds 32 MiB';rom.write_bytes(data)
  run([str(PREFIX)+'size',elf])
- report={'artifact':rom.name,'bytes':len(data),'sha256':hashlib.sha256(data).hexdigest(),'kind':'native GBA RM2000 compatibility framework with Ruina chapter adapter','build_status':'compiled','runtime_validation':'not run by this build command; see evidence/battle_animations_20261023/validation.json for the matching ROM hash','full_game_port':False,'complete_EasyRPG_port':False,'upstream_lock_sha256':hashlib.sha256((ROOT/'third_party/sources.lock.json').read_bytes()).hexdigest()}
+ report={'artifact':rom.name,'bytes':len(data),'sha256':hashlib.sha256(data).hexdigest(),'kind':'native GBA RM2000 compatibility framework with Ruina chapter adapter','build_status':'compiled','runtime_validation':'not run by this build command; see evidence/animation_optimization_20261023/validation.json for the matching ROM hash','full_game_port':False,'complete_EasyRPG_port':False,'upstream_lock_sha256':hashlib.sha256((ROOT/'third_party/sources.lock.json').read_bytes()).hexdigest()}
  assert all(hashlib.sha256((ROOT/p).read_bytes()).hexdigest()==h for p,h in inputs_before.items()),'Compiler inputs changed during build'
  report['compiler_inputs_sha256']=inputs_before;report['compiler_inputs_unchanged_during_build']=True;report['light_music_voice_capacity']=128 if light_music else None
- report['version']='0.7.2';report['renderer']='retained native BG0 maps + independent 4bpp BG1 text windows; RGB555 bitmap illustrations, portraits and battle scenes'
+ report['version']='0.7.3';report['renderer']='retained native BG0 maps + independent 4bpp BG1 text windows; RGB555 bitmap illustrations, portraits and battle scenes'
  (out/'build_receipt.json').write_text(json.dumps(report,ensure_ascii=False,indent=2));print(json.dumps(report,ensure_ascii=False,indent=2))
 if __name__=='__main__':main()

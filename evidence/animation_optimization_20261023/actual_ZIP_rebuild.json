@@ -1,0 +1,11 @@
+{
+  "status": "pass",
+  "acceptance_ROM_sha256": "8ae611cf961d1f639f40339721755bac0ca0e9193cfae7b0e0b32796ae2f17ef",
+  "bundled_acceptance_variant_rebuild": "pass, byte identical",
+  "ROM_sha256": "8c102fb03935f05f47e7aa3f7d95630d365e24a121d56dd628d849d7f8a82cd4",
+  "source_ZIP": "/mnt/c/Users/APP/Downloads/废都物语_GBA_匹配工程_v0.7.3_20261023.zip",
+  "source_ZIP_sha256": "a55814609bd22bd68a7d9f7b266af54ca21caee8014b79fad3005099d46b56ec",
+  "fresh_project": "/tmp/ruina-v073-zip-proof-1lkdn1v9/废都物语_GBA_匹配工程_v0.7.3_20261023",
+  "original_archive_font_and_image_python": "disabled",
+  "python_site_packages": "disabled by -S"
+}

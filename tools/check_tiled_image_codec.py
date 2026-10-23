@@ -57,6 +57,7 @@ def main():
    assert not lib.image_storage_tile(C.byref(im),tx,ty)
   assert not lib.image_storage_tile(C.byref(legacy),0,0)
   records.append({'width':w,'height':h,'tiles':len(refs),'compressed_bytes':len(pool)})
+ cached_tile=im
  # Constant storage preserves a nonzero local index and transparency meaning;
  # it is not equivalent to rewriting every color as palette index zero.
  for value in(0,1,17,255):
@@ -64,7 +65,25 @@ def main():
   for y in(0,17,478):
    assert lib.decode_image_row(C.byref(im),y,row,1024)==641 and bytes(row[:641])==bytes([value])*641;rows+=1
    assert lib.decode_image_storage_span(C.byref(im),y,53,187,row,1024)==187 and bytes(row[:187])==bytes([value])*187;spans+=1
- report={'status':'pass','kind':'independent random source pixels; decoder cache interleaving and odd-size image edges','rows':rows,'spans':spans,'whole_tile_borrows':whole_tiles,'cases':records,
+ # Full-index block storage is also used by every battle animation cell.
+ # Alternate it with tiles, legacy nibble blocks and scratch borrowers to
+ # exercise the optimized clipped-span path with real cache invalidations.
+ block_spans=0
+ for w,h in [(1,23),(7,99),(33,129),(96,96),(321,41),(1023,17)]:
+  source=rng.integers(0,256,(h,w),dtype=np.uint8);source[:h//2,:w//2]%=3
+  bh=4096//w;pool=bytearray();offsets=[0]
+  for y in range(0,h,bh):pool.extend(encode_lz4(source[y:y+bh].tobytes()));offsets.append(len(pool))
+  data=(C.c_ubyte*len(pool)).from_buffer_copy(pool);table=(C.c_uint*len(offsets))(*offsets);block=Image(data,w,h,table,None,8,1,w,h,None)
+  for y in range(h):
+   for invalidation in range(4):
+    if invalidation==1:assert lib.decode_image_row(C.byref(legacy),y%32,row,1024)==64
+    elif invalidation==2:assert lib.image_storage_tile(C.byref(cached_tile),0,0)
+    elif invalidation==3:C.memset(lib.image_decode_scratch(),0xa5,4096)
+    x=int(rng.integers(0,w));length=int(rng.integers(1,w-x+1));assert lib.decode_image_storage_span(C.byref(block),y,x,length,row,1024)==length
+    assert bytes(row[:length])==source[y,x:x+length].tobytes(),(w,h,y,x,length,invalidation,'block span');block_spans+=1
+   assert lib.decode_image_row(C.byref(block),y,row,1024)==w and bytes(row[:w])==source[y].tobytes();rows+=1
+  for y,x,length,cap in [(-1,0,1,1024),(h,0,1,1024),(0,-1,1,1024),(0,w,1,1024),(0,0,w+1,1024),(0,0,1,0)]:assert not lib.decode_image_storage_span(C.byref(block),y,x,length,row,cap)
+ report={'status':'pass','kind':'independent random source pixels; decoder cache interleaving and odd-size image edges','rows':rows,'spans':spans,'whole_tile_borrows':whole_tiles,'block_indexed_spans':block_spans,'cases':records,
          'sources':{p:hashlib.sha256((ROOT/p).read_bytes()).hexdigest()for p in['platform/gba/image.c','runtime/rm2k/types.h','tests/image_decoder_stub.c']}}
  out=ROOT/'evidence/optimization_20261022/art';out.mkdir(parents=True,exist_ok=True);(out/'tiled_codec_host.json').write_text(json.dumps(report,ensure_ascii=False,indent=2));print(json.dumps(report,ensure_ascii=False,indent=2),flush=True)
 

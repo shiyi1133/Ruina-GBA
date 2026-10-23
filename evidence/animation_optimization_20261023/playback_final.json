@@ -1,0 +1,35 @@
+{
+  "status": "pass",
+  "label": "final",
+  "production_ROM_sha256": "8c102fb03935f05f47e7aa3f7d95630d365e24a121d56dd628d849d7f8a82cd4",
+  "fixture_ROM_sha256": "54ec057651e1ea1bc84aad6f779c78523b4156e4ca19dfe6ca7565f17398955e",
+  "MIDI_track": 1,
+  "samples": [
+    {
+      "animation": 46,
+      "hardware_frames": 196,
+      "seconds": 3.2815704345703125,
+      "MIDI_underruns": 0
+    },
+    {
+      "animation": 62,
+      "hardware_frames": 232,
+      "seconds": 3.884307861328125,
+      "MIDI_underruns": 0
+    },
+    {
+      "animation": 78,
+      "hardware_frames": 350,
+      "seconds": 5.859947204589844,
+      "MIDI_underruns": 0
+    },
+    {
+      "animation": 191,
+      "hardware_frames": 1225,
+      "seconds": 20.509815216064453,
+      "MIDI_underruns": 0
+    }
+  ],
+  "total_seconds": 33.535640716552734,
+  "scope": "Unchanged production animation_battle, original SFX and real MIDI. Hardware frame counter observed around full playback; no user delay included. Controlled battlers/targets only. Not full gameplay FPS."
+}

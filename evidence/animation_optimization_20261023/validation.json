@@ -1,0 +1,1861 @@
+{
+  "status": "pass",
+  "version": "0.7.3",
+  "ROM_sha256": "8c102fb03935f05f47e7aa3f7d95630d365e24a121d56dd628d849d7f8a82cd4",
+  "acceptance_ROM_sha256": "8ae611cf961d1f639f40339721755bac0ca0e9193cfae7b0e0b32796ae2f17ef",
+  "reports": [
+    "evidence/battle_animations_20261023/e731ae3ad1d7/result.json",
+    "evidence/battle_animations_20261023/259975922638/result.json",
+    "evidence/animation_optimization_20261023/blend_8c102fb03935/result.json",
+    "evidence/first_battle_origin_3/result.json",
+    "evidence/balanced_optimization_20261023/save_stack/8c102fb03935/result.json",
+    "evidence/animation_optimization_20261023/regression_summary.json"
+  ],
+  "storage": {
+    "status": "pass",
+    "visible_cells": 600,
+    "original_cells_checked": 601,
+    "empty_cells": 1,
+    "all_original_RGB555_pixels_exact": true,
+    "all_transparency_masks_exact": true,
+    "losslessly_packed_portraits": 160,
+    "bank_sha256": "053dc5311367626964071cca0a29c29ae4c8e921e7b87cce6aa1ad2158e20715",
+    "method": "Independent decoder, directly compared to original archive XYZ palette indices, with transparent index distinguished even when RGB equals a visible color."
+  },
+  "non_face_storage": {
+    "status": "pass",
+    "non_face_image_descriptors_unchanged": 8551,
+    "non_face_tile_references_compared_exact_encoded_bytes": 250891,
+    "legacy_36px_face_picture_API_preserved": "verified separately by RGB LCD comparison",
+    "native_48px_portraits": "verified separately directly against source XYZ"
+  },
+  "render_comparison": {
+    "status": "pass",
+    "baseline_ROM": "fb8de2fe0d0ec6a938281460ffe984c1b2189b65f738fbb8b88eead59d3e086f",
+    "candidate_ROM": "8c102fb03935f05f47e7aa3f7d95630d365e24a121d56dd628d849d7f8a82cd4",
+    "frames_compared": 213,
+    "LCD_pixels_identical": true,
+    "baseline_mean_ms": 176.57470703125,
+    "candidate_mean_ms": 111.75107284330986,
+    "baseline_median_ms": 101.6845703125,
+    "candidate_median_ms": 68.90869140625,
+    "baseline_worst_ms": 697.8759765625,
+    "candidate_worst_ms": 513.73291015625,
+    "total_render_speedup": 1.5800716945136772,
+    "scope": "Same 213 selected original animation frames, unchanged foreground/background, exact LCD comparison. Timer2 on actual emulated GBA hardware; includes draw and present, excludes user key timing and initialization. Not average gameplay FPS.",
+    "rows": [
+      {
+        "animation": 1,
+        "baseline_ms": 17.2119140625,
+        "candidate_ms": 17.2119140625,
+        "speedup": 1.0,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 2,
+        "baseline_ms": 34.24072265625,
+        "candidate_ms": 17.4560546875,
+        "speedup": 1.9615384615384615,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 3,
+        "baseline_ms": 51.3916015625,
+        "candidate_ms": 51.45263671875,
+        "speedup": 0.9988137603795967,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 4,
+        "baseline_ms": 34.0576171875,
+        "candidate_ms": 17.333984375,
+        "speedup": 1.9647887323943662,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 5,
+        "baseline_ms": 34.423828125,
+        "candidate_ms": 34.36279296875,
+        "speedup": 1.0017761989342806,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 6,
+        "baseline_ms": 34.423828125,
+        "candidate_ms": 34.48486328125,
+        "speedup": 0.9982300884955753,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 7,
+        "baseline_ms": 35.0341796875,
+        "candidate_ms": 34.48486328125,
+        "speedup": 1.015929203539823,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 8,
+        "baseline_ms": 51.33056640625,
+        "candidate_ms": 34.66796875,
+        "speedup": 1.4806338028169015,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 9,
+        "baseline_ms": 17.4560546875,
+        "candidate_ms": 17.4560546875,
+        "speedup": 1.0,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 10,
+        "baseline_ms": 17.08984375,
+        "candidate_ms": 17.15087890625,
+        "speedup": 0.99644128113879,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 11,
+        "baseline_ms": 17.08984375,
+        "candidate_ms": 17.08984375,
+        "speedup": 1.0,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 12,
+        "baseline_ms": 17.08984375,
+        "candidate_ms": 17.08984375,
+        "speedup": 1.0,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 13,
+        "baseline_ms": 17.4560546875,
+        "candidate_ms": 17.333984375,
+        "speedup": 1.0070422535211268,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 14,
+        "baseline_ms": 17.578125,
+        "candidate_ms": 17.578125,
+        "speedup": 1.0,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 15,
+        "baseline_ms": 34.48486328125,
+        "candidate_ms": 17.822265625,
+        "speedup": 1.9349315068493151,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 16,
+        "baseline_ms": 34.5458984375,
+        "candidate_ms": 34.60693359375,
+        "speedup": 0.9982363315696648,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 17,
+        "baseline_ms": 34.1796875,
+        "candidate_ms": 17.578125,
+        "speedup": 1.9444444444444444,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 18,
+        "baseline_ms": 50.9033203125,
+        "candidate_ms": 33.99658203125,
+        "speedup": 1.497307001795332,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 19,
+        "baseline_ms": 51.1474609375,
+        "candidate_ms": 34.423828125,
+        "speedup": 1.4858156028368794,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 20,
+        "baseline_ms": 67.9931640625,
+        "candidate_ms": 51.1474609375,
+        "speedup": 1.3293556085918854,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 22,
+        "baseline_ms": 363.037109375,
+        "candidate_ms": 212.34130859375,
+        "speedup": 1.7096866915780398,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 23,
+        "baseline_ms": 430.60302734375,
+        "candidate_ms": 229.67529296875,
+        "speedup": 1.8748339091150679,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 24,
+        "baseline_ms": 17.2119140625,
+        "candidate_ms": 17.15087890625,
+        "speedup": 1.00355871886121,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 25,
+        "baseline_ms": 52.55126953125,
+        "candidate_ms": 52.001953125,
+        "speedup": 1.0105633802816902,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 26,
+        "baseline_ms": 280.517578125,
+        "candidate_ms": 146.6064453125,
+        "speedup": 1.9134054954204829,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 27,
+        "baseline_ms": 396.97265625,
+        "candidate_ms": 263.7939453125,
+        "speedup": 1.5048588616381304,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 28,
+        "baseline_ms": 103.33251953125,
+        "candidate_ms": 86.60888671875,
+        "speedup": 1.193093727977449,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 29,
+        "baseline_ms": 325.01220703125,
+        "candidate_ms": 274.71923828125,
+        "speedup": 1.1830704287936014,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 30,
+        "baseline_ms": 346.3134765625,
+        "candidate_ms": 178.8330078125,
+        "speedup": 1.936518771331058,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 31,
+        "baseline_ms": 362.97607421875,
+        "candidate_ms": 195.556640625,
+        "speedup": 1.8561173533083646,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 32,
+        "baseline_ms": 70.1904296875,
+        "candidate_ms": 53.466796875,
+        "speedup": 1.312785388127854,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 33,
+        "baseline_ms": 296.0205078125,
+        "candidate_ms": 178.8330078125,
+        "speedup": 1.6552901023890785,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 34,
+        "baseline_ms": 296.08154296875,
+        "candidate_ms": 162.9638671875,
+        "speedup": 1.8168539325842696,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 35,
+        "baseline_ms": 513.73291015625,
+        "candidate_ms": 346.25244140625,
+        "speedup": 1.4836946941653446,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 36,
+        "baseline_ms": 313.3544921875,
+        "candidate_ms": 162.65869140625,
+        "speedup": 1.926454033771107,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 37,
+        "baseline_ms": 102.6611328125,
+        "candidate_ms": 86.12060546875,
+        "speedup": 1.1920623671155208,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 38,
+        "baseline_ms": 34.5458984375,
+        "candidate_ms": 34.66796875,
+        "speedup": 0.9964788732394366,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 39,
+        "baseline_ms": 34.3017578125,
+        "candidate_ms": 34.3017578125,
+        "speedup": 1.0,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 40,
+        "baseline_ms": 67.93212890625,
+        "candidate_ms": 84.716796875,
+        "speedup": 0.8018731988472623,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 41,
+        "baseline_ms": 68.603515625,
+        "candidate_ms": 51.81884765625,
+        "speedup": 1.3239104829210837,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 42,
+        "baseline_ms": 33.99658203125,
+        "candidate_ms": 17.27294921875,
+        "speedup": 1.9681978798586572,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 43,
+        "baseline_ms": 174.98779296875,
+        "candidate_ms": 124.755859375,
+        "speedup": 1.402641878669276,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 45,
+        "baseline_ms": 34.11865234375,
+        "candidate_ms": 34.24072265625,
+        "speedup": 0.9964349376114082,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 46,
+        "baseline_ms": 34.3017578125,
+        "candidate_ms": 34.36279296875,
+        "speedup": 0.9982238010657194,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 47,
+        "baseline_ms": 51.69677734375,
+        "candidate_ms": 35.09521484375,
+        "speedup": 1.4730434782608695,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 48,
+        "baseline_ms": 34.1796875,
+        "candidate_ms": 17.27294921875,
+        "speedup": 1.9787985865724382,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 49,
+        "baseline_ms": 50.84228515625,
+        "candidate_ms": 34.24072265625,
+        "speedup": 1.4848484848484849,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 50,
+        "baseline_ms": 86.97509765625,
+        "candidate_ms": 70.068359375,
+        "speedup": 1.2412891986062717,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 51,
+        "baseline_ms": 194.03076171875,
+        "candidate_ms": 177.24609375,
+        "speedup": 1.0946969696969697,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 52,
+        "baseline_ms": 120.66650390625,
+        "candidate_ms": 103.6376953125,
+        "speedup": 1.1643109540636043,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 53,
+        "baseline_ms": 121.7041015625,
+        "candidate_ms": 71.4111328125,
+        "speedup": 1.7042735042735042,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 55,
+        "baseline_ms": 70.1904296875,
+        "candidate_ms": 53.3447265625,
+        "speedup": 1.3157894736842106,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 56,
+        "baseline_ms": 51.1474609375,
+        "candidate_ms": 34.423828125,
+        "speedup": 1.4858156028368794,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 57,
+        "baseline_ms": 51.3916015625,
+        "candidate_ms": 34.66796875,
+        "speedup": 1.482394366197183,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 58,
+        "baseline_ms": 140.9912109375,
+        "candidate_ms": 124.267578125,
+        "speedup": 1.1345776031434185,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 59,
+        "baseline_ms": 246.9482421875,
+        "candidate_ms": 230.1025390625,
+        "speedup": 1.073209549071618,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 60,
+        "baseline_ms": 52.06298828125,
+        "candidate_ms": 35.46142578125,
+        "speedup": 1.46815834767642,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 61,
+        "baseline_ms": 34.3017578125,
+        "candidate_ms": 18.37158203125,
+        "speedup": 1.867109634551495,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 62,
+        "baseline_ms": 34.66796875,
+        "candidate_ms": 34.60693359375,
+        "speedup": 1.001763668430335,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 64,
+        "baseline_ms": 68.359375,
+        "candidate_ms": 51.6357421875,
+        "speedup": 1.3238770685579195,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 65,
+        "baseline_ms": 68.4814453125,
+        "candidate_ms": 51.69677734375,
+        "speedup": 1.3246753246753247,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 66,
+        "baseline_ms": 68.42041015625,
+        "candidate_ms": 51.69677734375,
+        "speedup": 1.3234946871310507,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 67,
+        "baseline_ms": 68.359375,
+        "candidate_ms": 51.513671875,
+        "speedup": 1.3270142180094786,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 68,
+        "baseline_ms": 68.359375,
+        "candidate_ms": 51.57470703125,
+        "speedup": 1.3254437869822486,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 69,
+        "baseline_ms": 68.359375,
+        "candidate_ms": 51.6357421875,
+        "speedup": 1.3238770685579195,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 70,
+        "baseline_ms": 68.359375,
+        "candidate_ms": 51.57470703125,
+        "speedup": 1.3254437869822486,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 71,
+        "baseline_ms": 68.29833984375,
+        "candidate_ms": 51.513671875,
+        "speedup": 1.3258293838862558,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 72,
+        "baseline_ms": 69.15283203125,
+        "candidate_ms": 52.3681640625,
+        "speedup": 1.3205128205128205,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 73,
+        "baseline_ms": 85.87646484375,
+        "candidate_ms": 69.091796875,
+        "speedup": 1.2429328621908127,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 74,
+        "baseline_ms": 33.99658203125,
+        "candidate_ms": 17.333984375,
+        "speedup": 1.9612676056338028,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 75,
+        "baseline_ms": 102.9052734375,
+        "candidate_ms": 69.3359375,
+        "speedup": 1.4841549295774648,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 77,
+        "baseline_ms": 34.48486328125,
+        "candidate_ms": 18.06640625,
+        "speedup": 1.9087837837837838,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 78,
+        "baseline_ms": 51.513671875,
+        "candidate_ms": 34.72900390625,
+        "speedup": 1.4833040421792618,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 79,
+        "baseline_ms": 51.7578125,
+        "candidate_ms": 35.0341796875,
+        "speedup": 1.4773519163763067,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 80,
+        "baseline_ms": 312.80517578125,
+        "candidate_ms": 178.89404296875,
+        "speedup": 1.7485499829409759,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 81,
+        "baseline_ms": 296.0205078125,
+        "candidate_ms": 162.17041015625,
+        "speedup": 1.825366955212646,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 82,
+        "baseline_ms": 296.0205078125,
+        "candidate_ms": 162.109375,
+        "speedup": 1.8260542168674698,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 83,
+        "baseline_ms": 34.24072265625,
+        "candidate_ms": 34.24072265625,
+        "speedup": 1.0,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 84,
+        "baseline_ms": 68.115234375,
+        "candidate_ms": 51.33056640625,
+        "speedup": 1.3269916765755054,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 85,
+        "baseline_ms": 51.57470703125,
+        "candidate_ms": 34.7900390625,
+        "speedup": 1.4824561403508771,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 86,
+        "baseline_ms": 296.0205078125,
+        "candidate_ms": 145.3857421875,
+        "speedup": 2.0361041141897567,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 87,
+        "baseline_ms": 68.05419921875,
+        "candidate_ms": 51.26953125,
+        "speedup": 1.3273809523809523,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 88,
+        "baseline_ms": 102.84423828125,
+        "candidate_ms": 69.3359375,
+        "speedup": 1.483274647887324,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 89,
+        "baseline_ms": 68.78662109375,
+        "candidate_ms": 51.94091796875,
+        "speedup": 1.3243243243243243,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 90,
+        "baseline_ms": 86.0595703125,
+        "candidate_ms": 52.55126953125,
+        "speedup": 1.637630662020906,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 91,
+        "baseline_ms": 85.51025390625,
+        "candidate_ms": 68.90869140625,
+        "speedup": 1.2409211691762623,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 92,
+        "baseline_ms": 346.86279296875,
+        "candidate_ms": 179.38232421875,
+        "speedup": 1.9336509016672339,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 93,
+        "baseline_ms": 446.71630859375,
+        "candidate_ms": 279.296875,
+        "speedup": 1.5994318181818181,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 94,
+        "baseline_ms": 463.43994140625,
+        "candidate_ms": 279.23583984375,
+        "speedup": 1.659672131147541,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 95,
+        "baseline_ms": 86.3037109375,
+        "candidate_ms": 69.580078125,
+        "speedup": 1.2403508771929825,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 96,
+        "baseline_ms": 138.61083984375,
+        "candidate_ms": 105.1025390625,
+        "speedup": 1.318815331010453,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 97,
+        "baseline_ms": 122.61962890625,
+        "candidate_ms": 88.9892578125,
+        "speedup": 1.3779149519890261,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 98,
+        "baseline_ms": 363.58642578125,
+        "candidate_ms": 196.1669921875,
+        "speedup": 1.8534536403235844,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 99,
+        "baseline_ms": 312.744140625,
+        "candidate_ms": 162.04833984375,
+        "speedup": 1.9299435028248588,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 100,
+        "baseline_ms": 446.77734375,
+        "candidate_ms": 245.849609375,
+        "speedup": 1.817279046673287,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 101,
+        "baseline_ms": 33.99658203125,
+        "candidate_ms": 34.0576171875,
+        "speedup": 0.9982078853046595,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 102,
+        "baseline_ms": 51.45263671875,
+        "candidate_ms": 34.66796875,
+        "speedup": 1.4841549295774648,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 103,
+        "baseline_ms": 51.1474609375,
+        "candidate_ms": 34.423828125,
+        "speedup": 1.4858156028368794,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 104,
+        "baseline_ms": 279.96826171875,
+        "candidate_ms": 129.21142578125,
+        "speedup": 2.1667453944260746,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 105,
+        "baseline_ms": 346.3134765625,
+        "candidate_ms": 195.556640625,
+        "speedup": 1.7709113607990012,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 106,
+        "baseline_ms": 68.78662109375,
+        "candidate_ms": 52.001953125,
+        "speedup": 1.3227699530516432,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 107,
+        "baseline_ms": 51.025390625,
+        "candidate_ms": 34.24072265625,
+        "speedup": 1.4901960784313726,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 108,
+        "baseline_ms": 68.2373046875,
+        "candidate_ms": 51.3916015625,
+        "speedup": 1.327790973871734,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 109,
+        "baseline_ms": 102.05078125,
+        "candidate_ms": 68.603515625,
+        "speedup": 1.4875444839857652,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 110,
+        "baseline_ms": 279.296875,
+        "candidate_ms": 128.60107421875,
+        "speedup": 2.1718082581869957,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 111,
+        "baseline_ms": 313.3544921875,
+        "candidate_ms": 162.7197265625,
+        "speedup": 1.9257314328582145,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 112,
+        "baseline_ms": 346.19140625,
+        "candidate_ms": 180.35888671875,
+        "speedup": 1.9194585448392556,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 113,
+        "baseline_ms": 68.90869140625,
+        "candidate_ms": 35.400390625,
+        "speedup": 1.946551724137931,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 114,
+        "baseline_ms": 51.45263671875,
+        "candidate_ms": 34.72900390625,
+        "speedup": 1.4815465729349737,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 115,
+        "baseline_ms": 121.64306640625,
+        "candidate_ms": 88.43994140625,
+        "speedup": 1.375431331953071,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 116,
+        "baseline_ms": 329.52880859375,
+        "candidate_ms": 178.8330078125,
+        "speedup": 1.8426621160409555,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 117,
+        "baseline_ms": 50.72021484375,
+        "candidate_ms": 33.99658203125,
+        "speedup": 1.4919210053859964,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 118,
+        "baseline_ms": 463.5009765625,
+        "candidate_ms": 279.23583984375,
+        "speedup": 1.6598907103825136,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 119,
+        "baseline_ms": 68.603515625,
+        "candidate_ms": 51.8798828125,
+        "speedup": 1.3223529411764705,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 120,
+        "baseline_ms": 51.33056640625,
+        "candidate_ms": 34.5458984375,
+        "speedup": 1.4858657243816253,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 121,
+        "baseline_ms": 85.26611328125,
+        "candidate_ms": 52.3681640625,
+        "speedup": 1.6282051282051282,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 122,
+        "baseline_ms": 346.8017578125,
+        "candidate_ms": 196.1669921875,
+        "speedup": 1.7678904791537025,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 123,
+        "baseline_ms": 223.2666015625,
+        "candidate_ms": 173.095703125,
+        "speedup": 1.2898448519040904,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 124,
+        "baseline_ms": 154.78515625,
+        "candidate_ms": 121.39892578125,
+        "speedup": 1.275012569130216,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 125,
+        "baseline_ms": 85.44921875,
+        "candidate_ms": 68.7255859375,
+        "speedup": 1.2433392539964476,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 126,
+        "baseline_ms": 85.02197265625,
+        "candidate_ms": 68.29833984375,
+        "speedup": 1.2448614834673817,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 127,
+        "baseline_ms": 153.99169921875,
+        "candidate_ms": 103.8818359375,
+        "speedup": 1.4823736780258518,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 128,
+        "baseline_ms": 312.80517578125,
+        "candidate_ms": 162.04833984375,
+        "speedup": 1.9303201506591336,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 129,
+        "baseline_ms": 329.4677734375,
+        "candidate_ms": 178.89404296875,
+        "speedup": 1.8416922552030024,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 130,
+        "baseline_ms": 446.71630859375,
+        "candidate_ms": 279.35791015625,
+        "speedup": 1.5990823683635569,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 132,
+        "baseline_ms": 119.20166015625,
+        "candidate_ms": 85.75439453125,
+        "speedup": 1.390035587188612,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 133,
+        "baseline_ms": 51.33056640625,
+        "candidate_ms": 34.5458984375,
+        "speedup": 1.4858657243816253,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 134,
+        "baseline_ms": 119.68994140625,
+        "candidate_ms": 86.24267578125,
+        "speedup": 1.3878273177636236,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 135,
+        "baseline_ms": 329.52880859375,
+        "candidate_ms": 178.8330078125,
+        "speedup": 1.8426621160409555,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 136,
+        "baseline_ms": 69.64111328125,
+        "candidate_ms": 52.91748046875,
+        "speedup": 1.3160322952710497,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 137,
+        "baseline_ms": 84.5947265625,
+        "candidate_ms": 51.08642578125,
+        "speedup": 1.6559139784946237,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 138,
+        "baseline_ms": 84.5947265625,
+        "candidate_ms": 51.1474609375,
+        "speedup": 1.6539379474940334,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 139,
+        "baseline_ms": 84.65576171875,
+        "candidate_ms": 51.08642578125,
+        "speedup": 1.6571087216248506,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 140,
+        "baseline_ms": 480.16357421875,
+        "candidate_ms": 312.744140625,
+        "speedup": 1.5353239656518345,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 141,
+        "baseline_ms": 312.80517578125,
+        "candidate_ms": 162.109375,
+        "speedup": 1.9295933734939759,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 142,
+        "baseline_ms": 51.513671875,
+        "candidate_ms": 34.423828125,
+        "speedup": 1.49645390070922,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 143,
+        "baseline_ms": 67.81005859375,
+        "candidate_ms": 51.08642578125,
+        "speedup": 1.3273596176821982,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 144,
+        "baseline_ms": 50.59814453125,
+        "candidate_ms": 33.935546875,
+        "speedup": 1.4910071942446044,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 145,
+        "baseline_ms": 50.6591796875,
+        "candidate_ms": 34.0576171875,
+        "speedup": 1.4874551971326164,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 146,
+        "baseline_ms": 67.9931640625,
+        "candidate_ms": 51.33056640625,
+        "speedup": 1.3246135552913199,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 147,
+        "baseline_ms": 67.5048828125,
+        "candidate_ms": 50.9033203125,
+        "speedup": 1.3261390887290168,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 148,
+        "baseline_ms": 50.72021484375,
+        "candidate_ms": 17.15087890625,
+        "speedup": 2.9572953736654806,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 149,
+        "baseline_ms": 313.41552734375,
+        "candidate_ms": 147.15576171875,
+        "speedup": 2.1298216507673167,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 150,
+        "baseline_ms": 50.537109375,
+        "candidate_ms": 33.87451171875,
+        "speedup": 1.491891891891892,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 151,
+        "baseline_ms": 50.9033203125,
+        "candidate_ms": 33.935546875,
+        "speedup": 1.5,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 152,
+        "baseline_ms": 67.87109375,
+        "candidate_ms": 34.48486328125,
+        "speedup": 1.968141592920354,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 153,
+        "baseline_ms": 67.93212890625,
+        "candidate_ms": 34.48486328125,
+        "speedup": 1.9699115044247788,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 154,
+        "baseline_ms": 68.42041015625,
+        "candidate_ms": 34.97314453125,
+        "speedup": 1.956369982547993,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 155,
+        "baseline_ms": 70.3125,
+        "candidate_ms": 53.5888671875,
+        "speedup": 1.3120728929384966,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 156,
+        "baseline_ms": 50.59814453125,
+        "candidate_ms": 17.2119140625,
+        "speedup": 2.9397163120567376,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 157,
+        "baseline_ms": 329.4677734375,
+        "candidate_ms": 179.38232421875,
+        "speedup": 1.8366791425654985,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 158,
+        "baseline_ms": 312.744140625,
+        "candidate_ms": 162.109375,
+        "speedup": 1.9292168674698795,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 159,
+        "baseline_ms": 102.05078125,
+        "candidate_ms": 68.603515625,
+        "speedup": 1.4875444839857652,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 160,
+        "baseline_ms": 50.59814453125,
+        "candidate_ms": 33.87451171875,
+        "speedup": 1.4936936936936938,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 161,
+        "baseline_ms": 50.78125,
+        "candidate_ms": 34.0576171875,
+        "speedup": 1.4910394265232976,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 162,
+        "baseline_ms": 262.5732421875,
+        "candidate_ms": 128.60107421875,
+        "speedup": 2.041765543426673,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 163,
+        "baseline_ms": 85.87646484375,
+        "candidate_ms": 52.3681640625,
+        "speedup": 1.6398601398601398,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 164,
+        "baseline_ms": 50.78125,
+        "candidate_ms": 33.935546875,
+        "speedup": 1.4964028776978417,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 165,
+        "baseline_ms": 102.47802734375,
+        "candidate_ms": 69.03076171875,
+        "speedup": 1.484526967285588,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 166,
+        "baseline_ms": 50.59814453125,
+        "candidate_ms": 17.2119140625,
+        "speedup": 2.9397163120567376,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 167,
+        "baseline_ms": 193.05419921875,
+        "candidate_ms": 159.48486328125,
+        "speedup": 1.2104860313815538,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 168,
+        "baseline_ms": 50.72021484375,
+        "candidate_ms": 33.99658203125,
+        "speedup": 1.4919210053859964,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 169,
+        "baseline_ms": 363.6474609375,
+        "candidate_ms": 196.1669921875,
+        "speedup": 1.8537647790914749,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 170,
+        "baseline_ms": 358.45947265625,
+        "candidate_ms": 291.8701171875,
+        "speedup": 1.2281472187369302,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 171,
+        "baseline_ms": 206.9091796875,
+        "candidate_ms": 156.31103515625,
+        "speedup": 1.3237016790316283,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 172,
+        "baseline_ms": 345.458984375,
+        "candidate_ms": 311.95068359375,
+        "speedup": 1.1074153785951868,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 173,
+        "baseline_ms": 580.62744140625,
+        "candidate_ms": 396.54541015625,
+        "speedup": 1.46421425273203,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 175,
+        "baseline_ms": 346.8017578125,
+        "candidate_ms": 179.38232421875,
+        "speedup": 1.9333106498809118,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 176,
+        "baseline_ms": 50.78125,
+        "candidate_ms": 33.8134765625,
+        "speedup": 1.5018050541516246,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 177,
+        "baseline_ms": 50.96435546875,
+        "candidate_ms": 34.11865234375,
+        "speedup": 1.4937388193202146,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 178,
+        "baseline_ms": 513.671875,
+        "candidate_ms": 429.99267578125,
+        "speedup": 1.1946061036195883,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 179,
+        "baseline_ms": 135.68115234375,
+        "candidate_ms": 102.11181640625,
+        "speedup": 1.328750747160789,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 180,
+        "baseline_ms": 101.86767578125,
+        "candidate_ms": 68.359375,
+        "speedup": 1.4901785714285714,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 181,
+        "baseline_ms": 446.71630859375,
+        "candidate_ms": 279.23583984375,
+        "speedup": 1.5997814207650274,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 182,
+        "baseline_ms": 413.2080078125,
+        "candidate_ms": 245.78857421875,
+        "speedup": 1.6811522224981377,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 183,
+        "baseline_ms": 446.77734375,
+        "candidate_ms": 279.296875,
+        "speedup": 1.5996503496503496,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 184,
+        "baseline_ms": 246.4599609375,
+        "candidate_ms": 196.22802734375,
+        "speedup": 1.2559875583203732,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 185,
+        "baseline_ms": 430.5419921875,
+        "candidate_ms": 263.12255859375,
+        "speedup": 1.6362792855485966,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 187,
+        "baseline_ms": 119.32373046875,
+        "candidate_ms": 85.75439453125,
+        "speedup": 1.3914590747330962,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 188,
+        "baseline_ms": 329.52880859375,
+        "candidate_ms": 178.8330078125,
+        "speedup": 1.8426621160409555,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 189,
+        "baseline_ms": 102.47802734375,
+        "candidate_ms": 69.03076171875,
+        "speedup": 1.484526967285588,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 190,
+        "baseline_ms": 68.42041015625,
+        "candidate_ms": 51.69677734375,
+        "speedup": 1.3234946871310507,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 191,
+        "baseline_ms": 697.8759765625,
+        "candidate_ms": 513.73291015625,
+        "speedup": 1.358441249851491,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 193,
+        "baseline_ms": 513.671875,
+        "candidate_ms": 279.296875,
+        "speedup": 1.8391608391608392,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 195,
+        "baseline_ms": 480.224609375,
+        "candidate_ms": 279.296875,
+        "speedup": 1.7194055944055944,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 196,
+        "baseline_ms": 363.037109375,
+        "candidate_ms": 212.2802734375,
+        "speedup": 1.7101782633697526,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 197,
+        "baseline_ms": 363.037109375,
+        "candidate_ms": 212.34130859375,
+        "speedup": 1.7096866915780398,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 199,
+        "baseline_ms": 279.23583984375,
+        "candidate_ms": 128.60107421875,
+        "speedup": 2.1713336497389655,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 200,
+        "baseline_ms": 279.296875,
+        "candidate_ms": 128.60107421875,
+        "speedup": 2.1718082581869957,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 201,
+        "baseline_ms": 279.9072265625,
+        "candidate_ms": 129.21142578125,
+        "speedup": 2.166273027869627,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 202,
+        "baseline_ms": 314.02587890625,
+        "candidate_ms": 146.6064453125,
+        "speedup": 2.1419650291423813,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 203,
+        "baseline_ms": 50.84228515625,
+        "candidate_ms": 33.75244140625,
+        "speedup": 1.5063291139240507,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 204,
+        "baseline_ms": 314.02587890625,
+        "candidate_ms": 146.728515625,
+        "speedup": 2.14018302828619,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 205,
+        "baseline_ms": 313.4765625,
+        "candidate_ms": 163.330078125,
+        "speedup": 1.9192825112107623,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 206,
+        "baseline_ms": 102.294921875,
+        "candidate_ms": 85.5712890625,
+        "speedup": 1.195435092724679,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 207,
+        "baseline_ms": 119.07958984375,
+        "candidate_ms": 85.5712890625,
+        "speedup": 1.391583452211127,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 209,
+        "baseline_ms": 101.806640625,
+        "candidate_ms": 68.29833984375,
+        "speedup": 1.4906166219839143,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 210,
+        "baseline_ms": 101.6845703125,
+        "candidate_ms": 68.29833984375,
+        "speedup": 1.4888293118856122,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 211,
+        "baseline_ms": 379.7607421875,
+        "candidate_ms": 212.2802734375,
+        "speedup": 1.7889591719378954,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 213,
+        "baseline_ms": 119.44580078125,
+        "candidate_ms": 85.99853515625,
+        "speedup": 1.3889283179559972,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 215,
+        "baseline_ms": 101.6845703125,
+        "candidate_ms": 68.17626953125,
+        "speedup": 1.4914950760966876,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 216,
+        "baseline_ms": 135.7421875,
+        "candidate_ms": 102.23388671875,
+        "speedup": 1.3277611940298508,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 217,
+        "baseline_ms": 274.35302734375,
+        "candidate_ms": 224.06005859375,
+        "speedup": 1.2244619994551893,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 219,
+        "baseline_ms": 463.5009765625,
+        "candidate_ms": 296.08154296875,
+        "speedup": 1.5654504225932797,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 220,
+        "baseline_ms": 480.224609375,
+        "candidate_ms": 312.80517578125,
+        "speedup": 1.535219512195122,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 221,
+        "baseline_ms": 480.16357421875,
+        "candidate_ms": 312.80517578125,
+        "speedup": 1.5350243902439025,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 222,
+        "baseline_ms": 379.7607421875,
+        "candidate_ms": 212.2802734375,
+        "speedup": 1.7889591719378954,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 224,
+        "baseline_ms": 446.71630859375,
+        "candidate_ms": 262.5732421875,
+        "speedup": 1.7013017201301721,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 225,
+        "baseline_ms": 446.71630859375,
+        "candidate_ms": 262.51220703125,
+        "speedup": 1.7016972797023948,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 226,
+        "baseline_ms": 153.564453125,
+        "candidate_ms": 120.05615234375,
+        "speedup": 1.2791052364006101,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 227,
+        "baseline_ms": 191.2841796875,
+        "candidate_ms": 124.267578125,
+        "speedup": 1.5392927308447937,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 228,
+        "baseline_ms": 530.94482421875,
+        "candidate_ms": 346.74072265625,
+        "speedup": 1.531244499207886,
+        "LCD_pixels_identical": true
+      },
+      {
+        "animation": 229,
+        "baseline_ms": 514.22119140625,
+        "candidate_ms": 330.078125,
+        "speedup": 1.5578772189349113,
+        "LCD_pixels_identical": true
+      }
+    ]
+  },
+  "complete_playback": {
+    "status": "pass",
+    "label": "final",
+    "production_ROM_sha256": "8c102fb03935f05f47e7aa3f7d95630d365e24a121d56dd628d849d7f8a82cd4",
+    "fixture_ROM_sha256": "54ec057651e1ea1bc84aad6f779c78523b4156e4ca19dfe6ca7565f17398955e",
+    "MIDI_track": 1,
+    "samples": [
+      {
+        "animation": 46,
+        "hardware_frames": 196,
+        "seconds": 3.2815704345703125,
+        "MIDI_underruns": 0
+      },
+      {
+        "animation": 62,
+        "hardware_frames": 232,
+        "seconds": 3.884307861328125,
+        "MIDI_underruns": 0
+      },
+      {
+        "animation": 78,
+        "hardware_frames": 350,
+        "seconds": 5.859947204589844,
+        "MIDI_underruns": 0
+      },
+      {
+        "animation": 191,
+        "hardware_frames": 1225,
+        "seconds": 20.509815216064453,
+        "MIDI_underruns": 0
+      }
+    ],
+    "total_seconds": 33.535640716552734,
+    "scope": "Unchanged production animation_battle, original SFX and real MIDI. Hardware frame counter observed around full playback; no user delay included. Controlled battlers/targets only. Not full gameplay FPS."
+  },
+  "acceptance_checks": [
+    {
+      "check": "fresh original origin reaches map with HP/MP and four bonuses 999, all 65 magic spells and the initial grant of 194 learnable abilities",
+      "origin": 1,
+      "level": 1,
+      "grant_trace": [
+        1,
+        19,
+        194,
+        999
+      ],
+      "original_conditional_auxiliary_skills": [
+        {
+          "actor": 1,
+          "original_event_managed_skills": [
+            40
+          ]
+        },
+        {
+          "actor": 5,
+          "original_event_managed_skills": [
+            399
+          ]
+        },
+        {
+          "actor": 6,
+          "original_event_managed_skills": [
+            11,
+            12
+          ]
+        },
+        {
+          "actor": 10,
+          "original_event_managed_skills": [
+            52
+          ]
+        }
+      ],
+      "pass": true
+    },
+    {
+      "check": "all 65 learned magic spells actually appear enabled, verified by real battle LCD text pixels; original equipment rules unchanged",
+      "spell_ids": [
+        27,
+        28,
+        30,
+        31,
+        33,
+        34,
+        35,
+        37,
+        38,
+        77,
+        78,
+        79,
+        80,
+        82,
+        83,
+        84,
+        85,
+        86,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        139,
+        140,
+        141,
+        142,
+        143,
+        144,
+        145,
+        169,
+        170,
+        171,
+        172,
+        173,
+        175,
+        201,
+        202,
+        203,
+        204,
+        212,
+        215,
+        216,
+        217,
+        219,
+        220,
+        221,
+        222,
+        224,
+        225,
+        226,
+        227,
+        228,
+        229,
+        230,
+        231,
+        276,
+        280,
+        289,
+        291,
+        292,
+        293,
+        301,
+        309
+      ],
+      "starting_magic_weapon": 453,
+      "pass": true
+    },
+    {
+      "check": "actual first battle imports all six stats 999; skill list wraps; arrow spell executes and wins; MP falls 999->997 and is not silently restored",
+      "skill_choices": 172,
+      "actual_battle_unit": [
+        1,
+        0,
+        999,
+        999,
+        999,
+        999,
+        999,
+        999,
+        999,
+        999
+      ],
+      "after": {
+        "HP": 999,
+        "MP": 997,
+        "XP": 1
+      },
+      "pass": true
+    },
+    {
+      "check": "original B help and actual menu save remain usable with unchanged 39704-byte v5 SRAM",
+      "pass": true
+    },
+    {
+      "check": "fresh original origin reaches map with HP/MP and four bonuses 999, all 65 magic spells and the initial grant of 194 learnable abilities",
+      "origin": 2,
+      "level": 1,
+      "grant_trace": [
+        1,
+        19,
+        194,
+        999
+      ],
+      "original_conditional_auxiliary_skills": [
+        {
+          "actor": 2,
+          "original_event_managed_skills": [
+            40
+          ]
+        },
+        {
+          "actor": 5,
+          "original_event_managed_skills": [
+            399
+          ]
+        },
+        {
+          "actor": 6,
+          "original_event_managed_skills": [
+            11,
+            12
+          ]
+        },
+        {
+          "actor": 10,
+          "original_event_managed_skills": [
+            52
+          ]
+        }
+      ],
+      "pass": true
+    },
+    {
+      "check": "fresh original origin reaches map with HP/MP and four bonuses 999, all 65 magic spells and the initial grant of 194 learnable abilities",
+      "origin": 3,
+      "level": 1,
+      "grant_trace": [
+        1,
+        19,
+        194,
+        999
+      ],
+      "original_conditional_auxiliary_skills": [
+        {
+          "actor": 3,
+          "original_event_managed_skills": [
+            40
+          ]
+        },
+        {
+          "actor": 5,
+          "original_event_managed_skills": [
+            399
+          ]
+        },
+        {
+          "actor": 6,
+          "original_event_managed_skills": [
+            11,
+            12
+          ]
+        },
+        {
+          "actor": 10,
+          "original_event_managed_skills": [
+            52
+          ]
+        }
+      ],
+      "pass": true
+    },
+    {
+      "check": "fresh original origin reaches map with HP/MP and four bonuses 999, all 65 magic spells and the initial grant of 194 learnable abilities",
+      "origin": 4,
+      "level": 1,
+      "grant_trace": [
+        1,
+        19,
+        194,
+        999
+      ],
+      "original_conditional_auxiliary_skills": [
+        {
+          "actor": 4,
+          "original_event_managed_skills": [
+            40
+          ]
+        },
+        {
+          "actor": 5,
+          "original_event_managed_skills": [
+            399
+          ]
+        },
+        {
+          "actor": 6,
+          "original_event_managed_skills": [
+            11,
+            12
+          ]
+        },
+        {
+          "actor": 10,
+          "original_event_managed_skills": [
+            52
+          ]
+        }
+      ],
+      "pass": true
+    },
+    {
+      "check": "fresh-process ordinary SAV retains enhanced stats, learned skills and spent MP; no repeated cheat grant after load",
+      "pass": true,
+      "load": {
+        "full_state_checksum_at_load_matches": true,
+        "state_bytes_at_load": 39704,
+        "player_progress_after_background_events_resume_matches": true,
+        "compared_after_resume": [
+          "map",
+          "gold",
+          "inventory",
+          "party and party actor records",
+          "origin, SP, story phase"
+        ],
+        "all_bytes_after_resuming_background_events": "not required: original parallel events legitimately update scratch state"
+      }
+    },
+    {
+      "check": "old ordinary save loads exactly without converting it into an enhanced save",
+      "pass": true
+    }
+  ],
+  "source_folder_rebuild_byte_identical": true,
+  "source_ZIP_rebuild": "pending",
+  "scope": "213 visual animation records sampled on actual LCD and restored cleanly; independent original XYZ verification of all 601 referenced cells (600 visible), 160 losslessly packed portraits; actual production skill targeting for healing, single enemy, three enemies and self; real new-game first victory; ordinary SRAM save/cold-load; four origins at high stats and 65 magic spells enabled in acceptance build. Current-build image regression covers every integer cell opacity, scaled-image shared-workspace invalidation, 44 independent RGB555 cases, 164 original/mixed faces under audio stress and real battle-menu navigation; native crop uses its documented controlled video override.",
+  "limitations": [
+    "Complex effects can be substantially slower than PC; no PC-speed or 30-fps claim.",
+    "Map event animation and map shake retain existing reduced presentation."
+  ],
+  "physical_hardware": "not_run",
+  "full_campaign": "not_run"
+}

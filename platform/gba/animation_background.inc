@@ -8,17 +8,17 @@ static unsigned animation_pack_at,animation_pack_half;
 static int animation_pack_failed;
 #define ANIMATION_CACHE ((volatile u16*)0x06012c00)
 #define ANIMATION_CACHE_BYTES (0x17f00-0x12c00)
-static void animation_emit(unsigned byte){
+static inline __attribute__((target("arm"),always_inline)) void animation_emit(unsigned byte){
     if(animation_pack_at>=ANIMATION_CACHE_BYTES){animation_pack_failed=1;return;}
     if(!(animation_pack_at&1))animation_pack_half=byte;
     else ANIMATION_CACHE[animation_pack_at/2]=animation_pack_half|(byte<<8);
     animation_pack_at++;
 }
-static void animation_length(unsigned n){while(n>=255){animation_emit(255);n-=255;}animation_emit(n);}
-static unsigned animation_hash(const u8*p){return ((p[0]|p[1]<<8|p[2]<<16|p[3]<<24)*2654435761U)>>21;}
-static void animation_pack(const u8*src,unsigned length,u16*table){
-    unsigned anchor=0,at=0,i;memset(table,0,4096);
-    while(at+12<=length){unsigned hash=animation_hash(src+at),old=table[hash],count=4,literal,match;table[hash]=at+1;
+static inline __attribute__((target("arm"),always_inline)) void animation_length(unsigned n){while(n>=255){animation_emit(255);n-=255;}animation_emit(n);}
+static inline __attribute__((target("arm"),always_inline)) unsigned animation_hash(const u8*p){return ((p[0]|p[1]<<8|p[2]<<16|(u32)p[3]<<24)*2654435761U)>>21;}
+static void __attribute__((target("arm"),optimize("O3"),noinline)) animation_pack(const u8*src,unsigned length,u16*table){
+    unsigned anchor=0,at=0,i,next_service=0;memset(table,0,4096);
+    while(at+12<=length){if(at>=next_service){audio_service();next_service=at+512;}unsigned hash=animation_hash(src+at),old=table[hash],count=4,literal,match;table[hash]=at+1;
         if(!old){at++;continue;}old--;
         if(src[old]!=src[at]||src[old+1]!=src[at+1]||src[old+2]!=src[at+2]||src[old+3]!=src[at+3]){at++;continue;}
         while(at+count<length-5&&src[old+count]==src[at+count])count++;

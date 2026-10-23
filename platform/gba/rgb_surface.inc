@@ -5,6 +5,7 @@ static u8 rgb_second_row[1024],rgb_xweight[240];
 static u16 rgb_x0[240],rgb_toned[256];
 static const u16*rgb_old_colors;
 static u8 rgb_old_tone[4];
+static int animation_blend_alpha=-1;
 volatile u32 balanced_rgb_metrics[8];/* flips, copied pixels, late chunks,
  * palette builds, native blits, scaled blits, source rows, native faces */
 volatile u32 balanced_faces[13];
@@ -72,6 +73,7 @@ static void rgb_image(const Image*im,int id,int x,int y,int sx,int sy,int sw,int
     }
     /* Bilinear sampling has precomputed horizontal weights and no division
      * in its pixel loop. Alpha is premultiplied, preserving transparent edges. */
+    animation_blend_alpha=-1;
     {int span_left=im->width,span_right=-1,row_keys[2]={-1,-1};u8*row_data[2]={image_line,rgb_second_row};
     balanced_rgb_metrics[5]++;
     for(xx=left;xx<right;xx++){int nearest=sx+(xx-x)*sw/w,fx,x0;
@@ -104,29 +106,58 @@ static void rgb_image(const Image*im,int id,int x,int y,int sx,int sy,int sw,int
 static void rgb_picture(int id,int x,int y,int sx,int sy,int sw,int sh,int w,int h,int transparent,int opacity,const u8*tone){
     if(id>=0)rgb_image(images+id,id,x,y,sx,sy,sw,sh,w,h,transparent,opacity,tone);
 }
+/* One shared 32x32 channel table gives the exact rounded RGB555 blend.
+ * It borrows the bilinear row workspace only while drawing battle cells. */
+static void animation_blend_table(unsigned alpha){
+    unsigned source,dest,inv=256-alpha;if(animation_blend_alpha==(int)alpha)return;
+    for(source=0;source<32;source++){unsigned value=source*alpha+128;for(dest=0;dest<32;dest++){rgb_second_row[source*32+dest]=value>>8;value+=inv;}}
+    animation_blend_alpha=alpha;
+}
 static void __attribute__((target("arm"),optimize("O3"),section(".iwram"),long_call,noinline)) animation_span(u16*dst,const u8*src,const u16*xs,const u16*colors,int n,unsigned alpha){
     int i;if(alpha==256){for(i=0;i<n;i++){unsigned c=src[xs[i]];if(c)dst[i]=colors[c];}}
-    else for(i=0;i<n;i++){unsigned c=src[xs[i]];if(c)dst[i]=rgb_mix(colors[c],dst[i],alpha);}
+    else if(alpha==128){for(i=0;i<n;i++){unsigned c=src[xs[i]];if(c){unsigned color=colors[c],old=dst[i],different=color^old;
+        dst[i]=(color&old)+((different&0x7bde)>>1)+(different&0x0421);
+    }}}
+    else for(i=0;i<n;i++){unsigned c=src[xs[i]];if(c){unsigned color=colors[c],old=dst[i];
+        dst[i]=rgb_second_row[((color&31)<<5)|(old&31)]|(rgb_second_row[(color&0x3e0)|((old>>5)&31)]<<5)|(rgb_second_row[((color>>5)&0x3e0)|((old>>10)&31)]<<10);
+    }}
 }
 /* Pixel-art effects use one original source sample per GBA pixel. Unlike
  * illustrations they do not need four-sample filtering on every frame. */
 void balanced_animation_cell(const Image*im,int x,int y,int w,int h,int opacity,const u8*tone){
     int left=clamp(x,clip_left,clip_right),right=clamp(x+w,clip_left,clip_right),top=clamp(y,clip_top,clip_bottom),bottom=clamp(y+h,clip_top,clip_bottom),xx,yy,first,last,old_y=-1;
-    const u16*colors;unsigned alpha;
+    const u16*colors;unsigned alpha,sx,xrem,xstep,xsub,sy,yrem,ystep,ysub,numerator;
     if(!bitmap_direct||w<=0||h<=0||opacity>=100||left>=right||top>=bottom)return;
-    colors=rgb_colors(im,tone);alpha=(100-clamp(opacity,0,100))*256/100;
-    for(xx=left;xx<right;xx++)rgb_x0[xx-left]=(xx-x)*im->width/w;
+    colors=rgb_colors(im,tone);
+    if(colors!=rgb_toned){unsigned k,count=im->color_count?im->color_count:256;
+        if(rgb_old_colors!=colors||rgb_old_tone[0]!=100||rgb_old_tone[1]!=100||rgb_old_tone[2]!=100||rgb_old_tone[3]!=100){
+            memcpy(rgb_toned,colors,count*2);rgb_old_colors=colors;for(k=0;k<4;k++)rgb_old_tone[k]=100;
+        }colors=rgb_toned;
+    }
+    alpha=(100-clamp(opacity,0,100))*256/100;if(alpha!=128&&alpha!=256)animation_blend_table(alpha);
+    numerator=(left-x)*im->width;sx=numerator/w;xrem=numerator%w;xstep=im->width/w;xsub=im->width%w;
+    for(xx=left;xx<right;xx++){rgb_x0[xx-left]=sx;sx+=xstep;xrem+=xsub;if(xrem>=(unsigned)w){xrem-=w;sx++;}}
     first=rgb_x0[0];last=rgb_x0[right-left-1];for(xx=0;xx<right-left;xx++)rgb_x0[xx]-=first;rgb_damage(left,top,right-left,bottom-top);
-    for(yy=top;yy<bottom;yy++){int sy=(yy-y)*im->height/h;u16*dst=framebuffer+yy*240+left;audio_service();
+    numerator=(top-y)*im->height;sy=numerator/h;yrem=numerator%h;ystep=im->height/h;ysub=im->height%h;
+    for(yy=top;yy<bottom;yy++){u16*dst=framebuffer+yy*240+left;audio_service();
         if(sy!=old_y){if(!decode_image_storage_span(im,sy,first,last-first+1,image_line,sizeof(image_line)))return;old_y=sy;}
-        animation_span(dst,image_line,rgb_x0,colors,right-left,alpha);
+        animation_span(dst,image_line,rgb_x0,colors,right-left,alpha);sy+=ystep;yrem+=ysub;if(yrem>=(unsigned)h){yrem-=h;sy++;}
+    }
+}
+/* Constant source flashes need only the two destination multiplications.
+ * Keep this hot loop in fast RAM; the complete color operation is unchanged. */
+static void __attribute__((target("arm"),optimize("O3"),section(".iwram"),long_call,noinline)) animation_flash_span(u16*dst,int n,unsigned source_rb,unsigned source_g,unsigned inv){
+    int i;for(i=0;i<n;i++){unsigned old=dst[i],rb=source_rb+((old&31)|((old&0x7c00)<<6))*inv,g=source_g+((old>>5)&31)*inv;
+        dst[i]=((rb>>8)&31)|((rb>>14)&0x7c00)|((g>>3)&0x03e0);
     }
 }
 void __attribute__((target("arm"),optimize("O3"))) balanced_animation_flash(int x,int y,int w,int h,int r,int g,int b,int power){
-    int yy,xx,left=clamp(x,0,240),right=clamp(x+w,0,240),top=clamp(y,0,160),bottom=clamp(y+h,0,160);
+    int yy,left=clamp(x,0,240),right=clamp(x+w,0,240),top=clamp(y,0,160),bottom=clamp(y+h,0,160);
     u16 color=clamp(r,0,31)|(clamp(g,0,31)<<5)|(clamp(b,0,31)<<10);unsigned alpha=clamp(power,0,31)*256/31;
     if(!bitmap_direct||!alpha||left>=right||top>=bottom)return;rgb_damage(left,top,right-left,bottom-top);
-    for(yy=top;yy<bottom;yy++){u16*dst=framebuffer+yy*240+left;if(!(yy&3))audio_service();for(xx=left;xx<right;xx++,dst++)*dst=rgb_mix(color,*dst,alpha);}
+    {unsigned rb=((color&31)|((color&0x7c00)<<6))*alpha+0x00800080U,g=((color>>5)&31)*alpha+128,inv=256-alpha;
+     for(yy=top;yy<bottom;yy++){if(!(yy&3))audio_service();animation_flash_span(framebuffer+yy*240+left,right-left,rb,g,inv);}
+    }
 }
 void balanced_animation_target_flash(int id,int x,int y,int w,int h,int r,int g,int b,int power){
     if(id<0){balanced_animation_flash(x,y,w,h,r,g,b,power);return;}

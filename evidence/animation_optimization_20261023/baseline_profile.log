@@ -1,0 +1,2 @@
+PROFILE 120 6788421 030057f0:677916 03005800:677916 08017d60:609904 08012460:459633 08017e10:457531 
+[('audio_service', 5822830), ('animation_span.constprop.0', 4624313), ('wait_frame', 4289119), ('story_image', 4269768), ('____aeabi_i2d_from_thumb', 3981936), ('balanced_animation_flash', 3320929), ('start', 2758122), ('audio_irq', 1251767), ('lz4', 820985), ('__divsi3', 611904), ('lcf_array', 568431), ('decode_image_storage_span', 275382), ('balanced_animation_cell', 198265), ('rgb_flip', 196649), ('memcpy', 186942), ('0x0', 89899), ('0x8', 82498), ('rgb_damage', 42939)]
