@@ -1,0 +1,190 @@
+{
+  "phase": 0,
+  "top": [
+    {
+      "function": "animation_pack.constprop.0",
+      "instructions": 5120970,
+      "cycles": 24817500
+    },
+    {
+      "function": "segment",
+      "instructions": 1898231,
+      "cycles": 3346733
+    },
+    {
+      "function": "audio_irq",
+      "instructions": 962047,
+      "cycles": 1839196
+    },
+    {
+      "function": "rgb_image",
+      "instructions": 465640,
+      "cycles": 1679442
+    },
+    {
+      "function": "lz4",
+      "instructions": 130372,
+      "cycles": 742222
+    },
+    {
+      "function": "memset",
+      "instructions": 97717,
+      "cycles": 292792
+    },
+    {
+      "function": "glyph_pixels",
+      "instructions": 125860,
+      "cycles": 215154
+    },
+    {
+      "function": "unattributed",
+      "instructions": 28388,
+      "cycles": 173946
+    },
+    {
+      "function": "audio_service",
+      "instructions": 22955,
+      "cycles": 154357
+    },
+    {
+      "function": "image_storage_tile",
+      "instructions": 22022,
+      "cycles": 137070
+    },
+    {
+      "function": "rgb_fill",
+      "instructions": 23572,
+      "cycles": 90484
+    },
+    {
+      "function": "native_midi_render",
+      "instructions": 21651,
+      "cycles": 54657
+    },
+    {
+      "function": "rgb_damage",
+      "instructions": 15507,
+      "cycles": 54419
+    },
+    {
+      "function": "draw_text",
+      "instructions": 13151,
+      "cycles": 45553
+    },
+    {
+      "function": "mix_voice_block",
+      "instructions": 4352,
+      "cycles": 13056
+    },
+    {
+      "function": "__audio_default_sounds_from_thumb",
+      "instructions": 928,
+      "cycles": 12066
+    },
+    {
+      "function": "__udivsi3",
+      "instructions": 1996,
+      "cycles": 9204
+    },
+    {
+      "function": "____aeabi_dsub_from_thumb",
+      "instructions": 445,
+      "cycles": 6230
+    }
+  ]
+}
+{
+  "phase": 1,
+  "top": [
+    {
+      "function": "lz4",
+      "instructions": 2142010,
+      "cycles": 11858547
+    },
+    {
+      "function": "animation_flash_span",
+      "instructions": 3843200,
+      "cycles": 6727408
+    },
+    {
+      "function": "mix_voice_block",
+      "instructions": 1426765,
+      "cycles": 2943208
+    },
+    {
+      "function": "segment",
+      "instructions": 1691614,
+      "cycles": 2931041
+    },
+    {
+      "function": "rgb_flip",
+      "instructions": 569572,
+      "cycles": 1850387
+    },
+    {
+      "function": "memcpy",
+      "instructions": 495374,
+      "cycles": 1700660
+    },
+    {
+      "function": "animation_pack.constprop.0",
+      "instructions": 340703,
+      "cycles": 1627630
+    },
+    {
+      "function": "audio_irq",
+      "instructions": 796167,
+      "cycles": 1364926
+    },
+    {
+      "function": "audio_service",
+      "instructions": 128106,
+      "cycles": 911545
+    },
+    {
+      "function": "animation_span.constprop.0",
+      "instructions": 163401,
+      "cycles": 334418
+    },
+    {
+      "function": "unattributed",
+      "instructions": 29538,
+      "cycles": 172992
+    },
+    {
+      "function": "__udivsi3",
+      "instructions": 25245,
+      "cycles": 117478
+    },
+    {
+      "function": "decode_image_storage_span",
+      "instructions": 17530,
+      "cycles": 113244
+    },
+    {
+      "function": "balanced_animation_flash",
+      "instructions": 20780,
+      "cycles": 109152
+    },
+    {
+      "function": "balanced_animation_cell",
+      "instructions": 26535,
+      "cycles": 80823
+    },
+    {
+      "function": "lcf_field",
+      "instructions": 32712,
+      "cycles": 77768
+    },
+    {
+      "function": "lcf_next_entry",
+      "instructions": 12051,
+      "cycles": 66201
+    },
+    {
+      "function": "animations_tick",
+      "instructions": 15279,
+      "cycles": 56502
+    }
+  ]
+}

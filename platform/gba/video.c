@@ -80,7 +80,12 @@ volatile u32 video_native_texture_metrics[2];
 volatile u32 object_palette_rebuilds;
 static u32 *const object_color_cache=(u32*)((u8*)framebuffer+44800);
 volatile u32 map_video_metrics[8];
-static u8 image_line[1024] __attribute__((aligned(4)));
+typedef union {u8 bytes[1024];u16 ends[512];} AnimationRowMemory;
+/* Preparation and drawing never run together. Link the cache builder over
+ * these drawing rows, then rebuild each transient row before its next use. */
+typedef union {struct {u8 line[1024];AnimationRowMemory secondary;u16 x0[240],toned[256];} draw;u32 code[760];} AnimationFastMemory;
+static AnimationFastMemory animation_fast_memory __attribute__((section(".animation_workspace"),aligned(4)));
+#define image_line animation_fast_memory.draw.line
 static unsigned old_keys, repeats;
 static void upload_object_palette(void){
  unsigned bank=0;
@@ -103,6 +108,7 @@ volatile u32 video_commit_timing[4];
 extern volatile u32 video_frame_counter;
 static u32 last_logic_frame;
 unsigned video_ticks(void){return REG16(0x04000108);}
+unsigned video_clock(void){return video_frame_counter;}
 unsigned video_revision(void){return native_ui?native_ui_revision:framebuffer_revision;}
 void video_clip(int x,int y,int width,int height){
     clip_left=clamp(x,0,240);clip_top=clamp(y,0,160);
@@ -139,9 +145,9 @@ void video_brightness(int level){
 static const u16*background_colors(void){return drawing_scene?drawing_scene->colors:game_palette;}
 static unsigned background_nearest(unsigned color,int exact){
  if(!drawing_scene)return palette_rgb555_start[color];
- if(drawing_scene->lookup_bits==15)return drawing_scene->nearest[color];
+ if((drawing_scene->lookup_bits&127)==15)return image_scene_nearest(drawing_scene,color);
  if(exact){int lo=0,hi=256;while(lo<hi){int mid=(lo+hi)/2;if(drawing_scene->sorted_colors[mid]<color)lo=mid+1;else hi=mid;}if(lo<256&&drawing_scene->sorted_colors[lo]==color)return drawing_scene->sorted_indices[lo];}
- return drawing_scene->nearest[((color>>1)&15)|(((color>>6)&15)<<4)|(((color>>11)&15)<<8)];
+ return image_scene_nearest(drawing_scene,((color>>1)&15)|(((color>>6)&15)<<4)|(((color>>11)&15)<<8));
 }
 void video_scene_palette(int image){
  const ScenePalette*next=image>=0&&(unsigned)image<image_scene_count?image_scenes+image:0;int i;

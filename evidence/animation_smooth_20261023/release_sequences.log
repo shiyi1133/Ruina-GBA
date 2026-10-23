@@ -1,0 +1,35 @@
+Compared 1 animations; 15 original LCD frames
+Compared 11 animations; 93 original LCD frames
+Compared 21 animations; 179 original LCD frames
+Compared 31 animations; 416 original LCD frames
+Compared 41 animations; 676 original LCD frames
+Compared 51 animations; 846 original LCD frames
+Compared 61 animations; 1073 original LCD frames
+Compared 71 animations; 1290 original LCD frames
+Compared 81 animations; 1498 original LCD frames
+Compared 91 animations; 1726 original LCD frames
+Compared 101 animations; 1947 original LCD frames
+Compared 111 animations; 2174 original LCD frames
+Compared 121 animations; 2417 original LCD frames
+Compared 131 animations; 2642 original LCD frames
+Compared 141 animations; 2843 original LCD frames
+Compared 151 animations; 2946 original LCD frames
+Compared 161 animations; 3049 original LCD frames
+Compared 171 animations; 3252 original LCD frames
+Compared 181 animations; 3509 original LCD frames
+Compared 191 animations; 3747 original LCD frames
+Compared 201 animations; 3926 original LCD frames
+Compared 211 animations; 4062 original LCD frames
+Compared 221 animations; 4288 original LCD frames
+{
+  "status": "pass",
+  "label": "release_all",
+  "baseline_ROM_sha256": "8c102fb03935f05f47e7aa3f7d95630d365e24a121d56dd628d849d7f8a82cd4",
+  "production_ROM_sha256": "95ebdb37f840dc243eddaeb0468d2e8576f8d3380c564b1d72917907ae762ebd",
+  "animation_records": 230,
+  "source_frames": 4501,
+  "all_LCD_pixels_identical": true,
+  "clean_restoration_after_every_sequence": true,
+  "scope": "Two separately linked controlled cartridges, unchanged production animation and rendering objects from v0.7.3 and this candidate. Every original frame and clean restoration compared by actual 64-bit LCD hash. Real buttons, paused logical clock between manual original frame ticks; audio remains live. This checks visual fidelity, not playback performance or complete gameplay.",
+  "physical_hardware": "not_run"
+}

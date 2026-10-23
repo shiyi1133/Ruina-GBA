@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/mnt/d/gba_hack/废都物语_GBA章节样版/tools/package_animation_smooth_release.py", line 101, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/mnt/d/gba_hack/废都物语_GBA章节样版/tools/package_animation_smooth_release.py", line 24, in main
+    r=read(p);assert r['status']=='pass'and report_digest(r)==digest,(p,r.get('status'),report_digest(r))
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: (PosixPath('/mnt/d/gba_hack/废都物语_GBA章节样版/evidence/balanced_optimization_20261023/95ebdb37f840/performance_release_v074/result.json'), 'measured', '95ebdb37f840dc243eddaeb0468d2e8576f8d3380c564b1d72917907ae762ebd')

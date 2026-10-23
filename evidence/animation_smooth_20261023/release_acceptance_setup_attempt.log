@@ -1,0 +1,18 @@
+Traceback (most recent call last):
+  File "/tmp/ruina-animation-v074-7th24bib/废都物语_GBA_匹配工程_v0.7.4_20261023/tools/check_acceptance_boost.py", line 139, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/tmp/ruina-animation-v074-7th24bib/废都物语_GBA_匹配工程_v0.7.4_20261023/tools/check_acceptance_boost.py", line 47, in main
+    e=new()
+      ^^^^^
+  File "/tmp/ruina-animation-v074-7th24bib/废都物语_GBA_匹配工程_v0.7.4_20261023/tools/check_acceptance_boost.py", line 15, in new
+    def new(save=None):return Emulator(save=save,rom=rom,elf=elf)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/ruina-animation-v074-7th24bib/废都物语_GBA_匹配工程_v0.7.4_20261023/tools/drive_opening.py", line 15, in __init__
+    self.proc=subprocess.Popen(args,stdin=subprocess.PIPE,stdout=subprocess.PIPE,stderr=subprocess.PIPE,text=True,bufsize=1)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/subprocess.py", line 1026, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/lib/python3.12/subprocess.py", line 1955, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/tmp/ruina-animation-v074-7th24bib/废都物语_GBA_匹配工程_v0.7.4_20261023/build/gba_acceptance_probe'

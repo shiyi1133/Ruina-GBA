@@ -1,0 +1,13 @@
+{
+  "status": "pass",
+  "production_ROM_sha256": "95ebdb37f840dc243eddaeb0468d2e8576f8d3380c564b1d72917907ae762ebd",
+  "checks": [
+    "complete-frames selection",
+    "cancel preserves setting",
+    "original-time selection"
+  ],
+  "persistent_game_unchanged": true,
+  "original_SAV_unchanged": true,
+  "setting_scope": "current process, original-time default",
+  "physical_hardware": "not_run"
+}

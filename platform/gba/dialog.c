@@ -1,6 +1,10 @@
 #include "balanced.h"
 #include "engine.h"
-static char formatted[8192],dialog[8192];
+static char formatted[8192] __attribute__((aligned(4)));
+static char dialog[8192];
+/* Temporary only: animation preparation is synchronous and does not format
+ * UI text. The copied message in dialog[] remains owned by the UI. */
+void*balanced_animation_workspace(void){balanced_animation_scratch_reset();return formatted;}
 static int formatted_pos,automatic_message;
 /* The original data includes ten-enemy encounters. Target menus therefore
  * need more than eight choices. This non-nested UI buffer stays off the stack. */
@@ -29,7 +33,7 @@ static void expand(LcfSpan s,int recurse){
         append(*p++);
     }
 }
-static const char*format(LcfSpan s){formatted_pos=0;automatic_message=0;expand(s,0);formatted[formatted_pos]=0;return formatted;}
+static const char*format(LcfSpan s){balanced_animation_scratch_reset();formatted_pos=0;automatic_message=0;expand(s,0);formatted[formatted_pos]=0;return formatted;}
 const char*format_text(LcfSpan s){return format(s);}
 static int page_text(const char*str,int offset,int face){
     const u8*p=(const u8*)str+offset;int x=face>=0?64:8,start=x,y=62,width=232-start;

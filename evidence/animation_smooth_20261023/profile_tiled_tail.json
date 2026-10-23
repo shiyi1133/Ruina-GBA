@@ -1,0 +1,553 @@
+{
+  "production_ROM_sha256": "76a7782eb377d8d57073d15df3a875504638d6eaacbfffcc04d3fa0512efa39c",
+  "label": "tiled_tail",
+  "scope": "Read-only PC and elapsed emulated CPU cycles over two 120-hardware-frame windows of full original animation 191, real MIDI and SFX, controlled battlers. PC bins have 16-byte precision.",
+  "samples": [
+    {
+      "phase": 0,
+      "trace": "PROFILE 90 9790907 03004500:460800 03004510:460800 03004110:366841 03004520:353280 03004100:314614 03003770:307936 080190e0:267792 03004120:262846 030040e0:246246 080190c0:220572 03001360:213564 03001370:213561 030040f0:182718 03003840:176512 080190d0:153024 03004140:143568 03001380:107631 030040d0:104976 03004800:76032 030047f0:57420 03004810:57420 03002b80:54656 03002b90:54656 03002ba0:54656 03002bb0:54656 03002bc0:54656 03002aa0:54592 03002ab0:54592 03002ac0:54592 03002ad0:54592",
+      "functions": [
+        {
+          "function": "animation_restore_indexed.constprop.0",
+          "instructions": 1459200,
+          "cycles": 3479568
+        },
+        {
+          "function": "rgb_fill",
+          "instructions": 1776929,
+          "cycles": 3351030
+        },
+        {
+          "function": "audio_service",
+          "instructions": 401093,
+          "cycles": 2861210
+        },
+        {
+          "function": "lz4",
+          "instructions": 1687459,
+          "cycles": 2814591
+        },
+        {
+          "function": "rgb_damage",
+          "instructions": 680444,
+          "cycles": 2377056
+        },
+        {
+          "function": "segment",
+          "instructions": 1188335,
+          "cycles": 2042411
+        },
+        {
+          "function": "mix_voice_block",
+          "instructions": 680427,
+          "cycles": 1390594
+        },
+        {
+          "function": "balanced_animation_background_restore",
+          "instructions": 260742,
+          "cycles": 1380848
+        },
+        {
+          "function": "rgb_flip",
+          "instructions": 190112,
+          "cycles": 1294233
+        },
+        {
+          "function": "balanced_animation_rectangles",
+          "instructions": 236341,
+          "cycles": 1184989
+        },
+        {
+          "function": "audio_irq",
+          "instructions": 646509,
+          "cycles": 1164838
+        },
+        {
+          "function": "animation_span.constprop.0",
+          "instructions": 192852,
+          "cycles": 377084
+        },
+        {
+          "function": "balanced_animation_target_flash",
+          "instructions": 87060,
+          "cycles": 220614
+        },
+        {
+          "function": "__audio_service_from_thumb",
+          "instructions": 25194,
+          "cycles": 210344
+        },
+        {
+          "function": "unattributed",
+          "instructions": 21787,
+          "cycles": 126185
+        },
+        {
+          "function": "lcf_array",
+          "instructions": 17298,
+          "cycles": 110050
+        },
+        {
+          "function": "lcf_field",
+          "instructions": 40629,
+          "cycles": 103974
+        },
+        {
+          "function": "lcf_next_entry",
+          "instructions": 18552,
+          "cycles": 101462
+        },
+        {
+          "function": "__udivsi3",
+          "instructions": 18108,
+          "cycles": 80264
+        },
+        {
+          "function": "__rgb_damage_veneer",
+          "instructions": 14628,
+          "cycles": 63396
+        },
+        {
+          "function": "animations_tick",
+          "instructions": 16576,
+          "cycles": 62525
+        },
+        {
+          "function": "field",
+          "instructions": 16410,
+          "cycles": 52993
+        },
+        {
+          "function": "lcf_integer",
+          "instructions": 8512,
+          "cycles": 46292
+        },
+        {
+          "function": "native_midi_render",
+          "instructions": 17707,
+          "cycles": 44395
+        },
+        {
+          "function": "val",
+          "instructions": 12166,
+          "cycles": 39070
+        },
+        {
+          "function": "prepare_cursor",
+          "instructions": 14716,
+          "cycles": 29646
+        },
+        {
+          "function": "selected_flash",
+          "instructions": 9009,
+          "cycles": 25850
+        },
+        {
+          "function": "wait_frame",
+          "instructions": 4603,
+          "cycles": 24758
+        },
+        {
+          "function": "advance_voice",
+          "instructions": 3777,
+          "cycles": 23122
+        },
+        {
+          "function": "story_image",
+          "instructions": 3176,
+          "cycles": 22212
+        },
+        {
+          "function": "pictures_tick",
+          "instructions": 5088,
+          "cycles": 18266
+        },
+        {
+          "function": "image_unpack_block",
+          "instructions": 2535,
+          "cycles": 15721
+        },
+        {
+          "function": "render_stamp",
+          "instructions": 4416,
+          "cycles": 12594
+        },
+        {
+          "function": "upload_ui_objects",
+          "instructions": 312,
+          "cycles": 12288
+        },
+        {
+          "function": "prepare_portraits",
+          "instructions": 3318,
+          "cycles": 10722
+        },
+        {
+          "function": "__animation_store_tiles_from_thumb",
+          "instructions": 636,
+          "cycles": 8268
+        },
+        {
+          "function": "memcpy",
+          "instructions": 4155,
+          "cycles": 7585
+        },
+        {
+          "function": "__lcf_integer_from_thumb",
+          "instructions": 532,
+          "cycles": 7450
+        },
+        {
+          "function": "fault",
+          "instructions": 3475,
+          "cycles": 6950
+        },
+        {
+          "function": "__memset_veneer",
+          "instructions": 568,
+          "cycles": 6728
+        },
+        {
+          "function": "__divsi3",
+          "instructions": 1454,
+          "cycles": 6474
+        },
+        {
+          "function": "lcf_string",
+          "instructions": 695,
+          "cycles": 4867
+        },
+        {
+          "function": "____aeabi_uidiv_from_thumb",
+          "instructions": 534,
+          "cycles": 4274
+        },
+        {
+          "function": "animation_opaque_runs.constprop.0",
+          "instructions": 792,
+          "cycles": 3960
+        },
+        {
+          "function": "animation_baked_draw",
+          "instructions": 814,
+          "cycles": 3646
+        },
+        {
+          "function": "clamp",
+          "instructions": 855,
+          "cycles": 3200
+        },
+        {
+          "function": "battle_animation_position",
+          "instructions": 930,
+          "cycles": 3108
+        },
+        {
+          "function": "____aeabi_fmul_from_thumb",
+          "instructions": 234,
+          "cycles": 2925
+        },
+        {
+          "function": "bounds",
+          "instructions": 924,
+          "cycles": 2756
+        },
+        {
+          "function": "animation_data",
+          "instructions": 696,
+          "cycles": 2640
+        },
+        {
+          "function": "lcf_borrow_command",
+          "instructions": 392,
+          "cycles": 2548
+        },
+        {
+          "function": "parse_command_values",
+          "instructions": 636,
+          "cycles": 2544
+        },
+        {
+          "function": "memset",
+          "instructions": 1137,
+          "cycles": 2427
+        },
+        {
+          "function": "upload_object_palette",
+          "instructions": 768,
+          "cycles": 2352
+        },
+        {
+          "function": "engine_tick",
+          "instructions": 420,
+          "cycles": 1812
+        },
+        {
+          "function": "active",
+          "instructions": 510,
+          "cycles": 1740
+        },
+        {
+          "function": "lcf_number",
+          "instructions": 570,
+          "cycles": 1650
+        },
+        {
+          "function": "balanced_animation_palette_flash",
+          "instructions": 301,
+          "cycles": 1274
+        },
+        {
+          "function": "start",
+          "instructions": 201,
+          "cycles": 1089
+        },
+        {
+          "function": "audio_command",
+          "instructions": 163,
+          "cycles": 1040
+        },
+        {
+          "function": "parallel_tick",
+          "instructions": 216,
+          "cycles": 1020
+        },
+        {
+          "function": "video_brightness",
+          "instructions": 216,
+          "cycles": 900
+        },
+        {
+          "function": "entry",
+          "instructions": 312,
+          "cycles": 840
+        },
+        {
+          "function": "__memcpy_veneer",
+          "instructions": 117,
+          "cycles": 702
+        },
+        {
+          "function": "__image_portrait_pixels_from_thumb",
+          "instructions": 52,
+          "cycles": 676
+        },
+        {
+          "function": "video_ticks",
+          "instructions": 87,
+          "cycles": 609
+        },
+        {
+          "function": "apply_brightness",
+          "instructions": 132,
+          "cycles": 588
+        },
+        {
+          "function": "animation_battle",
+          "instructions": 108,
+          "cycles": 540
+        },
+        {
+          "function": "flip",
+          "instructions": 105,
+          "cycles": 517
+        },
+        {
+          "function": "movement_tick",
+          "instructions": 120,
+          "cycles": 516
+        },
+        {
+          "function": "presentation_tick",
+          "instructions": 108,
+          "cycles": 432
+        },
+        {
+          "function": "movement_start",
+          "instructions": 60,
+          "cycles": 384
+        },
+        {
+          "function": "__lcf_array_from_thumb",
+          "instructions": 30,
+          "cycles": 384
+        },
+        {
+          "function": "battle_animation_image",
+          "instructions": 78,
+          "cycles": 342
+        },
+        {
+          "function": "animation_store_tiles",
+          "instructions": 122,
+          "cycles": 244
+        },
+        {
+          "function": "battle_background_image",
+          "instructions": 42,
+          "cycles": 228
+        },
+        {
+          "function": "__aeabi_uidivmod",
+          "instructions": 42,
+          "cycles": 228
+        },
+        {
+          "function": "____aeabi_dadd_from_thumb",
+          "instructions": 18,
+          "cycles": 216
+        },
+        {
+          "function": "log_num",
+          "instructions": 90,
+          "cycles": 180
+        },
+        {
+          "function": "parallel_active",
+          "instructions": 36,
+          "cycles": 180
+        },
+        {
+          "function": "pictures_draw",
+          "instructions": 36,
+          "cycles": 180
+        },
+        {
+          "function": "draw_battle",
+          "instructions": 30,
+          "cycles": 168
+        },
+        {
+          "function": "load_game",
+          "instructions": 30,
+          "cycles": 168
+        },
+        {
+          "function": "____aeabi_ldivmod_from_thumb",
+          "instructions": 12,
+          "cycles": 156
+        },
+        {
+          "function": "____aeabi_uidivmod_from_thumb",
+          "instructions": 12,
+          "cycles": 156
+        },
+        {
+          "function": "alive_count",
+          "instructions": 18,
+          "cycles": 144
+        },
+        {
+          "function": "battle_render_stamp",
+          "instructions": 24,
+          "cycles": 144
+        },
+        {
+          "function": "presentation_command",
+          "instructions": 12,
+          "cycles": 132
+        },
+        {
+          "function": "timer_command",
+          "instructions": 12,
+          "cycles": 132
+        },
+        {
+          "function": "animation_start",
+          "instructions": 60,
+          "cycles": 120
+        },
+        {
+          "function": "balanced_animation_flash",
+          "instructions": 12,
+          "cycles": 102
+        },
+        {
+          "function": "__battle_render_stamp_from_arm",
+          "instructions": 9,
+          "cycles": 96
+        },
+        {
+          "function": "__audio_music_position_from_thumb",
+          "instructions": 6,
+          "cycles": 84
+        },
+        {
+          "function": "__audio_current_quality_from_thumb",
+          "instructions": 6,
+          "cycles": 84
+        },
+        {
+          "function": "__upload_ui_objects_veneer",
+          "instructions": 18,
+          "cycles": 78
+        },
+        {
+          "function": "__image_decode_scratch_from_thumb",
+          "instructions": 6,
+          "cycles": 78
+        },
+        {
+          "function": "____aeabi_dcmpeq_from_thumb",
+          "instructions": 6,
+          "cycles": 72
+        },
+        {
+          "function": "__prepare_cursor_veneer",
+          "instructions": 15,
+          "cycles": 65
+        },
+        {
+          "function": "__prepare_portraits_veneer",
+          "instructions": 15,
+          "cycles": 65
+        },
+        {
+          "function": "__audio_command_from_thumb",
+          "instructions": 3,
+          "cycles": 42
+        },
+        {
+          "function": "balanced_animation_palette_reset",
+          "instructions": 5,
+          "cycles": 40
+        },
+        {
+          "function": "skill_rank_target",
+          "instructions": 18,
+          "cycles": 36
+        },
+        {
+          "function": "audio_default_sounds",
+          "instructions": 6,
+          "cycles": 24
+        },
+        {
+          "function": "source_menu_screen",
+          "instructions": 6,
+          "cycles": 12
+        },
+        {
+          "function": "balanced_animation_scratch_reset",
+          "instructions": 6,
+          "cycles": 12
+        },
+        {
+          "function": "map_event",
+          "instructions": 11,
+          "cycles": 11
+        },
+        {
+          "function": "video_scene_palette",
+          "instructions": 5,
+          "cycles": 10
+        },
+        {
+          "function": "animation_pack",
+          "instructions": 5,
+          "cycles": 5
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "status": "rejected",
+  "reason": "Exact pixels in 68-frame comparison, but whole playback became slower. Runtime coverage-tag scans and masked writes cost more than the background work saved. Replace with precomputed opaque tile coverage, without per-pixel tags.",
+  "before_report": "evidence/animation_optimization_20261023/playback_bulk_poll.json",
+  "rejected_report": "evidence/animation_optimization_20261023/playback_coverage.json"
+}

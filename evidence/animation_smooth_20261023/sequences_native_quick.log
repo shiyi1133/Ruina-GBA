@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/mnt/d/gba_hack/废都物语_GBA章节样版/tools/compare_animation_sequences.py", line 45, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/mnt/d/gba_hack/废都物语_GBA章节样版/tools/compare_animation_sequences.py", line 34, in main
+    old.shot(out/f'failure_{args.label}_{aid}_{frame}_baseline.png');new.shot(out/f'failure_{args.label}_{aid}_{frame}_candidate.png');raise AssertionError(('LCD mismatch',aid,frame,a,b))
+                                                                                                                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ('LCD mismatch', 22, 4, 'LCD e21bdab936fbfc09 0', 'LCD adb202ee5bd2db85 0')

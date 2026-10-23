@@ -33,6 +33,10 @@ static void controls_help(void){
     }
     debug_state[15]=0;engine_ui_depth--;
 }
-void system_menu(void){static const char menu[]="队伍状态/随身物品/保存游戏/装备/特技/操作说明/返回地图";int old_pause=engine_clock_paused,n,initial=0;engine_clock_paused=1;
-    for(;;){n=choices_selected((LcfSpan){(const u8*)menu,len(menu)},7,initial);if(n!=5)break;controls_help();initial=5;}
+static void animation_settings(void){static const char menu[]="原速播放（推荐）/完整播放/返回";int n;
+    describe("原速播放保持出招节奏，繁重的过渡画面可能略过。完整播放保留全部画面，复杂技能会放慢。本次运行内有效。");
+    n=choices_selected((LcfSpan){(const u8*)menu,len(menu)},3,animation_playback_full());if(n<2)animation_playback_mode(n);
+}
+void system_menu(void){static const char menu[]="队伍状态/随身物品/保存游戏/装备/特技/操作说明/动画播放/返回地图";int old_pause=engine_clock_paused,n,initial=0;engine_clock_paused=1;
+    for(;;){n=choices_selected((LcfSpan){(const u8*)menu,len(menu)},8,initial);if(n==5){controls_help();initial=5;}else if(n==6){animation_settings();initial=6;}else break;}
     switch(n){case 0:status();break;case 1:inventory();break;case 2:if(!game.save_enabled)describe("现在不能保存。");else if((depth?save_checkpoint():save_game()))describe("已保存。可以关闭模拟器后继续游戏。");else describe("保存校验失败，请保留当前运行状态。");break;case 3:equipment_menu();break;case 4:field_skill_menu();break;}engine_clock_paused=old_pause;}

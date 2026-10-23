@@ -1,0 +1,95 @@
+{
+  "phase": 0,
+  "top": [
+    {
+      "function": "animation_indexed_underlay",
+      "instructions": 1536644,
+      "cycles": 3227462
+    },
+    {
+      "function": "animation_restore_indexed.constprop.0",
+      "instructions": 875724,
+      "cycles": 2087934
+    },
+    {
+      "function": "mix_voice_block",
+      "instructions": 910320,
+      "cycles": 1896720
+    },
+    {
+      "function": "lz4",
+      "instructions": 1155338,
+      "cycles": 1864525
+    },
+    {
+      "function": "segment",
+      "instructions": 1062561,
+      "cycles": 1861750
+    },
+    {
+      "function": "rgb_flip",
+      "instructions": 426848,
+      "cycles": 1155622
+    },
+    {
+      "function": "audio_service",
+      "instructions": 187651,
+      "cycles": 814596
+    },
+    {
+      "function": "audio_irq",
+      "instructions": 458504,
+      "cycles": 781976
+    },
+    {
+      "function": "animation_span.constprop.0",
+      "instructions": 387288,
+      "cycles": 762092
+    },
+    {
+      "function": "animation_restore_tiles",
+      "instructions": 132289,
+      "cycles": 746698
+    },
+    {
+      "function": "balanced_animation_indexed_frame",
+      "instructions": 35493,
+      "cycles": 572482
+    },
+    {
+      "function": "__divsi3",
+      "instructions": 90678,
+      "cycles": 405436
+    },
+    {
+      "function": "balanced_animation_target_flash",
+      "instructions": 126554,
+      "cycles": 362646
+    },
+    {
+      "function": "wait_frame",
+      "instructions": 54987,
+      "cycles": 306434
+    },
+    {
+      "function": "story_image",
+      "instructions": 43230,
+      "cycles": 302622
+    },
+    {
+      "function": "animation_indexed_tint",
+      "instructions": 94792,
+      "cycles": 269394
+    },
+    {
+      "function": "lcf_field",
+      "instructions": 85757,
+      "cycles": 215978
+    },
+    {
+      "function": "animation_indexed_add",
+      "instructions": 33286,
+      "cycles": 183010
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+Checked 1 / 460 animation/mode pairs
+Checked 21 / 460 animation/mode pairs
+Checked 41 / 460 animation/mode pairs
+Checked 61 / 460 animation/mode pairs
+Checked 81 / 460 animation/mode pairs
+Checked 101 / 460 animation/mode pairs
+Checked 121 / 460 animation/mode pairs
+Checked 141 / 460 animation/mode pairs
+Checked 161 / 460 animation/mode pairs
+Checked 181 / 460 animation/mode pairs
+Checked 201 / 460 animation/mode pairs
+Checked 221 / 460 animation/mode pairs
+Checked 241 / 460 animation/mode pairs
+Checked 261 / 460 animation/mode pairs
+Checked 281 / 460 animation/mode pairs
+Checked 301 / 460 animation/mode pairs
+Checked 321 / 460 animation/mode pairs
+Checked 341 / 460 animation/mode pairs
+Checked 361 / 460 animation/mode pairs
+Checked 381 / 460 animation/mode pairs
+Checked 401 / 460 animation/mode pairs
+Checked 421 / 460 animation/mode pairs
+Checked 441 / 460 animation/mode pairs
+{
+  "status": "pass",
+  "production_ROM_sha256": "95ebdb37f840dc243eddaeb0468d2e8576f8d3380c564b1d72917907ae762ebd",
+  "fixture_ROM_sha256": "eece20607cfd8cd5dcafbd240259e6380981476a3252305f3367f5393ff40bad",
+  "animation_records": 230,
+  "playback_modes": 2,
+  "all_original_timing_events_in_order_once": true,
+  "clean_restoration_after_every_case": true,
+  "no_MIDI_queue_underruns": true,
+  "scope": "All original animation records in separately linked controlled battle with live MIDI/SFX, real frame clock and buttons. Original-time mode may omit late transition images; full-frames mode checks every source frame. Not campaign or physical hardware acceptance.",
+  "physical_hardware": "not_run"
+}

@@ -1,0 +1,14 @@
+{
+  "status": "built_not_delivered",
+  "stage": "/tmp/ruina-animation-v074-7th24bib",
+  "project": "/tmp/ruina-animation-v074-7th24bib/废都物语_GBA_匹配工程_v0.7.4_20261023",
+  "acceptance_project": "/tmp/ruina-animation-v074-7th24bib/废都物语_GBA_验收增强工程_v0.7.4_20261023",
+  "ROM": "/tmp/ruina-animation-v074-7th24bib/废都物语_GBA_匹配工程_v0.7.4_20261023/build/废都物语_GBA_开篇开发验证版.gba",
+  "ROM_sha256": "5508bfb6f9b692fdbe192ab7a0d7f27d34f35d44e05d4bbca2cf2e159d562e75",
+  "acceptance_ROM": "/tmp/ruina-animation-v074-7th24bib/废都物语_GBA_验收增强工程_v0.7.4_20261023/build/废都物语_GBA_开篇开发验证版.gba",
+  "acceptance_ROM_sha256": "8fb8d79cde2c8c7a57082f80f15fde45c78301084a9972f3fc2285ce90bd840c",
+  "formal_source_rebuild_byte_identical": true,
+  "original_archive_and_font_disabled_for_rebuild": true,
+  "physical_hardware": "not_run",
+  "full_campaign": "not_run"
+}

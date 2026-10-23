@@ -1,0 +1,114 @@
+{
+  "format": "128 original-derived periodic programs, 65 compiled amplitude steps, 128 points; gameplay samples 32 points",
+  "bytes": 2262716,
+  "table_bytes": 2129920,
+  "additional_samples_per_mix": 2,
+  "score_clock_Hz": 16384,
+  "music_room": "fine stereo wavetable, paired samples",
+  "gameplay": "coarse mono wavetable, paired samples",
+  "generator_sha256": "8912fbd4c47c8f281c95e407234915a5161054af00a5abcaf69278007a1df4bd",
+  "bank_sha256": "14f511e3ba953cd45c9bf63a2dfd950496141389a0ccddfdd75cee48b15b4e79"
+}
+{"battle_animations": "cached", "bank_bytes": 416664}
+{"scene_lookups": "cached", "bytes_saved": 1607512}
+{"screen_animations": "cached", "frames": 490, "bank_bytes": 645201}
+{
+  "format": "immutable command transport only; dynamic conditions and original VM remain live",
+  "target_commands": 9390,
+  "cached_commands": 9190,
+  "common_ids": [
+    1,
+    3,
+    7,
+    8,
+    9,
+    13,
+    16,
+    27,
+    29,
+    32,
+    36,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    84,
+    89,
+    100,
+    101,
+    107,
+    108,
+    116,
+    117,
+    128
+  ],
+  "bytes": 543448,
+  "hash_slots": 32768,
+  "max_lookup_probes": 8,
+  "mean_lookup_probes": 1.1532100108813927,
+  "original_pack_sha256": "03042b9da41392bf8a9766cd9820184ebaaf8bb510fa8aea98a8e93159cc37e1",
+  "bank_sha256": "57d77eb2b07e4487a6171a79e00445f48941913707cfd55f49424a52ac2cba08",
+  "generator_sha256": "1c0f1835307856f66d9c39ae3f14fa3dcf4ed666b5fd861b9e1e077ec3c78084"
+}
+{
+  "format": "immutable page spans and condition operands only; variables, switches, items, party and timer evaluated live",
+  "events": 3527,
+  "pages": 8205,
+  "bytes": 335408,
+  "mean_lookup_probes": 1.3878650411114262,
+  "original_pack_sha256": "03042b9da41392bf8a9766cd9820184ebaaf8bb510fa8aea98a8e93159cc37e1",
+  "bank_sha256": "ec64f55c07c166a820eb3b7bf7a4e6212bddac31634e661f21313323d173dc83",
+  "generator_sha256": "e322998a980c6377a2bdf45aadee3b64ff7e6ca77d928d08d8d73343109dea31"
+}
+{
+  "format": "immutable borrowed control/variable instruction views; all live state remains in VM",
+  "commands": 5247,
+  "opcodes": [
+    0,
+    10210,
+    10220,
+    11410,
+    12010,
+    12110,
+    12120,
+    12210,
+    12220,
+    12310,
+    12330,
+    22010,
+    22011,
+    22210
+  ],
+  "target_record_bytes": 68,
+  "hash_slots": 16384,
+  "target_bytes": 389636,
+  "terminal_sentinel": true,
+  "original_pack_sha256": "03042b9da41392bf8a9766cd9820184ebaaf8bb510fa8aea98a8e93159cc37e1",
+  "source_sha256": "4b1016655b791166125da63625000b398501c5be65386cf0fd4600eb35f1f231"
+}
+{"native_menu_labels": 283}
+{"MIDI_clock_tracks": 99, "tempo_segments": 388}
+In file included from /mnt/d/gba_hack/废都物语_GBA章节样版/platform/gba/video.c:649:
+/mnt/d/gba_hack/废都物语_GBA章节样版/platform/gba/rgb_surface.inc: In function 'balanced_animation_cell':
+/mnt/d/gba_hack/废都物语_GBA章节样版/platform/gba/rgb_surface.inc:178:14: warning: comparison of integer expressions of different signedness: 'unsigned int' and 'int' [-Wsign-compare]
+  178 |         if(sy!=old_y){if(!decode_image_storage_span(im,sy,first,last-first+1,image_line,sizeof(image_line)))return;old_y=sy;}
+      |              ^~
+/home/app/gba-runtime/test-manager/custom_function_menu/v021-931290d-20260906/arm-c-f5d5460-20260907/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/bin/ld: address 0x3007164 of /mnt/d/gba_hack/废都物语_GBA章节样版/build/ruina_opening_dev.elf section `.animation_encoder' is not within region `IWRAM'
+/home/app/gba-runtime/test-manager/custom_function_menu/v021-931290d-20260906/arm-c-f5d5460-20260907/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/bin/ld: address 0x3007164 of /mnt/d/gba_hack/废都物语_GBA章节样版/build/ruina_opening_dev.elf section `.animation_restore' is not within region `IWRAM'
+/home/app/gba-runtime/test-manager/custom_function_menu/v021-931290d-20260906/arm-c-f5d5460-20260907/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/bin/ld: address 0x3007164 of /mnt/d/gba_hack/废都物语_GBA章节样版/build/ruina_opening_dev.elf section `.animation_encoder' is not within region `IWRAM'
+/home/app/gba-runtime/test-manager/custom_function_menu/v021-931290d-20260906/arm-c-f5d5460-20260907/toolchain/usr/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/bin/ld: address 0x3007164 of /mnt/d/gba_hack/废都物语_GBA章节样版/build/ruina_opening_dev.elf section `.animation_restore' is not within region `IWRAM'
+collect2: error: ld returned 1 exit status
+Traceback (most recent call last):
+  File "/mnt/d/gba_hack/废都物语_GBA章节样版/tools/build.py", line 72, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/mnt/d/gba_hack/废都物语_GBA章节样版/tools/build.py", line 59, in main
+    run([str(PREFIX)+'gcc','-mcpu=arm7tdmi','-mthumb','-mthumb-interwork','-nostdlib','-Wl,-T,platform/gba/gba.ld','-Wl,-Map,build/ruina_opening_dev.map',*objects,'-lgcc','-o',elf])
+  File "/mnt/d/gba_hack/废都物语_GBA章节样版/tools/build.py", line 7, in run
+    def run(args):subprocess.run([str(a)for a in args],cwd=ROOT,check=True)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['/home/app/gba-runtime/test-manager/custom_function_menu/v021-931290d-20260906/arm-c-f5d5460-20260907/toolchain/usr/bin/arm-none-eabi-gcc', '-mcpu=arm7tdmi', '-mthumb', '-mthumb-interwork', '-nostdlib', '-Wl,-T,platform/gba/gba.ld', '-Wl,-Map,build/ruina_opening_dev.map', '/mnt/d/gba_hack/废都物语_GBA章节样版/build/game.o', '/mnt/d/gba_hack/废都物语_GBA章节样版/build/maps.o', '/mnt/d/gba_hack/废都物语_GBA章节样版/build/music_room.o', '/mnt/d/gba_hack/废都物语_GBA章节样版/build/ruina_adapter.o', '/mnt/d/gba_hack/废都物语_GBA章节样版/build/source_menus.o', '/mnt/d/gba_hack/废都物语_GBA章节样版/build/animation_baked.o', '/mnt/d/gba_hack/废都物语_GBA章节样版/build/animations.o', '/mnt/d/gba_hack/废都物语_GBA章节样版/build/battle.o', '/mnt/d/gba_hack/废都物语_GBA章节样版/build/equipment.o', '/mnt/d/gba_hack/废都物语_GBA章节样版/build/field_skills.o', '/mnt/d/gba_hack/废都物语_GBA章节样版/build/interpreter.o', '/mnt/d/gba_hack/废都物语_GBA章节样版/build/inventory.o', '/mnt/d/gba_hack/废都物语_GBA章节样版/build/lcf.o', '/mnt/d/gba_hack/废都物语_GBA章节样版/build/light_midi.o', '/mnt/d/gba_hack/废都物语_GBA章节样版/build/map_info.o', '/mnt/d/gba_hack/废都物语_GBA章节样版/build/map_rules.o', '/mnt/d/gba_hack/废都物语_GBA章节样版/build/movement.o', '/mnt/d/gba_hack/废都物语_GBA章节样版/build/native_midi.o', '/mnt/d/gba_hack/废都物语_GBA章节样版/build/parallel.o', '/mnt/d/gba_hack/废都物语_GBA章节样版/build/pictures.o', '/mnt/d/gba_hack/废都物语_GBA章节样版/build/presentation.o', '/mnt/d/gba_hack/废都物语_GBA章节样版/build/rm2k_rules.o', '/mnt/d/gba_hack/废都物语_GBA章节样版/build/shop.o', '/mnt/d/gba_hack/废都物语_GBA章节样版/build/state.o', '/mnt/d/gba_hack/废都物语_GBA章节样版/build/storage_codec.o', '/mnt/d/gba_hack/废都物语_GBA章节样版/build/timers.o', '/mnt/d/gba_hack/废都物语_GBA章节样版/build/world.o', '/mnt/d/gba_hack/废都物语_GBA章节样版/build/audio.o', '/mnt/d/gba_hack/废都物语_GBA章节样版/build/dialog.o', '/mnt/d/gba_hack/废都物语_GBA章节样版/build/event_input.o', '/mnt/d/gba_hack/废都物语_GBA章节样版/build/image.o', '/mnt/d/gba_hack/废都物语_GBA章节样版/build/save.o', '/mnt/d/gba_hack/废都物语_GBA章节样版/build/video.o', '/mnt/d/gba_hack/废都物语_GBA章节样版/build/assets.o', '/mnt/d/gba_hack/废都物语_GBA章节样版/build/borrowed_commands.o', '/mnt/d/gba_hack/废都物语_GBA章节样版/build/source_menu_labels.o', '/mnt/d/gba_hack/废都物语_GBA章节样版/build/midi_clock.o', '/mnt/d/gba_hack/废都物语_GBA章节样版/build/music_room_names.o', '/mnt/d/gba_hack/废都物语_GBA章节样版/build/start.o', '/mnt/d/gba_hack/废都物语_GBA章节样版/build/high_color_blobs.o', '/mnt/d/gba_hack/废都物语_GBA章节样版/build/screen_animation_blobs.o', '-lgcc', '-o', '/mnt/d/gba_hack/废都物语_GBA章节样版/build/ruina_opening_dev.elf']' returned non-zero exit status 1.

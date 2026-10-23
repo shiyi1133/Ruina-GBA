@@ -1,0 +1,95 @@
+{
+  "phase": 0,
+  "top": [
+    {
+      "function": "animation_restore_indexed.constprop.0",
+      "instructions": 1676208,
+      "cycles": 3996414
+    },
+    {
+      "function": "lz4",
+      "instructions": 2068239,
+      "cycles": 3351372
+    },
+    {
+      "function": "rgb_flip",
+      "instructions": 863903,
+      "cycles": 2679819
+    },
+    {
+      "function": "mix_voice_block",
+      "instructions": 1094434,
+      "cycles": 2310298
+    },
+    {
+      "function": "segment",
+      "instructions": 1280940,
+      "cycles": 2258498
+    },
+    {
+      "function": "animation_restore_tiles",
+      "instructions": 291897,
+      "cycles": 1575860
+    },
+    {
+      "function": "animation_span.constprop.0",
+      "instructions": 483263,
+      "cycles": 951032
+    },
+    {
+      "function": "audio_irq",
+      "instructions": 520948,
+      "cycles": 881520
+    },
+    {
+      "function": "audio_service",
+      "instructions": 151053,
+      "cycles": 675759
+    },
+    {
+      "function": "wait_frame",
+      "instructions": 79524,
+      "cycles": 492569
+    },
+    {
+      "function": "balanced_animation_target_flash",
+      "instructions": 157720,
+      "cycles": 451624
+    },
+    {
+      "function": "__battle_render_stamp_from_arm",
+      "instructions": 20190,
+      "cycles": 272580
+    },
+    {
+      "function": "animation_opaque_runs.constprop.0",
+      "instructions": 47279,
+      "cycles": 256936
+    },
+    {
+      "function": "lcf_field",
+      "instructions": 79122,
+      "cycles": 196374
+    },
+    {
+      "function": "__divsi3",
+      "instructions": 35854,
+      "cycles": 158775
+    },
+    {
+      "function": "lcf_next_entry",
+      "instructions": 28798,
+      "cycles": 155631
+    },
+    {
+      "function": "balanced_animation_cell",
+      "instructions": 46204,
+      "cycles": 127117
+    },
+    {
+      "function": "tiled_span",
+      "instructions": 23181,
+      "cycles": 127019
+    }
+  ]
+}

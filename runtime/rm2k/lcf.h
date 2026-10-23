@@ -20,7 +20,7 @@ typedef struct {
 #endif
 
 int LCF_HOT lcf_number(LcfReader *r, ru32 *out);
-int LCF_HOT lcf_bytes(LcfReader *r, ru32 length, LcfSpan *out);
+int lcf_bytes(LcfReader *r, ru32 length, LcfSpan *out);
 int LCF_HOT lcf_string(LcfReader *r, LcfSpan *out);
 int LCF_HOT lcf_field(LcfSpan fields, ru32 id, LcfSpan *out);
 int lcf_array(LcfSpan array, ru32 id, LcfSpan *out);

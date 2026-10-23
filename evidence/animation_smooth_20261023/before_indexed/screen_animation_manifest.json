@@ -1,0 +1,3632 @@
+{
+  "status": "pass",
+  "eligible_frames": 164,
+  "independently_reconstructed_frames": 164,
+  "stored_frames": 164,
+  "bank_bytes": 1278010,
+  "budget_bytes": 1300000,
+  "format": "Opaque final-layer RGB555 palettes and nonoverlapping rectangles in lossless LZ4 chunks of at most 200 records; exact transparent mask",
+  "all_reconstructed_RGB555_pixels_exact": true,
+  "all_transparency_masks_exact": true,
+  "generator_sha256": "99a665abadd5a15c9750984311ff2504ba41722696a6aee20c76f317b4749304",
+  "source_inputs": {
+    "battle_animation_assets.h": "6ea9706482af09bea80663e0fe3b400e3311045ae23778bf8ce29f808b0f2e9c",
+    "battle_animations.bin": "053dc5311367626964071cca0a29c29ae4c8e921e7b87cce6aa1ad2158e20715",
+    "original/RPG_RT.ldb": "038d19cbf046c57a9c5dde56750a6bd06392af8b610f2f61c1bfc145d78bb367"
+  },
+  "records": [
+    {
+      "id": 22,
+      "frame": 4,
+      "key": 1441796,
+      "cost": 9552,
+      "count": 1050,
+      "colors": 11,
+      "bounds": [
+        7,
+        0,
+        115,
+        98
+      ],
+      "coverage": [
+        0,
+        0,
+        0
+      ],
+      "RGB555_mask_sha256": "8be4e2fb7380745a5e6bf44a16b8bb8be411f81b8e525ce205164d1155958dac",
+      "palette": 1036560,
+      "stream": 1036582
+    },
+    {
+      "id": 22,
+      "frame": 5,
+      "key": 1441797,
+      "cost": 10562,
+      "count": 1168,
+      "colors": 12,
+      "bounds": [
+        7,
+        0,
+        115,
+        98
+      ],
+      "coverage": [
+        0,
+        0,
+        0
+      ],
+      "RGB555_mask_sha256": "e10addbf02087c9afb3c5dcc9360180c57cf65cbd707ef84b84a34035a5bc231",
+      "palette": 869178,
+      "stream": 1018308
+    },
+    {
+      "id": 22,
+      "frame": 6,
+      "key": 1441798,
+      "cost": 11327,
+      "count": 1293,
+      "colors": 13,
+      "bounds": [
+        1,
+        0,
+        123,
+        98
+      ],
+      "coverage": [
+        0,
+        0,
+        0
+      ],
+      "RGB555_mask_sha256": "11162b039f0f468f59eeab0c43b52a2b812635067195c46116965ee662f7416d",
+      "palette": 1012296,
+      "stream": 1012322
+    },
+    {
+      "id": 22,
+      "frame": 7,
+      "key": 1441799,
+      "cost": 12822,
+      "count": 1276,
+      "colors": 12,
+      "bounds": [
+        1,
+        0,
+        123,
+        100
+      ],
+      "coverage": [
+        0,
+        0,
+        0
+      ],
+      "RGB555_mask_sha256": "116fdb2bd9a9b9968c09cc8d51ed4cc48b0d888b3c693f6c36b337b9a1c18bb0",
+      "palette": 989544,
+      "stream": 989568
+    },
+    {
+      "id": 22,
+      "frame": 8,
+      "key": 1441800,
+      "cost": 13323,
+      "count": 1383,
+      "colors": 11,
+      "bounds": [
+        7,
+        0,
+        136,
+        100
+      ],
+      "coverage": [
+        0,
+        0,
+        0
+      ],
+      "RGB555_mask_sha256": "9ff5f2bd4ca148f4b27ed948a503f79983518bfbf1d0edb3cb7850dffc9480a5",
+      "palette": 974074,
+      "stream": 974096
+    },
+    {
+      "id": 22,
+      "frame": 9,
+      "key": 1441801,
+      "cost": 16591,
+      "count": 1439,
+      "colors": 12,
+      "bounds": [
+        7,
+        0,
+        167,
+        102
+      ],
+      "coverage": [
+        0,
+        0,
+        0
+      ],
+      "RGB555_mask_sha256": "54277c848f48101c58df208fbf3b3a9c7befcb7a08728b2e542589824ff80187",
+      "palette": 869178,
+      "stream": 929334
+    },
+    {
+      "id": 22,
+      "frame": 10,
+      "key": 1441802,
+      "cost": 18089,
+      "count": 1438,
+      "colors": 12,
+      "bounds": [
+        1,
+        0,
+        173,
+        101
+      ],
+      "coverage": [
+        0,
+        0,
+        0
+      ],
+      "RGB555_mask_sha256": "0a2873621ed6f290b012d51b295d67148a0727a76b398a7937a332da921ae4bf",
+      "palette": 869178,
+      "stream": 869202
+    },
+    {
+      "id": 22,
+      "frame": 11,
+      "key": 1441803,
+      "cost": 17890,
+      "count": 1567,
+      "colors": 13,
+      "bounds": [
+        25,
+        0,
+        173,
+        102
+      ],
+      "coverage": [
+        0,
+        8192,
+        0
+      ],
+      "RGB555_mask_sha256": "095f4c2caf7f1ffdd89cf223a0528df0a4781491916f5a365a476dd5987f4c53",
+      "palette": 841638,
+      "stream": 910129
+    },
+    {
+      "id": 22,
+      "frame": 12,
+      "key": 1441804,
+      "cost": 20281,
+      "count": 1578,
+      "colors": 14,
+      "bounds": [
+        25,
+        0,
+        173,
+        102
+      ],
+      "coverage": [
+        0,
+        8192,
+        0
+      ],
+      "RGB555_mask_sha256": "d1a82482c648fe6dfc861abb2402431332aff4cf45900245a5204848f59d12d7",
+      "palette": 853358,
+      "stream": 853386
+    },
+    {
+      "id": 22,
+      "frame": 13,
+      "key": 1441805,
+      "cost": 19806,
+      "count": 1693,
+      "colors": 14,
+      "bounds": [
+        37,
+        0,
+        185,
+        102
+      ],
+      "coverage": [
+        0,
+        0,
+        0
+      ],
+      "RGB555_mask_sha256": "bc8f54979f7285b273420c4fe131ce668bc4d3fe8d5d197260b32a6ad40c00b5",
+      "palette": 853358,
+      "stream": 860982
+    },
+    {
+      "id": 22,
+      "frame": 14,
+      "key": 1441806,
+      "cost": 21090,
+      "count": 1741,
+      "colors": 13,
+      "bounds": [
+        31,
+        0,
+        191,
+        101
+      ],
+      "coverage": [
+        0,
+        0,
+        0
+      ],
+      "RGB555_mask_sha256": "df80c8604e4a42d5ee75de4573550388624138d6730888335bfb69f33e4dedb5",
+      "palette": 841638,
+      "stream": 841664
+    },
+    {
+      "id": 22,
+      "frame": 17,
+      "key": 1441809,
+      "cost": 10072,
+      "count": 663,
+      "colors": 6,
+      "bounds": [
+        43,
+        33,
+        147,
+        69
+      ],
+      "coverage": [
+        0,
+        0,
+        0
+      ],
+      "RGB555_mask_sha256": "7a54a3436acc866c83e06a87e2571434a3486d677b5b86b9f1ade12132a4ddba",
+      "palette": 1023822,
+      "stream": 1023834
+    },
+    {
+      "id": 22,
+      "frame": 18,
+      "key": 1441810,
+      "cost": 9881,
+      "count": 643,
+      "colors": 6,
+      "bounds": [
+        55,
+        33,
+        149,
+        69
+      ],
+      "coverage": [
+        0,
+        0,
+        0
+      ],
+      "RGB555_mask_sha256": "40d8f6b1e251e104e41a5932b47e03e6d8073a89f4dac14d45e52d0a3ecb1a70",
+      "palette": 1023822,
+      "stream": 1033516
+    },
+    {
+      "id": 22,
+      "frame": 19,
+      "key": 1441811,
+      "cost": 10072,
+      "count": 658,
+      "colors": 6,
+      "bounds": [
+        73,
+        33,
+        147,
+        69
+      ],
+      "coverage": [
+        0,
+        0,
+        0
+      ],
+      "RGB555_mask_sha256": "14723ffc00236ba3c72fcde64fbbc3d1f302a88c203e5846b56d51463a260a03",
+      "palette": 1023822,
+      "stream": 1026986
+    },
+    {
+      "id": 22,
+      "frame": 20,
+      "key": 1441812,
+      "cost": 10011,
+      "count": 709,
+      "colors": 8,
+      "bounds": [
+        85,
+        33,
+        149,
+        69
+      ],
+      "coverage": [
+        0,
+        0,
+        0
+      ],
+      "RGB555_mask_sha256": "b0e3060444dff0368629108e6a8337d47cf9244e6ae1351a194f8d2d0c5aea09",
+      "palette": 1030120,
+      "stream": 1030136
+    },
+    {
+      "id": 22,
+      "frame": 21,
+      "key": 1441813,
+      "cost": 9483,
+      "count": 715,
+      "colors": 8,
+      "bounds": [
+        97,
+        31,
+        143,
+        71
+      ],
+      "coverage": [
+        0,
+        0,
+        0
+      ],
+      "RGB555_mask_sha256": "08aa6007041714271d3dd83f539d41ba8c954c3ffbfd2cec8efd99fe354c079c",
+      "palette": 1030120,
+      "stream": 1041541
+    },
+    {
+      "id": 22,
+      "frame": 22,
+      "key": 1441814,
+      "cost": 8897,
+      "count": 614,
+      "colors": 7,
+      "bounds": [
+        109,
+        25,
+        131,
+        76
+      ],
+      "coverage": [
+        0,
+        0,
+        0
+      ],
+      "RGB555_mask_sha256": "19305ee05c8b9fb7534b57c8aa7871b965832e9afc4ae2d3e296cb61f5c5416a",
+      "palette": 1054296,
+      "stream": 1054310
+    },
+    {
+      "id": 22,
+      "frame": 23,
+      "key": 1441815,
+      "cost": 7159,
+      "count": 498,
+      "colors": 6,
+      "bounds": [
+        132,
+        40,
+        108,
+        62
+      ],
+      "coverage": [
+        0,
+        0,
+        0
+      ],
+      "RGB555_mask_sha256": "afa8028a79b8fa8f03bb912f884ea4092f5e9e9191932162d4c24525e50bff8e",
+      "palette": 1023822,
+      "stream": 1085368
+    },
+    {
+      "id": 22,
+      "frame": 24,
+      "key": 1441816,
+      "cost": 6365,
+      "count": 430,
+      "colors": 6,
+      "bounds": [
+        144,
+        33,
+        96,
+        68
+      ],
+      "coverage": [
+        0,
+        0,
+        0
+      ],
+      "RGB555_mask_sha256": "b20dd9bef376041fea617c1fb7e7f597286ab16cb98d21ed2d35f25aa0be6cdd",
+      "palette": 1023822,
+      "stream": 1159772
+    },
+    {
+      "id": 29,
+      "frame": 0,
+      "key": 1900544,
+      "cost": 31824,
+      "count": 338,
+      "colors": 2,
+      "bounds": [
+        48,
+        0,
+        144,
+        117
+      ],
+      "coverage": [
+        0,
+        0,
+        0
+      ],
+      "RGB555_mask_sha256": "febf510bba99eff61eca4050b74da90f5f11cd7eb4023f0e1e7578521ef66505",
+      "palette": 726026,
+      "stream": 726030
+    },
+    {
+      "id": 29,
+      "frame": 1,
+      "key": 1900545,
+      "cost": 31824,
+      "count": 338,
+      "colors": 2,
+      "bounds": [
+        48,
+        0,
+        144,
+        117
+      ],
+      "coverage": [
+        0,
+        0,
+        0
+      ],
+      "RGB555_mask_sha256": "febf510bba99eff61eca4050b74da90f5f11cd7eb4023f0e1e7578521ef66505",
+      "palette": 726026,
+      "stream": 726030
+    },
+    {
+      "id": 29,
+      "frame": 2,
+      "key": 1900546,
+      "cost": 23526,
+      "count": 307,
+      "colors": 2,
+      "bounds": [
+        57,
+        0,
+        126,
+        109
+      ],
+      "coverage": [
+        0,
+        0,
+        0
+      ],
+      "RGB555_mask_sha256": "79a6a7023d321ff81a27e119d416710231a7cb779b2a8aef83490677a9b92854",
+      "palette": 726026,
+      "stream": 828681
+    },
+    {
+      "id": 29,
+      "frame": 3,
+      "key": 1900547,
+      "cost": 23526,
+      "count": 307,
+      "colors": 2,
+      "bounds": [
+        57,
+        0,
+        126,
+        109
+      ],
+      "coverage": [
+        0,
+        0,
+        0
+      ],
+      "RGB555_mask_sha256": "79a6a7023d321ff81a27e119d416710231a7cb779b2a8aef83490677a9b92854",
+      "palette": 726026,
+      "stream": 828681
+    },
+    {
+      "id": 36,
+      "frame": 5,
+      "key": 2359301,
+      "cost": 6452,
+      "count": 237,
+      "colors": 5,
+      "bounds": [
+        0,
+        0,
+        221,
+        115
+      ],
+      "coverage": [
+        0,
+        0,
+        0
+      ],
+      "RGB555_mask_sha256": "e3577095ce7f93f6ba6c694bfc434dfdf18e2f5e71f6f19d2a5808fff1b60076",
+      "palette": 1158592,
+      "stream": 1158602
+    },
+    {
+      "id": 80,
+      "frame": 4,
+      "key": 5242884,
+      "cost": 5257,
+      "count": 737,
+      "colors": 8,
+      "bounds": [
+        121,
+        59,
+        119,
+        41
+      ],
+      "coverage": [
+        0,
+        0,
+        0
+      ],
+      "RGB555_mask_sha256": "1ca539c734975da7be3133c585b67208d6be8e3c34ac5b43a3d1a948fc1ab73e",
+      "palette": 1069388,
+      "stream": 1253627
+    },
+    {
+      "id": 80,
+      "frame": 5,
+      "key": 5242885,
+      "cost": 5690,
+      "count": 929,
+      "colors": 8,
+      "bounds": [
+        106,
+        59,
+        134,
+        41
+      ],
+      "coverage": [
+        0,
+        0,
+        0
+      ],
+      "RGB555_mask_sha256": "1362b00311390d02cedacd714a9895aaa68997e252df2e6657b0ec95de0d0c7d",
+      "palette": 1069388,
+      "stream": 1211125
+    },
+    {
+      "id": 80,
+      "frame": 6,
+      "key": 5242886,
+      "cost": 6850,
+      "count": 1062,
+      "colors": 8,
+      "bounds": [
+        89,
+        58,
+        151,
+        42
+      ],
+      "coverage": [
+        0,
+        0,
+        0
+      ],
+      "RGB555_mask_sha256": "858230bcfba9153a8d6974d122219a6f08c16fc5fbcb0d045b07e8c6f315a046",
+      "palette": 1069388,
+      "stream": 1105564
+    },
+    {
+      "id": 80,
+      "frame": 7,
+      "key": 5242887,
+      "cost": 7446,
+      "count": 1101,
+      "colors": 8,
+      "bounds": [
+        73,
+        54,
+        167,
+        46
+      ],
+      "coverage": [
+        0,
+        0,
+        0
+      ],
+      "RGB555_mask_sha256": "aa17b5dd5ee2b2bddf2837ad634a7af60d025964f133996d44afa6ccfa4400a5",
+      "palette": 1069388,
+      "stream": 1074955
+    },
+    {
+      "id": 80,
+      "frame": 8,
+      "key": 5242888,
+      "cost": 7795,
+      "count": 1151,
+      "colors": 7,
+      "bounds": [
+        56,
+        54,
+        184,
+        46
+      ],
+      "coverage": [
+        0,
+        0,
+        0
+      ],
+      "RGB555_mask_sha256": "00bb61783f3111eeaf49f026c97abdb3bd88b2cfaf085aa60ff065fa8240da81",
+      "palette": 1058696,
+      "stream": 1064003
+    },
+    {
+      "id": 80,
+      "frame": 9,
+      "key": 5242889,
+      "cost": 7811,
+      "count": 1137,
+      "colors": 7,
+      "bounds": [
+        40,
+        55,
+        184,
+        46
+      ],
+      "coverage": [
+        0,
+        0,
+        0
+      ],
+      "RGB555_mask_sha256": "2e834a930b5769a7c3caee66656df83f431e458c95d1bc95c61755dee19c1672",
+      "palette": 1058696,
+      "stream": 1058710
+    },
+    {
+      "id": 80,
+      "frame": 10,
+      "key": 5242890,
+      "cost": 7338,
+      "count": 1131,
+      "colors": 7,
+      "bounds": [
+        23,
+        60,
+        185,
+        41
+      ],
+      "coverage": [
+        0,
+        0,
+        0
+      ],
+      "RGB555_mask_sha256": "245573ef627c3addf1a9c146a5fc75d16377bc8b26e65f75586b0b13761c3a79",
+      "palette": 1058696,
+      "stream": 1080130
+    },
+    {
+      "id": 80,
+      "frame": 11,
+      "key": 5242891,
+      "cost": 7662,
+      "count": 1147,
+      "colors": 8,
+      "bounds": [
+        7,
+        61,
+        183,
+        41
+      ],
+      "coverage": [
+        0,
+        0,
+        0
+      ],
+      "RGB555_mask_sha256": "e928449eca06e130f520201e9d3c36ce6176cf0b9639e050412ba1fa2b46fa9d",
+      "palette": 1069388,
+      "stream": 1069404
+    },
+    {
+      "id": 80,
+      "frame": 12,
+      "key": 5242892,
+      "cost": 7131,
+      "count": 1145,
+      "colors": 8,
+      "bounds": [
+        0,
+        60,
+        174,
+        42
+      ],
+      "coverage": [
+        0,
+        0,
+        0
+      ],
+      "RGB555_mask_sha256": "86f0cf5828d88b3b98bbe92cd9f5ae9c16615a2db0f0519d298c4fae024829be",
+      "palette": 1069388,
+      "stream": 1087722
+    },
+    {
+      "id": 80,
+      "frame": 13,
+      "key": 5242893,
+      "cost": 6600,
+      "count": 1026,
+      "colors": 8,
+      "bounds": [
+        0,
+        56,
+        159,
+        46
+      ],
+      "coverage": [
+        0,
+        0,
+        0
+      ],
+      "RGB555_mask_sha256": "b552faec2009722db0d79867333308a7fca10cc2cd78737d6e4af115191582fe",
+      "palette": 1069388,
+      "stream": 1131179
+    },
+    {
+      "id": 80,
+      "frame": 14,
+      "key": 5242894,
+      "cost": 5735,
+      "count": 875,
+      "colors": 7,
+      "bounds": [
+        0,
+        56,
+        142,
+        46
+      ],
+      "coverage": [
+        0,
+        0,
+        0
+      ],
+      "RGB555_mask_sha256": "1208bc1709b218c66cf610a5e24f1666fbba2926693bc1a6a361c460619f462b",
+      "palette": 1058696,
+      "stream": 1202947
+    },
+    {
+      "id": 81,
+      "frame": 3,
+      "key": 5308419,
+      "cost": 5274,
+      "count": 602,
+      "colors": 7,
+      "bounds": [
+        25,
+        16,
+        172,
+        62
+      ],
+      "coverage": [
+        0,
+        0,
+        0
+      ],
+      "RGB555_mask_sha256": "5ddd294bb2949ed0a2be2fcc31c53994fe872397d42cde771d2ee21f3a6e7015",
+      "palette": 1058696,
+      "stream": 1250768
+    },
+    {
+      "id": 81,
+      "frame": 4,
+      "key": 5308420,
+      "cost": 5323,
+      "count": 709,
+      "colors": 9,
+      "bounds": [
+        25,
+        21,
+        173,
+        95
+      ],
+      "coverage": [
+        0,
+        0,
+        0
+      ],
+      "RGB555_mask_sha256": "7e7b813ab8f0acc47b3962ce2ea0d00cee4161bdee3f6f59e86b8784072b4a52",
+      "palette": 1184372,
+      "stream": 1243990
+    },
+    {
+      "id": 81,
+      "frame": 5,
+      "key": 5308421,
+      "cost": 5314,
+      "count": 713,
+      "colors": 9,
+      "bounds": [
+        25,
+        21,
+        173,
+        62
+      ],
+      "coverage": [
+        0,
+        0,
+        0
+      ],
+      "RGB555_mask_sha256": "d6ec322af9382233e9ad269cfc1c42c16e67e91b5cd57c48208d6b8579a648a1",
+      "palette": 1184372,
+      "stream": 1247348
+    },
+    {
+      "id": 81,
+      "frame": 6,
+      "key": 5308422,
+      "cost": 5541,
+      "count": 790,
+      "colors": 9,
+      "bounds": [
+        25,
+        25,
+        173,
+        54
+      ],
+      "coverage": [
+        0,
+        0,
+        0
+      ],
+      "RGB555_mask_sha256": "a05bf3d4100b718982fded0f68e58f658747d5b544f2428d38a41f42508b365c",
+      "palette": 1184372,
+      "stream": 1228591
+    },
+    {
+      "id": 81,
+      "frame": 7,
+      "key": 5308423,
+      "cost": 5540,
+      "count": 798,
+      "colors": 9,
+      "bounds": [
+        25,
+        2,
+        173,
+        77
+      ],
+      "coverage": [
+        0,
+        0,
+        0
+      ],
+      "RGB555_mask_sha256": "52465464ffd237117511c43b70527799c95eb74508c972189963bf6505de687a",
+      "palette": 1184372,
+      "stream": 1232304
+    },
+    {
+      "id": 81,
+      "frame": 8,
+      "key": 5308424,
+      "cost": 5168,
+      "count": 681,
+      "colors": 10,
+      "bounds": [
+        25,
+        20,
+        172,
+        91
+      ],
+      "coverage": [
+        0,
+        0,
+        0
+      ],
+      "RGB555_mask_sha256": "374f18eadadc8451540c3135e6c96d3dc18233ade580a617375cd7af7c9f3f9d",
+      "palette": 1236066,
+      "stream": 1271663
+    },
+    {
+      "id": 81,
+      "frame": 9,
+      "key": 5308425,
+      "cost": 5176,
+      "count": 688,
+      "colors": 10,
+      "bounds": [
+        25,
+        20,
+        172,
+        74
+      ],
+      "coverage": [
+        0,
+        0,
+        0
+      ],
+      "RGB555_mask_sha256": "65613981487ae0d4f6213e1776ee323361ce7dca374c2941af4196ea38cbfb5d",
+      "palette": 1236066,
+      "stream": 1268367
+    },
+    {
+      "id": 81,
+      "frame": 10,
+      "key": 5308426,
+      "cost": 5815,
+      "count": 797,
+      "colors": 9,
+      "bounds": [
+        25,
+        16,
+        172,
+        100
+      ],
+      "coverage": [
+        0,
+        0,
+        0
+      ],
+      "RGB555_mask_sha256": "132c8b76fb3a3fa8ddb4eaa2649667e4d27e16525c3b63c459f526d078109db4",
+      "palette": 1184372,
+      "stream": 1193945
+    },
+    {
+      "id": 81,
+      "frame": 11,
+      "key": 5308427,
+      "cost": 5814,
+      "count": 790,
+      "colors": 9,
+      "bounds": [
+        25,
+        16,
+        172,
+        67
+      ],
+      "coverage": [
+        0,
+        0,
+        0
+      ],
+      "RGB555_mask_sha256": "702e88f51719f0d3a17e005dbd648c36f45f9f4e1873f3b6b6b0640ce5883676",
+      "palette": 1184372,
+      "stream": 1197755
+    },
+    {
+      "id": 81,
+      "frame": 12,
+      "key": 5308428,
+      "cost": 5660,
+      "count": 761,
+      "colors": 9,
+      "bounds": [
+        25,
+        18,
+        173,
+        59
+      ],
+      "coverage": [
+        0,
+        0,
+        0
+      ],
+      "RGB555_mask_sha256": "d4028b9f87cbdc2ab23fe5249619e1621e8dc901a318406ea45e9441073fa21b",
+      "palette": 1184372,
+      "stream": 1221115
+    },
+    {
+      "id": 81,
+      "frame": 13,
+      "key": 5308429,
+      "cost": 5932,
+      "count": 860,
+      "colors": 9,
+      "bounds": [
+        25,
+        6,
+        173,
+        108
+      ],
+      "coverage": [
+        0,
+        0,
+        0
+      ],
+      "RGB555_mask_sha256": "643e38c6122f2b036af65c237566e5ea12956a2e34884edbc492e8624643bfb3",
+      "palette": 1184372,
+      "stream": 1184390
+    },
+    {
+      "id": 81,
+      "frame": 14,
+      "key": 5308430,
+      "cost": 5256,
+      "count": 688,
+      "colors": 9,
+      "bounds": [
+        25,
+        7,
+        173,
+        79
+      ],
+      "coverage": [
+        0,
+        0,
+        0
+      ],
+      "RGB555_mask_sha256": "27cff03c958386d4dfb8bc942746ff8dd7f375c4dca195ccb0e11b18c52654bf",
+      "palette": 1184372,
+      "stream": 1257056
+    },
+    {
+      "id": 81,
+      "frame": 15,
+      "key": 5308431,
+      "cost": 5204,
+      "count": 671,
+      "colors": 9,
+      "bounds": [
+        25,
+        0,
+        173,
+        79
+      ],
+      "coverage": [
+        0,
+        0,
+        0
+      ],
+      "RGB555_mask_sha256": "246b163560a65f50c5e380757b5abca2fe298c7ddac307059159b02012e8d81d",
+      "palette": 1184372,
+      "stream": 1262728
+    },
+    {
+      "id": 81,
+      "frame": 16,
+      "key": 5308432,
+      "cost": 5707,
+      "count": 855,
+      "colors": 9,
+      "bounds": [
+        25,
+        20,
+        207,
+        96
+      ],
+      "coverage": [
+        0,
+        0,
+        0
+      ],
+      "RGB555_mask_sha256": "775c130ce80cfabf63fd0fedd855f61a2d352894bcb9edfb962e948ae4a0ec1f",
+      "palette": 1184372,
+      "stream": 1207042
+    },
+    {
+      "id": 81,
+      "frame": 17,
+      "key": 5308433,
+      "cost": 5576,
+      "count": 815,
+      "colors": 9,
+      "bounds": [
+        25,
+        0,
+        209,
+        83
+      ],
+      "coverage": [
+        0,
+        0,
+        0
+      ],
+      "RGB555_mask_sha256": "8c20b65ea699dc522736cc0a65f9973b4c784a13d5b8cadc93c816eb6b3edd90",
+      "palette": 1184372,
+      "stream": 1224717
+    },
+    {
+      "id": 81,
+      "frame": 18,
+      "key": 5308434,
+      "cost": 5509,
+      "count": 800,
+      "colors": 10,
+      "bounds": [
+        25,
+        20,
+        207,
+        59
+      ],
+      "coverage": [
+        0,
+        0,
+        0
+      ],
+      "RGB555_mask_sha256": "701a63a32311d6c740ba2c5085effc6968cc4d06a20fa3994cafc2b27067c82a",
+      "palette": 1236066,
+      "stream": 1236086
+    },
+    {
+      "id": 81,
+      "frame": 19,
+      "key": 5308435,
+      "cost": 5500,
+      "count": 802,
+      "colors": 10,
+      "bounds": [
+        25,
+        8,
+        209,
+        71
+      ],
+      "coverage": [
+        0,
+        0,
+        0
+      ],
+      "RGB555_mask_sha256": "8f0be3f3af7c53cbc5f59fe07d1862da22d3eb52d6c16120441bc66a95225da0",
+      "palette": 1236066,
+      "stream": 1239896
+    },
+    {
+      "id": 81,
+      "frame": 20,
+      "key": 5308436,
+      "cost": 5274,
+      "count": 602,
+      "colors": 7,
+      "bounds": [
+        25,
+        16,
+        172,
+        62
+      ],
+      "coverage": [
+        0,
+        0,
+        0
+      ],
+      "RGB555_mask_sha256": "5ddd294bb2949ed0a2be2fcc31c53994fe872397d42cde771d2ee21f3a6e7015",
+      "palette": 1058696,
+      "stream": 1250768
+    },
+    {
+      "id": 81,
+      "frame": 21,
+      "key": 5308437,
+      "cost": 5274,
+      "count": 602,
+      "colors": 7,
+      "bounds": [
+        25,
+        16,
+        172,
+        62
+      ],
+      "coverage": [
+        0,
+        0,
+        0
+      ],
+      "RGB555_mask_sha256": "5ddd294bb2949ed0a2be2fcc31c53994fe872397d42cde771d2ee21f3a6e7015",
+      "palette": 1058696,
+      "stream": 1250768
+    },
+    {
+      "id": 81,
+      "frame": 22,
+      "key": 5308438,
+      "cost": 5068,
+      "count": 640,
+      "colors": 8,
+      "bounds": [
+        25,
+        20,
+        172,
+        59
+      ],
+      "coverage": [
+        0,
+        0,
+        0
+      ],
+      "RGB555_mask_sha256": "5fbc64db3fb35522b6502e11e51adde59500df12ae0108dc50364752e8ad5709",
+      "palette": 1069388,
+      "stream": 1274931
+    },
+    {
+      "id": 117,
+      "frame": 14,
+      "key": 7667726,
+      "cost": 13690,
+      "count": 978,
+      "colors": 7,
+      "bounds": [
+        61,
+        1,
+        112,
+        94
+      ],
+      "coverage": [
+        0,
+        0,
+        0
+      ],
+      "RGB555_mask_sha256": "7741a5812a28665f57ea2aad17779d47840f4e206077ff93ee679249d2ef4761",
+      "palette": 966422,
+      "stream": 966436
+    },
+    {
+      "id": 117,
+      "frame": 15,
+      "key": 7667727,
+      "cost": 13690,
+      "count": 978,
+      "colors": 7,
+      "bounds": [
+        61,
+        1,
+        112,
+        94
+      ],
+      "coverage": [
+        0,
+        0,
+        0
+      ],
+      "RGB555_mask_sha256": "7741a5812a28665f57ea2aad17779d47840f4e206077ff93ee679249d2ef4761",
+      "palette": 966422,
+      "stream": 966436
+    },
+    {
+      "id": 117,
+      "frame": 16,
+      "key": 7667728,
+      "cost": 15156,
+      "count": 707,
+      "colors": 2,
+      "bounds": [
+        44,
+        0,
+        139,
+        112
+      ],
+      "coverage": [
+        0,
+        0,
+        0
+      ],
+      "RGB555_mask_sha256": "5b38cd6beb897a8e7de63f13188c08cb747600ff63b4e688b849ea2e9900c94e",
+      "palette": 726026,
+      "stream": 948371
+    },
+    {
+      "id": 117,
+      "frame": 17,
+      "key": 7667729,
+      "cost": 20414,
+      "count": 754,
+      "colors": 2,
+      "bounds": [
+        38,
+        0,
+        147,
+        115
+      ],
+      "coverage": [
+        0,
+        0,
+        0
+      ],
+      "RGB555_mask_sha256": "b7b0b012db5581e2a073aad72a5b2915a7a68808526eb7c7c3e7f54ce8baa4c6",
+      "palette": 726026,
+      "stream": 850060
+    },
+    {
+      "id": 118,
+      "frame": 17,
+      "key": 7733265,
+      "cost": 6273,
+      "count": 270,
+      "colors": 3,
+      "bounds": [
+        21,
+        0,
+        128,
+        85
+      ],
+      "coverage": [
+        0,
+        0,
+        0
+      ],
+      "RGB555_mask_sha256": "720a09510449b0a23664007f7597d66804cd965f9983668f357d890fa675565d",
+      "palette": 1095666,
+      "stream": 1161808
+    },
+    {
+      "id": 118,
+      "frame": 18,
+      "key": 7733266,
+      "cost": 5952,
+      "count": 281,
+      "colors": 3,
+      "bounds": [
+        20,
+        12,
+        128,
+        90
+      ],
+      "coverage": [
+        0,
+        0,
+        0
+      ],
+      "RGB555_mask_sha256": "7ce4420ad98f82f0008786e8a62e21cd15db11c5d0d183cdd2e4042cc7499597",
+      "palette": 1095666,
+      "stream": 1183072
+    },
+    {
+      "id": 118,
+      "frame": 19,
+      "key": 7733267,
+      "cost": 7068,
+      "count": 286,
+      "colors": 3,
+      "bounds": [
+        21,
+        0,
+        181,
+        116
+      ],
+      "coverage": [
+        0,
+        0,
+        0
+      ],
+      "RGB555_mask_sha256": "56667cde50ecafc772738ff9bd57e58b8f4fe0e4366634a034ad8790a76ec2f0",
+      "palette": 1095666,
+      "stream": 1095672
+    },
+    {
+      "id": 118,
+      "frame": 20,
+      "key": 7733268,
+      "cost": 7008,
+      "count": 348,
+      "colors": 3,
+      "bounds": [
+        20,
+        0,
+        182,
+        139
+      ],
+      "coverage": [
+        0,
+        0,
+        0
+      ],
+      "RGB555_mask_sha256": "b38ce2860457c054fafe8b4184bcdf1aeaf39b05f7b11275518f0907852368ed",
+      "palette": 1095666,
+      "stream": 1096988
+    },
+    {
+      "id": 118,
+      "frame": 23,
+      "key": 7733271,
+      "cost": 5772,
+      "count": 254,
+      "colors": 3,
+      "bounds": [
+        21,
+        0,
+        187,
+        131
+      ],
+      "coverage": [
+        0,
+        0,
+        0
+      ],
+      "RGB555_mask_sha256": "d1f94bf9a64f63f20dffdb382a4ef91eaf4fbef0975b7cecb47d767fcd1ff532",
+      "palette": 1095666,
+      "stream": 1201768
+    },
+    {
+      "id": 118,
+      "frame": 24,
+      "key": 7733272,
+      "cost": 6210,
+      "count": 235,
+      "colors": 2,
+      "bounds": [
+        59,
+        0,
+        143,
+        101
+      ],
+      "coverage": [
+        0,
+        0,
+        0
+      ],
+      "RGB555_mask_sha256": "5c143ecaeeb60dfd8f561ce3fe49aee925c98baa12e949a0b6d8017c7fac340a",
+      "palette": 726026,
+      "stream": 1163050
+    },
+    {
+      "id": 118,
+      "frame": 25,
+      "key": 7733273,
+      "cost": 7857,
+      "count": 329,
+      "colors": 2,
+      "bounds": [
+        59,
+        0,
+        149,
+        126
+      ],
+      "coverage": [
+        0,
+        0,
+        0
+      ],
+      "RGB555_mask_sha256": "690bd361671f27db17050da42f9f331a1f1b6e1c908d28e7f9e6faac526b4716",
+      "palette": 726026,
+      "stream": 1057236
+    },
+    {
+      "id": 118,
+      "frame": 26,
+      "key": 7733274,
+      "cost": 9360,
+      "count": 332,
+      "colors": 2,
+      "bounds": [
+        59,
+        20,
+        143,
+        119
+      ],
+      "coverage": [
+        0,
+        0,
+        0
+      ],
+      "RGB555_mask_sha256": "365be6724db7561740cffe1d1c793fa3da41d8988d918d875ed53c2f22ce7161",
+      "palette": 726026,
+      "stream": 1044978
+    },
+    {
+      "id": 128,
+      "frame": 6,
+      "key": 8388614,
+      "cost": 5196,
+      "count": 499,
+      "colors": 16,
+      "bounds": [
+        47,
+        12,
+        179,
+        93
+      ],
+      "coverage": [
+        0,
+        0,
+        0
+      ],
+      "RGB555_mask_sha256": "12cf4cea429da10462e089a97a72709f9fb61cf436ec184042cc38f56f6e255d",
+      "palette": 1260344,
+      "stream": 1265940
+    },
+    {
+      "id": 128,
+      "frame": 9,
+      "key": 8388617,
+      "cost": 5232,
+      "count": 482,
+      "colors": 16,
+      "bounds": [
+        21,
+        0,
+        186,
+        120
+      ],
+      "coverage": [
+        0,
+        0,
+        0
+      ],
+      "RGB555_mask_sha256": "ee5c21547f43550a3dab7c3fa632159fd91b606480ba7d3b2a1ac9e4779c64ab",
+      "palette": 1260344,
+      "stream": 1260376
+    },
+    {
+      "id": 135,
+      "frame": 5,
+      "key": 8847365,
+      "cost": 12763,
+      "count": 537,
+      "colors": 9,
+      "bounds": [
+        0,
+        2,
+        175,
+        115
+      ],
+      "coverage": [
+        134742016,
+        0,
+        0
+      ],
+      "RGB555_mask_sha256": "bcd8cc1db93c07fb9c1f180cb2e27c8f5918aa42e805bd9b93a897b281bcfe1a",
+      "palette": 921254,
+      "stream": 995517
+    },
+    {
+      "id": 135,
+      "frame": 6,
+      "key": 8847366,
+      "cost": 12507,
+      "count": 596,
+      "colors": 9,
+      "bounds": [
+        9,
+        0,
+        166,
+        104
+      ],
+      "coverage": [
+        134742016,
+        8,
+        0
+      ],
+      "RGB555_mask_sha256": "840d19e0e90a05f1469967f62028958a44700fe16ebb2ab7f5f032d4b40dfd9b",
+      "palette": 921254,
+      "stream": 1001241
+    },
+    {
+      "id": 135,
+      "frame": 7,
+      "key": 8847367,
+      "cost": 12507,
+      "count": 596,
+      "colors": 9,
+      "bounds": [
+        33,
+        0,
+        142,
+        104
+      ],
+      "coverage": [
+        134742016,
+        8,
+        0
+      ],
+      "RGB555_mask_sha256": "7ad391bc3257d3bc6063082dc2eee3969a294432f81eb0057257f8109a365a71",
+      "palette": 921254,
+      "stream": 1004166
+    },
+    {
+      "id": 135,
+      "frame": 8,
+      "key": 8847368,
+      "cost": 13284,
+      "count": 637,
+      "colors": 9,
+      "bounds": [
+        61,
+        0,
+        171,
+        117
+      ],
+      "coverage": [
+        134742016,
+        0,
+        0
+      ],
+      "RGB555_mask_sha256": "75d9b2984a3b0c229a3836dd5fb50c5f8423acd1166b21bfba04b47059578577",
+      "palette": 921254,
+      "stream": 980470
+    },
+    {
+      "id": 135,
+      "frame": 9,
+      "key": 8847369,
+      "cost": 13449,
+      "count": 651,
+      "colors": 9,
+      "bounds": [
+        66,
+        0,
+        136,
+        117
+      ],
+      "coverage": [
+        134742016,
+        0,
+        0
+      ],
+      "RGB555_mask_sha256": "febc55f81b2a43612a9e904db23ad69654633adb45318451af40f81548949574",
+      "palette": 921254,
+      "stream": 970899
+    },
+    {
+      "id": 135,
+      "frame": 10,
+      "key": 8847370,
+      "cost": 12302,
+      "count": 620,
+      "colors": 9,
+      "bounds": [
+        68,
+        0,
+        111,
+        104
+      ],
+      "coverage": [
+        134742016,
+        8,
+        0
+      ],
+      "RGB555_mask_sha256": "e3c256a0cc15b22ac3d8d26bfc4f76477a9bfc1136d844ef8a4ed643f2a23680",
+      "palette": 921254,
+      "stream": 1009271
+    },
+    {
+      "id": 135,
+      "frame": 11,
+      "key": 8847371,
+      "cost": 14458,
+      "count": 849,
+      "colors": 9,
+      "bounds": [
+        68,
+        0,
+        107,
+        132
+      ],
+      "coverage": [
+        134742016,
+        8,
+        0
+      ],
+      "RGB555_mask_sha256": "a7dbac6b6d373a6c60fe9c7c6e6b1f5030ec054d913b0fd61dbec1cd7d83b414",
+      "palette": 921254,
+      "stream": 952366
+    },
+    {
+      "id": 135,
+      "frame": 12,
+      "key": 8847372,
+      "cost": 16720,
+      "count": 820,
+      "colors": 9,
+      "bounds": [
+        59,
+        0,
+        116,
+        117
+      ],
+      "coverage": [
+        134742020,
+        1052672,
+        0
+      ],
+      "RGB555_mask_sha256": "23af14780b4a2a65a0af9ee46365e2b935d0d984b98e09be49c5b0191f0e63c3",
+      "palette": 921254,
+      "stream": 925263
+    },
+    {
+      "id": 135,
+      "frame": 13,
+      "key": 8847373,
+      "cost": 16766,
+      "count": 803,
+      "colors": 9,
+      "bounds": [
+        53,
+        0,
+        122,
+        117
+      ],
+      "coverage": [
+        134743044,
+        4096,
+        0
+      ],
+      "RGB555_mask_sha256": "55c83b772990285e3640350af472a9e04702e859e47d2682b28b6c920269ab4d",
+      "palette": 921254,
+      "stream": 921272
+    },
+    {
+      "id": 135,
+      "frame": 14,
+      "key": 8847374,
+      "cost": 15414,
+      "count": 735,
+      "colors": 9,
+      "bounds": [
+        58,
+        0,
+        117,
+        104
+      ],
+      "coverage": [
+        134743040,
+        8,
+        0
+      ],
+      "RGB555_mask_sha256": "16377b247be0ec07154590f8729acadf3fc64d7b1b4edb37998eb49412d568a7",
+      "palette": 921254,
+      "stream": 944769
+    },
+    {
+      "id": 135,
+      "frame": 15,
+      "key": 8847375,
+      "cost": 15942,
+      "count": 871,
+      "colors": 9,
+      "bounds": [
+        64,
+        0,
+        168,
+        104
+      ],
+      "coverage": [
+        134742016,
+        8,
+        0
+      ],
+      "RGB555_mask_sha256": "a5095dbc283f8a789befa61454f0d2634b42b8c22f25b8bebf8f81bcf22e984e",
+      "palette": 921254,
+      "stream": 940557
+    },
+    {
+      "id": 135,
+      "frame": 16,
+      "key": 8847376,
+      "cost": 18042,
+      "count": 535,
+      "colors": 7,
+      "bounds": [
+        47,
+        0,
+        133,
+        131
+      ],
+      "coverage": [
+        0,
+        0,
+        0
+      ],
+      "RGB555_mask_sha256": "a0845a48980bc31ddb28be014ecbca2b6e7773772a94c40813e7e1a34059647a",
+      "palette": 876062,
+      "stream": 876076
+    },
+    {
+      "id": 135,
+      "frame": 23,
+      "key": 8847383,
+      "cost": 12763,
+      "count": 537,
+      "colors": 9,
+      "bounds": [
+        0,
+        2,
+        175,
+        115
+      ],
+      "coverage": [
+        134742016,
+        0,
+        0
+      ],
+      "RGB555_mask_sha256": "bcd8cc1db93c07fb9c1f180cb2e27c8f5918aa42e805bd9b93a897b281bcfe1a",
+      "palette": 921254,
+      "stream": 995517
+    },
+    {
+      "id": 135,
+      "frame": 24,
+      "key": 8847384,
+      "cost": 12848,
+      "count": 534,
+      "colors": 9,
+      "bounds": [
+        66,
+        12,
+        109,
+        105
+      ],
+      "coverage": [
+        134742016,
+        0,
+        0
+      ],
+      "RGB555_mask_sha256": "7644461fa1a91ed69d7c7494467aa8cfc29bb45fd03287effac9f1516572ea5e",
+      "palette": 921254,
+      "stream": 986935
+    },
+    {
+      "id": 135,
+      "frame": 25,
+      "key": 8847385,
+      "cost": 12320,
+      "count": 433,
+      "colors": 8,
+      "bounds": [
+        66,
+        12,
+        109,
+        105
+      ],
+      "coverage": [
+        134742016,
+        0,
+        0
+      ],
+      "RGB555_mask_sha256": "dfda9dff7a59e953bbe83bb2dbad51458d95e2c3dac6249fd98baa6726e7b50a",
+      "palette": 1007086,
+      "stream": 1007102
+    },
+    {
+      "id": 135,
+      "frame": 26,
+      "key": 8847386,
+      "cost": 18042,
+      "count": 535,
+      "colors": 7,
+      "bounds": [
+        47,
+        0,
+        133,
+        131
+      ],
+      "coverage": [
+        0,
+        0,
+        0
+      ],
+      "RGB555_mask_sha256": "a0845a48980bc31ddb28be014ecbca2b6e7773772a94c40813e7e1a34059647a",
+      "palette": 876062,
+      "stream": 876076
+    },
+    {
+      "id": 135,
+      "frame": 33,
+      "key": 8847393,
+      "cost": 17119,
+      "count": 723,
+      "colors": 8,
+      "bounds": [
+        0,
+        12,
+        185,
+        105
+      ],
+      "coverage": [
+        134742016,
+        0,
+        0
+      ],
+      "RGB555_mask_sha256": "9c2bab2d9a784739b46ec0a82ed1b1e7aa1dea96387c97ab100a3a935f90aed2",
+      "palette": 917712,
+      "stream": 917728
+    },
+    {
+      "id": 135,
+      "frame": 34,
+      "key": 8847394,
+      "cost": 13035,
+      "count": 683,
+      "colors": 9,
+      "bounds": [
+        15,
+        0,
+        160,
+        115
+      ],
+      "coverage": [
+        135790592,
+        8,
+        0
+      ],
+      "RGB555_mask_sha256": "f3712e5a1aebd520b13242ccf0747ec6437a42977f0f9c62faf3b8ecd531e55d",
+      "palette": 921254,
+      "stream": 983586
+    },
+    {
+      "id": 135,
+      "frame": 35,
+      "key": 8847395,
+      "cost": 12731,
+      "count": 631,
+      "colors": 9,
+      "bounds": [
+        51,
+        0,
+        124,
+        110
+      ],
+      "coverage": [
+        134742016,
+        8,
+        0
+      ],
+      "RGB555_mask_sha256": "000fd81e7041b48386e388f19f953d7671488d6489ee966ac87ebed8afc959b0",
+      "palette": 921254,
+      "stream": 998144
+    },
+    {
+      "id": 135,
+      "frame": 36,
+      "key": 8847396,
+      "cost": 7070,
+      "count": 534,
+      "colors": 9,
+      "bounds": [
+        67,
+        24,
+        93,
+        75
+      ],
+      "coverage": [
+        0,
+        0,
+        0
+      ],
+      "RGB555_mask_sha256": "ffe92f94f3c1117b9322c6cca4f14ae99bffcbe7fc478c1e014a791a22690a82",
+      "palette": 921254,
+      "stream": 1093053
+    },
+    {
+      "id": 135,
+      "frame": 37,
+      "key": 8847397,
+      "cost": 6542,
+      "count": 481,
+      "colors": 9,
+      "bounds": [
+        82,
+        24,
+        78,
+        75
+      ],
+      "coverage": [
+        0,
+        0,
+        0
+      ],
+      "RGB555_mask_sha256": "f3a4aca490768d552b4a28652a7b33846d6a7aabe6eef2d1bbf12b838c694b94",
+      "palette": 921254,
+      "stream": 1149442
+    },
+    {
+      "id": 170,
+      "frame": 0,
+      "key": 11141120,
+      "cost": 31824,
+      "count": 338,
+      "colors": 2,
+      "bounds": [
+        48,
+        0,
+        144,
+        117
+      ],
+      "coverage": [
+        0,
+        0,
+        0
+      ],
+      "RGB555_mask_sha256": "febf510bba99eff61eca4050b74da90f5f11cd7eb4023f0e1e7578521ef66505",
+      "palette": 726026,
+      "stream": 726030
+    },
+    {
+      "id": 170,
+      "frame": 1,
+      "key": 11141121,
+      "cost": 31824,
+      "count": 338,
+      "colors": 2,
+      "bounds": [
+        48,
+        0,
+        144,
+        117
+      ],
+      "coverage": [
+        0,
+        0,
+        0
+      ],
+      "RGB555_mask_sha256": "febf510bba99eff61eca4050b74da90f5f11cd7eb4023f0e1e7578521ef66505",
+      "palette": 726026,
+      "stream": 726030
+    },
+    {
+      "id": 170,
+      "frame": 2,
+      "key": 11141122,
+      "cost": 23526,
+      "count": 307,
+      "colors": 2,
+      "bounds": [
+        57,
+        0,
+        126,
+        109
+      ],
+      "coverage": [
+        0,
+        0,
+        0
+      ],
+      "RGB555_mask_sha256": "79a6a7023d321ff81a27e119d416710231a7cb779b2a8aef83490677a9b92854",
+      "palette": 726026,
+      "stream": 828681
+    },
+    {
+      "id": 170,
+      "frame": 3,
+      "key": 11141123,
+      "cost": 23526,
+      "count": 307,
+      "colors": 2,
+      "bounds": [
+        57,
+        0,
+        126,
+        109
+      ],
+      "coverage": [
+        0,
+        0,
+        0
+      ],
+      "RGB555_mask_sha256": "79a6a7023d321ff81a27e119d416710231a7cb779b2a8aef83490677a9b92854",
+      "palette": 726026,
+      "stream": 828681
+    },
+    {
+      "id": 172,
+      "frame": 18,
+      "key": 11272210,
+      "cost": 18000,
+      "count": 6600,
+      "colors": 11,
+      "bounds": [
+        0,
+        43,
+        240,
+        74
+      ],
+      "coverage": [
+        0,
+        16777215,
+        0
+      ],
+      "RGB555_mask_sha256": "07c7a772dbffc4baa0d879ca7d569f07c3823c90c0a777760164a7383bad95bb",
+      "palette": 426368,
+      "stream": 878676
+    },
+    {
+      "id": 172,
+      "frame": 19,
+      "key": 11272211,
+      "cost": 29760,
+      "count": 9149,
+      "colors": 11,
+      "bounds": [
+        0,
+        38,
+        240,
+        122
+      ],
+      "coverage": [
+        0,
+        4294967295,
+        65535
+      ],
+      "RGB555_mask_sha256": "56777501bcd1f55779595996a90d8b5320e689b0bbd593768be985235bbe9019",
+      "palette": 426368,
+      "stream": 727687
+    },
+    {
+      "id": 172,
+      "frame": 20,
+      "key": 11272212,
+      "cost": 32160,
+      "count": 9704,
+      "colors": 11,
+      "bounds": [
+        0,
+        27,
+        240,
+        133
+      ],
+      "coverage": [
+        4278190080,
+        4294967295,
+        65535
+      ],
+      "RGB555_mask_sha256": "17c6839d61a579da4f8db8026d8d0f4ecbf53970964a6a251a27b8d1453f2833",
+      "palette": 426368,
+      "stream": 680581
+    },
+    {
+      "id": 172,
+      "frame": 21,
+      "key": 11272213,
+      "cost": 34800,
+      "count": 10232,
+      "colors": 11,
+      "bounds": [
+        0,
+        17,
+        240,
+        143
+      ],
+      "coverage": [
+        4294901760,
+        4294967295,
+        65535
+      ],
+      "RGB555_mask_sha256": "a7ff003fdd5c589b7c1a09fb8a88d35d44addf5b48feea54c70d586021651ef1",
+      "palette": 426368,
+      "stream": 574338
+    },
+    {
+      "id": 172,
+      "frame": 22,
+      "key": 11272214,
+      "cost": 37440,
+      "count": 10753,
+      "colors": 11,
+      "bounds": [
+        0,
+        6,
+        240,
+        154
+      ],
+      "coverage": [
+        4294901760,
+        4294967295,
+        65535
+      ],
+      "RGB555_mask_sha256": "9a549949b96e17b4a2603e3412195a3829189f577cb6bcb9af3c9512f6bb4981",
+      "palette": 426368,
+      "stream": 478521
+    },
+    {
+      "id": 172,
+      "frame": 23,
+      "key": 11272215,
+      "cost": 38640,
+      "count": 11338,
+      "colors": 11,
+      "bounds": [
+        0,
+        0,
+        240,
+        160
+      ],
+      "coverage": [
+        4294967040,
+        4294967295,
+        65535
+      ],
+      "RGB555_mask_sha256": "65310812f6a5735885dc394009732c97d025a4ddf1f1762bbfd0bbc050103b95",
+      "palette": 426368,
+      "stream": 426390
+    },
+    {
+      "id": 172,
+      "frame": 24,
+      "key": 11272216,
+      "cost": 35520,
+      "count": 10059,
+      "colors": 11,
+      "bounds": [
+        0,
+        0,
+        240,
+        148
+      ],
+      "coverage": [
+        4294967295,
+        4294967295,
+        255
+      ],
+      "RGB555_mask_sha256": "599713d3a10d4c6bbebea83169a16aef0baf80dcf6693d9d92637f263c3e7cdf",
+      "palette": 426368,
+      "stream": 528313
+    },
+    {
+      "id": 172,
+      "frame": 25,
+      "key": 11272217,
+      "cost": 32400,
+      "count": 8107,
+      "colors": 7,
+      "bounds": [
+        0,
+        0,
+        240,
+        135
+      ],
+      "coverage": [
+        4294967295,
+        4294967295,
+        0
+      ],
+      "RGB555_mask_sha256": "63c7a710b912814799ffdb82dc7133007c2b45f852c4586a3463cf2339301722",
+      "palette": 643904,
+      "stream": 643918
+    },
+    {
+      "id": 172,
+      "frame": 26,
+      "key": 11272218,
+      "cost": 29040,
+      "count": 7056,
+      "colors": 6,
+      "bounds": [
+        0,
+        0,
+        240,
+        121
+      ],
+      "coverage": [
+        4294967295,
+        16777215,
+        0
+      ],
+      "RGB555_mask_sha256": "15df16738cae0372d935f8c45b64758354b6701e00512e7801e7540c5109495f",
+      "palette": 770710,
+      "stream": 770722
+    },
+    {
+      "id": 172,
+      "frame": 27,
+      "key": 11272219,
+      "cost": 25680,
+      "count": 5905,
+      "colors": 4,
+      "bounds": [
+        0,
+        0,
+        240,
+        107
+      ],
+      "coverage": [
+        4294967295,
+        65535,
+        0
+      ],
+      "RGB555_mask_sha256": "3ccab098e9a3f41206315527a48a094a07aae50a7aa80ac20fb76593e0354f5b",
+      "palette": 802386,
+      "stream": 802394
+    },
+    {
+      "id": 173,
+      "frame": 11,
+      "key": 11337739,
+      "cost": 58506,
+      "count": 6542,
+      "colors": 8,
+      "bounds": [
+        0,
+        0,
+        240,
+        160
+      ],
+      "coverage": [
+        4294967295,
+        4294967295,
+        65535
+      ],
+      "RGB555_mask_sha256": "ad50a53b670cb2639d35b125ac4e32f9a5d72340980b84f33edf8ccc78871edd",
+      "palette": 31702,
+      "stream": 281901
+    },
+    {
+      "id": 173,
+      "frame": 12,
+      "key": 11337740,
+      "cost": 58227,
+      "count": 6715,
+      "colors": 9,
+      "bounds": [
+        0,
+        0,
+        240,
+        160
+      ],
+      "coverage": [
+        4294967295,
+        4294967295,
+        65535
+      ],
+      "RGB555_mask_sha256": "a949f9faaa47ad5fb201678a2bcdd7b87e09236c3ff737c3ba3b1794a71f356f",
+      "palette": 92644,
+      "stream": 312781
+    },
+    {
+      "id": 173,
+      "frame": 13,
+      "key": 11337741,
+      "cost": 60784,
+      "count": 7065,
+      "colors": 8,
+      "bounds": [
+        0,
+        0,
+        240,
+        160
+      ],
+      "coverage": [
+        4294967295,
+        4294967295,
+        65535
+      ],
+      "RGB555_mask_sha256": "6bbcb18b0eb14742b8a5eed22f892b817553eb5133b4bd1d7a6f5fe121151c05",
+      "palette": 31702,
+      "stream": 209627
+    },
+    {
+      "id": 173,
+      "frame": 14,
+      "key": 11337742,
+      "cost": 60108,
+      "count": 7138,
+      "colors": 9,
+      "bounds": [
+        0,
+        0,
+        240,
+        160
+      ],
+      "coverage": [
+        4294967295,
+        4294967295,
+        65535
+      ],
+      "RGB555_mask_sha256": "f97e9bb57ae299e33e2ee89d41517f888e7770890e72fe7849013d6cd963e373",
+      "palette": 92644,
+      "stream": 241253
+    },
+    {
+      "id": 173,
+      "frame": 15,
+      "key": 11337743,
+      "cost": 63663,
+      "count": 7628,
+      "colors": 8,
+      "bounds": [
+        0,
+        0,
+        240,
+        160
+      ],
+      "coverage": [
+        4294967295,
+        4294967295,
+        65535
+      ],
+      "RGB555_mask_sha256": "867636b59b017f7026a247e2fc8f25e21fb7b98883ed09a00782381eaaf827a4",
+      "palette": 31702,
+      "stream": 138100
+    },
+    {
+      "id": 173,
+      "frame": 16,
+      "key": 11337744,
+      "cost": 62261,
+      "count": 7824,
+      "colors": 9,
+      "bounds": [
+        0,
+        0,
+        240,
+        160
+      ],
+      "coverage": [
+        4294967295,
+        4294967295,
+        65535
+      ],
+      "RGB555_mask_sha256": "6677bb8366ab79f49be67dcab399e88df6e466838127e1bf364ff349c9ec2d13",
+      "palette": 92644,
+      "stream": 172259
+    },
+    {
+      "id": 173,
+      "frame": 17,
+      "key": 11337745,
+      "cost": 68136,
+      "count": 8063,
+      "colors": 8,
+      "bounds": [
+        0,
+        0,
+        240,
+        160
+      ],
+      "coverage": [
+        4294967295,
+        4294967295,
+        65535
+      ],
+      "RGB555_mask_sha256": "004a0b16f70dcb7d745655e630a88d675965a27524e3d45d01c95e1c48baaab0",
+      "palette": 31702,
+      "stream": 54845
+    },
+    {
+      "id": 173,
+      "frame": 18,
+      "key": 11337746,
+      "cost": 65696,
+      "count": 8135,
+      "colors": 9,
+      "bounds": [
+        0,
+        0,
+        240,
+        160
+      ],
+      "coverage": [
+        4294967295,
+        4294967295,
+        65535
+      ],
+      "RGB555_mask_sha256": "04b04dd1a2937e1966aa92be80678c94442b6c45c2e0bc687795bd5d3c86d6c7",
+      "palette": 92644,
+      "stream": 92662
+    },
+    {
+      "id": 173,
+      "frame": 19,
+      "key": 11337747,
+      "cost": 69036,
+      "count": 5137,
+      "colors": 8,
+      "bounds": [
+        0,
+        0,
+        240,
+        160
+      ],
+      "coverage": [
+        4294967295,
+        4294967295,
+        65535
+      ],
+      "RGB555_mask_sha256": "915db06b81eba82908d826e4c6b74b93b1107a117c2528e8b75fedadcfc2621e",
+      "palette": 31702,
+      "stream": 31718
+    },
+    {
+      "id": 173,
+      "frame": 20,
+      "key": 11337748,
+      "cost": 54528,
+      "count": 5797,
+      "colors": 4,
+      "bounds": [
+        0,
+        0,
+        240,
+        160
+      ],
+      "coverage": [
+        4294967295,
+        4294967295,
+        65535
+      ],
+      "RGB555_mask_sha256": "d7478dd6ed294524b51d769f8a2174fa668e8f5cb0ae27561aa53b9c3851c9c2",
+      "palette": 356322,
+      "stream": 356330
+    },
+    {
+      "id": 173,
+      "frame": 39,
+      "key": 11337767,
+      "cost": 49080,
+      "count": 376,
+      "colors": 3,
+      "bounds": [
+        0,
+        0,
+        240,
+        133
+      ],
+      "coverage": [
+        4294967295,
+        4294967295,
+        0
+      ],
+      "RGB555_mask_sha256": "bf07deafd5eb3f4e72450c8c9b97ca4a11395d6ea7466f20e3de56046e9a643a",
+      "palette": 311170,
+      "stream": 404095
+    },
+    {
+      "id": 173,
+      "frame": 40,
+      "key": 11337768,
+      "cost": 52581,
+      "count": 381,
+      "colors": 3,
+      "bounds": [
+        0,
+        0,
+        240,
+        133
+      ],
+      "coverage": [
+        4294967295,
+        4294967295,
+        0
+      ],
+      "RGB555_mask_sha256": "97044bbe8dd08b981480d93242fdc8534f3f6ae54ddd61c2c680f63682789520",
+      "palette": 311170,
+      "stream": 382230
+    },
+    {
+      "id": 173,
+      "frame": 41,
+      "key": 11337769,
+      "cost": 55320,
+      "count": 338,
+      "colors": 3,
+      "bounds": [
+        0,
+        0,
+        240,
+        133
+      ],
+      "coverage": [
+        4294967295,
+        4294967295,
+        0
+      ],
+      "RGB555_mask_sha256": "015612e6a21c47aa68e1feb3d39209e0562f8775d2e99da1ecbcad433303f2e5",
+      "palette": 311170,
+      "stream": 346248
+    },
+    {
+      "id": 173,
+      "frame": 42,
+      "key": 11337770,
+      "cost": 58233,
+      "count": 319,
+      "colors": 3,
+      "bounds": [
+        0,
+        0,
+        240,
+        144
+      ],
+      "coverage": [
+        4294967295,
+        4294967295,
+        255
+      ],
+      "RGB555_mask_sha256": "ae2eef20169f37d25d5d8fcbd969cbb6e13dbb5db3f55f721249c2127947e37c",
+      "palette": 311170,
+      "stream": 311176
+    },
+    {
+      "id": 173,
+      "frame": 43,
+      "key": 11337771,
+      "cost": 49800,
+      "count": 825,
+      "colors": 5,
+      "bounds": [
+        0,
+        0,
+        240,
+        117
+      ],
+      "coverage": [
+        4294967295,
+        16777215,
+        0
+      ],
+      "RGB555_mask_sha256": "659e755097a701c8f7ad718542edb8f169cd1cb7570469ef2e58851e2b18c657",
+      "palette": 27608,
+      "stream": 400038
+    },
+    {
+      "id": 173,
+      "frame": 44,
+      "key": 11337772,
+      "cost": 55920,
+      "count": 684,
+      "colors": 5,
+      "bounds": [
+        0,
+        0,
+        240,
+        133
+      ],
+      "coverage": [
+        4294967295,
+        4294967295,
+        0
+      ],
+      "RGB555_mask_sha256": "a917ecd0047c92e3eea83953d19a2710cbd81f38d89832bf815ab971e5eb20c2",
+      "palette": 27608,
+      "stream": 342862
+    },
+    {
+      "id": 173,
+      "frame": 45,
+      "key": 11337773,
+      "cost": 62160,
+      "count": 467,
+      "colors": 5,
+      "bounds": [
+        0,
+        0,
+        240,
+        149
+      ],
+      "coverage": [
+        4294967295,
+        4294967295,
+        255
+      ],
+      "RGB555_mask_sha256": "c47a1db5c62e9ae517b028551da5d2c9c142b7fd42d5e3ffbbdac84f2f917277",
+      "palette": 27608,
+      "stream": 207312
+    },
+    {
+      "id": 173,
+      "frame": 46,
+      "key": 11337774,
+      "cost": 65760,
+      "count": 332,
+      "colors": 5,
+      "bounds": [
+        0,
+        0,
+        240,
+        155
+      ],
+      "coverage": [
+        4294967295,
+        4294967295,
+        255
+      ],
+      "RGB555_mask_sha256": "e105fe3ece235542777d6fb0e8a08fd19f5b51378aeb473421d6bc75966db1b6",
+      "palette": 27608,
+      "stream": 90980
+    },
+    {
+      "id": 173,
+      "frame": 47,
+      "key": 11337775,
+      "cost": 69240,
+      "count": 307,
+      "colors": 5,
+      "bounds": [
+        0,
+        0,
+        240,
+        160
+      ],
+      "coverage": [
+        4294967295,
+        4294967295,
+        65535
+      ],
+      "RGB555_mask_sha256": "688b86ad1c98391d13430cfd0f2ab11cae3e4a573a21bc420e822760e31506b8",
+      "palette": 27608,
+      "stream": 30160
+    },
+    {
+      "id": 173,
+      "frame": 48,
+      "key": 11337776,
+      "cost": 71640,
+      "count": 280,
+      "colors": 5,
+      "bounds": [
+        0,
+        0,
+        240,
+        160
+      ],
+      "coverage": [
+        4294967295,
+        4294967295,
+        65535
+      ],
+      "RGB555_mask_sha256": "79bcee5637416cd660b0d0374bd67c51b12f07d3c58d180e441dd113fa3b96db",
+      "palette": 27608,
+      "stream": 28748
+    },
+    {
+      "id": 173,
+      "frame": 49,
+      "key": 11337777,
+      "cost": 73800,
+      "count": 224,
+      "colors": 5,
+      "bounds": [
+        0,
+        0,
+        240,
+        160
+      ],
+      "coverage": [
+        4294967295,
+        4294967295,
+        65535
+      ],
+      "RGB555_mask_sha256": "70a8b8a448e842fdd7edc8642e5d547b82358647454ed88e9a27e4c1313f1edd",
+      "palette": 27608,
+      "stream": 27618
+    },
+    {
+      "id": 184,
+      "frame": 29,
+      "key": 12058653,
+      "cost": 55248,
+      "count": 1714,
+      "colors": 18,
+      "bounds": [
+        0,
+        0,
+        240,
+        160
+      ],
+      "coverage": [
+        4294967295,
+        4294967295,
+        65535
+      ],
+      "RGB555_mask_sha256": "e5cd8de2b897fe0b7a3d231703135b3f522a4df60374b46a8a28b7fd1c960993",
+      "palette": 347946,
+      "stream": 347982
+    },
+    {
+      "id": 184,
+      "frame": 30,
+      "key": 12058654,
+      "cost": 58636,
+      "count": 1778,
+      "colors": 19,
+      "bounds": [
+        0,
+        0,
+        240,
+        160
+      ],
+      "coverage": [
+        4294967295,
+        4294967295,
+        65535
+      ],
+      "RGB555_mask_sha256": "365b7a573fc2343f0a6c4116e2113b64a4ac690fda26333f1e2eaf5c3de535d4",
+      "palette": 129112,
+      "stream": 273243
+    },
+    {
+      "id": 184,
+      "frame": 31,
+      "key": 12058655,
+      "cost": 64368,
+      "count": 1832,
+      "colors": 19,
+      "bounds": [
+        0,
+        0,
+        240,
+        160
+      ],
+      "coverage": [
+        4294967295,
+        4294967295,
+        65535
+      ],
+      "RGB555_mask_sha256": "2d12fbb1a9bc6b33d649f049f28ea28955f895579930eb57aff89233c7bbf2a2",
+      "palette": 129112,
+      "stream": 129150
+    },
+    {
+      "id": 184,
+      "frame": 32,
+      "key": 12058656,
+      "cost": 41118,
+      "count": 2054,
+      "colors": 19,
+      "bounds": [
+        0,
+        0,
+        240,
+        123
+      ],
+      "coverage": [
+        3821506335,
+        16578801,
+        0
+      ],
+      "RGB555_mask_sha256": "e34954010636deca61f416ff46176cdf90d40c06ccd7368c898e1f624eb41486",
+      "palette": 416262,
+      "stream": 416300
+    },
+    {
+      "id": 184,
+      "frame": 33,
+      "key": 12058657,
+      "cost": 34740,
+      "count": 2035,
+      "colors": 19,
+      "bounds": [
+        0,
+        0,
+        240,
+        123
+      ],
+      "coverage": [
+        3246589711,
+        16314592,
+        0
+      ],
+      "RGB555_mask_sha256": "1408745edc36c1d2df479139dfd9afdeea4ca6325bbd15e690a0c942cd869710",
+      "palette": 416262,
+      "stream": 621906
+    },
+    {
+      "id": 184,
+      "frame": 35,
+      "key": 12058659,
+      "cost": 14520,
+      "count": 171,
+      "colors": 3,
+      "bounds": [
+        0,
+        0,
+        221,
+        115
+      ],
+      "coverage": [
+        0,
+        0,
+        0
+      ],
+      "RGB555_mask_sha256": "b0a7eb86878304a83b922ae244bc5a1b408ef6da2466d4dd2cd9122e442a14e0",
+      "palette": 951496,
+      "stream": 951502
+    },
+    {
+      "id": 191,
+      "frame": 2,
+      "key": 12517378,
+      "cost": 5454,
+      "count": 51,
+      "colors": 2,
+      "bounds": [
+        0,
+        0,
+        108,
+        68
+      ],
+      "coverage": [
+        0,
+        0,
+        0
+      ],
+      "RGB555_mask_sha256": "cf655e17a275cb5e98fcefc6668e37231fb28aa97fc9065a21c9046e9539d2d0",
+      "palette": 1074760,
+      "stream": 1243729
+    },
+    {
+      "id": 191,
+      "frame": 6,
+      "key": 12517382,
+      "cost": 5802,
+      "count": 51,
+      "colors": 2,
+      "bounds": [
+        0,
+        0,
+        210,
+        68
+      ],
+      "coverage": [
+        0,
+        0,
+        0
+      ],
+      "RGB555_mask_sha256": "af6630817f678f4a3749924402d30521039ad5b12154d81d5aa3dc5fe1771980",
+      "palette": 1074760,
+      "stream": 1201507
+    },
+    {
+      "id": 191,
+      "frame": 7,
+      "key": 12517383,
+      "cost": 7518,
+      "count": 37,
+      "colors": 2,
+      "bounds": [
+        0,
+        0,
+        240,
+        68
+      ],
+      "coverage": [
+        0,
+        0,
+        0
+      ],
+      "RGB555_mask_sha256": "d8ac1ba57ee9b3caf73b8bacef01023e7d7cda315a8f031054d90ec8d2bcac8c",
+      "palette": 1074760,
+      "stream": 1074764
+    },
+    {
+      "id": 191,
+      "frame": 23,
+      "key": 12517399,
+      "cost": 6092,
+      "count": 1322,
+      "colors": 9,
+      "bounds": [
+        0,
+        29,
+        103,
+        49
+      ],
+      "coverage": [
+        117440512,
+        0,
+        0
+      ],
+      "RGB555_mask_sha256": "78e1b33b1950e32b3814f5aa6df7189c9b89a13c72201e95b7486923045b3876",
+      "palette": 391252,
+      "stream": 1171093
+    },
+    {
+      "id": 191,
+      "frame": 24,
+      "key": 12517400,
+      "cost": 8992,
+      "count": 1659,
+      "colors": 9,
+      "bounds": [
+        0,
+        24,
+        139,
+        54
+      ],
+      "coverage": [
+        251723776,
+        0,
+        0
+      ],
+      "RGB555_mask_sha256": "849a86378b07df154028abd1d9532208f270a913ab2c138b6cfcd91025eba45a",
+      "palette": 391252,
+      "stream": 1046435
+    },
+    {
+      "id": 191,
+      "frame": 25,
+      "key": 12517401,
+      "cost": 14042,
+      "count": 2090,
+      "colors": 9,
+      "bounds": [
+        0,
+        0,
+        180,
+        78
+      ],
+      "coverage": [
+        251855104,
+        0,
+        0
+      ],
+      "RGB555_mask_sha256": "1571565a54a7043b7b4930201bd1dd2ce56c2be9e21f866c8ecfdcae07fb519c",
+      "palette": 391252,
+      "stream": 956529
+    },
+    {
+      "id": 191,
+      "frame": 26,
+      "key": 12517402,
+      "cost": 21834,
+      "count": 2438,
+      "colors": 9,
+      "bounds": [
+        0,
+        0,
+        216,
+        78
+      ],
+      "coverage": [
+        1057424129,
+        0,
+        0
+      ],
+      "RGB555_mask_sha256": "86a6624310a80f9ff0d4088c0b399117ef44d9ff6683ed879ce46c1c2dc64cb6",
+      "palette": 391252,
+      "stream": 830103
+    },
+    {
+      "id": 191,
+      "frame": 27,
+      "key": 12517403,
+      "cost": 33090,
+      "count": 2531,
+      "colors": 9,
+      "bounds": [
+        0,
+        0,
+        240,
+        85
+      ],
+      "coverage": [
+        4280223495,
+        1,
+        0
+      ],
+      "RGB555_mask_sha256": "4393778bc7afe378935a3828e87d8e2acebdd695186ba9d714123d2f1b89714e",
+      "palette": 391252,
+      "stream": 631883
+    },
+    {
+      "id": 191,
+      "frame": 28,
+      "key": 12517404,
+      "cost": 42416,
+      "count": 2164,
+      "colors": 9,
+      "bounds": [
+        0,
+        0,
+        240,
+        79
+      ],
+      "coverage": [
+        4294905615,
+        0,
+        0
+      ],
+      "RGB555_mask_sha256": "552d1a37c580e14b84063a7312462a6c22c39735cb0b6df7fc61d1bc5ac770dd",
+      "palette": 391252,
+      "stream": 405914
+    },
+    {
+      "id": 191,
+      "frame": 29,
+      "key": 12517405,
+      "cost": 51020,
+      "count": 1800,
+      "colors": 9,
+      "bounds": [
+        0,
+        0,
+        240,
+        88
+      ],
+      "coverage": [
+        4290723615,
+        15,
+        0
+      ],
+      "RGB555_mask_sha256": "f27507baa668250178d7df880db6861ad25be4ee2cb666b88b5fd9cf49ff61de",
+      "palette": 391252,
+      "stream": 391270
+    },
+    {
+      "id": 191,
+      "frame": 30,
+      "key": 12517406,
+      "cost": 52550,
+      "count": 1463,
+      "colors": 6,
+      "bounds": [
+        0,
+        0,
+        240,
+        93
+      ],
+      "coverage": [
+        4294934335,
+        30,
+        0
+      ],
+      "RGB555_mask_sha256": "753db263d007562c8a8d5d8e8d96df6ff5a1e5424f52800f5967137caf66519f",
+      "palette": 0,
+      "stream": 384083
+    },
+    {
+      "id": 191,
+      "frame": 31,
+      "key": 12517407,
+      "cost": 75049,
+      "count": 1371,
+      "colors": 6,
+      "bounds": [
+        0,
+        0,
+        240,
+        120
+      ],
+      "coverage": [
+        4294967295,
+        790079,
+        0
+      ],
+      "RGB555_mask_sha256": "068088437d096ddade84445b06f18e86e251ff256fb99812ba11025490324e43",
+      "palette": 0,
+      "stream": 20831
+    },
+    {
+      "id": 191,
+      "frame": 32,
+      "key": 12517408,
+      "cost": 99900,
+      "count": 1204,
+      "colors": 6,
+      "bounds": [
+        0,
+        0,
+        240,
+        125
+      ],
+      "coverage": [
+        4294967295,
+        8323071,
+        0
+      ],
+      "RGB555_mask_sha256": "b98c238f7b647b75d126ca6ca95eb78f785aae22dde74d76c9abc188c71c98c4",
+      "palette": 0,
+      "stream": 14902
+    },
+    {
+      "id": 191,
+      "frame": 33,
+      "key": 12517409,
+      "cost": 129192,
+      "count": 957,
+      "colors": 6,
+      "bounds": [
+        0,
+        0,
+        240,
+        160
+      ],
+      "coverage": [
+        4294967295,
+        4294967295,
+        15486
+      ],
+      "RGB555_mask_sha256": "b36de17f3a9480b7947fa53a65e725a258cd4d83bb0bee41120b6625773cc865",
+      "palette": 0,
+      "stream": 10135
+    },
+    {
+      "id": 191,
+      "frame": 34,
+      "key": 12517410,
+      "cost": 147474,
+      "count": 780,
+      "colors": 6,
+      "bounds": [
+        0,
+        0,
+        240,
+        160
+      ],
+      "coverage": [
+        4294967295,
+        4294967295,
+        31998
+      ],
+      "RGB555_mask_sha256": "47f5fc2716a4105d26a9a44153065902b00821c5583901c64dcfd3a1eddba10e",
+      "palette": 0,
+      "stream": 6264
+    },
+    {
+      "id": 191,
+      "frame": 35,
+      "key": 12517411,
+      "cost": 157093,
+      "count": 564,
+      "colors": 6,
+      "bounds": [
+        0,
+        0,
+        240,
+        160
+      ],
+      "coverage": [
+        4294967295,
+        4294967295,
+        65278
+      ],
+      "RGB555_mask_sha256": "2c0d6777ceb7dcdf7a3dbaf31495abb355b09dbfac38206a0cd1c7acd5045975",
+      "palette": 0,
+      "stream": 3452
+    },
+    {
+      "id": 191,
+      "frame": 36,
+      "key": 12517412,
+      "cost": 164839,
+      "count": 293,
+      "colors": 6,
+      "bounds": [
+        0,
+        0,
+        240,
+        160
+      ],
+      "coverage": [
+        4294967295,
+        4294967295,
+        65278
+      ],
+      "RGB555_mask_sha256": "8912548ed1a19e24cec21f46de3030ff37ed96fd136f2ff6e443dc3681673f95",
+      "palette": 0,
+      "stream": 1988
+    },
+    {
+      "id": 191,
+      "frame": 37,
+      "key": 12517413,
+      "cost": 169479,
+      "count": 224,
+      "colors": 6,
+      "bounds": [
+        0,
+        0,
+        240,
+        160
+      ],
+      "coverage": [
+        4294967295,
+        4294967295,
+        65278
+      ],
+      "RGB555_mask_sha256": "3160f897c48057502a432decefacce1a9636f60a576879e9e498900bba5060fc",
+      "palette": 0,
+      "stream": 866
+    },
+    {
+      "id": 191,
+      "frame": 38,
+      "key": 12517414,
+      "cost": 173319,
+      "count": 149,
+      "colors": 6,
+      "bounds": [
+        0,
+        0,
+        240,
+        160
+      ],
+      "coverage": [
+        4294967295,
+        4294967295,
+        65278
+      ],
+      "RGB555_mask_sha256": "11a3de2b187718b7042d80df8afd14813476a8a6c779a816cdb853cb20368f6e",
+      "palette": 0,
+      "stream": 12
+    },
+    {
+      "id": 191,
+      "frame": 39,
+      "key": 12517415,
+      "cost": 173319,
+      "count": 27,
+      "colors": 5,
+      "bounds": [
+        0,
+        0,
+        240,
+        160
+      ],
+      "coverage": [
+        4294967295,
+        4294967295,
+        65535
+      ],
+      "RGB555_mask_sha256": "e1baab9599819d0ed5ef398b263c2ce7b42fdf7683557bb84b2a59c3d1d0367f",
+      "palette": 716,
+      "stream": 726
+    },
+    {
+      "id": 205,
+      "frame": 4,
+      "key": 13434884,
+      "cost": 5280,
+      "count": 7,
+      "colors": 5,
+      "bounds": [
+        0,
+        43,
+        240,
+        21
+      ],
+      "coverage": [
+        4278190080,
+        0,
+        0
+      ],
+      "RGB555_mask_sha256": "09ad82c552cfd6dcc2ef828a51a9fd6ced4dcefc0957fd5320aa67861a75ab2e",
+      "palette": 1250718,
+      "stream": 1250728
+    },
+    {
+      "id": 222,
+      "frame": 10,
+      "key": 14549002,
+      "cost": 16254,
+      "count": 889,
+      "colors": 4,
+      "bounds": [
+        53,
+        0,
+        136,
+        99
+      ],
+      "coverage": [
+        0,
+        0,
+        0
+      ],
+      "RGB555_mask_sha256": "ee1233f80f531181f8504acddc4695acb08d343271abca8549db6010aa3762ed",
+      "palette": 936160,
+      "stream": 936168
+    },
+    {
+      "id": 226,
+      "frame": 7,
+      "key": 14811143,
+      "cost": 6172,
+      "count": 1340,
+      "colors": 152,
+      "bounds": [
+        37,
+        0,
+        200,
+        116
+      ],
+      "coverage": [
+        0,
+        0,
+        0
+      ],
+      "RGB555_mask_sha256": "4450133cd00be205fa9b4f36c864badba80e88fe386b787d536f8babe21a8209",
+      "palette": 1164116,
+      "stream": 1164420
+    },
+    {
+      "id": 226,
+      "frame": 8,
+      "key": 14811144,
+      "cost": 6576,
+      "count": 1324,
+      "colors": 153,
+      "bounds": [
+        16,
+        0,
+        212,
+        99
+      ],
+      "coverage": [
+        0,
+        0,
+        0
+      ],
+      "RGB555_mask_sha256": "71069eb6cc8bc1f451fbba4d5b9b00906964c21279cff26fc11935b29d73e939",
+      "palette": 1110562,
+      "stream": 1135975
+    },
+    {
+      "id": 226,
+      "frame": 9,
+      "key": 14811145,
+      "cost": 6776,
+      "count": 1388,
+      "colors": 153,
+      "bounds": [
+        0,
+        8,
+        201,
+        107
+      ],
+      "coverage": [
+        0,
+        0,
+        0
+      ],
+      "RGB555_mask_sha256": "e845e8ff24808d309a0c9fdfca7a38214fa5c3f8bc9342913104ccc5163537a3",
+      "palette": 1110562,
+      "stream": 1110868
+    },
+    {
+      "id": 226,
+      "frame": 10,
+      "key": 14811146,
+      "cost": 6072,
+      "count": 1078,
+      "colors": 149,
+      "bounds": [
+        0,
+        18,
+        183,
+        111
+      ],
+      "coverage": [
+        0,
+        0,
+        0
+      ],
+      "RGB555_mask_sha256": "103800382dae98245e34bb82922c24ca7afb92f531326a815687c33bdc702a74",
+      "palette": 1177398,
+      "stream": 1177696
+    },
+    {
+      "id": 226,
+      "frame": 11,
+      "key": 14811147,
+      "cost": 5674,
+      "count": 1075,
+      "colors": 144,
+      "bounds": [
+        88,
+        0,
+        152,
+        99
+      ],
+      "coverage": [
+        0,
+        0,
+        0
+      ],
+      "RGB555_mask_sha256": "d3ec92f80a56acbf02586b7771d4eb41242b1ae3c73866fdd64beb9f18af6eaa",
+      "palette": 1215448,
+      "stream": 1215736
+    },
+    {
+      "id": 226,
+      "frame": 12,
+      "key": 14811148,
+      "cost": 6554,
+      "count": 1317,
+      "colors": 145,
+      "bounds": [
+        49,
+        0,
+        191,
+        128
+      ],
+      "coverage": [
+        0,
+        0,
+        0
+      ],
+      "RGB555_mask_sha256": "181e05dc3c3fcbc7e771526da0136f79f55af9cf25dd2853287a938d2f9a5f5b",
+      "palette": 1142570,
+      "stream": 1142860
+    },
+    {
+      "id": 226,
+      "frame": 13,
+      "key": 14811149,
+      "cost": 6534,
+      "count": 1293,
+      "colors": 145,
+      "bounds": [
+        59,
+        9,
+        181,
+        100
+      ],
+      "coverage": [
+        0,
+        0,
+        0
+      ],
+      "RGB555_mask_sha256": "2384fe29fc1aeaf3f95d6d00a96aa4ef94484a5c4ca86ccd51d8b69f5db4c147",
+      "palette": 1151832,
+      "stream": 1152122
+    },
+    {
+      "id": 226,
+      "frame": 14,
+      "key": 14811150,
+      "cost": 6758,
+      "count": 1339,
+      "colors": 147,
+      "bounds": [
+        38,
+        25,
+        202,
+        93
+      ],
+      "coverage": [
+        0,
+        0,
+        0
+      ],
+      "RGB555_mask_sha256": "d861ab696963577a2fc1212403aaec46a4acccb02dc4d37ca75707e29cbf2136",
+      "palette": 1098528,
+      "stream": 1117789
+    },
+    {
+      "id": 226,
+      "frame": 15,
+      "key": 14811151,
+      "cost": 6898,
+      "count": 1350,
+      "colors": 147,
+      "bounds": [
+        17,
+        41,
+        220,
+        86
+      ],
+      "coverage": [
+        0,
+        0,
+        0
+      ],
+      "RGB555_mask_sha256": "2e1f4a2fc46a42800f20028c727aeeab1e87687fd60d0cbad2ec01a686adeee0",
+      "palette": 1098528,
+      "stream": 1098822
+    },
+    {
+      "id": 226,
+      "frame": 16,
+      "key": 14811152,
+      "cost": 6708,
+      "count": 1342,
+      "colors": 147,
+      "bounds": [
+        0,
+        56,
+        229,
+        81
+      ],
+      "coverage": [
+        0,
+        0,
+        0
+      ],
+      "RGB555_mask_sha256": "58f3ea200979877c5a6313407ae16bc47ca3469dca5aaf8bd4e650c0a79202b5",
+      "palette": 1098528,
+      "stream": 1124480
+    },
+    {
+      "id": 226,
+      "frame": 17,
+      "key": 14811153,
+      "cost": 5910,
+      "count": 1096,
+      "colors": 147,
+      "bounds": [
+        0,
+        72,
+        221,
+        74
+      ],
+      "coverage": [
+        0,
+        0,
+        0
+      ],
+      "RGB555_mask_sha256": "add48b4e9b23f30ce0257b4b286817bb80b3e6a034177c1a8b0969e17a87abf9",
+      "palette": 1098528,
+      "stream": 1188470
+    }
+  ],
+  "cached_inputs": {
+    "screen_animation_assets.h": "d8769d73f8080e1097ddb434a8a9b25902d8a89ece9a13be54d5650b0943a01b",
+    "screen_animations.bin": "78e39a7a29f6808601fe08f736e10f4e70274dae98b0825deca852e48b12d2cb",
+    "screen_animation_blobs.s": "9de594a70caac3aa07e3e0b02591c3822d3499de319df8d21a977f768d8d424d"
+  }
+}

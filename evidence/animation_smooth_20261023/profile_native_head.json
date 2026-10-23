@@ -1,0 +1,668 @@
+{
+  "production_ROM_sha256": "2b2f2b64866a8fd2315b29426eb888d65a5b9ea30cac5f6c62d323ad83a8ca75",
+  "label": "native_head",
+  "scope": "Read-only PC and elapsed emulated CPU cycles over two 120-hardware-frame windows of full original animation 191, real MIDI and SFX, controlled battlers. PC bins have 16-byte precision.",
+  "samples": [
+    {
+      "phase": 0,
+      "trace": "PROFILE 70 8067948 030045d0:276336 030045e0:276336 03001140:214804 03001150:214804 030045f0:211884 03003f10:153600 03003f20:153600 03003f30:153600 03003f40:153600 03003f50:153600 03003f60:153600 03003f70:153600 03003f80:153600 03003f90:153600 03004550:152064 03004560:152064 03003f00:115204 03003500:113096 030034f0:112610 03005270:111234 03001130:109102 03002980:107066 03002990:80443 03004540:77616 030027f0:76800 03002820:76800 03002830:76800 030028d0:76800 030028e0:76800 030028f0:76800",
+      "functions": [
+        {
+          "function": "animation_indexed_underlay",
+          "instructions": 1536644,
+          "cycles": 3227462
+        },
+        {
+          "function": "animation_restore_indexed.constprop.0",
+          "instructions": 875724,
+          "cycles": 2087934
+        },
+        {
+          "function": "mix_voice_block",
+          "instructions": 910320,
+          "cycles": 1896720
+        },
+        {
+          "function": "lz4",
+          "instructions": 1155338,
+          "cycles": 1864525
+        },
+        {
+          "function": "segment",
+          "instructions": 1062561,
+          "cycles": 1861750
+        },
+        {
+          "function": "rgb_flip",
+          "instructions": 426848,
+          "cycles": 1155622
+        },
+        {
+          "function": "audio_service",
+          "instructions": 187651,
+          "cycles": 814596
+        },
+        {
+          "function": "audio_irq",
+          "instructions": 458504,
+          "cycles": 781976
+        },
+        {
+          "function": "animation_span.constprop.0",
+          "instructions": 387288,
+          "cycles": 762092
+        },
+        {
+          "function": "animation_restore_tiles",
+          "instructions": 132289,
+          "cycles": 746698
+        },
+        {
+          "function": "balanced_animation_indexed_frame",
+          "instructions": 35493,
+          "cycles": 572482
+        },
+        {
+          "function": "__divsi3",
+          "instructions": 90678,
+          "cycles": 405436
+        },
+        {
+          "function": "balanced_animation_target_flash",
+          "instructions": 126554,
+          "cycles": 362646
+        },
+        {
+          "function": "wait_frame",
+          "instructions": 54987,
+          "cycles": 306434
+        },
+        {
+          "function": "story_image",
+          "instructions": 43230,
+          "cycles": 302622
+        },
+        {
+          "function": "animation_indexed_tint",
+          "instructions": 94792,
+          "cycles": 269394
+        },
+        {
+          "function": "lcf_field",
+          "instructions": 85757,
+          "cycles": 215978
+        },
+        {
+          "function": "animation_indexed_add",
+          "instructions": 33286,
+          "cycles": 183010
+        },
+        {
+          "function": "__audio_service_from_thumb",
+          "instructions": 11043,
+          "cycles": 165675
+        },
+        {
+          "function": "lcf_next_entry",
+          "instructions": 28152,
+          "cycles": 151186
+        },
+        {
+          "function": "__balanced_animation_workspace_from_arm",
+          "instructions": 11043,
+          "cycles": 132532
+        },
+        {
+          "function": "tiled_span",
+          "instructions": 23049,
+          "cycles": 126487
+        },
+        {
+          "function": "animation_indexed_palette",
+          "instructions": 21131,
+          "cycles": 108386
+        },
+        {
+          "function": "field",
+          "instructions": 29955,
+          "cycles": 96338
+        },
+        {
+          "function": "unattributed",
+          "instructions": 16496,
+          "cycles": 94762
+        },
+        {
+          "function": "lcf_integer",
+          "instructions": 15988,
+          "cycles": 90228
+        },
+        {
+          "function": "____aeabi_dcmplt_from_thumb",
+          "instructions": 5811,
+          "cycles": 87191
+        },
+        {
+          "function": "val",
+          "instructions": 25940,
+          "cycles": 80226
+        },
+        {
+          "function": "animations_tick",
+          "instructions": 16575,
+          "cycles": 61146
+        },
+        {
+          "function": "selected_flash",
+          "instructions": 18331,
+          "cycles": 54344
+        },
+        {
+          "function": "memset",
+          "instructions": 21314,
+          "cycles": 54332
+        },
+        {
+          "function": "rgb_damage",
+          "instructions": 15420,
+          "cycles": 54298
+        },
+        {
+          "function": "audio_service_render",
+          "instructions": 6929,
+          "cycles": 43302
+        },
+        {
+          "function": "native_midi_render",
+          "instructions": 13626,
+          "cycles": 35054
+        },
+        {
+          "function": "__animation_indexed_add_from_thumb",
+          "instructions": 2312,
+          "cycles": 30062
+        },
+        {
+          "function": "__lcf_integer_from_thumb",
+          "instructions": 2284,
+          "cycles": 29700
+        },
+        {
+          "function": "____aeabi_uidiv_from_thumb",
+          "instructions": 9658,
+          "cycles": 29430
+        },
+        {
+          "function": "__balanced_animation_indexed_end_veneer",
+          "instructions": 9613,
+          "cycles": 28845
+        },
+        {
+          "function": "pictures_tick",
+          "instructions": 7542,
+          "cycles": 26900
+        },
+        {
+          "function": "balanced_animation_rectangles",
+          "instructions": 4843,
+          "cycles": 25566
+        },
+        {
+          "function": "lcf_array",
+          "instructions": 4254,
+          "cycles": 21541
+        },
+        {
+          "function": "____aeabi_idiv_from_thumb",
+          "instructions": 1196,
+          "cycles": 16746
+        },
+        {
+          "function": "decode_image_storage_span",
+          "instructions": 2838,
+          "cycles": 14590
+        },
+        {
+          "function": "__audio_init_from_thumb",
+          "instructions": 1196,
+          "cycles": 14352
+        },
+        {
+          "function": "__udivsi3",
+          "instructions": 3196,
+          "cycles": 14076
+        },
+        {
+          "function": "rgb_fill",
+          "instructions": 5298,
+          "cycles": 12836
+        },
+        {
+          "function": "render_stamp",
+          "instructions": 4416,
+          "cycles": 12598
+        },
+        {
+          "function": "prepare_portraits",
+          "instructions": 3315,
+          "cycles": 10705
+        },
+        {
+          "function": "upload_ui_objects",
+          "instructions": 261,
+          "cycles": 10237
+        },
+        {
+          "function": "image_unpack_block",
+          "instructions": 1280,
+          "cycles": 8644
+        },
+        {
+          "function": "____aeabi_fdiv_from_thumb",
+          "instructions": 612,
+          "cycles": 8570
+        },
+        {
+          "function": "fault",
+          "instructions": 3768,
+          "cycles": 7536
+        },
+        {
+          "function": "memcpy",
+          "instructions": 3372,
+          "cycles": 7374
+        },
+        {
+          "function": "____aeabi_f2iz_from_thumb",
+          "instructions": 612,
+          "cycles": 7346
+        },
+        {
+          "function": "battle_animation_position",
+          "instructions": 1824,
+          "cycles": 6146
+        },
+        {
+          "function": "__aeabi_uidivmod",
+          "instructions": 1231,
+          "cycles": 5004
+        },
+        {
+          "function": "animation_baked_indexed",
+          "instructions": 1163,
+          "cycles": 4866
+        },
+        {
+          "function": "animation_data",
+          "instructions": 1233,
+          "cycles": 4695
+        },
+        {
+          "function": "animation_baked_draw",
+          "instructions": 817,
+          "cycles": 3800
+        },
+        {
+          "function": "active",
+          "instructions": 1020,
+          "cycles": 3482
+        },
+        {
+          "function": "upload_object_palette",
+          "instructions": 685,
+          "cycles": 3209
+        },
+        {
+          "function": "lcf_number",
+          "instructions": 1007,
+          "cycles": 2915
+        },
+        {
+          "function": "bounds",
+          "instructions": 1009,
+          "cycles": 2870
+        },
+        {
+          "function": "engine_tick",
+          "instructions": 594,
+          "cycles": 2592
+        },
+        {
+          "function": "clamp",
+          "instructions": 667,
+          "cycles": 2474
+        },
+        {
+          "function": "parse_command_values",
+          "instructions": 612,
+          "cycles": 2448
+        },
+        {
+          "function": "animation_baked_mask",
+          "instructions": 574,
+          "cycles": 2396
+        },
+        {
+          "function": "balanced_animation_background_restore",
+          "instructions": 306,
+          "cycles": 2028
+        },
+        {
+          "function": "parallel_tick",
+          "instructions": 360,
+          "cycles": 1766
+        },
+        {
+          "function": "__decode_image_storage_span_from_thumb",
+          "instructions": 133,
+          "cycles": 1730
+        },
+        {
+          "function": "video_brightness",
+          "instructions": 324,
+          "cycles": 1350
+        },
+        {
+          "function": "image_decode_scratch",
+          "instructions": 320,
+          "cycles": 1282
+        },
+        {
+          "function": "__memcpy_veneer",
+          "instructions": 128,
+          "cycles": 1216
+        },
+        {
+          "function": "battle_animation_image",
+          "instructions": 240,
+          "cycles": 960
+        },
+        {
+          "function": "apply_brightness",
+          "instructions": 234,
+          "cycles": 954
+        },
+        {
+          "function": "movement_tick",
+          "instructions": 216,
+          "cycles": 918
+        },
+        {
+          "function": "presentation_tick",
+          "instructions": 180,
+          "cycles": 846
+        },
+        {
+          "function": "animation_battle",
+          "instructions": 162,
+          "cycles": 810
+        },
+        {
+          "function": "__audio_reset_from_thumb",
+          "instructions": 64,
+          "cycles": 768
+        },
+        {
+          "function": "__memset_veneer",
+          "instructions": 69,
+          "cycles": 713
+        },
+        {
+          "function": "world_screen",
+          "instructions": 142,
+          "cycles": 710
+        },
+        {
+          "function": "event_name_input",
+          "instructions": 132,
+          "cycles": 528
+        },
+        {
+          "function": "pictures_move",
+          "instructions": 90,
+          "cycles": 504
+        },
+        {
+          "function": "balanced_animation_mask",
+          "instructions": 109,
+          "cycles": 494
+        },
+        {
+          "function": "prepare_cursor",
+          "instructions": 130,
+          "cycles": 470
+        },
+        {
+          "function": "movement_start",
+          "instructions": 54,
+          "cycles": 432
+        },
+        {
+          "function": "flip",
+          "instructions": 80,
+          "cycles": 410
+        },
+        {
+          "function": "balanced_save_workspace",
+          "instructions": 37,
+          "cycles": 407
+        },
+        {
+          "function": "animation_indexed_targets",
+          "instructions": 112,
+          "cycles": 384
+        },
+        {
+          "function": "audio_command",
+          "instructions": 59,
+          "cycles": 372
+        },
+        {
+          "function": "video_ticks",
+          "instructions": 74,
+          "cycles": 370
+        },
+        {
+          "function": "log_num",
+          "instructions": 180,
+          "cycles": 360
+        },
+        {
+          "function": "start",
+          "instructions": 66,
+          "cycles": 359
+        },
+        {
+          "function": "entry",
+          "instructions": 130,
+          "cycles": 350
+        },
+        {
+          "function": "restore",
+          "instructions": 85,
+          "cycles": 330
+        },
+        {
+          "function": "timer_command",
+          "instructions": 54,
+          "cycles": 324
+        },
+        {
+          "function": "balanced_animation_indexed_end",
+          "instructions": 59,
+          "cycles": 250
+        },
+        {
+          "function": "battle_background_image",
+          "instructions": 42,
+          "cycles": 228
+        },
+        {
+          "function": "pictures_draw",
+          "instructions": 18,
+          "cycles": 198
+        },
+        {
+          "function": "__balanced_animation_indexed_frame_from_thumb",
+          "instructions": 14,
+          "cycles": 182
+        },
+        {
+          "function": "animation_start",
+          "instructions": 90,
+          "cycles": 180
+        },
+        {
+          "function": "alive_count",
+          "instructions": 18,
+          "cycles": 144
+        },
+        {
+          "function": "battle_render_stamp",
+          "instructions": 24,
+          "cycles": 144
+        },
+        {
+          "function": "__battle_render_stamp_from_arm",
+          "instructions": 12,
+          "cycles": 138
+        },
+        {
+          "function": "__val_veneer",
+          "instructions": 45,
+          "cycles": 135
+        },
+        {
+          "function": "draw_battle",
+          "instructions": 12,
+          "cycles": 132
+        },
+        {
+          "function": "__lcf_array_from_thumb",
+          "instructions": 10,
+          "cycles": 130
+        },
+        {
+          "function": "video_scene_palette",
+          "instructions": 25,
+          "cycles": 95
+        },
+        {
+          "function": "__balanced_animation_flash_from_thumb",
+          "instructions": 8,
+          "cycles": 92
+        },
+        {
+          "function": "__animation_indexed_palette_from_arm",
+          "instructions": 8,
+          "cycles": 92
+        },
+        {
+          "function": "source_menu_screen",
+          "instructions": 45,
+          "cycles": 90
+        },
+        {
+          "function": "__audio_effect_from_thumb",
+          "instructions": 6,
+          "cycles": 84
+        },
+        {
+          "function": "____aeabi_uldivmod_from_thumb",
+          "instructions": 6,
+          "cycles": 78
+        },
+        {
+          "function": "picture",
+          "instructions": 36,
+          "cycles": 72
+        },
+        {
+          "function": "____aeabi_dcmpeq_from_thumb",
+          "instructions": 6,
+          "cycles": 72
+        },
+        {
+          "function": "____aeabi_uidivmod_from_thumb",
+          "instructions": 5,
+          "cycles": 70
+        },
+        {
+          "function": "balanced_animation_scratch_reset",
+          "instructions": 17,
+          "cycles": 69
+        },
+        {
+          "function": "__prepare_portraits_veneer",
+          "instructions": 15,
+          "cycles": 65
+        },
+        {
+          "function": "__prepare_cursor_veneer",
+          "instructions": 15,
+          "cycles": 65
+        },
+        {
+          "function": "____aeabi_ldivmod_from_thumb",
+          "instructions": 5,
+          "cycles": 60
+        },
+        {
+          "function": "__upload_ui_objects_veneer",
+          "instructions": 10,
+          "cycles": 50
+        },
+        {
+          "function": "ui_pack",
+          "instructions": 4,
+          "cycles": 44
+        },
+        {
+          "function": "lcf_index",
+          "instructions": 10,
+          "cycles": 40
+        },
+        {
+          "function": "skill_rank_target",
+          "instructions": 18,
+          "cycles": 36
+        },
+        {
+          "function": "parallel_active",
+          "instructions": 18,
+          "cycles": 36
+        },
+        {
+          "function": "balanced_animation_workspace",
+          "instructions": 4,
+          "cycles": 23
+        },
+        {
+          "function": "video_map_present",
+          "instructions": 10,
+          "cycles": 20
+        },
+        {
+          "function": "__memset_from_arm",
+          "instructions": 5,
+          "cycles": 15
+        },
+        {
+          "function": "format",
+          "instructions": 3,
+          "cycles": 12
+        },
+        {
+          "function": "____aeabi_ddiv_from_thumb",
+          "instructions": 1,
+          "cycles": 12
+        },
+        {
+          "function": "upload_background_palette",
+          "instructions": 5,
+          "cycles": 10
+        }
+      ]
+    }
+  ]
+}

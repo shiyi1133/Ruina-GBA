@@ -1,22 +1,34 @@
 /* Bitmap/UI surface only. Native maps keep their indexed BG/OBJ cache. */
 #include "title_rgb555.h"
 static u8 rgb_left[160],rgb_right[160];
-static u8 rgb_second_row[1024],rgb_xweight[240];
-static u16 rgb_x0[240],rgb_toned[256];
+#define rgb_secondary animation_fast_memory.draw.secondary
+#define rgb_second_row rgb_secondary.bytes
+static u8 rgb_xweight[240];
+#define rgb_x0 animation_fast_memory.draw.x0
+#define rgb_toned animation_fast_memory.draw.toned
 static const u16*rgb_old_colors;
 static u8 rgb_old_tone[4];
 static int animation_blend_alpha=-1;
+static unsigned animation_palette_alpha,animation_palette_color,animation_palette_power;
+static int animation_cached_target=-1;
+static unsigned rgb_bulk_fill;
+static u32 animation_opaque_tiles[3];
+void balanced_animation_mask(const u32*mask){unsigned i;for(i=0;i<3;i++)animation_opaque_tiles[i]=mask?mask[i]:0;}
+static u8*animation_target_pixels;
+void balanced_animation_scratch_reset(void){animation_cached_target=-1;}
+void balanced_animation_palette_flash(int r,int g,int b,int power){animation_palette_color=clamp(r,0,31)|(clamp(g,0,31)<<5)|(clamp(b,0,31)<<10);animation_palette_power=clamp(power,0,31);animation_palette_alpha=animation_palette_power*256/31;rgb_old_colors=0;}
+void balanced_animation_palette_reset(void){animation_palette_alpha=0;rgb_old_colors=0;}
 volatile u32 balanced_rgb_metrics[8];/* flips, copied pixels, late chunks,
  * palette builds, native blits, scaled blits, source rows, native faces */
 volatile u32 balanced_faces[13];
 
 static void rgb_damage(int x,int y,int w,int h){int row;for(row=y;row<y+h;row++){if(!rgb_right[row]){rgb_left[row]=x;rgb_right[row]=x+w;}else{if(x<rgb_left[row])rgb_left[row]=x;if(x+w>rgb_right[row])rgb_right[row]=x+w;}}}
 static void rgb_pixel(int x,int y,u16 color){if(x>=clip_left&&x<clip_right&&y>=clip_top&&y<clip_bottom){u16*dst=framebuffer+y*240+x;if(*dst!=color){*dst=color;rgb_damage(x,y,1,1);}}}
-static void __attribute__((section(".iwram"),long_call,noinline)) rgb_fill(int left,int top,int right,int bottom,u16 color){
-    int y;if(left>=right||top>=bottom)return;rgb_damage(left,top,right-left,bottom-top);
+static void __attribute__((target("arm"),optimize("O3"),section(".iwram"),long_call,noinline)) rgb_fill(int left,int top,int right,int bottom,u16 color){
+    int y;unsigned bulk=rgb_bulk_fill;if(left>=right||top>=bottom)return;if(!bulk)rgb_damage(left,top,right-left,bottom-top);
     u32 packed=color|((u32)color<<16);
     for(y=top;y<bottom;y++){
-        u16*dst=framebuffer+y*240+left;unsigned n=right-left;if(!(y&3))audio_service();
+        u16*dst=framebuffer+y*240+left;unsigned n=right-left;if(!bulk&&!(y&3))audio_service();
         if((unsigned)dst&2){*dst++=color;n--;}
         u32*words=(u32*)dst;
         while(n>=8){words[0]=packed;words[1]=packed;words[2]=packed;words[3]=packed;words+=4;n-=8;}
@@ -122,11 +134,31 @@ static void __attribute__((target("arm"),optimize("O3"),section(".iwram"),long_c
         dst[i]=rgb_second_row[((color&31)<<5)|(old&31)]|(rgb_second_row[(color&0x3e0)|((old>>5)&31)]<<5)|(rgb_second_row[((color>>5)&0x3e0)|((old>>10)&31)]<<10);
     }}
 }
+/* Enlarged opaque pixels form long constant-color runs. Fill those runs with
+ * aligned word stores instead of looking up the same source texel again for
+ * every destination pixel. Zero remains transparent, including black art. */
+static void __attribute__((target("arm"),optimize("O3"),noinline)) animation_opaque_runs(u16*dst,const u8*src,const u16*ends,const u16*colors,int count){
+ int i=0,at=0;
+ while(i<count){unsigned index=src[i];int end=i+1,n;u16*out;
+  while(end<count&&src[end]==index)end++;
+  n=ends[end-1]-at;out=dst+at;at=ends[end-1];i=end;if(!index||!n)continue;
+  {u16 color=colors[index];u32 word=color|((u32)color<<16);
+   if((unsigned long)out&2){*out++=color;n--;}
+   while(n>=4){*(u32*)out=word;*(u32*)(out+2)=word;out+=4;n-=4;}
+   if(n>=2){*(u32*)out=word;out+=2;n-=2;}if(n)*out=color;
+  }
+ }
+}
+static void __attribute__((target("arm"),optimize("O3"),section(".iwram"),long_call,noinline)) animation_restore_indexed(u16*dst,const u8*src,const u16*colors,unsigned n){
+ if((unsigned long)dst&2){*dst++=colors[*src++];n--;}
+ while(n>=2){*(u32*)dst=colors[src[0]]|((u32)colors[src[1]]<<16);dst+=2;src+=2;n-=2;}
+ if(n)*dst=colors[*src];
+}
 /* Pixel-art effects use one original source sample per GBA pixel. Unlike
  * illustrations they do not need four-sample filtering on every frame. */
 void balanced_animation_cell(const Image*im,int x,int y,int w,int h,int opacity,const u8*tone){
     int left=clamp(x,clip_left,clip_right),right=clamp(x+w,clip_left,clip_right),top=clamp(y,clip_top,clip_bottom),bottom=clamp(y+h,clip_top,clip_bottom),xx,yy,first,last,old_y=-1;
-    const u16*colors;unsigned alpha,sx,xrem,xstep,xsub,sy,yrem,ystep,ysub,numerator;
+    const u16*colors;unsigned alpha,sx,xrem,xstep,xsub,sy,yrem,ystep,ysub,numerator;int runs;
     if(!bitmap_direct||w<=0||h<=0||opacity>=100||left>=right||top>=bottom)return;
     colors=rgb_colors(im,tone);
     if(colors!=rgb_toned){unsigned k,count=im->color_count?im->color_count:256;
@@ -134,14 +166,17 @@ void balanced_animation_cell(const Image*im,int x,int y,int w,int h,int opacity,
             memcpy(rgb_toned,colors,count*2);rgb_old_colors=colors;for(k=0;k<4;k++)rgb_old_tone[k]=100;
         }colors=rgb_toned;
     }
+    if(animation_palette_alpha){unsigned k,count=im->color_count?im->color_count:256;for(k=0;k<count;k++)rgb_toned[k]=rgb_mix(animation_palette_color,colors[k],animation_palette_alpha);colors=rgb_toned;rgb_old_colors=0;}
     alpha=(100-clamp(opacity,0,100))*256/100;if(alpha!=128&&alpha!=256)animation_blend_table(alpha);
     numerator=(left-x)*im->width;sx=numerator/w;xrem=numerator%w;xstep=im->width/w;xsub=im->width%w;
     for(xx=left;xx<right;xx++){rgb_x0[xx-left]=sx;sx+=xstep;xrem+=xsub;if(xrem>=(unsigned)w){xrem-=w;sx++;}}
     first=rgb_x0[0];last=rgb_x0[right-left-1];for(xx=0;xx<right-left;xx++)rgb_x0[xx]-=first;rgb_damage(left,top,right-left,bottom-top);
+    runs=alpha==256&&w>=im->width&&last-first<512;
+    if(runs){animation_blend_alpha=-1;for(xx=first;xx<=last;xx++)rgb_secondary.ends[xx-first]=clamp(((xx+1)*w+im->width-1)/im->width+x-left,0,right-left);}
     numerator=(top-y)*im->height;sy=numerator/h;yrem=numerator%h;ystep=im->height/h;ysub=im->height%h;
     for(yy=top;yy<bottom;yy++){u16*dst=framebuffer+yy*240+left;audio_service();
-        if(sy!=old_y){if(!decode_image_storage_span(im,sy,first,last-first+1,image_line,sizeof(image_line)))return;old_y=sy;}
-        animation_span(dst,image_line,rgb_x0,colors,right-left,alpha);sy+=ystep;yrem+=ysub;if(yrem>=(unsigned)h){yrem-=h;sy++;}
+        if((int)sy!=old_y){if(!decode_image_storage_span(im,sy,first,last-first+1,image_line,sizeof(image_line)))return;old_y=sy;}
+        if(runs)animation_opaque_runs(dst,image_line,rgb_secondary.ends,colors,last-first+1);else animation_span(dst,image_line,rgb_x0,colors,right-left,alpha);sy+=ystep;yrem+=ysub;if(yrem>=(unsigned)h){yrem-=h;sy++;}
     }
 }
 /* Constant source flashes need only the two destination multiplications.
@@ -155,16 +190,65 @@ void __attribute__((target("arm"),optimize("O3"))) balanced_animation_flash(int 
     int yy,left=clamp(x,0,240),right=clamp(x+w,0,240),top=clamp(y,0,160),bottom=clamp(y+h,0,160);
     u16 color=clamp(r,0,31)|(clamp(g,0,31)<<5)|(clamp(b,0,31)<<10);unsigned alpha=clamp(power,0,31)*256/31;
     if(!bitmap_direct||!alpha||left>=right||top>=bottom)return;rgb_damage(left,top,right-left,bottom-top);
+    if(alpha==256){rgb_fill(left,top,right,bottom,color);return;}
     {unsigned rb=((color&31)|((color&0x7c00)<<6))*alpha+0x00800080U,g=((color>>5)&31)*alpha+128,inv=256-alpha;
      for(yy=top;yy<bottom;yy++){if(!(yy&3))audio_service();animation_flash_span(framebuffer+yy*240+left,right-left,rb,g,inv);}
     }
 }
 void balanced_animation_target_flash(int id,int x,int y,int w,int h,int r,int g,int b,int power){
-    if(id<0){balanced_animation_flash(x,y,w,h,r,g,b,power);return;}
+    {unsigned row,col,covered=1;int left=clamp(x,0,240),right=clamp(x+w,0,240),top=clamp(y,0,160),bottom=clamp(y+h,0,160);
+     if(left<right&&top<bottom){for(row=top/16;row<=(unsigned)(bottom-1)/16&&covered;row++)for(col=left/32;col<=(unsigned)(right-1)/32;col++){unsigned key=row*8+col;if(!(animation_opaque_tiles[key>>5]&(1U<<(key&31)))){covered=0;break;}}if(covered)return;}
+    }
+    if(id<0){
+        if(animation_palette_alpha){unsigned color=animation_palette_color,alpha=animation_palette_alpha,screen_power=animation_palette_power;
+            animation_palette_alpha=0;
+            if(!balanced_animation_background_restore(x,y,w,h)){video_clip(x,y,w,h);draw_battle();video_clip(0,0,240,160);}
+            balanced_animation_flash(x,y,w,h,r,g,b,power);
+            balanced_animation_flash(x,y,w,h,color&31,(color>>5)&31,color>>10,screen_power);
+            animation_palette_color=color;animation_palette_alpha=alpha;animation_palette_power=screen_power;
+        }else balanced_animation_flash(x,y,w,h,r,g,b,power);
+        return;
+    }
     {Image im=images[id];unsigned i,alpha=clamp(power,0,31)*256/31;u16 color=clamp(r,0,31)|(clamp(g,0,31)<<5)|(clamp(b,0,31)<<10);
-     for(i=0;i<im.color_count;i++)rgb_toned[i]=rgb_mix(color,im.colors[i],alpha);
+     for(i=0;i<im.color_count;i++){u16 c=rgb_mix(color,im.colors[i],alpha);rgb_toned[i]=animation_palette_alpha?rgb_mix(animation_palette_color,c,animation_palette_alpha):c;}
+     if(w==im.width&&h==im.height&&(!im.stored_width||im.stored_width==im.width)&&(!im.stored_height||im.stored_height==im.height)&&(unsigned)w*h<=8192){
+        int row,left=clamp(x,clip_left,clip_right),right=clamp(x+w,clip_left,clip_right),top=clamp(y,clip_top,clip_bottom),bottom=clamp(y+h,clip_top,clip_bottom);rgb_old_colors=0;
+        if(left>=right||top>=bottom)return;
+        if(animation_cached_target!=id){animation_target_pixels=balanced_animation_workspace();
+            for(row=0;row<h;row++){audio_service();if(!decode_image_storage_span(&im,row,0,w,animation_target_pixels+row*w,8192-row*w))return;}
+            animation_cached_target=id;
+        }
+        for(i=0;i<(unsigned)(right-left);i++)rgb_x0[i]=i;
+        for(row=top;row<bottom;row++){if(!(row&3))audio_service();animation_span(framebuffer+row*240+left,animation_target_pixels+(row-y)*w+left-x,rgb_x0,rgb_toned,right-left,256);}
+        rgb_damage(left,top,right-left,bottom-top);framebuffer_revision++;return;
+     }
      im.colors=rgb_toned;rgb_old_colors=0;rgb_image(&im,-1,x,y,0,0,im.width,im.height,w,h,1,0,0);rgb_old_colors=0;
     }
+}
+void __attribute__((target("arm"),optimize("O3"))) balanced_animation_rectangles(const u8*rectangles,unsigned count,const u16*colors,unsigned color_count,const u8*bounds){
+ unsigned i;int full=!clip_left&&!clip_top&&clip_right==240&&clip_bottom==160;if(!bitmap_direct)return;rgb_old_colors=0;
+ for(i=0;i<color_count;i++)rgb_toned[i]=animation_palette_alpha?rgb_mix(animation_palette_color,colors[i],animation_palette_alpha):colors[i];
+ if(count&32768){
+  unsigned y=bounds[1],width=bounds[2],left=clamp(bounds[0],clip_left,clip_right),right=clamp(bounds[0]+width,clip_left,clip_right);count&=32767;
+  while(count){unsigned bytes=rectangles[0]|rectangles[1]<<8,n=rectangles[2]|rectangles[3]<<8,raw=rectangles[4]|rectangles[5]<<8,row;const u8*data=image_line;
+   if(!n||n>count||raw>sizeof(image_line)||image_unpack_block(rectangles+6,bytes,image_line,sizeof(image_line))!=(int)raw){fault(9034);return;}
+   for(row=0;row<n;row++,y++){unsigned spans=*data++;audio_service();while(spans--){unsigned x=bounds[0]+data[0],length=data[1];data+=2;
+    if(y>=(unsigned)clip_top&&y<(unsigned)clip_bottom){int l=clamp(x,left,right),r=clamp(x+length,left,right);if(l<r)animation_restore_indexed(framebuffer+y*240+l,data+l-x,rgb_toned,r-l);}data+=length;
+   }}
+   if(data!=image_line+raw){fault(9034);return;}count-=n;rectangles+=6+bytes;
+  }
+  {int top=clamp(bounds[1],clip_top,clip_bottom),bottom=clamp(bounds[1]+bounds[3],clip_top,clip_bottom);if(left<right&&top<bottom)rgb_damage(left,top,right-left,bottom-top);}
+  framebuffer_revision++;return;
+ }
+ rgb_bulk_fill=1;
+ while(count){unsigned bytes=rectangles[0]|rectangles[1]<<8,n=rectangles[2]|rectangles[3]<<8;const u8*data=image_line;
+  if(!n||n>200||n>count||image_unpack_block(rectangles+4,bytes,image_line,sizeof(image_line))!=(int)(n*5)){rgb_bulk_fill=0;fault(9034);return;}
+  for(i=0;i<n;i++,data+=5){int x=data[0],y=data[1];if(!(i&31))audio_service();if(full)rgb_fill(x,y,x+data[2],y+data[3],rgb_toned[data[4]]);else rgb_fill(clamp(x,clip_left,clip_right),clamp(y,clip_top,clip_bottom),clamp(x+data[2],clip_left,clip_right),clamp(y+data[3],clip_top,clip_bottom),rgb_toned[data[4]]);}
+  count-=n;rectangles+=4+bytes;
+ }
+ rgb_bulk_fill=0;
+ {int left=clamp(bounds[0],clip_left,clip_right),right=clamp(bounds[0]+bounds[2],clip_left,clip_right),top=clamp(bounds[1],clip_top,clip_bottom),bottom=clamp(bounds[1]+bounds[3],clip_top,clip_bottom);if(left<right&&top<bottom)rgb_damage(left,top,right-left,bottom-top);}
+ framebuffer_revision++;
 }
 static void rgb_portrait(int id,int x,int y){const u32*h=(const u32*)original_portraits_start;const PortraitRecord*r=(const PortraitRecord*)(original_portraits_start+h[2]);unsigned i,n=balanced_faces[0];int xx,yy;
     if(h[0]!=0x43414652)return;for(i=0;i<h[1];i++)if(r[i].image==id){const u16*colors=(const u16*)(original_portraits_start+h[3])+r[i].sheet*256;const u8*data=image_portrait_pixels(original_portraits_start+h[4]+r[i].tiles);if(!data)return;
@@ -177,14 +261,20 @@ static void rgb_portrait(int id,int x,int y){const u32*h=(const u32*)original_po
  * battle patch fits there without touching the cursor tile at 0x17f00.
  * Maps/portraits own this region again after leaving battle; the dialog
  * owner invalidates this cache whenever another scene is drawn. */
+static int battle_patch_tiled;
 int balanced_battle_cache_store(void){
-    int y;animation_background_valid=0;if(!bitmap_direct)return 0;
+    int y;battle_patch_tiled=0;if(!bitmap_direct)return 0;
+    /* The animation art pool also contains this complete modal underlay.
+     * Share its ownership rather than overwriting it with a second cache. */
+    if(animation_background_valid&&animation_background_tiled&&animation_background_epoch==balanced_surface_epoch&&animation_art_stamp==battle_art_stamp()){animation_cache_reuse_debug[3]++;battle_patch_tiled=1;return 1;}
+    animation_background_valid=0;
     for(y=24;y<96;y++){if(!(y&3))audio_service();memcpy((void*)(0x06012c00+(y-24)*288),framebuffer+y*240+96,288);}
     cached_portrait_sheet=-1;for(y=0;y<7;y++)cached_portraits[y]=-1;
     return 1;
 }
 void balanced_battle_cache_restore(int x,int y,int width,int height){
     int row;ui_ready=0;framebuffer_revision++;rgb_damage(x,y,width,height);
+    if(battle_patch_tiled){animation_codec_load(2);if(!animation_restore_tiles(x,y,width,height)){animation_background_valid=0;video_clip(x,y,width,height);draw_battle();}return;}
     for(row=y;row<y+height;row++){if(!(row&3))audio_service();memcpy(framebuffer+row*240+x,(const void*)(0x06012c00+(row-24)*288+(x-96)*2),width*2);}
 }
 static void rgb_trim_to_vram(void){

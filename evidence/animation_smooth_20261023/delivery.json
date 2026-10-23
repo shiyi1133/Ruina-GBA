@@ -1,0 +1,19 @@
+{
+  "status": "delivered",
+  "version": "0.7.4",
+  "ROM": "/mnt/c/Users/APP/Downloads/废都物语_GBA_v0.7.4_动画播放优化版_20261023/废都物语_GBA_v0.7.4_普通版.gba",
+  "ROM_sha256": "95ebdb37f840dc243eddaeb0468d2e8576f8d3380c564b1d72917907ae762ebd",
+  "acceptance_ROM": "/mnt/c/Users/APP/Downloads/废都物语_GBA_v0.7.4_动画播放优化版_20261023/废都物语_GBA_v0.7.4_验收增强版.gba",
+  "acceptance_ROM_sha256": "649b38f2ce68f1234cef8f865119787d186752a7ee49070a2282b01860aa5f7a",
+  "SOURCE_ZIP": "/mnt/c/Users/APP/Downloads/废都物语_GBA_匹配工程_v0.7.4_20261023.zip",
+  "source_ZIP_sha256": "8f0e8930a02b413297c7ec6beddb50f6baac151f3b15611e6a122e54fca81720",
+  "DEMO_ZIP": "/mnt/c/Users/APP/Downloads/废都物语_GBA_v0.7.4_动画播放优化版_20261023.zip",
+  "demo_ZIP_sha256": "2f9dbe4f2f0e46d5bd1fa102f000fa55c3abbe62120ac86f782d58751fab05ed",
+  "COMBINED_ZIP": "/mnt/c/Users/APP/Downloads/废都物语_GBA_v0.7.4_工程与试玩ROM_20261023.zip",
+  "combined_ZIP_sha256": "018c6214cf38dff1a4b70e417e2ffb7e2b2f6618f967a7287abb19723dd2a880",
+  "source_ZIP_rebuild_byte_identical": true,
+  "project": "/tmp/ruina-animation-v074-7th24bib/废都物语_GBA_匹配工程_v0.7.4_20261023",
+  "fresh_ZIP_project": "/tmp/ruina-v074-zip-proof-k1r57aka/废都物语_GBA_匹配工程_v0.7.4_20261023",
+  "physical_hardware": "not_run",
+  "full_campaign": "not_run"
+}

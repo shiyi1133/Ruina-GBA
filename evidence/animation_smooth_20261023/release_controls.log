@@ -1,0 +1,48 @@
+open_controls_help 8 133.94 ms; black 0
+help_next_page_R 8 133.94 ms; black 0
+help_next_page_right 8 133.94 ms; black 0
+help_next_page_R 8 133.94 ms; black 0
+help_next_page_right 8 133.94 ms; black 0
+help_next_page_R 8 133.94 ms; black 0
+help_previous_page_L 8 133.94 ms; black 0
+help_next_page_right 8 133.94 ms; black 0
+help_previous_page_left 8 133.94 ms; black 0
+help_B_returns_to_same_menu_entry 6 100.46 ms; black 0
+menu_B_returns_to_map 2 33.49 ms; black 0
+open_controls_help 8 133.94 ms; black 0
+help_next_page_R 8 133.94 ms; black 0
+help_next_page_right 8 133.94 ms; black 0
+help_next_page_R 8 133.94 ms; black 0
+help_next_page_right 8 133.94 ms; black 0
+help_next_page_R 8 133.94 ms; black 0
+help_previous_page_L 8 133.94 ms; black 0
+help_next_page_right 8 133.94 ms; black 0
+help_previous_page_left 8 133.94 ms; black 0
+help_B_returns_to_same_menu_entry 6 100.46 ms; black 0
+menu_B_returns_to_map 3 50.23 ms; black 0
+{
+  "status": "pass",
+  "rom_sha256": "95ebdb37f840dc243eddaeb0468d2e8576f8d3380c564b1d72917907ae762ebd",
+  "checks": [
+    {
+      "check": "B menu -> 5 help pages -> B same menu -> B map, no persistent changes, clock pause restored, START alias works",
+      "fixture": "new game",
+      "pass": true
+    },
+    {
+      "check": "B menu -> 5 help pages -> B same menu -> B map, no persistent changes, clock pause restored, START alias works",
+      "fixture": "before_dead_knight.sav",
+      "pass": true
+    },
+    {
+      "check": "all 35 explanation lines are unclipped and match cached glyph pixels on the real LCD",
+      "pass": true
+    }
+  ],
+  "page_count": 5,
+  "idle_frames_checked": 1200,
+  "memory": "read only",
+  "emulator_states": false,
+  "hardware": "not_run",
+  "full_campaign": "not_run"
+}

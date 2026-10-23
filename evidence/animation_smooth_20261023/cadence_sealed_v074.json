@@ -1,0 +1,199 @@
+{
+  "status": "pass",
+  "label": "sealed_v074",
+  "production_ROM_sha256": "5508bfb6f9b692fdbe192ab7a0d7f27d34f35d44e05d4bbca2cf2e159d562e75",
+  "fixture_ROM_sha256": "b5c2b728dae10dcbf3868481b7bf17471436b0d271a0f3fdebeda02cfa3348fc",
+  "source_frames_observed": 19,
+  "source_frame_sequence": [
+    0,
+    1,
+    3,
+    6,
+    10,
+    13,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    22,
+    23,
+    27,
+    32,
+    36,
+    38,
+    39
+  ],
+  "seconds_including_preparation": 2.3607215881347656,
+  "preparation_hardware_frames": 41,
+  "mean_hardware_frames_between_presentations": 4.5,
+  "max_hardware_frames_between_presentations": 9,
+  "animation_cache": [
+    1,
+    1,
+    17924,
+    0,
+    10,
+    0,
+    9391,
+    0
+  ],
+  "samples": [
+    {
+      "source_frame": 0,
+      "hardware_frame": 101,
+      "draw_ticks": 752,
+      "restore_ticks": 32,
+      "cells_ticks": 32,
+      "LCD": "LCD c45846f642a57383 0"
+    },
+    {
+      "source_frame": 1,
+      "hardware_frame": 106,
+      "draw_ticks": 1163,
+      "restore_ticks": 32,
+      "cells_ticks": 32,
+      "LCD": "LCD c45846f642a57383 0"
+    },
+    {
+      "source_frame": 3,
+      "hardware_frame": 112,
+      "draw_ticks": 1848,
+      "restore_ticks": 1401,
+      "cells_ticks": 1449,
+      "LCD": "LCD 0553134b88c3b7f5 0"
+    },
+    {
+      "source_frame": 6,
+      "hardware_frame": 119,
+      "draw_ticks": 1915,
+      "restore_ticks": 1376,
+      "cells_ticks": 1429,
+      "LCD": "LCD 67c6b63e6a5839aa 0"
+    },
+    {
+      "source_frame": 10,
+      "hardware_frame": 126,
+      "draw_ticks": 1767,
+      "restore_ticks": 680,
+      "cells_ticks": 1304,
+      "LCD": "LCD 834e053bd7e7ffb6 0"
+    },
+    {
+      "source_frame": 13,
+      "hardware_frame": 129,
+      "draw_ticks": 813,
+      "restore_ticks": 48,
+      "cells_ticks": 81,
+      "LCD": "LCD 280c329182c1d9fc 0"
+    },
+    {
+      "source_frame": 15,
+      "hardware_frame": 130,
+      "draw_ticks": 222,
+      "restore_ticks": 48,
+      "cells_ticks": 81,
+      "LCD": "LCD 280c329182c1d9fc 0"
+    },
+    {
+      "source_frame": 16,
+      "hardware_frame": 132,
+      "draw_ticks": 275,
+      "restore_ticks": 47,
+      "cells_ticks": 80,
+      "LCD": "LCD 280c329182c1d9fc 0"
+    },
+    {
+      "source_frame": 17,
+      "hardware_frame": 134,
+      "draw_ticks": 278,
+      "restore_ticks": 48,
+      "cells_ticks": 81,
+      "LCD": "LCD 280c329182c1d9fc 0"
+    },
+    {
+      "source_frame": 18,
+      "hardware_frame": 136,
+      "draw_ticks": 273,
+      "restore_ticks": 47,
+      "cells_ticks": 81,
+      "LCD": "LCD 280c329182c1d9fc 0"
+    },
+    {
+      "source_frame": 19,
+      "hardware_frame": 139,
+      "draw_ticks": 769,
+      "restore_ticks": 33,
+      "cells_ticks": 34,
+      "LCD": "LCD 7ba423b851054383 0"
+    },
+    {
+      "source_frame": 20,
+      "hardware_frame": 144,
+      "draw_ticks": 1149,
+      "restore_ticks": 74,
+      "cells_ticks": 74,
+      "LCD": "LCD 7ba423b851054383 0"
+    },
+    {
+      "source_frame": 22,
+      "hardware_frame": 146,
+      "draw_ticks": 780,
+      "restore_ticks": 74,
+      "cells_ticks": 74,
+      "LCD": "LCD c45846f642a57383 0"
+    },
+    {
+      "source_frame": 23,
+      "hardware_frame": 154,
+      "draw_ticks": 2193,
+      "restore_ticks": 1538,
+      "cells_ticks": 1821,
+      "LCD": "LCD 07c09c00a5175f7a 0"
+    },
+    {
+      "source_frame": 27,
+      "hardware_frame": 163,
+      "draw_ticks": 2465,
+      "restore_ticks": 1276,
+      "cells_ticks": 1966,
+      "LCD": "LCD 0856c202747d7411 0"
+    },
+    {
+      "source_frame": 32,
+      "hardware_frame": 171,
+      "draw_ticks": 2142,
+      "restore_ticks": 601,
+      "cells_ticks": 1722,
+      "LCD": "LCD 8f45408241c8eeca 0"
+    },
+    {
+      "source_frame": 36,
+      "hardware_frame": 176,
+      "draw_ticks": 1415,
+      "restore_ticks": 201,
+      "cells_ticks": 966,
+      "LCD": "LCD b8529c4f35f11382 0"
+    },
+    {
+      "source_frame": 38,
+      "hardware_frame": 179,
+      "draw_ticks": 816,
+      "restore_ticks": 64,
+      "cells_ticks": 65,
+      "LCD": "LCD 7ba423b851054383 0"
+    },
+    {
+      "source_frame": 39,
+      "hardware_frame": 182,
+      "draw_ticks": 820,
+      "restore_ticks": 126,
+      "cells_ticks": 483,
+      "LCD": "LCD 13bd5f1d2d3d645f 0"
+    }
+  ],
+  "scope": "Original animation 191, controlled battlers and MIDI 1. Completed presentations observed through a read-only seqlock and actual hardware clock. Whole time includes preparation. Original-time mode intentionally omits late transition frames; complete-frames mode preserves all 40. No running RAM writes or emulator speed changes.",
+  "physical_hardware": "not_run",
+  "mode": "original_time"
+}

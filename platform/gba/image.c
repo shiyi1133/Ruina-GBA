@@ -6,8 +6,51 @@ static const u8*tile_keys[64];
 static int tile_mode;
 void *image_decode_scratch(void){tile_mode=0;last_pixels=0;last_block=-1;return block_pixels;}
 static u8 stored_row[1024];
-static int lz4(const u8*in,unsigned size,u8*out,unsigned capacity){unsigned at=0,x=0;while(at<size){unsigned token=in[at++],n=token>>4,m=(token&15)+4,i,off;if(n==15){unsigned v;do{if(at>=size)return 0;v=in[at++];n+=v;}while(v==255);}if(n>size-at||n>capacity-x)return 0;for(i=0;i<n;i++)out[x++]=in[at++];if(at==size)return x;if(at+2>size)return 0;off=in[at]|in[at+1]<<8;at+=2;if(!off||off>x)return 0;if((token&15)==15){unsigned v;do{if(at>=size)return 0;v=in[at++];m+=v;}while(v==255);}if(m>capacity-x)return 0;for(i=0;i<m;i++){out[x]=out[x-off];x++;}}return x;}
+#if defined(__arm__) || defined(__thumb__)
+#define IMAGE_FAST __attribute__((section(".iwram"),long_call,noinline))
+#else
+#define IMAGE_FAST
+#endif
+static int IMAGE_FAST lz4(const u8*in,unsigned size,u8*out,unsigned capacity){
+ unsigned at=0,x=0;
+ while(at<size){
+  unsigned token=in[at++],n=token>>4,m=(token&15)+4,i,off;
+  if(n==15){unsigned v;do{if(at>=size)return 0;v=in[at++];n+=v;}while(v==255);}
+  if(n>size-at||n>capacity-x)return 0;
+  for(i=0;i<n;i++)out[x++]=in[at++];
+  if(at==size)return x;
+  if(at+2>size)return 0;
+  off=in[at]|in[at+1]<<8;at+=2;if(!off||off>x)return 0;
+  if((token&15)==15){unsigned v;do{if(at>=size)return 0;v=in[at++];m+=v;}while(v==255);}
+  if(m>capacity-x)return 0;
+  /* Repeated bytes/pixels are common in clean battle underlays. Word
+   * stores avoid four separate EWRAM byte writes and preserve overlap. */
+  if(off<=2){
+   while(m&&((unsigned long)(out+x)&3)){out[x]=out[x-off];x++;m--;}
+   if(m>=4){unsigned value=out[x-off];value|=(off==1?value:out[x-off+1])<<8;value|=value<<16;
+    while(m>=8){*(u32*)(out+x)=value;*(u32*)(out+x+4)=value;x+=8;m-=8;}
+    if(m>=4){*(u32*)(out+x)=value;x+=4;m-=4;}
+   }
+  }else if(!(off&1)){
+   if(m&&((unsigned long)(out+x)&1)){out[x]=out[x-off];x++;m--;}
+   if(!(off&3)){
+    if(m>=2&&((unsigned long)(out+x)&2)){*(u16*)(out+x)=*(u16*)(out+x-off);x+=2;m-=2;}
+    while(m>=4){*(u32*)(out+x)=*(u32*)(out+x-off);x+=4;m-=4;}
+   }
+   while(m>=2){*(u16*)(out+x)=*(u16*)(out+x-off);x+=2;m-=2;}
+  }
+  while(m--){out[x]=out[x-off];x++;}
+ }
+ return x;
+}
 int image_unpack_block(const u8*in,unsigned size,u8*out,unsigned capacity){return lz4(in,size,out,capacity);}
+unsigned image_scene_nearest(const ScenePalette*scene,unsigned index){
+ const u8*data=scene->nearest;unsigned n,i,column;if(!(scene->lookup_bits&128))return data[index];
+ data+=((const u16*)(data+8))[index>>5];n=*data++;column=index&31;
+ if(!n)return data[column];
+ for(i=0;i<n;i++,data+=2)if(column<data[0])return data[1];
+ return 0;
+}
 int resource_image(int kind,LcfSpan name){unsigned h=2166136261U,i;if(!name.size)return -1;for(i=0;i<name.size;i++){h^=name.data[i];h*=16777619U;}for(i=0;i<resource_image_count;i++)if(resource_images[i].kind==kind&&resource_images[i].hash==h)return resource_images[i].image;return -1;}
 static void legacy_blocks(void){if(tile_mode){tile_mode=0;last_pixels=0;last_block=-1;}}
 const u8*image_portrait_pixels(const u8*packed){

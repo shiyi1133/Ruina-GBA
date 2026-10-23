@@ -27,7 +27,7 @@ def main():
             else:opening(e)
             assert e.debug()[15]==4,e.debug()
             baseline=persistent_view(e.memory(e.symbols['game'],39704))
-            e.key(2);assert e.debug()[15]==2 and e.debug()[17]==7,e.debug()
+            e.key(2);assert e.debug()[15]==2 and e.debug()[17]==8,e.debug()
             for _ in range(5):e.key(128)
             assert e.debug()[16]==5
             if not which:e.shot(out/'b_menu_controls.png')
@@ -61,7 +61,7 @@ def main():
             meter.action('help_previous_page_left',32);assert e.debug()[16]==4
             assert struct.unpack('<i',e.memory(e.symbols['engine_clock_paused'],4))[0]==1
             meter.action('help_B_returns_to_same_menu_entry',2)
-            assert e.debug()[15]==2 and e.debug()[16]==5 and e.debug()[17]==7,e.debug()
+            assert e.debug()[15]==2 and e.debug()[16]==5 and e.debug()[17]==8,e.debug()
             if not which:e.shot(out/'back_to_menu.png')
             # The blue player marker legitimately blinks every 16 frames.
             # Compare map-return frames with actual subsequent live states,

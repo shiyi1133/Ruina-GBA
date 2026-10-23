@@ -6,1920 +6,1920 @@ high_color_tiles:
 .balign 4
 .global scene_nearest_0
 scene_nearest_0:
-.incbin "build/high_color_blobs.bin",9660376,4096
+.incbin "build/scene_lookups_packed.bin",0,3171
 .balign 4
 .global scene_nearest_1
 scene_nearest_1:
-.incbin "build/high_color_blobs.bin",9664472,32768
+.incbin "build/scene_lookups_packed.bin",3172,14370
 .balign 4
 .global scene_nearest_2
 scene_nearest_2:
-.incbin "build/high_color_blobs.bin",9697240,32768
+.incbin "build/scene_lookups_packed.bin",17544,15950
 .balign 4
 .global scene_nearest_3
 scene_nearest_3:
-.incbin "build/high_color_blobs.bin",9730008,32768
+.incbin "build/scene_lookups_packed.bin",33496,15050
 .balign 4
 .global scene_nearest_4
 scene_nearest_4:
-.incbin "build/high_color_blobs.bin",9762776,4096
+.incbin "build/scene_lookups_packed.bin",48548,3445
 .balign 4
 .global scene_nearest_5
 scene_nearest_5:
-.incbin "build/high_color_blobs.bin",9766872,4096
+.incbin "build/scene_lookups_packed.bin",51996,3244
 .balign 4
 .global scene_nearest_6
 scene_nearest_6:
-.incbin "build/high_color_blobs.bin",9770968,4096
+.incbin "build/scene_lookups_packed.bin",55240,3477
 .balign 4
 .global scene_nearest_7
 scene_nearest_7:
-.incbin "build/high_color_blobs.bin",9775064,4096
+.incbin "build/scene_lookups_packed.bin",58720,3030
 .balign 4
 .global scene_nearest_8
 scene_nearest_8:
-.incbin "build/high_color_blobs.bin",9779160,4096
+.incbin "build/scene_lookups_packed.bin",61752,3252
 .balign 4
 .global scene_nearest_9
 scene_nearest_9:
-.incbin "build/high_color_blobs.bin",9783256,4096
+.incbin "build/scene_lookups_packed.bin",65004,3184
 .balign 4
 .global scene_nearest_10
 scene_nearest_10:
-.incbin "build/high_color_blobs.bin",9787352,4096
+.incbin "build/scene_lookups_packed.bin",68188,3171
 .balign 4
 .global scene_nearest_11
 scene_nearest_11:
-.incbin "build/high_color_blobs.bin",9791448,4096
+.incbin "build/scene_lookups_packed.bin",71360,2401
 .balign 4
 .global scene_nearest_12
 scene_nearest_12:
-.incbin "build/high_color_blobs.bin",9795544,4096
+.incbin "build/scene_lookups_packed.bin",73764,3001
 .balign 4
 .global scene_nearest_13
 scene_nearest_13:
-.incbin "build/high_color_blobs.bin",9799640,4096
+.incbin "build/scene_lookups_packed.bin",76768,3071
 .balign 4
 .global scene_nearest_14
 scene_nearest_14:
-.incbin "build/high_color_blobs.bin",9803736,4096
+.incbin "build/scene_lookups_packed.bin",79840,3240
 .balign 4
 .global scene_nearest_15
 scene_nearest_15:
-.incbin "build/high_color_blobs.bin",9807832,4096
+.incbin "build/scene_lookups_packed.bin",83080,3301
 .balign 4
 .global scene_nearest_16
 scene_nearest_16:
-.incbin "build/high_color_blobs.bin",9811928,4096
+.incbin "build/scene_lookups_packed.bin",86384,2427
 .balign 4
 .global scene_nearest_17
 scene_nearest_17:
-.incbin "build/high_color_blobs.bin",9816024,4096
+.incbin "build/scene_lookups_packed.bin",88812,2921
 .balign 4
 .global scene_nearest_18
 scene_nearest_18:
-.incbin "build/high_color_blobs.bin",9820120,4096
+.incbin "build/scene_lookups_packed.bin",91736,2464
 .balign 4
 .global scene_nearest_19
 scene_nearest_19:
-.incbin "build/high_color_blobs.bin",9824216,4096
+.incbin "build/scene_lookups_packed.bin",94200,3292
 .balign 4
 .global scene_nearest_20
 scene_nearest_20:
-.incbin "build/high_color_blobs.bin",9828312,4096
+.incbin "build/scene_lookups_packed.bin",97492,3134
 .balign 4
 .global scene_nearest_21
 scene_nearest_21:
-.incbin "build/high_color_blobs.bin",9832408,4096
+.incbin "build/scene_lookups_packed.bin",100628,2929
 .balign 4
 .global scene_nearest_22
 scene_nearest_22:
-.incbin "build/high_color_blobs.bin",9836504,4096
+.incbin "build/scene_lookups_packed.bin",103560,3250
 .balign 4
 .global scene_nearest_23
 scene_nearest_23:
-.incbin "build/high_color_blobs.bin",9840600,4096
+.incbin "build/scene_lookups_packed.bin",106812,3256
 .balign 4
 .global scene_nearest_24
 scene_nearest_24:
-.incbin "build/high_color_blobs.bin",9844696,4096
+.incbin "build/scene_lookups_packed.bin",110068,3248
 .balign 4
 .global scene_nearest_25
 scene_nearest_25:
-.incbin "build/high_color_blobs.bin",9848792,4096
+.incbin "build/scene_lookups_packed.bin",113316,3494
 .balign 4
 .global scene_nearest_26
 scene_nearest_26:
-.incbin "build/high_color_blobs.bin",9852888,4096
+.incbin "build/scene_lookups_packed.bin",116812,3358
 .balign 4
 .global scene_nearest_27
 scene_nearest_27:
-.incbin "build/high_color_blobs.bin",9856984,4096
+.incbin "build/scene_lookups_packed.bin",120172,3305
 .balign 4
 .global scene_nearest_28
 scene_nearest_28:
-.incbin "build/high_color_blobs.bin",9861080,4096
+.incbin "build/scene_lookups_packed.bin",123480,3016
 .balign 4
 .global scene_nearest_29
 scene_nearest_29:
-.incbin "build/high_color_blobs.bin",9865176,4096
+.incbin "build/scene_lookups_packed.bin",126496,3294
 .balign 4
 .global scene_nearest_30
 scene_nearest_30:
-.incbin "build/high_color_blobs.bin",9869272,4096
+.incbin "build/scene_lookups_packed.bin",129792,3672
 .balign 4
 .global scene_nearest_31
 scene_nearest_31:
-.incbin "build/high_color_blobs.bin",9873368,4096
+.incbin "build/scene_lookups_packed.bin",133464,3138
 .balign 4
 .global scene_nearest_32
 scene_nearest_32:
-.incbin "build/high_color_blobs.bin",9877464,4096
+.incbin "build/scene_lookups_packed.bin",136604,3464
 .balign 4
 .global scene_nearest_33
 scene_nearest_33:
-.incbin "build/high_color_blobs.bin",9881560,4096
+.incbin "build/scene_lookups_packed.bin",140068,3092
 .balign 4
 .global scene_nearest_34
 scene_nearest_34:
-.incbin "build/high_color_blobs.bin",9885656,4096
+.incbin "build/scene_lookups_packed.bin",143160,3543
 .balign 4
 .global scene_nearest_35
 scene_nearest_35:
-.incbin "build/high_color_blobs.bin",9889752,4096
+.incbin "build/scene_lookups_packed.bin",146704,3374
 .balign 4
 .global scene_nearest_36
 scene_nearest_36:
-.incbin "build/high_color_blobs.bin",9893848,4096
+.incbin "build/scene_lookups_packed.bin",150080,3178
 .balign 4
 .global scene_nearest_37
 scene_nearest_37:
-.incbin "build/high_color_blobs.bin",9897944,4096
+.incbin "build/scene_lookups_packed.bin",153260,3493
 .balign 4
 .global scene_nearest_38
 scene_nearest_38:
-.incbin "build/high_color_blobs.bin",9902040,4096
+.incbin "build/scene_lookups_packed.bin",156756,3140
 .balign 4
 .global scene_nearest_39
 scene_nearest_39:
-.incbin "build/high_color_blobs.bin",9906136,4096
+.incbin "build/scene_lookups_packed.bin",159896,3270
 .balign 4
 .global scene_nearest_40
 scene_nearest_40:
-.incbin "build/high_color_blobs.bin",9910232,4096
+.incbin "build/scene_lookups_packed.bin",163168,3512
 .balign 4
 .global scene_nearest_41
 scene_nearest_41:
-.incbin "build/high_color_blobs.bin",9914328,4096
+.incbin "build/scene_lookups_packed.bin",166680,3276
 .balign 4
 .global scene_nearest_42
 scene_nearest_42:
-.incbin "build/high_color_blobs.bin",9918424,4096
+.incbin "build/scene_lookups_packed.bin",169956,3053
 .balign 4
 .global scene_nearest_43
 scene_nearest_43:
-.incbin "build/high_color_blobs.bin",9922520,4096
+.incbin "build/scene_lookups_packed.bin",173012,2923
 .balign 4
 .global scene_nearest_44
 scene_nearest_44:
-.incbin "build/high_color_blobs.bin",9926616,4096
+.incbin "build/scene_lookups_packed.bin",175936,3261
 .balign 4
 .global scene_nearest_45
 scene_nearest_45:
-.incbin "build/high_color_blobs.bin",9930712,4096
+.incbin "build/scene_lookups_packed.bin",179200,3099
 .balign 4
 .global scene_nearest_46
 scene_nearest_46:
-.incbin "build/high_color_blobs.bin",9934808,4096
+.incbin "build/scene_lookups_packed.bin",182300,2842
 .balign 4
 .global scene_nearest_47
 scene_nearest_47:
-.incbin "build/high_color_blobs.bin",9938904,4096
+.incbin "build/scene_lookups_packed.bin",185144,3056
 .balign 4
 .global scene_nearest_48
 scene_nearest_48:
-.incbin "build/high_color_blobs.bin",9943000,4096
+.incbin "build/scene_lookups_packed.bin",188200,3092
 .balign 4
 .global scene_nearest_49
 scene_nearest_49:
-.incbin "build/high_color_blobs.bin",9947096,4096
+.incbin "build/scene_lookups_packed.bin",191292,3085
 .balign 4
 .global scene_nearest_50
 scene_nearest_50:
-.incbin "build/high_color_blobs.bin",9951192,4096
+.incbin "build/scene_lookups_packed.bin",194380,3329
 .balign 4
 .global scene_nearest_51
 scene_nearest_51:
-.incbin "build/high_color_blobs.bin",9955288,4096
+.incbin "build/scene_lookups_packed.bin",197712,3466
 .balign 4
 .global scene_nearest_52
 scene_nearest_52:
-.incbin "build/high_color_blobs.bin",9959384,4096
+.incbin "build/scene_lookups_packed.bin",201180,3129
 .balign 4
 .global scene_nearest_53
 scene_nearest_53:
-.incbin "build/high_color_blobs.bin",9963480,4096
+.incbin "build/scene_lookups_packed.bin",204312,3397
 .balign 4
 .global scene_nearest_54
 scene_nearest_54:
-.incbin "build/high_color_blobs.bin",9967576,4096
+.incbin "build/scene_lookups_packed.bin",207712,3355
 .balign 4
 .global scene_nearest_55
 scene_nearest_55:
-.incbin "build/high_color_blobs.bin",9971672,4096
+.incbin "build/scene_lookups_packed.bin",211068,3520
 .balign 4
 .global scene_nearest_56
 scene_nearest_56:
-.incbin "build/high_color_blobs.bin",9975768,4096
+.incbin "build/scene_lookups_packed.bin",214588,3443
 .balign 4
 .global scene_nearest_57
 scene_nearest_57:
-.incbin "build/high_color_blobs.bin",9979864,4096
+.incbin "build/scene_lookups_packed.bin",218032,3197
 .balign 4
 .global scene_nearest_58
 scene_nearest_58:
-.incbin "build/high_color_blobs.bin",9983960,4096
+.incbin "build/scene_lookups_packed.bin",221232,3144
 .balign 4
 .global scene_nearest_59
 scene_nearest_59:
-.incbin "build/high_color_blobs.bin",9988056,4096
+.incbin "build/scene_lookups_packed.bin",224376,3248
 .balign 4
 .global scene_nearest_60
 scene_nearest_60:
-.incbin "build/high_color_blobs.bin",9992152,4096
+.incbin "build/scene_lookups_packed.bin",227624,3236
 .balign 4
 .global scene_nearest_61
 scene_nearest_61:
-.incbin "build/high_color_blobs.bin",9996248,4096
+.incbin "build/scene_lookups_packed.bin",230860,3595
 .balign 4
 .global scene_nearest_62
 scene_nearest_62:
-.incbin "build/high_color_blobs.bin",10000344,4096
+.incbin "build/scene_lookups_packed.bin",234456,3145
 .balign 4
 .global scene_nearest_63
 scene_nearest_63:
-.incbin "build/high_color_blobs.bin",10004440,4096
+.incbin "build/scene_lookups_packed.bin",237604,3338
 .balign 4
 .global scene_nearest_64
 scene_nearest_64:
-.incbin "build/high_color_blobs.bin",10008536,4096
+.incbin "build/scene_lookups_packed.bin",240944,3230
 .balign 4
 .global scene_nearest_65
 scene_nearest_65:
-.incbin "build/high_color_blobs.bin",10012632,4096
+.incbin "build/scene_lookups_packed.bin",244176,2865
 .balign 4
 .global scene_nearest_66
 scene_nearest_66:
-.incbin "build/high_color_blobs.bin",10016728,4096
+.incbin "build/scene_lookups_packed.bin",247044,3430
 .balign 4
 .global scene_nearest_67
 scene_nearest_67:
-.incbin "build/high_color_blobs.bin",10020824,4096
+.incbin "build/scene_lookups_packed.bin",250476,3196
 .balign 4
 .global scene_nearest_68
 scene_nearest_68:
-.incbin "build/high_color_blobs.bin",10024920,4096
+.incbin "build/scene_lookups_packed.bin",253672,3526
 .balign 4
 .global scene_nearest_69
 scene_nearest_69:
-.incbin "build/high_color_blobs.bin",10029016,4096
+.incbin "build/scene_lookups_packed.bin",257200,2958
 .balign 4
 .global scene_nearest_70
 scene_nearest_70:
-.incbin "build/high_color_blobs.bin",10033112,4096
+.incbin "build/scene_lookups_packed.bin",260160,3354
 .balign 4
 .global scene_nearest_71
 scene_nearest_71:
-.incbin "build/high_color_blobs.bin",10037208,4096
+.incbin "build/scene_lookups_packed.bin",263516,3257
 .balign 4
 .global scene_nearest_72
 scene_nearest_72:
-.incbin "build/high_color_blobs.bin",10041304,4096
+.incbin "build/scene_lookups_packed.bin",266776,3159
 .balign 4
 .global scene_nearest_73
 scene_nearest_73:
-.incbin "build/high_color_blobs.bin",10045400,4096
+.incbin "build/scene_lookups_packed.bin",269936,3188
 .balign 4
 .global scene_nearest_74
 scene_nearest_74:
-.incbin "build/high_color_blobs.bin",10049496,4096
+.incbin "build/scene_lookups_packed.bin",273124,3276
 .balign 4
 .global scene_nearest_75
 scene_nearest_75:
-.incbin "build/high_color_blobs.bin",10053592,4096
+.incbin "build/scene_lookups_packed.bin",276400,3369
 .balign 4
 .global scene_nearest_76
 scene_nearest_76:
-.incbin "build/high_color_blobs.bin",10057688,4096
+.incbin "build/scene_lookups_packed.bin",279772,3635
 .balign 4
 .global scene_nearest_77
 scene_nearest_77:
-.incbin "build/high_color_blobs.bin",10061784,4096
+.incbin "build/scene_lookups_packed.bin",283408,3001
 .balign 4
 .global scene_nearest_78
 scene_nearest_78:
-.incbin "build/high_color_blobs.bin",10065880,4096
+.incbin "build/scene_lookups_packed.bin",286412,3006
 .balign 4
 .global scene_nearest_79
 scene_nearest_79:
-.incbin "build/high_color_blobs.bin",10069976,4096
+.incbin "build/scene_lookups_packed.bin",289420,3206
 .balign 4
 .global scene_nearest_80
 scene_nearest_80:
-.incbin "build/high_color_blobs.bin",10074072,4096
+.incbin "build/scene_lookups_packed.bin",292628,3396
 .balign 4
 .global scene_nearest_81
 scene_nearest_81:
-.incbin "build/high_color_blobs.bin",10078168,4096
+.incbin "build/scene_lookups_packed.bin",296024,3326
 .balign 4
 .global scene_nearest_82
 scene_nearest_82:
-.incbin "build/high_color_blobs.bin",10082264,4096
+.incbin "build/scene_lookups_packed.bin",299352,3516
 .balign 4
 .global scene_nearest_83
 scene_nearest_83:
-.incbin "build/high_color_blobs.bin",10086360,4096
+.incbin "build/scene_lookups_packed.bin",302868,3491
 .balign 4
 .global scene_nearest_84
 scene_nearest_84:
-.incbin "build/high_color_blobs.bin",10090456,4096
+.incbin "build/scene_lookups_packed.bin",306360,3476
 .balign 4
 .global scene_nearest_85
 scene_nearest_85:
-.incbin "build/high_color_blobs.bin",10094552,4096
+.incbin "build/scene_lookups_packed.bin",309836,3256
 .balign 4
 .global scene_nearest_86
 scene_nearest_86:
-.incbin "build/high_color_blobs.bin",10098648,4096
+.incbin "build/scene_lookups_packed.bin",313092,2925
 .balign 4
 .global scene_nearest_87
 scene_nearest_87:
-.incbin "build/high_color_blobs.bin",10102744,4096
+.incbin "build/scene_lookups_packed.bin",316020,3247
 .balign 4
 .global scene_nearest_88
 scene_nearest_88:
-.incbin "build/high_color_blobs.bin",10106840,4096
+.incbin "build/scene_lookups_packed.bin",319268,3230
 .balign 4
 .global scene_nearest_89
 scene_nearest_89:
-.incbin "build/high_color_blobs.bin",10110936,4096
+.incbin "build/scene_lookups_packed.bin",322500,2995
 .balign 4
 .global scene_nearest_90
 scene_nearest_90:
-.incbin "build/high_color_blobs.bin",10115032,4096
+.incbin "build/scene_lookups_packed.bin",325496,3195
 .balign 4
 .global scene_nearest_91
 scene_nearest_91:
-.incbin "build/high_color_blobs.bin",10119128,4096
+.incbin "build/scene_lookups_packed.bin",328692,3131
 .balign 4
 .global scene_nearest_92
 scene_nearest_92:
-.incbin "build/high_color_blobs.bin",10123224,4096
+.incbin "build/scene_lookups_packed.bin",331824,3287
 .balign 4
 .global scene_nearest_93
 scene_nearest_93:
-.incbin "build/high_color_blobs.bin",10127320,4096
+.incbin "build/scene_lookups_packed.bin",335112,2899
 .balign 4
 .global scene_nearest_94
 scene_nearest_94:
-.incbin "build/high_color_blobs.bin",10131416,4096
+.incbin "build/scene_lookups_packed.bin",338012,3333
 .balign 4
 .global scene_nearest_95
 scene_nearest_95:
-.incbin "build/high_color_blobs.bin",10135512,4096
+.incbin "build/scene_lookups_packed.bin",341348,3204
 .balign 4
 .global scene_nearest_96
 scene_nearest_96:
-.incbin "build/high_color_blobs.bin",10139608,4096
+.incbin "build/scene_lookups_packed.bin",344552,2257
 .balign 4
 .global scene_nearest_97
 scene_nearest_97:
-.incbin "build/high_color_blobs.bin",10143704,4096
+.incbin "build/scene_lookups_packed.bin",346812,2903
 .balign 4
 .global scene_nearest_98
 scene_nearest_98:
-.incbin "build/high_color_blobs.bin",10147800,4096
+.incbin "build/scene_lookups_packed.bin",349716,3216
 .balign 4
 .global scene_nearest_99
 scene_nearest_99:
-.incbin "build/high_color_blobs.bin",10151896,4096
+.incbin "build/scene_lookups_packed.bin",352932,3165
 .balign 4
 .global scene_nearest_100
 scene_nearest_100:
-.incbin "build/high_color_blobs.bin",10155992,4096
+.incbin "build/scene_lookups_packed.bin",356100,3514
 .balign 4
 .global scene_nearest_101
 scene_nearest_101:
-.incbin "build/high_color_blobs.bin",10160088,4096
+.incbin "build/scene_lookups_packed.bin",359616,3111
 .balign 4
 .global scene_nearest_102
 scene_nearest_102:
-.incbin "build/high_color_blobs.bin",10164184,4096
+.incbin "build/scene_lookups_packed.bin",362728,3129
 .balign 4
 .global scene_nearest_103
 scene_nearest_103:
-.incbin "build/high_color_blobs.bin",10168280,4096
+.incbin "build/scene_lookups_packed.bin",365860,3265
 .balign 4
 .global scene_nearest_104
 scene_nearest_104:
-.incbin "build/high_color_blobs.bin",10172376,4096
+.incbin "build/scene_lookups_packed.bin",369128,3166
 .balign 4
 .global scene_nearest_105
 scene_nearest_105:
-.incbin "build/high_color_blobs.bin",10176472,4096
+.incbin "build/scene_lookups_packed.bin",372296,3282
 .balign 4
 .global scene_nearest_106
 scene_nearest_106:
-.incbin "build/high_color_blobs.bin",10180568,4096
+.incbin "build/scene_lookups_packed.bin",375580,3223
 .balign 4
 .global scene_nearest_107
 scene_nearest_107:
-.incbin "build/high_color_blobs.bin",10184664,4096
+.incbin "build/scene_lookups_packed.bin",378804,2944
 .balign 4
 .global scene_nearest_108
 scene_nearest_108:
-.incbin "build/high_color_blobs.bin",10188760,4096
+.incbin "build/scene_lookups_packed.bin",381748,3420
 .balign 4
 .global scene_nearest_109
 scene_nearest_109:
-.incbin "build/high_color_blobs.bin",10192856,4096
+.incbin "build/scene_lookups_packed.bin",385168,3197
 .balign 4
 .global scene_nearest_110
 scene_nearest_110:
-.incbin "build/high_color_blobs.bin",10196952,4096
+.incbin "build/scene_lookups_packed.bin",388368,2642
 .balign 4
 .global scene_nearest_111
 scene_nearest_111:
-.incbin "build/high_color_blobs.bin",10201048,4096
+.incbin "build/scene_lookups_packed.bin",391012,3327
 .balign 4
 .global scene_nearest_112
 scene_nearest_112:
-.incbin "build/high_color_blobs.bin",10205144,4096
+.incbin "build/scene_lookups_packed.bin",394340,3319
 .balign 4
 .global scene_nearest_113
 scene_nearest_113:
-.incbin "build/high_color_blobs.bin",10209240,4096
+.incbin "build/scene_lookups_packed.bin",397660,3454
 .balign 4
 .global scene_nearest_114
 scene_nearest_114:
-.incbin "build/high_color_blobs.bin",10213336,4096
+.incbin "build/scene_lookups_packed.bin",401116,3560
 .balign 4
 .global scene_nearest_115
 scene_nearest_115:
-.incbin "build/high_color_blobs.bin",10217432,4096
+.incbin "build/scene_lookups_packed.bin",404676,3188
 .balign 4
 .global scene_nearest_116
 scene_nearest_116:
-.incbin "build/high_color_blobs.bin",10221528,4096
+.incbin "build/scene_lookups_packed.bin",407864,3387
 .balign 4
 .global scene_nearest_117
 scene_nearest_117:
-.incbin "build/high_color_blobs.bin",10225624,4096
+.incbin "build/scene_lookups_packed.bin",411252,3360
 .balign 4
 .global scene_nearest_118
 scene_nearest_118:
-.incbin "build/high_color_blobs.bin",10229720,4096
+.incbin "build/scene_lookups_packed.bin",414612,3281
 .balign 4
 .global scene_nearest_119
 scene_nearest_119:
-.incbin "build/high_color_blobs.bin",10233816,4096
+.incbin "build/scene_lookups_packed.bin",417896,3424
 .balign 4
 .global scene_nearest_120
 scene_nearest_120:
-.incbin "build/high_color_blobs.bin",10237912,4096
+.incbin "build/scene_lookups_packed.bin",421320,3398
 .balign 4
 .global scene_nearest_121
 scene_nearest_121:
-.incbin "build/high_color_blobs.bin",10242008,4096
+.incbin "build/scene_lookups_packed.bin",424720,3068
 .balign 4
 .global scene_nearest_122
 scene_nearest_122:
-.incbin "build/high_color_blobs.bin",10246104,4096
+.incbin "build/scene_lookups_packed.bin",427788,3189
 .balign 4
 .global scene_nearest_123
 scene_nearest_123:
-.incbin "build/high_color_blobs.bin",10250200,4096
+.incbin "build/scene_lookups_packed.bin",430980,3608
 .balign 4
 .global scene_nearest_124
 scene_nearest_124:
-.incbin "build/high_color_blobs.bin",10254296,4096
+.incbin "build/scene_lookups_packed.bin",434588,3196
 .balign 4
 .global scene_nearest_125
 scene_nearest_125:
-.incbin "build/high_color_blobs.bin",10258392,4096
+.incbin "build/scene_lookups_packed.bin",437784,3272
 .balign 4
 .global scene_nearest_126
 scene_nearest_126:
-.incbin "build/high_color_blobs.bin",10262488,4096
+.incbin "build/scene_lookups_packed.bin",441056,3212
 .balign 4
 .global scene_nearest_127
 scene_nearest_127:
-.incbin "build/high_color_blobs.bin",10266584,4096
+.incbin "build/scene_lookups_packed.bin",444268,3657
 .balign 4
 .global scene_nearest_128
 scene_nearest_128:
-.incbin "build/high_color_blobs.bin",10270680,4096
+.incbin "build/scene_lookups_packed.bin",447928,3173
 .balign 4
 .global scene_nearest_129
 scene_nearest_129:
-.incbin "build/high_color_blobs.bin",10274776,4096
+.incbin "build/scene_lookups_packed.bin",451104,3341
 .balign 4
 .global scene_nearest_130
 scene_nearest_130:
-.incbin "build/high_color_blobs.bin",10278872,4096
+.incbin "build/scene_lookups_packed.bin",454448,3041
 .balign 4
 .global scene_nearest_131
 scene_nearest_131:
-.incbin "build/high_color_blobs.bin",10282968,4096
+.incbin "build/scene_lookups_packed.bin",457492,3670
 .balign 4
 .global scene_nearest_132
 scene_nearest_132:
-.incbin "build/high_color_blobs.bin",10287064,4096
+.incbin "build/scene_lookups_packed.bin",461164,2860
 .balign 4
 .global scene_nearest_133
 scene_nearest_133:
-.incbin "build/high_color_blobs.bin",10291160,4096
+.incbin "build/scene_lookups_packed.bin",464024,2813
 .balign 4
 .global scene_nearest_134
 scene_nearest_134:
-.incbin "build/high_color_blobs.bin",10295256,4096
+.incbin "build/scene_lookups_packed.bin",466840,3813
 .balign 4
 .global scene_nearest_135
 scene_nearest_135:
-.incbin "build/high_color_blobs.bin",10299352,4096
+.incbin "build/scene_lookups_packed.bin",470656,3330
 .balign 4
 .global scene_nearest_136
 scene_nearest_136:
-.incbin "build/high_color_blobs.bin",10303448,4096
+.incbin "build/scene_lookups_packed.bin",473988,3640
 .balign 4
 .global scene_nearest_137
 scene_nearest_137:
-.incbin "build/high_color_blobs.bin",10307544,4096
+.incbin "build/scene_lookups_packed.bin",477628,3461
 .balign 4
 .global scene_nearest_138
 scene_nearest_138:
-.incbin "build/high_color_blobs.bin",10311640,4096
+.incbin "build/scene_lookups_packed.bin",481092,3164
 .balign 4
 .global scene_nearest_139
 scene_nearest_139:
-.incbin "build/high_color_blobs.bin",10315736,4096
+.incbin "build/scene_lookups_packed.bin",484256,2975
 .balign 4
 .global scene_nearest_140
 scene_nearest_140:
-.incbin "build/high_color_blobs.bin",10319832,4096
+.incbin "build/scene_lookups_packed.bin",487232,3336
 .balign 4
 .global scene_nearest_141
 scene_nearest_141:
-.incbin "build/high_color_blobs.bin",10323928,4096
+.incbin "build/scene_lookups_packed.bin",490568,3320
 .balign 4
 .global scene_nearest_142
 scene_nearest_142:
-.incbin "build/high_color_blobs.bin",10328024,4096
+.incbin "build/scene_lookups_packed.bin",493888,3457
 .balign 4
 .global scene_nearest_143
 scene_nearest_143:
-.incbin "build/high_color_blobs.bin",10332120,4096
+.incbin "build/scene_lookups_packed.bin",497348,3170
 .balign 4
 .global scene_nearest_144
 scene_nearest_144:
-.incbin "build/high_color_blobs.bin",10336216,4096
+.incbin "build/scene_lookups_packed.bin",500520,3455
 .balign 4
 .global scene_nearest_145
 scene_nearest_145:
-.incbin "build/high_color_blobs.bin",10340312,4096
+.incbin "build/scene_lookups_packed.bin",503976,3167
 .balign 4
 .global scene_nearest_146
 scene_nearest_146:
-.incbin "build/high_color_blobs.bin",10344408,4096
+.incbin "build/scene_lookups_packed.bin",507144,2957
 .balign 4
 .global scene_nearest_147
 scene_nearest_147:
-.incbin "build/high_color_blobs.bin",10348504,4096
+.incbin "build/scene_lookups_packed.bin",510104,3608
 .balign 4
 .global scene_nearest_148
 scene_nearest_148:
-.incbin "build/high_color_blobs.bin",10352600,4096
+.incbin "build/scene_lookups_packed.bin",513712,3300
 .balign 4
 .global scene_nearest_149
 scene_nearest_149:
-.incbin "build/high_color_blobs.bin",10356696,4096
+.incbin "build/scene_lookups_packed.bin",517012,3263
 .balign 4
 .global scene_nearest_150
 scene_nearest_150:
-.incbin "build/high_color_blobs.bin",10360792,4096
+.incbin "build/scene_lookups_packed.bin",520276,3423
 .balign 4
 .global scene_nearest_151
 scene_nearest_151:
-.incbin "build/high_color_blobs.bin",10364888,4096
+.incbin "build/scene_lookups_packed.bin",523700,3064
 .balign 4
 .global scene_nearest_152
 scene_nearest_152:
-.incbin "build/high_color_blobs.bin",10368984,4096
+.incbin "build/scene_lookups_packed.bin",526764,3221
 .balign 4
 .global scene_nearest_153
 scene_nearest_153:
-.incbin "build/high_color_blobs.bin",10373080,4096
+.incbin "build/scene_lookups_packed.bin",529988,3472
 .balign 4
 .global scene_nearest_154
 scene_nearest_154:
-.incbin "build/high_color_blobs.bin",10377176,4096
+.incbin "build/scene_lookups_packed.bin",533460,3179
 .balign 4
 .global scene_nearest_155
 scene_nearest_155:
-.incbin "build/high_color_blobs.bin",10381272,4096
+.incbin "build/scene_lookups_packed.bin",536640,3035
 .balign 4
 .global scene_nearest_156
 scene_nearest_156:
-.incbin "build/high_color_blobs.bin",10385368,4096
+.incbin "build/scene_lookups_packed.bin",539676,3505
 .balign 4
 .global scene_nearest_157
 scene_nearest_157:
-.incbin "build/high_color_blobs.bin",10389464,32768
+.incbin "build/scene_lookups_packed.bin",543184,14379
 .balign 4
 .global scene_nearest_158
 scene_nearest_158:
-.incbin "build/high_color_blobs.bin",10422232,32768
+.incbin "build/scene_lookups_packed.bin",557564,14580
 .balign 4
 .global scene_nearest_159
 scene_nearest_159:
-.incbin "build/high_color_blobs.bin",10455000,32768
+.incbin "build/scene_lookups_packed.bin",572144,14907
 .balign 4
 .global scene_nearest_160
 scene_nearest_160:
-.incbin "build/high_color_blobs.bin",10487768,32768
+.incbin "build/scene_lookups_packed.bin",587052,13694
 .balign 4
 .global scene_nearest_161
 scene_nearest_161:
-.incbin "build/high_color_blobs.bin",10520536,32768
+.incbin "build/scene_lookups_packed.bin",600748,14187
 .balign 4
 .global scene_nearest_162
 scene_nearest_162:
-.incbin "build/high_color_blobs.bin",10553304,32768
+.incbin "build/scene_lookups_packed.bin",614936,14243
 .balign 4
 .global scene_nearest_163
 scene_nearest_163:
-.incbin "build/high_color_blobs.bin",10586072,32768
+.incbin "build/scene_lookups_packed.bin",629180,13230
 .balign 4
 .global scene_nearest_164
 scene_nearest_164:
-.incbin "build/high_color_blobs.bin",10618840,32768
+.incbin "build/scene_lookups_packed.bin",642412,15135
 .balign 4
 .global scene_nearest_165
 scene_nearest_165:
-.incbin "build/high_color_blobs.bin",10651608,32768
+.incbin "build/scene_lookups_packed.bin",657548,14712
 .balign 4
 .global scene_nearest_166
 scene_nearest_166:
-.incbin "build/high_color_blobs.bin",10684376,32768
+.incbin "build/scene_lookups_packed.bin",672260,13455
 .balign 4
 .global scene_nearest_167
 scene_nearest_167:
-.incbin "build/high_color_blobs.bin",10717144,32768
+.incbin "build/scene_lookups_packed.bin",685716,14059
 .balign 4
 .global scene_nearest_168
 scene_nearest_168:
-.incbin "build/high_color_blobs.bin",10749912,32768
+.incbin "build/scene_lookups_packed.bin",699776,14393
 .balign 4
 .global scene_nearest_169
 scene_nearest_169:
-.incbin "build/high_color_blobs.bin",10782680,32768
+.incbin "build/scene_lookups_packed.bin",714172,14533
 .balign 4
 .global scene_nearest_170
 scene_nearest_170:
-.incbin "build/high_color_blobs.bin",10815448,32768
+.incbin "build/scene_lookups_packed.bin",728708,14215
 .balign 4
 .global scene_nearest_171
 scene_nearest_171:
-.incbin "build/high_color_blobs.bin",10848216,32768
+.incbin "build/scene_lookups_packed.bin",742924,14330
 .balign 4
 .global scene_nearest_172
 scene_nearest_172:
-.incbin "build/high_color_blobs.bin",10880984,32768
+.incbin "build/scene_lookups_packed.bin",757256,18759
 .balign 4
 .global scene_nearest_173
 scene_nearest_173:
-.incbin "build/high_color_blobs.bin",10913752,32768
+.incbin "build/scene_lookups_packed.bin",776016,14239
 .balign 4
 .global scene_nearest_174
 scene_nearest_174:
-.incbin "build/high_color_blobs.bin",10946520,32768
+.incbin "build/scene_lookups_packed.bin",790256,14254
 .balign 4
 .global scene_nearest_175
 scene_nearest_175:
-.incbin "build/high_color_blobs.bin",10979288,32768
+.incbin "build/scene_lookups_packed.bin",804512,16769
 .balign 4
 .global scene_nearest_176
 scene_nearest_176:
-.incbin "build/high_color_blobs.bin",11012056,32768
+.incbin "build/scene_lookups_packed.bin",821284,14890
 .balign 4
 .global scene_nearest_177
 scene_nearest_177:
-.incbin "build/high_color_blobs.bin",11044824,32768
+.incbin "build/scene_lookups_packed.bin",836176,15320
 .balign 4
 .global scene_nearest_178
 scene_nearest_178:
-.incbin "build/high_color_blobs.bin",11077592,32768
+.incbin "build/scene_lookups_packed.bin",851496,15693
 .balign 4
 .global scene_nearest_179
 scene_nearest_179:
-.incbin "build/high_color_blobs.bin",11110360,32768
+.incbin "build/scene_lookups_packed.bin",867192,14667
 .balign 4
 .global scene_nearest_180
 scene_nearest_180:
-.incbin "build/high_color_blobs.bin",11143128,32768
+.incbin "build/scene_lookups_packed.bin",881860,15354
 .balign 4
 .global scene_nearest_181
 scene_nearest_181:
-.incbin "build/high_color_blobs.bin",11175896,32768
+.incbin "build/scene_lookups_packed.bin",897216,13934
 .balign 4
 .global scene_nearest_182
 scene_nearest_182:
-.incbin "build/high_color_blobs.bin",11208664,32768
+.incbin "build/scene_lookups_packed.bin",911152,18047
 .balign 4
 .global scene_nearest_183
 scene_nearest_183:
-.incbin "build/high_color_blobs.bin",11241432,32768
+.incbin "build/scene_lookups_packed.bin",929200,8318
 .balign 4
 .global scene_nearest_184
 scene_nearest_184:
-.incbin "build/high_color_blobs.bin",11274200,32768
+.incbin "build/scene_lookups_packed.bin",937520,13073
 .balign 4
 .global scene_nearest_185
 scene_nearest_185:
-.incbin "build/high_color_blobs.bin",11306968,32768
+.incbin "build/scene_lookups_packed.bin",950596,15330
 .balign 4
 .global scene_nearest_186
 scene_nearest_186:
-.incbin "build/high_color_blobs.bin",11339736,32768
+.incbin "build/scene_lookups_packed.bin",965928,14826
 .balign 4
 .global scene_nearest_187
 scene_nearest_187:
-.incbin "build/high_color_blobs.bin",11372504,32768
+.incbin "build/scene_lookups_packed.bin",980756,17144
 .balign 4
 .global scene_nearest_188
 scene_nearest_188:
-.incbin "build/high_color_blobs.bin",11405272,32768
+.incbin "build/scene_lookups_packed.bin",997900,15542
 .balign 4
 .global scene_nearest_189
 scene_nearest_189:
-.incbin "build/high_color_blobs.bin",11438040,32768
+.incbin "build/scene_lookups_packed.bin",1013444,13010
 .balign 4
 .global scene_nearest_190
 scene_nearest_190:
-.incbin "build/high_color_blobs.bin",11470808,32768
+.incbin "build/scene_lookups_packed.bin",1026456,7647
 .balign 4
 .global scene_nearest_191
 scene_nearest_191:
-.incbin "build/high_color_blobs.bin",11503576,32768
+.incbin "build/scene_lookups_packed.bin",1034104,14344
 .balign 4
 .global scene_nearest_192
 scene_nearest_192:
-.incbin "build/high_color_blobs.bin",11536344,32768
+.incbin "build/scene_lookups_packed.bin",1048448,13925
 .balign 4
 .global scene_nearest_193
 scene_nearest_193:
-.incbin "build/high_color_blobs.bin",11569112,32768
+.incbin "build/scene_lookups_packed.bin",1062376,14343
 .balign 4
 .global scene_nearest_194
 scene_nearest_194:
-.incbin "build/high_color_blobs.bin",11601880,32768
+.incbin "build/scene_lookups_packed.bin",1076720,15364
 .balign 4
 .global scene_nearest_195
 scene_nearest_195:
-.incbin "build/high_color_blobs.bin",11634648,32768
+.incbin "build/scene_lookups_packed.bin",1092084,14256
 .balign 4
 .global scene_nearest_196
 scene_nearest_196:
-.incbin "build/high_color_blobs.bin",11667416,32768
+.incbin "build/scene_lookups_packed.bin",1106340,16352
 .balign 4
 .global scene_nearest_197
 scene_nearest_197:
-.incbin "build/high_color_blobs.bin",11700184,32768
+.incbin "build/scene_lookups_packed.bin",1122692,14468
 .balign 4
 .global scene_nearest_198
 scene_nearest_198:
-.incbin "build/high_color_blobs.bin",11732952,32768
+.incbin "build/scene_lookups_packed.bin",1137160,14241
 .balign 4
 .global scene_nearest_199
 scene_nearest_199:
-.incbin "build/high_color_blobs.bin",11765720,32768
+.incbin "build/scene_lookups_packed.bin",1151404,16543
 .balign 4
 .global scene_nearest_200
 scene_nearest_200:
-.incbin "build/high_color_blobs.bin",11798488,32768
+.incbin "build/scene_lookups_packed.bin",1167948,14797
 .balign 4
 .global scene_nearest_201
 scene_nearest_201:
-.incbin "build/high_color_blobs.bin",11831256,4096
+.incbin "build/scene_lookups_packed.bin",1182748,2771
 .balign 4
 .global scene_nearest_202
 scene_nearest_202:
-.incbin "build/high_color_blobs.bin",11835352,4096
+.incbin "build/scene_lookups_packed.bin",1185520,2395
 .balign 4
 .global scene_nearest_203
 scene_nearest_203:
-.incbin "build/high_color_blobs.bin",11839448,4096
+.incbin "build/scene_lookups_packed.bin",1187916,2732
 .balign 4
 .global scene_nearest_204
 scene_nearest_204:
-.incbin "build/high_color_blobs.bin",11843544,4096
+.incbin "build/scene_lookups_packed.bin",1190648,2585
 .balign 4
 .global scene_nearest_205
 scene_nearest_205:
-.incbin "build/high_color_blobs.bin",11847640,4096
+.incbin "build/scene_lookups_packed.bin",1193236,2689
 .balign 4
 .global scene_nearest_206
 scene_nearest_206:
-.incbin "build/high_color_blobs.bin",11851736,4096
+.incbin "build/scene_lookups_packed.bin",1195928,3210
 .balign 4
 .global scene_nearest_207
 scene_nearest_207:
-.incbin "build/high_color_blobs.bin",11855832,4096
+.incbin "build/scene_lookups_packed.bin",1199140,3105
 .balign 4
 .global scene_nearest_208
 scene_nearest_208:
-.incbin "build/high_color_blobs.bin",11859928,4096
+.incbin "build/scene_lookups_packed.bin",1202248,3102
 .balign 4
 .global scene_nearest_209
 scene_nearest_209:
-.incbin "build/high_color_blobs.bin",11864024,4096
+.incbin "build/scene_lookups_packed.bin",1205352,3116
 .balign 4
 .global scene_nearest_210
 scene_nearest_210:
-.incbin "build/high_color_blobs.bin",11868120,4096
+.incbin "build/scene_lookups_packed.bin",1208468,3110
 .balign 4
 .global scene_nearest_211
 scene_nearest_211:
-.incbin "build/high_color_blobs.bin",11872216,4096
+.incbin "build/scene_lookups_packed.bin",1211580,2952
 .balign 4
 .global scene_nearest_212
 scene_nearest_212:
-.incbin "build/high_color_blobs.bin",11876312,4096
+.incbin "build/scene_lookups_packed.bin",1214532,2755
 .balign 4
 .global scene_nearest_213
 scene_nearest_213:
-.incbin "build/high_color_blobs.bin",11880408,4096
+.incbin "build/scene_lookups_packed.bin",1217288,3063
 .balign 4
 .global scene_nearest_214
 scene_nearest_214:
-.incbin "build/high_color_blobs.bin",11884504,4096
+.incbin "build/scene_lookups_packed.bin",1220352,2825
 .balign 4
 .global scene_nearest_215
 scene_nearest_215:
-.incbin "build/high_color_blobs.bin",11888600,4096
+.incbin "build/scene_lookups_packed.bin",1223180,3095
 .balign 4
 .global scene_nearest_216
 scene_nearest_216:
-.incbin "build/high_color_blobs.bin",11892696,4096
+.incbin "build/scene_lookups_packed.bin",1226276,2946
 .balign 4
 .global scene_nearest_217
 scene_nearest_217:
-.incbin "build/high_color_blobs.bin",11896792,4096
+.incbin "build/scene_lookups_packed.bin",1229224,3097
 .balign 4
 .global scene_nearest_218
 scene_nearest_218:
-.incbin "build/high_color_blobs.bin",11900888,4096
+.incbin "build/scene_lookups_packed.bin",1232324,3049
 .balign 4
 .global scene_nearest_219
 scene_nearest_219:
-.incbin "build/high_color_blobs.bin",11904984,4096
+.incbin "build/scene_lookups_packed.bin",1235376,3015
 .balign 4
 .global scene_nearest_220
 scene_nearest_220:
-.incbin "build/high_color_blobs.bin",11909080,4096
+.incbin "build/scene_lookups_packed.bin",1238392,3075
 .balign 4
 .global scene_nearest_221
 scene_nearest_221:
-.incbin "build/high_color_blobs.bin",11913176,4096
+.incbin "build/scene_lookups_packed.bin",1241468,3125
 .balign 4
 .global scene_nearest_222
 scene_nearest_222:
-.incbin "build/high_color_blobs.bin",11917272,4096
+.incbin "build/scene_lookups_packed.bin",1244596,3079
 .balign 4
 .global scene_nearest_223
 scene_nearest_223:
-.incbin "build/high_color_blobs.bin",11921368,4096
+.incbin "build/scene_lookups_packed.bin",1247676,3254
 .balign 4
 .global scene_nearest_224
 scene_nearest_224:
-.incbin "build/high_color_blobs.bin",11925464,4096
+.incbin "build/scene_lookups_packed.bin",1250932,3288
 .balign 4
 .global scene_nearest_225
 scene_nearest_225:
-.incbin "build/high_color_blobs.bin",11929560,4096
+.incbin "build/scene_lookups_packed.bin",1254220,2204
 .balign 4
 .global scene_nearest_226
 scene_nearest_226:
-.incbin "build/high_color_blobs.bin",11933656,4096
+.incbin "build/scene_lookups_packed.bin",1256424,3094
 .balign 4
 .global scene_nearest_227
 scene_nearest_227:
-.incbin "build/high_color_blobs.bin",11937752,4096
+.incbin "build/scene_lookups_packed.bin",1259520,3140
 .balign 4
 .global scene_nearest_228
 scene_nearest_228:
-.incbin "build/high_color_blobs.bin",11941848,4096
+.incbin "build/scene_lookups_packed.bin",1262660,3009
 .balign 4
 .global scene_nearest_229
 scene_nearest_229:
-.incbin "build/high_color_blobs.bin",11945944,4096
+.incbin "build/scene_lookups_packed.bin",1265672,2958
 .balign 4
 .global scene_nearest_230
 scene_nearest_230:
-.incbin "build/high_color_blobs.bin",11950040,4096
+.incbin "build/scene_lookups_packed.bin",1268632,3162
 .balign 4
 .global scene_nearest_231
 scene_nearest_231:
-.incbin "build/high_color_blobs.bin",11954136,4096
+.incbin "build/scene_lookups_packed.bin",1271796,2975
 .balign 4
 .global scene_nearest_232
 scene_nearest_232:
-.incbin "build/high_color_blobs.bin",11958232,4096
+.incbin "build/scene_lookups_packed.bin",1274772,3126
 .balign 4
 .global scene_nearest_233
 scene_nearest_233:
-.incbin "build/high_color_blobs.bin",11962328,4096
+.incbin "build/scene_lookups_packed.bin",1277900,3057
 .balign 4
 .global scene_nearest_234
 scene_nearest_234:
-.incbin "build/high_color_blobs.bin",11966424,4096
+.incbin "build/scene_lookups_packed.bin",1280960,3113
 .balign 4
 .global scene_nearest_235
 scene_nearest_235:
-.incbin "build/high_color_blobs.bin",11970520,4096
+.incbin "build/scene_lookups_packed.bin",1284076,3206
 .balign 4
 .global scene_nearest_236
 scene_nearest_236:
-.incbin "build/high_color_blobs.bin",11974616,4096
+.incbin "build/scene_lookups_packed.bin",1287284,3071
 .balign 4
 .global scene_nearest_237
 scene_nearest_237:
-.incbin "build/high_color_blobs.bin",11978712,4096
+.incbin "build/scene_lookups_packed.bin",1290356,2834
 .balign 4
 .global scene_nearest_238
 scene_nearest_238:
-.incbin "build/high_color_blobs.bin",11982808,4096
+.incbin "build/scene_lookups_packed.bin",1293192,2394
 .balign 4
 .global scene_nearest_239
 scene_nearest_239:
-.incbin "build/high_color_blobs.bin",11986904,4096
+.incbin "build/scene_lookups_packed.bin",1295588,2613
 .balign 4
 .global scene_nearest_240
 scene_nearest_240:
-.incbin "build/high_color_blobs.bin",11991000,4096
+.incbin "build/scene_lookups_packed.bin",1298204,2742
 .balign 4
 .global scene_nearest_241
 scene_nearest_241:
-.incbin "build/high_color_blobs.bin",11995096,4096
+.incbin "build/scene_lookups_packed.bin",1300948,2947
 .balign 4
 .global scene_nearest_242
 scene_nearest_242:
-.incbin "build/high_color_blobs.bin",11999192,4096
+.incbin "build/scene_lookups_packed.bin",1303896,3095
 .balign 4
 .global scene_nearest_243
 scene_nearest_243:
-.incbin "build/high_color_blobs.bin",12003288,4096
+.incbin "build/scene_lookups_packed.bin",1306992,3073
 .balign 4
 .global scene_nearest_244
 scene_nearest_244:
-.incbin "build/high_color_blobs.bin",12007384,4096
+.incbin "build/scene_lookups_packed.bin",1310068,2310
 .balign 4
 .global scene_nearest_245
 scene_nearest_245:
-.incbin "build/high_color_blobs.bin",12011480,4096
+.incbin "build/scene_lookups_packed.bin",1312380,3067
 .balign 4
 .global scene_nearest_246
 scene_nearest_246:
-.incbin "build/high_color_blobs.bin",12015576,4096
+.incbin "build/scene_lookups_packed.bin",1315448,2355
 .balign 4
 .global scene_nearest_247
 scene_nearest_247:
-.incbin "build/high_color_blobs.bin",12019672,4096
+.incbin "build/scene_lookups_packed.bin",1317804,2508
 .balign 4
 .global scene_nearest_248
 scene_nearest_248:
-.incbin "build/high_color_blobs.bin",12023768,4096
+.incbin "build/scene_lookups_packed.bin",1320312,2868
 .balign 4
 .global scene_nearest_249
 scene_nearest_249:
-.incbin "build/high_color_blobs.bin",12027864,4096
+.incbin "build/scene_lookups_packed.bin",1323180,2940
 .balign 4
 .global scene_nearest_250
 scene_nearest_250:
-.incbin "build/high_color_blobs.bin",12031960,4096
+.incbin "build/scene_lookups_packed.bin",1326120,3290
 .balign 4
 .global scene_nearest_251
 scene_nearest_251:
-.incbin "build/high_color_blobs.bin",12036056,4096
+.incbin "build/scene_lookups_packed.bin",1329412,2814
 .balign 4
 .global scene_nearest_252
 scene_nearest_252:
-.incbin "build/high_color_blobs.bin",12040152,4096
+.incbin "build/scene_lookups_packed.bin",1332228,2036
 .balign 4
 .global scene_nearest_253
 scene_nearest_253:
-.incbin "build/high_color_blobs.bin",12044248,4096
+.incbin "build/scene_lookups_packed.bin",1334264,2954
 .balign 4
 .global scene_nearest_254
 scene_nearest_254:
-.incbin "build/high_color_blobs.bin",12048344,4096
+.incbin "build/scene_lookups_packed.bin",1337220,2168
 .balign 4
 .global scene_nearest_255
 scene_nearest_255:
-.incbin "build/high_color_blobs.bin",12052440,4096
+.incbin "build/scene_lookups_packed.bin",1339388,2242
 .balign 4
 .global scene_nearest_256
 scene_nearest_256:
-.incbin "build/high_color_blobs.bin",12056536,4096
+.incbin "build/scene_lookups_packed.bin",1341632,2175
 .balign 4
 .global scene_nearest_257
 scene_nearest_257:
-.incbin "build/high_color_blobs.bin",12060632,4096
+.incbin "build/scene_lookups_packed.bin",1343808,3005
 .balign 4
 .global scene_nearest_258
 scene_nearest_258:
-.incbin "build/high_color_blobs.bin",12064728,4096
+.incbin "build/scene_lookups_packed.bin",1346816,3105
 .balign 4
 .global scene_nearest_259
 scene_nearest_259:
-.incbin "build/high_color_blobs.bin",12068824,4096
+.incbin "build/scene_lookups_packed.bin",1349924,2376
 .balign 4
 .global scene_nearest_260
 scene_nearest_260:
-.incbin "build/high_color_blobs.bin",12072920,4096
+.incbin "build/scene_lookups_packed.bin",1352300,3055
 .balign 4
 .global scene_nearest_261
 scene_nearest_261:
-.incbin "build/high_color_blobs.bin",12077016,4096
+.incbin "build/scene_lookups_packed.bin",1355356,3121
 .balign 4
 .global scene_nearest_262
 scene_nearest_262:
-.incbin "build/high_color_blobs.bin",12081112,4096
+.incbin "build/scene_lookups_packed.bin",1358480,2985
 .balign 4
 .global scene_nearest_263
 scene_nearest_263:
-.incbin "build/high_color_blobs.bin",12085208,4096
+.incbin "build/scene_lookups_packed.bin",1361468,3093
 .balign 4
 .global scene_nearest_264
 scene_nearest_264:
-.incbin "build/high_color_blobs.bin",12089304,4096
+.incbin "build/scene_lookups_packed.bin",1364564,3102
 .balign 4
 .global scene_nearest_265
 scene_nearest_265:
-.incbin "build/high_color_blobs.bin",12093400,4096
+.incbin "build/scene_lookups_packed.bin",1367668,3184
 .balign 4
 .global scene_nearest_266
 scene_nearest_266:
-.incbin "build/high_color_blobs.bin",12097496,4096
+.incbin "build/scene_lookups_packed.bin",1370852,2852
 .balign 4
 .global scene_nearest_267
 scene_nearest_267:
-.incbin "build/high_color_blobs.bin",12101592,4096
+.incbin "build/scene_lookups_packed.bin",1373704,2802
 .balign 4
 .global scene_nearest_268
 scene_nearest_268:
-.incbin "build/high_color_blobs.bin",12105688,4096
+.incbin "build/scene_lookups_packed.bin",1376508,2781
 .balign 4
 .global scene_nearest_269
 scene_nearest_269:
-.incbin "build/high_color_blobs.bin",12109784,4096
+.incbin "build/scene_lookups_packed.bin",1379292,2926
 .balign 4
 .global scene_nearest_270
 scene_nearest_270:
-.incbin "build/high_color_blobs.bin",12113880,4096
+.incbin "build/scene_lookups_packed.bin",1382220,2657
 .balign 4
 .global scene_nearest_271
 scene_nearest_271:
-.incbin "build/high_color_blobs.bin",12117976,4096
+.incbin "build/scene_lookups_packed.bin",1384880,2882
 .balign 4
 .global scene_nearest_272
 scene_nearest_272:
-.incbin "build/high_color_blobs.bin",12122072,4096
+.incbin "build/scene_lookups_packed.bin",1387764,2623
 .balign 4
 .global scene_nearest_273
 scene_nearest_273:
-.incbin "build/high_color_blobs.bin",12126168,4096
+.incbin "build/scene_lookups_packed.bin",1390388,3308
 .balign 4
 .global scene_nearest_274
 scene_nearest_274:
-.incbin "build/high_color_blobs.bin",12130264,4096
+.incbin "build/scene_lookups_packed.bin",1393696,2939
 .balign 4
 .global scene_nearest_275
 scene_nearest_275:
-.incbin "build/high_color_blobs.bin",12134360,4096
+.incbin "build/scene_lookups_packed.bin",1396636,3264
 .balign 4
 .global scene_nearest_276
 scene_nearest_276:
-.incbin "build/high_color_blobs.bin",12138456,4096
+.incbin "build/scene_lookups_packed.bin",1399900,2973
 .balign 4
 .global scene_nearest_277
 scene_nearest_277:
-.incbin "build/high_color_blobs.bin",12142552,4096
+.incbin "build/scene_lookups_packed.bin",1402876,3007
 .balign 4
 .global scene_nearest_278
 scene_nearest_278:
-.incbin "build/high_color_blobs.bin",12146648,4096
+.incbin "build/scene_lookups_packed.bin",1405884,2204
 .balign 4
 .global scene_nearest_279
 scene_nearest_279:
-.incbin "build/high_color_blobs.bin",12150744,4096
+.incbin "build/scene_lookups_packed.bin",1408088,2918
 .balign 4
 .global scene_nearest_280
 scene_nearest_280:
-.incbin "build/high_color_blobs.bin",12154840,4096
+.incbin "build/scene_lookups_packed.bin",1411008,3070
 .balign 4
 .global scene_nearest_281
 scene_nearest_281:
-.incbin "build/high_color_blobs.bin",12158936,4096
+.incbin "build/scene_lookups_packed.bin",1414080,3370
 .balign 4
 .global scene_nearest_282
 scene_nearest_282:
-.incbin "build/high_color_blobs.bin",12163032,4096
+.incbin "build/scene_lookups_packed.bin",1417452,2231
 .balign 4
 .global scene_nearest_283
 scene_nearest_283:
-.incbin "build/high_color_blobs.bin",12167128,4096
+.incbin "build/scene_lookups_packed.bin",1419684,2918
 .balign 4
 .global scene_nearest_284
 scene_nearest_284:
-.incbin "build/high_color_blobs.bin",12171224,4096
+.incbin "build/scene_lookups_packed.bin",1422604,2798
 .balign 4
 .global scene_nearest_285
 scene_nearest_285:
-.incbin "build/high_color_blobs.bin",12175320,4096
+.incbin "build/scene_lookups_packed.bin",1425404,2385
 .balign 4
 .global scene_nearest_286
 scene_nearest_286:
-.incbin "build/high_color_blobs.bin",12179416,4096
+.incbin "build/scene_lookups_packed.bin",1427792,3351
 .balign 4
 .global scene_nearest_287
 scene_nearest_287:
-.incbin "build/high_color_blobs.bin",12183512,4096
+.incbin "build/scene_lookups_packed.bin",1431144,3260
 .balign 4
 .global scene_nearest_288
 scene_nearest_288:
-.incbin "build/high_color_blobs.bin",12187608,4096
+.incbin "build/scene_lookups_packed.bin",1434404,3309
 .balign 4
 .global scene_nearest_289
 scene_nearest_289:
-.incbin "build/high_color_blobs.bin",12191704,4096
+.incbin "build/scene_lookups_packed.bin",1437716,3322
 .balign 4
 .global scene_nearest_290
 scene_nearest_290:
-.incbin "build/high_color_blobs.bin",12195800,4096
+.incbin "build/scene_lookups_packed.bin",1441040,3423
 .balign 4
 .global scene_nearest_291
 scene_nearest_291:
-.incbin "build/high_color_blobs.bin",12199896,4096
+.incbin "build/scene_lookups_packed.bin",1444464,3282
 .balign 4
 .global scene_nearest_292
 scene_nearest_292:
-.incbin "build/high_color_blobs.bin",12203992,4096
+.incbin "build/scene_lookups_packed.bin",1447748,3299
 .balign 4
 .global scene_nearest_293
 scene_nearest_293:
-.incbin "build/high_color_blobs.bin",12208088,4096
+.incbin "build/scene_lookups_packed.bin",1451048,3335
 .balign 4
 .global scene_nearest_294
 scene_nearest_294:
-.incbin "build/high_color_blobs.bin",12212184,4096
+.incbin "build/scene_lookups_packed.bin",1454384,3578
 .balign 4
 .global scene_nearest_295
 scene_nearest_295:
-.incbin "build/high_color_blobs.bin",12216280,4096
+.incbin "build/scene_lookups_packed.bin",1457964,3497
 .balign 4
 .global scene_nearest_296
 scene_nearest_296:
-.incbin "build/high_color_blobs.bin",12220376,4096
+.incbin "build/scene_lookups_packed.bin",1461464,3385
 .balign 4
 .global scene_nearest_297
 scene_nearest_297:
-.incbin "build/high_color_blobs.bin",12224472,4096
+.incbin "build/scene_lookups_packed.bin",1464852,3139
 .balign 4
 .global scene_nearest_298
 scene_nearest_298:
-.incbin "build/high_color_blobs.bin",12228568,4096
+.incbin "build/scene_lookups_packed.bin",1467992,3637
 .balign 4
 .global scene_nearest_299
 scene_nearest_299:
-.incbin "build/high_color_blobs.bin",12232664,4096
+.incbin "build/scene_lookups_packed.bin",1471632,3557
 .balign 4
 .global scene_nearest_300
 scene_nearest_300:
-.incbin "build/high_color_blobs.bin",12236760,4096
+.incbin "build/scene_lookups_packed.bin",1475192,3548
 .balign 4
 .global scene_nearest_301
 scene_nearest_301:
-.incbin "build/high_color_blobs.bin",12240856,4096
+.incbin "build/scene_lookups_packed.bin",1478740,3300
 .balign 4
 .global scene_nearest_302
 scene_nearest_302:
-.incbin "build/high_color_blobs.bin",12244952,4096
+.incbin "build/scene_lookups_packed.bin",1482040,2917
 .balign 4
 .global scene_nearest_303
 scene_nearest_303:
-.incbin "build/high_color_blobs.bin",12249048,4096
+.incbin "build/scene_lookups_packed.bin",1484960,3360
 .balign 4
 .global scene_nearest_304
 scene_nearest_304:
-.incbin "build/high_color_blobs.bin",12253144,4096
+.incbin "build/scene_lookups_packed.bin",1488320,2024
 .balign 4
 .global scene_nearest_305
 scene_nearest_305:
-.incbin "build/high_color_blobs.bin",12257240,4096
+.incbin "build/scene_lookups_packed.bin",1490344,3157
 .balign 4
 .global scene_nearest_306
 scene_nearest_306:
-.incbin "build/high_color_blobs.bin",12261336,4096
+.incbin "build/scene_lookups_packed.bin",1493504,3242
 .balign 4
 .global scene_nearest_307
 scene_nearest_307:
-.incbin "build/high_color_blobs.bin",12265432,4096
+.incbin "build/scene_lookups_packed.bin",1496748,3156
 .balign 4
 .global scene_nearest_308
 scene_nearest_308:
-.incbin "build/high_color_blobs.bin",12269528,4096
+.incbin "build/scene_lookups_packed.bin",1499904,2967
 .balign 4
 .global scene_nearest_309
 scene_nearest_309:
-.incbin "build/high_color_blobs.bin",12273624,4096
+.incbin "build/scene_lookups_packed.bin",1502872,3127
 .balign 4
 .global scene_nearest_310
 scene_nearest_310:
-.incbin "build/high_color_blobs.bin",12277720,4096
+.incbin "build/scene_lookups_packed.bin",1506000,3154
 .balign 4
 .global scene_nearest_311
 scene_nearest_311:
-.incbin "build/high_color_blobs.bin",12281816,4096
+.incbin "build/scene_lookups_packed.bin",1509156,2887
 .balign 4
 .global scene_nearest_312
 scene_nearest_312:
-.incbin "build/high_color_blobs.bin",12285912,4096
+.incbin "build/scene_lookups_packed.bin",1512044,3185
 .balign 4
 .global scene_nearest_313
 scene_nearest_313:
-.incbin "build/high_color_blobs.bin",12290008,4096
+.incbin "build/scene_lookups_packed.bin",1515232,2802
 .balign 4
 .global scene_nearest_314
 scene_nearest_314:
-.incbin "build/high_color_blobs.bin",12294104,4096
+.incbin "build/scene_lookups_packed.bin",1518036,3147
 .balign 4
 .global scene_nearest_315
 scene_nearest_315:
-.incbin "build/high_color_blobs.bin",12298200,4096
+.incbin "build/scene_lookups_packed.bin",1521184,3043
 .balign 4
 .global scene_nearest_316
 scene_nearest_316:
-.incbin "build/high_color_blobs.bin",12302296,4096
+.incbin "build/scene_lookups_packed.bin",1524228,3163
 .balign 4
 .global scene_nearest_317
 scene_nearest_317:
-.incbin "build/high_color_blobs.bin",12306392,4096
+.incbin "build/scene_lookups_packed.bin",1527392,2833
 .balign 4
 .global scene_nearest_318
 scene_nearest_318:
-.incbin "build/high_color_blobs.bin",12310488,4096
+.incbin "build/scene_lookups_packed.bin",1530228,2833
 .balign 4
 .global scene_nearest_319
 scene_nearest_319:
-.incbin "build/high_color_blobs.bin",12314584,4096
+.incbin "build/scene_lookups_packed.bin",1533064,3133
 .balign 4
 .global scene_nearest_320
 scene_nearest_320:
-.incbin "build/high_color_blobs.bin",12318680,4096
+.incbin "build/scene_lookups_packed.bin",1536200,2847
 .balign 4
 .global scene_nearest_321
 scene_nearest_321:
-.incbin "build/high_color_blobs.bin",12322776,4096
+.incbin "build/scene_lookups_packed.bin",1539048,2841
 .balign 4
 .global scene_nearest_322
 scene_nearest_322:
-.incbin "build/high_color_blobs.bin",12326872,4096
+.incbin "build/scene_lookups_packed.bin",1541892,2839
 .balign 4
 .global scene_nearest_323
 scene_nearest_323:
-.incbin "build/high_color_blobs.bin",12330968,4096
+.incbin "build/scene_lookups_packed.bin",1544732,2909
 .balign 4
 .global scene_nearest_324
 scene_nearest_324:
-.incbin "build/high_color_blobs.bin",12335064,4096
+.incbin "build/scene_lookups_packed.bin",1547644,2803
 .balign 4
 .global scene_nearest_325
 scene_nearest_325:
-.incbin "build/high_color_blobs.bin",12339160,4096
+.incbin "build/scene_lookups_packed.bin",1550448,2859
 .balign 4
 .global scene_nearest_326
 scene_nearest_326:
-.incbin "build/high_color_blobs.bin",12343256,4096
+.incbin "build/scene_lookups_packed.bin",1553308,3233
 .balign 4
 .global scene_nearest_327
 scene_nearest_327:
-.incbin "build/high_color_blobs.bin",12347352,4096
+.incbin "build/scene_lookups_packed.bin",1556544,3266
 .balign 4
 .global scene_nearest_328
 scene_nearest_328:
-.incbin "build/high_color_blobs.bin",12351448,4096
+.incbin "build/scene_lookups_packed.bin",1559812,3302
 .balign 4
 .global scene_nearest_329
 scene_nearest_329:
-.incbin "build/high_color_blobs.bin",12355544,4096
+.incbin "build/scene_lookups_packed.bin",1563116,3256
 .balign 4
 .global scene_nearest_330
 scene_nearest_330:
-.incbin "build/high_color_blobs.bin",12359640,4096
+.incbin "build/scene_lookups_packed.bin",1566372,3483
 .balign 4
 .global scene_nearest_331
 scene_nearest_331:
-.incbin "build/high_color_blobs.bin",12363736,4096
+.incbin "build/scene_lookups_packed.bin",1569856,3431
 .balign 4
 .global scene_nearest_332
 scene_nearest_332:
-.incbin "build/high_color_blobs.bin",12367832,4096
+.incbin "build/scene_lookups_packed.bin",1573288,3466
 .balign 4
 .global scene_nearest_333
 scene_nearest_333:
-.incbin "build/high_color_blobs.bin",12371928,4096
+.incbin "build/scene_lookups_packed.bin",1576756,3368
 .balign 4
 .global scene_nearest_334
 scene_nearest_334:
-.incbin "build/high_color_blobs.bin",12376024,4096
+.incbin "build/scene_lookups_packed.bin",1580124,2581
 .balign 4
 .global scene_nearest_335
 scene_nearest_335:
-.incbin "build/high_color_blobs.bin",12380120,4096
+.incbin "build/scene_lookups_packed.bin",1582708,3087
 .balign 4
 .global scene_nearest_336
 scene_nearest_336:
-.incbin "build/high_color_blobs.bin",12384216,4096
+.incbin "build/scene_lookups_packed.bin",1585796,3092
 .balign 4
 .global scene_nearest_337
 scene_nearest_337:
-.incbin "build/high_color_blobs.bin",12388312,4096
+.incbin "build/scene_lookups_packed.bin",1588888,3138
 .balign 4
 .global scene_nearest_338
 scene_nearest_338:
-.incbin "build/high_color_blobs.bin",12392408,4096
+.incbin "build/scene_lookups_packed.bin",1592028,3327
 .balign 4
 .global scene_nearest_339
 scene_nearest_339:
-.incbin "build/high_color_blobs.bin",12396504,4096
+.incbin "build/scene_lookups_packed.bin",1595356,3312
 .balign 4
 .global scene_nearest_340
 scene_nearest_340:
-.incbin "build/high_color_blobs.bin",12400600,4096
+.incbin "build/scene_lookups_packed.bin",1598668,3209
 .balign 4
 .global scene_nearest_341
 scene_nearest_341:
-.incbin "build/high_color_blobs.bin",12404696,4096
+.incbin "build/scene_lookups_packed.bin",1601880,3274
 .balign 4
 .global scene_nearest_342
 scene_nearest_342:
-.incbin "build/high_color_blobs.bin",12408792,4096
+.incbin "build/scene_lookups_packed.bin",1605156,2836
 .balign 4
 .global scene_nearest_343
 scene_nearest_343:
-.incbin "build/high_color_blobs.bin",12412888,4096
+.incbin "build/scene_lookups_packed.bin",1607992,2771
 .balign 4
 .global scene_nearest_344
 scene_nearest_344:
-.incbin "build/high_color_blobs.bin",12416984,4096
+.incbin "build/scene_lookups_packed.bin",1610764,2875
 .balign 4
 .global scene_nearest_345
 scene_nearest_345:
-.incbin "build/high_color_blobs.bin",12421080,4096
+.incbin "build/scene_lookups_packed.bin",1613640,2834
 .balign 4
 .global scene_nearest_346
 scene_nearest_346:
-.incbin "build/high_color_blobs.bin",12425176,4096
+.incbin "build/scene_lookups_packed.bin",1616476,3408
 .balign 4
 .global scene_nearest_347
 scene_nearest_347:
-.incbin "build/high_color_blobs.bin",12429272,4096
+.incbin "build/scene_lookups_packed.bin",1619884,3442
 .balign 4
 .global scene_nearest_348
 scene_nearest_348:
-.incbin "build/high_color_blobs.bin",12433368,4096
+.incbin "build/scene_lookups_packed.bin",1623328,3479
 .balign 4
 .global scene_nearest_349
 scene_nearest_349:
-.incbin "build/high_color_blobs.bin",12437464,4096
+.incbin "build/scene_lookups_packed.bin",1626808,3515
 .balign 4
 .global scene_nearest_350
 scene_nearest_350:
-.incbin "build/high_color_blobs.bin",12441560,4096
+.incbin "build/scene_lookups_packed.bin",1630324,3513
 .balign 4
 .global scene_nearest_351
 scene_nearest_351:
-.incbin "build/high_color_blobs.bin",12445656,4096
+.incbin "build/scene_lookups_packed.bin",1633840,3354
 .balign 4
 .global scene_nearest_352
 scene_nearest_352:
-.incbin "build/high_color_blobs.bin",12449752,4096
+.incbin "build/scene_lookups_packed.bin",1637196,3517
 .balign 4
 .global scene_nearest_353
 scene_nearest_353:
-.incbin "build/high_color_blobs.bin",12453848,4096
+.incbin "build/scene_lookups_packed.bin",1640716,3513
 .balign 4
 .global scene_nearest_354
 scene_nearest_354:
-.incbin "build/high_color_blobs.bin",12457944,4096
+.incbin "build/scene_lookups_packed.bin",1644232,3529
 .balign 4
 .global scene_nearest_355
 scene_nearest_355:
-.incbin "build/high_color_blobs.bin",12462040,4096
+.incbin "build/scene_lookups_packed.bin",1647764,3468
 .balign 4
 .global scene_nearest_356
 scene_nearest_356:
-.incbin "build/high_color_blobs.bin",12466136,4096
+.incbin "build/scene_lookups_packed.bin",1651232,3430
 .balign 4
 .global scene_nearest_357
 scene_nearest_357:
-.incbin "build/high_color_blobs.bin",12470232,4096
+.incbin "build/scene_lookups_packed.bin",1654664,3319
 .balign 4
 .global scene_nearest_358
 scene_nearest_358:
-.incbin "build/high_color_blobs.bin",12474328,4096
+.incbin "build/scene_lookups_packed.bin",1657984,3335
 .balign 4
 .global scene_nearest_359
 scene_nearest_359:
-.incbin "build/high_color_blobs.bin",12478424,4096
+.incbin "build/scene_lookups_packed.bin",1661320,3484
 .balign 4
 .global scene_nearest_360
 scene_nearest_360:
-.incbin "build/high_color_blobs.bin",12482520,4096
+.incbin "build/scene_lookups_packed.bin",1664804,3498
 .balign 4
 .global scene_nearest_361
 scene_nearest_361:
-.incbin "build/high_color_blobs.bin",12486616,4096
+.incbin "build/scene_lookups_packed.bin",1668304,3477
 .balign 4
 .global scene_nearest_362
 scene_nearest_362:
-.incbin "build/high_color_blobs.bin",12490712,4096
+.incbin "build/scene_lookups_packed.bin",1671784,3112
 .balign 4
 .global scene_nearest_363
 scene_nearest_363:
-.incbin "build/high_color_blobs.bin",12494808,4096
+.incbin "build/scene_lookups_packed.bin",1674896,2999
 .balign 4
 .global scene_nearest_364
 scene_nearest_364:
-.incbin "build/high_color_blobs.bin",12498904,4096
+.incbin "build/scene_lookups_packed.bin",1677896,3288
 .balign 4
 .global scene_nearest_365
 scene_nearest_365:
-.incbin "build/high_color_blobs.bin",12503000,4096
+.incbin "build/scene_lookups_packed.bin",1681184,2427
 .balign 4
 .global scene_nearest_366
 scene_nearest_366:
-.incbin "build/high_color_blobs.bin",12507096,4096
+.incbin "build/scene_lookups_packed.bin",1683612,2306
 .balign 4
 .global scene_nearest_367
 scene_nearest_367:
-.incbin "build/high_color_blobs.bin",12511192,4096
+.incbin "build/scene_lookups_packed.bin",1685920,2267
 .balign 4
 .global scene_nearest_368
 scene_nearest_368:
-.incbin "build/high_color_blobs.bin",12515288,4096
+.incbin "build/scene_lookups_packed.bin",1688188,2211
 .balign 4
 .global scene_nearest_369
 scene_nearest_369:
-.incbin "build/high_color_blobs.bin",12519384,4096
+.incbin "build/scene_lookups_packed.bin",1690400,2285
 .balign 4
 .global scene_nearest_370
 scene_nearest_370:
-.incbin "build/high_color_blobs.bin",12523480,4096
+.incbin "build/scene_lookups_packed.bin",1692688,2272
 .balign 4
 .global scene_nearest_371
 scene_nearest_371:
-.incbin "build/high_color_blobs.bin",12527576,4096
+.incbin "build/scene_lookups_packed.bin",1694960,2223
 .balign 4
 .global scene_nearest_372
 scene_nearest_372:
-.incbin "build/high_color_blobs.bin",12531672,4096
+.incbin "build/scene_lookups_packed.bin",1697184,2746
 .balign 4
 .global scene_nearest_373
 scene_nearest_373:
-.incbin "build/high_color_blobs.bin",12535768,4096
+.incbin "build/scene_lookups_packed.bin",1699932,3492
 .balign 4
 .global scene_nearest_374
 scene_nearest_374:
-.incbin "build/high_color_blobs.bin",12539864,4096
+.incbin "build/scene_lookups_packed.bin",1703424,3592
 .balign 4
 .global scene_nearest_375
 scene_nearest_375:
-.incbin "build/high_color_blobs.bin",12543960,4096
+.incbin "build/scene_lookups_packed.bin",1707016,3514
 .balign 4
 .global scene_nearest_376
 scene_nearest_376:
-.incbin "build/high_color_blobs.bin",12548056,4096
+.incbin "build/scene_lookups_packed.bin",1710532,3336
 .balign 4
 .global scene_nearest_377
 scene_nearest_377:
-.incbin "build/high_color_blobs.bin",12552152,4096
+.incbin "build/scene_lookups_packed.bin",1713868,3492
 .balign 4
 .global scene_nearest_378
 scene_nearest_378:
-.incbin "build/high_color_blobs.bin",12556248,4096
+.incbin "build/scene_lookups_packed.bin",1717360,3341
 .balign 4
 .global scene_nearest_379
 scene_nearest_379:
-.incbin "build/high_color_blobs.bin",12560344,4096
+.incbin "build/scene_lookups_packed.bin",1720704,3406
 .balign 4
 .global scene_nearest_380
 scene_nearest_380:
-.incbin "build/high_color_blobs.bin",12564440,4096
+.incbin "build/scene_lookups_packed.bin",1724112,3188
 .balign 4
 .global scene_nearest_381
 scene_nearest_381:
-.incbin "build/high_color_blobs.bin",12568536,4096
+.incbin "build/scene_lookups_packed.bin",1727300,3051
 .balign 4
 .global scene_nearest_382
 scene_nearest_382:
-.incbin "build/high_color_blobs.bin",12572632,4096
+.incbin "build/scene_lookups_packed.bin",1730352,2832
 .balign 4
 .global scene_nearest_383
 scene_nearest_383:
-.incbin "build/high_color_blobs.bin",12576728,4096
+.incbin "build/scene_lookups_packed.bin",1733184,3038
 .balign 4
 .global scene_nearest_384
 scene_nearest_384:
-.incbin "build/high_color_blobs.bin",12580824,4096
+.incbin "build/scene_lookups_packed.bin",1736224,2988
 .balign 4
 .global scene_nearest_385
 scene_nearest_385:
-.incbin "build/high_color_blobs.bin",12584920,4096
+.incbin "build/scene_lookups_packed.bin",1739212,3136
 .balign 4
 .global scene_nearest_386
 scene_nearest_386:
-.incbin "build/high_color_blobs.bin",12589016,4096
+.incbin "build/scene_lookups_packed.bin",1742348,3261
 .balign 4
 .global scene_nearest_387
 scene_nearest_387:
-.incbin "build/high_color_blobs.bin",12593112,4096
+.incbin "build/scene_lookups_packed.bin",1745612,2826
 .balign 4
 .global scene_nearest_388
 scene_nearest_388:
-.incbin "build/high_color_blobs.bin",12597208,4096
+.incbin "build/scene_lookups_packed.bin",1748440,3000
 .balign 4
 .global scene_nearest_389
 scene_nearest_389:
-.incbin "build/high_color_blobs.bin",12601304,4096
+.incbin "build/scene_lookups_packed.bin",1751440,3300
 .balign 4
 .global scene_nearest_390
 scene_nearest_390:
-.incbin "build/high_color_blobs.bin",12605400,4096
+.incbin "build/scene_lookups_packed.bin",1754740,3336
 .balign 4
 .global scene_nearest_391
 scene_nearest_391:
-.incbin "build/high_color_blobs.bin",12609496,4096
+.incbin "build/scene_lookups_packed.bin",1758076,3388
 .balign 4
 .global scene_nearest_392
 scene_nearest_392:
-.incbin "build/high_color_blobs.bin",12613592,4096
+.incbin "build/scene_lookups_packed.bin",1761464,2083
 .balign 4
 .global scene_nearest_393
 scene_nearest_393:
-.incbin "build/high_color_blobs.bin",12617688,4096
+.incbin "build/scene_lookups_packed.bin",1763548,3004
 .balign 4
 .global scene_nearest_394
 scene_nearest_394:
-.incbin "build/high_color_blobs.bin",12621784,4096
+.incbin "build/scene_lookups_packed.bin",1766552,3484
 .balign 4
 .global scene_nearest_395
 scene_nearest_395:
-.incbin "build/high_color_blobs.bin",12625880,4096
+.incbin "build/scene_lookups_packed.bin",1770036,3219
 .balign 4
 .global scene_nearest_396
 scene_nearest_396:
-.incbin "build/high_color_blobs.bin",12629976,4096
+.incbin "build/scene_lookups_packed.bin",1773256,2745
 .balign 4
 .global scene_nearest_397
 scene_nearest_397:
-.incbin "build/high_color_blobs.bin",12634072,4096
+.incbin "build/scene_lookups_packed.bin",1776004,2662
 .balign 4
 .global scene_nearest_398
 scene_nearest_398:
-.incbin "build/high_color_blobs.bin",12638168,4096
+.incbin "build/scene_lookups_packed.bin",1778668,3536
 .balign 4
 .global scene_nearest_399
 scene_nearest_399:
-.incbin "build/high_color_blobs.bin",12642264,4096
+.incbin "build/scene_lookups_packed.bin",1782204,3496
 .balign 4
 .global scene_nearest_400
 scene_nearest_400:
-.incbin "build/high_color_blobs.bin",12646360,4096
+.incbin "build/scene_lookups_packed.bin",1785700,3336
 .balign 4
 .global scene_nearest_401
 scene_nearest_401:
-.incbin "build/high_color_blobs.bin",12650456,4096
+.incbin "build/scene_lookups_packed.bin",1789036,3278
 .balign 4
 .global scene_nearest_402
 scene_nearest_402:
-.incbin "build/high_color_blobs.bin",12654552,4096
+.incbin "build/scene_lookups_packed.bin",1792316,3371
 .balign 4
 .global scene_nearest_403
 scene_nearest_403:
-.incbin "build/high_color_blobs.bin",12658648,4096
+.incbin "build/scene_lookups_packed.bin",1795688,3650
 .balign 4
 .global scene_nearest_404
 scene_nearest_404:
-.incbin "build/high_color_blobs.bin",12662744,4096
+.incbin "build/scene_lookups_packed.bin",1799340,3393
 .balign 4
 .global scene_nearest_405
 scene_nearest_405:
-.incbin "build/high_color_blobs.bin",12666840,4096
+.incbin "build/scene_lookups_packed.bin",1802736,3270
 .balign 4
 .global scene_nearest_406
 scene_nearest_406:
-.incbin "build/high_color_blobs.bin",12670936,4096
+.incbin "build/scene_lookups_packed.bin",1806008,3175
 .balign 4
 .global scene_nearest_407
 scene_nearest_407:
-.incbin "build/high_color_blobs.bin",12675032,4096
+.incbin "build/scene_lookups_packed.bin",1809184,3477
 .balign 4
 .global scene_nearest_408
 scene_nearest_408:
-.incbin "build/high_color_blobs.bin",12679128,4096
+.incbin "build/scene_lookups_packed.bin",1812664,3241
 .balign 4
 .global scene_nearest_409
 scene_nearest_409:
-.incbin "build/high_color_blobs.bin",12683224,4096
+.incbin "build/scene_lookups_packed.bin",1815908,3424
 .balign 4
 .global scene_nearest_410
 scene_nearest_410:
-.incbin "build/high_color_blobs.bin",12687320,4096
+.incbin "build/scene_lookups_packed.bin",1819332,3284
 .balign 4
 .global scene_nearest_411
 scene_nearest_411:
-.incbin "build/high_color_blobs.bin",12691416,4096
+.incbin "build/scene_lookups_packed.bin",1822616,3227
 .balign 4
 .global scene_nearest_412
 scene_nearest_412:
-.incbin "build/high_color_blobs.bin",12695512,4096
+.incbin "build/scene_lookups_packed.bin",1825844,3346
 .balign 4
 .global scene_nearest_413
 scene_nearest_413:
-.incbin "build/high_color_blobs.bin",12699608,4096
+.incbin "build/scene_lookups_packed.bin",1829192,2944
 .balign 4
 .global scene_nearest_414
 scene_nearest_414:
-.incbin "build/high_color_blobs.bin",12703704,4096
+.incbin "build/scene_lookups_packed.bin",1832136,3186
 .balign 4
 .global scene_nearest_415
 scene_nearest_415:
-.incbin "build/high_color_blobs.bin",12707800,4096
+.incbin "build/scene_lookups_packed.bin",1835324,3558
 .balign 4
 .global scene_nearest_416
 scene_nearest_416:
-.incbin "build/high_color_blobs.bin",12711896,4096
+.incbin "build/scene_lookups_packed.bin",1838884,3370
 .balign 4
 .global scene_nearest_417
 scene_nearest_417:
-.incbin "build/high_color_blobs.bin",12715992,4096
+.incbin "build/scene_lookups_packed.bin",1842256,3353
 .balign 4
 .global scene_nearest_418
 scene_nearest_418:
-.incbin "build/high_color_blobs.bin",12720088,4096
+.incbin "build/scene_lookups_packed.bin",1845612,3797
 .balign 4
 .global scene_nearest_419
 scene_nearest_419:
-.incbin "build/high_color_blobs.bin",12724184,4096
+.incbin "build/scene_lookups_packed.bin",1849412,3373
 .balign 4
 .global scene_nearest_420
 scene_nearest_420:
-.incbin "build/high_color_blobs.bin",12728280,4096
+.incbin "build/scene_lookups_packed.bin",1852788,3153
 .balign 4
 .global scene_nearest_421
 scene_nearest_421:
-.incbin "build/high_color_blobs.bin",12732376,4096
+.incbin "build/scene_lookups_packed.bin",1855944,3281
 .balign 4
 .global scene_nearest_422
 scene_nearest_422:
-.incbin "build/high_color_blobs.bin",12736472,4096
+.incbin "build/scene_lookups_packed.bin",1859228,3507
 .balign 4
 .global scene_nearest_423
 scene_nearest_423:
-.incbin "build/high_color_blobs.bin",12740568,4096
+.incbin "build/scene_lookups_packed.bin",1862736,3269
 .balign 4
 .global scene_nearest_424
 scene_nearest_424:
-.incbin "build/high_color_blobs.bin",12744664,4096
+.incbin "build/scene_lookups_packed.bin",1866008,3075
 .balign 4
 .global scene_nearest_425
 scene_nearest_425:
-.incbin "build/high_color_blobs.bin",12748760,4096
+.incbin "build/scene_lookups_packed.bin",1869084,3492
 .balign 4
 .global scene_nearest_426
 scene_nearest_426:
-.incbin "build/high_color_blobs.bin",12752856,4096
+.incbin "build/scene_lookups_packed.bin",1872576,3067
 .balign 4
 .global scene_nearest_427
 scene_nearest_427:
-.incbin "build/high_color_blobs.bin",12756952,4096
+.incbin "build/scene_lookups_packed.bin",1875644,3062
 .balign 4
 .global scene_nearest_428
 scene_nearest_428:
-.incbin "build/high_color_blobs.bin",12761048,4096
+.incbin "build/scene_lookups_packed.bin",1878708,3660
 .balign 4
 .global scene_nearest_429
 scene_nearest_429:
-.incbin "build/high_color_blobs.bin",12765144,4096
+.incbin "build/scene_lookups_packed.bin",1882368,2894
 .balign 4
 .global scene_nearest_430
 scene_nearest_430:
-.incbin "build/high_color_blobs.bin",12769240,4096
+.incbin "build/scene_lookups_packed.bin",1885264,3354
 .balign 4
 .global scene_nearest_431
 scene_nearest_431:
-.incbin "build/high_color_blobs.bin",12773336,4096
+.incbin "build/scene_lookups_packed.bin",1888620,3175
 .balign 4
 .global scene_nearest_432
 scene_nearest_432:
-.incbin "build/high_color_blobs.bin",12777432,4096
+.incbin "build/scene_lookups_packed.bin",1891796,3125
 .balign 4
 .global scene_nearest_433
 scene_nearest_433:
-.incbin "build/high_color_blobs.bin",12781528,4096
+.incbin "build/scene_lookups_packed.bin",1894924,3290
 .balign 4
 .global scene_nearest_434
 scene_nearest_434:
-.incbin "build/high_color_blobs.bin",12785624,4096
+.incbin "build/scene_lookups_packed.bin",1898216,3227
 .balign 4
 .global scene_nearest_435
 scene_nearest_435:
-.incbin "build/high_color_blobs.bin",12789720,4096
+.incbin "build/scene_lookups_packed.bin",1901444,3342
 .balign 4
 .global scene_nearest_436
 scene_nearest_436:
-.incbin "build/high_color_blobs.bin",12793816,4096
+.incbin "build/scene_lookups_packed.bin",1904788,3464
 .balign 4
 .global scene_nearest_437
 scene_nearest_437:
-.incbin "build/high_color_blobs.bin",12797912,4096
+.incbin "build/scene_lookups_packed.bin",1908252,3404
 .balign 4
 .global scene_nearest_438
 scene_nearest_438:
-.incbin "build/high_color_blobs.bin",12802008,4096
+.incbin "build/scene_lookups_packed.bin",1911656,3213
 .balign 4
 .global scene_nearest_439
 scene_nearest_439:
-.incbin "build/high_color_blobs.bin",12806104,4096
+.incbin "build/scene_lookups_packed.bin",1914872,3492
 .balign 4
 .global scene_nearest_440
 scene_nearest_440:
-.incbin "build/high_color_blobs.bin",12810200,4096
+.incbin "build/scene_lookups_packed.bin",1918364,3536
 .balign 4
 .global scene_nearest_441
 scene_nearest_441:
-.incbin "build/high_color_blobs.bin",12814296,4096
+.incbin "build/scene_lookups_packed.bin",1921900,2946
 .balign 4
 .global scene_nearest_442
 scene_nearest_442:
-.incbin "build/high_color_blobs.bin",12818392,4096
+.incbin "build/scene_lookups_packed.bin",1924848,3314
 .balign 4
 .global scene_nearest_443
 scene_nearest_443:
-.incbin "build/high_color_blobs.bin",12822488,32768
+.incbin "build/scene_lookups_packed.bin",1928164,14872
 .balign 4
 .global scene_nearest_444
 scene_nearest_444:
-.incbin "build/high_color_blobs.bin",12855256,32768
+.incbin "build/scene_lookups_packed.bin",1943036,14929
 .balign 4
 .global scene_nearest_445
 scene_nearest_445:
-.incbin "build/high_color_blobs.bin",12888024,32768
+.incbin "build/scene_lookups_packed.bin",1957968,15728
 .balign 4
 .global scene_nearest_446
 scene_nearest_446:
-.incbin "build/high_color_blobs.bin",12920792,32768
+.incbin "build/scene_lookups_packed.bin",1973696,14965
 .balign 4
 .global scene_nearest_447
 scene_nearest_447:
-.incbin "build/high_color_blobs.bin",12953560,32768
+.incbin "build/scene_lookups_packed.bin",1988664,14066
 .balign 4
 .global scene_nearest_448
 scene_nearest_448:
-.incbin "build/high_color_blobs.bin",12986328,32768
+.incbin "build/scene_lookups_packed.bin",2002732,14295
 .balign 4
 .global scene_nearest_449
 scene_nearest_449:
-.incbin "build/high_color_blobs.bin",13019096,32768
+.incbin "build/scene_lookups_packed.bin",2017028,14236
 .balign 4
 .global scene_nearest_450
 scene_nearest_450:
-.incbin "build/high_color_blobs.bin",13051864,32768
+.incbin "build/scene_lookups_packed.bin",2031264,15395
 .balign 4
 .global scene_nearest_451
 scene_nearest_451:
-.incbin "build/high_color_blobs.bin",13084632,32768
+.incbin "build/scene_lookups_packed.bin",2046660,14687
 .balign 4
 .global scene_nearest_452
 scene_nearest_452:
-.incbin "build/high_color_blobs.bin",13117400,32768
+.incbin "build/scene_lookups_packed.bin",2061348,13050
 .balign 4
 .global scene_nearest_453
 scene_nearest_453:
-.incbin "build/high_color_blobs.bin",13150168,32768
+.incbin "build/scene_lookups_packed.bin",2074400,14932
 .balign 4
 .global scene_nearest_454
 scene_nearest_454:
-.incbin "build/high_color_blobs.bin",13182936,32768
+.incbin "build/scene_lookups_packed.bin",2089332,13901
 .balign 4
 .global scene_nearest_455
 scene_nearest_455:
-.incbin "build/high_color_blobs.bin",13215704,32768
+.incbin "build/scene_lookups_packed.bin",2103236,13710
 .balign 4
 .global scene_nearest_456
 scene_nearest_456:
-.incbin "build/high_color_blobs.bin",13248472,32768
+.incbin "build/scene_lookups_packed.bin",2116948,18311
 .balign 4
 .global scene_nearest_457
 scene_nearest_457:
-.incbin "build/high_color_blobs.bin",13281240,32768
+.incbin "build/scene_lookups_packed.bin",2135260,15455
 .balign 4
 .global scene_nearest_458
 scene_nearest_458:
-.incbin "build/high_color_blobs.bin",13314008,32768
+.incbin "build/scene_lookups_packed.bin",2150716,15767
 .balign 4
 .global scene_nearest_459
 scene_nearest_459:
-.incbin "build/high_color_blobs.bin",13346776,32768
+.incbin "build/scene_lookups_packed.bin",2166484,15094
 .balign 4
 .global scene_nearest_460
 scene_nearest_460:
-.incbin "build/high_color_blobs.bin",13379544,32768
+.incbin "build/scene_lookups_packed.bin",2181580,15083
 .balign 4
 .global scene_nearest_461
 scene_nearest_461:
-.incbin "build/high_color_blobs.bin",13412312,32768
+.incbin "build/scene_lookups_packed.bin",2196664,17293
 .balign 4
 .global scene_nearest_462
 scene_nearest_462:
-.incbin "build/high_color_blobs.bin",13445080,32768
+.incbin "build/scene_lookups_packed.bin",2213960,17137
 .balign 4
 .global scene_nearest_463
 scene_nearest_463:
-.incbin "build/high_color_blobs.bin",13477848,4096
+.incbin "build/scene_lookups_packed.bin",2231100,2679
 .balign 4
 .global scene_nearest_464
 scene_nearest_464:
-.incbin "build/high_color_blobs.bin",13481944,4096
+.incbin "build/scene_lookups_packed.bin",2233780,2567
 .balign 4
 .global scene_nearest_465
 scene_nearest_465:
-.incbin "build/high_color_blobs.bin",13486040,4096
+.incbin "build/scene_lookups_packed.bin",2236348,2583
 .balign 4
 .global scene_nearest_466
 scene_nearest_466:
-.incbin "build/high_color_blobs.bin",13490136,4096
+.incbin "build/scene_lookups_packed.bin",2238932,2488
 .balign 4
 .global scene_nearest_467
 scene_nearest_467:
-.incbin "build/high_color_blobs.bin",13494232,4096
+.incbin "build/scene_lookups_packed.bin",2241420,2372
 .balign 4
 .global scene_nearest_468
 scene_nearest_468:
-.incbin "build/high_color_blobs.bin",13498328,4096
+.incbin "build/scene_lookups_packed.bin",2243792,2323
 .balign 4
 .global scene_nearest_469
 scene_nearest_469:
-.incbin "build/high_color_blobs.bin",13502424,4096
+.incbin "build/scene_lookups_packed.bin",2246116,2596
 .balign 4
 .global scene_nearest_470
 scene_nearest_470:
-.incbin "build/high_color_blobs.bin",13506520,4096
+.incbin "build/scene_lookups_packed.bin",2248712,2469
 .balign 4
 .global scene_nearest_471
 scene_nearest_471:
-.incbin "build/high_color_blobs.bin",13510616,4096
+.incbin "build/scene_lookups_packed.bin",2251184,2697
 .balign 4
 .global scene_nearest_472
 scene_nearest_472:
-.incbin "build/high_color_blobs.bin",13514712,4096
+.incbin "build/scene_lookups_packed.bin",2253884,3443
 .balign 4
 .global scene_nearest_473
 scene_nearest_473:
-.incbin "build/high_color_blobs.bin",13518808,4096
+.incbin "build/scene_lookups_packed.bin",2257328,2832
 .balign 4
 .global scene_nearest_474
 scene_nearest_474:
-.incbin "build/high_color_blobs.bin",13522904,4096
+.incbin "build/scene_lookups_packed.bin",2260160,2986
 .balign 4
 .global scene_nearest_475
 scene_nearest_475:
-.incbin "build/high_color_blobs.bin",13527000,4096
+.incbin "build/scene_lookups_packed.bin",2263148,3297
 .balign 4
 .global scene_nearest_476
 scene_nearest_476:
-.incbin "build/high_color_blobs.bin",13531096,4096
+.incbin "build/scene_lookups_packed.bin",2266448,3080
 .balign 4
 .global scene_nearest_477
 scene_nearest_477:
-.incbin "build/high_color_blobs.bin",13535192,4096
+.incbin "build/scene_lookups_packed.bin",2269528,3394
 .balign 4
 .global scene_nearest_478
 scene_nearest_478:
-.incbin "build/high_color_blobs.bin",13539288,4096
+.incbin "build/scene_lookups_packed.bin",2272924,3338
 .balign 4
 .global scene_nearest_479
 scene_nearest_479:
-.incbin "build/high_color_blobs.bin",13543384,4096
+.incbin "build/scene_lookups_packed.bin",2276264,3328

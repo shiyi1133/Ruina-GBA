@@ -1,0 +1,95 @@
+{
+  "phase": 0,
+  "top": [
+    {
+      "function": "animation_flash_span",
+      "instructions": 3787801,
+      "cycles": 6549252
+    },
+    {
+      "function": "lz4",
+      "instructions": 3323474,
+      "cycles": 6390154
+    },
+    {
+      "function": "animation_opaque_runs.constprop.0",
+      "instructions": 2729998,
+      "cycles": 5602647
+    },
+    {
+      "function": "memcpy",
+      "instructions": 912762,
+      "cycles": 2838716
+    },
+    {
+      "function": "segment",
+      "instructions": 1543461,
+      "cycles": 2641097
+    },
+    {
+      "function": "audio_irq",
+      "instructions": 918663,
+      "cycles": 1715026
+    },
+    {
+      "function": "audio_service",
+      "instructions": 196508,
+      "cycles": 1407860
+    },
+    {
+      "function": "rgb_flip",
+      "instructions": 179592,
+      "cycles": 1120881
+    },
+    {
+      "function": "balanced_animation_cell",
+      "instructions": 279952,
+      "cycles": 875453
+    },
+    {
+      "function": "mix_voice_block",
+      "instructions": 395240,
+      "cycles": 810115
+    },
+    {
+      "function": "decode_image_storage_span",
+      "instructions": 93967,
+      "cycles": 606867
+    },
+    {
+      "function": "rgb_image",
+      "instructions": 152478,
+      "cycles": 513349
+    },
+    {
+      "function": "__udivsi3",
+      "instructions": 112008,
+      "cycles": 507658
+    },
+    {
+      "function": "__divsi3",
+      "instructions": 113387,
+      "cycles": 506341
+    },
+    {
+      "function": "rgb_damage",
+      "instructions": 63639,
+      "cycles": 220578
+    },
+    {
+      "function": "unattributed",
+      "instructions": 30845,
+      "cycles": 171770
+    },
+    {
+      "function": "__audio_service_from_thumb",
+      "instructions": 10280,
+      "cycles": 133604
+    },
+    {
+      "function": "lcf_field",
+      "instructions": 49930,
+      "cycles": 115350
+    }
+  ]
+}

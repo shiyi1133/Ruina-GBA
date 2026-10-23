@@ -9,7 +9,7 @@ typedef struct {LcfSpan source;unsigned from,to;int kind,indent,a,b;} JumpMemo;
 static JumpMemo jumps[256];
 static JumpMemo*jump_slot(Frame*f,int kind,int indent,int a,int b){unsigned h=((unsigned long)f->reader.span.data>>2)^f->reader.pos^(kind*131U)^(a*17U);JumpMemo*m=jumps+(h&255);if(m->to&&m->source.data==f->reader.span.data&&m->source.size==f->reader.span.size&&m->from==f->reader.pos&&m->kind==kind&&m->indent==indent&&m->a==a&&m->b==b){f->reader.pos=m->to;return 0;}*m=(JumpMemo){f->reader.span,f->reader.pos,0,kind,indent,a,b};return m;}
 static inline __attribute__((always_inline)) void command_audio(void){static unsigned audio_work;if(!(audio_work++&15))audio_service();}
-static int LCF_HOT get_command(LcfReader*r,LcfCommand*c,int*p){
+static int get_command(LcfReader*r,LcfCommand*c,int*p){
     /* Long background pages and branch scans must refill sound without
      * advancing game ticks or recursively running another event interpreter. */
     command_audio();
@@ -67,7 +67,10 @@ static int operand(const int*p){int a=p[5],b=p[6];switch(p[4]){
 }
 static int needs_ui(unsigned code){return code==RM2K_ShowMessage||code==RM2K_ShowChoice||code==RM2K_InputNumber||code==RM2K_EnterHeroName||code==RM2K_OpenShop||code==RM2K_OpenSaveMenu||code==RM2K_OpenMainMenu||code==RM2K_EnemyEncounter||code==RM2K_ShowPicture||code==RM2K_MovePicture||code==RM2K_ErasePicture||code==RM2K_EraseScreen||code==RM2K_ShowScreen;}
 static void visible_wait(int frames){int i;for(i=0;i<frames&&!halt_code;i++){wait_frame();if(!presentation_busy()&&!battle_active&&!engine_ui_depth&&(world_presented_revision!=parallel_revision&&(i==frames-1||(i&7)==0))){world_redraw();}}}
-static void LCF_HOT __attribute__((noinline)) execute_events_until(int parent_depth){
+/* The large opcode switch is cold relative to per-pixel drawing and image
+ * decoding. Keep command transport hot, reserving scarce IWRAM for those
+ * inner loops; bytecode order, waits and event rules are unchanged. */
+static void __attribute__((noinline)) execute_events_until(int parent_depth){
     int budget=vm_background?256:8000;int*params=params_slots[execution_level-1];static u8 message_bytes[8192];
     while(depth>parent_depth&&!halt_code&&!battle_event_stopped()&&(!vm_background||!vm_background_map||game.map==vm_background_map)&&budget--){
         Frame*f=&stack[depth-1];LcfCommand local;const LcfCommand*c=&local;const int*p=params;int i,a,n,ok;

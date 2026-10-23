@@ -1,0 +1,493 @@
+{
+  "status": "pass",
+  "version": "0.7.4",
+  "ROM_sha256": "95ebdb37f840dc243eddaeb0468d2e8576f8d3380c564b1d72917907ae762ebd",
+  "acceptance_ROM_sha256": "649b38f2ce68f1234cef8f865119787d186752a7ee49070a2282b01860aa5f7a",
+  "reports": [
+    "evidence/battle_animations_20261023/b7cc6457e1a2/result.json",
+    "evidence/battle_animations_20261023/e984fbf6f5ee/result.json",
+    "evidence/animation_optimization_20261023/blend_95ebdb37f840/result.json",
+    "evidence/optimization_20261022/portrait_matrix/a53d4b63cbea/result.json",
+    "evidence/optimization_20261022/music/gba_matrix/d761e71a0ced/result.json",
+    "evidence/animation_smooth_20261023/sequences_release_all.json",
+    "evidence/animation_smooth_20261023/timing_all.json",
+    "evidence/animation_smooth_20261023/cache_reuse.json",
+    "evidence/animation_smooth_20261023/settings.json",
+    "evidence/animation_smooth_20261023/settings_glyphs.json",
+    "evidence/animation_smooth_20261023/cadence_release_v074.json",
+    "evidence/animation_smooth_20261023/cadence_release_full_v074.json",
+    "evidence/first_battle_origin_3/result.json",
+    "evidence/balanced_optimization_20261023/save_stack/95ebdb37f840/result.json",
+    "evidence/balanced_optimization_20261023/95ebdb37f840/battle_menu_navigation/result.json",
+    "evidence/balanced_optimization_20261023/95ebdb37f840/performance_release_v074/result.json",
+    "evidence/hardware_scroll/native_crop/result.json",
+    "evidence/balanced_optimization_20261023/rgb_pixels/a3e04bfcd232/result.json",
+    "evidence/animation_optimization_20261023/playback_release_v074.json",
+    "evidence/animation_optimization_20261023/playback_release_full_v074.json",
+    "evidence/optimization_20261022/art/tiled_codec_host.json"
+  ],
+  "original_time_playback": {
+    "status": "pass",
+    "label": "release_v074",
+    "mode": "original_time",
+    "production_ROM_sha256": "95ebdb37f840dc243eddaeb0468d2e8576f8d3380c564b1d72917907ae762ebd",
+    "fixture_ROM_sha256": "a89d0cbd1c4b9ea74af5786166d601ea6adf5e5c8d05d4e3cb72101cfeab646d",
+    "MIDI_track": 1,
+    "samples": [
+      {
+        "animation": 46,
+        "hardware_frames": 95,
+        "seconds": 1.5905570983886719,
+        "MIDI_underruns": 0,
+        "timing": [
+          46,
+          7,
+          13,
+          10,
+          40,
+          99,
+          141,
+          0
+        ]
+      },
+      {
+        "animation": 62,
+        "hardware_frames": 66,
+        "seconds": 1.1050186157226562,
+        "MIDI_underruns": 0,
+        "timing": [
+          62,
+          7,
+          17,
+          4,
+          48,
+          181,
+          230,
+          0
+        ]
+      },
+      {
+        "animation": 78,
+        "hardware_frames": 74,
+        "seconds": 1.2389602661132812,
+        "MIDI_underruns": 0,
+        "timing": [
+          78,
+          8,
+          16,
+          4,
+          48,
+          265,
+          320,
+          0
+        ]
+      },
+      {
+        "animation": 191,
+        "hardware_frames": 107,
+        "seconds": 1.7914695739746094,
+        "MIDI_underruns": 0,
+        "timing": [
+          191,
+          20,
+          20,
+          12,
+          80,
+          362,
+          445,
+          0
+        ]
+      }
+    ],
+    "total_seconds": 5.726005554199219,
+    "scope": "Production animation_battle with original SFX and real MIDI. Hardware frame counter observed around full playback, including preparation; no user delay included. Controlled battlers/targets only. Not full gameplay FPS."
+  },
+  "complete_frames_playback": {
+    "status": "pass",
+    "label": "release_full_v074",
+    "mode": "complete_frames",
+    "production_ROM_sha256": "95ebdb37f840dc243eddaeb0468d2e8576f8d3380c564b1d72917907ae762ebd",
+    "fixture_ROM_sha256": "4e40f7d2a0b3105f0291100ea53e7fbede936cf47b939c4b1b7aa6d3de7f69bc",
+    "MIDI_track": 1,
+    "samples": [
+      {
+        "animation": 46,
+        "hardware_frames": 126,
+        "seconds": 2.1095809936523438,
+        "MIDI_underruns": 0,
+        "timing": [
+          46,
+          0,
+          20,
+          10,
+          40,
+          99,
+          0,
+          1
+        ]
+      },
+      {
+        "animation": 62,
+        "hardware_frames": 104,
+        "seconds": 1.741241455078125,
+        "MIDI_underruns": 0,
+        "timing": [
+          62,
+          0,
+          24,
+          4,
+          48,
+          209,
+          0,
+          1
+        ]
+      },
+      {
+        "animation": 78,
+        "hardware_frames": 145,
+        "seconds": 2.427692413330078,
+        "MIDI_underruns": 0,
+        "timing": [
+          78,
+          0,
+          24,
+          4,
+          48,
+          333,
+          0,
+          1
+        ]
+      },
+      {
+        "animation": 191,
+        "hardware_frames": 250,
+        "seconds": 4.185676574707031,
+        "MIDI_underruns": 0,
+        "timing": [
+          191,
+          0,
+          40,
+          12,
+          80,
+          497,
+          0,
+          1
+        ]
+      }
+    ],
+    "total_seconds": 10.464191436767578,
+    "scope": "Production animation_battle with original SFX and real MIDI. Hardware frame counter observed around full playback, including preparation; no user delay included. Controlled battlers/targets only. Not full gameplay FPS."
+  },
+  "all_original_frame_LCD_comparison": {
+    "status": "pass",
+    "label": "release_all",
+    "baseline_ROM_sha256": "8c102fb03935f05f47e7aa3f7d95630d365e24a121d56dd628d849d7f8a82cd4",
+    "production_ROM_sha256": "95ebdb37f840dc243eddaeb0468d2e8576f8d3380c564b1d72917907ae762ebd",
+    "animation_records": 230,
+    "source_frames": 4501,
+    "all_LCD_pixels_identical": true,
+    "clean_restoration_after_every_sequence": true,
+    "scope": "Two separately linked controlled cartridges, unchanged production animation and rendering objects from v0.7.3 and this candidate. Every original frame and clean restoration compared by actual 64-bit LCD hash. Real buttons, paused logical clock between manual original frame ticks; audio remains live. This checks visual fidelity, not playback performance or complete gameplay.",
+    "physical_hardware": "not_run"
+  },
+  "timing_events": {
+    "status": "pass",
+    "production_ROM_sha256": "95ebdb37f840dc243eddaeb0468d2e8576f8d3380c564b1d72917907ae762ebd",
+    "fixture_ROM_sha256": "eece20607cfd8cd5dcafbd240259e6380981476a3252305f3367f5393ff40bad",
+    "animation_records": 230,
+    "playback_modes": 2,
+    "all_original_timing_events_in_order_once": true,
+    "clean_restoration_after_every_case": true,
+    "no_MIDI_queue_underruns": true,
+    "scope": "All original animation records in separately linked controlled battle with live MIDI/SFX, real frame clock and buttons. Original-time mode may omit late transition images; full-frames mode checks every source frame. Not campaign or physical hardware acceptance.",
+    "physical_hardware": "not_run"
+  },
+  "acceptance_checks": [
+    {
+      "check": "fresh original origin reaches map with HP/MP and four bonuses 999, all 65 magic spells and the initial grant of 194 learnable abilities",
+      "origin": 1,
+      "level": 1,
+      "grant_trace": [
+        1,
+        19,
+        194,
+        999
+      ],
+      "original_conditional_auxiliary_skills": [
+        {
+          "actor": 1,
+          "original_event_managed_skills": [
+            40
+          ]
+        },
+        {
+          "actor": 5,
+          "original_event_managed_skills": [
+            399
+          ]
+        },
+        {
+          "actor": 6,
+          "original_event_managed_skills": [
+            11,
+            12
+          ]
+        },
+        {
+          "actor": 10,
+          "original_event_managed_skills": [
+            52
+          ]
+        }
+      ],
+      "pass": true
+    },
+    {
+      "check": "all 65 learned magic spells actually appear enabled, verified by real battle LCD text pixels; original equipment rules unchanged",
+      "spell_ids": [
+        27,
+        28,
+        30,
+        31,
+        33,
+        34,
+        35,
+        37,
+        38,
+        77,
+        78,
+        79,
+        80,
+        82,
+        83,
+        84,
+        85,
+        86,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        139,
+        140,
+        141,
+        142,
+        143,
+        144,
+        145,
+        169,
+        170,
+        171,
+        172,
+        173,
+        175,
+        201,
+        202,
+        203,
+        204,
+        212,
+        215,
+        216,
+        217,
+        219,
+        220,
+        221,
+        222,
+        224,
+        225,
+        226,
+        227,
+        228,
+        229,
+        230,
+        231,
+        276,
+        280,
+        289,
+        291,
+        292,
+        293,
+        301,
+        309
+      ],
+      "starting_magic_weapon": 453,
+      "pass": true
+    },
+    {
+      "check": "actual first battle imports all six stats 999; skill list wraps; arrow spell executes and wins; MP falls 999->997 and is not silently restored",
+      "skill_choices": 172,
+      "actual_battle_unit": [
+        1,
+        0,
+        999,
+        999,
+        999,
+        999,
+        999,
+        999,
+        999,
+        999
+      ],
+      "after": {
+        "HP": 999,
+        "MP": 997,
+        "XP": 1
+      },
+      "pass": true
+    },
+    {
+      "check": "original B help and actual menu save remain usable with unchanged 39704-byte v5 SRAM",
+      "pass": true
+    },
+    {
+      "check": "fresh original origin reaches map with HP/MP and four bonuses 999, all 65 magic spells and the initial grant of 194 learnable abilities",
+      "origin": 2,
+      "level": 1,
+      "grant_trace": [
+        1,
+        19,
+        194,
+        999
+      ],
+      "original_conditional_auxiliary_skills": [
+        {
+          "actor": 2,
+          "original_event_managed_skills": [
+            40
+          ]
+        },
+        {
+          "actor": 5,
+          "original_event_managed_skills": [
+            399
+          ]
+        },
+        {
+          "actor": 6,
+          "original_event_managed_skills": [
+            11,
+            12
+          ]
+        },
+        {
+          "actor": 10,
+          "original_event_managed_skills": [
+            52
+          ]
+        }
+      ],
+      "pass": true
+    },
+    {
+      "check": "fresh original origin reaches map with HP/MP and four bonuses 999, all 65 magic spells and the initial grant of 194 learnable abilities",
+      "origin": 3,
+      "level": 1,
+      "grant_trace": [
+        1,
+        19,
+        194,
+        999
+      ],
+      "original_conditional_auxiliary_skills": [
+        {
+          "actor": 3,
+          "original_event_managed_skills": [
+            40
+          ]
+        },
+        {
+          "actor": 5,
+          "original_event_managed_skills": [
+            399
+          ]
+        },
+        {
+          "actor": 6,
+          "original_event_managed_skills": [
+            11,
+            12
+          ]
+        },
+        {
+          "actor": 10,
+          "original_event_managed_skills": [
+            52
+          ]
+        }
+      ],
+      "pass": true
+    },
+    {
+      "check": "fresh original origin reaches map with HP/MP and four bonuses 999, all 65 magic spells and the initial grant of 194 learnable abilities",
+      "origin": 4,
+      "level": 1,
+      "grant_trace": [
+        1,
+        19,
+        194,
+        999
+      ],
+      "original_conditional_auxiliary_skills": [
+        {
+          "actor": 4,
+          "original_event_managed_skills": [
+            40
+          ]
+        },
+        {
+          "actor": 5,
+          "original_event_managed_skills": [
+            399
+          ]
+        },
+        {
+          "actor": 6,
+          "original_event_managed_skills": [
+            11,
+            12
+          ]
+        },
+        {
+          "actor": 10,
+          "original_event_managed_skills": [
+            52
+          ]
+        }
+      ],
+      "pass": true
+    },
+    {
+      "check": "fresh-process ordinary SAV retains enhanced stats, learned skills and spent MP; no repeated cheat grant after load",
+      "pass": true,
+      "load": {
+        "full_state_checksum_at_load_matches": true,
+        "state_bytes_at_load": 39704,
+        "player_progress_after_background_events_resume_matches": true,
+        "compared_after_resume": [
+          "map",
+          "gold",
+          "inventory",
+          "party and party actor records",
+          "origin, SP, story phase"
+        ],
+        "all_bytes_after_resuming_background_events": "not required: original parallel events legitimately update scratch state"
+      }
+    },
+    {
+      "check": "old ordinary save loads exactly without converting it into an enhanced save",
+      "pass": true
+    }
+  ],
+  "source_folder_rebuild_byte_identical": true,
+  "source_ZIP_rebuild": "pass, both byte identical",
+  "scope": "230 original records, 4501 individual source frames compared on actual LCD in the paused complete-frame fixture; 460 live MIDI/SFX playback cases verify both modes and ordered timing events. 44 independent RGB555 cases, all integer opacity percentages, 164 face/mixed palette samples under audio stress, ordinary save/cold-load and stack observations, real first victory, actual skill targeting and menu cancellation. All 99 MIDI scores sampled for 3 seconds near each mode polyphony peak. Enhancement checked for all four origins, 65 enabled magic spells, actual cast and save.",
+  "limitations": [
+    "Original-time mode deliberately omits late transition frames; it does not guarantee 30 FPS or exact PC presentation speed.",
+    "Complete-frames mode retains all pictures and can still run slowly on very complex effects.",
+    "Music checks are peak spot checks, not all complete scores on GBA.",
+    "Map event animation, shake and black scene cuts retain existing reduced presentation."
+  ],
+  "physical_hardware": "not_run",
+  "full_campaign": "not_run"
+}

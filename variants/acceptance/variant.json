@@ -1,7 +1,7 @@
 {
-  "version": "0.7.3-acceptance",
-  "ROM_sha256": "8ae611cf961d1f639f40339721755bac0ca0e9193cfae7b0e0b32796ae2f17ef",
-  "application": "Replace same relative source/ and tools/ files with this variant, then build --incremental. Use a separate copy of the project.",
+  "version": "0.7.4-acceptance",
+  "ROM_sha256": "649b38f2ce68f1234cef8f865119787d186752a7ee49070a2282b01860aa5f7a",
+  "application": "Replace same relative source/ and tools/ files in a separate project copy, then build --incremental.",
   "HP_MP_and_bonuses": 999,
   "magic_spells": 65,
   "all_learnable_abilities": 194,

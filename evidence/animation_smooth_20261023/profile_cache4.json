@@ -1,0 +1,859 @@
+{
+  "production_ROM_sha256": "1ebe7ffe06db482a3485777922e4afefd667ee9564b7654617937bea5cc4e980",
+  "label": "cache4",
+  "scope": "Read-only PC and elapsed emulated CPU cycles over two 120-hardware-frame windows of full original animation 191, real MIDI and SFX, controlled battlers. PC bins have 16-byte precision.",
+  "samples": [
+    {
+      "phase": 0,
+      "trace": "PROFILE 120 8960324 080192c0:489920 080192d0:489920 080192b0:478472 03002cd0:399104 03002ce0:399104 080192a0:344568 080190d0:244660 080190e0:244658 080190f0:244656 08019100:244656 08019110:244656 080190c0:236560 03002cf0:201111 08019120:187541 08018750:144836 03004d80:131648 03004d90:131648 03004da0:131648 03004dd0:131648 08018730:104471 08018740:103642 08018d80:103425 08018d70:85318 08018760:82866 08018dd0:71112 03004dc0:65824 03002940:65280 03002950:65280 03002960:65280 03002990:65280",
+      "functions": [
+        {
+          "function": "animation_pack.constprop.0",
+          "instructions": 5120970,
+          "cycles": 24817500
+        },
+        {
+          "function": "segment",
+          "instructions": 1898231,
+          "cycles": 3346733
+        },
+        {
+          "function": "audio_irq",
+          "instructions": 962047,
+          "cycles": 1839196
+        },
+        {
+          "function": "rgb_image",
+          "instructions": 465640,
+          "cycles": 1679442
+        },
+        {
+          "function": "lz4",
+          "instructions": 130372,
+          "cycles": 742222
+        },
+        {
+          "function": "memset",
+          "instructions": 97717,
+          "cycles": 292792
+        },
+        {
+          "function": "glyph_pixels",
+          "instructions": 125860,
+          "cycles": 215154
+        },
+        {
+          "function": "unattributed",
+          "instructions": 28388,
+          "cycles": 173946
+        },
+        {
+          "function": "audio_service",
+          "instructions": 22955,
+          "cycles": 154357
+        },
+        {
+          "function": "image_storage_tile",
+          "instructions": 22022,
+          "cycles": 137070
+        },
+        {
+          "function": "rgb_fill",
+          "instructions": 23572,
+          "cycles": 90484
+        },
+        {
+          "function": "native_midi_render",
+          "instructions": 21651,
+          "cycles": 54657
+        },
+        {
+          "function": "rgb_damage",
+          "instructions": 15507,
+          "cycles": 54419
+        },
+        {
+          "function": "draw_text",
+          "instructions": 13151,
+          "cycles": 45553
+        },
+        {
+          "function": "mix_voice_block",
+          "instructions": 4352,
+          "cycles": 13056
+        },
+        {
+          "function": "__audio_default_sounds_from_thumb",
+          "instructions": 928,
+          "cycles": 12066
+        },
+        {
+          "function": "__udivsi3",
+          "instructions": 1996,
+          "cycles": 9204
+        },
+        {
+          "function": "____aeabi_dsub_from_thumb",
+          "instructions": 445,
+          "cycles": 6230
+        },
+        {
+          "function": "____aeabi_uldivmod_from_thumb",
+          "instructions": 445,
+          "cycles": 5340
+        },
+        {
+          "function": "lcf_borrow_command",
+          "instructions": 510,
+          "cycles": 3315
+        },
+        {
+          "function": "balanced_animation_background_store",
+          "instructions": 484,
+          "cycles": 2191
+        },
+        {
+          "function": "draw_num",
+          "instructions": 659,
+          "cycles": 1876
+        },
+        {
+          "function": "draw_battle",
+          "instructions": 449,
+          "cycles": 1567
+        },
+        {
+          "function": "__divsi3",
+          "instructions": 280,
+          "cycles": 1399
+        },
+        {
+          "function": "__aeabi_uidivmod",
+          "instructions": 175,
+          "cycles": 950
+        },
+        {
+          "function": "event_name_input",
+          "instructions": 233,
+          "cycles": 932
+        },
+        {
+          "function": "____aeabi_uidivmod_from_thumb",
+          "instructions": 50,
+          "cycles": 650
+        },
+        {
+          "function": "prepare_cursor",
+          "instructions": 295,
+          "cycles": 590
+        },
+        {
+          "function": "__rgb_damage_veneer",
+          "instructions": 112,
+          "cycles": 560
+        },
+        {
+          "function": "____aeabi_dcmpeq_from_thumb",
+          "instructions": 38,
+          "cycles": 494
+        },
+        {
+          "function": "box",
+          "instructions": 125,
+          "cycles": 490
+        },
+        {
+          "function": "____aeabi_uidiv_from_thumb",
+          "instructions": 25,
+          "cycles": 350
+        },
+        {
+          "function": "active",
+          "instructions": 102,
+          "cycles": 348
+        },
+        {
+          "function": "picture",
+          "instructions": 121,
+          "cycles": 338
+        },
+        {
+          "function": "native_ui_glyph",
+          "instructions": 54,
+          "cycles": 326
+        },
+        {
+          "function": "__audio_midi_ticks_from_thumb",
+          "instructions": 25,
+          "cycles": 300
+        },
+        {
+          "function": "__audio_service_from_thumb",
+          "instructions": 19,
+          "cycles": 247
+        },
+        {
+          "function": "memcpy",
+          "instructions": 76,
+          "cycles": 209
+        },
+        {
+          "function": "rgb_colors",
+          "instructions": 39,
+          "cycles": 171
+        },
+        {
+          "function": "__map_watches_variable_veneer",
+          "instructions": 56,
+          "cycles": 168
+        },
+        {
+          "function": "native_ui_fill",
+          "instructions": 38,
+          "cycles": 152
+        },
+        {
+          "function": "image_decode_scratch",
+          "instructions": 12,
+          "cycles": 91
+        },
+        {
+          "function": "____aeabi_idiv_from_thumb",
+          "instructions": 6,
+          "cycles": 84
+        },
+        {
+          "function": "____aeabi_idivmod_from_thumb",
+          "instructions": 6,
+          "cycles": 72
+        },
+        {
+          "function": "__fault_veneer",
+          "instructions": 19,
+          "cycles": 57
+        },
+        {
+          "function": "picture_scaled",
+          "instructions": 23,
+          "cycles": 46
+        },
+        {
+          "function": "log_num",
+          "instructions": 18,
+          "cycles": 36
+        },
+        {
+          "function": "ui_pack",
+          "instructions": 10,
+          "cycles": 26
+        },
+        {
+          "function": "____aeabi_d2iz_from_thumb",
+          "instructions": 2,
+          "cycles": 26
+        },
+        {
+          "function": "image_color_map",
+          "instructions": 9,
+          "cycles": 18
+        },
+        {
+          "function": "animation_start",
+          "instructions": 2,
+          "cycles": 10
+        },
+        {
+          "function": "clear",
+          "instructions": 2,
+          "cycles": 8
+        },
+        {
+          "function": "balanced_animation_target_flash",
+          "instructions": 1,
+          "cycles": 2
+        }
+      ]
+    },
+    {
+      "phase": 1,
+      "trace": "PROFILE 120 11925899 08015490:790200 030052e0:768000 030052f0:768000 03005300:768000 03005310:768000 03005320:576800 03002cd0:320532 03002ce0:320532 030058f0:319692 030059c0:312640 08015480:295544 030052d0:194400 03005900:163518 03002cf0:161529 03004440:120640 030044f0:120640 03004500:120640 03004510:120640 03004520:120640 03004530:120640 080153d0:115464 03004410:102542 03004430:102542 030044e0:92365 03004420:84444 030059f0:80000 03002940:66308 03002950:66308 03002990:66308 030029a0:66308",
+      "functions": [
+        {
+          "function": "lz4",
+          "instructions": 2142010,
+          "cycles": 11858547
+        },
+        {
+          "function": "animation_flash_span",
+          "instructions": 3843200,
+          "cycles": 6727408
+        },
+        {
+          "function": "mix_voice_block",
+          "instructions": 1426765,
+          "cycles": 2943208
+        },
+        {
+          "function": "segment",
+          "instructions": 1691614,
+          "cycles": 2931041
+        },
+        {
+          "function": "rgb_flip",
+          "instructions": 569572,
+          "cycles": 1850387
+        },
+        {
+          "function": "memcpy",
+          "instructions": 495374,
+          "cycles": 1700660
+        },
+        {
+          "function": "animation_pack.constprop.0",
+          "instructions": 340703,
+          "cycles": 1627630
+        },
+        {
+          "function": "audio_irq",
+          "instructions": 796167,
+          "cycles": 1364926
+        },
+        {
+          "function": "audio_service",
+          "instructions": 128106,
+          "cycles": 911545
+        },
+        {
+          "function": "animation_span.constprop.0",
+          "instructions": 163401,
+          "cycles": 334418
+        },
+        {
+          "function": "unattributed",
+          "instructions": 29538,
+          "cycles": 172992
+        },
+        {
+          "function": "__udivsi3",
+          "instructions": 25245,
+          "cycles": 117478
+        },
+        {
+          "function": "decode_image_storage_span",
+          "instructions": 17530,
+          "cycles": 113244
+        },
+        {
+          "function": "balanced_animation_flash",
+          "instructions": 20780,
+          "cycles": 109152
+        },
+        {
+          "function": "balanced_animation_cell",
+          "instructions": 26535,
+          "cycles": 80823
+        },
+        {
+          "function": "lcf_field",
+          "instructions": 32712,
+          "cycles": 77768
+        },
+        {
+          "function": "lcf_next_entry",
+          "instructions": 12051,
+          "cycles": 66201
+        },
+        {
+          "function": "animations_tick",
+          "instructions": 15279,
+          "cycles": 56502
+        },
+        {
+          "function": "native_midi_render",
+          "instructions": 22367,
+          "cycles": 56327
+        },
+        {
+          "function": "__audio_default_sounds_from_thumb",
+          "instructions": 4208,
+          "cycles": 54696
+        },
+        {
+          "function": "balanced_animation_background_restore",
+          "instructions": 14372,
+          "cycles": 50900
+        },
+        {
+          "function": "advance_voice",
+          "instructions": 7540,
+          "cycles": 49010
+        },
+        {
+          "function": "rgb_damage",
+          "instructions": 13639,
+          "cycles": 45897
+        },
+        {
+          "function": "wait_frame",
+          "instructions": 6127,
+          "cycles": 33474
+        },
+        {
+          "function": "field",
+          "instructions": 10281,
+          "cycles": 33150
+        },
+        {
+          "function": "lcf_integer",
+          "instructions": 5871,
+          "cycles": 31708
+        },
+        {
+          "function": "story_image",
+          "instructions": 4483,
+          "cycles": 31365
+        },
+        {
+          "function": "val",
+          "instructions": 7756,
+          "cycles": 24898
+        },
+        {
+          "function": "__audio_service_from_thumb",
+          "instructions": 1819,
+          "cycles": 23651
+        },
+        {
+          "function": "memset",
+          "instructions": 5868,
+          "cycles": 16926
+        },
+        {
+          "function": "prepare_portraits",
+          "instructions": 5246,
+          "cycles": 16882
+        },
+        {
+          "function": "__divsi3",
+          "instructions": 2988,
+          "cycles": 15542
+        },
+        {
+          "function": "pictures_tick",
+          "instructions": 4240,
+          "cycles": 15222
+        },
+        {
+          "function": "wait_commit_window",
+          "instructions": 3796,
+          "cycles": 15182
+        },
+        {
+          "function": "flash",
+          "instructions": 4415,
+          "cycles": 13710
+        },
+        {
+          "function": "upload_ui_objects",
+          "instructions": 324,
+          "cycles": 12374
+        },
+        {
+          "function": "render_stamp",
+          "instructions": 3680,
+          "cycles": 10501
+        },
+        {
+          "function": "__aeabi_uidivmod",
+          "instructions": 1638,
+          "cycles": 8892
+        },
+        {
+          "function": "ui_pack",
+          "instructions": 800,
+          "cycles": 8800
+        },
+        {
+          "function": "ui_insert",
+          "instructions": 1254,
+          "cycles": 8144
+        },
+        {
+          "function": "__fault_veneer",
+          "instructions": 1819,
+          "cycles": 5457
+        },
+        {
+          "function": "__audio_system_from_thumb",
+          "instructions": 382,
+          "cycles": 4966
+        },
+        {
+          "function": "__lcf_integer_from_thumb",
+          "instructions": 343,
+          "cycles": 4802
+        },
+        {
+          "function": "audio_command",
+          "instructions": 702,
+          "cycles": 4660
+        },
+        {
+          "function": "lcf_array",
+          "instructions": 750,
+          "cycles": 4585
+        },
+        {
+          "function": "fault",
+          "instructions": 2170,
+          "cycles": 4340
+        },
+        {
+          "function": "__audio_music_id_from_thumb",
+          "instructions": 343,
+          "cycles": 4120
+        },
+        {
+          "function": "____aeabi_uidivmod_from_thumb",
+          "instructions": 254,
+          "cycles": 3516
+        },
+        {
+          "function": "lcf_borrow_command",
+          "instructions": 522,
+          "cycles": 3393
+        },
+        {
+          "function": "upload_native_textures",
+          "instructions": 800,
+          "cycles": 3200
+        },
+        {
+          "function": "image_unpack_block",
+          "instructions": 400,
+          "cycles": 3120
+        },
+        {
+          "function": "lcf_string",
+          "instructions": 434,
+          "cycles": 3038
+        },
+        {
+          "function": "__animation_start_veneer",
+          "instructions": 354,
+          "cycles": 2832
+        },
+        {
+          "function": "glyph_pixels",
+          "instructions": 564,
+          "cycles": 2820
+        },
+        {
+          "function": "__lcf_resource_from_thumb",
+          "instructions": 214,
+          "cycles": 2568
+        },
+        {
+          "function": "clamp",
+          "instructions": 675,
+          "cycles": 2532
+        },
+        {
+          "function": "upload_object_palette",
+          "instructions": 798,
+          "cycles": 2520
+        },
+        {
+          "function": "__memset_veneer",
+          "instructions": 174,
+          "cycles": 2164
+        },
+        {
+          "function": "animation_data",
+          "instructions": 495,
+          "cycles": 2040
+        },
+        {
+          "function": "bounds",
+          "instructions": 661,
+          "cycles": 1844
+        },
+        {
+          "function": "parse_command_values",
+          "instructions": 382,
+          "cycles": 1528
+        },
+        {
+          "function": "engine_tick",
+          "instructions": 350,
+          "cycles": 1510
+        },
+        {
+          "function": "lcf_number",
+          "instructions": 380,
+          "cycles": 1100
+        },
+        {
+          "function": "____aeabi_idiv_from_thumb",
+          "instructions": 68,
+          "cycles": 910
+        },
+        {
+          "function": "parallel_tick",
+          "instructions": 180,
+          "cycles": 850
+        },
+        {
+          "function": "image_decode_scratch",
+          "instructions": 108,
+          "cycles": 819
+        },
+        {
+          "function": "video_brightness",
+          "instructions": 180,
+          "cycles": 750
+        },
+        {
+          "function": "____aeabi_idivmod_from_thumb",
+          "instructions": 54,
+          "cycles": 676
+        },
+        {
+          "function": "prepare_cursor",
+          "instructions": 159,
+          "cycles": 662
+        },
+        {
+          "function": "rgb_colors",
+          "instructions": 175,
+          "cycles": 609
+        },
+        {
+          "function": "flip",
+          "instructions": 120,
+          "cycles": 594
+        },
+        {
+          "function": "__aeabi_idivmod",
+          "instructions": 98,
+          "cycles": 532
+        },
+        {
+          "function": "start",
+          "instructions": 91,
+          "cycles": 528
+        },
+        {
+          "function": "balanced_save_workspace",
+          "instructions": 75,
+          "cycles": 525
+        },
+        {
+          "function": "apply_brightness",
+          "instructions": 110,
+          "cycles": 490
+        },
+        {
+          "function": "animation_battle",
+          "instructions": 98,
+          "cycles": 487
+        },
+        {
+          "function": "restore",
+          "instructions": 124,
+          "cycles": 433
+        },
+        {
+          "function": "movement_tick",
+          "instructions": 100,
+          "cycles": 430
+        },
+        {
+          "function": "presentation_tick",
+          "instructions": 90,
+          "cycles": 360
+        },
+        {
+          "function": "event_name_input",
+          "instructions": 88,
+          "cycles": 352
+        },
+        {
+          "function": "entry",
+          "instructions": 130,
+          "cycles": 350
+        },
+        {
+          "function": "movement_start",
+          "instructions": 50,
+          "cycles": 320
+        },
+        {
+          "function": "balanced_animation_background_store",
+          "instructions": 72,
+          "cycles": 288
+        },
+        {
+          "function": "video_overlays_present",
+          "instructions": 68,
+          "cycles": 268
+        },
+        {
+          "function": "____aeabi_d2iz_from_thumb",
+          "instructions": 18,
+          "cycles": 234
+        },
+        {
+          "function": "battle_background_image",
+          "instructions": 35,
+          "cycles": 190
+        },
+        {
+          "function": "__memcpy_veneer",
+          "instructions": 20,
+          "cycles": 190
+        },
+        {
+          "function": "parallel_active",
+          "instructions": 30,
+          "cycles": 150
+        },
+        {
+          "function": "pictures_draw",
+          "instructions": 30,
+          "cycles": 150
+        },
+        {
+          "function": "__lcf_array_from_thumb",
+          "instructions": 11,
+          "cycles": 142
+        },
+        {
+          "function": "__aeabi_ldiv0",
+          "instructions": 14,
+          "cycles": 140
+        },
+        {
+          "function": "__balanced_animation_flash_from_thumb",
+          "instructions": 10,
+          "cycles": 130
+        },
+        {
+          "function": "animation_start",
+          "instructions": 46,
+          "cycles": 128
+        },
+        {
+          "function": "alive_count",
+          "instructions": 15,
+          "cycles": 120
+        },
+        {
+          "function": "____aeabi_fdiv_from_thumb",
+          "instructions": 10,
+          "cycles": 120
+        },
+        {
+          "function": "presentation_command",
+          "instructions": 10,
+          "cycles": 110
+        },
+        {
+          "function": "timer_command",
+          "instructions": 10,
+          "cycles": 110
+        },
+        {
+          "function": "battle_render_stamp",
+          "instructions": 20,
+          "cycles": 100
+        },
+        {
+          "function": "__prepare_portraits_veneer",
+          "instructions": 12,
+          "cycles": 60
+        },
+        {
+          "function": "__prepare_cursor_veneer",
+          "instructions": 12,
+          "cycles": 60
+        },
+        {
+          "function": "portrait",
+          "instructions": 10,
+          "cycles": 44
+        },
+        {
+          "function": "__upload_ui_objects_veneer",
+          "instructions": 8,
+          "cycles": 40
+        },
+        {
+          "function": "source_menu_screen",
+          "instructions": 15,
+          "cycles": 30
+        },
+        {
+          "function": "skill_rank_target",
+          "instructions": 15,
+          "cycles": 30
+        },
+        {
+          "function": "__video_overlays_present_veneer",
+          "instructions": 6,
+          "cycles": 26
+        },
+        {
+          "function": "____aeabi_dcmpeq_from_thumb",
+          "instructions": 2,
+          "cycles": 26
+        },
+        {
+          "function": "__needs_ui_veneer",
+          "instructions": 6,
+          "cycles": 18
+        },
+        {
+          "function": "__rgb_damage_veneer",
+          "instructions": 6,
+          "cycles": 18
+        },
+        {
+          "function": "upload_background_palette",
+          "instructions": 8,
+          "cycles": 16
+        },
+        {
+          "function": "draw_num",
+          "instructions": 7,
+          "cycles": 14
+        },
+        {
+          "function": "____aeabi_uldivmod_from_thumb",
+          "instructions": 1,
+          "cycles": 14
+        },
+        {
+          "function": "__battle_event_command_veneer",
+          "instructions": 4,
+          "cycles": 12
+        },
+        {
+          "function": "video_scene_palette",
+          "instructions": 6,
+          "cycles": 12
+        },
+        {
+          "function": "audio_default_sounds",
+          "instructions": 2,
+          "cycles": 8
+        },
+        {
+          "function": "native_ui_fill",
+          "instructions": 2,
+          "cycles": 8
+        }
+      ]
+    }
+  ]
+}

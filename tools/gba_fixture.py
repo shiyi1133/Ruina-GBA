@@ -18,6 +18,7 @@ def fixture(source,stem,overrides=None):
   objects=[replacement if p.name==name+'.o'else p for p in objects]
  objects += [ROOT/'build'/n for n in ['assets.o','borrowed_commands.o','source_menu_labels.o','midi_clock.o','music_room_names.o','start.o']]+[obj]
  if(ROOT/'build/high_color_blobs.s').exists():objects.append(ROOT/'build/high_color_blobs.o')
+ if(ROOT/'build/screen_animation_blobs.s').exists():objects.append(ROOT/'build/screen_animation_blobs.o')
  elf=out/(stem+'.elf');rom=out/(stem+'.gba')
  subprocess.run([PREFIX+'gcc','-mcpu=arm7tdmi','-mthumb','-mthumb-interwork','-nostdlib','-Wl,-T,platform/gba/gba.ld',*map(str,objects),'-lgcc','-o',str(elf)],cwd=ROOT,check=True)
  subprocess.run([PREFIX+'objcopy','-O','binary',str(elf),str(rom)],check=True)

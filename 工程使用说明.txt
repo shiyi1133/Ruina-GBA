@@ -1,9 +1,7 @@
-﻿匹配工程 v0.7.3：优化战斗动画（2026-10-23）
-
-使用外部 GNU Arm Embedded 工具链，执行 python3 tools/build.py --incremental。
-已转换资源随工程提供，增量重建不需要原始 ZIP、字体或图像库。
-此工程是普通数值版。验收增强版修改位于 variants/acceptance/：
-在独立副本中覆盖其中同名 source/ 和 tools/ 文件，再增量构建。
-恢复的是战斗逐帧图案。地图转场仍直接切黑；复杂战斗特效可能显著慢于 PC。
-当前验证范围与每个版本的 SHA-256 见 evidence/animation_optimization_20261023/。
-完整自然通关、全部结局与实机未验收。旧版本、旧存档和失败证据保留。
+﻿匹配工程 v0.7.4（2026-10-23）
+设置 ARM_TOOLCHAIN_PREFIX 指向 GNU Arm Embedded 工具链，再执行 python3 tools/build.py --incremental。
+已转换资源随工程提供，增量重建不需要原 ZIP、字体或图像库。
+普通版源码位于 source/、runtime/、platform/；验收增强修改在 variants/acceptance/。
+请在独立副本覆盖增强版同名 source/、tools/ 文件，再构建。
+默认原速计时，复杂过渡画面可能略过。B 菜单 → 动画播放 → 完整播放，保留全部画面但可能较慢。
+完整通关、全部结局和实机未验收。当前范围、散列及保留的未通过尝试见 evidence/animation_smooth_20261023/。

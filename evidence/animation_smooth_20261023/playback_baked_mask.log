@@ -1,0 +1,35 @@
+{
+  "status": "pass",
+  "label": "baked_mask",
+  "production_ROM_sha256": "eb8250bc01503425dc8c7659cfbfc1ff621156f68f05d25169c33dd01f93fa0e",
+  "fixture_ROM_sha256": "15d51eae561bac9ee7e1974622a04c8b0b779f99b9d438925185425fa0ddda64",
+  "MIDI_track": 1,
+  "samples": [
+    {
+      "animation": 46,
+      "hardware_frames": 165,
+      "seconds": 2.7625465393066406,
+      "MIDI_underruns": 0
+    },
+    {
+      "animation": 62,
+      "hardware_frames": 171,
+      "seconds": 2.8630027770996094,
+      "MIDI_underruns": 0
+    },
+    {
+      "animation": 78,
+      "hardware_frames": 214,
+      "seconds": 3.5829391479492188,
+      "MIDI_underruns": 0
+    },
+    {
+      "animation": 191,
+      "hardware_frames": 380,
+      "seconds": 6.3622283935546875,
+      "MIDI_underruns": 0
+    }
+  ],
+  "total_seconds": 15.570716857910156,
+  "scope": "Unchanged production animation_battle, original SFX and real MIDI. Hardware frame counter observed around full playback; no user delay included. Controlled battlers/targets only. Not full gameplay FPS."
+}

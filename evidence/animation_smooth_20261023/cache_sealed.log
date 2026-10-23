@@ -1,0 +1,8 @@
+{
+  "status": "pass",
+  "production_ROM_sha256": "5508bfb6f9b692fdbe192ab7a0d7f27d34f35d44e05d4bbca2cf2e159d562e75",
+  "fixture_ROM_sha256": "7b72559881231e01b4679d976a7bc028a08dff7020a452afd3a80e15ed833450",
+  "LCD_checks": 33,
+  "scope": "Clean battle LCD compared with whole cached restoration and shared modal restoration after HP/MP, focus/turn, enemy death/hiding/transform, raw modal overwrite, save workspace epoch and revival changes. No running RAM injection.",
+  "physical_hardware": "not_run"
+}

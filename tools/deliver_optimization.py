@@ -40,6 +40,8 @@ def inputs():
  selected += [p.relative_to(ROOT)for p in(ROOT/'build/native_music').glob('*.events.json')]
  selected += [p.relative_to(ROOT)for p in(ROOT/'build/light_music').glob('*')if p.is_file()and p.suffix in('.json','.sequence','.bin')]
  selected += [Path('build/audio_source/easyrpg.soundfont')]
+ selected += [Path('build')/p for p in ('scene_lookups_packed.bin','scene_lookups_packed.json')if(ROOT/'build'/p).exists()]
+ selected += [Path('build')/p for p in ('screen_animation_assets.h','screen_animations.bin','screen_animation_blobs.s','screen_animation_manifest.json')if(ROOT/'build'/p).exists()]
  selected += [Path(p)for p in('history/legacy_checkpoint_v2.sav','history/legacy_reentered_cave_v2.sav','evidence/save_cold_load/ordinary.sav')]
  selected += [p.relative_to(ROOT)for p in(ROOT/'evidence/chapter_progress').glob('*.sav')]
  return sorted(set(selected))

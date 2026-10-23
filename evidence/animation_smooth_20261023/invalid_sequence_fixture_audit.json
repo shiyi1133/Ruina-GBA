@@ -1,0 +1,11 @@
+{
+  "status": "test_fixture_corrected",
+  "invalid_labels": [
+    "tiled",
+    "no_bake_22",
+    "no_fusion_22"
+  ],
+  "cause": "Sequence-only fixture called animation_start before draw_background/video_scene_palette, leaving Mode 4 indexed rendering active. Baseline and candidate target-flash routines then encountered an invalid display setup. Raw framebuffer values above 32767 exposed the setup error.",
+  "correction": "Initialize actual RGB555 battle view through production draw_background/flip before starting sequences; assert hardware mode 3 at every held frame. Real playback benchmarks and earlier curated gallery fixtures already initialized correctly.",
+  "invalid_results_must_not_be_counted_as_visual_QA": true
+}

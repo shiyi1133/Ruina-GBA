@@ -41,7 +41,7 @@ static const u8*data(void){return original_audio_start+8+count()*sizeof(Track);}
 static int lookup(LcfSpan name,int kind){u32 h=2166136261U;unsigned i;int j;if(!name.size||name.data[0]=='(')return 0;for(i=0;i<name.size;i++){h^=name.data[i];h*=16777619U;}for(j=1;j<=count();j++){const Track*t=track(j);if(t->hash==h&&(t->kind==(unsigned)kind||(!kind&&t->kind==2)))return j;}audio_debug[6]=h;audio_debug[7]++;return 0;}
 static void gains(Voice*v,Music m){int volume=clamp(m.volume,0,100),pan=clamp(m.pan,0,100);v->left=volume*256/100*(pan>50?100-pan:50)/50;v->right=volume*256/100*(pan<50?pan:50)/50;v->step=(u32)clamp(m.pitch,50,200)*65536/100;}
 static void start(Voice*v,Music m){memset(v,0,sizeof(*v));v->t=track(m.id);if(v->t){v->source=stream_data+v->t->offset;v->frames=v->t->frames;v->loop=v->t->loop;v->kind=v->t->kind;v->codec=v->t->pad;}gains(v,m);if(v==voices){native_read=native_write=0;if(v->t&&v->t->kind==2)native_midi_start(stream_data+v->t->offset);else native_midi_stop();}}
-void audio_service(void){
+static void __attribute__((noinline)) audio_service_render(void){
  unsigned block;const Track*t=voices[0].t;if(!t||voices[0].kind!=2||music_paused)return;
  /* Bounded work per call: a busy chord must not turn each small graphics
   * upload into eight consecutive synth blocks. Frequent safe points and the
@@ -54,6 +54,12 @@ void audio_service(void){
   __asm__ volatile("":::"memory");native_write=w+NATIVE_MIDI_BLOCK;audio_stream_debug[1]++;
  }
  audio_stream_debug[2]=native_write-native_read;
+}
+/* Most renderer safe points find an already full ring. Keep only that check
+ * in fast RAM; synthesis, notes and samples remain in the original routine. */
+void __attribute__((section(".iwram"),long_call,noinline)) audio_service(void){
+ if(native_write-native_read>NATIVE_QUEUE_FRAMES-NATIVE_MIDI_BLOCK)return;
+ audio_service_render();
 }
 void audio_music(Music m,int fadein){int ime=REG16(0x04000208);REG16(0x04000208)=0;music_paused=0;if(voices[0].t==track(m.id)&&m.id){gains(voices,m);}else {start(voices,m);audio_debug[4]=0;}game.music=m;fade_total=fadein>0?(u32)fadein*1024/1000:0;fade_elapsed=0;fade_out=0;audio_debug[1]=m.id;REG16(0x04000208)=ime;}
 int audio_music_count(void){int i,n=0;for(i=1;i<=count();i++)if(track(i)->kind!=1)n++;return n;}

@@ -1,0 +1,95 @@
+{
+  "phase": 0,
+  "top": [
+    {
+      "function": "animation_store_tiles",
+      "instructions": 1570036,
+      "cycles": 8233628
+    },
+    {
+      "function": "animation_pack",
+      "instructions": 1697017,
+      "cycles": 3851438
+    },
+    {
+      "function": "segment",
+      "instructions": 1188710,
+      "cycles": 2095262
+    },
+    {
+      "function": "rgb_image",
+      "instructions": 433110,
+      "cycles": 1557976
+    },
+    {
+      "function": "memset",
+      "instructions": 447481,
+      "cycles": 1339958
+    },
+    {
+      "function": "audio_irq",
+      "instructions": 593970,
+      "cycles": 1128519
+    },
+    {
+      "function": "rgb_flip",
+      "instructions": 376750,
+      "cycles": 967239
+    },
+    {
+      "function": "rgb_fill",
+      "instructions": 112576,
+      "cycles": 431824
+    },
+    {
+      "function": "lz4",
+      "instructions": 132398,
+      "cycles": 262271
+    },
+    {
+      "function": "glyph_pixels",
+      "instructions": 125752,
+      "cycles": 214994
+    },
+    {
+      "function": "mix_voice_block",
+      "instructions": 73219,
+      "cycles": 159138
+    },
+    {
+      "function": "image_storage_tile",
+      "instructions": 19750,
+      "cycles": 120194
+    },
+    {
+      "function": "audio_service",
+      "instructions": 25725,
+      "cycles": 112067
+    },
+    {
+      "function": "unattributed",
+      "instructions": 17872,
+      "cycles": 105346
+    },
+    {
+      "function": "__audio_service_from_thumb",
+      "instructions": 8434,
+      "cycles": 56375
+    },
+    {
+      "function": "rgb_damage",
+      "instructions": 14451,
+      "cycles": 50364
+    },
+    {
+      "function": "draw_text",
+      "instructions": 13123,
+      "cycles": 45497
+    },
+    {
+      "function": "audio_service_render",
+      "instructions": 7315,
+      "cycles": 45017
+    }
+  ]
+}

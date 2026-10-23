@@ -1,0 +1,7 @@
+{
+  "status": "built_then_superseded",
+  "reason": "Stage had already finished when the stop was attempted. No process was stopped and no release was published. The built ordinary/acceptance pair is retained while adaptive appreciation-mode sampling is restored after the 111-voice INT03 underrun.",
+  "stage": "/tmp/ruina-animation-v074-7th24bib",
+  "ROM_sha256": "3eb7fac1b32e4aa3b7b30fd05eed36336555cd10a00b66c324f46fe733a84ae1",
+  "acceptance_ROM_sha256": "4c9fef26e5b5a2d902cd75d8ed213b98b81ba9e68bd03ca0706c4dfb45fd8cd9"
+}

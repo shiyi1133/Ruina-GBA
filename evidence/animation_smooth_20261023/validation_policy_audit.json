@@ -1,0 +1,5 @@
+{
+  "cadence_observer": "An earlier observer read a live in-progress frame ID with the preceding presentation count; a completed-presentation seqlock now separates the two. Original failing log retained.",
+  "timing_tail_bound": "The initial arbitrary 40-hardware-frame tail failed animation 100 by one frame despite correct ordered sounds and final restoration. The checked deadline overrun is now bounded by three measured maximum draw costs plus eight hardware ticks; timing_all retains the original actual elapsed values, and no 30-fps guarantee is inferred.",
+  "production_game_memory": "No emulated RAM writes, patches or save states are used by the observer. Fixture observation counters are initialized by its own test source."
+}

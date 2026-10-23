@@ -1,0 +1,354 @@
+{
+  "status": "pass",
+  "label": "spans_reuse_quick",
+  "baseline_ROM_sha256": "8c102fb03935f05f47e7aa3f7d95630d365e24a121d56dd628d849d7f8a82cd4",
+  "production_ROM_sha256": "82a278eff900bb98c3b543e762d98dc481bb155d607abd21143576c37265c912",
+  "animation_records": 2,
+  "source_frames": 68,
+  "all_LCD_pixels_identical": true,
+  "clean_restoration_after_every_sequence": true,
+  "scope": "Two separately linked controlled cartridges, unchanged production animation and rendering objects from v0.7.3 and this candidate. Every original frame and clean restoration compared by actual 64-bit LCD hash. Real buttons, paused logical clock between manual original frame ticks; audio remains live. This checks visual fidelity, not playback performance or complete gameplay.",
+  "physical_hardware": "not_run",
+  "frames": [
+    {
+      "animation": 22,
+      "frame": 0,
+      "LCD": "LCD ab12db97deb0af6c 0"
+    },
+    {
+      "animation": 22,
+      "frame": 1,
+      "LCD": "LCD dd6df46cef8f5536 0"
+    },
+    {
+      "animation": 22,
+      "frame": 2,
+      "LCD": "LCD da721301df3bb3f0 0"
+    },
+    {
+      "animation": 22,
+      "frame": 3,
+      "LCD": "LCD 1ccc582ee9ac8fd4 0"
+    },
+    {
+      "animation": 22,
+      "frame": 4,
+      "LCD": "LCD e21bdab936fbfc09 0"
+    },
+    {
+      "animation": 22,
+      "frame": 5,
+      "LCD": "LCD d080ceccf7340b58 0"
+    },
+    {
+      "animation": 22,
+      "frame": 6,
+      "LCD": "LCD 8ee98869f56d8a73 0"
+    },
+    {
+      "animation": 22,
+      "frame": 7,
+      "LCD": "LCD a1a85d84257399e2 0"
+    },
+    {
+      "animation": 22,
+      "frame": 8,
+      "LCD": "LCD 294b521d331d81f5 0"
+    },
+    {
+      "animation": 22,
+      "frame": 9,
+      "LCD": "LCD a0c42dc2f1376f0a 0"
+    },
+    {
+      "animation": 22,
+      "frame": 10,
+      "LCD": "LCD 6a3459dd811e118a 0"
+    },
+    {
+      "animation": 22,
+      "frame": 11,
+      "LCD": "LCD c59014522a719fcb 0"
+    },
+    {
+      "animation": 22,
+      "frame": 12,
+      "LCD": "LCD fdbe7699d0fe0e17 0"
+    },
+    {
+      "animation": 22,
+      "frame": 13,
+      "LCD": "LCD 2b415ab08262195d 0"
+    },
+    {
+      "animation": 22,
+      "frame": 14,
+      "LCD": "LCD 6e514fe78c011b2c 0"
+    },
+    {
+      "animation": 22,
+      "frame": 15,
+      "LCD": "LCD 995044072db90153 0"
+    },
+    {
+      "animation": 22,
+      "frame": 16,
+      "LCD": "LCD 1de881fd98e24c68 0"
+    },
+    {
+      "animation": 22,
+      "frame": 17,
+      "LCD": "LCD b4c19a2fed581d4f 0"
+    },
+    {
+      "animation": 22,
+      "frame": 18,
+      "LCD": "LCD aa75990bd1ebfdda 0"
+    },
+    {
+      "animation": 22,
+      "frame": 19,
+      "LCD": "LCD 658c19c3c51d7b53 0"
+    },
+    {
+      "animation": 22,
+      "frame": 20,
+      "LCD": "LCD dd656eab2a34fa26 0"
+    },
+    {
+      "animation": 22,
+      "frame": 21,
+      "LCD": "LCD 428315ef01e82a80 0"
+    },
+    {
+      "animation": 22,
+      "frame": 22,
+      "LCD": "LCD 2fa5d669c4bbda5f 0"
+    },
+    {
+      "animation": 22,
+      "frame": 23,
+      "LCD": "LCD ed8b52a61405f67d 0"
+    },
+    {
+      "animation": 22,
+      "frame": 24,
+      "LCD": "LCD e0475863ad7d2da5 0"
+    },
+    {
+      "animation": 22,
+      "frame": 25,
+      "LCD": "LCD be66a0634a296121 0"
+    },
+    {
+      "animation": 22,
+      "frame": 26,
+      "LCD": "LCD ef21d09a4b28fd65 0"
+    },
+    {
+      "animation": 22,
+      "frame": 27,
+      "LCD": "LCD 64e0e358cae303c9 0"
+    },
+    {
+      "animation": 191,
+      "frame": 0,
+      "LCD": "LCD c45846f642a57383 0"
+    },
+    {
+      "animation": 191,
+      "frame": 1,
+      "LCD": "LCD c45846f642a57383 0"
+    },
+    {
+      "animation": 191,
+      "frame": 2,
+      "LCD": "LCD 0531f9b1a8d812c7 0"
+    },
+    {
+      "animation": 191,
+      "frame": 3,
+      "LCD": "LCD 0553134b88c3b7f5 0"
+    },
+    {
+      "animation": 191,
+      "frame": 4,
+      "LCD": "LCD cee6fb52a67c5ebf 0"
+    },
+    {
+      "animation": 191,
+      "frame": 5,
+      "LCD": "LCD fd5e74dcedab2927 0"
+    },
+    {
+      "animation": 191,
+      "frame": 6,
+      "LCD": "LCD 67c6b63e6a5839aa 0"
+    },
+    {
+      "animation": 191,
+      "frame": 7,
+      "LCD": "LCD 619541d8e0cab665 0"
+    },
+    {
+      "animation": 191,
+      "frame": 8,
+      "LCD": "LCD 5e1eadcb8b20e581 0"
+    },
+    {
+      "animation": 191,
+      "frame": 9,
+      "LCD": "LCD d150b171fd005cbb 0"
+    },
+    {
+      "animation": 191,
+      "frame": 10,
+      "LCD": "LCD 834e053bd7e7ffb6 0"
+    },
+    {
+      "animation": 191,
+      "frame": 11,
+      "LCD": "LCD 2c4091c3c639cecb 0"
+    },
+    {
+      "animation": 191,
+      "frame": 12,
+      "LCD": "LCD dd75f105c6037e47 0"
+    },
+    {
+      "animation": 191,
+      "frame": 13,
+      "LCD": "LCD 280c329182c1d9fc 0"
+    },
+    {
+      "animation": 191,
+      "frame": 14,
+      "LCD": "LCD 280c329182c1d9fc 0"
+    },
+    {
+      "animation": 191,
+      "frame": 15,
+      "LCD": "LCD 280c329182c1d9fc 0"
+    },
+    {
+      "animation": 191,
+      "frame": 16,
+      "LCD": "LCD 280c329182c1d9fc 0"
+    },
+    {
+      "animation": 191,
+      "frame": 17,
+      "LCD": "LCD 280c329182c1d9fc 0"
+    },
+    {
+      "animation": 191,
+      "frame": 18,
+      "LCD": "LCD 280c329182c1d9fc 0"
+    },
+    {
+      "animation": 191,
+      "frame": 19,
+      "LCD": "LCD 7ba423b851054383 0"
+    },
+    {
+      "animation": 191,
+      "frame": 20,
+      "LCD": "LCD 7ba423b851054383 0"
+    },
+    {
+      "animation": 191,
+      "frame": 21,
+      "LCD": "LCD c45846f642a57383 0"
+    },
+    {
+      "animation": 191,
+      "frame": 22,
+      "LCD": "LCD c45846f642a57383 0"
+    },
+    {
+      "animation": 191,
+      "frame": 23,
+      "LCD": "LCD 07c09c00a5175f7a 0"
+    },
+    {
+      "animation": 191,
+      "frame": 24,
+      "LCD": "LCD cca46305d595f385 0"
+    },
+    {
+      "animation": 191,
+      "frame": 25,
+      "LCD": "LCD 8d1558d48072e0fc 0"
+    },
+    {
+      "animation": 191,
+      "frame": 26,
+      "LCD": "LCD 9f686bcadca5135a 0"
+    },
+    {
+      "animation": 191,
+      "frame": 27,
+      "LCD": "LCD 0856c202747d7411 0"
+    },
+    {
+      "animation": 191,
+      "frame": 28,
+      "LCD": "LCD ae6589a4ec7a3ad4 0"
+    },
+    {
+      "animation": 191,
+      "frame": 29,
+      "LCD": "LCD a665e1add72430c6 0"
+    },
+    {
+      "animation": 191,
+      "frame": 30,
+      "LCD": "LCD cdcc902f2d383300 0"
+    },
+    {
+      "animation": 191,
+      "frame": 31,
+      "LCD": "LCD df4f195f0fe4e65b 0"
+    },
+    {
+      "animation": 191,
+      "frame": 32,
+      "LCD": "LCD 8f45408241c8eeca 0"
+    },
+    {
+      "animation": 191,
+      "frame": 33,
+      "LCD": "LCD a78e386686ccf2bc 0"
+    },
+    {
+      "animation": 191,
+      "frame": 34,
+      "LCD": "LCD e2858045b7ed42e3 0"
+    },
+    {
+      "animation": 191,
+      "frame": 35,
+      "LCD": "LCD 97eb639ba06e50b5 0"
+    },
+    {
+      "animation": 191,
+      "frame": 36,
+      "LCD": "LCD b8529c4f35f11382 0"
+    },
+    {
+      "animation": 191,
+      "frame": 37,
+      "LCD": "LCD a1133378431892d7 0"
+    },
+    {
+      "animation": 191,
+      "frame": 38,
+      "LCD": "LCD 7ba423b851054383 0"
+    },
+    {
+      "animation": 191,
+      "frame": 39,
+      "LCD": "LCD 13bd5f1d2d3d645f 0"
+    }
+  ]
+}

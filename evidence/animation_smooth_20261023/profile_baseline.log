@@ -1,0 +1,190 @@
+{
+  "phase": 0,
+  "top": [
+    {
+      "function": "animation_pack.constprop.0",
+      "instructions": 2402060,
+      "cycles": 11339704
+    },
+    {
+      "function": "rgb_image",
+      "instructions": 1553559,
+      "cycles": 5611626
+    },
+    {
+      "function": "segment",
+      "instructions": 1913723,
+      "cycles": 3374179
+    },
+    {
+      "function": "lz4",
+      "instructions": 475610,
+      "cycles": 2750068
+    },
+    {
+      "function": "animation_flash_span",
+      "instructions": 1537280,
+      "cycles": 2690960
+    },
+    {
+      "function": "audio_irq",
+      "instructions": 879151,
+      "cycles": 1602218
+    },
+    {
+      "function": "mix_voice_block",
+      "instructions": 715182,
+      "cycles": 1477228
+    },
+    {
+      "function": "rgb_flip",
+      "instructions": 493119,
+      "cycles": 1233249
+    },
+    {
+      "function": "audio_service",
+      "instructions": 104078,
+      "cycles": 743561
+    },
+    {
+      "function": "rgb_fill",
+      "instructions": 143680,
+      "cycles": 551844
+    },
+    {
+      "function": "image_storage_tile",
+      "instructions": 73653,
+      "cycles": 458116
+    },
+    {
+      "function": "glyph_pixels",
+      "instructions": 251858,
+      "cycles": 430996
+    },
+    {
+      "function": "memset",
+      "instructions": 82654,
+      "cycles": 247308
+    },
+    {
+      "function": "unattributed",
+      "instructions": 28287,
+      "cycles": 169527
+    },
+    {
+      "function": "rgb_damage",
+      "instructions": 42964,
+      "cycles": 149764
+    },
+    {
+      "function": "animation_span.constprop.0",
+      "instructions": 71103,
+      "cycles": 143924
+    },
+    {
+      "function": "draw_text",
+      "instructions": 26302,
+      "cycles": 91114
+    },
+    {
+      "function": "__audio_service_from_thumb",
+      "instructions": 5985,
+      "cycles": 77809
+    }
+  ]
+}
+{
+  "phase": 1,
+  "top": [
+    {
+      "function": "rgb_image",
+      "instructions": 2504449,
+      "cycles": 9049676
+    },
+    {
+      "function": "animation_flash_span",
+      "instructions": 3074560,
+      "cycles": 5381928
+    },
+    {
+      "function": "lz4",
+      "instructions": 795378,
+      "cycles": 4621455
+    },
+    {
+      "function": "segment",
+      "instructions": 1676122,
+      "cycles": 2903477
+    },
+    {
+      "function": "mix_voice_block",
+      "instructions": 1120228,
+      "cycles": 2311948
+    },
+    {
+      "function": "audio_irq",
+      "instructions": 831895,
+      "cycles": 1467018
+    },
+    {
+      "function": "rgb_fill",
+      "instructions": 329626,
+      "cycles": 1265005
+    },
+    {
+      "function": "audio_service",
+      "instructions": 175893,
+      "cycles": 1257640
+    },
+    {
+      "function": "glyph_pixels",
+      "instructions": 630018,
+      "cycles": 1079378
+    },
+    {
+      "function": "rgb_flip",
+      "instructions": 115316,
+      "cycles": 1005005
+    },
+    {
+      "function": "image_storage_tile",
+      "instructions": 120105,
+      "cycles": 746769
+    },
+    {
+      "function": "animation_span.constprop.0",
+      "instructions": 180184,
+      "cycles": 371975
+    },
+    {
+      "function": "rgb_damage",
+      "instructions": 98416,
+      "cycles": 343184
+    },
+    {
+      "function": "draw_text",
+      "instructions": 65755,
+      "cycles": 227783
+    },
+    {
+      "function": "__udivsi3",
+      "instructions": 44959,
+      "cycles": 207832
+    },
+    {
+      "function": "unattributed",
+      "instructions": 28288,
+      "cycles": 166516
+    },
+    {
+      "function": "decode_image_storage_span",
+      "instructions": 22469,
+      "cycles": 145090
+    },
+    {
+      "function": "balanced_animation_cell",
+      "instructions": 40523,
+      "cycles": 120762
+    }
+  ]
+}

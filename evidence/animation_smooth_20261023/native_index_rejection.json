@@ -1,0 +1,7 @@
+{
+  "status": "rejected",
+  "reason": "RGB555 pixels matched in 68 source frames, but repeated native palette preparation and transitions slowed complete animation 191 from 4.52s to 7.38s. Production renderer restored to lossless RGB555.",
+  "before": "playback_overlay.json",
+  "rejected": "playback_native_preflight.json",
+  "false_positive_hash_audit": "The first LCD hash included an emulator alpha/tag byte. Both saved PNGs had exactly identical RGB pixels. New lcdrgbhash measures only visible RGB channels; original lcdhash kept unchanged."
+}

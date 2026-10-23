@@ -1,0 +1,13 @@
+Compared 1 animations; 28 original LCD frames
+{
+  "status": "pass",
+  "label": "codec_quick",
+  "baseline_ROM_sha256": "8c102fb03935f05f47e7aa3f7d95630d365e24a121d56dd628d849d7f8a82cd4",
+  "production_ROM_sha256": "7f58747f7626f7211a5ca8fa08c49f7fde4097a904001749160ec1d78e0155a4",
+  "animation_records": 2,
+  "source_frames": 68,
+  "all_LCD_pixels_identical": true,
+  "clean_restoration_after_every_sequence": true,
+  "scope": "Two separately linked controlled cartridges, unchanged production animation and rendering objects from v0.7.3 and this candidate. Every original frame and clean restoration compared by actual 64-bit LCD hash. Real buttons, paused logical clock between manual original frame ticks; audio remains live. This checks visual fidelity, not playback performance or complete gameplay.",
+  "physical_hardware": "not_run"
+}

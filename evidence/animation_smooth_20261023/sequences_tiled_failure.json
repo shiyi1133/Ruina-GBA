@@ -1,0 +1,7 @@
+{
+  "status": "fail",
+  "error": "AssertionError(('LCD mismatch', 22, 4, 'LCD bd1f4ed673bd076b 0', 'LCD c52b3b0dc1e58043 15'))",
+  "frames_compared": 183,
+  "baseline_ROM_sha256": "8c102fb03935f05f47e7aa3f7d95630d365e24a121d56dd628d849d7f8a82cd4",
+  "production_ROM_sha256": "7c3121c4975efdcdc8dc3c02ec96d7943379806341930ab6ebbe47d3f2d3da32"
+}

@@ -1,0 +1,37 @@
+{
+  "status": "pass",
+  "production_rom_sha256": "95ebdb37f840dc243eddaeb0468d2e8576f8d3380c564b1d72917907ae762ebd",
+  "checks": {
+    "native_crop_matches_GBA_pixels": true,
+    "panoramas_chipsets_charsets_keep_original_dimensions": true
+  },
+  "crops": [
+    {
+      "camera": [
+        0,
+        0
+      ],
+      "compared_pixels": 38144,
+      "different_pixels": 0
+    },
+    {
+      "camera": [
+        80,
+        80
+      ],
+      "compared_pixels": 38144,
+      "different_pixels": 0
+    },
+    {
+      "camera": [
+        8,
+        16
+      ],
+      "compared_pixels": 38144,
+      "different_pixels": 0
+    }
+  ],
+  "native_resources_checked": 77,
+  "color_precision": "existing shared game palette at GBA RGB555; this is spatial fidelity, not original 256-color fidelity",
+  "hardware": "not_run"
+}

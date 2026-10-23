@@ -25,7 +25,7 @@ int main(int argc,char**argv){if(argc<2)return 2;struct mLogger log={.log=quiet}
  else if(!strcmp(op,"timing")){printf("TIMING %d %d %u %llu\n",c->frequency(c),c->frameCycles(c),c->frameCounter(c),(unsigned long long)mTimingGlobalTime(c->timing));}
  /* Hash the actual completed LCD output, including hardware brightness,
   * instead of treating the VRAM framebuffer as the displayed image. */
- else if(!strcmp(op,"lcdhash")){uint64_t h=1469598103934665603ULL;unsigned black=0;for(unsigned y=0;y<160;y++)for(unsigned x=0;x<240;x++){mColor color=p[y*256+x];if(!(color&0x00ffffffU))black++;for(unsigned b=0;b<sizeof(color);b++){h^=(color>>(b*8))&255;h*=1099511628211ULL;}}printf("LCD %016llx %u\n",(unsigned long long)h,black);}
+ else if(!strcmp(op,"lcdhash")||!strcmp(op,"lcdrgbhash")){int rgb=!strcmp(op,"lcdrgbhash");uint64_t h=1469598103934665603ULL;unsigned black=0;for(unsigned y=0;y<160;y++)for(unsigned x=0;x<240;x++){mColor color=p[y*256+x];if(!(color&0x00ffffffU))black++;for(unsigned b=0;b<(rgb?3:sizeof(color));b++){h^=(color>>(b*8))&255;h*=1099511628211ULL;}}printf("%s %016llx %u\n",rgb?"LCD_RGB":"LCD",(unsigned long long)h,black);}
  /* Single-step the unchanged core and observe its PC. No registers, memory,
   * emulator speed settings or ROM bytes are changed by this profiler. */
  else if(!strcmp(op,"profile")||!strcmp(op,"profile_keys")||!strcmp(op,"profile_cycles")){int bycycles=!strcmp(op,"profile_cycles");path[0]=0;if(strcmp(op,"profile")){sscanf(line,"%*s %u %x %3071[^\n]",&n,&k,path);c->setKeys(c,k);}else sscanf(line,"%*s %u %3071[^\n]",&n,path);unsigned *counts=calloc(0x1000000,sizeof(unsigned)),*cycles=bycycles?calloc(0x1000000,sizeof(unsigned)):NULL;unsigned start=c->frameCounter(c),steps=0;struct ARMCore*cpu=c->cpu;

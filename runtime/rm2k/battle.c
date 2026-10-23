@@ -145,6 +145,7 @@ static u32 render_stamp(int include_focus){
 }
 u32 battle_render_stamp(void){return render_stamp(1);}
 u32 battle_background_stamp(void){return render_stamp(0);}
+u32 battle_art_stamp(void){u32 h=(2166136261U^(u32)battle_background_image())*16777619U;int i;for(i=allies;i<total;i++)if(active(i))h=(h^(u32)units[i].eid)*16777619U;return h;}
 void draw_battle(void){int i,visible=0;clear(11);picture(battle_background_image(),0,0,0,0,240,96,0);for(i=allies;i<total;i++)if(active(i))visible++;
     {int at=0;for(i=allies;i<total;i++)if(active(i)){int img=enemy_image_ids[units[i].eid],x=(at+1)*240/(visible+1)-(img>=0?images[img].width/2:0);if(img<0)continue;picture(img,x,18,0,0,images[img].width,images[img].height,1);at++;}}
     box(0,0,240,15,11);draw_text(7,1,focus>=0?units[focus].name:"战斗",2,150);draw_text(164,1,"回合",6,30);draw_num(197,1,turn,1);
@@ -326,7 +327,7 @@ int battle(int troop,int escape_mode,int defeat_mode,int first_strike){
     for(i=0;i<count;i++){LcfSpan member,name;Unit*u=&units[total++];if(!lcf_next_entry(&r,&key,&member)){fault(9456);return 2;}u->eid=val(member,1,1);u->hidden=val(member,4,0);for(j=0;j<6;j++)u->base[j]=val(enemy_data[u->eid],4+j,10);u->hp=u->base[0];u->mp=u->base[1];name=field(enemy_data[u->eid],1);memcpy(u->name,name.data,name.size<31?name.size:31);}
     {int aa=0,ea=0,ec=0;for(j=0;j<allies;j++)aa+=bst(j,5);for(j=allies;j<total;j++)if(active(j)){ea+=bst(j,5);ec++;}aa=allies?aa/allies:1;ea=ec?ea/ec:1;escape_chance=clamp(150-(int)(100.0*ea/(aa?aa:1)+0.5),0,100);}
     audio_effect(4);audio_system(0);
-    battle_active=1;current_face=-1;
+    battle_active=1;current_face=-1;balanced_animation_background_forget();
     log_reset();for(j=allies;j<total;j++)if(active(j)){log_text(units[j].name);break;}term(1);log_show();
     while(!halt_code){int order[MAX_BATTLE_UNIT],n=0,option,auto_mode=0,escaped=0,cancelled=0;u32 planning_rng;
         static const char menu[]="战斗/自动/逃跑";run_battle_pages(troop);

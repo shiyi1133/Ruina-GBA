@@ -1,0 +1,76 @@
+{
+  "status": "pass",
+  "label": "paced_prototype",
+  "mode": "original_time",
+  "production_ROM_sha256": "b51b9219f8e58c069d148b3b3acbf3465a1077af7637675d3e2d62c8759790aa",
+  "fixture_ROM_sha256": "3f135850eb58f41d866e01380f1cb8d0dec5b732d670ef89ba505c868c63ade1",
+  "MIDI_track": 1,
+  "samples": [
+    {
+      "animation": 46,
+      "hardware_frames": 94,
+      "seconds": 1.5738143920898438,
+      "MIDI_underruns": 0,
+      "timing": [
+        46,
+        7,
+        13,
+        10,
+        40,
+        98,
+        140,
+        0
+      ]
+    },
+    {
+      "animation": 62,
+      "hardware_frames": 66,
+      "seconds": 1.1050186157226562,
+      "MIDI_underruns": 0,
+      "timing": [
+        62,
+        6,
+        18,
+        4,
+        48,
+        181,
+        230,
+        0
+      ]
+    },
+    {
+      "animation": 78,
+      "hardware_frames": 73,
+      "seconds": 1.2222175598144531,
+      "MIDI_underruns": 0,
+      "timing": [
+        78,
+        8,
+        16,
+        4,
+        48,
+        264,
+        319,
+        0
+      ]
+    },
+    {
+      "animation": 191,
+      "hardware_frames": 105,
+      "seconds": 1.7579841613769531,
+      "MIDI_underruns": 0,
+      "timing": [
+        191,
+        22,
+        18,
+        12,
+        80,
+        362,
+        443,
+        0
+      ]
+    }
+  ],
+  "total_seconds": 5.659034729003906,
+  "scope": "Production animation_battle with original SFX and real MIDI. Hardware frame counter observed around full playback, including preparation; no user delay included. Controlled battlers/targets only. Not full gameplay FPS."
+}

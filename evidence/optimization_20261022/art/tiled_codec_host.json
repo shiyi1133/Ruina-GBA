@@ -44,8 +44,8 @@
     }
   ],
   "sources": {
-    "platform/gba/image.c": "553cb7a1cd9b1ef91935c2020cf73c0cdedb1a153c0a2a9bef61c0d4f43656be",
-    "runtime/rm2k/types.h": "32dfd09c90bc52a8f02fcf9f275ad243375b75052c8b769a1cd7f0318c473ad0",
+    "platform/gba/image.c": "acd8b20c4367d103bc86dfcb8931dc65897a13f5131cf2a812b811bf2903f59c",
+    "runtime/rm2k/types.h": "87bab6bd23a49d7e87d33d15129788091d2c9581419c16fb24f6a299c3781e81",
     "tests/image_decoder_stub.c": "f547b7977e5a1a5d4848e71d03b7958edc6f15c7659f2418a4ff22097aff7979"
   }
 }

@@ -1,0 +1,268 @@
+enter_actor_commands 5 83.71 ms; black 0
+actor_commands_down 2 33.49 ms; black 0
+actor_commands_up 2 33.49 ms; black 0
+actor_commands_down 2 33.49 ms; black 0
+actor_commands_up 2 33.49 ms; black 0
+actor_commands_down 2 33.49 ms; black 0
+actor_commands_up 2 33.49 ms; black 0
+actor_commands_down 2 33.49 ms; black 0
+actor_commands_up 2 33.49 ms; black 0
+actor_commands_down 2 33.49 ms; black 0
+actor_commands_up 2 33.49 ms; black 0
+actor_commands_down 2 33.49 ms; black 0
+actor_commands_up 2 33.49 ms; black 0
+cancel_actor_to_battle_root 6 100.46 ms; black 0
+enter_skill_list 6 100.46 ms; black 0
+skill_list_down 2 33.49 ms; black 0
+skill_list_up 2 33.49 ms; black 0
+skill_list_down 2 33.49 ms; black 0
+skill_list_up 2 33.49 ms; black 0
+skill_list_down 2 33.49 ms; black 0
+skill_list_up 2 33.49 ms; black 0
+skill_list_down 2 33.49 ms; black 0
+skill_list_up 2 33.49 ms; black 0
+skill_list_down 2 33.49 ms; black 0
+skill_list_up 2 33.49 ms; black 0
+skill_list_down 2 33.49 ms; black 0
+skill_list_up 2 33.49 ms; black 0
+cancel_skills_to_actor 7 117.2 ms; black 0
+cancel_actor_to_battle_root 6 100.46 ms; black 0
+enter_item_list 5 83.71 ms; black 0
+item_list_down 2 33.49 ms; black 0
+item_list_up 2 33.49 ms; black 0
+item_list_down 2 33.49 ms; black 0
+item_list_up 2 33.49 ms; black 0
+item_list_down 2 33.49 ms; black 0
+item_list_up 2 33.49 ms; black 0
+item_list_down 2 33.49 ms; black 0
+item_list_up 2 33.49 ms; black 0
+item_list_down 2 33.49 ms; black 0
+item_list_up 2 33.49 ms; black 0
+item_list_down 2 33.49 ms; black 0
+item_list_up 2 33.49 ms; black 0
+choose_item_target 8 133.94 ms; black 0
+target_list_down 2 33.49 ms; black 0
+target_list_up 2 33.49 ms; black 0
+cancel_target_to_items 5 83.71 ms; black 0
+cancel_items_to_actor 8 133.94 ms; black 0
+cancel_actor_to_battle_root 5 83.71 ms; black 0
+{
+  "status": "pass",
+  "production_ROM_sha256": "95ebdb37f840dc243eddaeb0468d2e8576f8d3380c564b1d72917907ae762ebd",
+  "scope": "Original campaign ordinary SAV, real first-CP boss; actual key presses and read-only observations, no injected skills/items/stats.",
+  "controlled_full_redraw_reference": false,
+  "held_repeat": {
+    "hardware_frames": 90,
+    "complete_cursor_changes": 11,
+    "valid_complete_LCD_states": 4,
+    "intermediate_or_black_frames": 0
+  },
+  "input_SAV_sha256": "3965bffb40ac779bce026015deb4d58d22372645fcf21408ad20b4cc0fe520c5",
+  "LCD_states": [
+    "272f0792217201a6",
+    "2dce1a122b91fd5b",
+    "272f0792217201a6",
+    "2dce1a122b91fd5b",
+    "272f0792217201a6",
+    "2dce1a122b91fd5b",
+    "272f0792217201a6",
+    "2dce1a122b91fd5b",
+    "272f0792217201a6",
+    "2dce1a122b91fd5b",
+    "272f0792217201a6",
+    "2dce1a122b91fd5b",
+    "272f0792217201a6",
+    "484c800c4e8b4e8e",
+    "6792602c090480fd",
+    "26c8800b34574d8a",
+    "6792602c090480fd",
+    "26c8800b34574d8a",
+    "6792602c090480fd",
+    "26c8800b34574d8a",
+    "6792602c090480fd",
+    "26c8800b34574d8a",
+    "6792602c090480fd",
+    "26c8800b34574d8a",
+    "6792602c090480fd",
+    "26c8800b34574d8a",
+    "6792602c090480fd",
+    "7cc37291d1203e95",
+    "484c800c4e8b4e8e",
+    "849e214fa5ef3a8f",
+    "2de2327abb35bbce",
+    "849e214fa5ef3a8f",
+    "2de2327abb35bbce",
+    "849e214fa5ef3a8f",
+    "2de2327abb35bbce",
+    "849e214fa5ef3a8f",
+    "2de2327abb35bbce",
+    "849e214fa5ef3a8f",
+    "2de2327abb35bbce",
+    "849e214fa5ef3a8f",
+    "2de2327abb35bbce",
+    "849e214fa5ef3a8f",
+    "ef9932c1c4615e00",
+    "7e15908ef0217ce5",
+    "ef9932c1c4615e00",
+    "2de2327abb35bbce",
+    "393983dcd5cc869d",
+    "484c800c4e8b4e8e"
+  ],
+  "music_underruns": 0,
+  "checks": [
+    "B from first actor commands returns to battle mode; resources and RNG unchanged",
+    "B from item targets returns to the same item",
+    "B from skills/items retains parent command cursor",
+    "All cancellations preserve HP, MP, items, usage, gold, turn and RNG",
+    "Unusable original skill stays in list without consuming resources"
+  ],
+  "skill_choices": 3,
+  "summary": [
+    {
+      "action": "enter_actor_commands",
+      "samples": 1,
+      "response_ms_min": 83.71353149414062,
+      "response_ms_max": 83.71353149414062,
+      "response_ms_mean": 83.71353149414062,
+      "black_frames": 0,
+      "intermediate_LCD_frames": 0
+    },
+    {
+      "action": "actor_commands_down",
+      "samples": 6,
+      "response_ms_min": 33.48541259765625,
+      "response_ms_max": 33.48541259765625,
+      "response_ms_mean": 33.48541259765625,
+      "black_frames": 0,
+      "intermediate_LCD_frames": 0
+    },
+    {
+      "action": "actor_commands_up",
+      "samples": 6,
+      "response_ms_min": 33.48541259765625,
+      "response_ms_max": 33.48541259765625,
+      "response_ms_mean": 33.48541259765625,
+      "black_frames": 0,
+      "intermediate_LCD_frames": 0
+    },
+    {
+      "action": "cancel_actor_to_battle_root",
+      "samples": 3,
+      "response_ms_min": 83.71353149414062,
+      "response_ms_max": 100.45623779296875,
+      "response_ms_mean": 94.87533569335938,
+      "black_frames": 0,
+      "intermediate_LCD_frames": 0
+    },
+    {
+      "action": "enter_skill_list",
+      "samples": 1,
+      "response_ms_min": 100.45623779296875,
+      "response_ms_max": 100.45623779296875,
+      "response_ms_mean": 100.45623779296875,
+      "black_frames": 0,
+      "intermediate_LCD_frames": 0
+    },
+    {
+      "action": "skill_list_down",
+      "samples": 6,
+      "response_ms_min": 33.48541259765625,
+      "response_ms_max": 33.48541259765625,
+      "response_ms_mean": 33.48541259765625,
+      "black_frames": 0,
+      "intermediate_LCD_frames": 0
+    },
+    {
+      "action": "skill_list_up",
+      "samples": 6,
+      "response_ms_min": 33.48541259765625,
+      "response_ms_max": 33.48541259765625,
+      "response_ms_mean": 33.48541259765625,
+      "black_frames": 0,
+      "intermediate_LCD_frames": 0
+    },
+    {
+      "action": "cancel_skills_to_actor",
+      "samples": 1,
+      "response_ms_min": 117.19894409179688,
+      "response_ms_max": 117.19894409179688,
+      "response_ms_mean": 117.19894409179688,
+      "black_frames": 0,
+      "intermediate_LCD_frames": 0
+    },
+    {
+      "action": "enter_item_list",
+      "samples": 1,
+      "response_ms_min": 83.71353149414062,
+      "response_ms_max": 83.71353149414062,
+      "response_ms_mean": 83.71353149414062,
+      "black_frames": 0,
+      "intermediate_LCD_frames": 0
+    },
+    {
+      "action": "item_list_down",
+      "samples": 6,
+      "response_ms_min": 33.48541259765625,
+      "response_ms_max": 33.48541259765625,
+      "response_ms_mean": 33.48541259765625,
+      "black_frames": 0,
+      "intermediate_LCD_frames": 0
+    },
+    {
+      "action": "item_list_up",
+      "samples": 6,
+      "response_ms_min": 33.48541259765625,
+      "response_ms_max": 33.48541259765625,
+      "response_ms_mean": 33.48541259765625,
+      "black_frames": 0,
+      "intermediate_LCD_frames": 0
+    },
+    {
+      "action": "choose_item_target",
+      "samples": 1,
+      "response_ms_min": 133.941650390625,
+      "response_ms_max": 133.941650390625,
+      "response_ms_mean": 133.941650390625,
+      "black_frames": 0,
+      "intermediate_LCD_frames": 0
+    },
+    {
+      "action": "target_list_down",
+      "samples": 1,
+      "response_ms_min": 33.48541259765625,
+      "response_ms_max": 33.48541259765625,
+      "response_ms_mean": 33.48541259765625,
+      "black_frames": 0,
+      "intermediate_LCD_frames": 0
+    },
+    {
+      "action": "target_list_up",
+      "samples": 1,
+      "response_ms_min": 33.48541259765625,
+      "response_ms_max": 33.48541259765625,
+      "response_ms_mean": 33.48541259765625,
+      "black_frames": 0,
+      "intermediate_LCD_frames": 0
+    },
+    {
+      "action": "cancel_target_to_items",
+      "samples": 1,
+      "response_ms_min": 83.71353149414062,
+      "response_ms_max": 83.71353149414062,
+      "response_ms_mean": 83.71353149414062,
+      "black_frames": 0,
+      "intermediate_LCD_frames": 0
+    },
+    {
+      "action": "cancel_items_to_actor",
+      "samples": 1,
+      "response_ms_min": 133.941650390625,
+      "response_ms_max": 133.941650390625,
+      "response_ms_mean": 133.941650390625,
+      "black_frames": 0,
+      "intermediate_LCD_frames": 0
+    }
+  ],
+  "physical_hardware": "not_run",
+  "full_campaign": "not_run"
+}

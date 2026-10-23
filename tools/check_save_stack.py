@@ -3,12 +3,13 @@ import hashlib,json,re,struct
 from project_env import ROOT
 from drive_opening import Emulator
 from save_observation import save_payload,check_load
+from fast_memory_bounds import fast_memory_end
 
 def main():
     original=ROOT/'evidence/save_cold_load/ordinary.sav';old_sha=hashlib.sha256(original.read_bytes()).hexdigest();rom=ROOT/'build/废都物语_GBA_开篇开发验证版.gba';digest=hashlib.sha256(rom.read_bytes()).hexdigest();out=ROOT/'evidence/balanced_optimization_20261023/save_stack'/digest[:12];out.mkdir(parents=True,exist_ok=True);rows=[]
     def observe(e,label,key):
         result=e.command('stack 120 %x'%key);modes={int(a,16):{'minimum_SP':int(b,16),'PC':int(c,16),'instructions_observed':int(d)}for a,b,c,d in re.findall(r'([0-9a-f]{2}):([0-9a-f]{8}):([0-9a-f]{8}):(\d+)',result)}
-        margin=modes[31]['minimum_SP']-e.symbols['__iwram_bss_end'];assert margin>=128,(label,margin,modes)
+        margin=modes[31]['minimum_SP']-fast_memory_end(ROOT/'build/ruina_opening_dev.elf');assert margin>=128,(label,margin,modes)
         rows.append({'scene':label,'SYS_margin_above_fast_code_data':margin,'modes':modes});e.frames(2);e.shot(out/(label+'.png'));return modes
     e=Emulator(original)
     try:

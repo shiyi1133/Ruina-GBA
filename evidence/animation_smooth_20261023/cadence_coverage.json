@@ -1,0 +1,387 @@
+{
+  "status": "pass",
+  "label": "coverage",
+  "production_ROM_sha256": "0f017a9afc8ad83b76dc2c4e55d4ad4d06334edee9a77af5066b5dbbc1d0193f",
+  "fixture_ROM_sha256": "1c4f5e610e4b2a56ce068532b11cf3e8ae177fb250e8738d371476d94c25eb55",
+  "source_frames_observed": 40,
+  "source_frame_sequence": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39
+  ],
+  "seconds_including_preparation": 8.287639617919922,
+  "preparation_hardware_frames": 86,
+  "mean_hardware_frames_between_presentations": 10.333333333333334,
+  "max_hardware_frames_between_presentations": 19,
+  "animation_cache": [
+    1,
+    1,
+    17924,
+    0,
+    29,
+    0,
+    18260,
+    0
+  ],
+  "samples": [
+    {
+      "source_frame": 0,
+      "hardware_frame": 146,
+      "draw_ticks": 753,
+      "restore_ticks": 51,
+      "cells_ticks": 51,
+      "LCD": "LCD c45846f642a57383 0"
+    },
+    {
+      "source_frame": 1,
+      "hardware_frame": 151,
+      "draw_ticks": 1100,
+      "restore_ticks": 30,
+      "cells_ticks": 30,
+      "LCD": "LCD c45846f642a57383 0"
+    },
+    {
+      "source_frame": 2,
+      "hardware_frame": 163,
+      "draw_ticks": 3223,
+      "restore_ticks": 2822,
+      "cells_ticks": 2822,
+      "LCD": "LCD 0531f9b1a8d812c7 0"
+    },
+    {
+      "source_frame": 3,
+      "hardware_frame": 176,
+      "draw_ticks": 3500,
+      "restore_ticks": 3069,
+      "cells_ticks": 3069,
+      "LCD": "LCD 0553134b88c3b7f5 0"
+    },
+    {
+      "source_frame": 4,
+      "hardware_frame": 188,
+      "draw_ticks": 3226,
+      "restore_ticks": 2978,
+      "cells_ticks": 2978,
+      "LCD": "LCD cee6fb52a67c5ebf 0"
+    },
+    {
+      "source_frame": 5,
+      "hardware_frame": 201,
+      "draw_ticks": 3501,
+      "restore_ticks": 3125,
+      "cells_ticks": 3125,
+      "LCD": "LCD fd5e74dcedab2927 0"
+    },
+    {
+      "source_frame": 6,
+      "hardware_frame": 213,
+      "draw_ticks": 3226,
+      "restore_ticks": 2777,
+      "cells_ticks": 2777,
+      "LCD": "LCD 67c6b63e6a5839aa 0"
+    },
+    {
+      "source_frame": 7,
+      "hardware_frame": 227,
+      "draw_ticks": 3772,
+      "restore_ticks": 3456,
+      "cells_ticks": 3457,
+      "LCD": "LCD 619541d8e0cab665 0"
+    },
+    {
+      "source_frame": 8,
+      "hardware_frame": 239,
+      "draw_ticks": 3030,
+      "restore_ticks": 1663,
+      "cells_ticks": 2239,
+      "LCD": "LCD 5e1eadcb8b20e581 0"
+    },
+    {
+      "source_frame": 9,
+      "hardware_frame": 246,
+      "draw_ticks": 1698,
+      "restore_ticks": 861,
+      "cells_ticks": 1310,
+      "LCD": "LCD d150b171fd005cbb 0"
+    },
+    {
+      "source_frame": 10,
+      "hardware_frame": 252,
+      "draw_ticks": 1423,
+      "restore_ticks": 686,
+      "cells_ticks": 1122,
+      "LCD": "LCD 834e053bd7e7ffb6 0"
+    },
+    {
+      "source_frame": 11,
+      "hardware_frame": 258,
+      "draw_ticks": 1419,
+      "restore_ticks": 695,
+      "cells_ticks": 1132,
+      "LCD": "LCD 2c4091c3c639cecb 0"
+    },
+    {
+      "source_frame": 12,
+      "hardware_frame": 264,
+      "draw_ticks": 1423,
+      "restore_ticks": 698,
+      "cells_ticks": 1135,
+      "LCD": "LCD dd75f105c6037e47 0"
+    },
+    {
+      "source_frame": 13,
+      "hardware_frame": 268,
+      "draw_ticks": 876,
+      "restore_ticks": 696,
+      "cells_ticks": 727,
+      "LCD": "LCD 280c329182c1d9fc 0"
+    },
+    {
+      "source_frame": 14,
+      "hardware_frame": 270,
+      "draw_ticks": 275,
+      "restore_ticks": 61,
+      "cells_ticks": 92,
+      "LCD": "LCD 280c329182c1d9fc 0"
+    },
+    {
+      "source_frame": 15,
+      "hardware_frame": 272,
+      "draw_ticks": 275,
+      "restore_ticks": 62,
+      "cells_ticks": 94,
+      "LCD": "LCD 280c329182c1d9fc 0"
+    },
+    {
+      "source_frame": 16,
+      "hardware_frame": 274,
+      "draw_ticks": 279,
+      "restore_ticks": 63,
+      "cells_ticks": 95,
+      "LCD": "LCD 280c329182c1d9fc 0"
+    },
+    {
+      "source_frame": 17,
+      "hardware_frame": 276,
+      "draw_ticks": 278,
+      "restore_ticks": 63,
+      "cells_ticks": 95,
+      "LCD": "LCD 280c329182c1d9fc 0"
+    },
+    {
+      "source_frame": 18,
+      "hardware_frame": 278,
+      "draw_ticks": 274,
+      "restore_ticks": 63,
+      "cells_ticks": 96,
+      "LCD": "LCD 280c329182c1d9fc 0"
+    },
+    {
+      "source_frame": 19,
+      "hardware_frame": 281,
+      "draw_ticks": 773,
+      "restore_ticks": 47,
+      "cells_ticks": 47,
+      "LCD": "LCD 7ba423b851054383 0"
+    },
+    {
+      "source_frame": 20,
+      "hardware_frame": 286,
+      "draw_ticks": 1098,
+      "restore_ticks": 32,
+      "cells_ticks": 32,
+      "LCD": "LCD 7ba423b851054383 0"
+    },
+    {
+      "source_frame": 21,
+      "hardware_frame": 289,
+      "draw_ticks": 770,
+      "restore_ticks": 45,
+      "cells_ticks": 46,
+      "LCD": "LCD c45846f642a57383 0"
+    },
+    {
+      "source_frame": 22,
+      "hardware_frame": 294,
+      "draw_ticks": 1095,
+      "restore_ticks": 32,
+      "cells_ticks": 32,
+      "LCD": "LCD c45846f642a57383 0"
+    },
+    {
+      "source_frame": 23,
+      "hardware_frame": 309,
+      "draw_ticks": 4062,
+      "restore_ticks": 3750,
+      "cells_ticks": 3750,
+      "LCD": "LCD 07c09c00a5175f7a 0"
+    },
+    {
+      "source_frame": 24,
+      "hardware_frame": 326,
+      "draw_ticks": 4623,
+      "restore_ticks": 4240,
+      "cells_ticks": 4241,
+      "LCD": "LCD cca46305d595f385 0"
+    },
+    {
+      "source_frame": 25,
+      "hardware_frame": 344,
+      "draw_ticks": 4900,
+      "restore_ticks": 4481,
+      "cells_ticks": 4481,
+      "LCD": "LCD 8d1558d48072e0fc 0"
+    },
+    {
+      "source_frame": 26,
+      "hardware_frame": 363,
+      "draw_ticks": 5159,
+      "restore_ticks": 4711,
+      "cells_ticks": 4711,
+      "LCD": "LCD 9f686bcadca5135a 0"
+    },
+    {
+      "source_frame": 27,
+      "hardware_frame": 382,
+      "draw_ticks": 5170,
+      "restore_ticks": 4816,
+      "cells_ticks": 4816,
+      "LCD": "LCD 0856c202747d7411 0"
+    },
+    {
+      "source_frame": 28,
+      "hardware_frame": 400,
+      "draw_ticks": 4900,
+      "restore_ticks": 4599,
+      "cells_ticks": 4600,
+      "LCD": "LCD ae6589a4ec7a3ad4 0"
+    },
+    {
+      "source_frame": 29,
+      "hardware_frame": 417,
+      "draw_ticks": 4594,
+      "restore_ticks": 4121,
+      "cells_ticks": 4121,
+      "LCD": "LCD a665e1add72430c6 0"
+    },
+    {
+      "source_frame": 30,
+      "hardware_frame": 432,
+      "draw_ticks": 4049,
+      "restore_ticks": 3606,
+      "cells_ticks": 3606,
+      "LCD": "LCD cdcc902f2d383300 0"
+    },
+    {
+      "source_frame": 31,
+      "hardware_frame": 447,
+      "draw_ticks": 4050,
+      "restore_ticks": 3589,
+      "cells_ticks": 3589,
+      "LCD": "LCD df4f195f0fe4e65b 0"
+    },
+    {
+      "source_frame": 32,
+      "hardware_frame": 464,
+      "draw_ticks": 4599,
+      "restore_ticks": 4170,
+      "cells_ticks": 4170,
+      "LCD": "LCD 8f45408241c8eeca 0"
+    },
+    {
+      "source_frame": 33,
+      "hardware_frame": 478,
+      "draw_ticks": 3777,
+      "restore_ticks": 3336,
+      "cells_ticks": 3336,
+      "LCD": "LCD a78e386686ccf2bc 0"
+    },
+    {
+      "source_frame": 34,
+      "hardware_frame": 492,
+      "draw_ticks": 3755,
+      "restore_ticks": 3476,
+      "cells_ticks": 3476,
+      "LCD": "LCD e2858045b7ed42e3 0"
+    },
+    {
+      "source_frame": 35,
+      "hardware_frame": 507,
+      "draw_ticks": 4030,
+      "restore_ticks": 3673,
+      "cells_ticks": 3673,
+      "LCD": "LCD 97eb639ba06e50b5 0"
+    },
+    {
+      "source_frame": 36,
+      "hardware_frame": 521,
+      "draw_ticks": 3755,
+      "restore_ticks": 3401,
+      "cells_ticks": 3401,
+      "LCD": "LCD b8529c4f35f11382 0"
+    },
+    {
+      "source_frame": 37,
+      "hardware_frame": 534,
+      "draw_ticks": 3481,
+      "restore_ticks": 3177,
+      "cells_ticks": 3178,
+      "LCD": "LCD a1133378431892d7 0"
+    },
+    {
+      "source_frame": 38,
+      "hardware_frame": 537,
+      "draw_ticks": 738,
+      "restore_ticks": 32,
+      "cells_ticks": 33,
+      "LCD": "LCD 7ba423b851054383 0"
+    },
+    {
+      "source_frame": 39,
+      "hardware_frame": 549,
+      "draw_ticks": 3207,
+      "restore_ticks": 2799,
+      "cells_ticks": 2799,
+      "LCD": "LCD 13bd5f1d2d3d645f 0"
+    }
+  ],
+  "scope": "Original 40-frame animation 191, controlled battlers and MIDI 1. Every completed frame observed by read-only per-hardware-frame sampling. Includes actual preparation and original waiting policy; no skipped animation frames, injected RAM or emulator speed changes.",
+  "physical_hardware": "not_run"
+}

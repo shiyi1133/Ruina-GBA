@@ -66,12 +66,13 @@ static void execute_event(void){
  else {playing=0;native_midi_debug[3]++;return;}
  native_midi_debug[0]++;next_time();
 }
+static unsigned __attribute__((noinline)) appreciation_stride(void){unsigned i;if(state.count<=64)return 2;for(i=0;i<state.count;i++)if(state.voices[i].step>=2048000U)return 2;return 4;}
 static void LIGHT_HOT segment(short*out,unsigned n){
- int left[NATIVE_MIDI_BLOCK/2],right[NATIVE_MIDI_BLOCK/2],center[NATIVE_MIDI_BLOCK/2];unsigned i=0,j,stride=2,count;
- /* Dense low/mid-register passages use a lower presentation sample rate.
-  * High notes keep the finer rate, and every original event clock remains. */
- if(state.count>64){stride=4;for(i=0;i<state.count;i++)if(state.voices[i].step>=2048000U){stride=2;break;}}
- i=0;count=(n+stride-1)/stride;if(stride==4)native_midi_debug[7]+=n;
+ int left[NATIVE_MIDI_BLOCK/2],right[NATIVE_MIDI_BLOCK/2],center[NATIVE_MIDI_BLOCK/2];unsigned i=0,j,stride=quality?appreciation_stride():4,count;
+ /* Gameplay holds each synthesized sample for four hardware samples.
+  * Appreciation retains its original adaptive finer rate. Score/envelope clocks and
+  * voice phase advance by n in both modes; no notes are discarded. */
+ i=0;count=(n+stride-1)/stride;if(stride>=4)native_midi_debug[7]+=n;
  if(out)for(j=0;j<count;j++){left[j]=0;if(quality)right[j]=center[j]=0;}
  while(i<state.count){
   LightVoice*v=state.voices+i;LightChannel*c=state.channels+v->channel;

@@ -1,0 +1,7 @@
+{
+  "status": "pass",
+  "production_ROM_sha256": "6426cdbd6f83610fe5ffba31eeded2241ce5c0a781b43f47001ecb8cd46c9b83",
+  "frames_checked": 213,
+  "different": [],
+  "scope": "Exact actual-LCD pixels compared to preserved v0.7.2 baseline, which is visually identical to v0.7.3."
+}

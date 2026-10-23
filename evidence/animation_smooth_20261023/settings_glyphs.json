@@ -1,0 +1,9 @@
+{
+  "status": "pass",
+  "production_ROM_sha256": "95ebdb37f840dc243eddaeb0468d2e8576f8d3380c564b1d72917907ae762ebd",
+  "all_new_settings_characters_have_font_glyphs": true,
+  "visible_modes": [
+    "原速播放（推荐）",
+    "完整播放"
+  ]
+}
